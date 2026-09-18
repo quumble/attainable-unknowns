@@ -23,3 +23,16 @@ A confirmatory preregistration should specify at minimum:
 - separation of confirmatory from exploratory analyses.
 
 Pilot-derived choices should be identified as such rather than rewritten as if they preceded the pilot.
+
+
+## API Pilot 0.1 freeze workflow
+
+The current final candidate is `API_PILOT_0.1_PREREGISTRATION.md`.
+
+Immediately before the founder-signed pre-collection commit, run:
+
+```powershell
+.\prereg\build_freeze_record.ps1
+```
+
+This produces `API_PILOT_0.1_FREEZE_RECORD.json` from tracked study-file hashes and technical metadata/hashes for locally retained bounded smoke tests. The generator hashes raw JSONL files without parsing response content.
