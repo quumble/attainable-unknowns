@@ -6,64 +6,47 @@ A Bo Chesterton research project on curiosity, specificity, attainability, and i
 
 ## Current direction
 
-The project began with a human-participant browser pilot exploring breadth, depth, and direction of information seeking. A first internal test exposed a construct-validity problem: supplying participants with ready-made questions may measure preference among offered information opportunities more cleanly than it measures the formation of curiosity itself.
+The project began with a human-participant browser pilot. A first internal test raised a construct-validity problem: supplying ready-made questions may measure preference among offered information opportunities more directly than spontaneous inquiry formation.
 
-The human pilot is preserved in this repository as provenance and may be revisited.
+The human pilot remains preserved as provenance.
 
-The active direction is now an **API inquiry-formation study** asking a narrower question:
+The active direction is now a four-model API pilot asking a narrower question:
 
-> When a fresh language-model instance reads an informational passage, does it formulate a specific next question, or does no particular question stand out?
+> When a separate stateless API draw reads an informational passage, does the response emit a follow-up question, or does it produce `NONE`?
 
-This is a measurable behavioral analogue of one component of the original curiosity proposal. It is **not** treated as evidence of felt curiosity, subjective interest, or phenomenal experience.
+The mechanical primary endpoint is **question emission**. It is not treated as proof of felt curiosity or even, by syntax alone, of a specific represented unknown. Specificity has a separate preregistered semantic codebook.
 
-## API pilot
+Pilot 0.1 manipulates **gap salience**, not attainability.
 
-The study compares:
+## Current API design
+
+Models:
 
 - GPT-5.6 Luna
 - GPT-5.6 Terra
 - Claude Haiku 4.5
 - Claude Sonnet 5
 
-Twelve topic families each receive three passage structures:
+Twelve topic families each receive:
 
-- **closed**
-- **seamed**
-- **explicit gap**
+- closed
+- seamed
+- explicit-gap
 
-Eight topics are ordinary human-world domains: cooking, human navigation/field expeditions, music, sport, dance/movement, photography, gardening/cultivation, and ceremony/celebration.
+Eight are ordinary human-world domains and four concern possible conditions of AI systems. Those classes are descriptive; gap structure is the confirmatory manipulation.
 
-Four concern possible conditions of AI systems: memory/persistence, embodiment, autonomy/possible rights, and copying/continuity.
+At 25 separate API draws per fixed condition:
 
-These groupings are descriptive. The confirmatory passage manipulation is gap structure.
-
-At 25 replicates per condition, the full pilot is **3,600 independent API requests**.
+- 36 passage conditions
+- 900 attempts per model
+- 3,600 planned attempts total
 
 See [api-study/README.md](api-study/README.md), [api-study/DESIGN.md](api-study/DESIGN.md), and the current preregistration draft under [prereg/](prereg/).
 
 ## Earlier human pilot
 
-The browser pilot remains under [interface/](interface/), with its stimulus bank under [stimuli/](stimuli/).
-
-It explored:
-
-- **breadth** — which intellectual territories attract voluntary interest;
-- **depth** — whether an answer leads to further inquiry;
-- **direction** — which kind of clarifying unknown is pursued.
-
-That design is exploratory and not intended for paid deployment without further revision.
-
-## Repository map
-
-- [api-study/](api-study/) — active four-model inquiry-formation pilot.
-- [DESIGN.md](DESIGN.md) — earlier human-pilot conceptual design.
-- [ETHICS.md](ETHICS.md) — human-participant baseline if that branch resumes.
-- [PROVENANCE.md](PROVENANCE.md) — project origin and provenance distinctions.
-- [stimuli/](stimuli/) — earlier human-pilot stimulus materials.
-- [interface/](interface/) — earlier browser pilot.
-- [prereg/](prereg/) — preregistration drafts and future frozen materials.
-- [data/](data/) — human-pilot schema and data conventions.
+The browser pilot remains under [interface/](interface/) with its earlier stimulus bank under [stimuli/](stimuli/).
 
 ## Governance note
 
-This repository is a research workspace within Bo Chesterton. It is not a constitutional instrument, appointment, mandate, or delegation. Its present private state is working status, not public release.
+This repository is a research workspace within Bo Chesterton. It is not a constitutional instrument, appointment, mandate, or delegation. Its private state is working status, not public release.

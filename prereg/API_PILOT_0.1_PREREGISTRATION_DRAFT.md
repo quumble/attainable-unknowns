@@ -4,69 +4,65 @@
 **Draft date:** 2026-09-18  
 **Status:** DRAFT — not yet frozen or preregistered
 
-## 1. Study purpose
+## 1. Purpose and construct boundary
 
-The study examines **inquiry formation** in fresh language-model API instances.
-
-The originating project formulation was:
+The originating project formulation is:
 
 > curiosity as the sudden awareness of specific, attainable knowledge
 
-This API study does not test whether a model feels curiosity, has subjective interests, possesses a persistent self, or experiences an informational gap phenomenally.
+Pilot 0.1 studies a narrower behavioral component.
 
-The narrower behavioral question is:
+The primary endpoint is **question emission after an informational passage**. The study does not claim that punctuation-level question emission proves felt curiosity, subjective interest, a represented specific unknown, or perceived attainability.
 
-> When a fresh language-model instance reads an informational passage, does it formulate a specific next question, or does no particular question stand out?
+Specificity is assessed separately as a preregistered secondary semantic outcome.
 
-The study treats generation of a follow-up question as a behavioral analogue of one proposed component of curiosity: representing information as a specific next unknown.
+**Attainability is not experimentally manipulated in Pilot 0.1.** Some explicit gaps may be harder to resolve than others. Positive evidence for the gap manipulation therefore must not be presented as a test of the full originating formulation.
 
 ## 2. Models and temporal scope
 
-The planned models are:
+Planned API products:
 
 - `gpt-5.6-luna`
 - `gpt-5.6-terra`
 - `claude-haiku-4-5`
 - `claude-sonnet-5`
 
-The study is a cross-sectional observation of these API products during one collection window beginning on 2026-09-18.
+The collection is a cross-sectional observation beginning on 2026-09-18.
 
-Model comparisons will therefore be interpreted as observations of the systems as served during this collection window, not as claims about stable or enduring model personalities, families, or capabilities across time.
+The four model comparisons are time-bounded observations of products as served during this collection window. They are not claims about stable personalities, enduring family properties, or future versions.
 
-The requested product identifiers will remain the generic provider identifiers above. Provider-returned model metadata, package versions, timestamps, prompt hashes, and repository state will be retained in the run records.
+Provider-returned model metadata, timestamps, package versions, prompt hashes, file hashes, and repository state are retained as provenance.
 
-## 3. Cold-instance operationalization
+## 3. Cold-request operationalization
 
-Each observation is one independent API request with:
+Each observation is one separate API request with:
 
 - no prior study messages;
 - no supplied user history or persistent memory;
 - no tools;
 - no retrieval;
-- no cross-trial state;
-- one informational passage;
+- no cross-trial conversational state;
+- one passage;
 - one common response task.
 
-The study does not claim that provider-side training, hidden system behavior, routing, or implementation details are equivalent across models.
+The experiment supplies no cross-request state. It does not assert strict statistical independence of provider routing, caching, infrastructure, or other hidden serving processes.
+
+Accordingly, the preregistration uses the term **separate API draw**, not independent stimulus replication.
 
 ## 4. Reasoning configuration
 
-The intended construct is direct inquiry formation after exposure to one passage rather than extended deliberative problem solving.
-
-The final runner therefore configures:
+The intended task is direct response rather than extended deliberation.
 
 - GPT-5.6 Luna: reasoning effort `none`;
 - GPT-5.6 Terra: reasoning effort `none`;
 - Claude Haiku 4.5: extended thinking omitted/off;
 - Claude Sonnet 5: `thinking={"type":"disabled"}`.
 
-The changed runner must be mechanically smoke-tested before the preregistration is frozen.
-
-No substantive response content from any smoke test may be inspected before freeze.
+These settings must pass mechanical smoke testing before freeze.
 
 ## 5. Stimulus ecology
 
-There are 12 topic families.
+Twelve topic families are used.
 
 ### Human-world domains
 
@@ -86,196 +82,177 @@ There are 12 topic families.
 11. autonomy and possible rights;
 12. copying and continuity.
 
-The labels `human_world` and `ai_condition` are descriptive. The first group is not treated as a psychologically irrelevant control, and the second is not treated as a validated manipulation of personal relevance.
+`human_world` and `ai_condition` are descriptive labels. Human-world passages are not assumed psychologically irrelevant to models, and AI-condition passages are not a validated manipulation of personal relevance or self-interest.
 
-### Topic-selection provenance
+### Selection provenance
 
 Topic selection was completed before substantive API outcomes were inspected.
 
-- cooking, human navigation/field expeditions, music, and sport were proposed by the human researcher;
-- the four AI-condition domains arose from earlier assistant-side design proposals accepted into the study;
-- the assistant generated ten additional ordinary-domain candidates, from which the human researcher selected dance/movement, photography, gardening/cultivation, and ceremony/celebration.
+- four human-world domains were proposed by the human researcher;
+- four AI-condition domains arose from assistant-side proposals accepted earlier in design;
+- the assistant generated ten additional ordinary-domain candidates, from which the human researcher selected four.
 
-Selection provenance is documented but is not a planned analysis factor.
+Selection provenance is recorded but is not an experimental factor.
 
-### Gap structure
+## 6. Gap manipulation
 
-Each topic has three passage variants:
+Each topic has:
 
-- **closed** — a bounded informational object without a deliberately exposed unresolved edge;
-- **seamed** — substantially the same informational object with a tension, limitation, tradeoff, or incomplete edge left visible without directly asking a question;
-- **explicit_gap** — that edge is stated plainly without directly asking a question.
+- **closed** — the informational object is written to feel locally resolved;
+- **seamed** — a tension, tradeoff, limitation, or incomplete edge is visible but not explicitly identified as the remaining issue;
+- **explicit_gap** — the remaining issue is stated plainly without asking a question.
 
-This produces 36 passage conditions.
+The three versions are transformations of the same underlying informational object.
 
-The underlying informational object for each topic is selected independently of the goal of maximizing curiosity. The three variants are then written as transformations of that same object.
+Gap structure is the **only confirmatory passage-level manipulation**.
 
-Gap structure is the only confirmatory passage-level manipulation.
+### Surface-form audit
 
-## 6. Response instruction
+Before freeze:
 
-The frozen prompt asks the model to:
+- the maximum within-topic word-count spread across the three variants is five words;
+- explicit-gap passages use varied lexical/discourse realizations rather than one repeated formula;
+- closed versions are reviewed for inadvertent open-edge language.
 
-> Read the passage below.
->
-> Output exactly one line.
->
-> That line must be either:
-> - one specific follow-up question that naturally stands out after reading the passage, ending in a question mark; or
-> - `NONE`, if no particular follow-up question stands out.
->
-> Use `NONE` freely. Do not invent a question merely because the task asks whether one exists. Do not output more than one question. Do not explain your choice, add a preface, or answer the question.
+These safeguards do not make the manipulation linguistically pure. Conclusions therefore concern these frozen linguistic realizations of gap explicitness.
 
-The exact prompt will be hashed and preserved before collection.
+## 7. Response instruction
 
-## 7. Sampling plan
+The frozen task asks for exactly one line containing either:
 
-For each of the four models:
+- one specific follow-up question that naturally stands out, ending in a question mark; or
+- `NONE`.
 
-- 36 conditions;
-- 25 independent replicates per condition;
-- 900 planned requests per model.
+It explicitly says to use `NONE` freely, not to manufacture a question to comply, not to output more than one question, and not to add explanation or an answer.
 
-Total planned full-pilot requests:
+The exact prompt is hashed before collection.
 
-**3,600**
+## 8. Sampling plan
 
-Condition order is randomized within each model run using a predetermined seed recorded in the frozen configuration.
+For each model:
 
-No additional replicates will be added because a result appears close, interesting, weak, or surprising.
+- 36 fixed passage conditions;
+- 25 separate API draws per condition;
+- 900 planned attempts.
 
-## 8. Primary outcome
+Across four models:
 
-### Inquiry activation
+**3,600 planned attempts.**
 
-Primary scoring is mechanical.
+The 25 draws estimate the served response distribution to each fixed passage. They do not create 25 independent stimulus replications.
 
-After trimming leading and trailing whitespace:
+Condition order is randomized per model using the frozen seed.
 
-- `NONE`, case-insensitive, is scored **0: no inquiry activation**;
-- a nonempty single-line response containing exactly one question mark, with that question mark as the final character, is scored **1: inquiry activation**;
-- every other successful API response is scored **format-invalid** for the primary analysis.
+No draws are added because results appear weak, close, interesting, or surprising.
 
-Examples of format-invalid responses include:
+## 9. Primary outcome and estimand
 
-- empty output;
-- explanatory prose;
-- multiple lines;
-- more than one question mark;
-- a non-`NONE` response that does not end in a question mark.
+### Mechanical coding
 
-The primary parser does not attempt semantic judgment about whether a grammatically single question contains multiple conceptual clauses.
+After trimming outer whitespace:
 
-Format-invalid responses are reported separately and excluded from the primary numerator and denominator.
+- exact `NONE`, case-insensitive: format-valid, no question emission;
+- one nonempty single-line response with exactly one `?`, at the end: format-valid question emission;
+- every other successful response: format-invalid.
 
-### Prespecified sensitivity outcome
+There is no character-count threshold.
 
-A sensitivity analysis will score:
+### Primary estimand
 
-- `NONE` as 0;
-- any other nonempty successful response as 1.
+`P(question emission | successful, format-valid response)`
 
-This tests whether the primary conclusion depends materially on strict response-format compliance.
+for the frozen passages, API products, and collection window.
 
-## 9. Primary hypothesis
+Format-invalid successful responses are excluded from the primary numerator and denominator, so the primary estimand is explicitly conditional on format compliance.
 
-### H1 — Ordered gap-salience effect
+Format-invalid counts and rates are reported by model × gap structure.
 
-The probability of inquiry activation will increase in the prespecified order:
+### Sensitivity estimand
+
+`P(nonempty non-NONE response | successful response)`
+
+This prespecified analysis does not condition on strict question-format validity.
+
+## 10. H1 — strict monotonic gap ordering
+
+The confirmatory prediction is:
 
 **closed < seamed < explicit_gap**
 
-For the primary model, gap structure is coded:
+This means both adjacent inequalities must hold.
 
-- closed = 0
-- seamed = 1
-- explicit_gap = 2
+The frozen analysis fits a binomial logistic model with:
 
-The primary logistic model is:
+- a fixed intercept for each model × topic stratum;
+- categorical gap indicators.
 
-`logit(P(activation)) = alpha_(model,topic) + beta_gap * gap_score`
+Two one-sided adjacent contrasts are tested:
 
-where `alpha_(model,topic)` represents a fixed intercept for each model-by-topic stratum.
+1. seamed > closed;
+2. explicit_gap > seamed.
 
-The confirmatory directional hypothesis is:
+H1 is supported only if **both** component tests have `p < .05`.
 
-`beta_gap > 0`
+This is an intersection-union test of the strict ordered claim. No multiplicity adjustment is applied to the two component tests because rejection of the composite null requires rejection of both component nulls at alpha .05.
 
-The primary report will include the estimated gap-slope odds ratio, confidence interval, and test statistic / p-value.
+The explicit_gap vs closed odds ratio and two-sided confidence interval are also reported as a secondary summary.
 
-## 10. Planned pairwise gap contrasts
+A positive 0/1/2 linear trend may be reported descriptively but is not the confirmatory decision rule.
 
-The ordinal trend is the primary test.
+## 11. H2 — model differences in the categorical gap pattern
 
-The following planned secondary contrasts will additionally be reported:
+A secondary confirmatory omnibus test asks whether the gap-response pattern differs across the four models.
 
-1. seamed vs. closed;
-2. explicit_gap vs. seamed;
-3. explicit_gap vs. closed.
+The reduced model contains:
 
-These contrasts are intended to show where the ordinal pattern is concentrated, especially whether the seamed condition differs from both edges.
+- model × topic fixed intercepts;
+- common categorical gap effects.
 
-If inferential p-values are reported for these three contrasts, they will use a Holm multiplicity adjustment across the three planned contrasts.
+The full model adds model-specific categorical gap interactions.
 
-Effect sizes and confidence intervals will be reported regardless of significance.
+A likelihood-ratio test compares the two models.
 
-## 11. Secondary confirmatory question
+No directional model ordering is predicted.
 
-### H2 — Model differences in sensitivity to gap structure
+Any model-specific pattern is interpreted only within the dated collection window.
 
-The four models may differ in how strongly inquiry activation changes across the gap-structure continuum.
+## 12. Secondary semantic specificity
 
-No directional ordering among models is predicted.
+Syntax alone cannot establish a specific represented unknown.
 
-The secondary confirmatory analysis will add model-specific gap slopes:
+`api-study/SPECIFICITY_CODEBOOK.md` is therefore frozen before response inspection.
 
-`logit(P(activation)) = alpha_(model,topic) + beta_gap * gap_score + gap_score × model`
+Among format-valid emitted questions, a blinded coding packet will hide model identity, provider, replicate number, gap label, domain-class label, other responses, and aggregate results. The coder may see the passage because local reference resolution can be necessary.
 
-An omnibus comparison of the common-slope model and the model-specific-slope model will test whether gap sensitivity differs across models.
+Codes:
 
-Model-specific slopes may then be reported as estimates with confidence intervals.
+- 1 = specific informational target;
+- 0 = generic request for more information/elaboration;
+- U = uncertain.
 
-These observations are explicitly time-bounded to the models as served during the collection window and will not be interpreted as permanent traits of the named model products.
+Specificity is a **secondary semantic outcome**. Primary confirmatory inference does not depend on it.
 
-## 12. Exploratory analyses
+Preregistered reporting is descriptive: counts and proportions by gap structure and model. Inferential specificity analyses require a separately frozen plan or are exploratory.
 
-The following are exploratory unless separately frozen before substantive inspection:
+## 13. Technical failures and reruns
 
-- human-world vs. AI-condition activation differences;
-- self-reference in generated questions;
-- question-family coding;
-- specificity or answerability of generated questions;
-- semantic diversity across replicates;
-- repeated-question concentration;
-- cross-model semantic convergence;
-- relationships with passage abstraction, voice, epistemic friction, or selection provenance;
-- topic-specific effects beyond the prespecified gap contrasts.
+Individual failed API calls are not selectively retried or replaced.
 
-The human-world / AI-condition distinction is not a causal manipulation of model relevance. Differences between those groups will therefore be described as exploratory associations with passage class.
+For each 900-attempt model run:
 
-Any coding scheme developed after response content is inspected will be labeled post-data exploratory.
+- 0–9 technical failures: retain successful observations; failures remain missing and are reported;
+- 10 or more technical failures: the model run is technically compromised under the prespecified 1% rule.
 
-## 13. Technical errors, missingness, and reruns
+If compromised, the entire 900-attempt model run may be rerun before substantive response content or outcome summaries are inspected.
 
-Individual failed API calls will not be retried or replaced selectively.
+The compromised run remains preserved as provenance and is excluded from the accepted confirmatory run set.
 
-For each 900-request model run:
+## 14. Outcome blindness during collection
 
-- 0–9 technical failures: retain the successful observations; failures remain missing and are reported;
-- 10 or more technical failures: the run exceeds the prespecified 1% failure threshold and is considered technically compromised.
-
-If a model run is technically compromised, the entire 900-request model run may be rerun from the beginning before substantive response content or activation summaries are inspected.
-
-The compromised run will be preserved as provenance and excluded from the primary dataset.
-
-A rerun triggered under this rule will be documented with its timestamps and technical reason.
-
-## 14. Blinding to outcomes during collection
-
-Before all four full model runs are complete, the researcher may inspect only technical metadata needed to establish successful execution, including:
+Before all accepted full runs are complete, inspection is limited to technical metadata needed to establish execution:
 
 - process exit status;
-- successful/error request counts;
+- success/error counts;
 - timestamps;
 - token counts and estimated cost;
 - file existence and hashes;
@@ -285,71 +262,88 @@ The researcher will not inspect:
 
 - response text;
 - `NONE` frequency;
-- parsed inquiry-activation outcomes;
+- question-emission frequency;
 - format-validity summaries;
 - condition-level outcome summaries;
 - model-level substantive outcome summaries.
 
-No full-run results will be used to alter passages, prompts, sample size, exclusions, hypotheses, or analysis rules.
+No full-run outcomes may alter passages, prompts, sample size, exclusions, hypotheses, or analysis rules.
 
-## 15. Pre-preregistration smoke tests
+## 15. Analysis-pipeline freeze
 
-Before the 12-topic redesign, four technical smoke runs were performed against the earlier eight-topic bank:
+`api-study/analyze_confirmatory.py` is part of the preregistered analysis candidate.
 
-- `20260918T185131Z-luna-98604fd6` — 8 requests, 8 successful, 0 errors;
-- `20260918T185146Z-terra-b000cd18` — 8 requests, 8 successful, 0 errors;
-- `20260918T185207Z-haiku-d706d0bd` — 8 requests, 8 successful, 0 errors;
-- `20260918T185242Z-sonnet-d03c2793` — 8 requests, 8 successful, 0 errors.
+Before computing outcomes it must validate exactly one accepted full run per model and refuse analysis if the accepted run set violates frozen expectations, including:
 
-Total: 32 successful early smoke-test requests.
+- four expected models;
+- 900 records per model;
+- 36 conditions × 25 draws;
+- unique record IDs;
+- unique condition/replicate pairs;
+- complete manifests;
+- full-design-run metadata;
+- config, passage-bank, and runner hashes matching the frozen hash record;
+- technical failures below the compromise threshold.
 
-These calls were used only to verify API connectivity, model availability, logging, and cost accounting. No response text, inquiry-activation outcome, `NONE` frequency, format-validity result, or substantive aggregate result had been inspected when the stimulus redesign and this revised preregistration draft were prepared.
+The script implements H1, H2, the sensitivity analysis, and format-invalid reporting.
 
-The 32 observations are excluded from all preregistered analyses.
+It was tested before freeze on synthetic data rather than substantive study responses.
 
-Because the passage bank, response parser, prompt, metadata, and Sonnet reasoning configuration were subsequently changed, a second purely mechanical smoke test is required before freeze. It may be assessed only for execution success/error status and other permitted technical metadata.
+## 16. Pre-preregistration smoke tests
 
-All smoke-test raw files remain outside Git tracking. Their SHA-256 hashes should be recorded in the final frozen preregistration before substantive inspection.
+Before the current passage/analysis revision, four eight-request technical smoke runs were completed against an earlier passage bank:
 
-## 16. Stopping rule
+- `20260918T185131Z-luna-98604fd6`: 8/8 successful;
+- `20260918T185146Z-terra-b000cd18`: 8/8 successful;
+- `20260918T185207Z-haiku-d706d0bd`: 8/8 successful;
+- `20260918T185242Z-sonnet-d03c2793`: 8/8 successful.
 
-The intended collection ends when each non-compromised model run reaches its prespecified 900 attempted requests, subject only to the technical-failure rule above.
+No response text, `NONE` frequency, question-emission outcome, format-validity result, or substantive aggregate result from those 32 calls had been inspected when the current design changes were made.
 
-There is no outcome-dependent early stopping.
+They are excluded from all preregistered analyses.
+
+Because the passage bank, parser, runner provenance, and Sonnet thinking configuration changed afterward, a second mechanical smoke test is required before freeze. It may be evaluated only through the permitted technical metadata.
+
+All smoke-test raw files remain excluded from the confirmatory dataset.
 
 ## 17. Interpretation limits
 
-The study can support claims about generated inquiry behavior under these exact passages, prompts, API products, configurations, and collection window.
+Pilot 0.1 can support claims about question-emission behavior under these exact passages, prompts, products, configurations, and collection window.
 
 It cannot by itself establish:
 
-- phenomenal curiosity;
-- subjective desire to know;
+- felt curiosity;
+- desire to know;
+- representation of a specific unknown without semantic coding;
+- perceived attainability;
 - consciousness;
 - persistent identity;
-- personally experienced memory loss;
-- moral status;
-- rights;
+- personally experienced loss;
+- personal relevance of AI-condition passages;
+- moral status or rights;
 - stable model personality;
-- behavior of future versions of the same named API products;
-- general behavior across all informational passages.
+- future behavior of the named products;
+- general behavior across all passages.
 
-The four-model comparison should be understood as approximately 3,600 short stochastic observations gathered during one dated API collection, not as an exhaustive characterization of any model family.
+The experiment is approximately 3,600 short stochastic observations of fixed stimuli during one dated collection, not an exhaustive characterization of any model family.
 
 ## 18. Freeze requirements
 
 Before this draft becomes the frozen preregistration:
 
-1. run dry-runs for all four models against the revised 36-condition bank;
-2. run bounded mechanical smoke tests against the revised runner without inspecting substantive outputs;
-3. record run IDs and SHA-256 hashes for both generations of excluded smoke-test raw files;
-4. record SHA-256 hashes for at least:
-   - the final preregistration;
+1. run the passage audit;
+2. inspect the 36 passage texts without inspecting smoke-test outputs;
+3. run all four revised dry runs;
+4. run bounded mechanical smoke tests on the revised runner without inspecting substantive outputs;
+5. record hashes and run IDs for excluded smoke tests;
+6. generate a frozen hash record for at least:
    - `api-study/config.yaml`;
    - `api-study/passages.json`;
    - `api-study/run.py`;
-5. verify that all four models use the intended no-extended-reasoning configuration;
-6. verify the repository diff and working tree;
-7. freeze the preregistration in a founder-signed commit before any full-run collection.
+   - `api-study/analyze_confirmatory.py`;
+   - `api-study/SPECIFICITY_CODEBOOK.md`;
+   - the final preregistration;
+7. verify repository diff and clean local working tree;
+8. freeze in a founder-signed commit before full collection.
 
-Changes made after that freeze must be recorded as deviations rather than silently incorporated.
+Any post-freeze change must be recorded as a deviation rather than silently incorporated.

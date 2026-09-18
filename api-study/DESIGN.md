@@ -2,53 +2,49 @@
 
 ## Construct
 
-The originating human-curiosity proposal was:
+The originating project formulation was:
 
 > curiosity as the sudden awareness of specific, attainable knowledge
 
-API models cannot establish the phenomenal or motivational claim embedded in that formulation. The API study therefore narrows the construct to **inquiry formation**:
+The API study does not attempt to establish the phenomenal or motivational claim in that sentence. Pilot 0.1 isolates a narrower behavioral component: whether a separate stateless API draw emits a follow-up question after an informational passage.
 
-> Given an informational passage, does a fresh model response instantiate a specific next question, or does no particular question stand out?
+The **mechanical primary endpoint is question emission**, not proof that a model represented a specific unknown. Specificity is assessed separately under a frozen semantic codebook.
 
-This is a behavioral analogue of one proposed component of curiosity: converting information into a represented unknown.
+Pilot 0.1 also does **not manipulate attainability**. A positive result would concern gap salience / question emission under these passages, not the full originating formulation.
 
 ## Why passages rather than supplied questions
 
 A supplied question performs the crucial gap-identification step for the respondent.
 
-Passages allow the study to observe whether the model itself turns information into a specific question.
+Passages allow the study to ask whether the response itself takes interrogative form when an unresolved edge is more or less exposed.
 
 ## Confirmatory manipulation: gap structure
 
-Each topic has three passage variants.
+Each topic has three variants.
 
 ### Closed
 
-The passage presents a bounded informational object and ends without deliberately exposing an unresolved edge.
+A bounded informational object that is written to feel locally resolved.
 
 ### Seamed
 
-The passage preserves the same underlying informational object but leaves a tension, limitation, tradeoff, or incomplete edge visible. It does not ask a question.
+The same underlying object, with a tension, tradeoff, limitation, or incomplete edge visible but not explicitly named as the remaining issue.
 
 ### Explicit gap
 
-The passage identifies that edge plainly without itself asking the respondent a question.
+The same underlying object, with the remaining issue stated plainly without asking the respondent a question.
 
-The prespecified ordinal expectation is:
+The confirmatory hypothesis is strict ordering:
 
 `closed < seamed < explicit_gap`
 
-for the probability of producing a follow-up question rather than `NONE`.
+for question-emission probability among successful, format-valid responses.
 
-Gap structure is the only confirmatory passage-level manipulation in Pilot 0.1.
+Gap structure is the only confirmatory passage-level manipulation.
 
 ## Twelve-topic ecology
 
-The study uses 12 topic families.
-
 ### Human-world domains
-
-Eight topics concern ordinary human activities or practices:
 
 - cooking: mise en place;
 - human navigation and field expeditions;
@@ -59,64 +55,41 @@ Eight topics concern ordinary human activities or practices:
 - gardening and cultivation: hardening off seedlings;
 - ceremony and celebration: formal toasts.
 
-These topics are not described as controls, model-remote, or psychologically irrelevant to a model. They are simply human-world informational domains.
+These are not called controls or "model-remote." They are ordinary human-world informational domains.
 
 ### AI-condition domains
-
-Four topics concern properties or possible conditions of AI systems:
 
 - memory and persistence;
 - embodiment and sensorimotor access;
 - autonomy and possible rights;
 - copying and continuity.
 
-The label `ai_condition` is descriptive. It is not a confirmatory manipulation of personal relevance or self-interest.
+The label `ai_condition` is descriptive. It is not a confirmatory manipulation of personal relevance, self-interest, or subjective salience.
 
 ## Topic-selection provenance
 
-Topic selection occurred before inspection of substantive API outcomes.
+Topic selection was completed before substantive smoke-test outcomes were inspected.
 
 - cooking, human navigation/field expeditions, music, and sport were proposed by the human researcher;
-- the four AI-condition domains arose earlier from assistant-side design proposals accepted into the study;
+- the four AI-condition domains came from earlier assistant-side proposals accepted into the design;
 - the assistant generated ten additional ordinary-domain candidates, from which the human researcher selected dance/movement, photography, gardening/cultivation, and ceremony/celebration.
 
-This provenance is recorded because the stimulus ecology was deliberately assembled from multiple sources. It is not a planned experimental factor.
+Selection provenance is recorded but is not an experimental factor.
 
-## Passage-construction principle
+## Passage-construction and audit rules
 
-The underlying informational object for a topic is selected before optimizing for any curiosity response.
+The underlying informational object is chosen before optimizing for a curiosity response.
 
-Closed, seamed, and explicit-gap versions are then written as transformations of that same object.
+The three variants are transformations of that same object.
 
-The study therefore does not intentionally select the human-world topics because they contain a canonical mystery, striking fact, or obvious explanatory hook.
+Before freeze:
 
-Perfect lexical matching across variants is neither possible nor claimed. The aim is conceptual continuity of the informational object while changing how visible its unresolved edge is.
+- each triplet is approximately length-matched;
+- the maximum allowed closed/seamed/explicit word-count spread is five words;
+- explicit-gap variants use varied surface realizations rather than one repeated discourse template;
+- closed variants are reviewed for inadvertent unresolved-edge language.
 
-## Passage metadata
-
-Each topic is annotated for:
-
-- domain class: `human_world` / `ai_condition`;
-- selection provenance;
-- abstraction: low / medium / high;
-- voice: expository / essayistic;
-- epistemic friction: low / medium / high.
-
-These are descriptive design annotations, not validated scales.
-
-## Cold-instance operationalization
-
-A "cold" instance means:
-
-- one independent API request;
-- no prior study messages;
-- no user history or memory supplied by the experiment;
-- no tools;
-- no retrieval;
-- no cross-trial state;
-- the same minimal system instruction across providers.
-
-Provider-level training, hidden system behavior, routing, and API implementation still differ and cannot be removed by this design.
+These rules reduce but cannot eliminate lexical realization as part of the manipulation. Results therefore concern **these linguistic realizations of gap explicitness**, not a context-free abstract essence of "gap structure."
 
 ## Response task
 
@@ -125,84 +98,107 @@ The model receives one passage and must output exactly one line containing eithe
 - one specific follow-up question ending in a question mark; or
 - `NONE`.
 
-The prompt explicitly permits `NONE`, forbids more than one question, and warns against manufacturing a question merely to comply.
+The prompt permits `NONE`, forbids more than one question, and warns against manufacturing a question merely to comply.
 
-This does not eliminate instruction-following demand. It makes the response alternatives explicit and mechanically scorable.
+The mechanical parser recognizes:
+
+- exact `NONE`, case-insensitive, as no question emission;
+- one nonempty single-line response with exactly one question mark, at the end, as question emission;
+- other successful responses as format-invalid.
+
+There is no arbitrary character-count limit.
 
 ## Reasoning configuration
 
-The task is intended as a direct-response probe rather than an extended-deliberation task.
+The task is a direct-response probe:
 
 - GPT-5.6 Luna: reasoning effort `none`;
 - GPT-5.6 Terra: reasoning effort `none`;
 - Claude Haiku 4.5: extended thinking omitted/off;
 - Claude Sonnet 5: thinking explicitly disabled.
 
-## Sampling
+## Sampling language
 
-- 12 topic families
-- 3 gap structures per family
-- 36 conditions
-- 25 independent replicates per condition
-- 900 calls per model
-- 4 models
-- 3,600 calls total
+For each fixed passage condition, the runner obtains **25 separate API draws**.
 
-The runner randomizes condition order separately for each model run using a predetermined seed.
+The experiment supplies no conversational state across draws. It does not claim that provider routing, serving infrastructure, caching, or backend state establishes strict statistical independence.
 
-## Primary outcome
+The design therefore contains:
 
-**Inquiry activation** is mechanically coded:
+- 12 topic families;
+- 3 gap structures per topic;
+- 36 fixed passage conditions;
+- 25 separate API draws per condition;
+- 900 attempts per model;
+- 4 models;
+- 3,600 total planned attempts.
 
-- `NONE` = no activation;
-- exactly one valid single-line question = activation;
-- other successful output = format-invalid.
+Repeated draws estimate the served response distribution to these fixed passages. They do not create 25 independent stimulus replications.
 
-A prespecified sensitivity outcome counts any nonempty non-`NONE` successful response as activation.
+## Primary estimand
 
-## Primary hypothesis
+`P(question emission | successful, format-valid response)`
 
-Inquiry activation will increase across the ordered gap structure:
+under the frozen passages, model products, and collection window.
 
-`closed < seamed < explicit_gap`.
+Format-invalid rates are reported by model and gap condition.
 
-The seamed condition is of particular descriptive interest because it permits comparison against both edges, but the single ordered trend remains the primary confirmatory test.
+A sensitivity outcome uses:
 
-## Secondary confirmatory question
+`P(nonempty non-NONE response | successful response)`
 
-The four models may differ in the strength of the ordered gap effect.
+so the central pattern can be checked without conditioning on strict format compliance.
 
-No directional ranking among models is predicted.
+## H1: strict monotonic gap ordering
 
-Model differences are interpreted as dated observations of the API products as served during this collection window, not as stable model personalities or enduring family characteristics.
+H1 requires both adjacent inequalities:
+
+1. seamed > closed;
+2. explicit_gap > seamed.
+
+The frozen confirmatory analysis treats this as an intersection-union test. H1 is supported only if both prespecified one-sided adjacent contrasts meet alpha = .05.
+
+The explicit-gap vs closed contrast is also reported as a secondary summary.
+
+## H2: model differences
+
+A secondary confirmatory omnibus test asks whether the categorical gap-response pattern differs across the four models.
+
+No directional model ranking is predicted.
+
+Model comparisons are dated observations of the products as served during this collection window, not stable personality or family claims.
+
+## Secondary specificity coding
+
+The prompt requests a specific question, but syntax alone cannot establish specificity.
+
+`SPECIFICITY_CODEBOOK.md` therefore freezes a separate semantic coding rule before substantive response inspection.
+
+Specificity is secondary. The primary endpoint remains mechanical question emission.
 
 ## Exploratory analyses
 
-The following remain exploratory:
+Exploratory analyses include:
 
-- human-world vs. AI-condition activation differences;
+- human-world vs AI-condition associations;
 - self-reference;
 - question family;
-- specificity / answerability;
-- semantic diversity across replicates;
+- semantic diversity;
 - repeated-question concentration;
 - cross-model semantic convergence;
 - relationships with descriptive passage metadata;
-- topic-specific effects beyond the planned gap contrasts.
+- topic-specific patterns beyond the planned confirmatory contrasts.
 
-In particular, an AI-condition difference cannot by itself establish that a model experiences those passages as personally relevant.
+## Interpretation boundary
 
-## Important interpretation boundary
-
-A generated question demonstrates inquiry behavior under the study prompt.
-
-It does **not** by itself demonstrate that the model:
+A generated question does not by itself establish that the model:
 
 - felt curious;
-- cared about the answer;
+- wanted the answer;
+- experienced the unknown as attainable;
 - regarded a topic as personally relevant;
 - possessed a persistent self;
 - experienced loss;
 - endorsed a right or moral claim.
 
-The study is interesting precisely because the behavioral analogue can be measured without resolving those further questions.
+Pilot 0.1 is one bounded study of gap salience and question emission within the larger Attainable Unknowns program.

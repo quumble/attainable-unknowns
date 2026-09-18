@@ -1,87 +1,56 @@
 # API Inquiry-Formation Pilot
 
-This subdirectory contains a four-model API study derived from the *Attainable Unknowns* project.
+This directory contains the API Pilot 0.1 materials for *Attainable Unknowns*.
 
-## What this study measures
+## Mechanical primary endpoint
 
-The API study does **not** claim to measure felt curiosity.
+The primary endpoint is **question emission**:
 
-It measures a behavioral analogue: whether a fresh language-model instance converts an informational passage into a specific next question.
+- `NONE` = no emitted question;
+- exactly one format-valid single-line question = emitted question;
+- other successful output = format-invalid.
 
-The response is deliberately minimal:
+This is deliberately narrower than "specific inquiry." Specificity is a preregistered secondary semantic outcome under `SPECIFICITY_CODEBOOK.md`.
 
-- exactly one specific follow-up question on one line; or
-- `NONE` if no particular question stands out.
+Pilot 0.1 manipulates **gap salience**, not attainability.
 
-## Four models
-
-The comparison is:
+## Models
 
 - `gpt-5.6-luna`
 - `gpt-5.6-terra`
 - `claude-haiku-4-5`
 - `claude-sonnet-5`
 
-The design samples named API products during one dated collection window. It does not treat the resulting measurements as permanent model traits.
+Luna and Terra use reasoning effort `none`. Haiku extended thinking is omitted/off. Sonnet 5 thinking is explicitly disabled.
 
-## Experimental structure
+## Design
 
-Twelve topics each have three passage variants:
+Twelve topics × three passage structures:
 
-1. **closed** — bounded information with no deliberately exposed unresolved edge;
-2. **seamed** — the same underlying informational object with a tension or incomplete edge left visible without asking a question;
-3. **explicit_gap** — that unresolved edge is stated plainly.
+1. `closed`
+2. `seamed`
+3. `explicit_gap`
 
-The 12-topic ecology contains eight `human_world` domains and four `ai_condition` domains.
+This gives 36 fixed passage conditions.
 
-The human-world topics are cooking, human navigation/field expeditions, music, sport, dance/movement, photography, gardening/cultivation, and ceremony/celebration.
+Eight topics are labeled `human_world`; four are labeled `ai_condition`. Those are descriptive passage classes, not the confirmatory manipulation.
 
-The AI-condition topics are memory/persistence, embodiment, autonomy/possible rights, and copying/continuity.
+Each fixed condition receives 25 separate API draws per model:
 
-These classes are descriptive. The confirmatory manipulation is **gap structure**, not presumed personal relevance.
+- 900 attempts/model
+- 3,600 planned attempts total
 
-At 25 replicates per condition:
+## Pre-freeze audit
 
-- 36 passage conditions
-- 900 calls per model
-- 3,600 total calls
-
-Every call is independent: one passage, no prior study messages, no tools, no retrieval, and no retained study conversation.
-
-## Primary outcome
-
-**Inquiry activation** is scored mechanically:
-
-- `NONE` = no activation;
-- exactly one single-line question with one question mark at the end = activation;
-- any other successful response = format-invalid.
-
-A prespecified sensitivity outcome treats any nonempty non-`NONE` successful response as activation.
-
-## Reasoning configuration
-
-The task is configured as a direct-response probe:
-
-- OpenAI Luna and Terra use reasoning effort `none`;
-- Haiku 4.5 uses its normal non-extended-thinking path;
-- Sonnet 5 has thinking explicitly disabled.
-
-## Run
-
-Install dependencies:
+Run:
 
 ```powershell
-python -m pip install openai anthropic pyyaml
+python .\api-study\audit_passages.py
 ```
 
-Set API keys in the current PowerShell session:
+The draft audit fails if any within-topic word-count spread exceeds five words.
 
-```powershell
-$env:OPENAI_API_KEY="..."
-$env:ANTHROPIC_API_KEY="..."
-```
-
-Dry-run first:
+Then run four dry runs:
 
 ```powershell
 python .\api-study\run.py --model luna --dry-run
@@ -90,31 +59,36 @@ python .\api-study\run.py --model haiku --dry-run
 python .\api-study\run.py --model sonnet --dry-run
 ```
 
-A bounded smoke run is technical only:
+Technical smoke tests use `--stop-after`. Their response content must remain uninspected before freeze.
+
+## Confirmatory analysis candidate
+
+The actual candidate confirmatory pipeline is `analyze_confirmatory.py`.
+
+It refuses to analyze unless it receives exactly one accepted complete full run per model and validates:
+
+- 900 records per model;
+- 36 conditions × 25 draws;
+- unique record IDs;
+- unique condition/replicate pairs;
+- the frozen config, passage-bank, and runner hashes;
+- complete manifests;
+- full-design-run metadata;
+- the preregistered technical-failure threshold.
+
+It implements:
+
+- H1 as two one-sided adjacent contrasts in an intersection-union test;
+- H2 as an omnibus model × categorical-gap interaction;
+- the non-`NONE` sensitivity analysis;
+- format-invalid reporting.
+
+Analysis dependencies:
 
 ```powershell
-python .\api-study\run.py --model luna --stop-after 8
+python -m pip install -r .\api-study\requirements-analysis.txt
 ```
 
-Do not inspect response text or outcome summaries before the preregistration freeze.
+## Status
 
-Full runs, after freeze:
-
-```powershell
-python .\api-study\run.py --model luna
-python .\api-study\run.py --model terra
-python .\api-study\run.py --model haiku
-python .\api-study\run.py --model sonnet
-```
-
-Raw outputs are written beneath `api-study/data/raw/` and are ignored by Git.
-
-## Configuration and provenance
-
-See `config.yaml`, `DESIGN.md`, and the preregistration draft.
-
-The configuration records a pricing snapshot for budget estimation and applies a provider-specific stop limit. Pricing changes over time; the snapshot is provenance, not a permanent pricing claim.
-
-## Study status
-
-Preregistration draft under review. No preregistration has yet been frozen.
+Preregistration draft under review. No substantive smoke-test responses have been inspected and no preregistration has been frozen.
