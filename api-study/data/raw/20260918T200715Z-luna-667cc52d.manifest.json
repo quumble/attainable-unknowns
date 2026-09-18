@@ -1,0 +1,59 @@
+{
+  "attempted_requests": 900,
+  "budget_preflight": {
+    "conservative_cost_usd": 0.1469,
+    "conservative_input_tokens": 302550,
+    "conservative_output_tokens": 72000,
+    "passes": true,
+    "planned_requests": 900,
+    "stop_limit_usd": 5.0
+  },
+  "conditions": 36,
+  "config_sha256": "bbed78b54da3c48565ef4fc90209d6a76697811e5919320de7966253d47e5c41",
+  "error_requests": 0,
+  "finished_at": "2026-09-18T20:25:16.701790+00:00",
+  "full_design_requests": 900,
+  "full_design_run": true,
+  "git": {
+    "commit": "d24269a93fa25f61306145a68bd0f4ea896b3e01",
+    "dirty": false
+  },
+  "model": "gpt-5.6-luna",
+  "model_config_without_secret": {
+    "api_key_env": "OPENAI_API_KEY",
+    "input_per_million": 0.2,
+    "max_output_tokens": 80,
+    "model": "gpt-5.6-luna",
+    "output_per_million": 1.2,
+    "provider": "openai",
+    "reasoning_effort": "none",
+    "stop_limit_usd": 5.0
+  },
+  "model_key": "luna",
+  "observed_token_cost_estimate_usd": 0.05319,
+  "packages": {
+    "PyYAML": "6.0.3",
+    "anthropic": "0.122.0",
+    "openai": "3.2.0"
+  },
+  "passages_sha256": "1d2a1f9b788e4882968d074d032fd916b70542a07c2440ec58d1359d8817475b",
+  "planned_requests": 900,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pricing_snapshot": {
+    "currency": "USD",
+    "date": "2026-09-18",
+    "units": "per_million_tokens"
+  },
+  "provider": "openai",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "records_file": "D:\\My_Life_3\\Bo Chesterton\\Research\\attainable-unknowns\\api-study\\data\\raw\\20260918T200715Z-luna-667cc52d.jsonl",
+  "records_sha256": "9f4d6ee729ee42360989e701cd62bc1801ca9a6b407650869ac9ef1f66d21236",
+  "replicates": 25,
+  "run_id": "20260918T200715Z-luna-667cc52d",
+  "runner_sha256": "01d80096afc3dea23dda380a89128e472a81526d763f6a5f470969261ce45c00",
+  "started_at": "2026-09-18T20:07:15.429575+00:00",
+  "status": "complete",
+  "successful_requests": 900,
+  "system_prompt_sha256": "6aeb7500dc4da0637ec81aa80042953fe9b3d852b1794897327abab2e1a88f45",
+  "user_instruction_sha256": "7f581b2454d1907ddfd7b413259b8ed3d933391a15b2d87b4a12b405f40abd1f"
+}
