@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1",
+  "branch_order_permutations": [
+    {"id":"EBI","order":["explanation","boundary","implication"]},
+    {"id":"EIB","order":["explanation","implication","boundary"]},
+    {"id":"BEI","order":["boundary","explanation","implication"]},
+    {"id":"BIE","order":["boundary","implication","explanation"]},
+    {"id":"IEB","order":["implication","explanation","boundary"]},
+    {"id":"IBE","order":["implication","boundary","explanation"]}
+  ],
+  "interest_map_conditions": ["broad","specific"],
+  "item_kind_balance": {"concrete":3,"abstract":3},
+  "notes": [
+    "Branch position is randomized independently by item using one of the six permutations.",
+    "Branch type is never shown to participants.",
+    "The pilot samples three concrete and three abstract root items per session.",
+    "Interest-map condition is randomized unless overridden with ?map=broad or ?map=specific."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "0.1",
+  "study_version": "pilot-0.1",
+  "items_per_session": 6,
+  "items_per_kind": {"concrete":3,"abstract":3},
+  "max_branches_per_item": 2,
+  "root_curiosity_default": 50,
+  "root_curiosity_min": 0,
+  "root_curiosity_max": 100,
+  "submission_endpoint": null,
+  "completion_url": null,
+  "show_pilot_summary": true
+}

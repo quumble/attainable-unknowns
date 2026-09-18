@@ -8,57 +8,63 @@ A Bo Chesterton research project on curiosity, specificity, attainability, and i
 
 Curiosity is associated with the perception of a **specific unknown** whose answer appears **attainable**.
 
-The project asks whether those two properties can be separated experimentally, manipulated, and observed in both reported curiosity and actual information-seeking behavior.
+The current pilot extends that idea by asking what happens after the first unknown is resolved: does the answer satisfy inquiry, or does it expose another attainable unknown worth pursuing?
 
 ## Status
 
-**Design stage. Private repository.**
+**Active pilot-development stage. Private repository.**
 
-No participants have been recruited. No participant data have been collected. No confirmatory design or analysis has yet been preregistered.
+No paid participants have been recruited and no confirmatory design has been preregistered.
 
-The present materials are exploratory working documents and provenance, not frozen methods.
+A browser-runnable test-pilot instrument and a 12-item draft stimulus bank now exist. The instrument currently exports session JSON locally; durable remote data collection is not yet configured.
 
-## Candidate research questions
+## Current behavioral model
 
-1. Does making an unknown more specific increase curiosity?
-2. Does making its answer appear more attainable increase curiosity?
-3. Do specificity and attainability interact?
-4. Does a person's stated curiosity predict whether they spend a scarce opportunity to reveal the answer?
-5. Does presenting interests at different levels of category specificity change which interests people recognize in themselves?
+The project is exploring curiosity along at least three separable dimensions:
 
-## Candidate study shape
+- **breadth** — which and how many intellectual territories attract voluntary interest;
+- **depth** — whether a resolved question leads to zero, one, or two further inquiries;
+- **direction** — which kind of clarifying unknown is pursued when several are simultaneously available.
 
-A participant would move through a deliberately visual interface:
+Pilot 0.1 classifies follow-up branches invisibly as **explanation**, **boundary**, or **implication** while presenting participants only with natural-language questions.
 
-1. **Interest map** — select broad or specific areas they would voluntarily learn about.
-2. **Curiosity trials** — encounter short, controlled knowledge gaps and rate desire to know.
-3. **Reveal budget** — choose which unanswered items are worth spending a limited number of reveals on.
-4. **Payoff** — receive the actual answer whenever a reveal is used.
-5. **Optional reflection** — minimal free text, if useful, after the behavioral task is complete.
+## Pilot 0.1
 
-The reveal choice is a candidate primary behavioral measure. Slider ratings are a candidate secondary measure. Response latency and navigation behavior are exploratory candidates.
+Each session currently:
 
-Nothing in that hierarchy is frozen yet.
+1. presents either a broad or specific interest map;
+2. samples three concrete and three abstract root questions;
+3. records a 0–100 desire-to-know rating;
+4. reveals a real answer;
+5. presents three clarifying follow-up questions in randomized order;
+6. permits the participant to stop, open one, or open two of three;
+7. records a final self-report of how strongly the participant was trying to finish quickly.
 
-## Design principles
-
-- Prefer **human choices** over long self-reports.
-- Make AI assistance largely irrelevant by measuring preference, selection, revision, and reveal behavior rather than polished prose.
-- Give participants the promised information when they choose to reveal it.
-- Keep the initial study low-risk and non-sensitive.
-- Collect only participant information that is necessary to answer the research question.
-- Separate confirmatory decisions from exploratory observations.
-- Preserve provenance without pretending that early design discussion was preregistered.
+The initial answer is designed as a **junction**, not merely a fun-fact reward.
 
 ## Repository map
 
-- [DESIGN.md](DESIGN.md) — conceptual model, candidate experiments, measures, and unresolved choices.
+- [DESIGN.md](DESIGN.md) — current conceptual and pilot design.
 - [ETHICS.md](ETHICS.md) — participant-protection baseline and data-minimization principles.
 - [PROVENANCE.md](PROVENANCE.md) — origin of the project and distinction between observation and later design.
-- [stimuli/](stimuli/) — candidate topic maps and stimulus-construction rules.
-- [interface/](interface/) — interaction model and UI requirements.
+- [stimuli/items.json](stimuli/items.json) — machine-readable 12-item stimulus bank.
+- [stimuli/category-maps.json](stimuli/category-maps.json) — broad and specific interest maps.
+- [stimuli/permutations.json](stimuli/permutations.json) — all six branch-order permutations and balancing notes.
+- [interface/](interface/) — runnable browser pilot.
 - [prereg/](prereg/) — future frozen preregistration materials.
-- [data/](data/) — data policy, candidate schema, and derived-data conventions.
+- [data/](data/) — session schema and future data conventions.
+
+## Run the test pilot
+
+From the repository root in PowerShell:
+
+```powershell
+./interface/serve.ps1
+```
+
+Then open `http://localhost:8000/interface/`.
+
+For manual comparison, add `?map=broad` or `?map=specific`.
 
 ## Governance note
 

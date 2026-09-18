@@ -1,121 +1,53 @@
 # Stimulus Development
 
-**Status: candidate topic maps and construction rules.**
+**Status: draft pilot bank. Nothing here is preregistered.**
 
-The topic interface should help participants encounter interests without making topic popularity itself the experimental result by accident.
+## Machine-readable files
 
-## Broad map — candidate domains
+- `items.json` — root questions, root answers, three typed follow-up branches, categories, and working source URLs.
+- `category-maps.json` — broad and specific interest-map options.
+- `permutations.json` — all six possible presentation orders for the three hidden branch families, plus pilot balancing rules.
 
-1. Animals and animal behavior
-2. Human psychology
-3. The human body
-4. Space and astronomy
-5. Weather and natural phenomena
-6. Oceans and deep sea
-7. Plants and fungi
-8. Ancient and medieval life
-9. Exploration and disasters
-10. Inventions and engineering
-11. Computers and technology
-12. Language and writing
-13. Food and cooking
-14. Art and architecture
-15. Investigation and detection
-16. Everyday mysteries
+## Branch families
 
-These labels are provisional.
+Each root item currently exposes exactly three clarifying branches:
 
-## Specific map — candidate topics
+1. **explanation** — seeks underlying mechanism, structure, or reason;
+2. **boundary** — seeks a limit, exception, counterexample, or contrast;
+3. **implication** — seeks a consequence, application, or broader significance.
 
-### Living world
+The participant never sees these labels. They see only the questions.
 
-- Animal intelligence
-- Animal communication
-- Predators
-- Parasites
-- Deep-sea creatures
+Each item randomly presents the three branches in one of all six possible orders, so branch type is not permanently tied to screen position.
 
-### Human mind
+## Pilot bank
 
-- Memory
-- Dreams
-- Fear
-- Habit formation
-- Optical illusions
+The first bank contains 12 root items:
 
-### Earth
+- six relatively concrete questions;
+- six abstract or conceptual questions.
 
-- Volcanoes
-- Tornadoes
-- Earthquakes
-- Ocean currents
-- Caves
+A pilot session samples three of each.
 
-### Space
+The concrete bank currently includes everyday electricity, cooking chemistry, odor and memory, lunar tidal locking, ocean salinity, and spider-web adhesion.
 
-- Stars
-- Black holes
-- Planets and moons
-- Cosmic origins
-- Spaceflight
+The abstract bank currently includes sizes of infinity, randomness, causation, Shannon information, the arrow of time, and identity through change.
 
-### Human past
+## Category maps
 
-- Everyday ancient life
-- Shipwrecks
-- Espionage
-- Lost cities
-- Historical medicine
+The interest-selection screen has two candidate forms:
 
-### Technology and making
+- **broad** — large intellectual territories;
+- **specific** — concrete named interests.
 
-- Bridges
-- Engines
-- Computers
-- Maps and navigation
-- Musical instruments
+Map condition is currently randomized unless explicitly overridden for testing.
 
-### Language and culture
+Interest selection does not determine which root items are shown in pilot 0.1. That avoids turning the interest map into an accidental stimulus-selection confound while still allowing later analysis of whether selected interests predict curiosity or depth.
 
-- Word origins
-- Language change
-- Writing systems
-- Folklore
-- Customs and rituals
+## Answer-quality rule
 
-### Hidden mechanisms of ordinary life
+The initial answer is a **junction**, not the terminal reward.
 
-- Cooking reactions
-- Household chemistry
-- Strange things bodies do
-- Why objects break
-- Everyday infrastructure
+It should be satisfying enough to resolve the root question while exposing three genuinely different attainable unknowns. A participant should be able to stop because they are satisfied, not because the answer was evasive.
 
-The specific set should be revised through piloting for clarity, overlap, baseline appeal, and cultural accessibility.
-
-## Stimulus-pair rule
-
-For a confirmatory specificity/attainability manipulation, the ideal comparison keeps the underlying subject and answer constant while changing only the framing of the missing knowledge.
-
-Avoid pairs where one condition:
-
-- contains more inherently surprising information;
-- gives away part of the answer;
-- is substantially longer or harder to read;
-- implies greater practical importance;
-- sounds more authoritative or sensational;
-- changes the answer from a fact into a mechanism or vice versa.
-
-## Answer quality
-
-Every reveal should deliver information worth having.
-
-Answers should be:
-
-- accurate and sourceable;
-- concise;
-- comprehensible without specialist background;
-- satisfying enough that "reveal" has real meaning;
-- fixed before confirmatory collection.
-
-A participant should not spend a scarce reveal and receive a vague paragraph saying that the issue is complicated.
+Before paid collection, every root and branch answer should receive source and wording review.

@@ -1,0 +1,179 @@
+{
+  "schema_version": "0.1",
+  "status": "draft-pilot-bank",
+  "branch_types": {
+    "explanation": "Seeks underlying structure, mechanism, or reason.",
+    "boundary": "Seeks a limit, exception, counterexample, or contrast.",
+    "implication": "Seeks a consequence, application, or broader significance."
+  },
+  "items": [
+    {
+      "id": "bird_power_lines",
+      "kind": "concrete",
+      "broad_category": "physical_world",
+      "specific_category": "everyday_electricity",
+      "root_question": "Why can birds sit safely on high-voltage power lines?",
+      "root_answer": "A bird perched on one wire has both feet at nearly the same electrical potential. With very little voltage difference across its body, very little current is driven through it.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"Why does voltage difference matter more than the wire's voltage by itself?","answer":"Electric current through a body is driven by a difference in electrical potential between two points. A bird can be at a very high potential relative to the ground yet have almost no potential difference from one foot to the other."},
+        {"id":"boundary","type":"boundary","question":"What changes if the bird touches a second wire or grounded object?","answer":"If it bridges two points at different electrical potentials, its body can become part of a conductive path. A dangerous current may then flow through it."},
+        {"id":"implication","type":"implication","question":"How can trained utility workers sometimes work directly on live lines?","answer":"Specialized live-line methods can bring the worker and equipment to the same electrical potential as the conductor while carefully preventing a path to ground or another potential."}
+      ],
+      "source_url": "https://engineering.mit.edu/ask-an-engineer/how-do-birds-sit-on-high-voltage-power-lines-without-getting-electrocuted"
+    },
+    {
+      "id": "toast_maillard",
+      "kind": "concrete",
+      "broad_category": "everyday_mechanisms",
+      "specific_category": "cooking_chemistry",
+      "root_question": "Why does toast become brown and smell dramatically different when it heats?",
+      "root_answer": "Much of the transformation comes from Maillard chemistry: heat drives reactions between amino compounds and reducing sugars, producing many new aroma, flavor, and brown pigment compounds.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"What is actually reacting during the Maillard reaction?","answer":"Reactive carbonyl groups from reducing sugars interact with amino groups from amino acids or proteins. A cascade of later reactions then produces many different flavor, aroma, and pigment molecules."},
+        {"id":"boundary","type":"boundary","question":"Is Maillard browning the same thing as caramelization?","answer":"No. Caramelization mainly involves sugars breaking down and rearranging under heat. Maillard chemistry specifically involves reactions between sugars and amino compounds, although both can occur in the same food."},
+        {"id":"implication","type":"implication","question":"Why does drying a food's surface often make browning easier?","answer":"Water keeps a wet surface near its boiling temperature while it evaporates. Once the surface dries enough to become hotter, browning reactions can proceed much faster."}
+      ],
+      "source_url": "https://pubs.acs.org/doi/10.1021/jf980928z"
+    },
+    {
+      "id": "odor_memory",
+      "kind": "concrete",
+      "broad_category": "mind_and_memory",
+      "specific_category": "odor_and_memory",
+      "root_question": "Why can one smell suddenly bring back a vivid old memory?",
+      "root_answer": "Olfactory pathways have unusually direct connections with brain regions involved in emotion and autobiographical memory, including the amygdala and hippocampal system. That makes odors especially potent retrieval cues.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"Why can the emotion arrive before you can identify the memory?","answer":"Odor information can engage emotion-related and memory-related circuitry before conscious identification is complete, so a feeling can emerge before you can name the odor or the event it evokes."},
+        {"id":"boundary","type":"boundary","question":"Does a vivid smell-triggered memory have to be accurate?","answer":"No. A cue can make a memory feel vivid and emotionally immediate without guaranteeing that every remembered detail is historically accurate."},
+        {"id":"implication","type":"implication","question":"Why are odors useful as memory cues even when they are rarely described in words?","answer":"A memory can retain associations with sensory and emotional context even when those associations are not frequently rehearsed verbally. An odor can reactivate that stored network directly."}
+      ],
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4083449/"
+    },
+    {
+      "id": "moon_tidallock",
+      "kind": "concrete",
+      "broad_category": "space_and_earth",
+      "specific_category": "moon_and_orbits",
+      "root_question": "Why do we keep seeing nearly the same face of the Moon from Earth?",
+      "root_answer": "The Moon rotates once on its axis in about the same time that it takes to orbit Earth once. This synchronous rotation, produced by tidal locking, keeps nearly the same lunar hemisphere facing us.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"How can the Moon be rotating if the same side keeps facing us?","answer":"Imagine walking around a table while continuously facing its center. You must turn once relative to the room during one circuit. The Moon does the same thing as it orbits Earth."},
+        {"id":"boundary","type":"boundary","question":"Do we literally see exactly 50 percent of the Moon's surface?","answer":"No. Small apparent rocking motions called libration let observers on Earth see a little more than half of the lunar surface over time, even though the same hemisphere generally faces us."},
+        {"id":"implication","type":"implication","question":"Is tidal locking unusual in the solar system?","answer":"No. It is common among large moons. Repeated tidal deformation dissipates energy and can evolve a body's rotation toward a synchronized state."}
+      ],
+      "source_url": "https://science.nasa.gov/moon/tidal-locking/"
+    },
+    {
+      "id": "ocean_salinity",
+      "kind": "concrete",
+      "broad_category": "space_and_earth",
+      "specific_category": "oceans",
+      "root_question": "Why is the ocean salty when most rivers flowing into it taste fresh?",
+      "root_answer": "Rain and weathering release dissolved ions from rocks, and rivers continuously carry small concentrations of them to the sea. Seafloor processes also add and remove dissolved material. Over long periods the ocean retains substantial dissolved salts even though an individual river is much less concentrated.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"Why don't rivers become just as salty before reaching the sea?","answer":"River water is continually replenished by relatively fresh precipitation and moves onward rather than remaining in one basin for geological timescales. Its dissolved mineral concentration is therefore usually far lower than seawater's."},
+        {"id":"boundary","type":"boundary","question":"Is the ocean still getting steadily saltier forever?","answer":"Not simply. Salts also leave seawater through biological, chemical, and sedimentary processes. On modern timescales, major inputs and outputs are closer to a long-term balance than to unlimited accumulation."},
+        {"id":"implication","type":"implication","question":"What does the seafloor have to do with ocean salinity?","answer":"Seawater circulates through oceanic crust near hydrothermal systems, where chemical reactions can add some dissolved substances and remove others. The seafloor is therefore part of the ocean's salt budget."}
+      ],
+      "source_url": "https://oceanservice.noaa.gov/facts/whysalty.html"
+    },
+    {
+      "id": "spider_web",
+      "kind": "concrete",
+      "broad_category": "living_world",
+      "specific_category": "spiders_and_webs",
+      "root_question": "Why don't web-building spiders simply get stuck in their own sticky webs?",
+      "root_answer": "At least some orb-weaving spiders combine careful leg movements with physical features that reduce adhesion, including branched leg hairs and anti-adhesive surface chemistry. They also avoid unnecessary contact with sticky strands.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"How do tiny hairs on a spider's legs reduce sticking?","answer":"Branched hairs reduce and distribute the contact between sticky glue droplets and the leg surface, making it easier for the spider to detach as it moves."},
+        {"id":"boundary","type":"boundary","question":"Can spiders ever get stuck in their own webs?","answer":"Yes. The protection is not a magical immunity. Spiders minimize adhesion through structure and behavior, but sticky silk can still adhere to them under some conditions."},
+        {"id":"implication","type":"implication","question":"Why are some strands of an orb web sticky while others are not?","answer":"Different silk types serve different jobs. Sticky capture spirals help retain prey, while structural and radial lines can provide support and routes the spider can use with less adhesive contact."}
+      ],
+      "source_url": "https://www.si.edu/newsdesk/releases/why-spiders-do-not-stick-their-own-sticky-web-sites"
+    },
+    {
+      "id": "infinity_sizes",
+      "kind": "abstract",
+      "broad_category": "mathematics_and_logic",
+      "specific_category": "infinity",
+      "root_question": "How can one infinity be larger than another infinity?",
+      "root_answer": "For infinite sets, mathematicians compare size by asking whether the members of two sets can be paired one-to-one. The natural numbers can be paired with many other infinite sets, but Cantor showed that the real numbers cannot be paired one-to-one with the natural numbers, so the reals have a larger cardinality.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"How can a one-to-one pairing measure the size of an infinite set?","answer":"For finite sets, two sets have the same number of members exactly when every member of one can be paired with one unique member of the other. Cardinality extends that same comparison rule to infinite sets."},
+        {"id":"boundary","type":"boundary","question":"Does that mean every set with more elements written down has a larger infinity?","answer":"No. The natural numbers and the even natural numbers have the same cardinality because each natural number n can be paired with exactly one even number 2n, despite the evens appearing to be only part of the naturals."},
+        {"id":"implication","type":"implication","question":"Why did different sizes of infinity matter for mathematics?","answer":"Cantor's work created a rigorous arithmetic of infinite sets and exposed distinctions that became foundational in set theory, analysis, logic, and later debates about the foundations of mathematics."}
+      ],
+      "source_url": "https://plato.stanford.edu/entries/infinity/"
+    },
+    {
+      "id": "randomness_meaning",
+      "kind": "abstract",
+      "broad_category": "mathematics_and_logic",
+      "specific_category": "randomness",
+      "root_question": "What does it actually mean to say that an event is random?",
+      "root_answer": "There is no single uncontested meaning. Randomness can refer to unpredictable outcomes, objective physical chance, statistical behavior across repeated trials, or lack of compressible pattern in a sequence. These ideas overlap, but they are not identical.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"How can a sequence be called random even after every digit is known?","answer":"Algorithmic approaches ask whether the sequence has a substantially shorter description than simply listing it. A sequence can therefore be judged patternless in a formal sense even when its realized digits are fully known."},
+        {"id":"boundary","type":"boundary","question":"Is something random just because nobody can predict it?","answer":"No. A deterministic process can be practically unpredictable because the observer lacks information or computing power. Unpredictability alone does not establish objective chance."},
+        {"id":"implication","type":"implication","question":"Why does the distinction matter outside philosophy?","answer":"Randomness assumptions matter in cryptography, simulation, statistical inference, and experimental design. A source that only looks unpredictable can be unsafe or misleading if its hidden structure matters."}
+      ],
+      "source_url": "https://plato.stanford.edu/entries/chance-randomness/"
+    },
+    {
+      "id": "causation",
+      "kind": "abstract",
+      "broad_category": "philosophical_concepts",
+      "specific_category": "causation",
+      "root_question": "What makes one event a cause of another rather than merely something that happened earlier?",
+      "root_answer": "No single test captures every case, but influential approaches ask whether changing the proposed cause would change the outcome, while distinguishing that relationship from coincidence and shared background causes. Modern causal models often formalize these counterfactual and intervention-based ideas.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"Why are counterfactuals useful for thinking about causes?","answer":"They ask whether the effect would have differed if the proposed cause had been absent or changed. That captures the intuition that causes make a difference, although simple counterfactual tests need refinement for difficult cases."},
+        {"id":"boundary","type":"boundary","question":"Why isn't correlation enough to establish causation?","answer":"Two variables can move together because one causes the other, because the direction is reversed, because a third factor affects both, or because of selection or coincidence. Association by itself does not distinguish these possibilities."},
+        {"id":"implication","type":"implication","question":"Why are interventions so important in causal science?","answer":"An intervention changes a candidate cause while attempting to hold other causal relationships fixed. That can reveal whether changing the cause itself changes the outcome rather than merely tracking it."}
+      ],
+      "source_url": "https://plato.stanford.edu/entries/causation-mani/"
+    },
+    {
+      "id": "information",
+      "kind": "abstract",
+      "broad_category": "mathematics_and_logic",
+      "specific_category": "information",
+      "root_question": "How can information be measured without caring what a message means?",
+      "root_answer": "In Shannon information theory, information is tied to uncertainty and probability rather than semantic meaning. A message is more informative, in this technical sense, when receiving it rules out more possibilities or when it was less expected.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"Why are surprising messages counted as carrying more information?","answer":"If an outcome was very unlikely, learning that it occurred eliminates more prior uncertainty than learning that a nearly certain outcome occurred. Shannon's measure formalizes that relationship logarithmically."},
+        {"id":"boundary","type":"boundary","question":"Can meaningless noise contain lots of Shannon information?","answer":"Yes. Shannon information does not measure truth, usefulness, or meaning. A highly unpredictable string can have high information content in the technical sense even if it communicates nothing valuable to a person."},
+        {"id":"implication","type":"implication","question":"Why is this definition useful if it ignores meaning?","answer":"Because communication systems need to quantify uncertainty, coding efficiency, channel capacity, and compression regardless of what the symbols mean to a human recipient."}
+      ],
+      "source_url": "https://plato.stanford.edu/entries/information/"
+    },
+    {
+      "id": "time_arrow",
+      "kind": "abstract",
+      "broad_category": "philosophical_concepts",
+      "specific_category": "time",
+      "root_question": "Why does time seem to have a direction when many basic physical laws work in either temporal direction?",
+      "root_answer": "The everyday arrow of time is strongly associated with thermodynamic asymmetry: macroscopic systems overwhelmingly evolve from lower-entropy arrangements toward higher-entropy ones. Explaining why the universe began in the special low-entropy condition needed for that arrow is a deeper and still debated problem.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"What does entropy have to do with remembering the past but not the future?","answer":"Records and memories are physical structures created through processes that occur within the thermodynamic arrow. Their formation depends on asymmetric boundary conditions, so the direction in which records accumulate aligns with the direction we call the past-to-future direction."},
+        {"id":"boundary","type":"boundary","question":"Does the second law mean entropy can never decrease anywhere?","answer":"No. Small local decreases can occur, and living systems routinely create local order while increasing entropy elsewhere. The law concerns overwhelmingly probable behavior of suitably defined larger systems, not an absolute ban on every local fluctuation."},
+        {"id":"implication","type":"implication","question":"Why does the universe's initial condition become part of the puzzle?","answer":"If the underlying microscopic laws do not strongly prefer one time direction, an entropy gradient requires an asymmetric boundary condition. The extraordinarily low entropy of the early universe is therefore central to explaining the thermodynamic arrow."}
+      ],
+      "source_url": "https://plato.stanford.edu/entries/time-thermo/"
+    },
+    {
+      "id": "identity_over_time",
+      "kind": "abstract",
+      "broad_category": "philosophical_concepts",
+      "specific_category": "identity",
+      "root_question": "How much can something change while still being the same thing?",
+      "root_answer": "There is no universal test that settles every case. Different theories emphasize continuity of material, structure, function, causal history, psychological connection, or other properties. The puzzle arises because ordinary identity judgments tolerate many changes but not every change.",
+      "branches": [
+        {"id":"explanation","type":"explanation","question":"Why does ordinary change create a philosophical problem about identity at all?","answer":"To say that one thing changed seems to require that the same thing existed before and after the change. Yet if enough of its properties can change, we need some account of what makes it numerically the same object rather than a replacement."},
+        {"id":"boundary","type":"boundary","question":"Is there always a precise instant when the original stops being the same thing?","answer":"Not necessarily. Some theories imply sharp identity conditions, while ordinary language and some philosophical approaches allow vagueness or context sensitivity at difficult boundaries."},
+        {"id":"implication","type":"implication","question":"Why does this matter beyond puzzles like the Ship of Theseus?","answer":"Questions of persistence affect debates about personal identity, organisms, artifacts, legal continuity, digital objects, institutions, and what it means for something to survive replacement of its parts."}
+      ],
+      "source_url": "https://plato.stanford.edu/entries/identity-time/"
+    }
+  ]
+}

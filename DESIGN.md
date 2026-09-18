@@ -8,135 +8,128 @@ The project begins from the proposition:
 
 > Curiosity may arise when a person becomes aware of a specific piece of knowledge they do not possess and experiences that knowledge as attainable.
 
-The aim is not initially to define curiosity exhaustively. It is to test whether two proposed ingredients — **specificity** and **attainability** — have measurable relationships with information-seeking.
+The present design adds a second proposition:
 
-### Candidate operational terms
+> Acquiring one piece of knowledge may terminate curiosity or expose further specific, attainable unknowns.
 
-- **Unknown:** information the participant does not currently possess or is not confident they possess.
-- **Specificity:** how clearly the missing information can be represented as a bounded target.
-- **Attainability:** how feasible acquiring or understanding the missing information appears.
-- **Reported curiosity:** a participant's stated desire to know the missing information.
-- **Information-seeking:** an observable choice to acquire the information when doing so uses a limited opportunity, time, or other study resource.
+The instrument therefore treats an answer not only as a reward, but as a possible **junction**.
 
-These definitions are provisional and may change before preregistration.
+## 2. Candidate behavioral dimensions
 
-## 2. Two distinct specificity questions
+### Breadth
 
-The project currently contains two related but separable manipulations.
+How many different territories become objects of voluntary interest or inquiry?
 
-### A. Specificity of the interest map
+The interest map currently provides a lightweight breadth proxy.
 
-Does a participant recognize more interests when offered:
+### Depth
 
-- broad domains, such as **Human history**; or
-- specific domains, such as **Shipwrecks**, **Espionage**, and **Everyday life in the ancient world**?
+After a root question is answered, does the participant stop satisfied, open one clarifying branch, or open two?
 
-This may be methodologically useful even if it never becomes a confirmatory research question.
+Pilot 0.1 therefore records depth as 0, 1, or 2 for each item.
 
-### B. Specificity of the unknown itself
+### Direction
 
-Within a topic, does a bounded missing fact or mechanism provoke more curiosity than a vague suggestion that more information exists?
+When several newly attainable unknowns are available, what kind of question does the participant pursue?
 
-This is closer to the core hypothesis.
+Pilot 0.1 uses three recurring hidden branch families:
 
-The two manipulations should not be conflated accidentally.
+- **explanation** — mechanism, structure, reason;
+- **boundary** — exception, limit, contrast;
+- **implication** — consequence, application, significance.
 
-## 3. Candidate interface variants
+These labels are analytic metadata only. Participants see ordinary questions.
 
-### Version A — broad-interest map
+Breadth, depth, and direction should not be assumed to reduce to one scalar curiosity trait.
 
-Participants choose among a modest set of broad domains. The interface is fast and low-burden.
+## 3. Concrete and abstract inquiry
 
-### Version B — specific-interest map
+The pilot bank deliberately includes both relatively concrete subjects and more abstract concepts.
 
-Participants choose among a larger set of concrete topics. The interface may surface interests that broad labels fail to evoke.
+This allows exploratory comparison of whether curiosity behaves differently when an answer concerns a physical mechanism versus a conceptual structure with contested or theory-dependent boundaries.
 
-### Version C — hierarchical revelation
+Abstractness is **not yet a confirmatory manipulation**. It is a bank characteristic worth observing during piloting.
 
-Participants move from broad territory to specific territory:
+## 4. Interest-map specificity
 
-**Human history → Maritime history → Shipwrecks → a particular attainable unknown**
+Two interest-map variants remain under consideration:
 
-This version most directly represents the proposed progression from vague interest to a knowledge target, but it also introduces additional navigation and measurement complexity.
+- **broad map** — large intellectual territories;
+- **specific map** — concrete named topics.
 
-## 4. Candidate trial structure
+Pilot 0.1 can randomize participants between them.
 
-A trial may contain:
+The current tool does not use selected interests to choose later root items. This preserves the interest map as a measurable antecedent rather than making it a hidden routing system.
 
-1. a short setup establishing a phenomenon or context;
-2. a controlled knowledge gap;
-3. a cue affecting perceived specificity and/or attainability;
-4. a curiosity rating;
-5. an opportunity to reveal or defer the answer.
+## 5. Pilot 0.1 trial structure
 
-A later stage may present multiple previously viewed unknowns simultaneously and give participants fewer reveals than available answers.
+For each sampled root item:
 
-Example behavioral instruction:
+1. participant reads one specific unknown;
+2. participant rates desire to know on a 0–100 slider;
+3. participant reveals the initial answer;
+4. three clarifying branches appear in randomized order;
+5. participant may stop immediately, open one branch, or open two of three;
+6. the remaining third branch becomes unavailable after two are opened;
+7. the study proceeds to the next root item.
 
-> You have 4 reveals remaining. Choose which unanswered questions you most want answered.
+Each session samples three concrete and three abstract items from the 12-item draft bank.
 
-The reveal must provide a real, accurate, satisfying answer.
+All six permutations of the three branch families are available for random presentation.
 
-## 5. Candidate factorial manipulation
+## 6. Competing motivation: task minimization
 
-A simple confirmatory design could independently vary:
+Paid online participants may rationally attempt to complete a task efficiently.
 
-- **specificity:** specific vs. vague unknown;
-- **attainability:** apparently easy/near vs. difficult/distant answer.
+Low breadth or low depth therefore should not automatically be interpreted as low curiosity.
 
-This yields a 2 x 2 structure.
+Pilot 0.1 records a final 0–100 self-report:
 
-The exact wording, between- vs. within-subject assignment, number of items, and statistical model remain unresolved.
+> While doing this study, how much were you trying to finish as quickly as possible?
 
-## 6. Candidate outcomes
+Latency measures provide additional exploratory context but should not be treated as a mind-reading device.
 
-### Candidate primary
+Compensation should not depend on how many interests or branches a participant chooses.
 
-- Reveal choice / reveal allocation.
+## 7. Candidate outcomes
 
-### Candidate secondary
+Available pilot measures include:
 
-- Curiosity rating on a continuous slider.
+- category-selection breadth;
+- root-curiosity rating;
+- branch depth per item;
+- first and second branch type;
+- branch position;
+- kind of root item (concrete/abstract);
+- latency measures;
+- stated speed motivation.
 
-### Exploratory
+The final confirmatory hierarchy remains unresolved.
 
-- Decision latency.
-- Return to previously skipped items.
-- Alignment between initial interest selections and later reveals.
-- Difference between stated curiosity and revealed curiosity.
-- Effects of broad vs. specific interest-map presentation.
+## 8. Stimulus constraints
 
-The final hierarchy must be fixed before confirmatory data collection.
+Stimuli should:
 
-## 7. Stimulus constraints
+- remain low-sensitivity for the first study;
+- have accurate, reviewable root answers;
+- expose three genuinely distinct clarifying paths;
+- avoid making one branch obviously longer, more dramatic, or more practically important than the others;
+- avoid permanently coupling branch type to visual position;
+- avoid requiring specialist knowledge to understand the answer;
+- make stopping after the root answer a legitimate state of satisfaction.
 
-Stimuli should, as far as practical:
-
-- concern neutral or low-sensitivity subject matter;
-- have stable, checkable answers;
-- avoid requiring specialized prior knowledge;
-- avoid political, medical-advice, traumatic, or personally identifying content in the first study;
-- vary the intended manipulation without materially changing inherent interestingness, answer quality, reading difficulty, or importance;
-- be short enough that interface behavior, rather than reading endurance, drives the task;
-- provide worthwhile answers when revealed.
-
-Pilot work should test whether manipulations alter the intended perception rather than merely changing prose length or drama.
-
-## 8. Important unresolved choices
+## 9. Open design questions
 
 Before preregistration, decide:
 
-- whether category granularity is itself experimental or merely a personalization step;
-- broad vs. specific vs. hierarchical interface;
-- between-subject, within-subject, or mixed manipulation;
-- number of trials and reveal budget;
-- slider anchors and scale;
-- whether to measure prior familiarity before or after each item;
-- whether response time is analytically meaningful enough to retain;
-- exclusion criteria;
+- whether interest-map granularity is confirmatory or merely methodological;
+- whether concrete/abstract status should become an explicit factor;
+- whether 6 root items is enough for stable within-person direction estimates;
+- whether depth should remain capped at two or later support multi-level trees;
+- whether the root-curiosity slider adds signal or merely primes introspection;
+- which latency measures are worth preserving;
+- how to distinguish genuine satisfaction from task minimization;
 - sample size and power basis;
-- confirmatory model;
-- handling of repeated measures by participant and item;
-- pilot/final separation.
-
-These are design questions, not silently settled assumptions.
+- exclusion criteria;
+- confirmatory statistical model;
+- durable data storage and Prolific completion routing.

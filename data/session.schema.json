@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Attainable Unknowns pilot session",
+  "type": "object",
+  "required": ["session_uuid","study_version","started_at","map_condition","interest_selections","trials","events"],
+  "properties": {
+    "session_uuid":{"type":"string"},
+    "study_version":{"type":"string"},
+    "started_at":{"type":"string"},
+    "completed_at":{"type":["string","null"]},
+    "prolific":{"type":"object"},
+    "map_condition":{"enum":["broad","specific"]},
+    "interest_selections":{"type":"array","items":{"type":"string"}},
+    "speed_motivation":{"type":["number","null"],"minimum":0,"maximum":100},
+    "trials":{"type":"array"},
+    "events":{"type":"array"}
+  }
+}

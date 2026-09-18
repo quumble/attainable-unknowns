@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1",
+  "broad": [
+    {"id":"living_world","label":"Living things"},
+    {"id":"mind_and_memory","label":"Mind & memory"},
+    {"id":"physical_world","label":"Physical world"},
+    {"id":"space_and_earth","label":"Space & Earth"},
+    {"id":"everyday_mechanisms","label":"Everyday mechanisms"},
+    {"id":"human_past","label":"Human past"},
+    {"id":"technology_and_making","label":"Technology & making"},
+    {"id":"language_and_culture","label":"Language & culture"},
+    {"id":"mathematics_and_logic","label":"Mathematics & logic"},
+    {"id":"philosophical_concepts","label":"Abstract concepts"}
+  ],
+  "specific": [
+    {"id":"animal_intelligence","label":"Animal intelligence"},
+    {"id":"spiders_and_webs","label":"Spiders & webs"},
+    {"id":"deep_sea_life","label":"Deep-sea life"},
+    {"id":"odor_and_memory","label":"Smell & memory"},
+    {"id":"dreams","label":"Dreams"},
+    {"id":"optical_illusions","label":"Optical illusions"},
+    {"id":"everyday_electricity","label":"Everyday electricity"},
+    {"id":"cooking_chemistry","label":"Cooking chemistry"},
+    {"id":"bridges_and_structures","label":"Bridges & structures"},
+    {"id":"moon_and_orbits","label":"The Moon & orbits"},
+    {"id":"oceans","label":"Oceans"},
+    {"id":"volcanoes","label":"Volcanoes"},
+    {"id":"shipwrecks","label":"Shipwrecks"},
+    {"id":"espionage","label":"Espionage"},
+    {"id":"lost_cities","label":"Lost cities"},
+    {"id":"word_origins","label":"Word origins"},
+    {"id":"writing_systems","label":"Writing systems"},
+    {"id":"maps_and_navigation","label":"Maps & navigation"},
+    {"id":"infinity","label":"Infinity"},
+    {"id":"randomness","label":"Randomness"},
+    {"id":"probability","label":"Probability"},
+    {"id":"information","label":"Information"},
+    {"id":"causation","label":"Causation"},
+    {"id":"time","label":"Time"},
+    {"id":"identity","label":"Identity"},
+    {"id":"emergence","label":"Emergence"}
+  ]
+}

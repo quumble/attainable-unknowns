@@ -1,96 +1,81 @@
-# Interface Concept
+# Pilot Interface
 
-The study should feel like a small instrument for exploring knowledge, not a conventional wall-of-radio-buttons survey.
+This directory contains the first browser-runnable *Attainable Unknowns* pilot instrument.
 
-## Interaction principles
+## Run locally
 
-- Large touch-friendly buttons.
-- Generous spacing.
-- One obvious action at a time.
-- Short instructions.
-- Minimal scrolling during a trial.
-- Continuous sliders only where continuous judgment is useful.
-- Visible remaining-reveal count.
-- Accessible keyboard operation and labels.
-- No essential information hidden behind hover.
-- No decorative motion that changes timing or comprehension.
+From PowerShell:
 
-## Candidate flow
+```powershell
+./interface/serve.ps1
+```
 
-### 1. Interest map
+Then open:
 
-Two candidate versions:
+```text
+http://localhost:8000/interface/
+```
 
-**Broad:** a small grid of general domains.
+Do not open `index.html` directly from the filesystem; the browser must be able to load the JSON stimulus files.
 
-**Specific:** a larger grid of concrete interests.
+## Useful query parameters
 
-A third candidate is hierarchical navigation from broad to specific.
+- `?map=broad` — force the broad interest map.
+- `?map=specific` — force the specific interest map.
+- `PROLIFIC_PID`, `STUDY_ID`, `SESSION_ID` — captured automatically when Prolific appends them.
 
-Prompt concept:
+Without a `map` override, the instrument randomly assigns broad vs. specific interest maps.
 
-> Which of these would you voluntarily choose to learn something about?
+## Current participant flow
 
-Selection should be easy to revise before continuing.
+1. Interest-map selection.
+2. Six root questions: three concrete and three abstract, sampled from the bank.
+3. 0–100 root-curiosity rating.
+4. Initial answer reveal.
+5. Three clarifying branches in randomized order.
+6. Participant may stop, open one branch, or open two of three.
+7. Final speed-motivation calibration.
+8. Local JSON export.
 
-### 2. Curiosity trial
+The three hidden branch families are:
 
-One knowledge gap at a time.
+- **explanation** — underlying mechanism, structure, or reason;
+- **boundary** — limit, exception, counterexample, or contrast;
+- **implication** — consequence, use, or broader significance.
 
-Possible elements:
+Participants see only the natural-language questions, not these labels.
 
-- topic label;
-- short setup;
-- missing-information prompt;
-- curiosity slider;
-- continue button.
+## Data capture
 
-Candidate slider anchors:
+The session trace includes:
 
-**Not curious at all** ←→ **Extremely curious**
+- Prolific URL parameters when present;
+- interest-map condition;
+- selected interests;
+- sampled item order;
+- root-curiosity ratings;
+- root decision latency;
+- branch presentation permutation;
+- branch position and hidden type;
+- depth per item (0, 1, or 2);
+- branch-selection latency;
+- final self-reported speed motivation;
+- event-level timestamps.
 
-Exact wording is unresolved.
+See `../data/session.schema.json`.
 
-### 3. Reveal stage
+## Storage status
 
-Previously encountered unknowns appear as visual cards.
+`config.json` currently has `submission_endpoint: null`.
 
-Participants have fewer reveals than available answers.
+Therefore this build does **not** transmit participant data. The completion screen exports a JSON file instead. Before a remote Prolific launch, configure and test a durable data endpoint and a Prolific completion URL.
 
-Example:
+The interface already captures Prolific's standard `PROLIFIC_PID`, `STUDY_ID`, and `SESSION_ID` URL parameters when present.
 
-> You have 4 reveals left. Choose which answers you most want to know.
+## Files
 
-Cards should show enough context for the participant to remember the unknown without changing its framing.
-
-### 4. Answer payoff
-
-Selecting **Reveal answer** opens the real answer immediately.
-
-The interface should clearly decrement the remaining budget.
-
-### 5. Completion
-
-Optional short reflection may ask what influenced choices. This should remain secondary to the behavioral measures.
-
-## Instrumentation candidates
-
-Record only what is prospectively justified, potentially including:
-
-- participant study ID;
-- interface condition;
-- category selections;
-- trial and item identifiers;
-- curiosity-slider value;
-- reveal choice;
-- order and randomization state;
-- decision latency;
-- answer-view event.
-
-Timing measures should not be elevated to confirmatory outcomes merely because they are easy to record.
-
-## Visual variants
-
-A polished interface is desirable, but visual treatment should not accidentally become a manipulation.
-
-Broad and specific versions should share typography, button sizing, spacing, progress treatment, and interaction mechanics as closely as possible.
+- `index.html` — shell.
+- `styles.css` — visual layer.
+- `app.js` — study logic and event capture.
+- `config.json` — pilot settings and future endpoint/completion configuration.
+- `serve.ps1` — local test server helper.
