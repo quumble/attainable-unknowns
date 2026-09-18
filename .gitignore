@@ -1,0 +1,16 @@
+# Participant data and platform exports
+data/raw/
+data/exports/
+
+# Credentials and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Local analysis / build artifacts
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+Thumbs.db
