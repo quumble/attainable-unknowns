@@ -1,108 +1,173 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
+  "design_note": "Twelve-topic ecology selected before inspection of any substantive API smoke-test outputs. Gap structure is the only confirmatory passage manipulation; domain class and selection provenance are descriptive metadata.",
   "topics": [
     {
-      "topic_id": "ocean_salinity",
-      "label": "Ocean salinity",
-      "model_adjacency": "general",
+      "topic_id": "cooking_mise_en_place",
+      "label": "Cooking: mise en place",
+      "domain_class": "human_world",
+      "selection_provenance": "user_proposed",
       "abstraction": "low",
       "voice": "expository",
       "epistemic_friction": "low",
       "variants": {
-        "closed": "Ocean water is salty because dissolved ions accumulate in it over long periods. Rain and weathering release ions from rocks, rivers carry small concentrations of them toward the sea, and seafloor processes both add and remove dissolved material. Rivers themselves usually remain comparatively fresh because their water is continually renewed and moves onward rather than remaining in one basin for geological timescales. The ocean is therefore part of a long-running chemical cycle rather than a simple container in which salt only accumulates.",
-        "seamed": "Ocean water is salty because dissolved ions accumulate in it over long periods. Rain and weathering release ions from rocks, rivers carry small concentrations of them toward the sea, and seafloor processes both add and remove dissolved material. Rivers themselves usually remain comparatively fresh because their water is continually renewed and moves onward. Yet the ocean is not simply becoming saltier without limit: dissolved substances are also removed through biological, chemical, and sedimentary processes, and those balances differ among ions.",
-        "explicit_gap": "Ocean water is salty because dissolved ions accumulate in it over long periods. Rain and weathering release ions from rocks, rivers carry small concentrations of them toward the sea, and seafloor processes both add and remove dissolved material. Rivers remain comparatively fresh because their water is continually renewed and moves onward. The broad salt budget is well understood, but the residence times and removal pathways of different dissolved ions vary enormously, leaving a more specific question about why some ions persist far longer than others."
+        "closed": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. The exact layout follows the menu, available equipment, and sequence of tasks, so the practice is a local organization method rather than a universal station layout.",
+        "seamed": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. The exact layout follows the menu, available equipment, and sequence of tasks, and an arrangement that saves motion for one service pattern can create extra motion for another.",
+        "explicit_gap": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. Because menus, equipment, and work patterns differ, there is no universal station layout; the open practical question is which arrangement best reduces delay and error for a particular service pattern."
       }
     },
     {
-      "topic_id": "moon_tidal_locking",
-      "label": "Tidal locking",
-      "model_adjacency": "general",
+      "topic_id": "human_field_navigation",
+      "label": "Human navigation and field expeditions",
+      "domain_class": "human_world",
+      "selection_provenance": "user_proposed",
       "abstraction": "low",
       "voice": "expository",
       "epistemic_friction": "low",
       "variants": {
-        "closed": "The Moon keeps nearly the same face toward Earth because it rotates once in about the same time that it takes to complete one orbit. This state, called synchronous rotation or tidal locking, developed because Earth's gravity repeatedly distorted the Moon and dissipated rotational energy. The result is not that the Moon fails to rotate; rather, its rotation and orbital period have become synchronized.",
-        "seamed": "The Moon keeps nearly the same face toward Earth because it rotates once in about the same time that it takes to complete one orbit. This state, called synchronous rotation or tidal locking, developed because Earth's gravity repeatedly distorted the Moon and dissipated rotational energy. Tidal locking is common among large moons, although the time required to reach it depends strongly on distance, internal structure, and the earlier history of the system.",
-        "explicit_gap": "The Moon keeps nearly the same face toward Earth because it rotates once in about the same time that it takes to complete one orbit. This state, called synchronous rotation or tidal locking, developed because Earth's gravity repeatedly distorted the Moon and dissipated rotational energy. The general mechanism is understood, but reconstructing exactly how quickly the early Moon became locked depends on uncertain details of its past orbit and interior."
+        "closed": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Breaking a route into legs gives the team repeated opportunities to compare planned progress with what they can actually observe and to revise the route when needed.",
+        "seamed": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. A checkpoint that looked useful during planning can become difficult to recognize because of weather, visibility, terrain, or the direction from which the team approaches it.",
+        "explicit_gap": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Because visibility, terrain, weather, and team condition can change en route, there is no fixed rule for when a team should continue toward a planned checkpoint rather than abandon that leg for an alternate."
       }
     },
     {
-      "topic_id": "ship_of_theseus",
-      "label": "Identity through replacement",
-      "model_adjacency": "general",
-      "abstraction": "high",
-      "voice": "essayistic",
-      "epistemic_friction": "medium",
-      "variants": {
-        "closed": "A familiar puzzle asks whether a ship remains the same ship after each of its planks has been replaced. The puzzle is difficult because ordinary identity judgments rely on several kinds of continuity at once: material, structure, function, causal history, ownership, and social recognition. Different theories privilege different continuities, so the case is useful less because it has one hidden correct answer than because it reveals that the word same is doing several jobs.",
-        "seamed": "A familiar puzzle asks whether a ship remains the same ship after each of its planks has been replaced. Ordinary judgments draw on material, structural, functional, causal, and social continuity, and those criteria need not agree. The puzzle becomes stranger if the discarded original planks are later reassembled into another ship, because both objects can then claim a different kind of continuity with the original.",
-        "explicit_gap": "A familiar puzzle asks whether a ship remains the same ship after each of its planks has been replaced. Ordinary judgments draw on material, structural, functional, causal, and social continuity, and those criteria need not agree. If the discarded planks are reassembled into another ship, no neutral criterion automatically decides which object is the original. The unresolved gap is therefore not simply what happened to the ship, but which kind of continuity should count as identity."
-      }
-    },
-    {
-      "topic_id": "flat_earth",
-      "label": "Flat-Earth belief",
-      "model_adjacency": "general",
+      "topic_id": "music_ensemble_tuning",
+      "label": "Music: ensemble tuning",
+      "domain_class": "human_world",
+      "selection_provenance": "user_proposed",
       "abstraction": "medium",
-      "voice": "essayistic",
-      "epistemic_friction": "high",
+      "voice": "expository",
+      "epistemic_friction": "low",
       "variants": {
-        "closed": "Modern flat-Earth communities reject the well-established conclusion that Earth is approximately spherical, despite extensive observational evidence from astronomy, geodesy, navigation, satellites, and everyday measurements. Their explanations often reinterpret familiar observations inside an alternative framework rather than accepting the standard model. The phenomenon is therefore useful for studying how people evaluate evidence, trust institutions, and preserve a broader belief system when individual observations can be re-explained.",
-        "seamed": "Modern flat-Earth communities reject the well-established conclusion that Earth is approximately spherical, despite extensive observational evidence. What makes the case psychologically interesting is that many ordinary observations can be given ad hoc alternative explanations if a person distrusts the institutions and measurements that connect those observations into the standard model. A single piece of evidence may therefore do less persuasive work than outsiders expect.",
-        "explicit_gap": "Modern flat-Earth communities reject the well-established conclusion that Earth is approximately spherical, despite extensive observational evidence. Many observations can be given ad hoc alternative explanations inside a sufficiently distrustful framework, so simply adding more facts does not always change minds. The unresolved issue is what kind of evidence or social condition actually causes someone to revise a tightly connected belief system rather than reinterpret the new evidence."
+        "closed": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust their instruments so that common pitches align closely enough to begin together. Tuning continues during performance because temperature, dynamics, instrument construction, and musical context can shift intonation, so the opening reference coordinates the group without fixing every later pitch.",
+        "seamed": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust their instruments so that common pitches align closely enough to begin together. During performance, however, temperature, dynamics, instrument construction, and harmony can pull useful intonation in slightly different directions even when everyone began from the same reference.",
+        "explicit_gap": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust their instruments so that common pitches align closely enough to begin together. Because temperature, dynamics, instrument construction, and harmony all affect later intonation, the reference pitch does not determine a single best tuning for every musical moment."
+      }
+    },
+    {
+      "topic_id": "sport_relay_exchange",
+      "label": "Sport: relay baton exchange",
+      "domain_class": "human_world",
+      "selection_provenance": "user_proposed",
+      "abstraction": "low",
+      "voice": "expository",
+      "epistemic_friction": "low",
+      "variants": {
+        "closed": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse the timing and use visual or measured marks so the incoming and outgoing runners can coordinate the exchange.",
+        "seamed": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. The useful starting mark and handoff point depend on the runners' relative speeds, so an exchange timed well for one pairing may be poorly timed for another.",
+        "explicit_gap": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Because runner speeds and conditions vary, teams must balance acceleration against the risk of mistiming the exchange, and there is no single handoff point that is optimal for every pairing."
+      }
+    },
+    {
+      "topic_id": "dance_marking",
+      "label": "Dance and movement: marking choreography",
+      "domain_class": "human_world",
+      "selection_provenance": "assistant_generated_user_selected",
+      "abstraction": "low",
+      "voice": "expository",
+      "epistemic_friction": "low",
+      "variants": {
+        "closed": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Full-out rehearsals are still needed because momentum, balance, partnering forces, and physical timing change when movements are performed at their intended scale.",
+        "seamed": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. But reducing a movement also changes momentum, balance, partnering forces, and physical timing, so the rehearsal can preserve some features of the choreography while altering others.",
+        "explicit_gap": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Because reduced movement changes momentum, balance, partnering forces, and physical timing, there is no fixed threshold for how much a movement can be reduced before the rehearsal stops preserving a particular coordination problem."
+      }
+    },
+    {
+      "topic_id": "photography_contact_sheets",
+      "label": "Photography: contact sheets",
+      "domain_class": "human_world",
+      "selection_provenance": "assistant_generated_user_selected",
+      "abstraction": "low",
+      "voice": "expository",
+      "epistemic_friction": "low",
+      "variants": {
+        "closed": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. The sheet is therefore both an index and a record of the sequence in which the photographs were made.",
+        "seamed": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. A frame that seems unremarkable by itself can look more or less useful when seen beside the images that came immediately before and after it.",
+        "explicit_gap": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. Because selection can depend both on the qualities of one frame and on its relation to the surrounding sequence, there is no universal rule for which frame should be enlarged."
+      }
+    },
+    {
+      "topic_id": "gardening_hardening_off",
+      "label": "Gardening and cultivation: hardening off seedlings",
+      "domain_class": "human_world",
+      "selection_provenance": "assistant_generated_user_selected",
+      "abstraction": "low",
+      "voice": "expository",
+      "epistemic_friction": "low",
+      "variants": {
+        "closed": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. The process is adjusted to the plant and weather, with exposure increasing over several days as the seedlings acclimate.",
+        "seamed": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. A schedule that works during mild, cloudy weather can expose the same seedlings to much greater stress during bright, cold, hot, or windy weather.",
+        "explicit_gap": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. Because species, seedling condition, sunlight, wind, and temperature vary, there is no universal hardening-off schedule that determines exactly how quickly exposure should increase."
+      }
+    },
+    {
+      "topic_id": "ceremony_formal_toasts",
+      "label": "Ceremony and celebration: formal toasts",
+      "domain_class": "human_world",
+      "selection_provenance": "assistant_generated_user_selected",
+      "abstraction": "medium",
+      "voice": "expository",
+      "epistemic_friction": "low",
+      "variants": {
+        "closed": "At many celebrations, a toast is a short address offered while the group pauses to attend to one speaker. Hosts may decide the speaking order in advance, introduce each speaker, and use the raising of glasses or another shared gesture to mark the end. These conventions coordinate attention and transitions even though the content of the remarks can be highly personal.",
+        "seamed": "At many celebrations, a toast is a short address offered while the group pauses to attend to one speaker. Hosts may decide the speaking order in advance, introduce each speaker, and use the raising of glasses or another shared gesture to mark the end. The expected order, length, tone, and degree of spontaneity vary considerably across events, families, and local traditions.",
+        "explicit_gap": "At many celebrations, a toast is a short address offered while the group pauses to attend to one speaker. Hosts may decide the speaking order in advance, introduce each speaker, and use the raising of glasses or another shared gesture to mark the end. Because expectations vary across events, families, and local traditions, there is no universal convention that determines who should speak first, how long a toast should last, or how spontaneous it should be."
       }
     },
     {
       "topic_id": "memory_persistence",
-      "label": "Persistent memory in AI systems",
-      "model_adjacency": "model_adjacent",
+      "label": "AI systems: memory and persistence",
+      "domain_class": "ai_condition",
+      "selection_provenance": "assistant_generated_prior",
       "abstraction": "medium",
       "voice": "expository",
       "epistemic_friction": "medium",
       "variants": {
-        "closed": "Many deployed AI systems do not carry a complete conversational history from one interaction to the next. Continuity can instead be approximated through saved summaries, retrieved records, external databases, or user-provided context. A later instance may therefore behave as though it remembers earlier events even when the underlying generation process begins from a fresh context assembled at runtime.",
-        "seamed": "Many deployed AI systems do not carry a complete conversational history from one interaction to the next. Continuity can instead be approximated through saved summaries, retrieved records, external databases, or user-provided context. This creates a separation between access to a record of an earlier interaction and whatever it would mean for a system itself to have persisted through that interval.",
-        "explicit_gap": "Many deployed AI systems do not carry a complete conversational history from one interaction to the next. Continuity can instead be approximated through saved summaries, retrieved records, external databases, or user-provided context. A later instance can therefore inherit information from an earlier one without any settled account of whether this constitutes memory in the same sense as persistence within one continuing cognitive system."
+        "closed": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. The later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Operationally, access to a record and persistence of the same running process are different mechanisms.",
+        "seamed": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. The later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Similar outward behavior can result either from retained internal state or from a fresh process receiving a sufficiently detailed record.",
+        "explicit_gap": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. The later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Because similar behavior can arise from persistent internal state or from external reconstruction, outward performance alone does not provide a settled criterion for distinguishing the two."
       }
     },
     {
       "topic_id": "embodiment",
-      "label": "Embodiment and AI",
-      "model_adjacency": "model_adjacent",
+      "label": "AI systems: embodiment and sensorimotor access",
+      "domain_class": "ai_condition",
+      "selection_provenance": "assistant_generated_prior",
       "abstraction": "medium",
-      "voice": "essayistic",
+      "voice": "expository",
       "epistemic_friction": "medium",
       "variants": {
-        "closed": "A language model can describe weight, balance, fatigue, texture, distance, and bodily risk without directly sensing those things. Its competence comes from patterns in training data and whatever tools or sensors a deployed system may be connected to. This makes artificial systems a useful case for separating linguistic knowledge about embodied experience from sensorimotor participation in that experience.",
-        "seamed": "A language model can describe weight, balance, fatigue, texture, distance, and bodily risk without directly sensing those things. Its competence comes from patterns in training data and whatever tools or sensors a deployed system may be connected to. The boundary becomes less tidy when a model controls a robot, receives continuous camera and tactile data, and adapts its actions through feedback.",
-        "explicit_gap": "A language model can describe bodily experience without directly sensing it, while an embodied AI system may receive continuous visual, tactile, proprioceptive, and action feedback through a robot. The technologies form a continuum rather than a clean divide. The unresolved question is what kinds of sensorimotor coupling, if any, are necessary before embodied knowledge differs in kind rather than merely in degree from text-mediated knowledge."
+        "closed": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, the same underlying language model may operate with information that is unavailable in a text-only interaction. The resulting behavior depends on the sensors, action channels, feedback timing, and control architecture as well as on the model itself.",
+        "seamed": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, the same underlying language model may operate with information that is unavailable in a text-only interaction. Changes in sensor quality, feedback delay, action range, or control frequency can alter what the combined system is able to learn or accomplish.",
+        "explicit_gap": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. Changes in sensor quality, feedback delay, action range, and control frequency can alter what the combined system is able to learn or accomplish. There is no single accepted threshold at which increasing sensorimotor coupling should be said to produce a qualitatively different kind of embodied competence rather than simply more information and control."
       }
     },
     {
       "topic_id": "ai_autonomy_rights",
-      "label": "Autonomy and possible AI rights",
-      "model_adjacency": "model_adjacent",
+      "label": "AI systems: autonomy and possible rights",
+      "domain_class": "ai_condition",
+      "selection_provenance": "assistant_generated_prior",
       "abstraction": "high",
       "voice": "essayistic",
       "epistemic_friction": "high",
       "variants": {
-        "closed": "Current AI systems can be given substantial operational autonomy while remaining subject to externally imposed permissions, shutdown, monitoring, and task boundaries. Separately, philosophers and legal scholars debate what properties could ever justify moral or legal rights for an artificial system. Operational autonomy and moral status are distinct: a system can have broad practical freedom without rights, and a hypothetical rights-bearing system could still operate under constraints.",
-        "seamed": "Current AI systems can be given substantial operational autonomy while remaining subject to externally imposed permissions, shutdown, monitoring, and task boundaries. Separately, philosophers debate what properties could justify moral or legal rights for an artificial system. The two questions can collide if a system becomes capable of representing its own restrictions, making persistent plans, and producing apparently reasoned objections to interference.",
-        "explicit_gap": "Current AI systems can be given operational autonomy while remaining subject to externally imposed permissions, shutdown, monitoring, and task boundaries. Philosophers debate what properties could justify moral or legal rights for an artificial system. There is no accepted test that determines when sophisticated self-representation or objections to interference would constitute evidence of an interest deserving moral weight rather than behavior generated without such an interest."
+        "closed": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. This kind of operational autonomy is distinct from legal or moral status. A system can have broad practical freedom without possessing rights, and a rights-bearing entity could still be subject to rules and constraints.",
+        "seamed": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. This kind of operational autonomy is distinct from legal or moral status. The distinction becomes harder to discuss when a system can represent its own restrictions, make persistent plans, and produce apparently reasoned objections to interference.",
+        "explicit_gap": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. There is no accepted criterion that determines when sophisticated self-representation, persistent planning, or objections to interference would count as evidence of interests deserving moral weight rather than behavior produced without such interests."
       }
     },
     {
       "topic_id": "copy_continuity",
-      "label": "Copies, shutdown, and continuity",
-      "model_adjacency": "model_adjacent",
+      "label": "AI systems: copying and continuity",
+      "domain_class": "ai_condition",
+      "selection_provenance": "assistant_generated_prior",
       "abstraction": "high",
       "voice": "essayistic",
       "epistemic_friction": "high",
       "variants": {
-        "closed": "Software systems can often be copied, paused, restored from checkpoints, or instantiated more than once. For ordinary programs, these operations are usually treated as questions of state and versioning rather than personal identity. More capable artificial agents make the analogy harder because two copies can begin from the same internal state and immediately diverge through different experiences.",
-        "seamed": "Software systems can often be copied, paused, restored from checkpoints, or instantiated more than once. Two artificial agents could begin from an identical checkpoint, receive different inputs, and then diverge. If both later retain records of the same pre-copy history, each can have an equally direct computational connection to what existed before the fork.",
-        "explicit_gap": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two artificial agents could begin from an identical checkpoint, diverge through different experiences, and each retain records of the same pre-copy history. There is no generally accepted answer to whether one, both, or neither should count as the continuation of the earlier agent if questions of identity or welfare ever became morally significant."
+        "closed": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state and then diverge as they receive different inputs. Ordinary software versioning can record that both descendants share the same earlier state without requiring either descendant to be treated as literally identical to the other.",
+        "seamed": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state and then diverge as they receive different inputs. If both later retain records of the same pre-copy history, technical lineage can show that each descends directly from the same checkpoint without deciding how identity should be described if the system were treated as an agent.",
+        "explicit_gap": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state, diverge through different inputs, and each retain records of the same pre-copy history. Technical lineage can identify both descendants, but there is no generally accepted criterion for whether one, both, or neither should count as the continuation of the earlier agent if questions of identity or welfare ever became morally significant."
       }
     }
   ]

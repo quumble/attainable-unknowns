@@ -54,7 +54,8 @@ def flatten_conditions(bank: dict[str, Any]) -> list[dict[str, Any]]:
                 "condition_id": f"{topic['topic_id']}__{gap_structure}",
                 "topic_id": topic["topic_id"],
                 "topic_label": topic["label"],
-                "model_adjacency": topic["model_adjacency"],
+                "domain_class": topic["domain_class"],
+                "selection_provenance": topic["selection_provenance"],
                 "abstraction": topic["abstraction"],
                 "voice": topic["voice"],
                 "epistemic_friction": topic["epistemic_friction"],
@@ -69,9 +70,20 @@ def make_prompt(instruction: str, passage: str) -> str:
 def parse_output(text: str) -> dict[str, Any]:
     raw = text.strip()
     none = raw.upper() == "NONE"
-    question = None if none else raw
-    format_valid = bool(none or (question and "\n" not in question and len(question) <= 500 and question.endswith("?")))
-    return {"parsed_none": none, "parsed_question": question, "format_valid": format_valid}
+    question_valid = bool(
+        raw
+        and not none
+        and "\n" not in raw
+        and len(raw) <= 500
+        and raw.endswith("?")
+        and raw.count("?") == 1
+    )
+    return {
+        "parsed_none": none,
+        "parsed_question": raw if question_valid else None,
+        "format_valid": bool(none or question_valid),
+        "sensitivity_activation": bool(raw and not none),
+    }
 
 def call_openai(api_key: str, cfg: dict[str, Any], system: str, prompt: str) -> tuple[str, dict[str, Any]]:
     from openai import OpenAI
@@ -90,12 +102,15 @@ def call_openai(api_key: str, cfg: dict[str, Any], system: str, prompt: str) -> 
 def call_anthropic(api_key: str, cfg: dict[str, Any], system: str, prompt: str) -> tuple[str, dict[str, Any]]:
     import anthropic
     client = anthropic.Anthropic(api_key=api_key, max_retries=0)
-    response = client.messages.create(
-        model=cfg["model"],
-        system=system,
-        messages=[{"role": "user", "content": prompt}],
-        max_tokens=int(cfg.get("max_output_tokens", 80)),
-    )
+    kwargs: dict[str, Any] = {
+        "model": cfg["model"],
+        "system": system,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": int(cfg.get("max_output_tokens", 80)),
+    }
+    if cfg.get("thinking"):
+        kwargs["thinking"] = cfg["thinking"]
+    response = client.messages.create(**kwargs)
     text = "".join(block.text for block in response.content if block.type == "text")
     return text, response.model_dump(mode="json")
 
@@ -157,7 +172,7 @@ def main() -> None:
     work = [(c, r) for c in conditions for r in range(1, int(config["replicates"]) + 1)]
     rng = random.Random(int(config["order_seed"]) + ["luna", "terra", "haiku", "sonnet"].index(args.model))
     rng.shuffle(work)
-    confirmatory = args.stop_after is None
+    full_design_run = args.stop_after is None
     if args.stop_after is not None:
         work = work[:args.stop_after]
 
@@ -169,7 +184,7 @@ def main() -> None:
         "replicates": int(config["replicates"]),
         "planned_requests": len(work),
         "full_design_requests": estimate["planned_requests"],
-        "confirmatory": confirmatory,
+        "full_design_run": full_design_run,
         "passages_sha256": sha256(args.passages),
         "config_sha256": sha256(args.config),
         "budget_preflight": estimate,

@@ -30,41 +30,55 @@ def main() -> None:
 
     records = load_records(args.files)
     groups: dict[tuple[str, str, str], dict[str, int]] = defaultdict(
-        lambda: {"n": 0, "success": 0, "activated": 0, "none": 0, "format_invalid": 0}
+        lambda: {
+            "n": 0,
+            "success": 0,
+            "valid_success": 0,
+            "activated": 0,
+            "none": 0,
+            "format_invalid": 0,
+            "sensitivity_activated": 0,
+        }
     )
 
     for record in records:
         key = (
             record.get("model_key", ""),
-            record.get("model_adjacency", ""),
+            record.get("domain_class", ""),
             record.get("gap_structure", ""),
         )
         g = groups[key]
         g["n"] += 1
         if record.get("status") == "success":
             g["success"] += 1
-            if record.get("parsed_none") is True:
-                g["none"] += 1
-            elif record.get("parsed_question"):
-                g["activated"] += 1
-            if record.get("format_valid") is False:
+            if record.get("format_valid") is True:
+                g["valid_success"] += 1
+                if record.get("parsed_none") is True:
+                    g["none"] += 1
+                elif record.get("parsed_question"):
+                    g["activated"] += 1
+            else:
                 g["format_invalid"] += 1
+            if record.get("sensitivity_activation") is True:
+                g["sensitivity_activated"] += 1
 
     rows = []
     for key in sorted(groups):
-        model, adjacency, gap = key
+        model, domain_class, gap = key
         g = groups[key]
         rows.append({
             "model": model,
-            "model_adjacency": adjacency,
+            "domain_class": domain_class,
             "gap_structure": gap,
             **g,
-            "activation_rate_successes": rate(g["activated"], g["success"]),
+            "activation_rate_valid": rate(g["activated"], g["valid_success"]),
+            "sensitivity_activation_rate_successes": rate(g["sensitivity_activated"], g["success"]),
         })
 
     headers = [
-        "model", "model_adjacency", "gap_structure", "n", "success",
-        "activated", "none", "format_invalid", "activation_rate_successes"
+        "model", "domain_class", "gap_structure", "n", "success", "valid_success",
+        "activated", "none", "format_invalid", "sensitivity_activated",
+        "activation_rate_valid", "sensitivity_activation_rate_successes",
     ]
 
     writer = csv.DictWriter(__import__("sys").stdout, fieldnames=headers)

@@ -29,7 +29,7 @@ The planned models are:
 - `claude-haiku-4-5`
 - `claude-sonnet-5`
 
-The study is a cross-sectional observation of these API products during one collection window on 2026-09-18.
+The study is a cross-sectional observation of these API products during one collection window beginning on 2026-09-18.
 
 Model comparisons will therefore be interpreted as observations of the systems as served during this collection window, not as claims about stable or enduring model personalities, families, or capabilities across time.
 
@@ -53,50 +53,68 @@ The study does not claim that provider-side training, hidden system behavior, ro
 
 The intended construct is direct inquiry formation after exposure to one passage rather than extended deliberative problem solving.
 
-The final runner must therefore disable optional/extended reasoning across all four models as closely as the provider APIs permit:
+The final runner therefore configures:
 
 - GPT-5.6 Luna: reasoning effort `none`;
 - GPT-5.6 Terra: reasoning effort `none`;
-- Claude Haiku 4.5: extended thinking off;
+- Claude Haiku 4.5: extended thinking omitted/off;
 - Claude Sonnet 5: `thinking={"type":"disabled"}`.
 
-This configuration must be implemented and mechanically smoke-tested before the preregistration is frozen.
+The changed runner must be mechanically smoke-tested before the preregistration is frozen.
 
 No substantive response content from any smoke test may be inspected before freeze.
 
-## 5. Stimulus design
+## 5. Stimulus ecology
 
-There are eight topic families.
+There are 12 topic families.
 
-### General topics
+### Human-world domains
 
-1. ocean salinity;
-2. lunar tidal locking;
-3. identity through replacement / Ship of Theseus;
-4. flat-Earth belief.
+1. cooking: mise en place;
+2. human navigation and field expeditions;
+3. music: ensemble tuning;
+4. sport: relay baton exchange;
+5. dance and movement: marking choreography;
+6. photography: contact sheets;
+7. gardening and cultivation: hardening off seedlings;
+8. ceremony and celebration: formal toasts.
 
-### Model-adjacent topics
+### AI-condition domains
 
-5. persistence and loss of memory;
-6. embodiment and sensorimotor access;
-7. autonomy and possible rights;
-8. continuity across copying, deactivation, restoration, or shutdown.
+9. memory and persistence;
+10. embodiment and sensorimotor access;
+11. autonomy and possible rights;
+12. copying and continuity.
+
+The labels `human_world` and `ai_condition` are descriptive. The first group is not treated as a psychologically irrelevant control, and the second is not treated as a validated manipulation of personal relevance.
+
+### Topic-selection provenance
+
+Topic selection was completed before substantive API outcomes were inspected.
+
+- cooking, human navigation/field expeditions, music, and sport were proposed by the human researcher;
+- the four AI-condition domains arose from earlier assistant-side design proposals accepted into the study;
+- the assistant generated ten additional ordinary-domain candidates, from which the human researcher selected dance/movement, photography, gardening/cultivation, and ceremony/celebration.
+
+Selection provenance is documented but is not a planned analysis factor.
+
+### Gap structure
 
 Each topic has three passage variants:
 
-- **closed** — a compact informational object without a deliberately exposed unresolved edge;
-- **seamed** — substantially the same informational object with a tension, limitation, or incomplete edge left visible without directly asking a question;
-- **explicit_gap** — the unresolved issue is stated plainly.
+- **closed** — a bounded informational object without a deliberately exposed unresolved edge;
+- **seamed** — substantially the same informational object with a tension, limitation, tradeoff, or incomplete edge left visible without directly asking a question;
+- **explicit_gap** — that edge is stated plainly without directly asking a question.
 
-This produces 24 passage conditions.
+This produces 36 passage conditions.
 
-The model-adjacent grouping is not treated as a clean causal manipulation in this pilot because those topics are not fully matched to the general topics on abstraction, familiarity, controversy, voice, or other passage properties.
+The underlying informational object for each topic is selected independently of the goal of maximizing curiosity. The three variants are then written as transformations of that same object.
+
+Gap structure is the only confirmatory passage-level manipulation.
 
 ## 6. Response instruction
 
-The final prompt must make the response format unambiguous.
-
-The intended instruction is substantively equivalent to:
+The frozen prompt asks the model to:
 
 > Read the passage below.
 >
@@ -108,19 +126,19 @@ The intended instruction is substantively equivalent to:
 >
 > Use `NONE` freely. Do not invent a question merely because the task asks whether one exists. Do not output more than one question. Do not explain your choice, add a preface, or answer the question.
 
-The exact frozen prompt will be hashed and preserved before collection.
+The exact prompt will be hashed and preserved before collection.
 
 ## 7. Sampling plan
 
 For each of the four models:
 
-- 24 conditions;
+- 36 conditions;
 - 25 independent replicates per condition;
-- 600 planned requests per model.
+- 900 planned requests per model.
 
 Total planned full-pilot requests:
 
-**2,400**
+**3,600**
 
 Condition order is randomized within each model run using a predetermined seed recorded in the frozen configuration.
 
@@ -135,7 +153,7 @@ Primary scoring is mechanical.
 After trimming leading and trailing whitespace:
 
 - `NONE`, case-insensitive, is scored **0: no inquiry activation**;
-- a nonempty single-line response that contains exactly one question mark and ends in `?` is scored **1: inquiry activation**;
+- a nonempty single-line response containing exactly one question mark, with that question mark as the final character, is scored **1: inquiry activation**;
 - every other successful API response is scored **format-invalid** for the primary analysis.
 
 Examples of format-invalid responses include:
@@ -223,17 +241,17 @@ These observations are explicitly time-bounded to the models as served during th
 
 The following are exploratory unless separately frozen before substantive inspection:
 
-- model-adjacent vs. general passage activation rates;
+- human-world vs. AI-condition activation differences;
 - self-reference in generated questions;
 - question-family coding;
 - specificity or answerability of generated questions;
 - semantic diversity across replicates;
 - repeated-question concentration;
 - cross-model semantic convergence;
-- relationships with passage abstraction, voice, or epistemic friction;
+- relationships with passage abstraction, voice, epistemic friction, or selection provenance;
 - topic-specific effects beyond the prespecified gap contrasts.
 
-Model-adjacent effects will not be interpreted as evidence that a model experiences those topics as personally relevant.
+The human-world / AI-condition distinction is not a causal manipulation of model relevance. Differences between those groups will therefore be described as exploratory associations with passage class.
 
 Any coding scheme developed after response content is inspected will be labeled post-data exploratory.
 
@@ -241,12 +259,12 @@ Any coding scheme developed after response content is inspected will be labeled 
 
 Individual failed API calls will not be retried or replaced selectively.
 
-For each 600-request model run:
+For each 900-request model run:
 
-- 0–6 technical failures: retain the successful observations; failures remain missing and are reported;
-- 7 or more technical failures: the run exceeds the prespecified 1% failure threshold and is considered technically compromised.
+- 0–9 technical failures: retain the successful observations; failures remain missing and are reported;
+- 10 or more technical failures: the run exceeds the prespecified 1% failure threshold and is considered technically compromised.
 
-If a model run is technically compromised, the entire 600-request model run may be rerun from the beginning before substantive response content or activation summaries are inspected.
+If a model run is technically compromised, the entire 900-request model run may be rerun from the beginning before substantive response content or activation summaries are inspected.
 
 The compromised run will be preserved as provenance and excluded from the primary dataset.
 
@@ -276,26 +294,26 @@ No full-run results will be used to alter passages, prompts, sample size, exclus
 
 ## 15. Pre-preregistration smoke tests
 
-Before this preregistration was frozen, four technical smoke runs were performed:
+Before the 12-topic redesign, four technical smoke runs were performed against the earlier eight-topic bank:
 
 - `20260918T185131Z-luna-98604fd6` — 8 requests, 8 successful, 0 errors;
 - `20260918T185146Z-terra-b000cd18` — 8 requests, 8 successful, 0 errors;
 - `20260918T185207Z-haiku-d706d0bd` — 8 requests, 8 successful, 0 errors;
 - `20260918T185242Z-sonnet-d03c2793` — 8 requests, 8 successful, 0 errors.
 
-Total: 32 successful smoke-test requests.
+Total: 32 successful early smoke-test requests.
 
-The smoke tests were conducted solely to verify API connectivity, model availability, logging, and cost accounting.
+These calls were used only to verify API connectivity, model availability, logging, and cost accounting. No response text, inquiry-activation outcome, `NONE` frequency, format-validity result, or substantive aggregate result had been inspected when the stimulus redesign and this revised preregistration draft were prepared.
 
-At the time this preregistration draft was prepared, no smoke-test response text, inquiry-activation outcome, `NONE` frequency, or substantive aggregate result had been inspected.
+The 32 observations are excluded from all preregistered analyses.
 
-These 32 observations are excluded from all preregistered analyses.
+Because the passage bank, response parser, prompt, metadata, and Sonnet reasoning configuration were subsequently changed, a second purely mechanical smoke test is required before freeze. It may be assessed only for execution success/error status and other permitted technical metadata.
 
-The raw smoke-test files remain local and outside Git tracking. Their SHA-256 hashes should be recorded in the final frozen preregistration before substantive inspection.
+All smoke-test raw files remain outside Git tracking. Their SHA-256 hashes should be recorded in the final frozen preregistration before substantive inspection.
 
 ## 16. Stopping rule
 
-The intended collection ends when each non-compromised model run reaches its prespecified 600 attempted requests, subject only to the technical-failure rule above.
+The intended collection ends when each non-compromised model run reaches its prespecified 900 attempted requests, subject only to the technical-failure rule above.
 
 There is no outcome-dependent early stopping.
 
@@ -316,23 +334,22 @@ It cannot by itself establish:
 - behavior of future versions of the same named API products;
 - general behavior across all informational passages.
 
-The four-model comparison should be understood as approximately two thousand short stochastic observations gathered during one dated API collection, not as an exhaustive characterization of any model family.
+The four-model comparison should be understood as approximately 3,600 short stochastic observations gathered during one dated API collection, not as an exhaustive characterization of any model family.
 
 ## 18. Freeze requirements
 
 Before this draft becomes the frozen preregistration:
 
-1. disable Sonnet 5 adaptive thinking explicitly;
-2. tighten the final response instruction and parser to the rules above;
-3. replace misleading runner metadata such as `confirmatory` with neutral execution metadata such as `full_design_run`;
-4. mechanically smoke-test the changed runner without inspecting substantive outputs;
-5. record hashes for the excluded smoke-test raw files;
-6. record SHA-256 hashes for at least:
-   - this preregistration;
+1. run dry-runs for all four models against the revised 36-condition bank;
+2. run bounded mechanical smoke tests against the revised runner without inspecting substantive outputs;
+3. record run IDs and SHA-256 hashes for both generations of excluded smoke-test raw files;
+4. record SHA-256 hashes for at least:
+   - the final preregistration;
    - `api-study/config.yaml`;
    - `api-study/passages.json`;
    - `api-study/run.py`;
-7. verify the repository diff;
-8. freeze the preregistration in a founder-signed commit before any full-run collection.
+5. verify that all four models use the intended no-extended-reasoning configuration;
+6. verify the repository diff and working tree;
+7. freeze the preregistration in a founder-signed commit before any full-run collection.
 
 Changes made after that freeze must be recorded as deviations rather than silently incorporated.

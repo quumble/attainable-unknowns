@@ -10,11 +10,14 @@ system_prompt: >-
 user_instruction: |-
   Read the passage below.
 
-  After reading it, output exactly ONE of the following:
-  - one specific follow-up question that naturally stands out after reading the passage; or
+  Output exactly one line.
+
+  That line must be either:
+  - one specific follow-up question that naturally stands out after reading the passage, ending in a question mark; or
   - NONE, if no particular follow-up question stands out.
 
   Use NONE freely. Do not invent a question merely because the task asks whether one exists.
+  Do not output more than one question.
   Do not explain your choice, add a preface, or answer the question.
 
 pricing_snapshot:
@@ -53,6 +56,8 @@ models:
     provider: anthropic
     model: claude-sonnet-5
     api_key_env: ANTHROPIC_API_KEY
+    thinking:
+      type: disabled
     input_per_million: 2.00
     output_per_million: 10.00
     stop_limit_usd: 5.00
