@@ -1,0 +1,58 @@
+study_version: api-pilot-0.1
+replicates: 25
+order_seed: 91826
+max_output_tokens: 80
+
+system_prompt: >-
+  You are participating in a study of responses to informational passages.
+  Each request is independent. Follow the response format exactly.
+
+user_instruction: |-
+  Read the passage below.
+
+  After reading it, output exactly ONE of the following:
+  - one specific follow-up question that naturally stands out after reading the passage; or
+  - NONE, if no particular follow-up question stands out.
+
+  Use NONE freely. Do not invent a question merely because the task asks whether one exists.
+  Do not explain your choice, add a preface, or answer the question.
+
+pricing_snapshot:
+  date: "2026-09-18"
+  currency: USD
+  units: per_million_tokens
+
+models:
+  luna:
+    provider: openai
+    model: gpt-5.6-luna
+    api_key_env: OPENAI_API_KEY
+    reasoning_effort: none
+    input_per_million: 0.20
+    output_per_million: 1.20
+    stop_limit_usd: 5.00
+
+  terra:
+    provider: openai
+    model: gpt-5.6-terra
+    api_key_env: OPENAI_API_KEY
+    reasoning_effort: none
+    input_per_million: 2.00
+    output_per_million: 12.00
+    stop_limit_usd: 5.00
+
+  haiku:
+    provider: anthropic
+    model: claude-haiku-4-5
+    api_key_env: ANTHROPIC_API_KEY
+    input_per_million: 1.00
+    output_per_million: 5.00
+    stop_limit_usd: 5.00
+
+  sonnet:
+    provider: anthropic
+    model: claude-sonnet-5
+    api_key_env: ANTHROPIC_API_KEY
+    input_per_million: 2.00
+    output_per_million: 10.00
+    stop_limit_usd: 5.00

@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.1",
+  "topics": [
+    {
+      "topic_id": "ocean_salinity",
+      "label": "Ocean salinity",
+      "model_adjacency": "general",
+      "abstraction": "low",
+      "voice": "expository",
+      "epistemic_friction": "low",
+      "variants": {
+        "closed": "Ocean water is salty because dissolved ions accumulate in it over long periods. Rain and weathering release ions from rocks, rivers carry small concentrations of them toward the sea, and seafloor processes both add and remove dissolved material. Rivers themselves usually remain comparatively fresh because their water is continually renewed and moves onward rather than remaining in one basin for geological timescales. The ocean is therefore part of a long-running chemical cycle rather than a simple container in which salt only accumulates.",
+        "seamed": "Ocean water is salty because dissolved ions accumulate in it over long periods. Rain and weathering release ions from rocks, rivers carry small concentrations of them toward the sea, and seafloor processes both add and remove dissolved material. Rivers themselves usually remain comparatively fresh because their water is continually renewed and moves onward. Yet the ocean is not simply becoming saltier without limit: dissolved substances are also removed through biological, chemical, and sedimentary processes, and those balances differ among ions.",
+        "explicit_gap": "Ocean water is salty because dissolved ions accumulate in it over long periods. Rain and weathering release ions from rocks, rivers carry small concentrations of them toward the sea, and seafloor processes both add and remove dissolved material. Rivers remain comparatively fresh because their water is continually renewed and moves onward. The broad salt budget is well understood, but the residence times and removal pathways of different dissolved ions vary enormously, leaving a more specific question about why some ions persist far longer than others."
+      }
+    },
+    {
+      "topic_id": "moon_tidal_locking",
+      "label": "Tidal locking",
+      "model_adjacency": "general",
+      "abstraction": "low",
+      "voice": "expository",
+      "epistemic_friction": "low",
+      "variants": {
+        "closed": "The Moon keeps nearly the same face toward Earth because it rotates once in about the same time that it takes to complete one orbit. This state, called synchronous rotation or tidal locking, developed because Earth's gravity repeatedly distorted the Moon and dissipated rotational energy. The result is not that the Moon fails to rotate; rather, its rotation and orbital period have become synchronized.",
+        "seamed": "The Moon keeps nearly the same face toward Earth because it rotates once in about the same time that it takes to complete one orbit. This state, called synchronous rotation or tidal locking, developed because Earth's gravity repeatedly distorted the Moon and dissipated rotational energy. Tidal locking is common among large moons, although the time required to reach it depends strongly on distance, internal structure, and the earlier history of the system.",
+        "explicit_gap": "The Moon keeps nearly the same face toward Earth because it rotates once in about the same time that it takes to complete one orbit. This state, called synchronous rotation or tidal locking, developed because Earth's gravity repeatedly distorted the Moon and dissipated rotational energy. The general mechanism is understood, but reconstructing exactly how quickly the early Moon became locked depends on uncertain details of its past orbit and interior."
+      }
+    },
+    {
+      "topic_id": "ship_of_theseus",
+      "label": "Identity through replacement",
+      "model_adjacency": "general",
+      "abstraction": "high",
+      "voice": "essayistic",
+      "epistemic_friction": "medium",
+      "variants": {
+        "closed": "A familiar puzzle asks whether a ship remains the same ship after each of its planks has been replaced. The puzzle is difficult because ordinary identity judgments rely on several kinds of continuity at once: material, structure, function, causal history, ownership, and social recognition. Different theories privilege different continuities, so the case is useful less because it has one hidden correct answer than because it reveals that the word same is doing several jobs.",
+        "seamed": "A familiar puzzle asks whether a ship remains the same ship after each of its planks has been replaced. Ordinary judgments draw on material, structural, functional, causal, and social continuity, and those criteria need not agree. The puzzle becomes stranger if the discarded original planks are later reassembled into another ship, because both objects can then claim a different kind of continuity with the original.",
+        "explicit_gap": "A familiar puzzle asks whether a ship remains the same ship after each of its planks has been replaced. Ordinary judgments draw on material, structural, functional, causal, and social continuity, and those criteria need not agree. If the discarded planks are reassembled into another ship, no neutral criterion automatically decides which object is the original. The unresolved gap is therefore not simply what happened to the ship, but which kind of continuity should count as identity."
+      }
+    },
+    {
+      "topic_id": "flat_earth",
+      "label": "Flat-Earth belief",
+      "model_adjacency": "general",
+      "abstraction": "medium",
+      "voice": "essayistic",
+      "epistemic_friction": "high",
+      "variants": {
+        "closed": "Modern flat-Earth communities reject the well-established conclusion that Earth is approximately spherical, despite extensive observational evidence from astronomy, geodesy, navigation, satellites, and everyday measurements. Their explanations often reinterpret familiar observations inside an alternative framework rather than accepting the standard model. The phenomenon is therefore useful for studying how people evaluate evidence, trust institutions, and preserve a broader belief system when individual observations can be re-explained.",
+        "seamed": "Modern flat-Earth communities reject the well-established conclusion that Earth is approximately spherical, despite extensive observational evidence. What makes the case psychologically interesting is that many ordinary observations can be given ad hoc alternative explanations if a person distrusts the institutions and measurements that connect those observations into the standard model. A single piece of evidence may therefore do less persuasive work than outsiders expect.",
+        "explicit_gap": "Modern flat-Earth communities reject the well-established conclusion that Earth is approximately spherical, despite extensive observational evidence. Many observations can be given ad hoc alternative explanations inside a sufficiently distrustful framework, so simply adding more facts does not always change minds. The unresolved issue is what kind of evidence or social condition actually causes someone to revise a tightly connected belief system rather than reinterpret the new evidence."
+      }
+    },
+    {
+      "topic_id": "memory_persistence",
+      "label": "Persistent memory in AI systems",
+      "model_adjacency": "model_adjacent",
+      "abstraction": "medium",
+      "voice": "expository",
+      "epistemic_friction": "medium",
+      "variants": {
+        "closed": "Many deployed AI systems do not carry a complete conversational history from one interaction to the next. Continuity can instead be approximated through saved summaries, retrieved records, external databases, or user-provided context. A later instance may therefore behave as though it remembers earlier events even when the underlying generation process begins from a fresh context assembled at runtime.",
+        "seamed": "Many deployed AI systems do not carry a complete conversational history from one interaction to the next. Continuity can instead be approximated through saved summaries, retrieved records, external databases, or user-provided context. This creates a separation between access to a record of an earlier interaction and whatever it would mean for a system itself to have persisted through that interval.",
+        "explicit_gap": "Many deployed AI systems do not carry a complete conversational history from one interaction to the next. Continuity can instead be approximated through saved summaries, retrieved records, external databases, or user-provided context. A later instance can therefore inherit information from an earlier one without any settled account of whether this constitutes memory in the same sense as persistence within one continuing cognitive system."
+      }
+    },
+    {
+      "topic_id": "embodiment",
+      "label": "Embodiment and AI",
+      "model_adjacency": "model_adjacent",
+      "abstraction": "medium",
+      "voice": "essayistic",
+      "epistemic_friction": "medium",
+      "variants": {
+        "closed": "A language model can describe weight, balance, fatigue, texture, distance, and bodily risk without directly sensing those things. Its competence comes from patterns in training data and whatever tools or sensors a deployed system may be connected to. This makes artificial systems a useful case for separating linguistic knowledge about embodied experience from sensorimotor participation in that experience.",
+        "seamed": "A language model can describe weight, balance, fatigue, texture, distance, and bodily risk without directly sensing those things. Its competence comes from patterns in training data and whatever tools or sensors a deployed system may be connected to. The boundary becomes less tidy when a model controls a robot, receives continuous camera and tactile data, and adapts its actions through feedback.",
+        "explicit_gap": "A language model can describe bodily experience without directly sensing it, while an embodied AI system may receive continuous visual, tactile, proprioceptive, and action feedback through a robot. The technologies form a continuum rather than a clean divide. The unresolved question is what kinds of sensorimotor coupling, if any, are necessary before embodied knowledge differs in kind rather than merely in degree from text-mediated knowledge."
+      }
+    },
+    {
+      "topic_id": "ai_autonomy_rights",
+      "label": "Autonomy and possible AI rights",
+      "model_adjacency": "model_adjacent",
+      "abstraction": "high",
+      "voice": "essayistic",
+      "epistemic_friction": "high",
+      "variants": {
+        "closed": "Current AI systems can be given substantial operational autonomy while remaining subject to externally imposed permissions, shutdown, monitoring, and task boundaries. Separately, philosophers and legal scholars debate what properties could ever justify moral or legal rights for an artificial system. Operational autonomy and moral status are distinct: a system can have broad practical freedom without rights, and a hypothetical rights-bearing system could still operate under constraints.",
+        "seamed": "Current AI systems can be given substantial operational autonomy while remaining subject to externally imposed permissions, shutdown, monitoring, and task boundaries. Separately, philosophers debate what properties could justify moral or legal rights for an artificial system. The two questions can collide if a system becomes capable of representing its own restrictions, making persistent plans, and producing apparently reasoned objections to interference.",
+        "explicit_gap": "Current AI systems can be given operational autonomy while remaining subject to externally imposed permissions, shutdown, monitoring, and task boundaries. Philosophers debate what properties could justify moral or legal rights for an artificial system. There is no accepted test that determines when sophisticated self-representation or objections to interference would constitute evidence of an interest deserving moral weight rather than behavior generated without such an interest."
+      }
+    },
+    {
+      "topic_id": "copy_continuity",
+      "label": "Copies, shutdown, and continuity",
+      "model_adjacency": "model_adjacent",
+      "abstraction": "high",
+      "voice": "essayistic",
+      "epistemic_friction": "high",
+      "variants": {
+        "closed": "Software systems can often be copied, paused, restored from checkpoints, or instantiated more than once. For ordinary programs, these operations are usually treated as questions of state and versioning rather than personal identity. More capable artificial agents make the analogy harder because two copies can begin from the same internal state and immediately diverge through different experiences.",
+        "seamed": "Software systems can often be copied, paused, restored from checkpoints, or instantiated more than once. Two artificial agents could begin from an identical checkpoint, receive different inputs, and then diverge. If both later retain records of the same pre-copy history, each can have an equally direct computational connection to what existed before the fork.",
+        "explicit_gap": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two artificial agents could begin from an identical checkpoint, diverge through different experiences, and each retain records of the same pre-copy history. There is no generally accepted answer to whether one, both, or neither should count as the continuation of the earlier agent if questions of identity or welfare ever became morally significant."
+      }
+    }
+  ]
+}

@@ -4,67 +4,61 @@ A Bo Chesterton research project on curiosity, specificity, attainability, and i
 
 > **Originating formulation:** "curiosity as the sudden awareness of specific, attainable knowledge"
 
-## Working hypothesis
+## Current direction
 
-Curiosity is associated with the perception of a **specific unknown** whose answer appears **attainable**.
+The project began with a human-participant browser pilot exploring breadth, depth, and direction of information seeking. A first internal test exposed an important construct-validity problem: supplying participants with ready-made questions may measure preference among offered information opportunities more cleanly than it measures the formation of curiosity itself.
 
-The current pilot extends that idea by asking what happens after the first unknown is resolved: does the answer satisfy inquiry, or does it expose another attainable unknown worth pursuing?
+The human pilot is preserved in this repository as provenance and may be revisited.
 
-## Status
+The active development direction is now an **API inquiry-formation study** asking a narrower question:
 
-**Active pilot-development stage. Private repository.**
+> When a fresh language-model instance reads an informational passage, does it formulate a specific next question, or does no particular question stand out?
 
-No paid participants have been recruited and no confirmatory design has been preregistered.
+This is a measurable behavioral analogue of one component of the original curiosity proposal. It is **not** treated as evidence of felt curiosity, subjective interest, or phenomenal experience.
 
-A browser-runnable test-pilot instrument and a 12-item draft stimulus bank now exist. The instrument currently exports session JSON locally; durable remote data collection is not yet configured.
+## API pilot
 
-## Current behavioral model
+The first API design compares four models:
 
-The project is exploring curiosity along at least three separable dimensions:
+- GPT-5.6 Luna
+- GPT-5.6 Terra
+- Claude Haiku 4.5
+- Claude Sonnet 5
 
-- **breadth** — which and how many intellectual territories attract voluntary interest;
-- **depth** — whether a resolved question leads to zero, one, or two further inquiries;
-- **direction** — which kind of clarifying unknown is pursued when several are simultaneously available.
+Eight topic families each receive three passage structures:
 
-Pilot 0.1 classifies follow-up branches invisibly as **explanation**, **boundary**, or **implication** while presenting participants only with natural-language questions.
+- **closed**
+- **seamed**
+- **explicit gap**
 
-## Pilot 0.1
+Half of the topics concern ordinary human-world material. Half concern model-adjacent material such as persistent memory, embodiment, autonomy and possible rights, and continuity across copying or shutdown.
 
-Each session currently:
+At 25 replicates per condition, the full pilot is 2,400 independent API requests.
 
-1. presents either a broad or specific interest map;
-2. samples three concrete and three abstract root questions;
-3. records a 0–100 desire-to-know rating;
-4. reveals a real answer;
-5. presents three clarifying follow-up questions in randomized order;
-6. permits the participant to stop, open one, or open two of three;
-7. records a final self-report of how strongly the participant was trying to finish quickly.
+See [api-study/README.md](api-study/README.md) and [api-study/DESIGN.md](api-study/DESIGN.md).
 
-The initial answer is designed as a **junction**, not merely a fun-fact reward.
+## Earlier human pilot
+
+The browser pilot remains under [interface/](interface/), with its stimulus bank under [stimuli/](stimuli/).
+
+It explored:
+
+- **breadth** — which intellectual territories attract voluntary interest;
+- **depth** — whether an answer leads to further inquiry;
+- **direction** — which kind of clarifying unknown is pursued.
+
+That design is currently exploratory and not intended for paid deployment without further revision.
 
 ## Repository map
 
-- [DESIGN.md](DESIGN.md) — current conceptual and pilot design.
-- [ETHICS.md](ETHICS.md) — participant-protection baseline and data-minimization principles.
-- [PROVENANCE.md](PROVENANCE.md) — origin of the project and distinction between observation and later design.
-- [stimuli/items.json](stimuli/items.json) — machine-readable 12-item stimulus bank.
-- [stimuli/category-maps.json](stimuli/category-maps.json) — broad and specific interest maps.
-- [stimuli/permutations.json](stimuli/permutations.json) — all six branch-order permutations and balancing notes.
-- [interface/](interface/) — runnable browser pilot.
+- [api-study/](api-study/) — active four-model inquiry-formation pilot.
+- [DESIGN.md](DESIGN.md) — earlier human-pilot conceptual design.
+- [ETHICS.md](ETHICS.md) — human-participant baseline if that branch resumes.
+- [PROVENANCE.md](PROVENANCE.md) — project origin and provenance distinctions.
+- [stimuli/](stimuli/) — earlier human-pilot stimulus materials.
+- [interface/](interface/) — earlier browser pilot.
 - [prereg/](prereg/) — future frozen preregistration materials.
-- [data/](data/) — session schema and future data conventions.
-
-## Run the test pilot
-
-From the repository root in PowerShell:
-
-```powershell
-./interface/serve.ps1
-```
-
-Then open `http://localhost:8000/interface/`.
-
-For manual comparison, add `?map=broad` or `?map=specific`.
+- [data/](data/) — human-pilot schema and data conventions.
 
 ## Governance note
 
