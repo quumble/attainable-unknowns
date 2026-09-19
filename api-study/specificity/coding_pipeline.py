@@ -16,6 +16,9 @@ from typing import Any, Iterable
 
 ROOT = Path(__file__).resolve().parents[2]
 ALLOWED_CODES = ("1", "0", "U")
+# B1A: pin the original record, rather than trusting a mutable hash manifest.
+ORIGINAL_PACKET_ID = "AU-SPEC-B1-9cb85543ab599f47"
+ORIGINAL_GENERATION_SHA256 = "ea4ec719b80a3b3fed16e85a527f89e896746fd8710f10838b64e2971e3b3d4d"
 
 
 def sha256_file(path: Path) -> str:
@@ -71,6 +74,46 @@ def load_packet(path: Path, expected_coder: str | None = None) -> dict[str, Any]
     if len(ids) != len(cards) or len(set(ids)) != len(ids):
         raise ValueError(f"Missing or duplicate card IDs in {path}")
     return packet
+
+
+def verify_packet_integrity(packet_dir: Path) -> dict[str, Any]:
+    """Verify the existing B1 blinded bundle without reading the private key."""
+    generation_path = packet_paths(packet_dir)["generation"]
+    if sha256_file(generation_path) != ORIGINAL_GENERATION_SHA256:
+        raise ValueError("Original packet-generation record hash mismatch")
+    generation = load_json(generation_path)
+    if generation.get("packet_id") != ORIGINAL_PACKET_ID:
+        raise ValueError("Unexpected B1 packet ID")
+    checked = {}
+    for name in ("MASTER_PACKET.json", "CODER_C1.json", "CODER_C2.json",
+                 "CODER_C3.json", "SPECIFICITY_CODEBOOK.md", "CODER_INSTRUCTIONS.md"):
+        path = packet_dir / "blinded" / name
+        original_path = f"api-study/specificity/generated/{ORIGINAL_PACKET_ID}/blinded/{name}"
+        expected = generation["files_sha256"][original_path]
+        payload = path.read_bytes()
+        actual = hashlib.sha256(payload).hexdigest()
+        match = "exact"
+        if actual != expected:
+            # Only the two original Markdown copies had CRLF generation hashes
+            # and LF Git blobs. No normalization of JSON or study text is allowed.
+            crlf = payload.replace(b"\r\n", b"\n").replace(b"\n", b"\r\n")
+            if name not in ("SPECIFICITY_CODEBOOK.md", "CODER_INSTRUCTIONS.md") or b"\r" in payload or hashlib.sha256(crlf).hexdigest() != expected:
+                raise ValueError(f"Original blinded file hash mismatch: {name}")
+            match = "documented_LF_copy_of_CRLF_original"
+        checked[name] = {"sha256": actual, "generation_sha256": expected, "match": match}
+    master = load_packet(packet_dir / "blinded" / "MASTER_PACKET.json", "MASTER")
+    by_id = {card["card_id"]: card for card in master["cards"]}
+    if len(by_id) != 169 or master.get("packet_id") != ORIGINAL_PACKET_ID:
+        raise ValueError("Unexpected master packet identity or count")
+    for coder_id in ("C1", "C2", "C3"):
+        packet = load_packet(packet_dir / "blinded" / f"CODER_{coder_id}.json", coder_id)
+        if packet.get("packet_id") != ORIGINAL_PACKET_ID or {c["card_id"]: c for c in packet["cards"]} != by_id:
+            raise ValueError(f"Coder packet content differs from master: {coder_id}")
+    return {"packet_id": ORIGINAL_PACKET_ID, "files": checked, "private_key_opened": False}
+
+
+def verify_packet_command(args: argparse.Namespace) -> None:
+    print(json.dumps(verify_packet_integrity(args.packet_dir.resolve()), indent=2))
 
 
 def validate_codes(
@@ -158,6 +201,7 @@ def disagreements(maps: dict[str, dict[str, str]], master_ids: Iterable[str]) ->
 
 def make_adjudication(args: argparse.Namespace) -> None:
     packet_dir = args.packet_dir.resolve()
+    verify_packet_integrity(packet_dir)
     paths = packet_paths(packet_dir)
     generation = load_json(paths["generation"])
     master = load_packet(paths["master"], "MASTER")
@@ -271,6 +315,7 @@ def agreement_stats(
 
 def finalize_blind(args: argparse.Namespace) -> None:
     packet_dir = args.packet_dir.resolve()
+    verify_packet_integrity(packet_dir)
     paths = packet_paths(packet_dir)
     master = load_packet(paths["master"], "MASTER")
     maps, raw, preserved = load_three_coders(
@@ -287,6 +332,9 @@ def finalize_blind(args: argparse.Namespace) -> None:
     adjudication_ids = [card["card_id"] for card in expected_adjudication["cards"]]
     if adjudication_ids != discordant:
         raise ValueError("Adjudication packet does not match current discordant cards")
+    master_by_id = {card["card_id"]: card for card in master["cards"]}
+    if expected_adjudication["cards"] != [master_by_id[card_id] for card_id in discordant]:
+        raise ValueError("Adjudication card text differs from the verified master")
 
     if discordant:
         if args.adjudication is None:
@@ -327,6 +375,15 @@ def finalize_blind(args: argparse.Namespace) -> None:
         rel(preserved[coder]): sha256_file(preserved[coder])
         for coder in ("C1", "C2", "C3")
     }
+    for name in ("CODER_C1.json", "CODER_C2.json", "CODER_C3.json",
+                 "SPECIFICITY_CODEBOOK.md", "CODER_INSTRUCTIONS.md"):
+        path = packet_dir / "blinded" / name
+        input_files[rel(path)] = sha256_file(path)
+    input_files[rel(paths["generation"])] = sha256_file(paths["generation"])
+    for path in (ROOT / "api-study/specificity/CODER_CLARIFICATION_B1A.md",
+                 ROOT / "prereg/API_PILOT_0.1_SPECIFICITY_AMENDMENT_B1A.md",
+                 ROOT / "prereg/API_PILOT_0.1_B1A_CHANGE_RECORD.json"):
+        input_files[rel(path)] = sha256_file(path)
     input_files[rel(paths["adjudication_packet"])] = sha256_file(
         paths["adjudication_packet"]
     )
@@ -469,6 +526,7 @@ def weighted_summary(
 
 def unblind_report(args: argparse.Namespace) -> None:
     packet_dir = args.packet_dir.resolve()
+    verify_packet_integrity(packet_dir)
     paths = packet_paths(packet_dir)
     blind = load_json(paths["blind_final"])
     if blind.get("schema_version") != "au-specificity-blind-final-v1":
@@ -576,6 +634,10 @@ def unblind_report(args: argparse.Namespace) -> None:
 def parser() -> argparse.ArgumentParser:
     root = argparse.ArgumentParser(description=__doc__)
     sub = root.add_subparsers(dest="command", required=True)
+
+    verify = sub.add_parser("verify-packet")
+    verify.add_argument("--packet-dir", type=Path, required=True)
+    verify.set_defaults(func=verify_packet_command)
 
     adjudicate = sub.add_parser("make-adjudication")
     adjudicate.add_argument("--packet-dir", type=Path, required=True)

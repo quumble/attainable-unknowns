@@ -167,6 +167,16 @@
 
   function render() {
     const cards = state.packet.cards;
+    if (cards.length === 0) {
+      $("progress").textContent = "No cards require adjudication.";
+      $("cardId").textContent = "";
+      $("question").textContent = "All initial codes were unanimous.";
+      $("passage").textContent = "";
+      for (const button of codeButtons) button.disabled = true;
+      $("back").disabled = $("next").disabled = $("download").disabled = true;
+      $("message").textContent = "No adjudication file is needed. Finalize blind coding without --adjudication.";
+      return;
+    }
     const card = cards[state.index];
     const coded = Object.keys(state.codes).filter(id => cards.some(card => card.card_id === id)).length;
     $("progress").textContent = `${coded} / ${cards.length} coded • card ${state.index + 1} / ${cards.length}`;
@@ -184,6 +194,7 @@
   }
 
   function setCode(code) {
+    if (!state.packet.cards.length) return;
     const card = state.packet.cards[state.index];
     state.codes[card.card_id] = code;
     const next = firstUncoded();
@@ -224,6 +235,7 @@
   $("next").addEventListener("click", () => { if (state.index < state.packet.cards.length - 1) { state.index++; save(); render(); } });
 
   document.addEventListener("keydown", event => {
+    if (event.repeat) return;
     if (coder.style.display !== "block" || ["INPUT", "TEXTAREA"].includes(document.activeElement.tagName)) return;
     if (event.key === "1") setCode("1");
     else if (event.key === "0") setCode("0");
@@ -252,7 +264,8 @@
     const blob = new Blob([JSON.stringify(output, null, 2) + "\n"], { type: "application/json" });
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.download = `${state.packet.coder_id}_CODES.json`;
+    link.download = state.packet.coder_id === "FOUNDER_ADJUDICATOR"
+      ? "FOUNDER_ADJUDICATION.json" : `${state.packet.coder_id}_CODES.json`;
     link.click();
     setTimeout(() => URL.revokeObjectURL(link.href), 1000);
   });

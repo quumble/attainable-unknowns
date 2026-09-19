@@ -1,0 +1,48 @@
+{
+  "adoption": "Founder-signed commit containing these changes before coding. No commit or push performed. This record does not hash itself; its containing signed commit establishes provenance.",
+  "base_commit": "6c602c594e3a8758934674ed546e7f27fd966d52",
+  "changes": {
+    "api-study/specificity/CODER_CLARIFICATION_B1A.md": {
+      "after_sha256": "05a87547d118f36a904e66a65c63f2096cbb592b8ff1076589590297472912e0",
+      "before_sha256": null
+    },
+    "api-study/specificity/README.md": {
+      "after_sha256": "b510134eba8b571af834dd316202347636b2dc565090395ef9e93216ba043731",
+      "before_sha256": "334f925fcfd7993ba9408ecc1669cca8e0bc9603eb0a5bd76d2effc8849fcf4d"
+    },
+    "api-study/specificity/coder.html": {
+      "after_sha256": "214e77a58cacc68dcab3d48ad71ca78bf414f2cbda6db262764e700f7bb8ea5c",
+      "before_sha256": "fd07c04357cb10084865cf9cecb388a48c38cfd6bf0f690886a1ccccc7c22707"
+    },
+    "api-study/specificity/coding_pipeline.py": {
+      "after_sha256": "2be31457c8b4f27f924280dfb1394c75ccf488e647198c7c62d972f4c6c8fb53",
+      "before_sha256": "a47a45414a679d4b6122af68218b20fe9ac054c86303ff78b82fa3088a0e9eba"
+    },
+    "api-study/specificity/test_b1a.py": {
+      "after_sha256": "92ef8cf5b71e3aa8d260ee7e2a375bcca2f8c798506dfc8440f6db9b15e5e945",
+      "before_sha256": null
+    },
+    "api-study/specificity/test_coder_b1a.cjs": {
+      "after_sha256": "691956da1a15a88efd8cf30fbf97bebca764a98509154d57e5527859391b2620",
+      "before_sha256": null
+    },
+    "prereg/API_PILOT_0.1_SPECIFICITY_AMENDMENT_B1A.md": {
+      "after_sha256": "50f03d0a53058bc51396c85a0aab44d504d356e8b102cdcd934a43a5562da23d",
+      "before_sha256": null
+    }
+  },
+  "hash_scope": "SHA-256 values describe exact delivered file bytes; preserve them when transporting files.",
+  "original_archive_sha256": "3faf89c10524dbe5d6d134c1399c80d43c9e2abfc246f09b9a08fdfd735c66d6",
+  "packet_id": "AU-SPEC-B1-9cb85543ab599f47",
+  "prepared_at_utc": "2026-09-19T17:13:25.719653+00:00",
+  "preservation": "All base files except the listed changed files are byte-identical. The codebook, original instructions, generated packets, generation record, prior freeze records, raw data and primary results are unchanged.",
+  "schema_version": "au-specificity-b1a-change-record-v1",
+  "semantic_study_codes_assigned_by_review_task": false,
+  "status": "prepared_unsigned_unpublished",
+  "validation": {
+    "interface_synthetic_checks": "empty packet; key-repeat suppression; normal coding; download filename passed",
+    "python_regression_tests": 8,
+    "python_result": "passed",
+    "real_blinded_packet_integrity": "passed with documented two Markdown LF/CRLF exceptions"
+  }
+}
