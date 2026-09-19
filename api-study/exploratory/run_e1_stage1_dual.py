@@ -32,6 +32,7 @@ E1_DIR = ROOT / "api-study" / "exploratory"
 
 E1A_PROTOCOL = E1_DIR / "API_PILOT_0.1_TARGET_CLUSTERING_E1A.md"
 RUNNER_PROCEDURE = E1_DIR / "E1_STAGE1_RUNNER_PROCEDURE.md"
+RUNNER_CORRECTION_D1 = E1_DIR / "E1_STAGE1_RUNNER_CORRECTION_D1.md"
 
 PACKET_ID = "AU-E1-S1-cad71b8ce8fe0866"
 PACKET_DIR = E1_DIR / "e1" / "generated" / PACKET_ID
@@ -141,6 +142,56 @@ def append_jsonl(path: Path, value: Any) -> None:
         handle.write(line)
         handle.flush()
         os.fsync(handle.fileno())
+
+
+def clear_inflight_marker(
+    path: Path,
+    *,
+    retries: int = 40,
+    delay_seconds: float = 0.05,
+) -> None:
+    """Remove INFLIGHT.json without allowing a local cleanup race to become an API error."""
+    last_error: PermissionError | None = None
+    for _ in range(retries):
+        try:
+            path.unlink(missing_ok=True)
+            return
+        except PermissionError as exc:
+            last_error = exc
+            time.sleep(delay_seconds)
+
+    raise SystemExit(
+        "A provider attempt has already been preserved, but the local INFLIGHT.json "
+        f"marker could not be removed after {retries} retries: {last_error}. "
+        "This is a local cleanup failure, not an API failure. Do not retry the semantic "
+        "card merely because of this marker; close any process reading INFLIGHT.json "
+        "and rerun the same command so the marker can be reconciled."
+    )
+
+
+def terminal_attempt_matches_marker(
+    row: dict[str, Any],
+    marker: dict[str, Any],
+) -> bool:
+    return (
+        row.get("card_id") == marker.get("card_id")
+        and row.get("attempt_index") == marker.get("attempt_index")
+        and row.get("request_sha256") == marker.get("request_sha256")
+        and row.get("status") in {"valid", "invalid_output", "api_error"}
+    )
+
+
+def reconcile_preserved_inflight(path: Path, attempts_path: Path) -> bool:
+    """Clear a stale marker only when its attempt already has a durable terminal record."""
+    if not path.exists():
+        return False
+
+    marker = load_json(path)
+    attempts = read_attempts(attempts_path)
+    if any(terminal_attempt_matches_marker(row, marker) for row in attempts):
+        clear_inflight_marker(path)
+        return True
+    return False
 
 
 def rel(path: Path) -> str:
@@ -263,7 +314,7 @@ def verify_checkpoints(implementation_ref: str | None = None) -> dict[str, str]:
         for ancestor, name in ((e1a, "E1A"), (corpus, "corpus checkpoint")):
             if git("merge-base", "--is-ancestor", ancestor, impl).returncode != 0:
                 raise ValueError(f"{name} {ancestor} is not an ancestor of implementation {impl}")
-        for path in (Path(__file__).resolve(), RUNNER_PROCEDURE):
+        for path in (Path(__file__).resolve(), RUNNER_PROCEDURE, RUNNER_CORRECTION_D1):
             if not path.is_file():
                 raise FileNotFoundError(path)
             if not committed_blob_matches_worktree(impl, path):
@@ -501,6 +552,8 @@ def manifest_base(
         "runner_sha256": sha256_file(Path(__file__).resolve()),
         "procedure_path": rel(RUNNER_PROCEDURE),
         "procedure_sha256": sha256_file(RUNNER_PROCEDURE),
+        "runner_correction_d1_path": rel(RUNNER_CORRECTION_D1),
+        "runner_correction_d1_sha256": sha256_file(RUNNER_CORRECTION_D1),
         "master_packet_path": rel(MASTER_PACKET),
         "master_packet_sha256": sha256_file(MASTER_PACKET),
         "instructions_path": rel(INSTRUCTIONS),
@@ -646,7 +699,7 @@ def resolve_inflight(representation: str, action: str) -> None:
         },
     }
     append_jsonl(p["attempts"], record)
-    p["inflight"].unlink()
+    clear_inflight_marker(p["inflight"])
     print(json.dumps({"status": "inflight_resolved_for_retry", "card_id": marker["card_id"]}, indent=2))
 
 
@@ -656,11 +709,16 @@ def run_real(representation: str, implementation_commit: str) -> None:
     p = paths_for(representation)
 
     if state["inflight_exists"]:
-        raise SystemExit(
-            f"{rel(p['inflight'])} exists from an interrupted request. "
-            f"Do not silently repeat it. Run resolve-inflight --representation {representation} "
-            "--action retry, inspect the preserved record, then resume."
-        )
+        reconciled = reconcile_preserved_inflight(p["inflight"], p["attempts"])
+        if reconciled:
+            state["inflight_exists"] = False
+        else:
+            raise SystemExit(
+                f"{rel(p['inflight'])} exists from an interrupted request with no durable "
+                "terminal attempt record. Do not silently repeat it. Run "
+                f"resolve-inflight --representation {representation} --action retry, "
+                "inspect the preserved record, then resume."
+            )
 
     cfg = MODEL_CONFIGS[representation]
     api_key = os.environ.get(cfg["api_key_env"])
@@ -765,7 +823,7 @@ def run_real(representation: str, implementation_commit: str) -> None:
                     "raw_provider_response": raw,
                 }
                 append_jsonl(p["attempts"], record)
-                p["inflight"].unlink(missing_ok=True)
+                clear_inflight_marker(p["inflight"])
 
                 attempts = read_attempts(p["attempts"])
                 completed, _, cumulative_cost = derive_state(attempts, cards_by_id)
@@ -791,7 +849,7 @@ def run_real(representation: str, implementation_commit: str) -> None:
                 "raw_provider_response": raw,
             }
             append_jsonl(p["attempts"], record)
-            p["inflight"].unlink(missing_ok=True)
+            clear_inflight_marker(p["inflight"])
 
         except SystemExit:
             raise
@@ -810,7 +868,7 @@ def run_real(representation: str, implementation_commit: str) -> None:
                 },
             }
             append_jsonl(p["attempts"], record)
-            p["inflight"].unlink(missing_ok=True)
+            clear_inflight_marker(p["inflight"])
 
             attempts = read_attempts(p["attempts"])
             completed, _, cumulative_cost = derive_state(attempts, cards_by_id)
