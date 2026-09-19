@@ -1,0 +1,20 @@
+{
+  "adjudication_disclosures": {
+    "cards_are_initially_discordant": true,
+    "founder_knows_aggregate_primary_result": true,
+    "initial_votes_hidden": true,
+    "item_level_study_metadata_hidden": true
+  },
+  "allowed_codes": [
+    "1",
+    "0",
+    "U"
+  ],
+  "card_count": 0,
+  "cards": [],
+  "codebook_path": "SPECIFICITY_CODEBOOK.md",
+  "coder_id": "FOUNDER_ADJUDICATOR",
+  "packet_id": "AU-SPEC-B1-9cb85543ab599f47",
+  "protocol_id": "B1",
+  "schema_version": "au-specificity-packet-v1"
+}

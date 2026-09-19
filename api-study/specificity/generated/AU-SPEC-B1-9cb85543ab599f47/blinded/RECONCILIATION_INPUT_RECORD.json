@@ -1,0 +1,49 @@
+{
+  "adjudication_packet": {
+    "path": "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/ADJUDICATION_PACKET.json",
+    "sha256": "8cf42bd96fdeafcc45ffbd7bdf78c8ee53594b93ace27786a315e59807a4356b"
+  },
+  "coder_files": {
+    "C1": {
+      "coder_metadata": {
+        "completed_at_utc": null,
+        "model": null,
+        "service": null,
+        "settings": null,
+        "started_at_utc": null
+      },
+      "path": "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/coding-inputs/C1_CODES.json",
+      "sha256": "cce42f5d24751d0d1e9db78e79516a515f754c1d45104c17d08af2eaac5e0a6b"
+    },
+    "C2": {
+      "coder_metadata": {
+        "completed_at_utc": null,
+        "model": null,
+        "service": null,
+        "settings": null,
+        "started_at_utc": null
+      },
+      "path": "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/coding-inputs/C2_CODES.json",
+      "sha256": "af2c42d7df897e02d25e6593ee3dabe7e00d16c72642a67f332ccdf85b730458"
+    },
+    "C3": {
+      "coder_metadata": {
+        "completed_at_utc": null,
+        "model": null,
+        "service": null,
+        "settings": null,
+        "started_at_utc": null
+      },
+      "path": "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/coding-inputs/C3_CODES.json",
+      "sha256": "3be8a32bbfc579460715ef19b4a5d19106326ab5f44e93f7ada463bb7dbbcde0"
+    }
+  },
+  "created_at_utc": "2026-09-19T18:22:39.639519+00:00",
+  "discordant_cards": 0,
+  "initial_votes_in_adjudication_packet": false,
+  "packet_id": "AU-SPEC-B1-9cb85543ab599f47",
+  "protocol_id": "B1",
+  "schema_version": "au-specificity-reconciliation-input-record-v1",
+  "unanimous_cards": 169,
+  "unique_cards": 169
+}

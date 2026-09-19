@@ -1,0 +1,1769 @@
+{
+  "adjudication": {
+    "cards": 0,
+    "rate": 0.0
+  },
+  "agreement": {
+    "cards": 169,
+    "fleiss_kappa_nominal_1_0_U": null,
+    "kappa_note": "Fleiss' kappa is null when undefined because all ratings occupy one category.",
+    "pairwise_agreement_rates": {
+      "C1_C2": 1.0,
+      "C1_C3": 1.0,
+      "C2_C3": 1.0
+    },
+    "unanimity_rate": 1.0,
+    "unanimous_cards": 169,
+    "unit": "unique_visible_card"
+  },
+  "cards": [
+    {
+      "card_id": "AU-SPEC-B1-0001",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0002",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0003",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0004",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0005",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0006",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0007",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0008",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0009",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0010",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0011",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0012",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0013",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0014",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0015",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0016",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0017",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0018",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0019",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0020",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0021",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0022",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0023",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0024",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0025",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0026",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0027",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0028",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0029",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0030",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0031",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0032",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0033",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0034",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0035",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0036",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0037",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0038",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0039",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0040",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0041",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0042",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0043",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0044",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0045",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0046",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0047",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0048",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0049",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0050",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0051",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0052",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0053",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0054",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0055",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0056",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0057",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0058",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0059",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0060",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0061",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0062",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0063",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0064",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0065",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0066",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0067",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0068",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0069",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0070",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0071",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0072",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0073",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0074",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0075",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0076",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0077",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0078",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0079",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0080",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0081",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0082",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0083",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0084",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0085",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0086",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0087",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0088",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0089",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0090",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0091",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0092",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0093",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0094",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0095",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0096",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0097",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0098",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0099",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0100",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0101",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0102",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0103",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0104",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0105",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0106",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0107",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0108",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0109",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0110",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0111",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0112",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0113",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0114",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0115",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0116",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0117",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0118",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0119",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0120",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0121",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0122",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0123",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0124",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0125",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0126",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0127",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0128",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0129",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0130",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0131",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0132",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0133",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0134",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0135",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0136",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0137",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0138",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0139",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0140",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0141",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0142",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0143",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0144",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0145",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0146",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0147",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0148",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0149",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0150",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0151",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0152",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0153",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0154",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0155",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0156",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0157",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0158",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0159",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0160",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0161",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0162",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0163",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0164",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0165",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0166",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0167",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0168",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0169",
+      "final_code": "1",
+      "initial_codes": {
+        "C1": "1",
+        "C2": "1",
+        "C3": "1"
+      },
+      "resolution": "unanimous"
+    }
+  ],
+  "coder_metadata": {
+    "C1": {
+      "completed_at_utc": null,
+      "model": null,
+      "service": null,
+      "settings": null,
+      "started_at_utc": null
+    },
+    "C2": {
+      "completed_at_utc": null,
+      "model": null,
+      "service": null,
+      "settings": null,
+      "started_at_utc": null
+    },
+    "C3": {
+      "completed_at_utc": null,
+      "model": null,
+      "service": null,
+      "settings": null,
+      "started_at_utc": null
+    }
+  },
+  "final_card_code_counts": {
+    "0": 0,
+    "1": 169,
+    "U": 0
+  },
+  "finalized_at_utc": "2026-09-19T18:23:32.523565+00:00",
+  "founder_adjudicator_disclosure": {
+    "knew_aggregate_primary_result": true,
+    "knew_presented_cards_were_discordant": true,
+    "saw_initial_votes": false,
+    "saw_model_gap_provider_replicate_metadata": false
+  },
+  "founder_adjudicator_metadata": {},
+  "input_files_sha256": {
+    "api-study/specificity/CODER_CLARIFICATION_B1A.md": "05a87547d118f36a904e66a65c63f2096cbb592b8ff1076589590297472912e0",
+    "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/PACKET_GENERATION_RECORD.json": "ea4ec719b80a3b3fed16e85a527f89e896746fd8710f10838b64e2971e3b3d4d",
+    "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/ADJUDICATION_PACKET.json": "8cf42bd96fdeafcc45ffbd7bdf78c8ee53594b93ace27786a315e59807a4356b",
+    "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/CODER_C1.json": "39c7a015d450346a398942630b8eaea04b5f6f7ce7c9dc34503217347cbe3c22",
+    "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/CODER_C2.json": "e498d4275f4f8cedf036d5498f646053c2d7b5c518b54716f1be5687de6964a7",
+    "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/CODER_C3.json": "d752d6894d2834e2e9a1eee4105eb0624774882e446aef9f84a77f775be61e5a",
+    "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/CODER_INSTRUCTIONS.md": "541d21c59740ad0087201f61f0cdab149918eda7446885cbf8088647a75d61df",
+    "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/MASTER_PACKET.json": "1565af7372b70e6a8af2fe44212b895ee7e92c6e0748d71d0d5f398f066be403",
+    "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/SPECIFICITY_CODEBOOK.md": "c304db90e85a6cfaa68bb03354ad9960e63a109573c9a8fe8f6e3b4ccd76d574",
+    "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/coding-inputs/C1_CODES.json": "cce42f5d24751d0d1e9db78e79516a515f754c1d45104c17d08af2eaac5e0a6b",
+    "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/coding-inputs/C2_CODES.json": "af2c42d7df897e02d25e6593ee3dabe7e00d16c72642a67f332ccdf85b730458",
+    "api-study/specificity/generated/AU-SPEC-B1-9cb85543ab599f47/blinded/coding-inputs/C3_CODES.json": "3be8a32bbfc579460715ef19b4a5d19106326ab5f44e93f7ada463bb7dbbcde0",
+    "prereg/API_PILOT_0.1_B1A_CHANGE_RECORD.json": "db6459df38782d1dfb7a01daf32cdf80c8d5f5ba551913727c72fcd137d9af4b",
+    "prereg/API_PILOT_0.1_SPECIFICITY_AMENDMENT_B1A.md": "50f03d0a53058bc51396c85a0aab44d504d356e8b102cdcd934a43a5562da23d"
+  },
+  "packet_id": "AU-SPEC-B1-9cb85543ab599f47",
+  "protocol_id": "B1",
+  "required_next_checkpoint": "Commit this file and its recorded coding inputs in a founder-signed commit before running unblind-report.",
+  "schema_version": "au-specificity-blind-final-v1",
+  "still_blinded_to_item_level_metadata": true,
+  "unblinding_status": "not_performed"
+}

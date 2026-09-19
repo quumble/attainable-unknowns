@@ -1,0 +1,72 @@
+{
+  "schema_version": "b1a-mechanical-validation-v1",
+  "validated_at_utc": "2026-09-19T17:43:44.394113+00:00",
+  "scope": "JSON/schema shape, packet and coder IDs, 169 exact unique card IDs, designated order, string codes 1/0/U only",
+  "semantic_validation_performed": false,
+  "vote_summary_computed": false,
+  "agreement_computed": false,
+  "adjudication_performed": false,
+  "all_passed": true,
+  "results": [
+    {
+      "coder_id": "C1",
+      "passed": true,
+      "checks": {
+        "single_json_object": true,
+        "top_level_fields": true,
+        "schema_version": true,
+        "packet_id": true,
+        "coder_id": true,
+        "metadata_fields": true,
+        "metadata_values": true,
+        "codes_array": true,
+        "code_row_shape": true,
+        "169_rows": true,
+        "169_unique_card_ids": true,
+        "exact_card_ids": true,
+        "designated_order": true,
+        "string_codes_1_0_U": true
+      }
+    },
+    {
+      "coder_id": "C2",
+      "passed": true,
+      "checks": {
+        "single_json_object": true,
+        "top_level_fields": true,
+        "schema_version": true,
+        "packet_id": true,
+        "coder_id": true,
+        "metadata_fields": true,
+        "metadata_values": true,
+        "codes_array": true,
+        "code_row_shape": true,
+        "169_rows": true,
+        "169_unique_card_ids": true,
+        "exact_card_ids": true,
+        "designated_order": true,
+        "string_codes_1_0_U": true
+      }
+    },
+    {
+      "coder_id": "C3",
+      "passed": true,
+      "checks": {
+        "single_json_object": true,
+        "top_level_fields": true,
+        "schema_version": true,
+        "packet_id": true,
+        "coder_id": true,
+        "metadata_fields": true,
+        "metadata_values": true,
+        "codes_array": true,
+        "code_row_shape": true,
+        "169_rows": true,
+        "169_unique_card_ids": true,
+        "exact_card_ids": true,
+        "designated_order": true,
+        "string_codes_1_0_U": true
+      }
+    }
+  ]
+}

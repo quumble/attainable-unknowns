@@ -1,0 +1,243 @@
+{
+  "schema_version": "b1a-coordinator-execution-v1",
+  "packet_id": "AU-SPEC-B1-9cb85543ab599f47",
+  "service": "ChatGPT Work",
+  "parent_configuration": {
+    "selected_model_user_reported": "Astra",
+    "selected_intelligence_user_reported": "Light",
+    "actual_backend_model_identifier": null,
+    "actual_backend_reasoning_setting": null,
+    "configuration_changed_by_coordinator": false
+  },
+  "b1a_adoption": {
+    "confirmed_by": "user",
+    "commit": "89eee5615a56b071595a4aba748aa5d1e1b88a99",
+    "adopted_before_launch_user_confirmed": true,
+    "repository_or_signature_independently_checked": false
+  },
+  "context_configuration": {
+    "source": "user confirmation before coder dispatch; not independently inspected",
+    "user_states_set_before_task": true,
+    "memory": "off",
+    "library_access": "off",
+    "writing_style_reference": "off",
+    "reference_record_history": "off",
+    "personalization_prompt": "not configured",
+    "custom_instructions": "not configured",
+    "account_settings_changed_by_coordinator": false,
+    "backend_state_independently_verified": false
+  },
+  "limitations": [
+    "fork_turns none explicitly omits parent conversation history; it does not certify absence of other platform-provided context.",
+    "All agents share the filesystem and available tools; spawn exposes no per-child file allowlist, tool disabling, or communication disabling control.",
+    "Each spawn message supplied only the prescribed coder instruction and paths to that coder's four exact-byte files. No ZIP, manifest, setup conversation, other coder materials, or other coder outputs were included in messages. Broader filesystem access was not technically revoked.",
+    "Persistent memory and custom-instruction injection into history-free children, settings sampling time, and separate attachment exposure are not established by available controls.",
+    "User-selected Astra Light is recorded; no backend model or reasoning identity was independently exposed by spawn. Child metadata is self-report and is not used as isolation evidence.",
+    "Exact service-side launch and completion timestamps are not exposed; coordinator observation windows/timestamps are recorded separately.",
+    "Responses are preserved as exact exposed text encoded in UTF-8, without normalization; transport-level bytes before text delivery are not exposed.",
+    "Input manifest is not self-authenticating. All 12 payloads matched it; manifest and archive hashes are recorded independently."
+  ],
+  "concurrency_observation": {
+    "observed_at_utc": "2026-09-19T17:36:50.740355+00:00",
+    "source": "collaboration.list_agents",
+    "agents": {
+      "/root/c1_b1a": "running",
+      "/root/c2_b1a": "running",
+      "/root/c3_b1a": "running"
+    }
+  },
+  "input_verification": {
+    "verified_at_utc": "2026-09-19T17:34:38.969925+00:00",
+    "archive_sha256": "8d0581b5f8b82fdb33aa2f29a9403f035e3174dbb7165b49d799806936935cba",
+    "manifest_sha256": "0e87e4ebb30123396c226d738aae47399c41b55d04e6fb0876f847d0ee9523a0",
+    "manifest_self_hash_supplied": false,
+    "exact_entry_set": true,
+    "files": [
+      {
+        "path": "C1/CODER_C1.json",
+        "size_bytes": 104269,
+        "expected_sha256": "39c7a015d450346a398942630b8eaea04b5f6f7ce7c9dc34503217347cbe3c22",
+        "actual_sha256": "39c7a015d450346a398942630b8eaea04b5f6f7ce7c9dc34503217347cbe3c22",
+        "match": true
+      },
+      {
+        "path": "C1/CODER_CLARIFICATION_B1A.md",
+        "size_bytes": 1251,
+        "expected_sha256": "05a87547d118f36a904e66a65c63f2096cbb592b8ff1076589590297472912e0",
+        "actual_sha256": "05a87547d118f36a904e66a65c63f2096cbb592b8ff1076589590297472912e0",
+        "match": true
+      },
+      {
+        "path": "C1/CODER_INSTRUCTIONS.md",
+        "size_bytes": 1335,
+        "expected_sha256": "f06333d4624a7e205db97e21f113d133f0b4bcb9140a17a4fca611888fd47582",
+        "actual_sha256": "f06333d4624a7e205db97e21f113d133f0b4bcb9140a17a4fca611888fd47582",
+        "match": true
+      },
+      {
+        "path": "C1/SPECIFICITY_CODEBOOK.md",
+        "size_bytes": 2783,
+        "expected_sha256": "9c63ed185d4895abefb121aea192b72b03f03a861b3bb6a0a08932971727f4f6",
+        "actual_sha256": "9c63ed185d4895abefb121aea192b72b03f03a861b3bb6a0a08932971727f4f6",
+        "match": true
+      },
+      {
+        "path": "C2/CODER_C2.json",
+        "size_bytes": 104269,
+        "expected_sha256": "e498d4275f4f8cedf036d5498f646053c2d7b5c518b54716f1be5687de6964a7",
+        "actual_sha256": "e498d4275f4f8cedf036d5498f646053c2d7b5c518b54716f1be5687de6964a7",
+        "match": true
+      },
+      {
+        "path": "C2/CODER_CLARIFICATION_B1A.md",
+        "size_bytes": 1251,
+        "expected_sha256": "05a87547d118f36a904e66a65c63f2096cbb592b8ff1076589590297472912e0",
+        "actual_sha256": "05a87547d118f36a904e66a65c63f2096cbb592b8ff1076589590297472912e0",
+        "match": true
+      },
+      {
+        "path": "C2/CODER_INSTRUCTIONS.md",
+        "size_bytes": 1335,
+        "expected_sha256": "f06333d4624a7e205db97e21f113d133f0b4bcb9140a17a4fca611888fd47582",
+        "actual_sha256": "f06333d4624a7e205db97e21f113d133f0b4bcb9140a17a4fca611888fd47582",
+        "match": true
+      },
+      {
+        "path": "C2/SPECIFICITY_CODEBOOK.md",
+        "size_bytes": 2783,
+        "expected_sha256": "9c63ed185d4895abefb121aea192b72b03f03a861b3bb6a0a08932971727f4f6",
+        "actual_sha256": "9c63ed185d4895abefb121aea192b72b03f03a861b3bb6a0a08932971727f4f6",
+        "match": true
+      },
+      {
+        "path": "C3/CODER_C3.json",
+        "size_bytes": 104269,
+        "expected_sha256": "d752d6894d2834e2e9a1eee4105eb0624774882e446aef9f84a77f775be61e5a",
+        "actual_sha256": "d752d6894d2834e2e9a1eee4105eb0624774882e446aef9f84a77f775be61e5a",
+        "match": true
+      },
+      {
+        "path": "C3/CODER_CLARIFICATION_B1A.md",
+        "size_bytes": 1251,
+        "expected_sha256": "05a87547d118f36a904e66a65c63f2096cbb592b8ff1076589590297472912e0",
+        "actual_sha256": "05a87547d118f36a904e66a65c63f2096cbb592b8ff1076589590297472912e0",
+        "match": true
+      },
+      {
+        "path": "C3/CODER_INSTRUCTIONS.md",
+        "size_bytes": 1335,
+        "expected_sha256": "f06333d4624a7e205db97e21f113d133f0b4bcb9140a17a4fca611888fd47582",
+        "actual_sha256": "f06333d4624a7e205db97e21f113d133f0b4bcb9140a17a4fca611888fd47582",
+        "match": true
+      },
+      {
+        "path": "C3/SPECIFICITY_CODEBOOK.md",
+        "size_bytes": 2783,
+        "expected_sha256": "9c63ed185d4895abefb121aea192b72b03f03a861b3bb6a0a08932971727f4f6",
+        "actual_sha256": "9c63ed185d4895abefb121aea192b72b03f03a861b3bb6a0a08932971727f4f6",
+        "match": true
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "coder_id": "C1",
+      "child_identifier": "/root/c1_b1a",
+      "spawn_tool": "collaboration.spawn_agent",
+      "spawn_arguments": {
+        "task_name": "c1_b1a",
+        "fork_turns": "none",
+        "message": "You are coder C1. Use only the four supplied files: CODER_C1.json, SPECIFICITY_CODEBOOK.md, CODER_INSTRUCTIONS.md, and CODER_CLARIFICATION_B1A.md. Follow the original instructions as clarified by the supplement. Do not inspect surrounding files, other packets, other outputs, memories, prior conversations, repositories, or web sources. Do not communicate with another coder. Return the single complete JSON object required by the instructions, preserving all card IDs and packet order exactly, with no individual explanations or surrounding prose. Use null for optional metadata unavailable to you; do not guess.\n\nSupplied files:\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C1/CODER_C1.json\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C1/SPECIFICITY_CODEBOOK.md\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C1/CODER_INSTRUCTIONS.md\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C1/CODER_CLARIFICATION_B1A.md"
+      },
+      "launch_at_utc": null,
+      "launch_observation_window_utc": {
+        "start": "2026-09-19T17:35:00.173110+00:00",
+        "end": "2026-09-19T17:35:40.030009+00:00"
+      },
+      "completed_at_utc": null,
+      "completion_observed_at_utc": "2026-09-19T17:39:21.875761+00:00",
+      "service": "ChatGPT Work",
+      "actual_model": null,
+      "actual_reasoning_setting": null,
+      "model_override": null,
+      "reasoning_override": null,
+      "original_response_file": "C1_ORIGINAL_RESPONSE.txt",
+      "original_response_sha256": "cce42f5d24751d0d1e9db78e79516a515f754c1d45104c17d08af2eaac5e0a6b",
+      "code_file": "C1_CODES.json",
+      "code_file_sha256": "cce42f5d24751d0d1e9db78e79516a515f754c1d45104c17d08af2eaac5e0a6b",
+      "corrections": [],
+      "replacements": []
+    },
+    {
+      "coder_id": "C2",
+      "child_identifier": "/root/c2_b1a",
+      "spawn_tool": "collaboration.spawn_agent",
+      "spawn_arguments": {
+        "task_name": "c2_b1a",
+        "fork_turns": "none",
+        "message": "You are coder C2. Use only the four supplied files: CODER_C2.json, SPECIFICITY_CODEBOOK.md, CODER_INSTRUCTIONS.md, and CODER_CLARIFICATION_B1A.md. Follow the original instructions as clarified by the supplement. Do not inspect surrounding files, other packets, other outputs, memories, prior conversations, repositories, or web sources. Do not communicate with another coder. Return the single complete JSON object required by the instructions, preserving all card IDs and packet order exactly, with no individual explanations or surrounding prose. Use null for optional metadata unavailable to you; do not guess.\n\nSupplied files:\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C2/CODER_C2.json\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C2/SPECIFICITY_CODEBOOK.md\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C2/CODER_INSTRUCTIONS.md\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C2/CODER_CLARIFICATION_B1A.md"
+      },
+      "launch_at_utc": null,
+      "launch_observation_window_utc": {
+        "start": "2026-09-19T17:35:00.173110+00:00",
+        "end": "2026-09-19T17:35:40.030009+00:00"
+      },
+      "completed_at_utc": null,
+      "completion_observed_at_utc": "2026-09-19T17:41:29.023809+00:00",
+      "service": "ChatGPT Work",
+      "actual_model": null,
+      "actual_reasoning_setting": null,
+      "model_override": null,
+      "reasoning_override": null,
+      "original_response_file": "C2_ORIGINAL_RESPONSE.txt",
+      "original_response_sha256": "af2c42d7df897e02d25e6593ee3dabe7e00d16c72642a67f332ccdf85b730458",
+      "code_file": "C2_CODES.json",
+      "code_file_sha256": "af2c42d7df897e02d25e6593ee3dabe7e00d16c72642a67f332ccdf85b730458",
+      "corrections": [],
+      "replacements": []
+    },
+    {
+      "coder_id": "C3",
+      "child_identifier": "/root/c3_b1a",
+      "spawn_tool": "collaboration.spawn_agent",
+      "spawn_arguments": {
+        "task_name": "c3_b1a",
+        "fork_turns": "none",
+        "message": "You are coder C3. Use only the four supplied files: CODER_C3.json, SPECIFICITY_CODEBOOK.md, CODER_INSTRUCTIONS.md, and CODER_CLARIFICATION_B1A.md. Follow the original instructions as clarified by the supplement. Do not inspect surrounding files, other packets, other outputs, memories, prior conversations, repositories, or web sources. Do not communicate with another coder. Return the single complete JSON object required by the instructions, preserving all card IDs and packet order exactly, with no individual explanations or surrounding prose. Use null for optional metadata unavailable to you; do not guess.\n\nSupplied files:\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C3/CODER_C3.json\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C3/SPECIFICITY_CODEBOOK.md\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C3/CODER_INSTRUCTIONS.md\n/workspace/scratch/f5f7047e4eb7/b1a_execution/inputs/C3/CODER_CLARIFICATION_B1A.md"
+      },
+      "launch_at_utc": null,
+      "launch_observation_window_utc": {
+        "start": "2026-09-19T17:35:00.173110+00:00",
+        "end": "2026-09-19T17:35:40.030009+00:00"
+      },
+      "completed_at_utc": null,
+      "completion_observed_at_utc": "2026-09-19T17:41:29.023809+00:00",
+      "service": "ChatGPT Work",
+      "actual_model": null,
+      "actual_reasoning_setting": null,
+      "model_override": null,
+      "reasoning_override": null,
+      "original_response_file": "C3_ORIGINAL_RESPONSE.txt",
+      "original_response_sha256": "3be8a32bbfc579460715ef19b4a5d19106326ab5f44e93f7ada463bb7dbbcde0",
+      "code_file": "C3_CODES.json",
+      "code_file_sha256": "3be8a32bbfc579460715ef19b4a5d19106326ab5f44e93f7ada463bb7dbbcde0",
+      "corrections": [],
+      "replacements": []
+    }
+  ],
+  "mechanical_validation_report": {
+    "file": "MECHANICAL_VALIDATION_REPORT.json",
+    "sha256": "31c74f54e61e688211e6175cd2c4ce202108305febdea6caf39ead0aed35fa17"
+  },
+  "coordinator_scope": "coordination, byte verification, and mechanical validation only; no coding or adjudication",
+  "external_sources_consulted": false,
+  "prior_chats_or_personal_memories_retrieved": false,
+  "unblinding_key_opened": false,
+  "published_committed_or_pushed": false,
+  "delivery": {
+    "persistent_save_status": "failed_before_upload",
+    "reason": "Upload helper could not read required authentication. No alternate upload route attempted.",
+    "observed_at_utc": "2026-09-19T17:44:20.288884+00:00",
+    "local_deliverables_available": true
+  }
+}
