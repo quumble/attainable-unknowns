@@ -61,9 +61,9 @@ python .\api-study\run.py --model sonnet --dry-run
 
 Technical smoke tests use `--stop-after`. Their response content must remain uninspected before freeze.
 
-## Confirmatory analysis candidate
+## Confirmatory analysis
 
-The actual candidate confirmatory pipeline is `analyze_confirmatory.py`.
+The frozen confirmatory pipeline is `analyze_confirmatory.py`. The founder-signed, outcome-blind Amendment A1 adds `analyze_confirmatory_a1.py` to handle separation and preserve results when model × gap cells saturate.
 
 It refuses to analyze unless it receives exactly one accepted complete full run per model and validates:
 
@@ -89,6 +89,8 @@ Analysis dependencies:
 python -m pip install -r .\api-study\requirements-analysis.txt
 ```
 
-## Status
+## Secondary specificity stage
 
-Preregistration draft under review. No substantive smoke-test responses have been inspected and no preregistration has been frozen.
+The founder-signed preregistration, A1 amendment, completed four-model collection, and accepted raw-file hashes are preserved in the repository history.
+
+The A1 primary result is preserved under `results/`. Specificity Protocol B1 fixes a deterministic 180-observation stratified sample, exact-visible duplicate collapse, three cold model coders, and blinded founder adjudication of disagreements. See `specificity/README.md`.

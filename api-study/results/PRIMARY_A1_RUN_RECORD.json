@@ -1,0 +1,82 @@
+{
+  "analysis_version": "api-pilot-0.1-amendment-a1",
+  "artifact": "api-study/results/PRIMARY_A1.json",
+  "artifact_sha256": "ca270a6ac7568a88b03ab52b00d547f81c188ec1206d4f3122b222911ab67304",
+  "canonical_inputs": [
+    {
+      "manifest_path": "api-study/data/raw/20260918T210718Z-haiku-c13f68a4.manifest.json",
+      "manifest_sha256": "908edd6f419bc5041a897d0bb25b7576a19559eb3257b6810c180c136e4152c0",
+      "model_key": "haiku",
+      "records_path": "api-study/data/raw/20260918T210718Z-haiku-c13f68a4.jsonl",
+      "records_sha256": "2ce8f319e46c4fa836a72f6392125aa3762bd9f6c340477dbba8a0330debd762",
+      "run_id": "20260918T210718Z-haiku-c13f68a4"
+    },
+    {
+      "manifest_path": "api-study/data/raw/20260918T200715Z-luna-667cc52d.manifest.json",
+      "manifest_sha256": "71500be0ab27704c16fe1e65aa57710bc6238fe7c800d73abb97c412363cc2bc",
+      "model_key": "luna",
+      "records_path": "api-study/data/raw/20260918T200715Z-luna-667cc52d.jsonl",
+      "records_sha256": "9f4d6ee729ee42360989e701cd62bc1801ca9a6b407650869ac9ef1f66d21236",
+      "run_id": "20260918T200715Z-luna-667cc52d"
+    },
+    {
+      "manifest_path": "api-study/data/raw/20260918T225249Z-sonnet-2059332f.manifest.json",
+      "manifest_sha256": "fbc6dbabc39b1ba931bbdc9b5dcfda2a1df9bde8917574399cc6960578ac038f",
+      "model_key": "sonnet",
+      "records_path": "api-study/data/raw/20260918T225249Z-sonnet-2059332f.jsonl",
+      "records_sha256": "627d372ea407103005b8244c8ab84548bdbf0310cea274a5052bdef89cba1c92",
+      "run_id": "20260918T225249Z-sonnet-2059332f"
+    },
+    {
+      "manifest_path": "api-study/data/raw/20260918T202517Z-terra-a31f0c2b.manifest.json",
+      "manifest_sha256": "f7d80b14d6f7ce2d54612bccadbcf7af7324c73ccaff3704290239dbb50febe6",
+      "model_key": "terra",
+      "records_path": "api-study/data/raw/20260918T202517Z-terra-a31f0c2b.jsonl",
+      "records_sha256": "26e312ea7f1e493beb9e04be9a0320f462fafe2927812fdec9ad6d8537b9508e",
+      "run_id": "20260918T202517Z-terra-a31f0c2b"
+    }
+  ],
+  "environment": {
+    "packages": {
+      "numpy": "2.4.6",
+      "pandas": "3.0.3",
+      "scipy": "1.18.1",
+      "statsmodels": "0.15.0"
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "execution": {
+    "adapter_scope": null,
+    "command_template": "python api-study/analyze_confirmatory_a1.py <four accepted manifests> --expected-hashes prereg/API_PILOT_0.1_FREEZE_RECORD.json --output api-study/results/PRIMARY_A1.json",
+    "portability_manifest_adapter_used": false
+  },
+  "generated_at_utc": "2026-09-19T16:26:01.313588+00:00",
+  "git": {
+    "head": "be42d8572564e290272d6cf8820d09603bf46a34",
+    "porcelain_entry_count": 8,
+    "worktree_dirty": true
+  },
+  "implementation": {
+    "a1_analyzer_path": "api-study/analyze_confirmatory_a1.py",
+    "a1_analyzer_sha256": "7136399082d60f5dc11d7c0fad58278645a67cb5fcb45f399c9fced4b18ae094",
+    "freeze_record_path": "prereg/API_PILOT_0.1_FREEZE_RECORD.json",
+    "freeze_record_sha256": "e27541e0e89692c3b64aab4cd595e84f87bb5163cf2130b038f8337e96ffc0e3",
+    "frozen_analyzer_path": "api-study/analyze_confirmatory.py",
+    "frozen_analyzer_sha256": "b98602d95c2aee47d2e5b35caa1bb858569996dce917898115b17cca25464d9d"
+  },
+  "note": "The A1 analyzer produced the result artifact. This wrapper adds only input, environment, invocation, and artifact-hash provenance.",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "summary": {
+    "attempted_records": 3600,
+    "format_invalid_successes": 0,
+    "h1_decision_status": "supported",
+    "h1_governing_estimator": "frozen_stratified_mle",
+    "h1_supported": true,
+    "h2_decision_status": "estimable",
+    "h2_governing_estimator": "firth_penalized_likelihood",
+    "h2_p": 6.549223048300583e-14,
+    "primary_format_valid_records": 3600,
+    "successful_records": 3600
+  }
+}

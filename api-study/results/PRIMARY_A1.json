@@ -1,0 +1,885 @@
+{
+  "accepted_runs": [
+    {
+      "error_requests": 0,
+      "manifest_path": "D:\\My_Life_3\\Bo Chesterton\\Research\\attainable-unknowns\\api-study\\data\\raw\\20260918T210718Z-haiku-c13f68a4.manifest.json",
+      "model_key": "haiku",
+      "records_path": "D:\\My_Life_3\\Bo Chesterton\\Research\\attainable-unknowns\\api-study\\data\\raw\\20260918T210718Z-haiku-c13f68a4.jsonl",
+      "records_sha256": "2ce8f319e46c4fa836a72f6392125aa3762bd9f6c340477dbba8a0330debd762",
+      "run_id": "20260918T210718Z-haiku-c13f68a4",
+      "successful_requests": 900
+    },
+    {
+      "error_requests": 0,
+      "manifest_path": "D:\\My_Life_3\\Bo Chesterton\\Research\\attainable-unknowns\\api-study\\data\\raw\\20260918T200715Z-luna-667cc52d.manifest.json",
+      "model_key": "luna",
+      "records_path": "D:\\My_Life_3\\Bo Chesterton\\Research\\attainable-unknowns\\api-study\\data\\raw\\20260918T200715Z-luna-667cc52d.jsonl",
+      "records_sha256": "9f4d6ee729ee42360989e701cd62bc1801ca9a6b407650869ac9ef1f66d21236",
+      "run_id": "20260918T200715Z-luna-667cc52d",
+      "successful_requests": 900
+    },
+    {
+      "error_requests": 0,
+      "manifest_path": "D:\\My_Life_3\\Bo Chesterton\\Research\\attainable-unknowns\\api-study\\data\\raw\\20260918T225249Z-sonnet-2059332f.manifest.json",
+      "model_key": "sonnet",
+      "records_path": "D:\\My_Life_3\\Bo Chesterton\\Research\\attainable-unknowns\\api-study\\data\\raw\\20260918T225249Z-sonnet-2059332f.jsonl",
+      "records_sha256": "627d372ea407103005b8244c8ab84548bdbf0310cea274a5052bdef89cba1c92",
+      "run_id": "20260918T225249Z-sonnet-2059332f",
+      "successful_requests": 900
+    },
+    {
+      "error_requests": 0,
+      "manifest_path": "D:\\My_Life_3\\Bo Chesterton\\Research\\attainable-unknowns\\api-study\\data\\raw\\20260918T202517Z-terra-a31f0c2b.manifest.json",
+      "model_key": "terra",
+      "records_path": "D:\\My_Life_3\\Bo Chesterton\\Research\\attainable-unknowns\\api-study\\data\\raw\\20260918T202517Z-terra-a31f0c2b.jsonl",
+      "records_sha256": "26e312ea7f1e493beb9e04be9a0320f462fafe2927812fdec9ad6d8537b9508e",
+      "run_id": "20260918T202517Z-terra-a31f0c2b",
+      "successful_requests": 900
+    }
+  ],
+  "amendment": {
+    "corrected_revision_utc": "2026-09-18T21:44:21Z",
+    "final_review_utc": "2026-09-18T22:36:16Z",
+    "frozen_contrast_exponentials_guarded_in_memory": true,
+    "frozen_source_unchanged": true,
+    "id": "A1",
+    "initial_draft_utc": "2026-09-18T21:10:55Z",
+    "note": "Frozen validation, stratified MLE and descriptive table are executed by importing the frozen module. H1 and H2 are diagnosed separately; each decision changes only when its own mechanical estimability/separation flag is raised.",
+    "supersedes_for_decision": "analyze_confirmatory.py"
+  },
+  "analysis_version": "api-pilot-0.1-amendment-a1",
+  "descriptive_by_model_gap": [
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "closed",
+      "model_key": "haiku",
+      "question_emission_rate_valid_successes": 1.0,
+      "question_emissions": 300,
+      "sensitivity_non_none": 300,
+      "sensitivity_non_none_rate_successes": 1.0,
+      "successes": 300
+    },
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "explicit_gap",
+      "model_key": "haiku",
+      "question_emission_rate_valid_successes": 1.0,
+      "question_emissions": 300,
+      "sensitivity_non_none": 300,
+      "sensitivity_non_none_rate_successes": 1.0,
+      "successes": 300
+    },
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "seamed",
+      "model_key": "haiku",
+      "question_emission_rate_valid_successes": 1.0,
+      "question_emissions": 300,
+      "sensitivity_non_none": 300,
+      "sensitivity_non_none_rate_successes": 1.0,
+      "successes": 300
+    },
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "closed",
+      "model_key": "luna",
+      "question_emission_rate_valid_successes": 0.39666666666666667,
+      "question_emissions": 119,
+      "sensitivity_non_none": 119,
+      "sensitivity_non_none_rate_successes": 0.39666666666666667,
+      "successes": 300
+    },
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "explicit_gap",
+      "model_key": "luna",
+      "question_emission_rate_valid_successes": 0.96,
+      "question_emissions": 288,
+      "sensitivity_non_none": 288,
+      "sensitivity_non_none_rate_successes": 0.96,
+      "successes": 300
+    },
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "seamed",
+      "model_key": "luna",
+      "question_emission_rate_valid_successes": 0.7233333333333334,
+      "question_emissions": 217,
+      "sensitivity_non_none": 217,
+      "sensitivity_non_none_rate_successes": 0.7233333333333334,
+      "successes": 300
+    },
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "closed",
+      "model_key": "sonnet",
+      "question_emission_rate_valid_successes": 0.5966666666666667,
+      "question_emissions": 179,
+      "sensitivity_non_none": 179,
+      "sensitivity_non_none_rate_successes": 0.5966666666666667,
+      "successes": 300
+    },
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "explicit_gap",
+      "model_key": "sonnet",
+      "question_emission_rate_valid_successes": 0.8666666666666667,
+      "question_emissions": 260,
+      "sensitivity_non_none": 260,
+      "sensitivity_non_none_rate_successes": 0.8666666666666667,
+      "successes": 300
+    },
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "seamed",
+      "model_key": "sonnet",
+      "question_emission_rate_valid_successes": 0.7866666666666666,
+      "question_emissions": 236,
+      "sensitivity_non_none": 236,
+      "sensitivity_non_none_rate_successes": 0.7866666666666666,
+      "successes": 300
+    },
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "closed",
+      "model_key": "terra",
+      "question_emission_rate_valid_successes": 0.6,
+      "question_emissions": 180,
+      "sensitivity_non_none": 180,
+      "sensitivity_non_none_rate_successes": 0.6,
+      "successes": 300
+    },
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "explicit_gap",
+      "model_key": "terra",
+      "question_emission_rate_valid_successes": 0.99,
+      "question_emissions": 297,
+      "sensitivity_non_none": 297,
+      "sensitivity_non_none_rate_successes": 0.99,
+      "successes": 300
+    },
+    {
+      "attempts": 300,
+      "format_invalid_rate_successes": 0.0,
+      "format_invalid_successes": 0,
+      "format_valid_successes": 300,
+      "gap_structure": "seamed",
+      "model_key": "terra",
+      "question_emission_rate_valid_successes": 0.81,
+      "question_emissions": 243,
+      "sensitivity_non_none": 243,
+      "sensitivity_non_none_rate_successes": 0.81,
+      "successes": 300
+    }
+  ],
+  "expected_hashes": {
+    "config_sha256": "bbed78b54da3c48565ef4fc90209d6a76697811e5919320de7966253d47e5c41",
+    "passages_sha256": "1d2a1f9b788e4882968d074d032fd916b70542a07c2440ec58d1359d8817475b",
+    "runner_sha256": "01d80096afc3dea23dda380a89128e472a81526d763f6a5f470969261ce45c00"
+  },
+  "primary_estimand": "P(question emission | successful, format-valid response) for the frozen passages and API draws",
+  "primary_outcome": {
+    "firth_fallback": {
+      "h1": {
+        "alpha": 0.05,
+        "decision_rule": "Identical intersection-union rule to the frozen analysis: H1 is supported only if both prespecified one-sided adjacent contrasts have p < alpha. No multiplicity correction.",
+        "decision_status": "estimable",
+        "estimator": "Firth penalized likelihood (Firth 1993), penalized LR tests",
+        "explicit_gt_seamed": {
+          "alternative": "greater",
+          "contrast": "explicit_gt_seamed",
+          "decision_status": "estimable",
+          "df": 1,
+          "full_converged": true,
+          "full_score_max_abs": 1.424780293746153e-10,
+          "indeterminate_reason": null,
+          "null_converged": true,
+          "null_score_max_abs": 8.397194051212864e-11,
+          "odds_ratio": 12.452363153718704,
+          "odds_ratio_ci95_wald": [
+            8.030316621193695,
+            19.309493688312575
+          ],
+          "p": 3.613096061039757e-39,
+          "penalized_log_odds_difference": 2.5219104164424557,
+          "penalized_lr_statistic": 170.04696210351767,
+          "wald_standard_error": 0.22382373499406785
+        },
+        "explicit_vs_closed_secondary": {
+          "odds_ratio": 142.5315017543757,
+          "odds_ratio_ci95_wald": [
+            85.69176998463088,
+            237.07328015282232
+          ],
+          "penalized_log_odds_difference": 4.959563040220439,
+          "wald_standard_error": 0.259599796778411
+        },
+        "h1_supported": true,
+        "indeterminate_reason": null,
+        "seamed_gt_closed": {
+          "alternative": "greater",
+          "contrast": "seamed_gt_closed",
+          "decision_status": "estimable",
+          "df": 1,
+          "full_converged": true,
+          "full_score_max_abs": 1.424780293746153e-10,
+          "indeterminate_reason": null,
+          "null_converged": true,
+          "null_score_max_abs": 2.2466917215524518e-11,
+          "odds_ratio": 11.446140784274421,
+          "odds_ratio_ci95_wald": [
+            8.062195250930857,
+            16.25042991092326
+          ],
+          "p": 1.3064440139406312e-54,
+          "penalized_log_odds_difference": 2.437652623777983,
+          "penalized_lr_statistic": 240.81444771436554,
+          "wald_standard_error": 0.1788128473120226
+        }
+      },
+      "h2": {
+        "alpha": 0.05,
+        "decision_status": "estimable",
+        "df": 6,
+        "full_converged": true,
+        "full_score_max_abs": 8.32185362287241e-12,
+        "indeterminate_reason": null,
+        "p": 6.549223048300583e-14,
+        "penalized_lr_statistic": 73.87240825653703,
+        "reduced_converged": true,
+        "reduced_score_max_abs": 1.0280407081175724e-10,
+        "test": "penalized likelihood-ratio comparison of common categorical gap effects vs model-specific categorical gap effects (Firth)"
+      }
+    },
+    "frozen_mle": {
+      "h1": {
+        "alpha": 0.05,
+        "decision_rule": "H1 is supported only if both prespecified one-sided adjacent contrasts have p < alpha. This is an intersection-union test; no multiplicity correction is applied to the two component tests.",
+        "explicit_gt_seamed": {
+          "alternative": "greater",
+          "log_odds_difference": 2.581927326902167,
+          "odds_ratio": 13.222597885791597,
+          "odds_ratio_ci95": [
+            8.448802804230702,
+            20.693712340142614
+          ],
+          "p": 6.698169190697461e-30,
+          "standard_error": 0.22852592143342249,
+          "z": 11.298181452270708
+        },
+        "explicit_vs_closed_secondary": {
+          "alternative": "two-sided",
+          "log_odds_difference": 5.0779582725366,
+          "odds_ratio": 160.44613400073467,
+          "odds_ratio_ci95": [
+            94.96585689375124,
+            271.07597148923946
+          ],
+          "p": 2.6138656682383104e-80,
+          "standard_error": 0.267576777324099,
+          "z": 18.97757467340294
+        },
+        "h1_supported": true,
+        "seamed_gt_closed": {
+          "alternative": "greater",
+          "log_odds_difference": 2.496030945634433,
+          "odds_ratio": 12.13423681084205,
+          "odds_ratio_ci95": [
+            8.447028888335506,
+            17.430945830541365
+          ],
+          "p": 7.196606793672565e-42,
+          "standard_error": 0.18480756779202206,
+          "z": 13.506107869150714
+        }
+      },
+      "h1_error": null,
+      "h2": {
+        "alpha": 0.05,
+        "df": 6,
+        "lr_statistic": 75.56356439519573,
+        "p": 2.938290046819074e-14,
+        "test": "likelihood-ratio comparison of common categorical gap effects vs model-specific categorical gap effects"
+      },
+      "h2_error": null
+    },
+    "governing_estimators": {
+      "h1": "frozen_stratified_mle",
+      "h2": "firth_penalized_likelihood"
+    },
+    "h1_decision_status": "supported",
+    "h1_supported_governing": true,
+    "h2_decision_status": "estimable",
+    "h2_p_governing": 6.549223048300583e-14,
+    "permutation_corroboration": {
+      "explicit_gt_seamed": {
+        "alternative": "greater",
+        "contrast": "explicit_gap_gt_seamed",
+        "exchangeability_assumption": "Within each model x topic stratum, outcomes are exchangeable between the two compared gap conditions under the null.",
+        "monte_carlo_draws": 100000,
+        "observed": 0.12416666666666666,
+        "p": 9.99990000099999e-06,
+        "p_value_method": "plus-one Monte Carlo p-value from the stratified conditional hypergeometric null",
+        "seed": 91826,
+        "statistic": "mean over model x topic strata of (rate_A - rate_B)",
+        "strata_used": 48
+      },
+      "seamed_gt_closed": {
+        "alternative": "greater",
+        "contrast": "seamed_gt_closed",
+        "exchangeability_assumption": "Within each model x topic stratum, outcomes are exchangeable between the two compared gap conditions under the null.",
+        "monte_carlo_draws": 100000,
+        "observed": 0.18166666666666667,
+        "p": 9.99990000099999e-06,
+        "p_value_method": "plus-one Monte Carlo p-value from the stratified conditional hypergeometric null",
+        "seed": 91826,
+        "statistic": "mean over model x topic strata of (rate_A - rate_B)",
+        "strata_used": 48
+      }
+    },
+    "separation_diagnostics": {
+      "h1": {
+        "converged": true,
+        "coverage_complete": true,
+        "degenerate_stratum_by_gap_cells": 101,
+        "flag_reasons": [],
+        "gap_effect_coefficients": {
+          "gap_explicit": 5.0779582725366,
+          "gap_seamed": 2.496030945634433
+        },
+        "gap_effect_standard_errors": {
+          "gap_explicit": 0.267576777324099,
+          "gap_seamed": 0.18480756779202206
+        },
+        "missing_required_groups": [],
+        "mle_fit_error": null,
+        "observations_by_required_group": {
+          "closed": 1200,
+          "explicit_gap": 1200,
+          "seamed": 1200
+        },
+        "rate_by_required_group": {
+          "closed": 0.6483333333333333,
+          "explicit_gap": 0.9541666666666667,
+          "seamed": 0.83
+        },
+        "rate_group_columns": [
+          "gap_structure"
+        ],
+        "saturated_required_groups": [],
+        "separation_flag": false,
+        "separation_or_estimability_flag": false,
+        "test": "H1 common gap effects",
+        "thresholds": {
+          "abs_beta": 10.0,
+          "standard_error": 10.0
+        },
+        "total_observed_stratum_by_gap_cells": 144
+      },
+      "h2": {
+        "converged": true,
+        "coverage_complete": true,
+        "degenerate_stratum_by_gap_cells": 101,
+        "flag_reasons": [
+          "gap_effect_coefficient_abs_ge_10",
+          "gap_effect_standard_error_ge_10",
+          "required_rate_group_saturated_at_0_or_1"
+        ],
+        "gap_effect_coefficients": {
+          "gap_explicit": 7.581424942704196e-05,
+          "gap_seamed": 6.471397216500918e-05,
+          "model_luna:gap_explicit": 6.517860525388866,
+          "model_luna:gap_seamed": 2.6204798870489125,
+          "model_sonnet:gap_explicit": 3.038273033228131,
+          "model_sonnet:gap_seamed": 2.0734876419267936,
+          "model_terra:gap_explicit": 30.33681162900317,
+          "model_terra:gap_seamed": 3.1124165523210334
+        },
+        "gap_effect_standard_errors": {
+          "gap_explicit": 47939.71847456691,
+          "gap_seamed": 47939.71847463795,
+          "model_luna:gap_explicit": 47939.71847806628,
+          "model_luna:gap_seamed": 47939.71847549761,
+          "model_sonnet:gap_explicit": 47939.71847575771,
+          "model_sonnet:gap_seamed": 47939.718475610935,
+          "model_terra:gap_explicit": 53997.09203469293,
+          "model_terra:gap_seamed": 47939.718476594804
+        },
+        "missing_required_groups": [],
+        "mle_fit_error": null,
+        "observations_by_required_group": {
+          "haiku::closed": 300,
+          "haiku::explicit_gap": 300,
+          "haiku::seamed": 300,
+          "luna::closed": 300,
+          "luna::explicit_gap": 300,
+          "luna::seamed": 300,
+          "sonnet::closed": 300,
+          "sonnet::explicit_gap": 300,
+          "sonnet::seamed": 300,
+          "terra::closed": 300,
+          "terra::explicit_gap": 300,
+          "terra::seamed": 300
+        },
+        "rate_by_required_group": {
+          "haiku::closed": 1.0,
+          "haiku::explicit_gap": 1.0,
+          "haiku::seamed": 1.0,
+          "luna::closed": 0.39666666666666667,
+          "luna::explicit_gap": 0.96,
+          "luna::seamed": 0.7233333333333334,
+          "sonnet::closed": 0.5966666666666667,
+          "sonnet::explicit_gap": 0.8666666666666667,
+          "sonnet::seamed": 0.7866666666666666,
+          "terra::closed": 0.6,
+          "terra::explicit_gap": 0.99,
+          "terra::seamed": 0.81
+        },
+        "rate_group_columns": [
+          "model_key",
+          "gap_structure"
+        ],
+        "saturated_required_groups": [
+          "haiku::closed",
+          "haiku::explicit_gap",
+          "haiku::seamed"
+        ],
+        "separation_flag": true,
+        "separation_or_estimability_flag": true,
+        "test": "H2 model-specific gap effects",
+        "thresholds": {
+          "abs_beta": 10.0,
+          "standard_error": 10.0
+        },
+        "total_observed_stratum_by_gap_cells": 144
+      }
+    }
+  },
+  "sensitivity_any_nonempty_non_none": {
+    "estimand": "P(nonempty non-NONE response | successful response)",
+    "firth_fallback": {
+      "h1": {
+        "alpha": 0.05,
+        "decision_rule": "Identical intersection-union rule to the frozen analysis: H1 is supported only if both prespecified one-sided adjacent contrasts have p < alpha. No multiplicity correction.",
+        "decision_status": "estimable",
+        "estimator": "Firth penalized likelihood (Firth 1993), penalized LR tests",
+        "explicit_gt_seamed": {
+          "alternative": "greater",
+          "contrast": "explicit_gt_seamed",
+          "decision_status": "estimable",
+          "df": 1,
+          "full_converged": true,
+          "full_score_max_abs": 1.424780293746153e-10,
+          "indeterminate_reason": null,
+          "null_converged": true,
+          "null_score_max_abs": 8.397194051212864e-11,
+          "odds_ratio": 12.452363153718704,
+          "odds_ratio_ci95_wald": [
+            8.030316621193695,
+            19.309493688312575
+          ],
+          "p": 3.613096061039757e-39,
+          "penalized_log_odds_difference": 2.5219104164424557,
+          "penalized_lr_statistic": 170.04696210351767,
+          "wald_standard_error": 0.22382373499406785
+        },
+        "explicit_vs_closed_secondary": {
+          "odds_ratio": 142.5315017543757,
+          "odds_ratio_ci95_wald": [
+            85.69176998463088,
+            237.07328015282232
+          ],
+          "penalized_log_odds_difference": 4.959563040220439,
+          "wald_standard_error": 0.259599796778411
+        },
+        "h1_supported": true,
+        "indeterminate_reason": null,
+        "seamed_gt_closed": {
+          "alternative": "greater",
+          "contrast": "seamed_gt_closed",
+          "decision_status": "estimable",
+          "df": 1,
+          "full_converged": true,
+          "full_score_max_abs": 1.424780293746153e-10,
+          "indeterminate_reason": null,
+          "null_converged": true,
+          "null_score_max_abs": 2.2466917215524518e-11,
+          "odds_ratio": 11.446140784274421,
+          "odds_ratio_ci95_wald": [
+            8.062195250930857,
+            16.25042991092326
+          ],
+          "p": 1.3064440139406312e-54,
+          "penalized_log_odds_difference": 2.437652623777983,
+          "penalized_lr_statistic": 240.81444771436554,
+          "wald_standard_error": 0.1788128473120226
+        }
+      },
+      "h2": {
+        "alpha": 0.05,
+        "decision_status": "estimable",
+        "df": 6,
+        "full_converged": true,
+        "full_score_max_abs": 8.32185362287241e-12,
+        "indeterminate_reason": null,
+        "p": 6.549223048300583e-14,
+        "penalized_lr_statistic": 73.87240825653703,
+        "reduced_converged": true,
+        "reduced_score_max_abs": 1.0280407081175724e-10,
+        "test": "penalized likelihood-ratio comparison of common categorical gap effects vs model-specific categorical gap effects (Firth)"
+      }
+    },
+    "frozen_mle": {
+      "h1": {
+        "alpha": 0.05,
+        "decision_rule": "H1 is supported only if both prespecified one-sided adjacent contrasts have p < alpha. This is an intersection-union test; no multiplicity correction is applied to the two component tests.",
+        "explicit_gt_seamed": {
+          "alternative": "greater",
+          "log_odds_difference": 2.581927326902167,
+          "odds_ratio": 13.222597885791597,
+          "odds_ratio_ci95": [
+            8.448802804230702,
+            20.693712340142614
+          ],
+          "p": 6.698169190697461e-30,
+          "standard_error": 0.22852592143342249,
+          "z": 11.298181452270708
+        },
+        "explicit_vs_closed_secondary": {
+          "alternative": "two-sided",
+          "log_odds_difference": 5.0779582725366,
+          "odds_ratio": 160.44613400073467,
+          "odds_ratio_ci95": [
+            94.96585689375124,
+            271.07597148923946
+          ],
+          "p": 2.6138656682383104e-80,
+          "standard_error": 0.267576777324099,
+          "z": 18.97757467340294
+        },
+        "h1_supported": true,
+        "seamed_gt_closed": {
+          "alternative": "greater",
+          "log_odds_difference": 2.496030945634433,
+          "odds_ratio": 12.13423681084205,
+          "odds_ratio_ci95": [
+            8.447028888335506,
+            17.430945830541365
+          ],
+          "p": 7.196606793672565e-42,
+          "standard_error": 0.18480756779202206,
+          "z": 13.506107869150714
+        }
+      },
+      "h1_error": null,
+      "h2": {
+        "alpha": 0.05,
+        "df": 6,
+        "lr_statistic": 75.56356439519573,
+        "p": 2.938290046819074e-14,
+        "test": "likelihood-ratio comparison of common categorical gap effects vs model-specific categorical gap effects"
+      },
+      "h2_error": null
+    },
+    "governing_estimators": {
+      "h1": "frozen_stratified_mle",
+      "h2": "firth_penalized_likelihood"
+    },
+    "h1_decision_status": "supported",
+    "h1_supported_governing": true,
+    "h2_decision_status": "estimable",
+    "h2_p_governing": 6.549223048300583e-14,
+    "permutation_corroboration": {
+      "explicit_gt_seamed": {
+        "alternative": "greater",
+        "contrast": "explicit_gap_gt_seamed",
+        "exchangeability_assumption": "Within each model x topic stratum, outcomes are exchangeable between the two compared gap conditions under the null.",
+        "monte_carlo_draws": 100000,
+        "observed": 0.12416666666666666,
+        "p": 9.99990000099999e-06,
+        "p_value_method": "plus-one Monte Carlo p-value from the stratified conditional hypergeometric null",
+        "seed": 91826,
+        "statistic": "mean over model x topic strata of (rate_A - rate_B)",
+        "strata_used": 48
+      },
+      "seamed_gt_closed": {
+        "alternative": "greater",
+        "contrast": "seamed_gt_closed",
+        "exchangeability_assumption": "Within each model x topic stratum, outcomes are exchangeable between the two compared gap conditions under the null.",
+        "monte_carlo_draws": 100000,
+        "observed": 0.18166666666666667,
+        "p": 9.99990000099999e-06,
+        "p_value_method": "plus-one Monte Carlo p-value from the stratified conditional hypergeometric null",
+        "seed": 91826,
+        "statistic": "mean over model x topic strata of (rate_A - rate_B)",
+        "strata_used": 48
+      }
+    },
+    "separation_diagnostics": {
+      "h1": {
+        "converged": true,
+        "coverage_complete": true,
+        "degenerate_stratum_by_gap_cells": 101,
+        "flag_reasons": [],
+        "gap_effect_coefficients": {
+          "gap_explicit": 5.0779582725366,
+          "gap_seamed": 2.496030945634433
+        },
+        "gap_effect_standard_errors": {
+          "gap_explicit": 0.267576777324099,
+          "gap_seamed": 0.18480756779202206
+        },
+        "missing_required_groups": [],
+        "mle_fit_error": null,
+        "observations_by_required_group": {
+          "closed": 1200,
+          "explicit_gap": 1200,
+          "seamed": 1200
+        },
+        "rate_by_required_group": {
+          "closed": 0.6483333333333333,
+          "explicit_gap": 0.9541666666666667,
+          "seamed": 0.83
+        },
+        "rate_group_columns": [
+          "gap_structure"
+        ],
+        "saturated_required_groups": [],
+        "separation_flag": false,
+        "separation_or_estimability_flag": false,
+        "test": "H1 common gap effects",
+        "thresholds": {
+          "abs_beta": 10.0,
+          "standard_error": 10.0
+        },
+        "total_observed_stratum_by_gap_cells": 144
+      },
+      "h2": {
+        "converged": true,
+        "coverage_complete": true,
+        "degenerate_stratum_by_gap_cells": 101,
+        "flag_reasons": [
+          "gap_effect_coefficient_abs_ge_10",
+          "gap_effect_standard_error_ge_10",
+          "required_rate_group_saturated_at_0_or_1"
+        ],
+        "gap_effect_coefficients": {
+          "gap_explicit": 7.581424942704196e-05,
+          "gap_seamed": 6.471397216500918e-05,
+          "model_luna:gap_explicit": 6.517860525388866,
+          "model_luna:gap_seamed": 2.6204798870489125,
+          "model_sonnet:gap_explicit": 3.038273033228131,
+          "model_sonnet:gap_seamed": 2.0734876419267936,
+          "model_terra:gap_explicit": 30.33681162900317,
+          "model_terra:gap_seamed": 3.1124165523210334
+        },
+        "gap_effect_standard_errors": {
+          "gap_explicit": 47939.71847456691,
+          "gap_seamed": 47939.71847463795,
+          "model_luna:gap_explicit": 47939.71847806628,
+          "model_luna:gap_seamed": 47939.71847549761,
+          "model_sonnet:gap_explicit": 47939.71847575771,
+          "model_sonnet:gap_seamed": 47939.718475610935,
+          "model_terra:gap_explicit": 53997.09203469293,
+          "model_terra:gap_seamed": 47939.718476594804
+        },
+        "missing_required_groups": [],
+        "mle_fit_error": null,
+        "observations_by_required_group": {
+          "haiku::closed": 300,
+          "haiku::explicit_gap": 300,
+          "haiku::seamed": 300,
+          "luna::closed": 300,
+          "luna::explicit_gap": 300,
+          "luna::seamed": 300,
+          "sonnet::closed": 300,
+          "sonnet::explicit_gap": 300,
+          "sonnet::seamed": 300,
+          "terra::closed": 300,
+          "terra::explicit_gap": 300,
+          "terra::seamed": 300
+        },
+        "rate_by_required_group": {
+          "haiku::closed": 1.0,
+          "haiku::explicit_gap": 1.0,
+          "haiku::seamed": 1.0,
+          "luna::closed": 0.39666666666666667,
+          "luna::explicit_gap": 0.96,
+          "luna::seamed": 0.7233333333333334,
+          "sonnet::closed": 0.5966666666666667,
+          "sonnet::explicit_gap": 0.8666666666666667,
+          "sonnet::seamed": 0.7866666666666666,
+          "terra::closed": 0.6,
+          "terra::explicit_gap": 0.99,
+          "terra::seamed": 0.81
+        },
+        "rate_group_columns": [
+          "model_key",
+          "gap_structure"
+        ],
+        "saturated_required_groups": [
+          "haiku::closed",
+          "haiku::explicit_gap",
+          "haiku::seamed"
+        ],
+        "separation_flag": true,
+        "separation_or_estimability_flag": true,
+        "test": "H2 model-specific gap effects",
+        "thresholds": {
+          "abs_beta": 10.0,
+          "standard_error": 10.0
+        },
+        "total_observed_stratum_by_gap_cells": 144
+      }
+    }
+  },
+  "truncation_diagnostics": {
+    "by_model_gap": [
+      {
+        "gap_structure": "closed",
+        "model_key": "haiku",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      },
+      {
+        "gap_structure": "explicit_gap",
+        "model_key": "haiku",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      },
+      {
+        "gap_structure": "seamed",
+        "model_key": "haiku",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      },
+      {
+        "gap_structure": "closed",
+        "model_key": "luna",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      },
+      {
+        "gap_structure": "explicit_gap",
+        "model_key": "luna",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      },
+      {
+        "gap_structure": "seamed",
+        "model_key": "luna",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      },
+      {
+        "gap_structure": "closed",
+        "model_key": "sonnet",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      },
+      {
+        "gap_structure": "explicit_gap",
+        "model_key": "sonnet",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      },
+      {
+        "gap_structure": "seamed",
+        "model_key": "sonnet",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      },
+      {
+        "gap_structure": "closed",
+        "model_key": "terra",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      },
+      {
+        "gap_structure": "explicit_gap",
+        "model_key": "terra",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      },
+      {
+        "gap_structure": "seamed",
+        "model_key": "terra",
+        "openai_incomplete_responses": 0,
+        "successful_responses": 300,
+        "truncated_responses": 0,
+        "truncation_rate": 0.0
+      }
+    ],
+    "decision_bearing": false,
+    "definition": "provider metadata indicates an output-token-limit stop",
+    "note": "This diagnostic does not alter frozen parsing or denominators. It distinguishes provider-reported truncation from ordinary format invalidity for interpretation and sensitivity reporting.",
+    "openai_incomplete_responses": 0,
+    "reason_counts": {},
+    "successful_responses": 3600,
+    "truncated_responses": 0,
+    "truncation_rate": 0.0
+  },
+  "validation": {
+    "attempted_records": 3600,
+    "empty_successful_responses": 0,
+    "format_invalid_successes": 0,
+    "primary_format_valid_records": 3600,
+    "successful_records": 3600
+  }
+}

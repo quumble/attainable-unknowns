@@ -10,7 +10,7 @@ The project began with a human-participant browser pilot. A first internal test 
 
 The human pilot remains preserved as provenance.
 
-The active direction is now a four-model API pilot asking a narrower question:
+The active direction is a completed four-model API pilot asking a narrower question:
 
 > When a separate stateless API draw reads an informational passage, does the response emit a follow-up question, or does it produce `NONE`?
 
@@ -35,13 +35,15 @@ Twelve topic families each receive:
 
 Eight are ordinary human-world domains and four concern possible conditions of AI systems. Those classes are descriptive; gap structure is the confirmatory manipulation.
 
-At 25 separate API draws per fixed condition:
+At 25 separate API draws per fixed condition, the accepted collection contains:
 
 - 36 passage conditions
 - 900 attempts per model
-- 3,600 planned attempts total
+- 3,600 successful attempts total
 
-See [api-study/README.md](api-study/README.md), [api-study/DESIGN.md](api-study/DESIGN.md), and the current preregistration draft under [prereg/](prereg/).
+The preregistered primary analysis is complete. The next stage is the sampled, blinded semantic-specificity coding governed by Specificity Protocol B1.
+
+See [api-study/README.md](api-study/README.md), [api-study/DESIGN.md](api-study/DESIGN.md), and the frozen and post-freeze records under [prereg/](prereg/).
 
 ## Earlier human pilot
 

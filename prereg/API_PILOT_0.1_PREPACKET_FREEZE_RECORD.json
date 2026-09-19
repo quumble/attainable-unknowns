@@ -1,0 +1,123 @@
+{
+  "accepted_runs": [
+    {
+      "manifest_path": "api-study/data/raw/20260918T210718Z-haiku-c13f68a4.manifest.json",
+      "manifest_sha256": "908edd6f419bc5041a897d0bb25b7576a19559eb3257b6810c180c136e4152c0",
+      "model_key": "haiku",
+      "records_sha256": "2ce8f319e46c4fa836a72f6392125aa3762bd9f6c340477dbba8a0330debd762",
+      "run_id": "20260918T210718Z-haiku-c13f68a4"
+    },
+    {
+      "manifest_path": "api-study/data/raw/20260918T200715Z-luna-667cc52d.manifest.json",
+      "manifest_sha256": "71500be0ab27704c16fe1e65aa57710bc6238fe7c800d73abb97c412363cc2bc",
+      "model_key": "luna",
+      "records_sha256": "9f4d6ee729ee42360989e701cd62bc1801ca9a6b407650869ac9ef1f66d21236",
+      "run_id": "20260918T200715Z-luna-667cc52d"
+    },
+    {
+      "manifest_path": "api-study/data/raw/20260918T225249Z-sonnet-2059332f.manifest.json",
+      "manifest_sha256": "fbc6dbabc39b1ba931bbdc9b5dcfda2a1df9bde8917574399cc6960578ac038f",
+      "model_key": "sonnet",
+      "records_sha256": "627d372ea407103005b8244c8ab84548bdbf0310cea274a5052bdef89cba1c92",
+      "run_id": "20260918T225249Z-sonnet-2059332f"
+    },
+    {
+      "manifest_path": "api-study/data/raw/20260918T202517Z-terra-a31f0c2b.manifest.json",
+      "manifest_sha256": "f7d80b14d6f7ce2d54612bccadbcf7af7324c73ccaff3704290239dbb50febe6",
+      "model_key": "terra",
+      "records_sha256": "26e312ea7f1e493beb9e04be9a0320f462fafe2927812fdec9ad6d8537b9508e",
+      "run_id": "20260918T202517Z-terra-a31f0c2b"
+    }
+  ],
+  "adoption_instruction": "Create one founder-signed Git commit containing this record and every frozen file, then verify it with git verify-commit before generating the packet.",
+  "base_git_state": {
+    "head_before_freeze_commit": "be42d8572564e290272d6cf8820d09603bf46a34",
+    "head_signature_status": "E",
+    "note": "The signed commit that adds this record and the frozen files is the adoption act; the pre-commit HEAD is recorded only as provenance.",
+    "porcelain_entry_count": 8,
+    "worktree_dirty_while_building_candidate": true
+  },
+  "frozen_files_sha256": {
+    "api-study/SPECIFICITY_CODEBOOK.md": "c304db90e85a6cfaa68bb03354ad9960e63a109573c9a8fe8f6e3b4ccd76d574",
+    "api-study/analyze_confirmatory.py": "b98602d95c2aee47d2e5b35caa1bb858569996dce917898115b17cca25464d9d",
+    "api-study/analyze_confirmatory_a1.py": "7136399082d60f5dc11d7c0fad58278645a67cb5fcb45f399c9fced4b18ae094",
+    "api-study/config.yaml": "bbed78b54da3c48565ef4fc90209d6a76697811e5919320de7966253d47e5c41",
+    "api-study/data/raw/20260918T200715Z-luna-667cc52d.jsonl": "9f4d6ee729ee42360989e701cd62bc1801ca9a6b407650869ac9ef1f66d21236",
+    "api-study/data/raw/20260918T200715Z-luna-667cc52d.manifest.json": "71500be0ab27704c16fe1e65aa57710bc6238fe7c800d73abb97c412363cc2bc",
+    "api-study/data/raw/20260918T202517Z-terra-a31f0c2b.jsonl": "26e312ea7f1e493beb9e04be9a0320f462fafe2927812fdec9ad6d8537b9508e",
+    "api-study/data/raw/20260918T202517Z-terra-a31f0c2b.manifest.json": "f7d80b14d6f7ce2d54612bccadbcf7af7324c73ccaff3704290239dbb50febe6",
+    "api-study/data/raw/20260918T210718Z-haiku-c13f68a4.jsonl": "2ce8f319e46c4fa836a72f6392125aa3762bd9f6c340477dbba8a0330debd762",
+    "api-study/data/raw/20260918T210718Z-haiku-c13f68a4.manifest.json": "908edd6f419bc5041a897d0bb25b7576a19559eb3257b6810c180c136e4152c0",
+    "api-study/data/raw/20260918T225249Z-sonnet-2059332f.jsonl": "627d372ea407103005b8244c8ab84548bdbf0310cea274a5052bdef89cba1c92",
+    "api-study/data/raw/20260918T225249Z-sonnet-2059332f.manifest.json": "fbc6dbabc39b1ba931bbdc9b5dcfda2a1df9bde8917574399cc6960578ac038f",
+    "api-study/passages.json": "1d2a1f9b788e4882968d074d032fd916b70542a07c2440ec58d1359d8817475b",
+    "api-study/requirements-analysis.txt": "e1fca1685e84dc52499cbd6a3c3624763c2a875c24216af845bf55b31aee6357",
+    "api-study/results/PRIMARY_A1.json": "ca270a6ac7568a88b03ab52b00d547f81c188ec1206d4f3122b222911ab67304",
+    "api-study/results/PRIMARY_A1_RUN_RECORD.json": "16bb0e64a9f29cbea8211fa6d139aeb7b07029e8047b70f72a6357bd667c0533",
+    "api-study/run_primary_a1_record.py": "512830a349de9f94b30b3ced1ed10cd7bf1c19e3da2e522cf3cb01388278ef31",
+    "api-study/specificity/CODER_INSTRUCTIONS.md": "541d21c59740ad0087201f61f0cdab149918eda7446885cbf8088647a75d61df",
+    "api-study/specificity/README.md": "fbf58b05ada8a98ce048500c39fa017fbe3e909cce6e79d7c163000b5f0072ff",
+    "api-study/specificity/coder.html": "4d9b92aea53f89eddddddd18b187e153af6d83a1095b9f37bbeaaa30bb5b6b41",
+    "api-study/specificity/coding_pipeline.py": "5fda141a2c875196012b8d31e42085fa7c0cc3cdfe7c578d0f74498daf1098c9",
+    "api-study/specificity/generate_packet.py": "af1d351d5fa7959c7e4e74d563d94f775a571c1d9d96034e6654ca65a841c292",
+    "prereg/API_PILOT_0.1_AMENDMENT_A1.md": "8971c3e453ffcbbffacdc4eb35f4e23e05b6b4d1c7e73871b50bedf8a1c42631",
+    "prereg/API_PILOT_0.1_FREEZE_RECORD.json": "e27541e0e89692c3b64aab4cd595e84f87bb5163cf2130b038f8337e96ffc0e3",
+    "prereg/API_PILOT_0.1_PREREGISTRATION.md": "2857f19144adee316add0ec590c25a3d47b1d8be221c34ede8e865f2144afcbb",
+    "prereg/API_PILOT_0.1_SPECIFICITY_PROTOCOL_B1.md": "dc52677c9eb5751ee9eec54e802a063549cd0131e5baed0eca188830425c99ee"
+  },
+  "generated_at_utc": "2026-09-19T16:27:01.011560+00:00",
+  "item_level_unblinding_status": "not_performed",
+  "knowledge_disclosure": {
+    "founder_knew_aggregate_primary_result": true,
+    "mechanical_workload_sizing_performed_before_freeze": true,
+    "preparing_assistant_knew_aggregate_primary_result": true,
+    "preparing_assistant_raw_item_texts_displayed_for_schema_check": 1,
+    "raw_item_text_used_to_choose_sampling_or_coding_rules": false,
+    "semantic_item_codes_assigned_before_freeze": false
+  },
+  "mechanical_preflight": {
+    "accepted_records": 3600,
+    "cards_with_multiplicity_gt_1": 8,
+    "eligible_by_model_gap": {
+      "haiku::closed": 300,
+      "haiku::explicit_gap": 300,
+      "haiku::seamed": 300,
+      "luna::closed": 119,
+      "luna::explicit_gap": 288,
+      "luna::seamed": 217,
+      "sonnet::closed": 179,
+      "sonnet::explicit_gap": 260,
+      "sonnet::seamed": 236,
+      "terra::closed": 180,
+      "terra::explicit_gap": 297,
+      "terra::seamed": 243
+    },
+    "eligible_observations": 2919,
+    "maximum_card_multiplicity": 4,
+    "packet_id": "AU-SPEC-B1-9cb85543ab599f47",
+    "sampled_observations": 180,
+    "status": "preflight_complete_no_packet_written",
+    "unique_visible_cards": 169
+  },
+  "packet_status": "not_generated",
+  "primary_analysis_artifact": "api-study/results/PRIMARY_A1.json",
+  "primary_analysis_artifact_sha256": "ca270a6ac7568a88b03ab52b00d547f81c188ec1206d4f3122b222911ab67304",
+  "primary_analysis_run_record": "api-study/results/PRIMARY_A1_RUN_RECORD.json",
+  "primary_analysis_run_record_sha256": "16bb0e64a9f29cbea8211fa6d139aeb7b07029e8047b70f72a6357bd667c0533",
+  "primary_analysis_summary": {
+    "attempted_records": 3600,
+    "h1_decision_status": "supported",
+    "h1_governing_estimator": "frozen_stratified_mle",
+    "h1_supported": true,
+    "h2_decision_status": "estimable",
+    "h2_governing_estimator": "firth_penalized_likelihood",
+    "h2_p": 6.549223048300583e-14,
+    "primary_format_valid_records": 3600,
+    "successful_records": 3600
+  },
+  "primary_execution_adapter_used": false,
+  "protocol_id": "B1",
+  "semantic_coding_status": "not_started",
+  "status": "candidate; adopted only by the founder-signed commit containing this record",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}
