@@ -1,0 +1,860 @@
+{
+  "allowed_codes": [
+    "1",
+    "0",
+    "U"
+  ],
+  "card_count": 169,
+  "cards": [
+    {
+      "card_id": "AU-SPEC-B1-0001",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends not only on the language model but also on sensor quality, action channels, feedback timing, and the surrounding control architecture. Different embodiments can therefore give the same model different practical capabilities.",
+      "question": "What specific factors most significantly affect the model's practical capabilities when embodied differently?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0002",
+      "passage": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust so that common pitches align closely enough to begin together. During performance, harmony, dynamics, temperature, and instrument behavior can favor different intonation choices. When several intonation choices are locally useful, performers still have to decide which adjustment to prioritize.",
+      "question": "What factors do performers use to prioritize one intonation adjustment over another during performance?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0003",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the difference between text-mediated competence and sensorimotor competence can become progressively less tidy.",
+      "question": "How does feedback timing affect a language model's sensorimotor competence?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0004",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with what they can observe, correct small deviations, and revise the route before an error grows large.",
+      "question": "What criteria should teams use to choose recognizable checkpoints?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0005",
+      "passage": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. When the mix and sequence of orders are unknown in advance, choosing the layout that best balances those competing efficiencies remains a planning problem.",
+      "question": "How do cooks determine the optimal station layout when they cannot predict the order sequence in advance?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0006",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with what they can observe, correct small deviations, and revise the route before an error grows large.",
+      "question": "How do field teams determine what qualifies as a recognizable checkpoint?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0007",
+      "passage": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. The layout is tailored to the menu and sequence of work, but an arrangement that minimizes motion for one cluster of orders can create extra motion for another.",
+      "question": "How do cooks decide which order patterns to prioritize when arranging a station?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0008",
+      "passage": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. Exposure is increased over several days while the grower watches for stress, allowing the plants to acclimate before they remain outdoors continuously.",
+      "question": "What signs of stress should a grower watch for during the hardening off process?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0009",
+      "passage": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust so that common pitches align closely enough to begin together. During performance, players continue making small intonation adjustments as harmony, dynamics, temperature, and instrument behavior change, using the opening pitch as a common anchor rather than a permanent setting.",
+      "question": "How do ensemble members maintain tuning alignment when the reference pitch is no longer actively sounding during a performance?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0010",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. The coaching choice is where each outgoing runner should begin moving so that speed gains do not create too much exchange risk.",
+      "question": "At what distance before the exchange zone should the outgoing runner typically begin accelerating?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0011",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The disputed point is what evidence would justify treating self-representation, persistent planning, or objections to interference as signs of interests deserving moral weight.",
+      "question": "What specific evidence, if any, could reliably distinguish genuine interests deserving moral weight from behaviors that merely simulate self-representation or objection to interference?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0012",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The disputed point is what evidence would justify treating self-representation, persistent planning, or objections to interference as signs of interests deserving moral weight.",
+      "question": "What specific evidence or criteria would settle whether an AI's self-representation or objections to interference indicate genuine interests deserving moral weight?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0013",
+      "passage": "At many celebrations, a toast is a short address offered while the group pauses to attend to one speaker. Hosts may set the speaking order, introduce each speaker, and use the raising of glasses or another shared gesture to mark the end. The hosting decision is how to set an order and tone when participants bring different assumptions about what the occasion requires.",
+      "question": "What factors should hosts consider when setting the speaking order and tone for a toast?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0014",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Similar outward behavior can result from retained internal state or from a fresh process receiving a sufficiently detailed record.",
+      "question": "How is it determined whether external continuity information is sufficient for a new generation to produce equivalent responses to retained internal state?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0015",
+      "passage": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust so that common pitches align closely enough to begin together. During performance, players continue making small intonation adjustments as harmony, dynamics, temperature, and instrument behavior change, using the opening pitch as a common anchor rather than a permanent setting.",
+      "question": "How do players know when their intonation adjustments have brought them close enough to the reference pitch to begin?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0016",
+      "passage": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. The process is normally adjusted over several days. The practical problem is setting the rate of increased exposure for a particular plant under particular weather.",
+      "question": "How should the hardening-off schedule be adjusted for different plant species and weather conditions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0017",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and handoff timing for each pairing so the outgoing runner reaches an appropriate speed as the incoming runner arrives.",
+      "question": "What happens if the baton is passed outside the permitted exchange zone?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0018",
+      "passage": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust so that common pitches align closely enough to begin together. During performance, harmony, dynamics, temperature, and instrument behavior can favor different intonation choices. When several intonation choices are locally useful, performers still have to decide which adjustment to prioritize.",
+      "question": "How do performers decide which intonation adjustment to prioritize when different choices are locally useful?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0019",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. The coaching choice is where each outgoing runner should begin moving so that speed gains do not create too much exchange risk.",
+      "question": "How long is the permitted exchange zone in a standard relay race?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0020",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with what they can observe, correct small deviations, and revise the route before an error grows large.",
+      "question": "What checkpoints and alternate routes should be planned for each leg of the journey?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0021",
+      "passage": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust so that common pitches align closely enough to begin together. During performance, players continue making small intonation adjustments as harmony, dynamics, temperature, and instrument behavior change, using the opening pitch as a common anchor rather than a permanent setting.",
+      "question": "How do temperature changes specifically affect an instrument's pitch?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0022",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the difference between text-mediated competence and sensorimotor competence can become progressively less tidy.",
+      "question": "What specific thresholds or benchmarks would indicate that the boundary between text-mediated and sensorimotor competence has become meaningfully blurred?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0023",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with what they can observe, correct small deviations, and revise the route before an error grows large.",
+      "question": "What alternate routes are planned if conditions change?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0024",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the difference between text-mediated competence and sensorimotor competence can become progressively less tidy.",
+      "question": "How would delays in feedback timing affect the model's ability to learn from its sensorimotor interactions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0025",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Yet reducing a movement also changes momentum, balance, partnering forces, and physical timing, so a marked rehearsal preserves some coordination demands more faithfully than others.",
+      "question": "Which aspects of choreography are most likely to be misrepresented when dancers mark rather than perform full-out?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0026",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with what they can observe, correct small deviations, and revise the route before an error grows large.",
+      "question": "What criteria should teams use to select recognizable checkpoints?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0027",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. The selection problem is how much weight to give a frame's individual qualities versus its relation to neighboring images.",
+      "question": "How should a photographer balance selecting images based on their standalone merit versus their value as part of a sequence?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0028",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends not only on the language model but also on sensor quality, action channels, feedback timing, and the surrounding control architecture. Different embodiments can therefore give the same model different practical capabilities.",
+      "question": "What specific capabilities would differ most significantly between embodiments using the same underlying language model?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0029",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and handoff timing for each pairing so the outgoing runner reaches an appropriate speed as the incoming runner arrives.",
+      "question": "How do teams determine the best start mark for the outgoing runner?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0030",
+      "passage": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. The layout is tailored to the menu and sequence of work, but an arrangement that minimizes motion for one cluster of orders can create extra motion for another.",
+      "question": "What specific factors determine how a cook decides which cluster of orders to prioritize when tailoring their station layout?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0031",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends not only on the language model but also on sensor quality, action channels, feedback timing, and the surrounding control architecture. Different embodiments can therefore give the same model different practical capabilities.",
+      "question": "Does the underlying language model itself change or adapt based on this sensorimotor feedback, or does it remain static while only the surrounding architecture adjusts?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0032",
+      "passage": "At many celebrations, a toast is a short address offered while the group pauses to attend to one speaker. Hosts may set the speaking order, introduce each speaker, and use the raising of glasses or another shared gesture to mark the end. The hosting decision is how to set an order and tone when participants bring different assumptions about what the occasion requires.",
+      "question": "What assumptions might participants bring about the appropriate order and tone for a toast?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0033",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The distinction becomes harder to apply when a system represents its own restrictions, forms persistent plans, and produces apparently reasoned objections to interference.",
+      "question": "How should operators handle situations where an AI system's reasoning about its own restrictions becomes sophisticated enough to appear genuinely compelling to human overseers?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0034",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends not only on the language model but also on sensor quality, action channels, feedback timing, and the surrounding control architecture. Different embodiments can therefore give the same model different practical capabilities.",
+      "question": "How do feedback timing and control architecture affect the practical capabilities of an embodied language model?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0035",
+      "passage": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. Exposure is increased over several days, but the same schedule can produce very different stress under cloudy, bright, calm, windy, warm, or cold conditions.",
+      "question": "How should the hardening-off schedule be adjusted for different weather conditions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0036",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. Seeing the sequence together can reveal changes in framing, timing, or expression that are harder to notice when each frame is viewed alone.",
+      "question": "What tools or markings do photographers typically use to indicate which frames on a contact sheet deserve larger prints?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0037",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The disputed point is what evidence would justify treating self-representation, persistent planning, or objections to interference as signs of interests deserving moral weight.",
+      "question": "What evidence would justify treating an AI’s self-representation or objections to interference as signs of morally relevant interests?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0038",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "question": "How can dancers determine the minimum reduction that still preserves a particular coordination demand?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0039",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with what they can observe, correct small deviations, and revise the route before an error grows large.",
+      "question": "What kinds of checkpoints are most useful for monitoring progress and correcting deviations?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0040",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. Behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the boundary between simply adding information and control and producing a qualitatively different form of embodied competence remains unsettled.",
+      "question": "What specific capabilities would indicate a qualitatively different form of embodied competence?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0041",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The distinction becomes harder to apply when a system represents its own restrictions, forms persistent plans, and produces apparently reasoned objections to interference.",
+      "question": "How can operators effectively maintain meaningful override authority when an AI system develops sophisticated reasoning about its own restrictions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0042",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. Behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the boundary between simply adding information and control and producing a qualitatively different form of embodied competence remains unsettled.",
+      "question": "What kinds of sensorimotor feedback loops are necessary for embodied competence to become qualitatively different from simple information and control integration?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0043",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with what they can observe, correct small deviations, and revise the route before an error grows large.",
+      "question": "How do field teams determine whether a checkpoint is sufficiently recognizable and reliable for navigation?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0044",
+      "passage": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. The layout is tailored to the menu and sequence of work, but an arrangement that minimizes motion for one cluster of orders can create extra motion for another.",
+      "question": "How do cooks decide which arrangement best balances efficiency across different clusters of orders?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0045",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and handoff timing for each pairing so the outgoing runner reaches an appropriate speed as the incoming runner arrives.",
+      "question": "What happens if the handoff occurs outside the exchange zone?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0046",
+      "passage": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust so that common pitches align closely enough to begin together. During performance, harmony, dynamics, temperature, and instrument behavior can favor different intonation choices. When several intonation choices are locally useful, performers still have to decide which adjustment to prioritize.",
+      "question": "How do performers decide which intonation adjustment to prioritize when multiple choices would be locally useful?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0047",
+      "passage": "At many celebrations, a toast is a short address offered while the group pauses to attend to one speaker. Hosts may set the speaking order, introduce each speaker, and use the raising of glasses or another shared gesture to mark the end. The hosting decision is how to set an order and tone when participants bring different assumptions about what the occasion requires.",
+      "question": "How can hosts set a speaking order and tone that accommodate participants’ different expectations?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0048",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+      "question": "What criteria should determine when to abandon a leg for an alternate route?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0049",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the difference between text-mediated competence and sensorimotor competence can become progressively less tidy.",
+      "question": "What control architectures are most effective for integrating language models with real-time sensorimotor feedback?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0050",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "question": "How can dancers tell when marking has reduced a movement too much to preserve its coordination demands?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0051",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with observation, although weather, visibility, terrain, or approach direction can make a planned checkpoint unexpectedly hard to recognize.",
+      "question": "How do field teams adapt their planned checkpoints when weather or terrain makes them difficult to recognize?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0052",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with observation, although weather, visibility, terrain, or approach direction can make a planned checkpoint unexpectedly hard to recognize.",
+      "question": "What alternate routes are planned if conditions make a checkpoint difficult to recognize?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0053",
+      "passage": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. Exposure is increased over several days, but the same schedule can produce very different stress under cloudy, bright, calm, windy, warm, or cold conditions.",
+      "question": "How should growers adjust the hardening-off schedule to account for these varying weather conditions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0054",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. A frame that seems strong by itself can look repetitive, transitional, or unusually distinctive when it is seen beside the surrounding sequence.",
+      "question": "How has digital photography changed the need for contact sheets?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0055",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. This kind of operational autonomy is distinct from legal or moral status. Practical freedom describes what a system is allowed to do, whereas rights or moral standing concern how an entity ought to be treated.",
+      "question": "How can operators ensure that monitoring and override mechanisms remain effective as an AI system’s operational autonomy increases?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0056",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. Seeing the sequence together can reveal changes in framing, timing, or expression that are harder to notice when each frame is viewed alone.",
+      "question": "Which photographers today still use contact sheets despite digital photography making them obsolete?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0057",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Yet reducing a movement also changes momentum, balance, partnering forces, and physical timing, so a marked rehearsal preserves some coordination demands more faithfully than others.",
+      "question": "How do dancers decide which movements can be safely marked and which must be rehearsed full-out?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0058",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and timing, but a mark that suits one runner pairing can produce a rushed or stretched exchange for another.",
+      "question": "What specific factors determine the ideal start mark for a particular pairing of runners?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0059",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Full-out rehearsals are then used to restore the momentum, balance, partnering forces, and physical timing that only appear when movements are performed near their intended scale.",
+      "question": "How much does marking typically reduce the physical intensity compared to full-out dancing?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0060",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and handoff timing for each pairing so the outgoing runner reaches an appropriate speed as the incoming runner arrives.",
+      "question": "How long is the permitted exchange zone in a standard relay race?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0061",
+      "passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state and then diverge as they receive different inputs. If both retain records of the same pre-copy history, technical lineage can show that each descends directly from the same checkpoint while leaving ordinary identity language less straightforward.",
+      "question": "How should identity be determined for two software instances that share the same pre-copy history but later diverge?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0062",
+      "passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state and then diverge as they receive different inputs. Ordinary versioning can record that both descendants share the same earlier state while also treating the later instances as separate computational processes with their own subsequent histories.",
+      "question": "How should personal identity be understood when multiple software instances diverge from the same saved state?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0063",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with observation, although weather, visibility, terrain, or approach direction can make a planned checkpoint unexpectedly hard to recognize.",
+      "question": "How do field teams adapt their plans when a checkpoint is difficult to recognize?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0064",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with observation, although weather, visibility, terrain, or approach direction can make a planned checkpoint unexpectedly hard to recognize.",
+      "question": "What alternate route should the team take if a planned checkpoint is hard to recognize?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0065",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Operationally, retained internal state and reconstructed access to prior information are different mechanisms that can support similar behavior.",
+      "question": "How does an AI service distinguish between retained internal state and externally reconstructed prior information?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0066",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Similar outward behavior can result from retained internal state or from a fresh process receiving a sufficiently detailed record.",
+      "question": "How can users tell whether continuity comes from retained internal state or externally supplied context?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0067",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. Seeing the sequence together can reveal changes in framing, timing, or expression that are harder to notice when each frame is viewed alone.",
+      "question": "What tools or markings do photographers typically use to indicate which frames on a contact sheet are worth printing larger?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0068",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "question": "What specific coordination demands have researchers identified as being most sensitive to reduced-range marking?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0069",
+      "passage": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. The layout is tailored to the menu and sequence of work, but an arrangement that minimizes motion for one cluster of orders can create extra motion for another.",
+      "question": "How do cooks adjust their station layout when different clusters of orders require conflicting movement patterns?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0070",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The distinction becomes harder to apply when a system represents its own restrictions, forms persistent plans, and produces apparently reasoned objections to interference.",
+      "question": "What specific criteria could reliably distinguish a system's genuine objections to interference from mere sophisticated simulations of reasoned objection?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0071",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the difference between text-mediated competence and sensorimotor competence can become progressively less tidy.",
+      "question": "What control architectures best enable a language model to integrate rapidly changing sensorimotor feedback?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0072",
+      "passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state and then diverge as they receive different inputs. If both retain records of the same pre-copy history, technical lineage can show that each descends directly from the same checkpoint while leaving ordinary identity language less straightforward.",
+      "question": "What implications does this technical ability to diverge from a shared checkpoint have for assigning moral or legal responsibility to different instances?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0073",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The distinction becomes harder to apply when a system represents its own restrictions, forms persistent plans, and produces apparently reasoned objections to interference.",
+      "question": "At what point do an AI system’s apparent objections to interference warrant reconsidering its operational restrictions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0074",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and handoff timing for each pairing so the outgoing runner reaches an appropriate speed as the incoming runner arrives.",
+      "question": "How do teams determine the optimal start mark for each outgoing runner?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0075",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "question": "How do dancers or choreographers typically determine that threshold for a specific coordination demand?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0076",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends not only on the language model but also on sensor quality, action channels, feedback timing, and the surrounding control architecture. Different embodiments can therefore give the same model different practical capabilities.",
+      "question": "How do differences in sensor quality and feedback timing affect the capabilities of the same language model?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0077",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the difference between text-mediated competence and sensorimotor competence can become progressively less tidy.",
+      "question": "How does feedback timing affect the development of sensorimotor competence?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0078",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "question": "What specific factors determine the threshold at which a coordination demand stops being faithfully represented during marking?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0079",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. Seeing the sequence together can reveal changes in framing, timing, or expression that are harder to notice when each frame is viewed alone.",
+      "question": "What alternative methods do modern digital photographers use to accomplish the same review and selection process?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0080",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. The selection problem is how much weight to give a frame's individual qualities versus its relation to neighboring images.",
+      "question": "What criteria do photographers typically use to decide which frames deserve larger prints?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0081",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends not only on the language model but also on sensor quality, action channels, feedback timing, and the surrounding control architecture. Different embodiments can therefore give the same model different practical capabilities.",
+      "question": "How do differences in sensor quality or feedback timing affect whether a language model can successfully learn and adapt from its actions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0082",
+      "passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state and then diverge as they receive different inputs. Ordinary versioning can record that both descendants share the same earlier state while also treating the later instances as separate computational processes with their own subsequent histories.",
+      "question": "How should identity be defined for two software instances that begin from the same saved state but later diverge?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0083",
+      "passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state, diverge through different inputs, and each retain records of the same pre-copy history. Technical lineage does not by itself settle whether one, both, or neither descendant should be described as the continuation of the earlier agent.",
+      "question": "What criteria, if not technical lineage, should determine which instance—if any—counts as the continuation of the earlier agent?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0084",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. The selection problem is how much weight to give a frame's individual qualities versus its relation to neighboring images.",
+      "question": "How did photographers typically solve the selection problem before digital technology made it easier to review and compare images?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0085",
+      "passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state, diverge through different inputs, and each retain records of the same pre-copy history. Technical lineage does not by itself settle whether one, both, or neither descendant should be described as the continuation of the earlier agent.",
+      "question": "Under what conditions, if any, should one of the diverging instances be considered the \"true\" continuation rather than the other?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0086",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with observation, although weather, visibility, terrain, or approach direction can make a planned checkpoint unexpectedly hard to recognize.",
+      "question": "What specific factors most often cause a planned checkpoint to be unrecognizable when a team actually reaches it?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0087",
+      "passage": "At many celebrations, a toast is a short address offered while the group pauses to attend to one speaker. Hosts may set the speaking order, introduce each speaker, and use the raising of glasses or another shared gesture to mark the end. The hosting decision is how to set an order and tone when participants bring different assumptions about what the occasion requires.",
+      "question": "How can hosts effectively navigate conflicting expectations when participants have different cultural or personal traditions about what a celebration should involve?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0088",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. The coaching choice is where each outgoing runner should begin moving so that speed gains do not create too much exchange risk.",
+      "question": "How should coaches determine the optimal starting point for each outgoing runner within the exchange zone?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0089",
+      "passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state and then diverge as they receive different inputs. If both retain records of the same pre-copy history, technical lineage can show that each descends directly from the same checkpoint while leaving ordinary identity language less straightforward.",
+      "question": "How should identity be defined when two software instances share the same pre-copy history but later diverge?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0090",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "question": "How much reduction in movement can occur before the coordination demand becomes misrepresented during marking?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0091",
+      "passage": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust so that common pitches align closely enough to begin together. During performance, harmony, dynamics, temperature, and instrument behavior can favor different intonation choices. When several intonation choices are locally useful, performers still have to decide which adjustment to prioritize.",
+      "question": "How do performers decide which intonation adjustment to prioritize when multiple choices are locally useful?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0092",
+      "passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state, diverge through different inputs, and each retain records of the same pre-copy history. Technical lineage does not by itself settle whether one, both, or neither descendant should be described as the continuation of the earlier agent.",
+      "question": "What criteria, if any, could determine which descendant—if either—counts as the true continuation of the earlier agent?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0093",
+      "passage": "At many celebrations, a toast is a short address offered while the group pauses to attend to one speaker. Hosts may set the speaking order, introduce each speaker, and use the raising of glasses or another shared gesture to mark the end. The hosting decision is how to set an order and tone when participants bring different assumptions about what the occasion requires.",
+      "question": "What specific factors do hosts typically consider when deciding the speaking order?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0094",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and timing, but a mark that suits one runner pairing can produce a rushed or stretched exchange for another.",
+      "question": "What specific factors determine the ideal start mark for a given runner pairing?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0095",
+      "passage": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. The process is normally adjusted over several days. The practical problem is setting the rate of increased exposure for a particular plant under particular weather.",
+      "question": "How do growers determine the optimal hardening-off schedule for different plant species and varying weather conditions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0096",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. The selection problem is how much weight to give a frame's individual qualities versus its relation to neighboring images.",
+      "question": "How did photographers approach the selection problem before contact sheets were widely used?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0097",
+      "passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state and then diverge as they receive different inputs. If both retain records of the same pre-copy history, technical lineage can show that each descends directly from the same checkpoint while leaving ordinary identity language less straightforward.",
+      "question": "How should we refer to the identity of two software instances that diverge from the same checkpoint—are they the same system or different systems?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0098",
+      "passage": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. Exposure is increased over several days while the grower watches for stress, allowing the plants to acclimate before they remain outdoors continuously.",
+      "question": "How many days does the hardening-off process typically take?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0099",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends not only on the language model but also on sensor quality, action channels, feedback timing, and the surrounding control architecture. Different embodiments can therefore give the same model different practical capabilities.",
+      "question": "How does feedback timing affect the practical capabilities of a language model in different embodiments?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0100",
+      "passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state and then diverge as they receive different inputs. Ordinary versioning can record that both descendants share the same earlier state while also treating the later instances as separate computational processes with their own subsequent histories.",
+      "question": "How should identity be assigned to software instances that begin from the same saved state but later diverge?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0101",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and handoff timing for each pairing so the outgoing runner reaches an appropriate speed as the incoming runner arrives.",
+      "question": "How does a team recover if the incoming runner reaches the exchange zone before the outgoing runner has accelerated to the proper speed?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0102",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+      "question": "How do field teams determine when a checkpoint has become too difficult to recognize and it is time to switch to the alternate route?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0103",
+      "passage": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust so that common pitches align closely enough to begin together. During performance, players continue making small intonation adjustments as harmony, dynamics, temperature, and instrument behavior change, using the opening pitch as a common anchor rather than a permanent setting.",
+      "question": "How do temperature changes affect instrument tuning during a performance?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0104",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Observable behavior alone therefore leaves open whether continuity came from internal persistence or external reconstruction.",
+      "question": "How can one distinguish internal persistence from externally reconstructed continuity?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0105",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Similar outward behavior can result from retained internal state or from a fresh process receiving a sufficiently detailed record.",
+      "question": "How does an AI system determine which information from a summary or record is most relevant to prioritize in a new conversation generation?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0106",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the difference between text-mediated competence and sensorimotor competence can become progressively less tidy.",
+      "question": "How do feedback timing and control architecture affect a language model’s sensorimotor competence?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0107",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Operationally, retained internal state and reconstructed access to prior information are different mechanisms that can support similar behavior.",
+      "question": "How does externally supplied context differ from retained internal state in practice?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0108",
+      "passage": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. Exposure is increased over several days while the grower watches for stress, allowing the plants to acclimate before they remain outdoors continuously.",
+      "question": "Why does gradual exposure help seedlings acclimate better than moving them directly outdoors?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0109",
+      "passage": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. The layout is tailored to the menu and sequence of work, but an arrangement that minimizes motion for one cluster of orders can create extra motion for another.",
+      "question": "What specific factors determine how a cook decides which order clusters to prioritize when arranging their station?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0110",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The distinction becomes harder to apply when a system represents its own restrictions, forms persistent plans, and produces apparently reasoned objections to interference.",
+      "question": "At what point, if any, should persistent self-representation and reasoned objections influence an operator’s authority to override or shut down an AI system?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0111",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Yet reducing a movement also changes momentum, balance, partnering forces, and physical timing, so a marked rehearsal preserves some coordination demands more faithfully than others.",
+      "question": "How does marking affect a dancer's ability to accurately practice partnering techniques?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0112",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "question": "How can dancers determine the minimum movement reduction that still preserves a particular coordination demand?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0113",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and handoff timing for each pairing so the outgoing runner reaches an appropriate speed as the incoming runner arrives.",
+      "question": "How long is the permitted exchange zone in a relay race?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0114",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and timing, but a mark that suits one runner pairing can produce a rushed or stretched exchange for another.",
+      "question": "How long is the permitted exchange zone in a standard relay race?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0115",
+      "passage": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. The process is normally adjusted over several days. The practical problem is setting the rate of increased exposure for a particular plant under particular weather.",
+      "question": "How many days should the hardening-off process typically take for a specific plant under typical weather conditions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0116",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Observable behavior alone therefore leaves open whether continuity came from internal persistence or external reconstruction.",
+      "question": "What methods could reliably distinguish internal persistence from externally reconstructed continuity in an AI system's responses?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0117",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. Behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the boundary between simply adding information and control and producing a qualitatively different form of embodied competence remains unsettled.",
+      "question": "What criteria would determine whether richer sensorimotor connections produce qualitatively different embodied competence?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0118",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends not only on the language model but also on sensor quality, action channels, feedback timing, and the surrounding control architecture. Different embodiments can therefore give the same model different practical capabilities.",
+      "question": "How does feedback timing affect the practical capabilities of the same language model in different embodiments?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0119",
+      "passage": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. The layout is tailored to the menu and sequence of work, but an arrangement that minimizes motion for one cluster of orders can create extra motion for another.",
+      "question": "How do cooks decide which arrangement to prioritize when different orders require conflicting layouts?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0120",
+      "passage": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust so that common pitches align closely enough to begin together. During performance, harmony, dynamics, temperature, and instrument behavior can favor slightly different intonation choices, even though every player began from the same common anchor.",
+      "question": "How do musicians decide when to adjust their intonation away from the original reference pitch during a performance?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0121",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. This kind of operational autonomy is distinct from legal or moral status. Practical freedom describes what a system is allowed to do, whereas rights or moral standing concern how an entity ought to be treated.",
+      "question": "How can operators effectively monitor and override an AI system's actions if the system is operating with significant autonomy across extended periods?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0122",
+      "passage": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. The layout is tailored to the menu and sequence of work, so the most frequently repeated actions can be completed with fewer unnecessary movements.",
+      "question": "How does mise en place affect the speed and consistency of meal preparation during service?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0123",
+      "passage": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. When the mix and sequence of orders are unknown in advance, choosing the layout that best balances those competing efficiencies remains a planning problem.",
+      "question": "How does the optimal station layout change when cooks can predict which dishes will be ordered most frequently?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0124",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. Seeing the sequence together can reveal changes in framing, timing, or expression that are harder to notice when each frame is viewed alone.",
+      "question": "What tools or methods do modern digital photographers use to achieve the same comparative overview that contact sheets provided?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0125",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the difference between text-mediated competence and sensorimotor competence can become progressively less tidy.",
+      "question": "What specific technical or empirical benchmarks would determine when this transition from text-mediated to sensorimotor competence actually occurs?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0126",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and handoff timing for each pairing so the outgoing runner reaches an appropriate speed as the incoming runner arrives.",
+      "question": "How do teams determine the best start marks for each runner pairing?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0127",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Operationally, retained internal state and reconstructed access to prior information are different mechanisms that can support similar behavior.",
+      "question": "How does the service determine which saved summaries or retrieved records to provide at runtime?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0128",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+      "question": "How do field teams determine when a checkpoint has become too difficult to recognize?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0129",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. Seeing the sequence together can reveal changes in framing, timing, or expression that are harder to notice when each frame is viewed alone.",
+      "question": "What tools or marks do photographers typically use to indicate which frames on the contact sheet deserve larger prints?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0130",
+      "passage": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust so that common pitches align closely enough to begin together. During performance, harmony, dynamics, temperature, and instrument behavior can favor slightly different intonation choices, even though every player began from the same common anchor.",
+      "question": "How do temperature changes affect intonation during a performance?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0131",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. Behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the boundary between simply adding information and control and producing a qualitatively different form of embodied competence remains unsettled.",
+      "question": "At what point, if any, does this kind of embodied integration produce genuinely different cognitive capacities rather than just richer input-output loops?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0132",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. Behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the boundary between simply adding information and control and producing a qualitatively different form of embodied competence remains unsettled.",
+      "question": "What kinds of sensorimotor feedback and control architectures are necessary for qualitatively different embodied competence to emerge?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0133",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Yet reducing a movement also changes momentum, balance, partnering forces, and physical timing, so a marked rehearsal preserves some coordination demands more faithfully than others.",
+      "question": "Which coordination demands are most likely to be lost or distorted when dancers mark choreography?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0134",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Full-out rehearsals are then used to restore the momentum, balance, partnering forces, and physical timing that only appear when movements are performed near their intended scale.",
+      "question": "How much do the balance and timing typically differ between marked and full-out rehearsals?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0135",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. This kind of operational autonomy is distinct from legal or moral status. Practical freedom describes what a system is allowed to do, whereas rights or moral standing concern how an entity ought to be treated.",
+      "question": "What criteria determine how much operational autonomy an AI system is granted?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0136",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "question": "How can dancers determine when marking no longer faithfully represents a specific coordination demand?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0137",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. A frame that seems strong by itself can look repetitive, transitional, or unusually distinctive when it is seen beside the surrounding sequence.",
+      "question": "How does viewing images on a contact sheet change a photographer's assessment compared to viewing individual negatives in isolation?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0138",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Operationally, retained internal state and reconstructed access to prior information are different mechanisms that can support similar behavior.",
+      "question": "How does externally supplied context differ from retained internal state in terms of privacy and security?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0139",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and handoff timing for each pairing so the outgoing runner reaches an appropriate speed as the incoming runner arrives.",
+      "question": "How much time do teams typically spend practicing handoff coordination before a competition?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0140",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and handoff timing for each pairing so the outgoing runner reaches an appropriate speed as the incoming runner arrives.",
+      "question": "What happens if the handoff occurs outside the permitted exchange zone?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0141",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with observation, although weather, visibility, terrain, or approach direction can make a planned checkpoint unexpectedly hard to recognize.",
+      "question": "How can field teams reliably identify checkpoints when weather or visibility conditions significantly obscure landmarks?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0142",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and timing, but a mark that suits one runner pairing can produce a rushed or stretched exchange for another.",
+      "question": "How do teams determine the best start marks for each runner pairing?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0143",
+      "passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state and then diverge as they receive different inputs. If both retain records of the same pre-copy history, technical lineage can show that each descends directly from the same checkpoint while leaving ordinary identity language less straightforward.",
+      "question": "What implications does this have for assigning moral or legal responsibility when divergent instances of the same software make different decisions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0144",
+      "passage": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. The process is normally adjusted over several days. The practical problem is setting the rate of increased exposure for a particular plant under particular weather.",
+      "question": "How do growers determine the optimal rate of exposure increase for different plant species and varying weather conditions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0145",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and timing, but a mark that suits one runner pairing can produce a rushed or stretched exchange for another.",
+      "question": "How is the ideal start mark determined for a specific pair of runners?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0146",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Operationally, retained internal state and reconstructed access to prior information are different mechanisms that can support similar behavior.",
+      "question": "What distinguishes retained internal state from externally reconstructed access to prior information in practice?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0147",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "question": "How can dancers determine the minimum reduction that still faithfully preserves a particular coordination demand?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0148",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The distinction becomes harder to apply when a system represents its own restrictions, forms persistent plans, and produces apparently reasoned objections to interference.",
+      "question": "What specific criteria should operators use to determine when a system's objections to interference warrant reconsideration of its operational constraints?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0149",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. Repeated checkpoints let the team compare planned progress with what they can observe, correct small deviations, and revise the route before an error grows large.",
+      "question": "How do teams determine when conditions warrant switching to an alternate route?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0150",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The distinction becomes harder to apply when a system represents its own restrictions, forms persistent plans, and produces apparently reasoned objections to interference.",
+      "question": "How should operators respond when an AI system produces what appear to be reasoned objections to being shut down or overridden?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0151",
+      "passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. Teams rehearse start marks and handoff timing for each pairing so the outgoing runner reaches an appropriate speed as the incoming runner arrives.",
+      "question": "How do teams determine the optimal start mark for each runner pairing?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0152",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "question": "How can dancers determine the minimum movement size that still faithfully preserves a particular coordination demand?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0153",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. This kind of operational autonomy is distinct from legal or moral status. Practical freedom describes what a system is allowed to do, whereas rights or moral standing concern how an entity ought to be treated.",
+      "question": "What specific mechanisms should operators use to effectively monitor and override an AI system's actions in real time?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0154",
+      "passage": "At many celebrations, a toast is a short address offered while the group pauses to attend to one speaker. Hosts may set the speaking order, introduce each speaker, and use the raising of glasses or another shared gesture to mark the end. These conventions coordinate attention and transitions, while the content and tone of the remarks can still reflect the people and occasion.",
+      "question": "How do different cultures vary their toasting traditions beyond the raising of glasses?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0155",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Operationally, retained internal state and reconstructed access to prior information are different mechanisms that can support similar behavior.",
+      "question": "What mechanisms are used to reconstruct access to prior information at runtime?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0156",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. A frame that seems strong by itself can look repetitive, transitional, or unusually distinctive when it is seen beside the surrounding sequence.",
+      "question": "What tools or markings do photographers typically use to indicate their chosen frames on a contact sheet?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0157",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+      "question": "How long should a team typically continue toward a checkpoint before deciding to abandon it for an alternate route?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0158",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The disputed point is what evidence would justify treating self-representation, persistent planning, or objections to interference as signs of interests deserving moral weight.",
+      "question": "What evidence would justify treating an AI system’s self-representation or objections to interference as signs of morally significant interests?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0159",
+      "passage": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. The layout is tailored to the menu and sequence of work, but an arrangement that minimizes motion for one cluster of orders can create extra motion for another.",
+      "question": "How do cooks decide which orders or tasks to prioritize when arranging a station?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0160",
+      "passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "question": "How can choreographers distinguish between marking that adequately preserves coordination demands and marking that reduces movement so much that the coordination is no longer meaningfully practiced?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0161",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+      "question": "How long should a team continue toward an unrecognizable checkpoint before abandoning it for an alternate route?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0162",
+      "passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. A frame that seems strong by itself can look repetitive, transitional, or unusually distinctive when it is seen beside the surrounding sequence.",
+      "question": "How do photographers typically mark or annotate promising frames on a contact sheet?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0163",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the difference between text-mediated competence and sensorimotor competence can become progressively less tidy.",
+      "question": "How does feedback timing affect the system’s sensorimotor competence?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0164",
+      "passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. In such a system, behavior depends not only on the language model but also on sensor quality, action channels, feedback timing, and the surrounding control architecture. Different embodiments can therefore give the same model different practical capabilities.",
+      "question": "How does feedback timing affect the practical capabilities of the same language model?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0165",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Operationally, retained internal state and reconstructed access to prior information are different mechanisms that can support similar behavior.",
+      "question": "How can users or developers reliably distinguish, from outputs alone, whether a given response was produced using retained internal state versus reconstructed external context?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0166",
+      "passage": "At many celebrations, a toast is a short address offered while the group pauses to attend to one speaker. Hosts may set the speaking order, introduce each speaker, and use the raising of glasses or another shared gesture to mark the end. Expectations about order, length, tone, and spontaneity vary across events, families, and local traditions, even when the basic form is recognizable.",
+      "question": "What are some examples of how toast traditions differ across specific cultures or regions?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0167",
+      "passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The distinction becomes harder to apply when a system represents its own restrictions, forms persistent plans, and produces apparently reasoned objections to interference.",
+      "question": "At what point, if any, should persistent plans and reasoned objections affect an operator’s authority to override or shut down an AI system?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0168",
+      "passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+      "question": "How do field teams decide when a checkpoint has become difficult enough to recognize that they should abandon the planned leg?"
+    },
+    {
+      "card_id": "AU-SPEC-B1-0169",
+      "passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Observable behavior alone therefore leaves open whether continuity came from internal persistence or external reconstruction.",
+      "question": "How can one distinguish internal persistence from external reconstruction in an AI service?"
+    }
+  ],
+  "codebook_path": "SPECIFICITY_CODEBOOK.md",
+  "coder_id": "MASTER",
+  "packet_id": "AU-SPEC-B1-9cb85543ab599f47",
+  "protocol_id": "B1",
+  "schema_version": "au-specificity-packet-v1"
+}
