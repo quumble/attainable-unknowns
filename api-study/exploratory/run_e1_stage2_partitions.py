@@ -30,22 +30,25 @@ EXECUTION_PROTOCOL = E1_DIR / "E1_STAGE2_EXECUTION_PROTOCOL_P1.md"
 EXECUTION_CORRECTION = E1_DIR / "E1_STAGE2_EXECUTION_CORRECTION_P1D1.md"
 EXECUTION_CORRECTION_P1D2 = E1_DIR / "E1_STAGE2_EXECUTION_CORRECTION_P1D2.md"
 OUTPUT_ENCODING_P1D2 = E1_DIR / "E1_STAGE2_OUTPUT_ENCODING_P1D2.md"
-OUTPUT_DIR = E1_DIR / "e1" / "stage2" / "partitions" / BUNDLE_ID / "P1D2"
+EXECUTION_CORRECTION_P1D3 = E1_DIR / "E1_STAGE2_EXECUTION_CORRECTION_P1D3.md"
+OUTPUT_ENCODING_P1D3 = E1_DIR / "E1_STAGE2_OUTPUT_ENCODING_P1D3.md"
+OUTPUT_DIR = E1_DIR / "e1" / "stage2" / "partitions" / BUNDLE_ID / "P1D3"
 ATTEMPTS_PATH = OUTPUT_DIR / "ATTEMPTS.jsonl"
 PARTITIONS_PATH = OUTPUT_DIR / "PARTITIONS.jsonl"
 MANIFEST_PATH = OUTPUT_DIR / "RUN_MANIFEST.json"
 INFLIGHT_PATH = OUTPUT_DIR / "INFLIGHT.json"
 
 BUNDLE_COMMIT = "435c01cb5971fd6b0487eaebfc7a8a5803311c06"
-PREDECESSOR_EXECUTION_COMMIT = "c83f55cb0ad44e26f75848018c1a2360093294b0"
+PREDECESSOR_EXECUTION_COMMIT = "3c1dd0529fe8581f56fc290de9aed344a77f091a"
 EXPECTED_PACKETS = 24
 EXPECTED_TASKS = 72
 MAX_ATTEMPTS_PER_TASK = 3
 MAX_EXHAUSTED_TASKS_BEFORE_MODEL_BREAK = 2
 TRANSIENT_BACKOFF_SECONDS = (10, 30)
-PREDECESSOR_VARIANT = "P1D1"
-EXECUTION_VARIANT = "P1D2"
-OUTPUT_ENCODING = "assignment_vector_v1"
+PREDECESSOR_VARIANT = "P1D2"
+EXECUTION_VARIANT = "P1D3"
+OUTPUT_ENCODING = "fixed_width_triplet_string_v1"
+CODE_WIDTH = 3
 MAX_OUTPUT_TOKENS_BY_MODEL = {
     "sol": 16000,
     "opus": 16000,
@@ -110,21 +113,22 @@ SYNTHETIC_PACKET = {
     "protocol_id": "synthetic",
     "amendment_id": "synthetic",
     "stage": "synthetic_stage2_partition",
-    "packet_id": "SYNTHETIC-AU-E1-S2-001",
+    "packet_id": "SYNTHETIC-AU-E1-S2-230",
     "representation_set_id": "SYNTHETIC-R01",
-    "topic_packet_id": "SYNTHETIC-T01",
-    "target_count": 8,
+    "topic_packet_id": "SYNTHETIC-T00",
+    "target_count": 230,
     "targets": [
-        {"target_id": "T001", "canonical_target": "The boiling temperature of water at sea level."},
-        {"target_id": "T002", "canonical_target": "The temperature at which water boils at sea level."},
-        {"target_id": "T003", "canonical_target": "The mechanism by which salt changes water's boiling point."},
-        {"target_id": "T004", "canonical_target": "How much salt changes the boiling point at a specified concentration."},
-        {"target_id": "T005", "canonical_target": "The criteria for choosing a thermometer for boiling water."},
-        {"target_id": "T006", "canonical_target": "The factors that determine thermometer accuracy in boiling water."},
-        {"target_id": "T007", "canonical_target": "The boiling temperature of water at high altitude."},
-        {"target_id": "T008", "canonical_target": "The effect of lower atmospheric pressure on boiling temperature."},
+        {
+            "target_id": f"T{i:03d}",
+            "canonical_target": (
+                f"Synthetic information request in category {((i - 1) % 7) + 1}, item {i}. "
+                f"Items sharing a category refer to the same synthetic answer-space."
+            ),
+        }
+        for i in range(1, 231)
     ],
 }
+
 
 
 def utc_now() -> str:
@@ -275,13 +279,15 @@ def verify_implementation(ref: str) -> str:
     if git("merge-base", "--is-ancestor", BUNDLE_COMMIT, commit).returncode != 0:
         raise ValueError("Stage 2 bundle anchor is not an ancestor of implementation")
     if git("merge-base", "--is-ancestor", PREDECESSOR_EXECUTION_COMMIT, commit).returncode != 0:
-        raise ValueError("P1/P1D1 incomplete execution anchor is not an ancestor of implementation")
+        raise ValueError("P1D2 incomplete execution anchor is not an ancestor of implementation")
     for path in (
         Path(__file__).resolve(),
         EXECUTION_PROTOCOL,
         EXECUTION_CORRECTION,
         EXECUTION_CORRECTION_P1D2,
         OUTPUT_ENCODING_P1D2,
+        EXECUTION_CORRECTION_P1D3,
+        OUTPUT_ENCODING_P1D3,
     ):
         if not path.is_file():
             raise FileNotFoundError(path)
@@ -364,26 +370,19 @@ def load_packet(task: dict[str, Any]) -> dict[str, Any]:
 
 
 def output_schema(packet: dict[str, Any], provider: str) -> dict[str, Any]:
+    del provider  # The P1D3 schema is deliberately identical across providers.
     target_count = int(packet["target_count"])
-    assignments_schema: dict[str, Any] = {
-        "type": "array",
-        "items": {"type": "integer"},
-    }
-    # OpenAI Structured Outputs explicitly supports minItems/maxItems. For
-    # Anthropic we keep the schema simpler and enforce exact length locally;
-    # this avoids making the study depend on provider-specific support for
-    # those optional array constraints.
-    if provider == "openai":
-        assignments_schema["minItems"] = target_count
-        assignments_schema["maxItems"] = target_count
-
+    digit_count = target_count * CODE_WIDTH
     return {
         "type": "object",
         "properties": {
             "packet_id": {"type": "string"},
-            "assignments": assignments_schema,
+            "assignment_code": {
+                "type": "string",
+                "pattern": rf"^[0-9]{{{digit_count}}}$",
+            },
         },
-        "required": ["packet_id", "assignments"],
+        "required": ["packet_id", "assignment_code"],
         "additionalProperties": False,
     }
 
@@ -394,27 +393,38 @@ def validate_partition(text: str, packet: dict[str, Any]) -> dict[str, Any]:
     except json.JSONDecodeError as exc:
         raise ValueError(f"Response is not valid JSON: {exc}") from exc
 
-    if not isinstance(value, dict) or set(value) != {"packet_id", "assignments"}:
-        raise ValueError("Output must contain exactly packet_id and assignments")
+    if not isinstance(value, dict) or set(value) != {"packet_id", "assignment_code"}:
+        raise ValueError("Output must contain exactly packet_id and assignment_code")
     if value["packet_id"] != packet["packet_id"]:
         raise ValueError("packet_id mismatch")
 
-    assignments = value["assignments"]
+    assignment_code = value["assignment_code"]
     input_ids = [target["target_id"] for target in packet["targets"]]
-    if not isinstance(assignments, list):
-        raise ValueError("assignments must be a list")
-    if len(assignments) != len(input_ids):
-        raise ValueError(
-            f"Expected {len(input_ids)} assignments, observed {len(assignments)}"
-        )
-    if any(type(label) is not int for label in assignments):
-        raise ValueError("Every assignment must be an integer")
+    expected_length = len(input_ids) * CODE_WIDTH
 
-    # Canonicalize arbitrary model labels by first occurrence. This is a pure
-    # relabeling of the partition and makes no semantic decision.
-    label_to_cluster_id: dict[int, str] = {}
-    cluster_targets: dict[int, list[str]] = {}
-    for target_id, label in zip(input_ids, assignments):
+    if not isinstance(assignment_code, str):
+        raise ValueError("assignment_code must be a string")
+    if len(assignment_code) != expected_length:
+        raise ValueError(
+            f"Expected {expected_length} assignment digits, observed {len(assignment_code)}"
+        )
+    if re.fullmatch(r"[0-9]+", assignment_code) is None:
+        raise ValueError("assignment_code must contain decimal digits only")
+
+    labels = [
+        assignment_code[i : i + CODE_WIDTH]
+        for i in range(0, expected_length, CODE_WIDTH)
+    ]
+    if len(labels) != len(input_ids):
+        raise ValueError(
+            f"Expected {len(input_ids)} fixed-width assignments, observed {len(labels)}"
+        )
+
+    # Canonicalize arbitrary fixed-width labels by first occurrence. This is a
+    # pure relabeling of the partition and makes no semantic decision.
+    label_to_cluster_id: dict[str, str] = {}
+    cluster_targets: dict[str, list[str]] = {}
+    for target_id, label in zip(input_ids, labels):
         if label not in label_to_cluster_id:
             label_to_cluster_id[label] = f"C{len(label_to_cluster_id) + 1:03d}"
             cluster_targets[label] = []
@@ -438,7 +448,7 @@ def build_system_instructions() -> str:
     if marker not in parent:
         raise ValueError("Cannot locate Cluster IDs section in frozen Stage 2 instructions")
     semantic_prefix = parent.split(marker, 1)[0].rstrip()
-    encoding = OUTPUT_ENCODING_P1D2.read_text(encoding="utf-8").strip()
+    encoding = OUTPUT_ENCODING_P1D3.read_text(encoding="utf-8").strip()
     return semantic_prefix + "\n\n" + encoding + "\n"
 
 
@@ -476,7 +486,7 @@ def call_provider(
             text={
                 "format": {
                     "type": "json_schema",
-                    "name": "e1_stage2_assignment_vector",
+                    "name": "e1_stage2_fixed_width_partition",
                     "strict": True,
                     "schema": schema,
                 }
@@ -587,7 +597,7 @@ def derive_state(
         row_variant = row.get("execution_variant")
         if row_variant != EXECUTION_VARIANT:
             raise ValueError(
-                f"P1D2 output directory contains non-P1D2 attempt lineage: {row_variant!r}"
+                f"P1D3 output directory contains non-P1D3 attempt lineage: {row_variant!r}"
             )
         attempt_counts[task_id] = attempt_counts.get(task_id, 0) + 1
         cost = row.get("usage", {}).get("conservative_cost_usd")
@@ -666,12 +676,16 @@ def build_manifest(
         "runner_sha256": sha256_file(Path(__file__).resolve()),
         "execution_protocol_path": rel(EXECUTION_PROTOCOL),
         "execution_protocol_sha256": sha256_file(EXECUTION_PROTOCOL),
-        "prior_execution_correction_path": rel(EXECUTION_CORRECTION),
-        "prior_execution_correction_sha256": sha256_file(EXECUTION_CORRECTION),
-        "execution_correction_path": rel(EXECUTION_CORRECTION_P1D2),
-        "execution_correction_sha256": sha256_file(EXECUTION_CORRECTION_P1D2),
-        "output_encoding_path": rel(OUTPUT_ENCODING_P1D2),
-        "output_encoding_sha256": sha256_file(OUTPUT_ENCODING_P1D2),
+        "foundational_execution_correction_path": rel(EXECUTION_CORRECTION),
+        "foundational_execution_correction_sha256": sha256_file(EXECUTION_CORRECTION),
+        "prior_execution_correction_path": rel(EXECUTION_CORRECTION_P1D2),
+        "prior_execution_correction_sha256": sha256_file(EXECUTION_CORRECTION_P1D2),
+        "prior_output_encoding_path": rel(OUTPUT_ENCODING_P1D2),
+        "prior_output_encoding_sha256": sha256_file(OUTPUT_ENCODING_P1D2),
+        "execution_correction_path": rel(EXECUTION_CORRECTION_P1D3),
+        "execution_correction_sha256": sha256_file(EXECUTION_CORRECTION_P1D3),
+        "output_encoding_path": rel(OUTPUT_ENCODING_P1D3),
+        "output_encoding_sha256": sha256_file(OUTPUT_ENCODING_P1D3),
         "execution_variant_policy": {
             "all_fresh_tasks": EXECUTION_VARIANT,
             "predecessor_execution_is_frozen_and_superseded": True,
@@ -776,6 +790,8 @@ def synthetic_test(model_key: str) -> None:
                 "model_key": model_key,
                 "model": cfg["model"],
                 "max_output_tokens": MAX_OUTPUT_TOKENS_BY_MODEL[model_key],
+                "synthetic_target_count": SYNTHETIC_PACKET["target_count"],
+                "expected_assignment_digits": SYNTHETIC_PACKET["target_count"] * CODE_WIDTH,
                 "cluster_count": len(parsed["clusters"]),
                 "usage": usage_record(raw, model_key),
             },
@@ -1199,7 +1215,7 @@ def main() -> None:
     syn = sub.add_parser("synthetic-test", help="Test one model path with a synthetic packet")
     syn.add_argument("--model", required=True, choices=sorted(MODEL_CONFIGS))
 
-    can = sub.add_parser("canary", help="Run/resume the four real stress canaries")
+    can = sub.add_parser("canary", help="Run/resume the seven real stress/recovery canaries")
     can.add_argument("--implementation-commit", required=True)
 
     run = sub.add_parser("run", help="Run/resume all remaining partitions after canaries pass")
