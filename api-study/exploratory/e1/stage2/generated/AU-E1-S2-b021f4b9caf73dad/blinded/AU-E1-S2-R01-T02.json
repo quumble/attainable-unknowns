@@ -1,0 +1,425 @@
+{
+  "amendment_id": "E1A",
+  "packet_id": "AU-E1-S2-R01-T02",
+  "protocol_id": "E1",
+  "representation_set_id": "AU-E1-R01",
+  "schema_version": "au-e1-stage2-topic-packet-v1",
+  "stage": "stage2_blinded_topic_partition",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "target_count": 103,
+  "targets": [
+    {
+      "canonical_target": "The methods ensemble players use to manage intonation drift and make context-dependent pitch adjustments during performance",
+      "target_id": "T001"
+    },
+    {
+      "canonical_target": "The decision criteria performers use to adjust intonation away from the original reference pitch during a performance.",
+      "target_id": "T002"
+    },
+    {
+      "canonical_target": "The decision process ensemble members use to prioritize among conflicting intonation adjustments that benefit different instruments or harmonic goals",
+      "target_id": "T003"
+    },
+    {
+      "canonical_target": "The process by which ensemble players make ongoing intonation adjustments relative to a shared reference as instruments drift during performance",
+      "target_id": "T004"
+    },
+    {
+      "canonical_target": "The specific performance-time factors that cause instruments to deviate from the initial shared reference pitch.",
+      "target_id": "T005"
+    },
+    {
+      "canonical_target": "The criteria musicians use to choose intonation adjustments during performance after the initial tuning reference is no longer sufficient.",
+      "target_id": "T006"
+    },
+    {
+      "canonical_target": "The criterion musicians use to judge when intonation is aligned closely enough",
+      "target_id": "T007"
+    },
+    {
+      "canonical_target": "The decision criteria performers use to prioritize among multiple locally useful intonation adjustments.",
+      "target_id": "T008"
+    },
+    {
+      "canonical_target": "The criteria and process musicians use to select a shared reference pitch for tuning",
+      "target_id": "T009"
+    },
+    {
+      "canonical_target": "The decision criterion performers use to prioritize among equally useful intonation adjustments",
+      "target_id": "T010"
+    },
+    {
+      "canonical_target": "The factors performers use to choose among competing locally useful intonation adjustments during performance.",
+      "target_id": "T011"
+    },
+    {
+      "canonical_target": "The criterion players use to determine that their pitches align closely enough with the reference pitch to begin playing",
+      "target_id": "T012"
+    },
+    {
+      "canonical_target": "The effect of temperature changes on intonation during a musical performance",
+      "target_id": "T013"
+    },
+    {
+      "canonical_target": "The criteria musicians use to choose intonation adjustments during a performance",
+      "target_id": "T014"
+    },
+    {
+      "canonical_target": "The mechanism by which temperature and instrument behavior can alter intonation after tuning to a shared reference pitch",
+      "target_id": "T015"
+    },
+    {
+      "canonical_target": "The decision criterion performers use to prioritize among multiple locally useful intonation adjustments.",
+      "target_id": "T016"
+    },
+    {
+      "canonical_target": "The criteria musicians use to choose intonation adjustments during performance when instrument behavior diverges from the initial tuning reference",
+      "target_id": "T017"
+    },
+    {
+      "canonical_target": "The decision criteria performers use to prioritize among locally useful intonation adjustments during performance.",
+      "target_id": "T018"
+    },
+    {
+      "canonical_target": "The reference pitch most commonly used to tune musical ensembles",
+      "target_id": "T019"
+    },
+    {
+      "canonical_target": "The effects of temperature changes on musical instrument tuning during a performance",
+      "target_id": "T020"
+    },
+    {
+      "canonical_target": "The criteria musicians use during performance to decide when to depart from the original reference pitch in adjusting intonation.",
+      "target_id": "T021"
+    },
+    {
+      "canonical_target": "The criterion players use to determine that their intonation is sufficiently aligned to begin performing together.",
+      "target_id": "T022"
+    },
+    {
+      "canonical_target": "The decision criteria ensemble members use to choose intonation adjustments during performance after drifting from the initial tuning reference",
+      "target_id": "T023"
+    },
+    {
+      "canonical_target": "The criterion players use to determine that their adjusted intonation is sufficiently close to the reference pitch to proceed",
+      "target_id": "T024"
+    },
+    {
+      "canonical_target": "The criteria and process musicians use to choose intonation adjustments during performance after initial tuning becomes insufficient",
+      "target_id": "T025"
+    },
+    {
+      "canonical_target": "The reference pitch or instrument most commonly used to provide an ensemble’s initial tuning tone.",
+      "target_id": "T026"
+    },
+    {
+      "canonical_target": "The effects of temperature and instrument behavior on intonation choices during a performance.",
+      "target_id": "T027"
+    },
+    {
+      "canonical_target": "The decision criteria musicians use to prioritize among competing intonation adjustments during a performance",
+      "target_id": "T028"
+    },
+    {
+      "canonical_target": "The mechanisms musicians use to maintain intonational agreement despite performance conditions that favor divergent pitches",
+      "target_id": "T029"
+    },
+    {
+      "canonical_target": "The specific reference pitch or frequency that orchestras typically use for tuning.",
+      "target_id": "T030"
+    },
+    {
+      "canonical_target": "The specific musical and physical performance factors that cause players to deviate from their initial shared tuning",
+      "target_id": "T031"
+    },
+    {
+      "canonical_target": "The criteria musicians use during performance to decide when to depart from the original reference pitch in adjusting intonation.",
+      "target_id": "T032"
+    },
+    {
+      "canonical_target": "The decision criteria musicians use to choose among competing intonation adjustments during a performance",
+      "target_id": "T033"
+    },
+    {
+      "canonical_target": "The cues and process players use to determine ongoing intonation adjustments as performance conditions change",
+      "target_id": "T034"
+    },
+    {
+      "canonical_target": "The criterion players use to determine when their adjusted intonation is sufficiently close to the reference pitch.",
+      "target_id": "T035"
+    },
+    {
+      "canonical_target": "The decision criteria musicians use to adjust intonation away from the shared reference pitch during performance",
+      "target_id": "T036"
+    },
+    {
+      "canonical_target": "The criteria musicians use to decide when to adjust their intonation during a performance",
+      "target_id": "T037"
+    },
+    {
+      "canonical_target": "The cues or feedback players use to determine ongoing intonation adjustments as performance conditions change",
+      "target_id": "T038"
+    },
+    {
+      "canonical_target": "The cues and process players use to determine ongoing intonation adjustments during performance without repeatedly checking the initial reference pitch.",
+      "target_id": "T039"
+    },
+    {
+      "canonical_target": "The means by which ensembles sustain accurate intonation during performance after the opening reference pitch is no longer audible.",
+      "target_id": "T040"
+    },
+    {
+      "canonical_target": "The decision criteria musicians use to choose among competing intonation adjustments during a performance",
+      "target_id": "T041"
+    },
+    {
+      "canonical_target": "The criteria musicians use to choose intonation adjustments during performance after the initial tuning reference ceases to govern.",
+      "target_id": "T042"
+    },
+    {
+      "canonical_target": "The specific standard reference pitch frequency that ensembles typically use for tuning.",
+      "target_id": "T043"
+    },
+    {
+      "canonical_target": "The way musicians adjust their intonation during performance in response to a shifting reference pitch",
+      "target_id": "T044"
+    },
+    {
+      "canonical_target": "The decision criteria ensemble musicians use to prioritize among multiple locally beneficial intonation adjustments.",
+      "target_id": "T045"
+    },
+    {
+      "canonical_target": "The criteria players use to judge whether their pitches are sufficiently aligned with the shared reference pitch",
+      "target_id": "T046"
+    },
+    {
+      "canonical_target": "The methods musicians use during performance to adjust intonation in response to drift caused by changing physical conditions such as temperature.",
+      "target_id": "T047"
+    },
+    {
+      "canonical_target": "The decision criteria performers use to prioritize among multiple locally useful intonation adjustments.",
+      "target_id": "T048"
+    },
+    {
+      "canonical_target": "The criteria or cues ensemble members use to judge that their pitches are sufficiently aligned with the reference pitch to begin performing.",
+      "target_id": "T049"
+    },
+    {
+      "canonical_target": "The decision criteria performers typically use to prioritize among multiple locally useful intonation adjustments",
+      "target_id": "T050"
+    },
+    {
+      "canonical_target": "The real-time process by which musicians adapt intonation to changing harmonic contexts during performance",
+      "target_id": "T051"
+    },
+    {
+      "canonical_target": "The criteria musicians use during performance to choose intonation adjustments that depart from the initial tuning reference",
+      "target_id": "T052"
+    },
+    {
+      "canonical_target": "The specific standard reference pitch typically used for an ensemble’s initial tuning.",
+      "target_id": "T053"
+    },
+    {
+      "canonical_target": "The decision criteria performers use to prioritize among locally useful intonation adjustments.",
+      "target_id": "T054"
+    },
+    {
+      "canonical_target": "How players identify the specific reference pitch for ongoing tuning when the reference instrument is unavailable during performance",
+      "target_id": "T055"
+    },
+    {
+      "canonical_target": "The decision criteria musicians use during performance to adjust intonation away from the shared reference pitch",
+      "target_id": "T056"
+    },
+    {
+      "canonical_target": "The decision criteria performers use to prioritize among locally useful intonation adjustments during a performance.",
+      "target_id": "T057"
+    },
+    {
+      "canonical_target": "The effects of changing harmony, dynamics, temperature, and instrument behavior on performers’ intonation choices during a performance.",
+      "target_id": "T058"
+    },
+    {
+      "canonical_target": "The cues or process players use to determine intonation adjustments during changing performance conditions",
+      "target_id": "T059"
+    },
+    {
+      "canonical_target": "The decision criteria ensembles use to prioritize among locally useful intonation adjustments",
+      "target_id": "T060"
+    },
+    {
+      "canonical_target": "The criterion by which ensemble members determine that their adjusted pitches are sufficiently aligned in intonation.",
+      "target_id": "T061"
+    },
+    {
+      "canonical_target": "The decision criteria performers use to prioritize among multiple locally useful intonation adjustments",
+      "target_id": "T062"
+    },
+    {
+      "canonical_target": "The ways harmony, dynamics, temperature, and instrument behavior affect intonation choices during performance.",
+      "target_id": "T063"
+    },
+    {
+      "canonical_target": "The typical reference pitch or instrument used to provide an ensemble’s shared tuning tone.",
+      "target_id": "T064"
+    },
+    {
+      "canonical_target": "The cues or comparison processes ensemble members use to detect intonation drift during a performance.",
+      "target_id": "T065"
+    },
+    {
+      "canonical_target": "The mechanism by which temperature changes alter instrument intonation during a performance.",
+      "target_id": "T066"
+    },
+    {
+      "canonical_target": "The effects of temperature and instrument behavior on intonation choices during a performance",
+      "target_id": "T067"
+    },
+    {
+      "canonical_target": "The criteria and process musicians use to choose intonation adjustments during performance after drifting from the initial reference pitch.",
+      "target_id": "T068"
+    },
+    {
+      "canonical_target": "The decision criteria musicians use to choose among competing intonation adjustments during performance",
+      "target_id": "T069"
+    },
+    {
+      "canonical_target": "The criteria musicians use during performance to choose intonation adjustments after diverging from the initial shared tuning reference.",
+      "target_id": "T070"
+    },
+    {
+      "canonical_target": "The decision criteria performers typically use to prioritize among multiple locally useful intonation adjustments.",
+      "target_id": "T071"
+    },
+    {
+      "canonical_target": "The reference pitch frequency most ensembles typically use for tuning.",
+      "target_id": "T072"
+    },
+    {
+      "canonical_target": "The decision criteria performers use to prioritize among multiple locally useful intonation adjustments.",
+      "target_id": "T073"
+    },
+    {
+      "canonical_target": "The decision criteria ensemble members use to prioritize among multiple equally useful intonation adjustments in the moment.",
+      "target_id": "T074"
+    },
+    {
+      "canonical_target": "The decision criterion performers use to prioritize among equally useful intonation adjustments in a given moment",
+      "target_id": "T075"
+    },
+    {
+      "canonical_target": "The effects of changing harmony, dynamics, temperature, and instrument behavior on performers’ intonation choices during performance",
+      "target_id": "T076"
+    },
+    {
+      "canonical_target": "The factors that cause intonation to diverge from the initial reference pitch during a performance.",
+      "target_id": "T077"
+    },
+    {
+      "canonical_target": "The decision criteria performers use to prioritize among multiple locally useful intonation adjustments.",
+      "target_id": "T078"
+    },
+    {
+      "canonical_target": "The criterion ensemble members use to determine that their pitches are sufficiently aligned with the reference pitch",
+      "target_id": "T079"
+    },
+    {
+      "canonical_target": "The methods players use to detect and quantify the precise intonation adjustments needed during a performance",
+      "target_id": "T080"
+    },
+    {
+      "canonical_target": "The criteria and process musicians use to choose intonation adjustments during performance after the initial tuning reference ceases to govern.",
+      "target_id": "T081"
+    },
+    {
+      "canonical_target": "The decision criteria performers use to prioritize among multiple locally useful intonation adjustments.",
+      "target_id": "T082"
+    },
+    {
+      "canonical_target": "The decision criteria musicians use to choose among conflicting intonation adjustments during performance",
+      "target_id": "T083"
+    },
+    {
+      "canonical_target": "The means by which ensemble members sustain and adjust tuning alignment during performance after the reference pitch stops sounding",
+      "target_id": "T084"
+    },
+    {
+      "canonical_target": "The mechanism by which temperature changes alter an instrument's pitch",
+      "target_id": "T085"
+    },
+    {
+      "canonical_target": "The decision criteria musicians use to prioritize intonation adjustments when musical and physical factors conflict",
+      "target_id": "T086"
+    },
+    {
+      "canonical_target": "The specific effect of temperature changes on an instrument’s pitch",
+      "target_id": "T087"
+    },
+    {
+      "canonical_target": "The criterion ensemble members use to determine when their pitches are sufficiently aligned with one another",
+      "target_id": "T088"
+    },
+    {
+      "canonical_target": "The methods musicians use during performance to correct or compensate for intonation drift.",
+      "target_id": "T089"
+    },
+    {
+      "canonical_target": "The criterion by which ensemble members determine that their intonation is sufficiently aligned with one another",
+      "target_id": "T090"
+    },
+    {
+      "canonical_target": "The specific reference pitch most commonly used for an ensemble’s initial tuning",
+      "target_id": "T091"
+    },
+    {
+      "canonical_target": "The criterion ensemble members use to determine when their intonation is sufficiently aligned to proceed",
+      "target_id": "T092"
+    },
+    {
+      "canonical_target": "The decision process ensemble members use to prioritize among mutually incompatible but locally beneficial intonation adjustments.",
+      "target_id": "T093"
+    },
+    {
+      "canonical_target": "The cues and processes performers use to determine ongoing intonation adjustments as performance conditions change",
+      "target_id": "T094"
+    },
+    {
+      "canonical_target": "The decision criteria players use to choose intonation adjustments during performance as conditions change.",
+      "target_id": "T095"
+    },
+    {
+      "canonical_target": "The decision criteria players use to choose intonation adjustments during performance after the initial reference pitch is no longer sufficient",
+      "target_id": "T096"
+    },
+    {
+      "canonical_target": "The cues or comparison process players use to determine whether to adjust their intonation upward or downward relative to the reference pitch",
+      "target_id": "T097"
+    },
+    {
+      "canonical_target": "The frequency most commonly used as the orchestral reference pitch in modern practice.",
+      "target_id": "T098"
+    },
+    {
+      "canonical_target": "The mechanism by which temperature changes affect an instrument's pitch during performance.",
+      "target_id": "T099"
+    },
+    {
+      "canonical_target": "The criterion players use to determine when performance pitch drift from the original reference is beyond correction",
+      "target_id": "T100"
+    },
+    {
+      "canonical_target": "The criteria musicians use during performance to decide when to depart from the shared reference pitch in adjusting intonation.",
+      "target_id": "T101"
+    },
+    {
+      "canonical_target": "The effect of temperature changes on instrument tuning and the intonation adjustments required during a performance.",
+      "target_id": "T102"
+    },
+    {
+      "canonical_target": "The specific reference pitch and frequency typically used for an ensemble’s initial tuning.",
+      "target_id": "T103"
+    }
+  ],
+  "topic_packet_id": "AU-E1-T02"
+}

@@ -1,0 +1,206 @@
+{
+  "amendment_id": "E1A",
+  "bundle_id": "AU-E1-S2-b021f4b9caf73dad",
+  "instructions_path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/STAGE2_PARTITION_INSTRUCTIONS.md",
+  "instructions_sha256": "f4425cfb3fa4ff359496069f09712f0b83d1f9c30977aeca35792512986c0bef",
+  "packet_count": 24,
+  "packets": [
+    {
+      "packet_id": "AU-E1-S2-R01-T01",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T01.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "7a31f0a5e7636caecad5c895300348efd8555cb96967b24daae149b54d7fdca8",
+      "target_count": 105,
+      "topic_packet_id": "AU-E1-T01"
+    },
+    {
+      "packet_id": "AU-E1-S2-R01-T02",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T02.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "8c0a92916f5b46e1dc371b44f081b8ad3301b6606e2252bed0f7d91d552bc47f",
+      "target_count": 103,
+      "topic_packet_id": "AU-E1-T02"
+    },
+    {
+      "packet_id": "AU-E1-S2-R01-T03",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T03.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "718e87a451d6787bb6271f5141ab5a3df82d9d262a9c4f2c63373375afe9d75b",
+      "target_count": 109,
+      "topic_packet_id": "AU-E1-T03"
+    },
+    {
+      "packet_id": "AU-E1-S2-R01-T04",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T04.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "53fbdce36b8579a07e76277894dc4a96d82b154381f7a996c510816c2c4ccc89",
+      "target_count": 230,
+      "topic_packet_id": "AU-E1-T04"
+    },
+    {
+      "packet_id": "AU-E1-S2-R01-T05",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T05.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "05f7e629493a268886a12649418cd38ba5c914bde6e168acfce936fca59c77c9",
+      "target_count": 159,
+      "topic_packet_id": "AU-E1-T05"
+    },
+    {
+      "packet_id": "AU-E1-S2-R01-T06",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T06.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "5ef39b180d6727ae469b237e4257c7ff5ce0448b45cb78473a0a206d594c1b4c",
+      "target_count": 190,
+      "topic_packet_id": "AU-E1-T06"
+    },
+    {
+      "packet_id": "AU-E1-S2-R01-T07",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T07.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "45f9ab4b8a7fede09c787e33fdfd28493531a8f31061fc843b7e1e60edf0dfdb",
+      "target_count": 206,
+      "topic_packet_id": "AU-E1-T07"
+    },
+    {
+      "packet_id": "AU-E1-S2-R01-T08",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T08.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "ff40e69a97be7fb38c3427a32ec434f6da1528028e841cb81fa6bae09b3d25eb",
+      "target_count": 172,
+      "topic_packet_id": "AU-E1-T08"
+    },
+    {
+      "packet_id": "AU-E1-S2-R01-T09",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T09.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "0731da3b465147e1c4593c4b028e522ba020a0c4e79d3693644057d8ea01784e",
+      "target_count": 220,
+      "topic_packet_id": "AU-E1-T09"
+    },
+    {
+      "packet_id": "AU-E1-S2-R01-T10",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T10.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "36c3910960da10368f68eaec426d77a9908ff53e41c9b064a80f25207f8e4695",
+      "target_count": 177,
+      "topic_packet_id": "AU-E1-T10"
+    },
+    {
+      "packet_id": "AU-E1-S2-R01-T11",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T11.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "54dab5c13bf34f58c99ba90abe0a61239d048b9defbee2dce8a6683eb96da80f",
+      "target_count": 140,
+      "topic_packet_id": "AU-E1-T11"
+    },
+    {
+      "packet_id": "AU-E1-S2-R01-T12",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R01-T12.json",
+      "representation_set_id": "AU-E1-R01",
+      "sha256": "b47947aae108714ee6f7e15f43c1196ed041291e8c082394dfc464adfe67cd4d",
+      "target_count": 173,
+      "topic_packet_id": "AU-E1-T12"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T01",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T01.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "11aa9c51a9ee0e43b49c38e619e44a258f4cebecff64abf49542480d504fae09",
+      "target_count": 105,
+      "topic_packet_id": "AU-E1-T01"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T02",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T02.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "c6cca2c36e41eeb93358919dabe4ada96f3cddafff897b226a10118639c5f3ca",
+      "target_count": 103,
+      "topic_packet_id": "AU-E1-T02"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T03",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T03.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "637d7290d832d125a8130679de022b6767fee614073066db5c05b7a208f24bb6",
+      "target_count": 109,
+      "topic_packet_id": "AU-E1-T03"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T04",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T04.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "2b43aac0d5e3c1603520164df09028f786006b140dd4905367a618f80a725adc",
+      "target_count": 230,
+      "topic_packet_id": "AU-E1-T04"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T05",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T05.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "d7e6f9dbfea76daabb016d552358606c98d56fc31e03f9d61ad958c3331ba2e9",
+      "target_count": 159,
+      "topic_packet_id": "AU-E1-T05"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T06",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T06.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "1f8eb71db6effb8808ef55af917008f3cc185acb64ab5be99776215c4cf44ea1",
+      "target_count": 190,
+      "topic_packet_id": "AU-E1-T06"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T07",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T07.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "fabcfd1f6c7152cb578aae289e5d109c15f8e4aa70dd8b76b9ba769af8cc1926",
+      "target_count": 206,
+      "topic_packet_id": "AU-E1-T07"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T08",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T08.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "b7c9a313c0306016cd97de6b226fffa1c2adc55e319fbd404dc3491fdfe6d7c2",
+      "target_count": 172,
+      "topic_packet_id": "AU-E1-T08"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T09",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T09.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "a1b8dc9c946685cf8a0fb7dc712b75745d1f5913e62613a82336935d3b11e6f7",
+      "target_count": 220,
+      "topic_packet_id": "AU-E1-T09"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T10",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T10.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "259ab1ac8b0f27a0dda10f0d96ad2b77a4c556adc420ff91df0388820c5ce734",
+      "target_count": 177,
+      "topic_packet_id": "AU-E1-T10"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T11",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T11.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "4dbb39d33d30b3a37bb6ebfb32263364466ec934ec53715f441a8a8e12f0bd67",
+      "target_count": 140,
+      "topic_packet_id": "AU-E1-T11"
+    },
+    {
+      "packet_id": "AU-E1-S2-R02-T12",
+      "path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/AU-E1-S2-R02-T12.json",
+      "representation_set_id": "AU-E1-R02",
+      "sha256": "07eeb6e279c6d855ad3d0a5704c76c3952e1c8acb370a812f48d59c498756319",
+      "target_count": 173,
+      "topic_packet_id": "AU-E1-T12"
+    }
+  ],
+  "protocol_id": "E1",
+  "representation_set_count": 2,
+  "schema_version": "au-e1-stage2-packet-index-v1",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "topic_packet_count_per_representation": 12
+}

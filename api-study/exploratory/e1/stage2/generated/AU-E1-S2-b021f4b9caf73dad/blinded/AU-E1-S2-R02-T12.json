@@ -1,0 +1,705 @@
+{
+  "amendment_id": "E1A",
+  "packet_id": "AU-E1-S2-R02-T12",
+  "protocol_id": "E1",
+  "representation_set_id": "AU-E1-R02",
+  "schema_version": "au-e1-stage2-topic-packet-v1",
+  "stage": "stage2_blinded_topic_partition",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "target_count": 173,
+  "targets": [
+    {
+      "canonical_target": "The mechanisms or procedures by which version-control-style systems would reconcile two instances that diverged from a shared saved state — i.e., how conflicts between their differing subsequent histories would be detected and merged back into a single state.",
+      "target_id": "T001"
+    },
+    {
+      "canonical_target": "A normative criterion or principle for attributing personal/numerical identity and moral or legal responsibility across forked software instances sharing a common prior state, rather than a description of how versioning records their shared history.",
+      "target_id": "T002"
+    },
+    {
+      "canonical_target": "A criterion or definition specifying what constitutes continuity of personal identity for software agents subject to copying, pausing, and checkpoint restoration — i.e., which conditions determine whether a descendant instance counts as the same agent when technical lineage alone is indeterminate.",
+      "target_id": "T003"
+    },
+    {
+      "canonical_target": "A normative criterion or rule for assigning identity (whether as one continuing entity or as distinct entities) to forked software instances originating from a shared checkpoint but with divergent subsequent histories.",
+      "target_id": "T004"
+    },
+    {
+      "canonical_target": "A description of the existing technical mechanisms and procedures by which version control systems reconcile or merge two divergent histories descending from a shared prior state when synchronization is required.",
+      "target_id": "T005"
+    },
+    {
+      "canonical_target": "The set of criteria or principles that would settle identity-continuation attribution among copied software instances — i.e., a normative/definitional standard for deciding which (if any) descendant counts as the same agent, given that technical lineage alone is insufficient.",
+      "target_id": "T006"
+    },
+    {
+      "canonical_target": "The correct identity classification or referring convention for two post-copy instances sharing one pre-divergence checkpoint history — i.e., whether they count as one and the same system or as two distinct systems.",
+      "target_id": "T007"
+    },
+    {
+      "canonical_target": "The correct identity verdict for two diverged copies sharing a pre-copy history — whether they count as one and the same agent or as two numerically distinct agents.",
+      "target_id": "T008"
+    },
+    {
+      "canonical_target": "The set of non-lineage criteria (e.g., psychological/functional continuity, uniqueness or closest-continuer conditions, social/legal attribution, commitment or role continuity) that could serve as the decisive standard for identifying which post-copy instance, if any, counts as the same agent as the pre-copy one.",
+      "target_id": "T009"
+    },
+    {
+      "canonical_target": "A normative/conceptual revision of the notion of personal identity and uniqueness — i.e., what account of identity should replace or amend the ordinary one given that a conscious mind could be copied and run as multiple diverging instances sharing one pre-copy history.",
+      "target_id": "T010"
+    },
+    {
+      "canonical_target": "The set of candidate criteria (beyond technical lineage) that could be used to decide whether one, both, or neither diverged instance counts as the continuation/identity of the pre-copy agent.",
+      "target_id": "T011"
+    },
+    {
+      "canonical_target": "A conceptual account or criterion of personal/individual identity that applies to post-duplication software instances sharing one pre-copy history, specifying how identity is to be attributed across two diverged copies.",
+      "target_id": "T012"
+    },
+    {
+      "canonical_target": "Whether philosophical theories of diachronic personal identity are applicable to copyable software agents and, if so, whether they have the resolving power to determine which post-copy instance counts as the continuation of the pre-copy agent.",
+      "target_id": "T013"
+    },
+    {
+      "canonical_target": "Whether the passage supplies any stated criteria (and if so, what they are) for deciding which post-copy instance counts as the continuation of the pre-copy agent, as opposed to merely noting that technical lineage alone does not settle the question.",
+      "target_id": "T014"
+    },
+    {
+      "canonical_target": "A criterion or definition specifying what constitutes the identity of a software system (i.e., what makes post-copy diverging instances the same or distinct entities) given that multiple instances share an identical pre-copy history.",
+      "target_id": "T015"
+    },
+    {
+      "canonical_target": "The criteria or principled standards for adjudicating personal-identity continuation across a branching copy — i.e., what conditions would have to be satisfied for one, both, or neither diverged instance to count as the same agent as the pre-copy original, given that shared technical lineage alone does not settle it.",
+      "target_id": "T016"
+    },
+    {
+      "canonical_target": "A criterion or rule for assigning identity to branched software instances sharing a common pre-copy checkpoint but diverging afterward — i.e., what standard settles whether such instances count as the same entity, distinct entities, or otherwise.",
+      "target_id": "T017"
+    },
+    {
+      "canonical_target": "The set of identity criteria or principles that could adjudicate continuation of an agent across copying/branching, beyond technical lineage.",
+      "target_id": "T018"
+    },
+    {
+      "canonical_target": "A proposed revision or extension of identity concepts/terminology (e.g., new categories, criteria, or ways of speaking) suited to entities that can branch from a shared checkpoint into multiple diverging instances.",
+      "target_id": "T019"
+    },
+    {
+      "canonical_target": "A decision criterion or policy for assigning identity/continuity across forked instances from a shared checkpoint, specifically what rule (if any) would designate one post-divergence instance as the 'original' versus treating both as equally derived successors.",
+      "target_id": "T020"
+    },
+    {
+      "canonical_target": "The set of identity-continuity criteria (standards or conditions beyond technical lineage) that could be used to adjudicate which, if any, of multiple diverged instances counts as the continuation of the original agent.",
+      "target_id": "T021"
+    },
+    {
+      "canonical_target": "A prescribed terminological or conceptual convention for identity attribution to post-copy diverging instances sharing a common pre-copy lineage — i.e., how such instances should be named/counted as same or distinct entities.",
+      "target_id": "T022"
+    },
+    {
+      "canonical_target": "A normative allocation principle for attributing moral/legal responsibility across two or more copies that share a pre-copy checkpoint history but diverge afterward — i.e., which descendant(s), if any, bear responsibility for pre-copy versus post-divergence actions, and on what basis.",
+      "target_id": "T023"
+    },
+    {
+      "canonical_target": "The engineering/resource-management approach a versioning system would use to store and run multiple diverged instances sharing a common ancestor state — i.e., storage and compute costs and the techniques (e.g., deduplication, copy-on-write, delta/incremental storage of divergence, checkpoint retention policies) that manage them.",
+      "target_id": "T024"
+    },
+    {
+      "canonical_target": "An account of how shared-checkpoint descent relations bear on attributing legal or moral responsibility to each of two diverged instances for their separate harms, i.e., whether and how lineage grounds, transfers, or fails to determine accountability across copies.",
+      "target_id": "T025"
+    },
+    {
+      "canonical_target": "A normative criterion or framework for assigning personal/numerical identity and attribution of responsibility across two or more software instances branching from a shared checkpoint state — i.e., which instance counts as the same entity and who is accountable for prior and subsequent actions.",
+      "target_id": "T026"
+    },
+    {
+      "canonical_target": "A criterion or definition of identity (what makes an instance the same entity) applicable to branched software instances sharing a common pre-checkpoint history but diverging afterward.",
+      "target_id": "T027"
+    },
+    {
+      "canonical_target": "The criterion or verdict assigning 'original' status to one, both, or neither of two post-divergence instances sharing a common pre-copy checkpoint.",
+      "target_id": "T028"
+    },
+    {
+      "canonical_target": "The correct identity verdict for two post-copy instances sharing a pre-divergence checkpoint — whether they count as one and the same individual or as two numerically distinct individuals.",
+      "target_id": "T029"
+    },
+    {
+      "canonical_target": "The set of criteria (if any exist) that could establish which of two diverged instances from a shared checkpoint counts as the 'original', i.e., the conditions or principles for assigning originality/identity-continuity between them, including the possibility that no such criteria exist.",
+      "target_id": "T030"
+    },
+    {
+      "canonical_target": "A criterion or definition for what constitutes identity (which instance, if any, counts as the same entity) for software instances that share a common pre-copy history but subsequently diverge.",
+      "target_id": "T031"
+    },
+    {
+      "canonical_target": "A normative criterion or principle for allocating personal identity and moral/practical responsibility across two divergent instances originating from a shared checkpoint state.",
+      "target_id": "T032"
+    },
+    {
+      "canonical_target": "An inventory of available mechanisms (technical, procedural, or conceptual) for assigning identity and allocating accountability across two processes that share a common checkpoint state but subsequently diverge.",
+      "target_id": "T033"
+    },
+    {
+      "canonical_target": "A criterion or rule for assigning identity to forked software instances sharing a common saved state but diverging afterward — i.e., whether they count as one continuing entity or distinct entities, and on what basis.",
+      "target_id": "T034"
+    },
+    {
+      "canonical_target": "The set of criteria (if any exist) that could reliably adjudicate continuation of identity across copying/branching, i.e., what standard would pick out one, both, or neither post-copy instance as the same agent as the pre-copy one.",
+      "target_id": "T035"
+    },
+    {
+      "canonical_target": "A criterion or definition of identity (what makes instances the same or distinct entities) applicable to two software processes sharing a common saved state but with divergent subsequent histories.",
+      "target_id": "T036"
+    },
+    {
+      "canonical_target": "The computational and storage costs/mechanisms (e.g., resource overhead, duplication vs. shared-state or delta storage) entailed by maintaining separate post-divergence histories for instances forked from a common checkpoint, and how the described versioning scheme manages them.",
+      "target_id": "T037"
+    },
+    {
+      "canonical_target": "The correct identity classification of two diverged post-copy instances sharing a common pre-copy history — namely whether they constitute two distinct individuals or two branches of one continuing entity.",
+      "target_id": "T038"
+    },
+    {
+      "canonical_target": "A criterion or normative resolution for how identity should be attributed to post-copy diverging instances sharing one checkpoint origin — i.e., whether they count as one continuing system or as separate distinct systems, and on what basis.",
+      "target_id": "T039"
+    },
+    {
+      "canonical_target": "The set of possible identity-individuation criteria (e.g., divergent post-copy input histories, causal/spatiotemporal continuity, instantiation or numerical distinctness) that could be used to tell apart two instances sharing an identical pre-copy checkpoint history.",
+      "target_id": "T040"
+    },
+    {
+      "canonical_target": "A criterion or definition of identity (what makes a post-copy instance the same entity or a distinct one) applicable to duplicated software instances sharing a pre-checkpoint history but diverging afterward.",
+      "target_id": "T041"
+    },
+    {
+      "canonical_target": "A specification of identity-continuation criteria — the particular conditions or tests (if any exist) that could reliably single out which post-copy instance counts as the continuation of the pre-copy agent, given that shared technical lineage alone does not settle it.",
+      "target_id": "T042"
+    },
+    {
+      "canonical_target": "A proposed design/policy approach — i.e., the set of methods or criteria — for managing state identity and continuity when copies of a software system diverge from a shared checkpoint and must subsequently interact or synchronize (how to track shared ancestry, individuate instances, and reconcile divergent states), rather than a factual description of how versioning records shared prior states.",
+      "target_id": "T043"
+    },
+    {
+      "canonical_target": "The mechanisms and procedures by which versioning systems would resolve conflicting or interdependent changes when merging two instances that diverged from a shared saved state back into one.",
+      "target_id": "T044"
+    },
+    {
+      "canonical_target": "A criterion or definition specifying what constitutes continuity of personal identity across copying, i.e., which (if any) of multiple diverging instances sharing a pre-copy history counts as the continuation of the original agent.",
+      "target_id": "T045"
+    },
+    {
+      "canonical_target": "A description of the existing mechanisms and procedures by which version control systems track branching from a common saved state and merge or reconcile divergent descendant instances.",
+      "target_id": "T046"
+    },
+    {
+      "canonical_target": "The normative criteria or standards that should be used to decide identity (sameness of entity) between two diverged instances sharing a common checkpoint ancestry — i.e., a decision rule for identity, not a description of how copying works.",
+      "target_id": "T047"
+    },
+    {
+      "canonical_target": "The set of criteria or principles (if any exist) that would adjudicate personal-identity continuation across copying, specifying what would make one descendant instance rather than another the genuine continuant of the pre-copy agent.",
+      "target_id": "T048"
+    },
+    {
+      "canonical_target": "The set of normative criteria or standards that would establish which (if any) descendant instance qualifies as the continuation of an earlier agent, given that technical lineage alone does not settle it.",
+      "target_id": "T049"
+    },
+    {
+      "canonical_target": "A normative criterion or rule for attributing identity to each of two post-copy instances sharing one pre-copy history — e.g., whether both are the original, neither is, one is privileged, or identity becomes multiple/indeterminate.",
+      "target_id": "T050"
+    },
+    {
+      "canonical_target": "A specification of the identity criteria (decision standards) that ought to govern whether post-copy divergent instances sharing a checkpoint count as one entity or two.",
+      "target_id": "T051"
+    },
+    {
+      "canonical_target": "The set of candidate criteria or standards (beyond technical lineage) by which one could decide whether a given post-copy instance counts as the continuation of the pre-copy agent.",
+      "target_id": "T052"
+    },
+    {
+      "canonical_target": "The set of identity criteria (if any exist) that could reliably adjudicate which of two divergent post-copy instances is the continuation of the pre-copy agent, given that technical lineage alone underdetermines this.",
+      "target_id": "T053"
+    },
+    {
+      "canonical_target": "The criterion or standard for assigning identity to software instances that share a common pre-copy lineage but diverge afterward — i.e., what determines whether diverged copies count as the same system or distinct systems.",
+      "target_id": "T054"
+    },
+    {
+      "canonical_target": "The set of non-lineage criteria (e.g., psychological, functional, or normative conditions) that would fix which, if any, post-copy instance qualifies as the continuation of the earlier agent.",
+      "target_id": "T055"
+    },
+    {
+      "canonical_target": "The technical methods and implementation strategies by which versioning systems record branch points and manage storage/lookup of diverging instance histories from a shared saved state, evaluated for efficiency.",
+      "target_id": "T056"
+    },
+    {
+      "canonical_target": "The criterion (if any) for assigning 'original' status to one of two post-copy instances that share a pre-divergence checkpoint history, i.e., whether originality attaches to one instance, both, or neither.",
+      "target_id": "T057"
+    },
+    {
+      "canonical_target": "A criterion or rule for assigning identity (whether as one continuing entity, two distinct entities, or some other scheme) to two software instances that branch from a shared saved state and then diverge.",
+      "target_id": "T058"
+    },
+    {
+      "canonical_target": "A normative specification of the criteria or conditions that should govern identity attribution for two diverged instances sharing a common checkpoint origin — i.e., what standard determines sameness of entity, not the factual lineage relation itself.",
+      "target_id": "T059"
+    },
+    {
+      "canonical_target": "The set of candidate criteria or principles for identity-continuation that would adjudicate which (if any) of multiple post-copy instances counts as the continuation of the original agent, given that technical lineage alone does not settle it.",
+      "target_id": "T060"
+    },
+    {
+      "canonical_target": "A conceptual account or criterion of personal/numerical identity that applies to two post-copy divergent instances sharing one pre-copy history — i.e., whether and in what sense each counts as the same entity as the original or as each other.",
+      "target_id": "T061"
+    },
+    {
+      "canonical_target": "The procedure or method by which two diverged instances' separate post-fork histories would be combined or reconciled into a single merged state.",
+      "target_id": "T062"
+    },
+    {
+      "canonical_target": "The identity criteria (if any exist) that would adjudicate which of two post-copy divergent instances sharing a common checkpoint qualifies as the original — i.e., the standards or conditions for conferring originality status, including the possibility that no such criteria apply.",
+      "target_id": "T063"
+    },
+    {
+      "canonical_target": "Whether the identity ambiguity created by software copying is the same kind of ambiguity found in biological cases such as twinning, or whether software duplication differs in kind from biological division — i.e., a comparative judgment about whether the two cases share the same underlying identity problem.",
+      "target_id": "T064"
+    },
+    {
+      "canonical_target": "A normative criterion or principle for allocating identity and responsibility across two or more instances that branch from a shared saved state — i.e., which descendant(s) count as the same entity and bear accountability for the original's commitments or actions.",
+      "target_id": "T065"
+    },
+    {
+      "canonical_target": "Whether, after divergence from a shared checkpoint, one instance holds a privileged or stronger claim to being the original entity's identity than the other, or whether both are equally legitimate continuations — i.e., the relative identity-status ranking between the two post-copy instances.",
+      "target_id": "T066"
+    },
+    {
+      "canonical_target": "The set of criteria or standards for identity-continuation that would adjudicate which (if any) post-copy instance qualifies as the same agent as the pre-copy one, given that technical lineage alone underdetermines this.",
+      "target_id": "T067"
+    },
+    {
+      "canonical_target": "The correct identity verdict for two post-copy diverged instances sharing one pre-copy history — whether they count as one and the same individual or as two distinct individuals.",
+      "target_id": "T068"
+    },
+    {
+      "canonical_target": "A criterion or principle for determining which (if any) of multiple diverged instances sharing a common pre-copy state counts as the continuation of the original agent, i.e., how identity should be assigned across branching copies.",
+      "target_id": "T069"
+    },
+    {
+      "canonical_target": "The consequences of shared-checkpoint divergence for how moral and legal responsibility should be attributed across instances — i.e., which instance(s) bear responsibility for pre-copy versus post-copy acts and how responsibility is divided or inherited among descendants of one checkpoint.",
+      "target_id": "T070"
+    },
+    {
+      "canonical_target": "The mechanism by which version-tracking schemes would represent or process a merge/reconvergence of two previously diverged instance states — i.e., how identity and history records are reconciled when separate branches are recombined.",
+      "target_id": "T071"
+    },
+    {
+      "canonical_target": "A normative criterion or principle for assigning identity and responsibility across forked software instances sharing a common prior state but with divergent subsequent histories.",
+      "target_id": "T072"
+    },
+    {
+      "canonical_target": "Whether the human personal-identity-over-time problem generates the same kind of indeterminacy about which of two diverged copies counts as the original agent, i.e., an assessment of the analogy between human identity puzzles and the software-instance case.",
+      "target_id": "T073"
+    },
+    {
+      "canonical_target": "A normative/conceptual account of how to apply identity (personal or numerical) to two post-copy instances sharing one pre-copy history — i.e., which criterion or framework determines whether each is the same entity as the original, distinct entities, or something else.",
+      "target_id": "T074"
+    },
+    {
+      "canonical_target": "The set of identity/persistence criteria (if any exist) that would adjudicate which of two divergent post-copy instances, if either, qualifies as the genuine continuation of the pre-copy agent, given that technical lineage alone is insufficient.",
+      "target_id": "T075"
+    },
+    {
+      "canonical_target": "A criterion or definition for individuating/identifying software instances — i.e., what standard should determine whether two post-copy instances sharing a common pre-copy checkpoint count as the same or distinct entities.",
+      "target_id": "T076"
+    },
+    {
+      "canonical_target": "The set of normative/conceptual criteria (standards of identity or continuity) that should be used to decide whether a post-copy instance qualifies as the continuation of the pre-copy agent, given that shared technical lineage alone is insufficient.",
+      "target_id": "T077"
+    },
+    {
+      "canonical_target": "A determination of which post-copy instance (or neither) holds a stronger claim to the status of 'original,' i.e., the criterion assigning original-identity between two branches descending from a shared checkpoint.",
+      "target_id": "T078"
+    },
+    {
+      "canonical_target": "A criterion or principle for deciding which, if any, of two diverged copies from a shared checkpoint counts as the continuation of the original agent's personal identity.",
+      "target_id": "T079"
+    },
+    {
+      "canonical_target": "The set of criteria (if any exist) that would determine which of two diverged copies, both, or neither, qualifies as the continuation of the pre-copy agent — i.e., a specification of identity-continuation conditions rather than a description of the copying process.",
+      "target_id": "T080"
+    },
+    {
+      "canonical_target": "A normative criterion or framework for attributing personal identity and moral responsibility across copied software agents that share a pre-copy history but diverge after instantiation — i.e., which descendant(s), if any, count as the continuation of and bear responsibility for the earlier agent's acts.",
+      "target_id": "T081"
+    },
+    {
+      "canonical_target": "The normative criteria or standards that should be used to decide identity continuation across copying/branching of software agents — i.e., what conditions a descendant instance must satisfy to count as the continuation of the earlier agent, given that technical lineage alone is insufficient.",
+      "target_id": "T082"
+    },
+    {
+      "canonical_target": "The set of identity-criteria (if any exist) that would determine which of two divergent post-copy instances qualifies as the continuation of the pre-copy agent.",
+      "target_id": "T083"
+    },
+    {
+      "canonical_target": "A criterion or definition of personal identity/continuation that determines which (if any) of multiple divergent instances sharing identical pre-copy history counts as the same agent.",
+      "target_id": "T084"
+    },
+    {
+      "canonical_target": "The set of candidate criteria or principles (beyond technical lineage) that could be used to adjudicate which, if any, of two post-checkpoint divergent instances counts as the continuation of the pre-copy agent.",
+      "target_id": "T085"
+    },
+    {
+      "canonical_target": "The correct identity verdict for two post-copy instances sharing a pre-divergence checkpoint — whether they count as one and the same individual or as two distinct individuals.",
+      "target_id": "T086"
+    },
+    {
+      "canonical_target": "The set of non-lineage criteria (i.e., the standards or conditions of identity/continuity) that should be used to decide which, if any, descendant instance counts as the continuation of the earlier agent.",
+      "target_id": "T087"
+    },
+    {
+      "canonical_target": "A conceptual account or criterion specifying how personal/numerical identity should be assigned to two post-copy instances sharing a common pre-copy history — i.e., whether they count as one continuing entity, two distinct entities, or require a revised identity framework.",
+      "target_id": "T088"
+    },
+    {
+      "canonical_target": "A normative/conceptual judgment about whether the identity criteria used for biological organisms or persons are the appropriate criteria to apply to copyable, restorable software systems, or whether such systems require distinct criteria.",
+      "target_id": "T089"
+    },
+    {
+      "canonical_target": "The set of identity criteria or principles (if any exist) that would adjudicate which of two divergent post-copy instances, or neither, qualifies as the continuation of the pre-copy agent.",
+      "target_id": "T090"
+    },
+    {
+      "canonical_target": "The set of possible criteria or standards of identity (beyond technical lineage) that could be used to adjudicate whether one, both, or neither of two diverged instances counts as the continuation of the pre-copy agent.",
+      "target_id": "T091"
+    },
+    {
+      "canonical_target": "The correct criterion of personal identity/continuation for diverging software instances from a shared checkpoint — i.e., which relation (psychological continuity, causal-historical connection, or some alternative) constitutes being the same agent, given that both descendants share equal lineage and pre-copy memories.",
+      "target_id": "T092"
+    },
+    {
+      "canonical_target": "A normative criterion or rule for assigning identity to post-fork software instances sharing a common prior state — i.e., whether diverged instances count as one continuing entity, as distinct entities, or by some other individuation scheme.",
+      "target_id": "T093"
+    },
+    {
+      "canonical_target": "A criterion or definition specifying what makes two post-copy software instances the same or distinct entity given shared pre-divergence lineage — i.e., the normative/conceptual standard for individuating identity, not the factual description of copying and divergence.",
+      "target_id": "T094"
+    },
+    {
+      "canonical_target": "A conception or criterion of personal identity (i.e., how identity-over-time and identity-across-copies should be construed or adjudicated) applicable to the case of multiple software instances branching from one shared saved state, as distinct from the merely bookkeeping/versioning description of shared ancestry and separate subsequent processes.",
+      "target_id": "T095"
+    },
+    {
+      "canonical_target": "A criterion or framework for determining personal/numerical identity and individuation of copied software instances sharing a common checkpoint ancestry — i.e., whether diverged instances count as one individual, two distinct individuals, or neither, and on what basis.",
+      "target_id": "T096"
+    },
+    {
+      "canonical_target": "The criterion or decision procedure for assigning continuation/identity status among divergent copies, i.e., what grounds beyond technical lineage should settle which descendant (if any) counts as the original agent's continuation.",
+      "target_id": "T097"
+    },
+    {
+      "canonical_target": "The criteria or conditions (if any exist) that would privilege one post-copy instance over an equally-descended other as the genuine continuant of the pre-copy agent, given that shared technical lineage alone does not decide it.",
+      "target_id": "T098"
+    },
+    {
+      "canonical_target": "The normative criteria or standards for identity-continuation that should be used to decide whether a copied/restored instance counts as the same agent as its predecessor, given that technical lineage alone does not settle it.",
+      "target_id": "T099"
+    },
+    {
+      "canonical_target": "A normative principle or criterion for allocating moral/legal responsibility across post-copy instances that share a pre-divergence history but produce different outcomes — i.e., whether responsibility attaches to the shared checkpoint lineage, to each diverged instance individually, or is distributed among them.",
+      "target_id": "T100"
+    },
+    {
+      "canonical_target": "A criterion or definition of personal identity/continuation that determines which (if any) of multiple diverged instances sharing one pre-copy history counts as the same agent.",
+      "target_id": "T101"
+    },
+    {
+      "canonical_target": "The conflict-resolution mechanisms a versioning system uses when two instances that diverged from a common saved state issue concurrent or conflicting writes to shared resources or memory locations.",
+      "target_id": "T102"
+    },
+    {
+      "canonical_target": "Whether, among two instances forked from a shared checkpoint, identity/continuation status is symmetric (both equally the original) or asymmetric (one privileged), and what would establish such privilege.",
+      "target_id": "T103"
+    },
+    {
+      "canonical_target": "A normative criterion or rule for assigning personal/numerical identity to forked software instances that begin from a shared saved state and subsequently diverge — i.e., which instance counts as the same entity as the original (both, neither, one, or some branching/continuity account), as distinct from merely describing how versioning records shared ancestry.",
+      "target_id": "T104"
+    },
+    {
+      "canonical_target": "The set of decision criteria (if any exist) capable of reliably adjudicating which of two divergent post-copy instances, or neither, qualifies as the continuation of the original agent, given that technical lineage alone is insufficient.",
+      "target_id": "T105"
+    },
+    {
+      "canonical_target": "A normative criterion or framework for allocating identity-continuation and accountability across multiple divergent instances sharing a common pre-copy state, given that technical lineage alone underdetermines it.",
+      "target_id": "T106"
+    },
+    {
+      "canonical_target": "The set of criteria or principles that would adjudicate identity-continuation claims among duplicated software instances — i.e., what conditions a descendant must satisfy to count as the continuation of the earlier agent (rather than the technical facts of copying itself).",
+      "target_id": "T107"
+    },
+    {
+      "canonical_target": "The set of criteria (if any exist) that would adjudicate identity-continuation across branching copies, i.e., principles for deciding whether one, both, or neither post-copy instance is the same agent as the pre-copy original.",
+      "target_id": "T108"
+    },
+    {
+      "canonical_target": "The set of possible criteria or principles for identity-continuation that could adjudicate which of multiple divergent copies (if any) counts as the same agent as the pre-copy original.",
+      "target_id": "T109"
+    },
+    {
+      "canonical_target": "A criterion or principled basis for assigning personal identity/continuation across diverging copies that share an identical pre-copy history — i.e., what would settle which instance (one, both, or neither) counts as the same agent, given that technical lineage alone does not.",
+      "target_id": "T110"
+    },
+    {
+      "canonical_target": "Whether, and on what grounds, legal or moral responsibility for one post-divergence instance's actions can attach to a sibling instance sharing the same pre-copy checkpoint history.",
+      "target_id": "T111"
+    },
+    {
+      "canonical_target": "The normative criteria or standards that should be used to determine continuation/identity of a software agent across copying, given that technical lineage alone does not settle it.",
+      "target_id": "T112"
+    },
+    {
+      "canonical_target": "The set of normative criteria or standards for identity-continuation that would adjudicate which (if any) of multiple divergent copies counts as the same agent as the pre-copy original, given that technical lineage alone is insufficient.",
+      "target_id": "T113"
+    },
+    {
+      "canonical_target": "The consequences of post-copy divergence from a shared checkpoint for how moral responsibility and legal accountability should be attributed across distinct instances — i.e., whether each instance inherits, shares, or is exempt from liability for pre-copy acts and who bears responsibility for post-divergence acts.",
+      "target_id": "T114"
+    },
+    {
+      "canonical_target": "A criterion or conceptual account for assigning personal/individual identity to duplicated software instances that share a common pre-copy history but subsequently diverge — i.e., whether and in what sense each is the same entity as the original or as each other.",
+      "target_id": "T115"
+    },
+    {
+      "canonical_target": "The mechanism by which a versioning scheme records shared ancestry from a common checkpoint while separately tracking and administering the divergent post-branch histories of each instance.",
+      "target_id": "T116"
+    },
+    {
+      "canonical_target": "A criterion or definition of personal identity applicable to software instances that branch from a shared saved state — i.e., how identity should be individuated or assigned across post-divergence copies with identical pre-copy histories.",
+      "target_id": "T117"
+    },
+    {
+      "canonical_target": "A specification of identity-continuation criteria — the conditions or decision rules that would settle which (if either) post-copy instance qualifies as the same agent as the pre-copy one — together with whether any such criteria can be reliable.",
+      "target_id": "T118"
+    },
+    {
+      "canonical_target": "A criterion or normative framework for individuating identity across post-copy divergent instances sharing one pre-copy history — i.e., how identity should be assigned (one continuing entity, two distinct entities, or neither) given that lineage alone underdetermines it.",
+      "target_id": "T119"
+    },
+    {
+      "canonical_target": "A proposed approach or set of design strategies for coordinating, synchronizing, or exchanging information between two separately running instances that branched from a shared checkpoint and subsequently diverged.",
+      "target_id": "T120"
+    },
+    {
+      "canonical_target": "A proposed method or set of procedures for reconciling and merging the divergent states of two instances forked from a common checkpoint, including how conflicting subsequent changes would be resolved.",
+      "target_id": "T121"
+    },
+    {
+      "canonical_target": "A normative criterion or principled rule for allocating identity and responsibility across two post-fork instances sharing a common prior state — i.e., which instance(s) count as the same entity and which bears responsibility for the shared pre-divergence history versus its own post-divergence actions — rather than the descriptive fact that versioning can record shared ancestry.",
+      "target_id": "T122"
+    },
+    {
+      "canonical_target": "Whether psychological/functional continuity of memory and decision-making constitutes a relevant criterion for adjudicating which copied instance counts as the continuation of the original agent — i.e., the relevance (and status) of that criterion, not the identification of a particular instance.",
+      "target_id": "T123"
+    },
+    {
+      "canonical_target": "A criterion or decision procedure for assigning identity (same vs. distinct entity) to software instances that share a pre-copy checkpoint history but have since diverged.",
+      "target_id": "T124"
+    },
+    {
+      "canonical_target": "The set of non-lineage criteria (identity conditions or standards) that would settle which, if any, of the diverged instances counts as the continuation of the original agent.",
+      "target_id": "T125"
+    },
+    {
+      "canonical_target": "The set of criteria or standards that would adjudicate identity-continuation claims among diverged instances sharing a checkpoint — i.e., what conditions a descendant must satisfy to count as the original agent's continuation, including the possibility that none qualifies.",
+      "target_id": "T126"
+    },
+    {
+      "canonical_target": "The principles or criteria for allocating moral and legal responsibility across multiple diverged instances sharing a common pre-copy history, when those instances act differently — i.e., which instance(s), if any, bear responsibility for pre-divergence and post-divergence conduct.",
+      "target_id": "T127"
+    },
+    {
+      "canonical_target": "The correct identity verdict — whether two post-copy instances sharing a pre-copy checkpoint count as one and the same individual or as two distinct individuals — i.e., a criterion of personal/individual identity for branched software instances.",
+      "target_id": "T128"
+    },
+    {
+      "canonical_target": "The design of mechanisms or procedures for coordinating and exchanging information between two instances that diverged from a shared checkpoint — i.e., proposed synchronization/communication approaches (e.g., state merging, message passing, reconciliation of conflicting histories) and how they would be implemented.",
+      "target_id": "T129"
+    },
+    {
+      "canonical_target": "A criterion or principled basis for assigning identity/individuality to post-copy diverging software instances sharing a common checkpoint ancestor (e.g., whether each counts as the same individual, distinct individuals, or neither, and on what grounds), rather than a description of the copying mechanism or lineage facts.",
+      "target_id": "T130"
+    },
+    {
+      "canonical_target": "The identity criteria — the standards or conditions (e.g., shared pre-copy history, continuity, divergence of inputs/states) — that should be used to classify two post-copy instances as one entity versus two distinct entities.",
+      "target_id": "T131"
+    },
+    {
+      "canonical_target": "The allocation of the pre-copy agent's moral and legal responsibility across post-copy instances — i.e., which of the diverging copies (both, one, or neither) inherit or bear accountability for the original system's prior acts, and on what basis that allocation is determined.",
+      "target_id": "T132"
+    },
+    {
+      "canonical_target": "A criterion or principled scheme for individuating identity across post-copy divergent software instances sharing one checkpoint ancestry — i.e., how identity should be assigned or attributed, not merely what lineage records show.",
+      "target_id": "T133"
+    },
+    {
+      "canonical_target": "A criterion or definition specifying what makes two diverged instances descending from a shared checkpoint the same or distinct entity — i.e., the correct individuation/identity standard for copied software persons, not merely a description of their lineage.",
+      "target_id": "T134"
+    },
+    {
+      "canonical_target": "Whether deletion of the original instance after copying alters the identity-continuation verdict — i.e., whether the original's non-existence changes which (if any) copy counts as the 'true' continuation of the earlier agent, or leaves that determination unchanged.",
+      "target_id": "T135"
+    },
+    {
+      "canonical_target": "Whether, and how, responsibility (moral and legal) for the original pre-copy system's actions is allocated across two diverged instances — e.g., shared jointly by both, held by one, or by neither — given that technical lineage alone does not fix continuation.",
+      "target_id": "T136"
+    },
+    {
+      "canonical_target": "A normative/philosophical criterion or decision principle for adjudicating identity-continuation across branching copies — i.e., what standard should be used to assign (or withhold) the status of legitimate successor to one, both, or neither descendant, given that shared technical lineage underdetermines the answer.",
+      "target_id": "T137"
+    },
+    {
+      "canonical_target": "A conceptual account or criterion of personal identity that determines how identity should be attributed or divided among multiple diverging software instances descending from a shared pre-copy state and memories.",
+      "target_id": "T138"
+    },
+    {
+      "canonical_target": "The standards or criteria for identity-continuation that would adjudicate which (if any) of multiple diverged copies counts as the continuation of the pre-copy agent, given that technical lineage alone is insufficient.",
+      "target_id": "T139"
+    },
+    {
+      "canonical_target": "The design approaches or mechanisms for coordinating two diverged instances of a saved state—i.e., how to maintain synchronization and consistency when such instances exchange messages or contend for shared external resources.",
+      "target_id": "T140"
+    },
+    {
+      "canonical_target": "The criteria or basis for assigning moral and legal responsibility for post-copy actions across a source agent and its divergent copies.",
+      "target_id": "T141"
+    },
+    {
+      "canonical_target": "The set of identity criteria (if any exist) that would adjudicate which of two divergent post-copy instances, or neither, qualifies as the genuine continuation of the pre-copy agent, given that technical lineage alone does not settle it.",
+      "target_id": "T142"
+    },
+    {
+      "canonical_target": "A normative/conceptual account of how personal-identity ascription should be applied to two post-copy instances that share identical pre-copy history but subsequently diverge — i.e., which criterion or framework determines whether they count as one continuing entity, two distinct entities, or something requiring revised identity language.",
+      "target_id": "T143"
+    },
+    {
+      "canonical_target": "The consequences of checkpoint-based copying and post-copy divergence for how responsibility (moral and legal) should be attributed among instances sharing a common pre-copy history — i.e., who bears accountability for divergent instances' differing decisions.",
+      "target_id": "T144"
+    },
+    {
+      "canonical_target": "A normative framework or set of criteria for handling identity and continuity attributions across branched software instances that share pre-copy history but diverge afterward — i.e., how identity should be assigned or conceptualized in such cases, not merely a description of the branching process.",
+      "target_id": "T145"
+    },
+    {
+      "canonical_target": "The set of possible criteria (and whether any valid criterion exists) for adjudicating which of two divergent post-copy instances counts as the identity-continuation of the pre-copy agent, given that technical lineage alone does not settle it.",
+      "target_id": "T146"
+    },
+    {
+      "canonical_target": "Whether any identifiable criteria (philosophical or practical) exist that could adjudicate which of multiple divergent copies, if any, counts as the legitimate continuation of the original agent — i.e., the existence and nature of such continuity-selection criteria, not the technical facts of copying.",
+      "target_id": "T147"
+    },
+    {
+      "canonical_target": "The set of practical benefits or operational gains that checkpointing (pause/restore) provides for software systems, stated in contrast to uninterrupted continuous execution.",
+      "target_id": "T148"
+    },
+    {
+      "canonical_target": "A criterion or decision procedure for adjudicating identity-continuation claims among duplicated, diverged software instances — i.e., what standard determines which (if any) descendant counts as the original agent, given that technical lineage alone is insufficient.",
+      "target_id": "T149"
+    },
+    {
+      "canonical_target": "A proposed conflict-resolution procedure or design strategy for reconciling concurrent writes by two diverged instances to a shared persistent external resource.",
+      "target_id": "T150"
+    },
+    {
+      "canonical_target": "The criteria or conditions (if any exist) that would privilege one of two post-copy diverged instances as the genuine continuation of the pre-copy agent rather than the other, given that shared technical lineage alone does not settle it.",
+      "target_id": "T151"
+    },
+    {
+      "canonical_target": "The set of normative criteria or standards that ought to be used for deciding whether two divergent instances sharing a common checkpoint ancestry qualify as one and the same entity.",
+      "target_id": "T152"
+    },
+    {
+      "canonical_target": "A definitional criterion for individual identity of software instances — i.e., what rule or standard should determine whether post-divergence instances sharing a common saved state count as the same entity or distinct entities — rather than a description of how versioning currently tracks them.",
+      "target_id": "T153"
+    },
+    {
+      "canonical_target": "The methods, mechanisms, or design strategies one would use to reconcile, synchronize, or maintain consistency across two or more instances that share a common checkpoint but have diverged through different subsequent inputs.",
+      "target_id": "T154"
+    },
+    {
+      "canonical_target": "The procedure or outcome by which ordinary versioning would merge or reconcile two diverged instances back into a single state, given their shared ancestor state — i.e., what merging machinery (if any) such versioning provides beyond recording shared ancestry and separate histories.",
+      "target_id": "T155"
+    },
+    {
+      "canonical_target": "Whether continuity of conscious/subjective experience is the criterion that determines a software agent's metaphysical identity across copying, and whether such experiential concepts even apply to software agents at all.",
+      "target_id": "T156"
+    },
+    {
+      "canonical_target": "A criterion or framework specifying what constitutes the identity of a software system (legally and/or philosophically) in the case where multiple instances share a common checkpoint ancestry and then diverge — i.e., which instance(s) count as the same entity and on what grounds.",
+      "target_id": "T157"
+    },
+    {
+      "canonical_target": "The correct normative framework or criteria for assigning personal/legal identity and attribution of responsibility to two software instances that share a pre-copy history but have since diverged.",
+      "target_id": "T158"
+    },
+    {
+      "canonical_target": "The mechanism or procedure by which version-tracking systems would represent and reconcile the recombination (merge/synchronization) of two instances that had diverged from a shared saved state, including how the merged result's identity and history would be recorded.",
+      "target_id": "T159"
+    },
+    {
+      "canonical_target": "The correct criterion or interpretation for personal/numerical identity of copied software instances sharing a pre-copy history — specifically whether post-divergence instances count as continuations of one and the same entity or as numerically distinct entities originating at the moment of copying.",
+      "target_id": "T160"
+    },
+    {
+      "canonical_target": "The technical mechanisms and procedures by which versioning systems would reconcile divergent post-checkpoint states during a merge, including how conflicting changes and synchronization problems between the two instances' histories would be detected and resolved.",
+      "target_id": "T161"
+    },
+    {
+      "canonical_target": "A normative criterion or principled scheme for attributing personal/numerical identity and accountability across post-fork software instances sharing a common checkpoint state — i.e., how to allocate identity continuity and responsibility for actions among diverged descendants, not merely how versioning records shared ancestry.",
+      "target_id": "T162"
+    },
+    {
+      "canonical_target": "The mechanisms or procedures by which a versioning system would reconcile conflicting or inconsistent state changes when two instances forked from a common checkpoint are merged back into a single state.",
+      "target_id": "T163"
+    },
+    {
+      "canonical_target": "A criterion or account of personal/numerical identity for branching software instances — i.e., what identity relation holds between two post-divergence instances sharing a common prior state (same entity, distinct entities, or some non-standard relation), and on what basis.",
+      "target_id": "T164"
+    },
+    {
+      "canonical_target": "A normative criterion or rule for assigning identity (which instance, if any, counts as the same entity) to multiple software instances that branch from a shared saved state and then diverge.",
+      "target_id": "T165"
+    },
+    {
+      "canonical_target": "Whether a principled criterion exists for identifying which (if either) of two diverged instances from a shared saved state counts as the genuine continuation of the original agent — i.e., the existence and nature of a decision criterion for personal/agent identity under fission, rather than the technical facts of copying.",
+      "target_id": "T166"
+    },
+    {
+      "canonical_target": "A determination of the correct identity classification (same individual vs. two distinct individuals) for two software instances that share a pre-divergence checkpoint history, i.e., how personal-identity criteria should be applied to post-copy divergence.",
+      "target_id": "T167"
+    },
+    {
+      "canonical_target": "A normative account or framework specifying how identity and continuity should be attributed to diverged software instances sharing a common checkpoint — i.e., what criteria or conventions ought to govern such identity claims.",
+      "target_id": "T168"
+    },
+    {
+      "canonical_target": "The set of decision criteria (if any exist) that could reliably adjudicate identity-continuation claims among divergent copies sharing a pre-copy history, including whether any such criterion can be principled rather than stipulative.",
+      "target_id": "T169"
+    },
+    {
+      "canonical_target": "The set of candidate criteria or standards of personal/agent identity that could adjudicate continuation across copying, and how each would apply to the descendants.",
+      "target_id": "T170"
+    },
+    {
+      "canonical_target": "The criterion or basis (if any exists) for assigning original-identity status to one of two post-copy instances that share a common pre-copy history, given that lineage records alone do not settle it.",
+      "target_id": "T171"
+    },
+    {
+      "canonical_target": "The mechanism or design by which versioning systems represent and maintain, for each of multiple instances forked from a common saved state, both a reference to the shared ancestral state and a record of its own separate post-divergence history.",
+      "target_id": "T172"
+    },
+    {
+      "canonical_target": "Whether copying and divergence of software systems poses a substantive metaphysical indeterminacy about which descendant is the same agent, or instead only a terminological/conventional choice about how to apply continuity language — i.e., the status of the identity question itself.",
+      "target_id": "T173"
+    }
+  ],
+  "topic_packet_id": "AU-E1-T12"
+}

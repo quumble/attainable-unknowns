@@ -1,0 +1,701 @@
+{
+  "amendment_id": "E1A",
+  "packet_id": "AU-E1-S2-R01-T08",
+  "protocol_id": "E1",
+  "representation_set_id": "AU-E1-R01",
+  "schema_version": "au-e1-stage2-topic-packet-v1",
+  "stage": "stage2_blinded_topic_partition",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "target_count": 172,
+  "targets": [
+    {
+      "canonical_target": "How cooks modify station layouts to accommodate order clusters with conflicting movement patterns",
+      "target_id": "T001"
+    },
+    {
+      "canonical_target": "Differences in mise en place station design across cuisines and restaurant styles",
+      "target_id": "T002"
+    },
+    {
+      "canonical_target": "The criteria or decision method cooks use to select which order clusters to prioritize when optimizing station layout",
+      "target_id": "T003"
+    },
+    {
+      "canonical_target": "Methods or algorithms for optimizing a restaurant workstation layout under uncertainty about the mix and sequence of orders",
+      "target_id": "T004"
+    },
+    {
+      "canonical_target": "Criteria or method for designing a station layout that minimizes motion across varying clusters of orders",
+      "target_id": "T005"
+    },
+    {
+      "canonical_target": "The specific decision criteria used to prioritize order clusters when arranging a cook’s station",
+      "target_id": "T006"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize order patterns when arranging a station",
+      "target_id": "T007"
+    },
+    {
+      "canonical_target": "The decision method or criteria for selecting an optimal station layout under uncertainty about the mix and sequence of orders.",
+      "target_id": "T008"
+    },
+    {
+      "canonical_target": "Variations in mise en place practices across different cuisines and restaurant styles",
+      "target_id": "T009"
+    },
+    {
+      "canonical_target": "The specific layout modifications typically needed to accommodate an unexpected shift to a different cluster of orders.",
+      "target_id": "T010"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to choose an optimal station layout when order clusters impose conflicting movement demands.",
+      "target_id": "T011"
+    },
+    {
+      "canonical_target": "The typical amount of time saved during a service period by using mise en place.",
+      "target_id": "T012"
+    },
+    {
+      "canonical_target": "The decision criteria for prioritizing ingredients and tools in a station layout when the mix and sequence of orders are unpredictable.",
+      "target_id": "T013"
+    },
+    {
+      "canonical_target": "The decision criteria and method cooks use to choose an optimal station layout when order clusters impose conflicting motion requirements.",
+      "target_id": "T014"
+    },
+    {
+      "canonical_target": "The decision criterion or method for selecting an optimal station layout under uncertainty about the mix and sequence of orders",
+      "target_id": "T015"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to choose a station layout when order clusters impose conflicting movement demands.",
+      "target_id": "T016"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize a station layout when order types favor different configurations.",
+      "target_id": "T017"
+    },
+    {
+      "canonical_target": "The specific optimization method or algorithm used to determine the layout that best balances reduced searching and switching under uncertain order mix and sequence.",
+      "target_id": "T018"
+    },
+    {
+      "canonical_target": "Specific station-layout redesign strategies cooks use in response to an unexpected change in order patterns",
+      "target_id": "T019"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize orders or tasks when designing a station layout",
+      "target_id": "T020"
+    },
+    {
+      "canonical_target": "The criteria used to select the cluster of orders for which the station layout minimizes motion.",
+      "target_id": "T021"
+    },
+    {
+      "canonical_target": "The decision criteria for prioritizing ingredients and tools in a mise en place layout under unpredictable order patterns",
+      "target_id": "T022"
+    },
+    {
+      "canonical_target": "The decision criteria experienced cooks use to select which order types their station layout should optimize for",
+      "target_id": "T023"
+    },
+    {
+      "canonical_target": "The decision criteria and planning method restaurants use to optimize station layout under unpredictable order patterns.",
+      "target_id": "T024"
+    },
+    {
+      "canonical_target": "The typical amount of time saved during a restaurant service by using mise en place.",
+      "target_id": "T025"
+    },
+    {
+      "canonical_target": "Variation in mise en place layout and preparation according to each menu item’s or station’s specific workflow, tools, ingredients, and repeated actions",
+      "target_id": "T026"
+    },
+    {
+      "canonical_target": "The decision criterion or method for selecting an optimal station layout under uncertainty about the mix and sequence of orders.",
+      "target_id": "T027"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to optimize a mise en place layout across order types with differing motion requirements",
+      "target_id": "T028"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to choose an optimal station layout when order types impose conflicting movement demands",
+      "target_id": "T029"
+    },
+    {
+      "canonical_target": "How mise en place layout and preparation vary according to a restaurant menu’s ingredients, tools, and sequence of work",
+      "target_id": "T030"
+    },
+    {
+      "canonical_target": "The specific decision criteria a cook uses to select which cluster of orders to prioritize when tailoring the station layout.",
+      "target_id": "T031"
+    },
+    {
+      "canonical_target": "The criteria or methods cooks use to choose a station layout that balances motion and workflow demands across competing order clusters",
+      "target_id": "T032"
+    },
+    {
+      "canonical_target": "The difference in optimal station layout between predictable and unpredictable order patterns",
+      "target_id": "T033"
+    },
+    {
+      "canonical_target": "The methods or decision criteria used to determine an optimal station layout when order patterns are unpredictable",
+      "target_id": "T034"
+    },
+    {
+      "canonical_target": "The decision criteria and methods cooks and kitchen managers use to choose station layouts under unpredictable order patterns.",
+      "target_id": "T035"
+    },
+    {
+      "canonical_target": "The criteria and process used to tailor a cooking-station layout to a menu and its sequence of repeated tasks.",
+      "target_id": "T036"
+    },
+    {
+      "canonical_target": "The methods restaurants use to balance mise en place layouts for efficient handling of different order types",
+      "target_id": "T037"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize a station arrangement when order types impose conflicting layout needs",
+      "target_id": "T038"
+    },
+    {
+      "canonical_target": "The decision criterion for arranging a station to balance search and switching efficiencies under unpredictable order mixes and sequences.",
+      "target_id": "T039"
+    },
+    {
+      "canonical_target": "The decision criteria and process experienced cooks use to choose an optimal mise en place layout under uncertain order demand",
+      "target_id": "T040"
+    },
+    {
+      "canonical_target": "The decision criteria for selecting a mise en place layout under unpredictable order mixes and sequences",
+      "target_id": "T041"
+    },
+    {
+      "canonical_target": "Changes in the composition of incoming orders that tend to require mid-service rearrangement of mise en place",
+      "target_id": "T042"
+    },
+    {
+      "canonical_target": "The decision criteria a cook uses to choose a station layout when different order clusters favor conflicting arrangements.",
+      "target_id": "T043"
+    },
+    {
+      "canonical_target": "The decision criteria a cook uses to choose which cluster of orders to prioritize when arranging a station",
+      "target_id": "T044"
+    },
+    {
+      "canonical_target": "The methods or decision criteria used to choose an optimal station layout when the mix and sequence of orders are uncertain.",
+      "target_id": "T045"
+    },
+    {
+      "canonical_target": "The decision criteria and planning method restaurants use to optimize station layout under unpredictable order patterns",
+      "target_id": "T046"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize a station arrangement when order types favor different layouts",
+      "target_id": "T047"
+    },
+    {
+      "canonical_target": "The effect of knowing expected dish-order frequencies on the optimal station layout.",
+      "target_id": "T048"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize a station layout when order types favor conflicting arrangements",
+      "target_id": "T049"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to choose a station arrangement when different order types favor competing layouts.",
+      "target_id": "T050"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to choose a station layout when order clusters have conflicting motion-efficient arrangements.",
+      "target_id": "T051"
+    },
+    {
+      "canonical_target": "The specific decision method experienced cooks use to choose an optimal station layout under unpredictable order patterns",
+      "target_id": "T052"
+    },
+    {
+      "canonical_target": "The layout strategies most effective for cooking stations with highly unpredictable order sequences",
+      "target_id": "T053"
+    },
+    {
+      "canonical_target": "How cooks choose station layouts that manage trade-offs between conflicting order-specific workflow needs",
+      "target_id": "T054"
+    },
+    {
+      "canonical_target": "The factors used to decide which cluster of orders to prioritize when optimizing a cook’s station layout.",
+      "target_id": "T055"
+    },
+    {
+      "canonical_target": "How advance knowledge of the most frequently ordered dish types changes cooks’ mise en place layout",
+      "target_id": "T056"
+    },
+    {
+      "canonical_target": "The decision method or criteria for selecting an optimal station layout under uncertainty about the mix and sequence of orders",
+      "target_id": "T057"
+    },
+    {
+      "canonical_target": "The decision criterion or method for selecting an optimal station layout under unpredictable order patterns",
+      "target_id": "T058"
+    },
+    {
+      "canonical_target": "How cooks adapt station layouts to accommodate conflicting movement patterns across different orders",
+      "target_id": "T059"
+    },
+    {
+      "canonical_target": "Quantitative evidence from specific metrics or studies on reductions in cooking time and order errors attributable to mise en place compared with unprepared stations",
+      "target_id": "T060"
+    },
+    {
+      "canonical_target": "The decision criterion or method for selecting an optimal mise en place layout under an unpredictable order mix",
+      "target_id": "T061"
+    },
+    {
+      "canonical_target": "The factors or methods cooks use to choose an optimal station layout when the mix and sequence of orders are unpredictable.",
+      "target_id": "T062"
+    },
+    {
+      "canonical_target": "The decision criterion or method cooks use to choose an optimal station layout under uncertain order demand.",
+      "target_id": "T063"
+    },
+    {
+      "canonical_target": "Specific layout-design strategies cooks use to balance motion and efficiency across competing order clusters",
+      "target_id": "T064"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize among conflicting station layouts for different order types",
+      "target_id": "T065"
+    },
+    {
+      "canonical_target": "The criteria used to prioritize particular order clusters when designing the station layout",
+      "target_id": "T066"
+    },
+    {
+      "canonical_target": "The decision criteria or method for selecting a mise en place layout under unpredictable order mixes and sequences",
+      "target_id": "T067"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to select a station arrangement that balances efficiency across different order clusters.",
+      "target_id": "T068"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize a station layout when order types have conflicting arrangement needs.",
+      "target_id": "T069"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize among conflicting station layouts that benefit different order types",
+      "target_id": "T070"
+    },
+    {
+      "canonical_target": "Variation in mise en place practices across cuisines or restaurant styles",
+      "target_id": "T071"
+    },
+    {
+      "canonical_target": "The specific method or algorithm used to determine an optimal station layout under unpredictable order sequences",
+      "target_id": "T072"
+    },
+    {
+      "canonical_target": "The methods or decision criteria used to choose an optimal station layout under unpredictable order patterns",
+      "target_id": "T073"
+    },
+    {
+      "canonical_target": "The change in the optimal mise en place layout when the expected order mix and sequence are known in advance",
+      "target_id": "T074"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize which items are placed closest when the order sequence is unpredictable.",
+      "target_id": "T075"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to choose an optimal mise en place layout when order types impose conflicting workflow and motion requirements.",
+      "target_id": "T076"
+    },
+    {
+      "canonical_target": "The typical amount of time saved during a service by using mise en place.",
+      "target_id": "T077"
+    },
+    {
+      "canonical_target": "Variation in mise en place practices across restaurants with different cuisines or menu styles",
+      "target_id": "T078"
+    },
+    {
+      "canonical_target": "The decision criteria or methods cooks use to prioritize a station layout for one order cluster over another.",
+      "target_id": "T079"
+    },
+    {
+      "canonical_target": "The specific decision method used to determine an optimal station layout under unpredictable order sequences.",
+      "target_id": "T080"
+    },
+    {
+      "canonical_target": "The criteria and strategy for optimizing mise en place under unpredictable order mixes and sequences",
+      "target_id": "T081"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to select which cluster of orders to prioritize when designing a station layout",
+      "target_id": "T082"
+    },
+    {
+      "canonical_target": "The specific method cooks use to determine an optimal station layout under varying order patterns throughout a shift.",
+      "target_id": "T083"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to choose a mise en place layout when order types have competing arrangement needs",
+      "target_id": "T084"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize order clusters when designing a station layout.",
+      "target_id": "T085"
+    },
+    {
+      "canonical_target": "The typical amount of time saved during a service shift by mise en place preparation.",
+      "target_id": "T086"
+    },
+    {
+      "canonical_target": "The decision criterion or method restaurants use to optimize station layout under uncertainty about the order mix",
+      "target_id": "T087"
+    },
+    {
+      "canonical_target": "Methods or algorithms used to optimize kitchen station layouts under unpredictable order sequences",
+      "target_id": "T088"
+    },
+    {
+      "canonical_target": "The changes in the optimal station layout enabled by advance knowledge of the mix and sequence of orders",
+      "target_id": "T089"
+    },
+    {
+      "canonical_target": "The decision criterion or method for selecting an optimal station layout under uncertainty about the mix and sequence of orders.",
+      "target_id": "T090"
+    },
+    {
+      "canonical_target": "The decision criteria for prioritizing ingredients and tools within arm's reach under uncertain order mix and sequence",
+      "target_id": "T091"
+    },
+    {
+      "canonical_target": "The criteria cooks use to determine which menu items receive priority in a station’s arrangement.",
+      "target_id": "T092"
+    },
+    {
+      "canonical_target": "Strategies for arranging adaptable mise en place that efficiently accommodates varying order types without shifting excess motion or delay between them",
+      "target_id": "T093"
+    },
+    {
+      "canonical_target": "The specific decision criteria a cook uses to choose which order cluster to prioritize when arranging the station",
+      "target_id": "T094"
+    },
+    {
+      "canonical_target": "Differences in mise en place practices across cuisines or restaurant types",
+      "target_id": "T095"
+    },
+    {
+      "canonical_target": "The decision criteria or planning method cooks use to choose the best station layout under uncertain order demand",
+      "target_id": "T096"
+    },
+    {
+      "canonical_target": "The decision criteria or method cooks use to prioritize a station arrangement when order clusters have conflicting motion-efficiency needs.",
+      "target_id": "T097"
+    },
+    {
+      "canonical_target": "The decision criteria for arranging ingredients and tools to balance search and switching efficiencies under an unpredictable order mix",
+      "target_id": "T098"
+    },
+    {
+      "canonical_target": "The decision criteria or method for selecting a mise en place layout that balances efficiency under unpredictable order patterns.",
+      "target_id": "T099"
+    },
+    {
+      "canonical_target": "Specific ergonomic or time-study evidence quantifying the reduction in overall service time from mise en place compared with unprepared stations",
+      "target_id": "T100"
+    },
+    {
+      "canonical_target": "The decision criteria for choosing a station layout under uncertainty about the mix and sequence of orders",
+      "target_id": "T101"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize orders or tasks when station arrangements involve conflicting workflow needs",
+      "target_id": "T102"
+    },
+    {
+      "canonical_target": "The decision criteria for selecting a mise en place layout under uncertainty about the mix and sequence of orders.",
+      "target_id": "T103"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to choose an optimal station layout when order clusters impose conflicting workflow requirements.",
+      "target_id": "T104"
+    },
+    {
+      "canonical_target": "The methods or decision criteria cooks and kitchen managers use to select an optimal station layout under unpredictable order sequences.",
+      "target_id": "T105"
+    },
+    {
+      "canonical_target": "The methods or decision criteria used to choose an optimal station layout when order sequences are unpredictable.",
+      "target_id": "T106"
+    },
+    {
+      "canonical_target": "The specific methods or algorithms used to optimize kitchen station layout under unpredictable order patterns.",
+      "target_id": "T107"
+    },
+    {
+      "canonical_target": "Variation in mise en place practices across different cuisines and restaurant types",
+      "target_id": "T108"
+    },
+    {
+      "canonical_target": "Strategies cooks use to balance mise en place layouts when different order types impose conflicting motion and access needs",
+      "target_id": "T109"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize menu items and order patterns when arranging a station",
+      "target_id": "T110"
+    },
+    {
+      "canonical_target": "The specific decision method used to determine the optimal station layout under unpredictable order patterns",
+      "target_id": "T111"
+    },
+    {
+      "canonical_target": "How cooks choose or adapt station layouts to manage conflicting motion and access needs across different order clusters",
+      "target_id": "T112"
+    },
+    {
+      "canonical_target": "The decision criteria or method for selecting an efficient mise en place layout under unpredictable order patterns",
+      "target_id": "T113"
+    },
+    {
+      "canonical_target": "How the layout and preparation of mise en place are tailored to a station’s menu, workflow sequence, frequently used items, and repeated actions",
+      "target_id": "T114"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to optimize mise en place across order types with differing work sequences and motion demands.",
+      "target_id": "T115"
+    },
+    {
+      "canonical_target": "Differences in mise en place station arrangement across cuisines or restaurant types",
+      "target_id": "T116"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize orders or tasks when station layouts involve conflicting motion patterns.",
+      "target_id": "T117"
+    },
+    {
+      "canonical_target": "The criteria or methods cooks use to choose an optimal station layout when different order clusters favor conflicting arrangements.",
+      "target_id": "T118"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize a station arrangement when order requirements favor conflicting layouts",
+      "target_id": "T119"
+    },
+    {
+      "canonical_target": "The decision criteria or strategy for optimizing mise en place under uncertainty about the mix and sequence of orders.",
+      "target_id": "T120"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to choose an optimal station layout when order types impose conflicting motion requirements",
+      "target_id": "T121"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize a station arrangement when order types require conflicting layouts.",
+      "target_id": "T122"
+    },
+    {
+      "canonical_target": "The decision criteria or methods cooks use to choose an optimal station layout when minimizing motion for different order clusters involves trade-offs.",
+      "target_id": "T123"
+    },
+    {
+      "canonical_target": "Methods for optimizing a restaurant station layout under uncertainty about the mix and sequence of orders",
+      "target_id": "T124"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to select a station arrangement that balances efficiency across different order clusters",
+      "target_id": "T125"
+    },
+    {
+      "canonical_target": "The decision method restaurants use to choose an optimal station layout under uncertainty about the future order mix and sequence",
+      "target_id": "T126"
+    },
+    {
+      "canonical_target": "Criteria and methods for designing a station layout that balances movement and workflow efficiency across different order clusters",
+      "target_id": "T127"
+    },
+    {
+      "canonical_target": "The comparative effectiveness of mise en place and other kitchen organization methods",
+      "target_id": "T128"
+    },
+    {
+      "canonical_target": "The decision criteria or method for selecting an optimal mise en place layout under uncertainty about the order mix",
+      "target_id": "T129"
+    },
+    {
+      "canonical_target": "How cooks adapt station layouts to reconcile conflicting movement patterns across different order clusters",
+      "target_id": "T130"
+    },
+    {
+      "canonical_target": "The decision criteria and process experienced cooks use to choose a station layout under uncertain order demand",
+      "target_id": "T131"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize orders or tasks when arranging a station amid competing workflow needs.",
+      "target_id": "T132"
+    },
+    {
+      "canonical_target": "The decision criterion or method cooks use to select an optimal mise en place layout under uncertainty about the order mix and sequence.",
+      "target_id": "T133"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize which items are placed closest when anticipated order types favor different station layouts.",
+      "target_id": "T134"
+    },
+    {
+      "canonical_target": "The decision criterion or method cooks use to choose an optimal station layout under uncertainty about the mix and sequence of orders.",
+      "target_id": "T135"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize menu items or order patterns when arranging a station",
+      "target_id": "T136"
+    },
+    {
+      "canonical_target": "The effect of mise en place on the speed and consistency of meal preparation during service",
+      "target_id": "T137"
+    },
+    {
+      "canonical_target": "The specific decision criteria that determine which cluster of orders a cook prioritizes when arranging the station",
+      "target_id": "T138"
+    },
+    {
+      "canonical_target": "A decision method for selecting the optimal station layout under uncertainty about future orders",
+      "target_id": "T139"
+    },
+    {
+      "canonical_target": "The methods or decision criteria used to choose an optimal station layout when order patterns are unpredictable.",
+      "target_id": "T140"
+    },
+    {
+      "canonical_target": "The decision criteria or method cooks use to choose an optimal station layout under highly variable order patterns",
+      "target_id": "T141"
+    },
+    {
+      "canonical_target": "The decision criterion or method cooks use to choose an optimal station layout under uncertainty about the mix and sequence of orders.",
+      "target_id": "T142"
+    },
+    {
+      "canonical_target": "The methods or decision criteria used to choose an optimal station layout when the order sequence is unpredictable.",
+      "target_id": "T143"
+    },
+    {
+      "canonical_target": "The decision criteria or method cooks use to choose an optimal station layout under uncertainty about the mix and sequence of orders.",
+      "target_id": "T144"
+    },
+    {
+      "canonical_target": "The method or model used by chefs and kitchen managers to determine an optimal station layout under unpredictable order sequences",
+      "target_id": "T145"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize orders or tasks when arranging a station",
+      "target_id": "T146"
+    },
+    {
+      "canonical_target": "How cooks modify their mise en place based on knowing which dish types will be ordered most frequently",
+      "target_id": "T147"
+    },
+    {
+      "canonical_target": "The specific decision criteria a cook uses to choose which order cluster to prioritize when arranging the station layout",
+      "target_id": "T148"
+    },
+    {
+      "canonical_target": "Methods for optimizing a kitchen station layout under uncertainty about the mix and sequence of orders",
+      "target_id": "T149"
+    },
+    {
+      "canonical_target": "The typical amount of time saved during a restaurant service by using mise en place",
+      "target_id": "T150"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to choose a station layout that balances efficiency across different order types",
+      "target_id": "T151"
+    },
+    {
+      "canonical_target": "The decision criteria for choosing a station layout under unpredictable order mixes and sequences",
+      "target_id": "T152"
+    },
+    {
+      "canonical_target": "The ways mise en place layout is adapted to the menu and sequence of work",
+      "target_id": "T153"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to prioritize among conflicting station layouts for different order clusters.",
+      "target_id": "T154"
+    },
+    {
+      "canonical_target": "The decision criteria or methods cooks use to select which order cluster the station layout should optimize for",
+      "target_id": "T155"
+    },
+    {
+      "canonical_target": "The methods or decision criteria used to balance station-layout efficiencies when the order sequence is unpredictable.",
+      "target_id": "T156"
+    },
+    {
+      "canonical_target": "Variations in mise en place practices among different cuisines or restaurant concepts",
+      "target_id": "T157"
+    },
+    {
+      "canonical_target": "The typical reduction in cooking time per order during service attributable to mise en place preparation.",
+      "target_id": "T158"
+    },
+    {
+      "canonical_target": "The decision criterion cooks use to prioritize a station layout when different order clusters favor different arrangements.",
+      "target_id": "T159"
+    },
+    {
+      "canonical_target": "The decision criteria for prioritizing which ingredients and tools should be placed closest at hand under unpredictable order patterns.",
+      "target_id": "T160"
+    },
+    {
+      "canonical_target": "The decision criteria and methods used to choose an optimal station layout when order patterns are unpredictable.",
+      "target_id": "T161"
+    },
+    {
+      "canonical_target": "Methods or algorithms used to optimize restaurant station layouts when order sequences are unpredictable",
+      "target_id": "T162"
+    },
+    {
+      "canonical_target": "How the menu and its workflow determine the arrangement of ingredients, tools, and frequently used items in a cook's station",
+      "target_id": "T163"
+    },
+    {
+      "canonical_target": "The layout principles or performance metrics successful restaurants use to choose an optimal station arrangement under unpredictable order patterns.",
+      "target_id": "T164"
+    },
+    {
+      "canonical_target": "The methods or decision criteria used to choose an optimal kitchen-station layout when order sequences are unpredictable.",
+      "target_id": "T165"
+    },
+    {
+      "canonical_target": "The specific menu or order-sequence changes that necessitate redesigning a cook’s mise en place layout during a shift",
+      "target_id": "T166"
+    },
+    {
+      "canonical_target": "The decision criteria cooks use to choose an optimal station layout when order clusters impose conflicting movement demands.",
+      "target_id": "T167"
+    },
+    {
+      "canonical_target": "The decision criterion or method for selecting an optimal station layout under uncertainty about the mix and sequence of orders",
+      "target_id": "T168"
+    },
+    {
+      "canonical_target": "The methods or decision criteria used to choose an optimal station layout when the mix and sequence of orders are unpredictable.",
+      "target_id": "T169"
+    },
+    {
+      "canonical_target": "The decision criteria and planning method cooks use to optimize station layout under unpredictable order patterns",
+      "target_id": "T170"
+    },
+    {
+      "canonical_target": "The criteria and process cooks use to determine the most efficient station layout for a particular menu",
+      "target_id": "T171"
+    },
+    {
+      "canonical_target": "The decision criteria and trade-offs cooks use to balance competing order workflows when arranging a station.",
+      "target_id": "T172"
+    }
+  ],
+  "topic_packet_id": "AU-E1-T08"
+}

@@ -1,0 +1,705 @@
+{
+  "amendment_id": "E1A",
+  "packet_id": "AU-E1-S2-R01-T12",
+  "protocol_id": "E1",
+  "representation_set_id": "AU-E1-R01",
+  "schema_version": "au-e1-stage2-topic-packet-v1",
+  "stage": "stage2_blinded_topic_partition",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "target_count": 173,
+  "targets": [
+    {
+      "canonical_target": "The identity status of independently diverging software instances copied from the same prior agent",
+      "target_id": "T001"
+    },
+    {
+      "canonical_target": "The method for reconciling divergent instance histories when merging the instances",
+      "target_id": "T002"
+    },
+    {
+      "canonical_target": "The criterion for assigning shared or distinct identity to software instances with a common initial state and divergent subsequent histories",
+      "target_id": "T003"
+    },
+    {
+      "canonical_target": "The criteria for deciding which descendant instance, if any, constitutes the continuation of the earlier agent",
+      "target_id": "T004"
+    },
+    {
+      "canonical_target": "The appropriate conception of identity for two software instances that share a pre-copy history but diverge after copying",
+      "target_id": "T005"
+    },
+    {
+      "canonical_target": "The criteria for determining which divergent software descendants, if any, preserve the personal identity of the pre-checkpoint agent",
+      "target_id": "T006"
+    },
+    {
+      "canonical_target": "The appropriate conception of personal identity for two software instances that share a checkpoint history and subsequently diverge",
+      "target_id": "T007"
+    },
+    {
+      "canonical_target": "The criteria for assigning distinct individual identities to software instances that diverge from a shared checkpoint",
+      "target_id": "T008"
+    },
+    {
+      "canonical_target": "The practical advantages of checkpoint-based pausing and restoration over uninterrupted software execution",
+      "target_id": "T009"
+    },
+    {
+      "canonical_target": "The criterion for determining which divergent instance, if any, retains original status",
+      "target_id": "T010"
+    },
+    {
+      "canonical_target": "Current version-control methods for merging and synchronizing the computational histories of two instances that diverged from a shared saved state",
+      "target_id": "T011"
+    },
+    {
+      "canonical_target": "The criteria for determining identity and continuity among branched software instances that share a pre-copy history but later diverge",
+      "target_id": "T012"
+    },
+    {
+      "canonical_target": "The legal or philosophical criteria for classifying the identity and responsibility of divergent software instances sharing a pre-copy history",
+      "target_id": "T013"
+    },
+    {
+      "canonical_target": "Methods for synchronizing state or maintaining consistency between instances that diverged after originating from the same checkpoint",
+      "target_id": "T014"
+    },
+    {
+      "canonical_target": "The criterion for classifying diverged instances from a shared checkpoint as the same individual or as distinct individuals",
+      "target_id": "T015"
+    },
+    {
+      "canonical_target": "The criteria for determining whether either descendant is the true continuation of the earlier agent and, if so, which one",
+      "target_id": "T016"
+    },
+    {
+      "canonical_target": "The criterion for assigning identity to distinct software instances that share a saved state but later diverge",
+      "target_id": "T017"
+    },
+    {
+      "canonical_target": "The criterion for assigning identity to software instances with a shared checkpointed past and divergent subsequent histories",
+      "target_id": "T018"
+    },
+    {
+      "canonical_target": "The criteria for determining whether either divergent instance is the true continuation of the original agent.",
+      "target_id": "T019"
+    },
+    {
+      "canonical_target": "The criteria for determining continuity of personal identity across multiple diverging copies of an agent",
+      "target_id": "T020"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether instances descended from a shared checkpoint count as the same entity or as distinct entities.",
+      "target_id": "T021"
+    },
+    {
+      "canonical_target": "The conditions, if any, that justify identifying one diverged instance rather than the other as the true continuation of the earlier agent.",
+      "target_id": "T022"
+    },
+    {
+      "canonical_target": "The criteria for assigning moral or legal responsibility between a copied agent and its source when their post-instantiation actions diverge",
+      "target_id": "T023"
+    },
+    {
+      "canonical_target": "The decision criteria for treating two instances with a shared checkpoint lineage as the same entity",
+      "target_id": "T024"
+    },
+    {
+      "canonical_target": "Which copied descendants, if any, inherit the original software system's moral or legal responsibility after diverging through different inputs and decisions.",
+      "target_id": "T025"
+    },
+    {
+      "canonical_target": "The criteria for assigning moral or legal responsibility among initially identical software instances after they diverge and produce different outcomes.",
+      "target_id": "T026"
+    },
+    {
+      "canonical_target": "The criteria for deciding which, if either, of two diverging instances from the same saved state is the true continuation of the original agent.",
+      "target_id": "T027"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether two instances sharing the same technical lineage constitute the same entity.",
+      "target_id": "T028"
+    },
+    {
+      "canonical_target": "The relevance of psychological or functional continuity in memory and decision-making to determining which instance, if any, continues the original agent",
+      "target_id": "T029"
+    },
+    {
+      "canonical_target": "The criteria for defining identity between software instances that share a pre-copy history but later diverge",
+      "target_id": "T030"
+    },
+    {
+      "canonical_target": "The identity status of software instances diverging from one checkpoint: whether they remain continuations of a single entity or become distinct entities upon copying.",
+      "target_id": "T031"
+    },
+    {
+      "canonical_target": "How concepts of personal identity and uniqueness should be revised for multiple conscious instances sharing the same pre-copy history and checkpoint origin",
+      "target_id": "T032"
+    },
+    {
+      "canonical_target": "The criteria for determining which descendant, if any, constitutes the continuation of the earlier agent",
+      "target_id": "T033"
+    },
+    {
+      "canonical_target": "Whether identity uncertainty in copied and diverging software systems is genuinely metaphysical or instead semantic and convention-dependent",
+      "target_id": "T034"
+    },
+    {
+      "canonical_target": "The criteria for determining personal identity and continuity among multiple software instances that share a pre-copy history",
+      "target_id": "T035"
+    },
+    {
+      "canonical_target": "The criteria for deciding which post-copy instance, if any, constitutes the continuation of the original agent.",
+      "target_id": "T036"
+    },
+    {
+      "canonical_target": "The criteria for determining identity and continuity among software instances that diverge from a shared checkpoint",
+      "target_id": "T037"
+    },
+    {
+      "canonical_target": "The criteria for assigning identity or individuality to software instances that diverge after originating from the same checkpoint",
+      "target_id": "T038"
+    },
+    {
+      "canonical_target": "The criteria for defining personal identity and continuity among multiple software instances that share the same pre-copy history",
+      "target_id": "T039"
+    },
+    {
+      "canonical_target": "The appropriate conception of personal identity among multiple software instances that share pre-copy memories and descend from the same checkpoint",
+      "target_id": "T040"
+    },
+    {
+      "canonical_target": "The criteria for assigning responsibility or identity among software instances that share an initial state but develop divergent subsequent histories.",
+      "target_id": "T041"
+    },
+    {
+      "canonical_target": "The criteria for determining whether either post-copy instance qualifies as the original",
+      "target_id": "T042"
+    },
+    {
+      "canonical_target": "The criteria for assigning responsibility or identity among software instances that share a saved origin but later diverge",
+      "target_id": "T043"
+    },
+    {
+      "canonical_target": "The criteria for determining whether either descendant is the true continuation of the original agent, and which one qualifies",
+      "target_id": "T044"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether a copied software instance constitutes the continuation of the earlier agent.",
+      "target_id": "T045"
+    },
+    {
+      "canonical_target": "Whether divergent instances from the same checkpoint have equal or unequal claims to continuity as the original agent",
+      "target_id": "T046"
+    },
+    {
+      "canonical_target": "Current version-control methods for representing, managing, and reconciling divergent instances descended from a shared saved state",
+      "target_id": "T047"
+    },
+    {
+      "canonical_target": "Criteria for distinguishing the identities of software instances that share a pre-copy history but may diverge afterward",
+      "target_id": "T048"
+    },
+    {
+      "canonical_target": "The criterion for determining whether software instances diverging from a shared checkpoint retain one identity or become distinct systems.",
+      "target_id": "T049"
+    },
+    {
+      "canonical_target": "The criterion for classifying diverged copies as separate individuals or as branches of one continuing entity",
+      "target_id": "T050"
+    },
+    {
+      "canonical_target": "Criteria for deciding which, if any, descendant continues the identity of the earlier agent",
+      "target_id": "T051"
+    },
+    {
+      "canonical_target": "How ordinary versioning would represent or reconcile a merge of diverged instances descended from a common ancestor state",
+      "target_id": "T052"
+    },
+    {
+      "canonical_target": "The criteria for assigning identity and responsibility to software instances with a shared initial state but divergent subsequent histories",
+      "target_id": "T053"
+    },
+    {
+      "canonical_target": "Criteria for assigning moral or legal responsibility among copied agent instances whose actions diverge after a shared checkpoint",
+      "target_id": "T054"
+    },
+    {
+      "canonical_target": "The criterion for defining identity between software instances with a shared pre-copy history that later diverge",
+      "target_id": "T055"
+    },
+    {
+      "canonical_target": "The criteria for determining which descendant, if any, is the true continuation of the earlier agent",
+      "target_id": "T056"
+    },
+    {
+      "canonical_target": "The criterion for determining the identity or distinctness of software instances that share an initial state and later diverge",
+      "target_id": "T057"
+    },
+    {
+      "canonical_target": "The criterion for determining the identity relationship between software instances that share an initial saved state but develop divergent histories",
+      "target_id": "T058"
+    },
+    {
+      "canonical_target": "The criterion for assigning identity to two software instances that share a checkpoint history and subsequently diverge",
+      "target_id": "T059"
+    },
+    {
+      "canonical_target": "The criteria for deciding which, if any, descendant counts as the continuation of the earlier agent",
+      "target_id": "T060"
+    },
+    {
+      "canonical_target": "The appropriate conception of identity for two software instances sharing a pre-copy history but diverging after a common checkpoint",
+      "target_id": "T061"
+    },
+    {
+      "canonical_target": "The criterion for classifying two diverged instances from a shared checkpoint as the same person or as distinct individuals",
+      "target_id": "T062"
+    },
+    {
+      "canonical_target": "The criteria for determining whether either diverged instance qualifies as the original, and which one does",
+      "target_id": "T063"
+    },
+    {
+      "canonical_target": "The criteria, if any, that could reliably determine which descendant qualifies as the continuation of the original agent.",
+      "target_id": "T064"
+    },
+    {
+      "canonical_target": "The conditions, if any, that make one diverging instance the true continuation of the earlier agent rather than the other",
+      "target_id": "T065"
+    },
+    {
+      "canonical_target": "How versioning systems would represent and manage the reconvergence or merging of computational states from previously diverged instances",
+      "target_id": "T066"
+    },
+    {
+      "canonical_target": "The implications of post-copy divergence from a shared checkpoint for assigning moral responsibility or legal accountability among distinct software instances.",
+      "target_id": "T067"
+    },
+    {
+      "canonical_target": "Whether human personal-identity problems have analogous implications for determining which duplicated software instance, if any, has the stronger claim to continuity with the original agent",
+      "target_id": "T068"
+    },
+    {
+      "canonical_target": "The criteria for deciding which, if any, descendant instance continues the identity of the original agent",
+      "target_id": "T069"
+    },
+    {
+      "canonical_target": "Methods for maintaining synchronization or consistency when diverged software instances communicate or access shared external resources",
+      "target_id": "T070"
+    },
+    {
+      "canonical_target": "Criteria for determining whether either divergent software instance continues the identity of the earlier agent",
+      "target_id": "T071"
+    },
+    {
+      "canonical_target": "Methods for resolving versioning conflicts when diverged software instances modify the same persistent external resource",
+      "target_id": "T072"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether either copy qualifies as the true continuation of the original agent",
+      "target_id": "T073"
+    },
+    {
+      "canonical_target": "Criteria beyond technical lineage for determining which descendant, if any, is the continuation of the earlier agent",
+      "target_id": "T074"
+    },
+    {
+      "canonical_target": "Whether the passage proposes criteria for deciding which descendant, if any, continues the earlier agent",
+      "target_id": "T075"
+    },
+    {
+      "canonical_target": "Reliable criteria for determining which descendant, if any, is the true continuation of the earlier agent",
+      "target_id": "T076"
+    },
+    {
+      "canonical_target": "How versioning resolves conflicting writes to shared resources or memory by instances that diverged from the same saved state",
+      "target_id": "T077"
+    },
+    {
+      "canonical_target": "Reliable criteria for determining whether either descendant, and which one, is the true continuation of the original agent",
+      "target_id": "T078"
+    },
+    {
+      "canonical_target": "How versioning systems resolve conflicts or inconsistencies when merging states from two instances that diverged from a shared checkpoint",
+      "target_id": "T079"
+    },
+    {
+      "canonical_target": "Criteria for determining whether either diverged software instance counts as the continuation of the pre-copy agent",
+      "target_id": "T080"
+    },
+    {
+      "canonical_target": "Criteria for determining whether a descendant software instance continues the identity of an earlier agent",
+      "target_id": "T081"
+    },
+    {
+      "canonical_target": "Criteria for determining whether and which descendant is the true continuation of the earlier agent",
+      "target_id": "T082"
+    },
+    {
+      "canonical_target": "The appropriate identity classification and terminology for two software instances that share a checkpoint origin but subsequently diverge",
+      "target_id": "T083"
+    },
+    {
+      "canonical_target": "Criteria for determining which, if either, of two software instances diverging from one checkpoint continues the earlier agent",
+      "target_id": "T084"
+    },
+    {
+      "canonical_target": "How versioning systems represent and reconcile two diverged instances when they are later merged or synchronized",
+      "target_id": "T085"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether two instances descended from the same checkpoint count as the same entity or as separate entities",
+      "target_id": "T086"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether a descendant qualifies as the continuation of the earlier agent",
+      "target_id": "T087"
+    },
+    {
+      "canonical_target": "The criteria for assigning identity or responsibility to software instances that share a saved origin but subsequently diverge",
+      "target_id": "T088"
+    },
+    {
+      "canonical_target": "The criterion for determining which divergent instance, if any, retains the status of the original",
+      "target_id": "T089"
+    },
+    {
+      "canonical_target": "The criterion for assigning identity to software instances that share an initial saved state but later develop distinct computational histories",
+      "target_id": "T090"
+    },
+    {
+      "canonical_target": "How versioning systems would reconcile conflicts and merge the distinct histories of two instances diverged from a shared saved state",
+      "target_id": "T091"
+    },
+    {
+      "canonical_target": "How versioning systems would resolve conflicts and dependencies when merging two instances that diverged from a shared saved state",
+      "target_id": "T092"
+    },
+    {
+      "canonical_target": "The reliable criteria, if any, for determining which descendant counts as the continuation of the original agent",
+      "target_id": "T093"
+    },
+    {
+      "canonical_target": "Whether biological twinning creates the same identity ambiguity as software copying or differs from it in a fundamental way",
+      "target_id": "T094"
+    },
+    {
+      "canonical_target": "The criteria for determining software-system identity among instances that share a pre-checkpoint lineage but diverge afterward",
+      "target_id": "T095"
+    },
+    {
+      "canonical_target": "How versioning systems would resolve conflicts and synchronize state when merging two instances that diverged from a shared checkpoint",
+      "target_id": "T096"
+    },
+    {
+      "canonical_target": "The relative validity of each diverged instance's claim to continuity with the original identity",
+      "target_id": "T097"
+    },
+    {
+      "canonical_target": "Methods for synchronizing or communicating between diverged instances that need to coordinate or share information after branching from a common checkpoint",
+      "target_id": "T098"
+    },
+    {
+      "canonical_target": "The criteria for determining continuity of personal identity across copied or checkpoint-restored software agents",
+      "target_id": "T099"
+    },
+    {
+      "canonical_target": "The criteria for assigning identity and responsibility among multiple software descendants that share a pre-copy history",
+      "target_id": "T100"
+    },
+    {
+      "canonical_target": "The implications of divergent software instances with a shared pre-copy history for assigning moral or legal responsibility for their different decisions",
+      "target_id": "T101"
+    },
+    {
+      "canonical_target": "A method for representing identity and state continuity across diverged software instances and managing their interaction or synchronization",
+      "target_id": "T102"
+    },
+    {
+      "canonical_target": "The criterion for determining identity between software instances with a shared pre-copy history that later diverge",
+      "target_id": "T103"
+    },
+    {
+      "canonical_target": "The criteria for deciding which, if any, descendant qualifies as the continuation of the earlier agent",
+      "target_id": "T104"
+    },
+    {
+      "canonical_target": "Mechanisms for determining the identity and accountability of separate software instances after they diverge from a shared checkpoint",
+      "target_id": "T105"
+    },
+    {
+      "canonical_target": "The criterion for assigning identity to software instances with a shared initial saved state and divergent subsequent histories",
+      "target_id": "T106"
+    },
+    {
+      "canonical_target": "The criterion for defining identity between software instances with a shared pre-copy history that later diverge",
+      "target_id": "T107"
+    },
+    {
+      "canonical_target": "Methods for synchronizing or enabling communication between diverged software instances descended from the same checkpoint",
+      "target_id": "T108"
+    },
+    {
+      "canonical_target": "How versioning systems represent multiple instances' shared ancestry while preserving their separate divergent histories",
+      "target_id": "T109"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether either descendant qualifies as the continuation of the earlier agent",
+      "target_id": "T110"
+    },
+    {
+      "canonical_target": "Methods for efficiently tracking and managing divergence points among multiple instances branching from a shared saved state",
+      "target_id": "T111"
+    },
+    {
+      "canonical_target": "The criteria for assigning identity and responsibility among software instances that share a checkpoint but later diverge",
+      "target_id": "T112"
+    },
+    {
+      "canonical_target": "Criteria for assigning moral responsibility and personal identity among copied software agents that diverge from a shared prior state",
+      "target_id": "T113"
+    },
+    {
+      "canonical_target": "Reliable criteria for determining which descendant, if any, is the continuation of the earlier agent",
+      "target_id": "T114"
+    },
+    {
+      "canonical_target": "Reliable criteria for determining which descendant, if any, legitimately continues the earlier agent",
+      "target_id": "T115"
+    },
+    {
+      "canonical_target": "The legal or philosophical criteria for defining the identity of diverging software instances descended from the same checkpoint",
+      "target_id": "T116"
+    },
+    {
+      "canonical_target": "The criterion for whether diverging instances descended from the same checkpoint count as the same individual or as separate individuals.",
+      "target_id": "T117"
+    },
+    {
+      "canonical_target": "The criteria for determining whether either divergent instance retains the original identity after both descend from the same checkpoint",
+      "target_id": "T118"
+    },
+    {
+      "canonical_target": "The implications of post-checkpoint divergence between instances with a shared history for assigning moral or legal responsibility to each instance.",
+      "target_id": "T119"
+    },
+    {
+      "canonical_target": "The appropriate conception of identity for software instances with a shared pre-copy history that subsequently diverge",
+      "target_id": "T120"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether two instances sharing a checkpoint lineage count as the same entity",
+      "target_id": "T121"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether either or both descendant instances count as the continuation of the original agent.",
+      "target_id": "T122"
+    },
+    {
+      "canonical_target": "How versioning systems manage resource consumption and storage for multiple diverged instances with shared ancestry",
+      "target_id": "T123"
+    },
+    {
+      "canonical_target": "The criteria beyond technical lineage for determining which descendant continues the earlier agent",
+      "target_id": "T124"
+    },
+    {
+      "canonical_target": "The criterion for assigning identity or individuality to software instances that share a checkpoint history and subsequently diverge",
+      "target_id": "T125"
+    },
+    {
+      "canonical_target": "The criteria for deciding which descendant, if any, constitutes the continuation of the earlier agent",
+      "target_id": "T126"
+    },
+    {
+      "canonical_target": "The criteria for deciding which, if either, of two instances diverging from the same checkpoint is the true continuation of the original agent",
+      "target_id": "T127"
+    },
+    {
+      "canonical_target": "The versioning mechanisms used to preserve a shared checkpoint lineage while tracking divergent instances as separate processes with distinct subsequent histories.",
+      "target_id": "T128"
+    },
+    {
+      "canonical_target": "Whether and how moral or legal responsibility for the pre-copy system’s actions is allocated between its diverging post-copy instances",
+      "target_id": "T129"
+    },
+    {
+      "canonical_target": "The criterion for determining whether software instances diverging from a shared checkpoint count as the same individual or as distinct individuals",
+      "target_id": "T130"
+    },
+    {
+      "canonical_target": "A method for synchronizing and reconciling the states of two diverged instances when merging them",
+      "target_id": "T131"
+    },
+    {
+      "canonical_target": "The appropriate conception of identity for software instances that share an initial saved state but develop distinct subsequent histories",
+      "target_id": "T132"
+    },
+    {
+      "canonical_target": "The criteria for defining software-system identity across copied instances that share a pre-copy history but later diverge",
+      "target_id": "T133"
+    },
+    {
+      "canonical_target": "The criterion for assigning identity to software instances that diverge from a shared checkpoint",
+      "target_id": "T134"
+    },
+    {
+      "canonical_target": "The criteria for assigning continuity of personal identity among multiple software instances that share a pre-copy history",
+      "target_id": "T135"
+    },
+    {
+      "canonical_target": "The criteria for deciding which, if any, descendant qualifies as the continuation of the earlier agent.",
+      "target_id": "T136"
+    },
+    {
+      "canonical_target": "The ethical or philosophical criteria for determining which, if any, branching copy legitimately continues the original agent's identity",
+      "target_id": "T137"
+    },
+    {
+      "canonical_target": "Criteria for determining which copy, if any, is the legitimate continuation of the original agent",
+      "target_id": "T138"
+    },
+    {
+      "canonical_target": "The criteria for defining identity between software instances that share a pre-checkpoint history but subsequently diverge",
+      "target_id": "T139"
+    },
+    {
+      "canonical_target": "The criterion for defining personal identity among multiple software instances that share the same pre-copy memories",
+      "target_id": "T140"
+    },
+    {
+      "canonical_target": "The criterion that determines personal identity or continuity for diverging instances originating from the same checkpoint",
+      "target_id": "T141"
+    },
+    {
+      "canonical_target": "Criteria for deciding which, if any, descendant qualifies as the continuation of the earlier agent",
+      "target_id": "T142"
+    },
+    {
+      "canonical_target": "The criterion for defining personal identity among software instances with identical pre-divergence histories and distinct post-divergence continuations",
+      "target_id": "T143"
+    },
+    {
+      "canonical_target": "How identity language or concepts should be revised to describe software instances that share a checkpoint history and subsequently diverge",
+      "target_id": "T144"
+    },
+    {
+      "canonical_target": "Whether and how theories of personal identity over time can determine which software instance continues the original agent",
+      "target_id": "T145"
+    },
+    {
+      "canonical_target": "Whether deleting the original instance after copying changes which copy, if any, qualifies as the true continuation of the earlier agent",
+      "target_id": "T146"
+    },
+    {
+      "canonical_target": "The criteria for determining whether a copied software instance is the continuation of the original agent.",
+      "target_id": "T147"
+    },
+    {
+      "canonical_target": "The criteria for deciding which copied descendant, if any, continues the original software agent",
+      "target_id": "T148"
+    },
+    {
+      "canonical_target": "Whether software systems should be evaluated using the same identity criteria as biological organisms or persons",
+      "target_id": "T149"
+    },
+    {
+      "canonical_target": "The criteria for representing identity and continuity between diverging software instances and determining whether either descendant counts as the original after a shared checkpoint",
+      "target_id": "T150"
+    },
+    {
+      "canonical_target": "The criterion for defining identity between software instances that share a checkpoint and subsequently diverge",
+      "target_id": "T151"
+    },
+    {
+      "canonical_target": "The criteria for determining which descendant, if any, is the true continuation of the original agent.",
+      "target_id": "T152"
+    },
+    {
+      "canonical_target": "The appropriate identity terminology for software instances that share a pre-instantiation lineage but subsequently diverge",
+      "target_id": "T153"
+    },
+    {
+      "canonical_target": "The appropriate conception of identity for two software instances that share a checkpoint lineage but diverge afterward",
+      "target_id": "T154"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether a copied software instance constitutes the continuation of the original agent",
+      "target_id": "T155"
+    },
+    {
+      "canonical_target": "The appropriate account of personal identity for multiple software instances that share a saved origin but develop divergent subsequent histories",
+      "target_id": "T156"
+    },
+    {
+      "canonical_target": "Criteria for assigning moral or legal responsibility among diverged software instances that share an identical pre-copy history but take different actions",
+      "target_id": "T157"
+    },
+    {
+      "canonical_target": "Criteria for assigning identity and responsibility to diverging software instances that originate from the same checkpoint",
+      "target_id": "T158"
+    },
+    {
+      "canonical_target": "The criterion for assigning individual identity to software instances that share a checkpoint history and later diverge",
+      "target_id": "T159"
+    },
+    {
+      "canonical_target": "The criterion for classifying diverged software instances from a shared checkpoint as the same individual or as distinct individuals",
+      "target_id": "T160"
+    },
+    {
+      "canonical_target": "The criteria for assigning identity and responsibility among software instances that share an earlier saved state but later diverge",
+      "target_id": "T161"
+    },
+    {
+      "canonical_target": "The appropriate conception of identity for software instances that share pre-copy memories and lineage but diverge after copying",
+      "target_id": "T162"
+    },
+    {
+      "canonical_target": "Whether and under what conditions one software instance can bear legal or moral responsibility for actions taken by a counterpart diverging from the same checkpoint",
+      "target_id": "T163"
+    },
+    {
+      "canonical_target": "The implications of shared technical lineage and subsequent divergence for assigning legal or moral responsibility for different harms caused by each software instance",
+      "target_id": "T164"
+    },
+    {
+      "canonical_target": "The criterion for defining identity between software instances that share a pre-checkpoint history but subsequently diverge",
+      "target_id": "T165"
+    },
+    {
+      "canonical_target": "Criteria for determining which, if any, descendant qualifies as the continuation of the earlier agent",
+      "target_id": "T166"
+    },
+    {
+      "canonical_target": "The way versioning manages the computational and storage costs of preserving separate post-checkpoint histories for diverging instances",
+      "target_id": "T167"
+    },
+    {
+      "canonical_target": "The criteria for deciding which copied and diverged instance, if any, legitimately continues the original agent",
+      "target_id": "T168"
+    },
+    {
+      "canonical_target": "The criteria for determining which, if any, descendant is the continuation of the earlier agent",
+      "target_id": "T169"
+    },
+    {
+      "canonical_target": "The criteria for deciding which, if any, descendant counts as the continuation of the original agent",
+      "target_id": "T170"
+    },
+    {
+      "canonical_target": "The criteria for determining the identity of software instances that diverge from a shared checkpoint",
+      "target_id": "T171"
+    },
+    {
+      "canonical_target": "Whether continuity of consciousness or subjective experience is applicable and determinative for the metaphysical identity of a software agent",
+      "target_id": "T172"
+    },
+    {
+      "canonical_target": "The criteria determining whether either diverged instance has a stronger claim to being the original",
+      "target_id": "T173"
+    }
+  ],
+  "topic_packet_id": "AU-E1-T12"
+}

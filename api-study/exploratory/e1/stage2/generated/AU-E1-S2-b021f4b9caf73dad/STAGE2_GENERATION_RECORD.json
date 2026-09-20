@@ -1,0 +1,30 @@
+{
+  "amendment_id": "E1A",
+  "bundle_id": "AU-E1-S2-b021f4b9caf73dad",
+  "cluster_names_assigned": false,
+  "generated_at_utc": "2026-09-20T16:39:55.078477+00:00",
+  "generator_path": "api-study/exploratory/generate_e1_stage2_packets.py",
+  "generator_sha256": "93be744f8f789d623fd94bba5e030a973ce74e5ac4d4943af7fdd831d6d5789c",
+  "instructions_source_path": "api-study/exploratory/STAGE2_PARTITION_INSTRUCTIONS.md",
+  "instructions_source_sha256": "f4425cfb3fa4ff359496069f09712f0b83d1f9c30977aeca35792512986c0bef",
+  "model_gap_metadata_rejoined": false,
+  "packet_index_path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/STAGE2_PACKET_INDEX.json",
+  "packet_index_sha256": "91e15924cc0d876939f80dcf57bc7ae454e8719e996bdcbda6d5a7c792ae61aa",
+  "private_key_path": "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/private/E1_STAGE2_PRIVATE_KEY.json",
+  "private_key_sha256": "9a8e7725c2bf0a0000fe6d81ba3a077031cc74a255b2669f4895635e34ca9d07",
+  "protocol_id": "E1",
+  "schema_version": "au-e1-stage2-generation-record-v1",
+  "semantic_partitions_assigned": false,
+  "source_files_sha256": {
+    "api-study/exploratory/e1/generated/AU-E1-S1-cad71b8ce8fe0866/private/E1_STAGE1_PRIVATE_KEY.json": "52def81be033176dc643ce409849ef6d1340fe9d8dceb44fc6648df2caf50904",
+    "api-study/exploratory/e1/stage1_outputs/AU-E1-S1-cad71b8ce8fe0866/opus_d2_512/CANONICAL_TARGETS.jsonl": "f8de5883563dd581c1be2687453dd46f278562e313af8c0adf2a1847f54c5927",
+    "api-study/exploratory/e1/stage1_outputs/AU-E1-S1-cad71b8ce8fe0866/sol/CANONICAL_TARGETS.jsonl": "c9d8cb08d505a10ebb542395c88cd36413327937e07014f5a1353042244eac70"
+  },
+  "stage1_freeze_commit": "07722a3da8b34b5f01a57f5caf13cf709ea45e18",
+  "stage1_freeze_signature_verified": true,
+  "stage2_generator_implementation_commit": "e2b00153127689c3274f9f2fd469067a96b299a4",
+  "stage2_generator_signature_verified": true,
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "topic_packets_total": 24,
+  "total_visible_target_rows": 3968
+}

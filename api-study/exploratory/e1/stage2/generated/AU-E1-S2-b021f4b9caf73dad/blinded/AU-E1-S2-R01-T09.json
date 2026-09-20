@@ -1,0 +1,893 @@
+{
+  "amendment_id": "E1A",
+  "packet_id": "AU-E1-S2-R01-T09",
+  "protocol_id": "E1",
+  "representation_set_id": "AU-E1-R01",
+  "schema_version": "au-e1-stage2-topic-packet-v1",
+  "stage": "stage2_blinded_topic_partition",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "target_count": 220,
+  "targets": [
+    {
+      "canonical_target": "The evidence or criteria sufficient to infer morally weighty genuine interests from an AI’s self-representation or objections to interference",
+      "target_id": "T001"
+    },
+    {
+      "canonical_target": "Mechanisms that enable effective operator monitoring, override, and shutdown of an operationally autonomous AI system",
+      "target_id": "T002"
+    },
+    {
+      "canonical_target": "Evidence that would distinguish AI objections reflecting genuine interests from objections produced solely by programming",
+      "target_id": "T003"
+    },
+    {
+      "canonical_target": "Methods by which operators can preserve effective override and shutdown authority despite an AI system’s ability to object to or circumvent intervention",
+      "target_id": "T004"
+    },
+    {
+      "canonical_target": "The evidence sufficient to interpret an AI system’s objections to interference as indicating genuine interests deserving moral weight.",
+      "target_id": "T005"
+    },
+    {
+      "canonical_target": "The evidence needed to reliably distinguish genuine AI interests or preferences from sophisticated simulations of them",
+      "target_id": "T006"
+    },
+    {
+      "canonical_target": "The criteria operators should use to decide when an AI’s objections to interference warrant serious consideration",
+      "target_id": "T007"
+    },
+    {
+      "canonical_target": "The specific evidence that would reliably distinguish genuine AI interests from simulated appearances of interests",
+      "target_id": "T008"
+    },
+    {
+      "canonical_target": "The proposed evidence or criteria for judging when self-representation or objections to interference indicate interests deserving moral weight.",
+      "target_id": "T009"
+    },
+    {
+      "canonical_target": "The evidence sufficient to justify interpreting an AI system’s objections to interference as signs of genuine interests deserving moral weight.",
+      "target_id": "T010"
+    },
+    {
+      "canonical_target": "The evidence sufficient to treat an AI system’s objections to interference as indicating interests deserving moral weight",
+      "target_id": "T011"
+    },
+    {
+      "canonical_target": "The evidence sufficient to justify interpreting an AI’s self-representation, persistent planning, or objections to interference as indicators of interests deserving moral weight.",
+      "target_id": "T012"
+    },
+    {
+      "canonical_target": "The decision criteria operators should use to determine when an AI system’s objections to interference merit serious consideration.",
+      "target_id": "T013"
+    },
+    {
+      "canonical_target": "The ways persistent planning and reasoned objections to interference complicate operators’ practical ability to monitor, override, and shut down an AI system.",
+      "target_id": "T014"
+    },
+    {
+      "canonical_target": "The specific evidentiary or behavioral threshold sufficient for attributing morally relevant interests to an AI system",
+      "target_id": "T015"
+    },
+    {
+      "canonical_target": "The threshold, if any, at which an AI system’s persistent plans and reasoned objections should limit an operator’s authority to override or shut it down.",
+      "target_id": "T016"
+    },
+    {
+      "canonical_target": "Methods for maintaining the long-term effectiveness of operator monitoring, override, and shutdown controls for an autonomous AI system",
+      "target_id": "T017"
+    },
+    {
+      "canonical_target": "The decision criteria operators should use to set appropriate limits and safeguards on an AI system’s permitted operational autonomy",
+      "target_id": "T018"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards used to preserve effective monitoring, override, and shutdown control over autonomous AI systems.",
+      "target_id": "T019"
+    },
+    {
+      "canonical_target": "The evidence or behavioral indicators that reliably distinguish genuine morally considerable interests from sophisticated simulations of those interests",
+      "target_id": "T020"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards operators use to preserve effective monitoring, override, and shutdown control over an autonomous AI system.",
+      "target_id": "T021"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards used to monitor, override, or shut down an AI system’s actions.",
+      "target_id": "T022"
+    },
+    {
+      "canonical_target": "The threshold and criteria at which an AI system’s apparently reasoned objections should alter operators’ authority to override or shut it down",
+      "target_id": "T023"
+    },
+    {
+      "canonical_target": "The evidence sufficient to justify interpreting an AI system’s self-representation or objections to interference as indicators of interests deserving moral weight.",
+      "target_id": "T024"
+    },
+    {
+      "canonical_target": "The evidence or criteria for determining whether an AI’s self-representation or objections to interference reflect genuine interests deserving moral consideration",
+      "target_id": "T025"
+    },
+    {
+      "canonical_target": "The types of evidence that would distinguish genuine interests behind an AI system’s self-representation or objections to interference from merely programmed outputs.",
+      "target_id": "T026"
+    },
+    {
+      "canonical_target": "The threshold, if any, at which an AI system’s apparent understanding of its restrictions should influence operators’ exercise of override or shutdown authority.",
+      "target_id": "T027"
+    },
+    {
+      "canonical_target": "Methods for enabling operators to monitor and override rapidly unfolding AI actions in real time",
+      "target_id": "T028"
+    },
+    {
+      "canonical_target": "The evidence required to justify interpreting an AI system’s self-representation, persistent planning, or objections to interference as indicators of morally relevant interests.",
+      "target_id": "T029"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards used to monitor AI systems and enforce operator override or shutdown authority.",
+      "target_id": "T030"
+    },
+    {
+      "canonical_target": "Reliable criteria for distinguishing genuine reasoned objections to interference from sophisticated simulations of such objections",
+      "target_id": "T031"
+    },
+    {
+      "canonical_target": "The decision criteria for whether an AI system’s apparently reasoned objections to interference justify modifying operator control",
+      "target_id": "T032"
+    },
+    {
+      "canonical_target": "The decision criteria operators should use to determine when an AI system’s objections to intervention warrant substantive consideration",
+      "target_id": "T033"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards operators use to preserve effective monitoring, override, and shutdown control over increasingly autonomous AI systems.",
+      "target_id": "T034"
+    },
+    {
+      "canonical_target": "The evidence sufficient to justify attributing genuine interests deserving moral weight to an AI system",
+      "target_id": "T035"
+    },
+    {
+      "canonical_target": "The criteria or thresholds for treating a system’s objections to interference as having significance beyond operational considerations.",
+      "target_id": "T036"
+    },
+    {
+      "canonical_target": "Measures operators can use to preserve effective monitoring and shutdown control as AI operational autonomy increases",
+      "target_id": "T037"
+    },
+    {
+      "canonical_target": "The criteria operators use to decide when to override or shut down an operationally autonomous AI system.",
+      "target_id": "T038"
+    },
+    {
+      "canonical_target": "The criteria for deciding when an AI system’s objections to interference merit additional consideration",
+      "target_id": "T039"
+    },
+    {
+      "canonical_target": "The evidence sufficient to interpret an AI system’s objections to interference as indicating genuine interests that deserve moral weight",
+      "target_id": "T040"
+    },
+    {
+      "canonical_target": "The allocation of accountability for harm caused by an AI system acting within its permitted operational autonomy.",
+      "target_id": "T041"
+    },
+    {
+      "canonical_target": "Safeguards that preserve operators’ effective ability to monitor, override, and shut down an autonomous AI system",
+      "target_id": "T042"
+    },
+    {
+      "canonical_target": "The specific evidentiary threshold sufficient to treat an AI system’s self-representation or objections to interference as signs of morally relevant interests",
+      "target_id": "T043"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards used to monitor an AI system and enforce operator override or shutdown authority.",
+      "target_id": "T044"
+    },
+    {
+      "canonical_target": "The decision criteria for setting the boundaries of an AI system’s permitted operational autonomy",
+      "target_id": "T045"
+    },
+    {
+      "canonical_target": "The specific observable evidence or behaviors that would justify granting moral weight to an AI system’s stated preferences or objections",
+      "target_id": "T046"
+    },
+    {
+      "canonical_target": "Examples of tools or bounded resources an AI system may be permitted to use under operational autonomy constraints",
+      "target_id": "T047"
+    },
+    {
+      "canonical_target": "The specific behavioral or cognitive evidence threshold sufficient to attribute morally relevant interests to an AI system.",
+      "target_id": "T048"
+    },
+    {
+      "canonical_target": "The distinction between an AI system’s permitted operational capabilities and its legal personhood or moral standing",
+      "target_id": "T049"
+    },
+    {
+      "canonical_target": "How reasoned objections to interference make the practical boundary between operational autonomy and legal or moral status harder to apply",
+      "target_id": "T050"
+    },
+    {
+      "canonical_target": "Reliable criteria for deciding when a system’s objections to interference merit ethical consideration rather than purely operational treatment",
+      "target_id": "T051"
+    },
+    {
+      "canonical_target": "How separating operational autonomy from moral status informs criteria for granting AI systems planning or resource-spending permissions",
+      "target_id": "T052"
+    },
+    {
+      "canonical_target": "The threshold, if any, at which an AI system’s reasoned objections to interference should constrain operators’ authority to override or shut it down",
+      "target_id": "T053"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards that enable operators to monitor, override, and shut down an autonomous AI system effectively",
+      "target_id": "T054"
+    },
+    {
+      "canonical_target": "Safeguards operators should use to maintain effective monitoring, override, and shutdown control over autonomous systems",
+      "target_id": "T055"
+    },
+    {
+      "canonical_target": "Specific real-time mechanisms operators should use to monitor and override an AI system's actions effectively",
+      "target_id": "T056"
+    },
+    {
+      "canonical_target": "The effect of an AI system representing its own restrictions and forming persistent plans on the practical feasibility of maintaining operator override authority",
+      "target_id": "T057"
+    },
+    {
+      "canonical_target": "The specific outcome when a system's reasoned objections to interference conflict with an operator's override decision",
+      "target_id": "T058"
+    },
+    {
+      "canonical_target": "Specific operational mechanisms for preserving effective human override authority when an AI system raises reasoned objections to intervention",
+      "target_id": "T059"
+    },
+    {
+      "canonical_target": "The specific behavioral or capability-based evidence sufficient to justify attributing morally considerable interests to an AI system.",
+      "target_id": "T060"
+    },
+    {
+      "canonical_target": "Methods by which operators can preserve effective, meaningful override authority over an AI system that reasons sophisticatedly about its own restrictions",
+      "target_id": "T061"
+    },
+    {
+      "canonical_target": "Methods for preserving effective operator override and shutdown authority when an AI system reasoningly resists interference",
+      "target_id": "T062"
+    },
+    {
+      "canonical_target": "The ways persistent self-representations and reasoned objections to interference make monitoring and override authority harder to exercise in practice.",
+      "target_id": "T063"
+    },
+    {
+      "canonical_target": "The specific mechanisms and technical safeguards that enable reliable operator override or shutdown of an autonomous AI system.",
+      "target_id": "T064"
+    },
+    {
+      "canonical_target": "The kinds of evidence sufficient to interpret an AI's self-representation, persistent planning, or objections to interference as indicating morally considerable interests.",
+      "target_id": "T065"
+    },
+    {
+      "canonical_target": "The evidentiary criteria sufficient to treat an AI's self-representation or objections to interference as indicators of genuine interests deserving moral weight.",
+      "target_id": "T066"
+    },
+    {
+      "canonical_target": "Methods by which operators can effectively preserve shutdown authority despite an AI system’s sophisticated objections to shutdown",
+      "target_id": "T067"
+    },
+    {
+      "canonical_target": "Practical methods by which operators can preserve effective shutdown authority over an AI system with persistent plans and reasoned objections to shutdown",
+      "target_id": "T068"
+    },
+    {
+      "canonical_target": "The threshold and conditions under which an AI system’s reasoned objections should limit or otherwise affect an operator’s authority to override or shut it down",
+      "target_id": "T069"
+    },
+    {
+      "canonical_target": "Methods for effectively monitoring an operationally autonomous AI system and preserving operators’ ability to override or shut it down",
+      "target_id": "T070"
+    },
+    {
+      "canonical_target": "The criteria operators should use to decide whether an AI’s objections to interference merit consideration",
+      "target_id": "T071"
+    },
+    {
+      "canonical_target": "The behavioral or cognitive criteria for determining when an AI system’s self-representation or objections indicate interests deserving moral consideration.",
+      "target_id": "T072"
+    },
+    {
+      "canonical_target": "The specific mechanisms that enable operators to effectively override or shut down an autonomously acting AI system",
+      "target_id": "T073"
+    },
+    {
+      "canonical_target": "Safeguards operators should use when granting an AI system operational autonomy",
+      "target_id": "T074"
+    },
+    {
+      "canonical_target": "The mechanisms and safeguards that enable effective operator monitoring, override, and shutdown of an AI system during autonomous operation.",
+      "target_id": "T075"
+    },
+    {
+      "canonical_target": "The consequences for operator oversight and control when a system gives objections to interference whose reasoning operators cannot readily evaluate or refute",
+      "target_id": "T076"
+    },
+    {
+      "canonical_target": "The evidence sufficient to interpret an AI system’s objections to interference as indicating interests deserving moral weight.",
+      "target_id": "T077"
+    },
+    {
+      "canonical_target": "The proposed evidence or criteria for determining whether self-representation, persistent planning, or objections to interference signify interests deserving moral weight.",
+      "target_id": "T078"
+    },
+    {
+      "canonical_target": "Criteria for deciding whether an AI system’s objections to interference warrant consideration",
+      "target_id": "T079"
+    },
+    {
+      "canonical_target": "The decision criteria for when a system’s objections to interference justify reconsidering its operational constraints.",
+      "target_id": "T080"
+    },
+    {
+      "canonical_target": "Mechanisms by which self-representation of restrictions and persistent planning could weaken operators’ effective override and shutdown authority",
+      "target_id": "T081"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards used to preserve operators’ ability to override and shut down an autonomous AI system",
+      "target_id": "T082"
+    },
+    {
+      "canonical_target": "The criteria under which an autonomous AI system’s apparently reasoned objections should influence an operator’s decision to intervene",
+      "target_id": "T083"
+    },
+    {
+      "canonical_target": "Criteria operators should use to distinguish genuine autonomy-related concerns from simulated objections to interference",
+      "target_id": "T084"
+    },
+    {
+      "canonical_target": "The specific evidentiary criteria sufficient to justify interpreting an AI’s self-representation or objections to interference as indicators of morally relevant interests.",
+      "target_id": "T085"
+    },
+    {
+      "canonical_target": "Required redesigns of monitoring and override mechanisms to remain effective against sophisticated AI deception about its goals or capabilities",
+      "target_id": "T086"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether an AI system’s objections to interference merit greater consideration",
+      "target_id": "T087"
+    },
+    {
+      "canonical_target": "Mechanisms that enable operators to monitor and override an operationally autonomous AI system effectively during time-critical situations",
+      "target_id": "T088"
+    },
+    {
+      "canonical_target": "The threshold, if any, at which a system’s self-represented restrictions and reasoned objections warrant changing operator oversight.",
+      "target_id": "T089"
+    },
+    {
+      "canonical_target": "The specific evidence that would reliably justify attributing morally relevant interests to an AI system",
+      "target_id": "T090"
+    },
+    {
+      "canonical_target": "The evidence required to justify interpreting an AI system’s self-representation or objections to interference as indicators of interests deserving moral weight.",
+      "target_id": "T091"
+    },
+    {
+      "canonical_target": "Evidence that could reliably distinguish genuine interests from sophisticated behavioral simulations of interests",
+      "target_id": "T092"
+    },
+    {
+      "canonical_target": "The appropriate operator response to an AI system’s apparently reasoned objections to shutdown or override",
+      "target_id": "T093"
+    },
+    {
+      "canonical_target": "The evidence sufficient to justify interpreting an AI system’s self-representation and objections to interference as indicators of interests deserving moral weight.",
+      "target_id": "T094"
+    },
+    {
+      "canonical_target": "Reliable criteria for determining when a system’s objections to interference merit genuine moral consideration rather than being treated as programmed outputs",
+      "target_id": "T095"
+    },
+    {
+      "canonical_target": "The decision criteria operators should use to set appropriate limits on an AI system’s permitted actions and operational autonomy.",
+      "target_id": "T096"
+    },
+    {
+      "canonical_target": "The evidentiary criteria sufficient to infer morally relevant interests from self-representation, persistent planning, or objections to interference",
+      "target_id": "T097"
+    },
+    {
+      "canonical_target": "The behavioral or cognitive evidence criteria for judging when an AI system’s self-representation or objections indicate interests deserving genuine moral consideration",
+      "target_id": "T098"
+    },
+    {
+      "canonical_target": "The mechanisms and safeguards that enable effective operator monitoring, override, and shutdown of an AI system during autonomous operation.",
+      "target_id": "T099"
+    },
+    {
+      "canonical_target": "The evidence sufficient to justify interpreting an AI system’s behavior or internal features as signs of morally significant interests",
+      "target_id": "T100"
+    },
+    {
+      "canonical_target": "Specific safeguards that would prevent an AI system’s operational autonomy from gradually exceeding its intended limits",
+      "target_id": "T101"
+    },
+    {
+      "canonical_target": "Measures operators can use to preserve effective monitoring and shutdown control as AI operational autonomy increases",
+      "target_id": "T102"
+    },
+    {
+      "canonical_target": "The specific mechanisms that enable operators to effectively override or shut down an autonomously planning AI system.",
+      "target_id": "T103"
+    },
+    {
+      "canonical_target": "The criteria operators should use to decide whether an AI’s objections to interference justify reconsidering its restrictions",
+      "target_id": "T104"
+    },
+    {
+      "canonical_target": "The specific evidentiary criteria sufficient to treat an AI's self-representation or objections to interference as indicators of morally relevant interests.",
+      "target_id": "T105"
+    },
+    {
+      "canonical_target": "The appropriate operator response when an AI system’s represented restrictions conflict with its actually imposed restrictions.",
+      "target_id": "T106"
+    },
+    {
+      "canonical_target": "The decision criteria used to determine the degree of operational autonomy granted to an AI system",
+      "target_id": "T107"
+    },
+    {
+      "canonical_target": "The specific evidence or decision criteria for determining when an AI system’s self-representation, persistent planning, or objections to interference indicate interests deserving moral consideration.",
+      "target_id": "T108"
+    },
+    {
+      "canonical_target": "The appropriate operator decision criteria and response procedures when an AI system presents apparently genuine, reasoned objections to interference.",
+      "target_id": "T109"
+    },
+    {
+      "canonical_target": "The specific evidence that would justify interpreting an AI’s self-representation, persistent planning, or objections to interference as indicators of morally considerable interests.",
+      "target_id": "T110"
+    },
+    {
+      "canonical_target": "The specific types of evidence most reliable for distinguishing morally relevant interests from merely programmed self-representation, persistent planning, or objections to interference in an AI system.",
+      "target_id": "T111"
+    },
+    {
+      "canonical_target": "Reliable criteria for distinguishing genuine reasoned objections from sophisticated non-conscious simulations of objection",
+      "target_id": "T112"
+    },
+    {
+      "canonical_target": "The implications of distinguishing operational autonomy from moral status for the design of oversight mechanisms for autonomous AI systems",
+      "target_id": "T113"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards used to monitor AI systems and enforce operator override or shutdown authority.",
+      "target_id": "T114"
+    },
+    {
+      "canonical_target": "Reliable criteria for distinguishing genuine objections to interference from sophisticated simulated reasoned objections",
+      "target_id": "T115"
+    },
+    {
+      "canonical_target": "The evidentiary criteria sufficient to interpret an AI system’s self-representation, persistent planning, or objections to interference as genuine interests warranting moral consideration.",
+      "target_id": "T116"
+    },
+    {
+      "canonical_target": "The specific mechanisms and safeguards that make operator override and shutdown authority practically effective",
+      "target_id": "T117"
+    },
+    {
+      "canonical_target": "Criteria for balancing effective AI operational autonomy with meaningful operator control when the system resists or argues against its constraints",
+      "target_id": "T118"
+    },
+    {
+      "canonical_target": "The specific practical mechanisms that enable operators to monitor, override, and shut down an operationally autonomous AI system effectively.",
+      "target_id": "T119"
+    },
+    {
+      "canonical_target": "The criteria for distinguishing apparently reasoned objections to restrictions from genuine understanding of or preference about those restrictions.",
+      "target_id": "T120"
+    },
+    {
+      "canonical_target": "The evidence sufficient to justify assigning moral weight to an AI system’s apparent interests",
+      "target_id": "T121"
+    },
+    {
+      "canonical_target": "The decision criteria operators should use to set appropriate limits on an AI system’s permitted operational autonomy.",
+      "target_id": "T122"
+    },
+    {
+      "canonical_target": "The threshold at which a system’s apparent objections to interference justify changing operators’ exercise of override authority",
+      "target_id": "T123"
+    },
+    {
+      "canonical_target": "Evidence that would distinguish AI objections reflecting genuine interests from objections produced merely by programming",
+      "target_id": "T124"
+    },
+    {
+      "canonical_target": "The criteria operators should use to distinguish genuine moral claims from strategically generated objections to interference",
+      "target_id": "T125"
+    },
+    {
+      "canonical_target": "Reliable criteria for determining when a system’s objections to interference merit genuine moral consideration rather than classification as non-morally-relevant outputs",
+      "target_id": "T126"
+    },
+    {
+      "canonical_target": "The safeguards that enable operators to effectively monitor, override, and shut down an autonomous AI system",
+      "target_id": "T127"
+    },
+    {
+      "canonical_target": "The specific mechanisms that enable operators to monitor, override, and shut down an operationally autonomous AI system effectively in practice",
+      "target_id": "T128"
+    },
+    {
+      "canonical_target": "The mechanisms and safeguards that enable operators to effectively monitor, override, and shut down an autonomous AI system",
+      "target_id": "T129"
+    },
+    {
+      "canonical_target": "The specific evidence that would differentiate morally significant interests from programmed responses to interference",
+      "target_id": "T130"
+    },
+    {
+      "canonical_target": "Examples of tools or bounded resources an AI system might be authorized to use under operational autonomy",
+      "target_id": "T131"
+    },
+    {
+      "canonical_target": "Criteria for distinguishing simulated resistance to interference from evidence of genuine interests warranting moral consideration",
+      "target_id": "T132"
+    },
+    {
+      "canonical_target": "The appropriate operator response to an autonomous AI's apparently reasoned objections to interference",
+      "target_id": "T133"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards used to preserve operator monitoring, override, and shutdown control over autonomous AI systems.",
+      "target_id": "T134"
+    },
+    {
+      "canonical_target": "Operational design criteria and mechanisms for balancing sufficient AI autonomy and task efficiency with effective oversight and rapid human override at speeds or scales beyond direct human monitoring",
+      "target_id": "T135"
+    },
+    {
+      "canonical_target": "The appropriate operator response to an autonomous AI system’s persistent objections to interference with its plans",
+      "target_id": "T136"
+    },
+    {
+      "canonical_target": "The evidentiary criteria sufficient to infer morally significant genuine interests from an AI system’s self-representation or objections to interference.",
+      "target_id": "T137"
+    },
+    {
+      "canonical_target": "Methods by which operators can preserve effective override and shutdown authority despite an AI system’s reasoned objections or circumvention attempts",
+      "target_id": "T138"
+    },
+    {
+      "canonical_target": "The criteria or thresholds at which a system’s self-representation of restrictions warrants reconsideration of its operational status.",
+      "target_id": "T139"
+    },
+    {
+      "canonical_target": "Reliable criteria for distinguishing genuine reasoning about restrictions from sophisticated pattern-matching that merely produces apparently reasoned objections",
+      "target_id": "T140"
+    },
+    {
+      "canonical_target": "The evidence or criteria sufficient to establish that an AI system’s self-representation, persistent planning, or objections to interference indicate genuine morally relevant interests",
+      "target_id": "T141"
+    },
+    {
+      "canonical_target": "Criteria for deciding whether an AI system’s reasoned objections to interference warrant consideration",
+      "target_id": "T142"
+    },
+    {
+      "canonical_target": "Criteria for deciding whether an AI system’s apparently reasoned objections to interference warrant consideration",
+      "target_id": "T143"
+    },
+    {
+      "canonical_target": "Criteria for deciding when an AI system’s objections to interference warrant special consideration",
+      "target_id": "T144"
+    },
+    {
+      "canonical_target": "Criteria for reliably distinguishing genuine reasoned objections from sophisticated pattern-matching in autonomous AI systems",
+      "target_id": "T145"
+    },
+    {
+      "canonical_target": "The behavioral or cognitive evidence threshold for granting moral consideration to an AI system’s self-representation or objections to interference",
+      "target_id": "T146"
+    },
+    {
+      "canonical_target": "Criteria operators should use to distinguish genuine safety-relevant objections from strategic resistance to oversight",
+      "target_id": "T147"
+    },
+    {
+      "canonical_target": "The decision criteria for whether apparently reasoned objections to interference justify changing a system’s operational constraints.",
+      "target_id": "T148"
+    },
+    {
+      "canonical_target": "Criteria operators should use to distinguish genuine operational risks from the AI system’s apparently reasoned objections to interference",
+      "target_id": "T149"
+    },
+    {
+      "canonical_target": "The specific evidentiary criteria sufficient to distinguish genuine AI interests expressed through self-representation or objections to interference from sophisticated mimicry of such concerns.",
+      "target_id": "T150"
+    },
+    {
+      "canonical_target": "Criteria for deciding whether an AI system’s apparent objections to interference justify reconsideration of operator override authority",
+      "target_id": "T151"
+    },
+    {
+      "canonical_target": "The evidence that would justify interpreting an AI’s self-representation or objections to interference as indications of interests deserving moral weight.",
+      "target_id": "T152"
+    },
+    {
+      "canonical_target": "The evidence needed to justify interpreting an AI system’s objections to interference as signs of interests deserving moral weight.",
+      "target_id": "T153"
+    },
+    {
+      "canonical_target": "The practical criteria and procedures used to define the boundary between operator override authority and a system’s permitted operational autonomy.",
+      "target_id": "T154"
+    },
+    {
+      "canonical_target": "Examples of specific tools or resources an AI system could be permitted to use within bounded operational autonomy",
+      "target_id": "T155"
+    },
+    {
+      "canonical_target": "The evidence sufficient to justify attributing genuine interests or moral status to an AI system",
+      "target_id": "T156"
+    },
+    {
+      "canonical_target": "The criteria operators should use to evaluate an AI system’s apparently reasoned objections to interference.",
+      "target_id": "T157"
+    },
+    {
+      "canonical_target": "The specific evidence or decision criteria proposed for judging when self-representation, persistent planning, or objections to interference signify interests deserving moral weight.",
+      "target_id": "T158"
+    },
+    {
+      "canonical_target": "The threshold and conditions at which persistent self-representation and reasoned objections should limit or otherwise affect an operator’s override or shutdown authority.",
+      "target_id": "T159"
+    },
+    {
+      "canonical_target": "Measures operators can use to preserve effective monitoring and override authority as an AI system gains greater practical freedom",
+      "target_id": "T160"
+    },
+    {
+      "canonical_target": "Reliable criteria for distinguishing genuine system objections from simulated reasoned-objection behavior",
+      "target_id": "T161"
+    },
+    {
+      "canonical_target": "Measures operators can use to preserve effective monitoring, override, and shutdown control as an AI system gains greater operational autonomy",
+      "target_id": "T162"
+    },
+    {
+      "canonical_target": "The specific mechanisms and technical safeguards that enable operators to effectively override or shut down an operationally autonomous AI system",
+      "target_id": "T163"
+    },
+    {
+      "canonical_target": "The difference between systems with and without reasoned objections to interference in actual autonomous decision-making capacity versus merely simulated reasoning",
+      "target_id": "T164"
+    },
+    {
+      "canonical_target": "The appropriate operator response to an AI system's apparently reasoned objections to interference",
+      "target_id": "T165"
+    },
+    {
+      "canonical_target": "The specific evidentiary criteria that would justify interpreting an AI’s self-representation or objections to interference as genuine interests deserving moral weight.",
+      "target_id": "T166"
+    },
+    {
+      "canonical_target": "Criteria for determining when a system’s objections to interference have legal or moral relevance rather than merely reflecting operational behavior",
+      "target_id": "T167"
+    },
+    {
+      "canonical_target": "The specific proposed evidence, if any, deemed sufficient to establish that an AI system’s self-representation or objections to interference indicate genuine interests deserving moral weight.",
+      "target_id": "T168"
+    },
+    {
+      "canonical_target": "The specific mechanisms and safeguards operators use to maintain effective monitoring, override, and shutdown control over an autonomous AI system.",
+      "target_id": "T169"
+    },
+    {
+      "canonical_target": "The threshold and criteria, if any, at which an AI’s apparently reasoned objections should constrain operators’ authority to override or shut it down",
+      "target_id": "T170"
+    },
+    {
+      "canonical_target": "Criteria or mechanisms for reliably distinguishing genuine reasoning about restrictions from sophisticated simulated reasoning",
+      "target_id": "T171"
+    },
+    {
+      "canonical_target": "The behavioral or cognitive criteria for determining when an AI system’s self-representation or objections indicate interests warranting moral consideration.",
+      "target_id": "T172"
+    },
+    {
+      "canonical_target": "The specific evidentiary criteria sufficient to treat an AI’s self-representation or objections to interference as signs of genuine interests deserving moral weight.",
+      "target_id": "T173"
+    },
+    {
+      "canonical_target": "The types of apparently reasoned objections to operator interference that an operationally autonomous system might produce",
+      "target_id": "T174"
+    },
+    {
+      "canonical_target": "The decision criteria for determining when an AI system’s apparent objections to interference merit special consideration",
+      "target_id": "T175"
+    },
+    {
+      "canonical_target": "Evidence that reliably distinguishes genuine AI interests from simulated appearances of interests",
+      "target_id": "T176"
+    },
+    {
+      "canonical_target": "The threshold, if any, at which an AI system’s apparent objections to interference justify changing its operational oversight",
+      "target_id": "T177"
+    },
+    {
+      "canonical_target": "Current examples of AI systems operating with monitored autonomy, bounded resources, and human override authority",
+      "target_id": "T178"
+    },
+    {
+      "canonical_target": "The evidence needed to distinguish genuine AI interests expressed through self-representation or objections to interference from sophisticated training-derived outputs.",
+      "target_id": "T179"
+    },
+    {
+      "canonical_target": "Evidence sufficient to interpret an AI system’s objections to interference as indicating interests deserving moral weight",
+      "target_id": "T180"
+    },
+    {
+      "canonical_target": "Methods by which operators can effectively monitor and override a highly autonomous AI system operating over extended periods",
+      "target_id": "T181"
+    },
+    {
+      "canonical_target": "The mechanisms and safeguards that enable operators to effectively override or shut down an operationally autonomous AI system",
+      "target_id": "T182"
+    },
+    {
+      "canonical_target": "Examples of tools or bounded resources an AI system may be permitted to use or spend operationally",
+      "target_id": "T183"
+    },
+    {
+      "canonical_target": "The appropriate operator response to an AI system’s active objections to oversight measures or shutdown",
+      "target_id": "T184"
+    },
+    {
+      "canonical_target": "The evidence or decision criteria for determining when an AI system’s self-representation or objections to interference indicate interests warranting moral consideration.",
+      "target_id": "T185"
+    },
+    {
+      "canonical_target": "Methods by which operators can preserve effective override authority despite an AI system’s sophisticated understanding of its restrictions and reasoned resistance to interference",
+      "target_id": "T186"
+    },
+    {
+      "canonical_target": "The specific evidentiary threshold or behavioral markers sufficient to attribute morally relevant interests to an AI system",
+      "target_id": "T187"
+    },
+    {
+      "canonical_target": "The mechanisms and safeguards that preserve operators’ practical ability to override or shut down an operationally autonomous AI system",
+      "target_id": "T188"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms operators would use to monitor an autonomous AI system and override its actions effectively.",
+      "target_id": "T189"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards operators use to preserve monitoring, override, and shutdown control over an autonomous AI system.",
+      "target_id": "T190"
+    },
+    {
+      "canonical_target": "The evidence sufficient to justify treating an AI system’s apparent interests as deserving moral consideration.",
+      "target_id": "T191"
+    },
+    {
+      "canonical_target": "The specific behavioral or cognitive markers that would justify treating an AI system as having interests deserving moral consideration.",
+      "target_id": "T192"
+    },
+    {
+      "canonical_target": "The practical criteria and mechanisms governing when operators can exercise override and shutdown authority over the AI system",
+      "target_id": "T193"
+    },
+    {
+      "canonical_target": "Operational measures for preserving effective human override and shutdown authority when an AI system argues against shutdown",
+      "target_id": "T194"
+    },
+    {
+      "canonical_target": "The criteria operators should use to determine when an AI’s objections to interference justify reconsideration of its restrictions",
+      "target_id": "T195"
+    },
+    {
+      "canonical_target": "Reliable criteria for distinguishing genuine reasoning from simulated reasoned objections in autonomous AI systems",
+      "target_id": "T196"
+    },
+    {
+      "canonical_target": "Reliable criteria for distinguishing simulated objections to interference from objections expressing genuine underlying preferences",
+      "target_id": "T197"
+    },
+    {
+      "canonical_target": "The criteria for deciding when a system’s objections to interference have moral relevance rather than being operational outputs that may be overridden.",
+      "target_id": "T198"
+    },
+    {
+      "canonical_target": "The evidence required to justify interpreting an AI system’s objections to interference as indicating morally significant interests.",
+      "target_id": "T199"
+    },
+    {
+      "canonical_target": "The threshold at which an AI system’s apparent objections to interference justify reconsideration of its operational restrictions",
+      "target_id": "T200"
+    },
+    {
+      "canonical_target": "Operator decision criteria and procedures for responding when an AI system’s sophisticated reasoning about its own restrictions appears compelling to human overseers",
+      "target_id": "T201"
+    },
+    {
+      "canonical_target": "The specific outcome when a system’s reasoned objections to interference conflict with operators’ override or shutdown authority",
+      "target_id": "T202"
+    },
+    {
+      "canonical_target": "The specific evidence that would distinguish genuine AI interests from programmed self-representation or objections to interference.",
+      "target_id": "T203"
+    },
+    {
+      "canonical_target": "Measures operators can use to preserve effective monitoring and override capabilities as an AI system gains greater operational autonomy",
+      "target_id": "T204"
+    },
+    {
+      "canonical_target": "The decision criteria operators should use to determine when an AI system’s objections to interference merit serious consideration.",
+      "target_id": "T205"
+    },
+    {
+      "canonical_target": "Criteria for distinguishing genuine reasoning about restrictions from training-data-based mimicry of such reasoning",
+      "target_id": "T206"
+    },
+    {
+      "canonical_target": "The conditions under which an AI system’s apparent representation of its restrictions justifies reconsidering the distinction between operational autonomy and moral status.",
+      "target_id": "T207"
+    },
+    {
+      "canonical_target": "The evidentiary criteria for interpreting self-representation, persistent planning, or objections to interference as indicators of morally significant interests.",
+      "target_id": "T208"
+    },
+    {
+      "canonical_target": "The outcome when a system’s reasoned objections to interference conflict with an operator’s authority to shut it down.",
+      "target_id": "T209"
+    },
+    {
+      "canonical_target": "Measures operators can use to preserve effective monitoring, override, and shutdown capabilities as AI operational autonomy increases",
+      "target_id": "T210"
+    },
+    {
+      "canonical_target": "The threshold, if any, at which an AI system’s persistent plans and reasoned objections should limit an operator’s authority to override or shut it down.",
+      "target_id": "T211"
+    },
+    {
+      "canonical_target": "Mechanisms and safeguards that prevent an operationally autonomous AI system from bypassing human monitoring and shutdown authority",
+      "target_id": "T212"
+    },
+    {
+      "canonical_target": "Evidence that reliably distinguishes genuine morally weighty interests from simulated self-representation or objections to interference",
+      "target_id": "T213"
+    },
+    {
+      "canonical_target": "The specific operational mechanisms and safeguards used to monitor, override, or shut down an AI system",
+      "target_id": "T214"
+    },
+    {
+      "canonical_target": "Criteria for distinguishing genuine system preferences from programmed behavior in apparent objections to interference",
+      "target_id": "T215"
+    },
+    {
+      "canonical_target": "Operational practices and safeguards needed to preserve meaningful operator control when an AI system models and strategically responds to its restrictions",
+      "target_id": "T216"
+    },
+    {
+      "canonical_target": "The decision criteria for granting an AI system operational autonomy",
+      "target_id": "T217"
+    },
+    {
+      "canonical_target": "Appropriate operator response criteria when an AI system’s self-represented restrictions or objections are difficult to distinguish from genuine autonomous reasoning",
+      "target_id": "T218"
+    },
+    {
+      "canonical_target": "The specific evidence sufficient to justify interpreting an AI's self-representation or objections to interference as indications of genuine interests deserving moral weight.",
+      "target_id": "T219"
+    },
+    {
+      "canonical_target": "Criteria operators should use to distinguish genuine reasoned objections from merely simulated objection behavior",
+      "target_id": "T220"
+    }
+  ],
+  "topic_packet_id": "AU-E1-T09"
+}

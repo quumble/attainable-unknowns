@@ -1,0 +1,433 @@
+{
+  "amendment_id": "E1A",
+  "packet_id": "AU-E1-S2-R02-T01",
+  "protocol_id": "E1",
+  "representation_set_id": "AU-E1-R02",
+  "schema_version": "au-e1-stage2-topic-packet-v1",
+  "stage": "stage2_blinded_topic_partition",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "target_count": 105,
+  "targets": [
+    {
+      "canonical_target": "Concrete instances of culture- or region-specific toasting customs, naming particular cultures/regions and the distinctive practices (order, length, tone, gestures, wording) associated with each.",
+      "target_id": "T001"
+    },
+    {
+      "canonical_target": "Practical hosting strategies or methods for reconciling participants' divergent assumptions about the occasion when sequencing toasts and establishing their tone.",
+      "target_id": "T002"
+    },
+    {
+      "canonical_target": "The decision criteria or basis a host should use to determine toast speaking order under conditions of divergent participant expectations about the occasion.",
+      "target_id": "T003"
+    },
+    {
+      "canonical_target": "Concrete instances of variation in toast practice across specific cultures, families, or local traditions — i.e., named or described departures from the standard toast format (in order, length, tone, gesture, or spontaneity).",
+      "target_id": "T004"
+    },
+    {
+      "canonical_target": "A cross-cultural comparison describing how toasting customs and conventions (e.g., gestures, timing, speaking order, wording, drinking etiquette) differ from one culture or region to another.",
+      "target_id": "T005"
+    },
+    {
+      "canonical_target": "A cross-cultural inventory of the specific gestures, rituals, and customary practices used in toasting, and how these differ from one culture to another.",
+      "target_id": "T006"
+    },
+    {
+      "canonical_target": "Cross-cultural comparison of toasting customs: how toasting practices, conventions, and etiquette differ from one culture or region to another.",
+      "target_id": "T007"
+    },
+    {
+      "canonical_target": "The decision criteria or basis hosts typically use when choosing a toasting tone amid participants' conflicting expectations about the occasion.",
+      "target_id": "T008"
+    },
+    {
+      "canonical_target": "The decision criteria or basis hosts use to determine an appropriate tone for a given celebration's toasts.",
+      "target_id": "T009"
+    },
+    {
+      "canonical_target": "Prescriptive guidance on host actions or strategies for reconciling participants' divergent expectations about toast order and tone.",
+      "target_id": "T010"
+    },
+    {
+      "canonical_target": "Cross-cultural and national variation in toasting practices — how toast customs (their form, timing, gestures, wording, etiquette) differ from one culture or country to another.",
+      "target_id": "T011"
+    },
+    {
+      "canonical_target": "A decision criterion or procedure a host can use to set toast speaking order when participants hold divergent expectations about the occasion.",
+      "target_id": "T012"
+    },
+    {
+      "canonical_target": "Prescriptive guidance — the hosting practices or decision criteria for setting toast order and tone when guests hold conflicting expectations about the occasion.",
+      "target_id": "T013"
+    },
+    {
+      "canonical_target": "A decision criterion or practical approach a host can use to reconcile divergent participant expectations about formality of tone when structuring toasts at a celebration.",
+      "target_id": "T014"
+    },
+    {
+      "canonical_target": "The practices or strategies hosts use to reconcile or manage divergent participant expectations about tone and formality when structuring toasts.",
+      "target_id": "T015"
+    },
+    {
+      "canonical_target": "A comparative description of how toasting customs (e.g., speaking order, length, tone, gestures, spontaneity, occasions) differ across specific named cultures, regions, or traditions.",
+      "target_id": "T016"
+    },
+    {
+      "canonical_target": "A decision criterion or practical guidance for how a host should choose the sequence of toast speakers and set the tone when guests hold differing expectations about the occasion.",
+      "target_id": "T017"
+    },
+    {
+      "canonical_target": "The practices or strategies hosts commonly use to reconcile divergent participant expectations about the tone and format of toasts at an occasion.",
+      "target_id": "T018"
+    },
+    {
+      "canonical_target": "Practical guidance/decision criteria for a host on structuring a toast's speaking order and tone when guests hold conflicting expectations about the event's formality or purpose.",
+      "target_id": "T019"
+    },
+    {
+      "canonical_target": "Practical methods or decision criteria a host can use to set toast speaking order and tone when guests hold divergent expectations about the occasion.",
+      "target_id": "T020"
+    },
+    {
+      "canonical_target": "A list of specific types of celebratory or social occasions at which toasts are customarily offered.",
+      "target_id": "T021"
+    },
+    {
+      "canonical_target": "The decision criteria or principles a host should use to set toast speaking order and tone when attendees hold differing expectations about the occasion.",
+      "target_id": "T022"
+    },
+    {
+      "canonical_target": "Practical hosting methods or criteria for arranging toast speaking order and setting tone so that participants' differing expectations about the occasion are accommodated.",
+      "target_id": "T023"
+    },
+    {
+      "canonical_target": "Specific instances of culture- or region-specific customs governing toast performance (e.g., particular practices about order, length, tone, gestures, or spontaneity in named traditions), illustrating variation beyond the general statement that such variation exists.",
+      "target_id": "T024"
+    },
+    {
+      "canonical_target": "A comparative description of conventions across specific cultures or regions specifying who speaks when and at what point in a celebration toasts occur (sequence and timing norms), not the general fact that such conventions vary.",
+      "target_id": "T025"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria hosts customarily use to determine appropriate toast order and tone for a particular celebration, given differing participant expectations.",
+      "target_id": "T026"
+    },
+    {
+      "canonical_target": "An inventory of culture-specific toasting customs and conventions (e.g., particular gestures, phrases, ordering, timing, or etiquette rules) as practiced in named cultures or traditions, going beyond the passage's generic description of toast form.",
+      "target_id": "T027"
+    },
+    {
+      "canonical_target": "Concrete instances or illustrative samples of toast remarks as delivered at various kinds of celebrations (e.g., weddings, birthdays, retirements), i.e., examples of the content of toasts by occasion type — information not supplied by the passage, which describes only the procedural conventions surrounding toasts.",
+      "target_id": "T028"
+    },
+    {
+      "canonical_target": "A cross-cultural comparative description of conventional toast sequencing and timing norms — i.e., which cultures place toasts at which points in a celebration and in what speaker order — information the passage does not supply beyond noting that such expectations vary.",
+      "target_id": "T029"
+    },
+    {
+      "canonical_target": "Practical methods or decision criteria a host can use to arrange the sequence of toast speakers so that it accommodates guests' divergent expectations about the occasion.",
+      "target_id": "T030"
+    },
+    {
+      "canonical_target": "A decision criterion or basis a host should use to determine the sequence of toast speakers when attendees hold divergent expectations about the occasion.",
+      "target_id": "T031"
+    },
+    {
+      "canonical_target": "Concrete illustrative instances of cross-cultural or regional variation in how toasts are structured (e.g., differences in speaking order, length, tone, spontaneity, or closing gestures in particular cultures or regions).",
+      "target_id": "T032"
+    },
+    {
+      "canonical_target": "Concrete illustrative instances of culture- or region-specific toasting customs, each tied to a named culture/region and describing how its practices (e.g., order, wording, gesture, drinking etiquette) differ from others.",
+      "target_id": "T033"
+    },
+    {
+      "canonical_target": "The decision criteria or basis a host should use to set toast speaking order and tone when guests hold differing expectations about the occasion.",
+      "target_id": "T034"
+    },
+    {
+      "canonical_target": "A concrete instance of a communal closing gesture used to mark the end of a toast, other than raising glasses (e.g., an alternative collective action performed by the group), which the passage leaves unspecified.",
+      "target_id": "T035"
+    },
+    {
+      "canonical_target": "The identity of specific alternative shared closing gestures (other than raising glasses) that hosts can use to mark the end of a toast.",
+      "target_id": "T036"
+    },
+    {
+      "canonical_target": "A cross-cultural inventory of toasting practices — the specific gestures, verbal formulas, drinking customs, timing, and etiquette rules that differ across cultures in place of or in addition to glass-raising.",
+      "target_id": "T037"
+    },
+    {
+      "canonical_target": "The typical host practices or strategies used to reconcile or manage participants' divergent expectations about toast tone and format at a celebration.",
+      "target_id": "T038"
+    },
+    {
+      "canonical_target": "A list of typical errors or missteps speakers commit when delivering toasts at celebrations (e.g., in length, tone, content, or timing).",
+      "target_id": "T039"
+    },
+    {
+      "canonical_target": "The particular considerations or decision rules hosts apply when sequencing toast speakers (e.g., relationship to honoree, seniority, role in the event), i.e., the criteria governing order selection rather than the general fact that hosts set an order.",
+      "target_id": "T040"
+    },
+    {
+      "canonical_target": "A cross-cultural comparison identifying which particular toasting conventions (e.g., speaking order, length, tone, spontaneity, gestures) show the greatest variation across cultures, ranked by degree of variability.",
+      "target_id": "T041"
+    },
+    {
+      "canonical_target": "Practical hosting strategies or methods for reconciling divergent participant expectations about toast tone and speaking order.",
+      "target_id": "T042"
+    },
+    {
+      "canonical_target": "Practical hosting methods or criteria for arranging toast speaking order and establishing a tone that accommodates guests holding divergent expectations about the occasion.",
+      "target_id": "T043"
+    },
+    {
+      "canonical_target": "A set of specific illustrative examples of toast types, each tied to a particular occasion or cultural tradition.",
+      "target_id": "T044"
+    },
+    {
+      "canonical_target": "Practical methods or decision criteria a host can use to arrange toast speaking order and establish tone so that guests' divergent expectations about the occasion are reconciled.",
+      "target_id": "T045"
+    },
+    {
+      "canonical_target": "A decision procedure or set of criteria a host can use to fix toast speaking order when guests hold conflicting expectations about what the occasion requires.",
+      "target_id": "T046"
+    },
+    {
+      "canonical_target": "The range of differing expectations participants may hold about who should speak when and what register or style a toast should take on the occasion.",
+      "target_id": "T047"
+    },
+    {
+      "canonical_target": "Practical hosting strategies or methods for reconciling divergent participant expectations about toast tone and speaking order.",
+      "target_id": "T048"
+    },
+    {
+      "canonical_target": "Practical hosting strategies or methods for reconciling participants' divergent assumptions about toast tone and speaking order.",
+      "target_id": "T049"
+    },
+    {
+      "canonical_target": "Practical hosting methods or strategies for reconciling guests' divergent assumptions about toast tone and speaking order, i.e., actionable ways to set order and tone that accommodate mixed expectations.",
+      "target_id": "T050"
+    },
+    {
+      "canonical_target": "The decision procedures or criteria hosts use to reconcile participants' conflicting expectations about toast order and tone into a single workable arrangement.",
+      "target_id": "T051"
+    },
+    {
+      "canonical_target": "An enumeration of the particular kinds of celebrations or events at which toasting is most frequently practiced.",
+      "target_id": "T052"
+    },
+    {
+      "canonical_target": "The concrete signaling techniques or cues hosts employ to indicate that a given speaker's turn to toast has begun.",
+      "target_id": "T053"
+    },
+    {
+      "canonical_target": "A normative decision criterion or procedure hosts should use to determine toast speaking order and tone when participants hold differing expectations about the occasion.",
+      "target_id": "T054"
+    },
+    {
+      "canonical_target": "The practices or strategies hosts use to reconcile or manage divergent participant expectations about appropriate toast tone and format at a given celebration.",
+      "target_id": "T055"
+    },
+    {
+      "canonical_target": "The typical host practices or strategies used to reconcile or manage participants' divergent expectations about the occasion when arranging toast order and tone.",
+      "target_id": "T056"
+    },
+    {
+      "canonical_target": "Concrete instances of culture- or region-specific toasting customs, illustrating how practices (e.g., order, wording, gestures, timing, drinking etiquette) vary from one named culture or region to another.",
+      "target_id": "T057"
+    },
+    {
+      "canonical_target": "A comparative account of cross-cultural and regional variation in toasting conventions — how specific cultures or regions differ from one another in the structure of toasts (speaking order, who speaks, length, tone, gestures, degree of spontaneity, closing markers).",
+      "target_id": "T058"
+    },
+    {
+      "canonical_target": "A normative decision procedure or set of guiding criteria a host should use to reconcile participants' conflicting expectations about the occasion when setting toast order and tone.",
+      "target_id": "T059"
+    },
+    {
+      "canonical_target": "A list of specific kinds or instances of toasts (e.g., by occasion, speaker role, or content type) given at various celebrations — concrete examples rather than the coordinating conventions described.",
+      "target_id": "T060"
+    },
+    {
+      "canonical_target": "The range of differing expectations participants may hold about who should speak when and in what register/style a toast should be delivered.",
+      "target_id": "T061"
+    },
+    {
+      "canonical_target": "The set of considerations or criteria hosts customarily weigh in determining the sequence of toast speakers.",
+      "target_id": "T062"
+    },
+    {
+      "canonical_target": "The identity of a particular shared closing gesture, other than raising glasses, conventionally used to signal the end of a toast.",
+      "target_id": "T063"
+    },
+    {
+      "canonical_target": "The set of practical host strategies or techniques for reconciling or accommodating divergent participant expectations about the occasion when arranging toasts (e.g., ordering, framing, tone-setting, cueing), rather than a description of what toasts are or why expectations differ.",
+      "target_id": "T064"
+    },
+    {
+      "canonical_target": "The set of considerations or criteria hosts customarily weigh in sequencing toast speakers (e.g., relationship to honoree, seniority, role, comfort speaking), i.e., decision inputs for ordering rather than the effects of ordering.",
+      "target_id": "T065"
+    },
+    {
+      "canonical_target": "The customary host practices or strategies used to reconcile or manage divergent participant expectations about toast formality and structure.",
+      "target_id": "T066"
+    },
+    {
+      "canonical_target": "The decision criteria or basis hosts use to select an appropriate tone for a toast, as a function of the type of celebration and participants' differing expectations.",
+      "target_id": "T067"
+    },
+    {
+      "canonical_target": "The typical host practices or strategies used to manage and reconcile participants' conflicting expectations about toast formality or style.",
+      "target_id": "T068"
+    },
+    {
+      "canonical_target": "The practices or strategies hosts use to reconcile differing participant expectations about tone and formality when structuring toasts across celebration types.",
+      "target_id": "T069"
+    },
+    {
+      "canonical_target": "An enumeration of specific culturally or regionally identified toasting customs — i.e., which particular cultures/regions practice which particular toast conventions (phrases, gestures, ordering, drinking rules) — going beyond the passage's generic description of toast form and its note that expectations vary.",
+      "target_id": "T070"
+    },
+    {
+      "canonical_target": "An inventory of culture-specific toasting customs and traditions at celebrations, describing how particular cultures differ in practices such as order, wording, gestures, timing, and etiquette.",
+      "target_id": "T071"
+    },
+    {
+      "canonical_target": "The concrete hosting techniques or practices used to set toast speaking order and tone in a way that reconciles participants' divergent expectations about the occasion.",
+      "target_id": "T072"
+    },
+    {
+      "canonical_target": "The decision criteria or procedures hosts customarily use to select the first toast speaker when attendees hold divergent expectations about the occasion's norms.",
+      "target_id": "T073"
+    },
+    {
+      "canonical_target": "Normative guidance, i.e., a decision criterion or set of practical principles, for how a host should reconcile and weigh divergent participant expectations about formality and tradition when choosing the tone (and speaking arrangements) for a celebration.",
+      "target_id": "T074"
+    },
+    {
+      "canonical_target": "Cross-cultural comparison of toasting practices — how toasting customs, rituals, and conventions differ from one culture or country to another.",
+      "target_id": "T075"
+    },
+    {
+      "canonical_target": "A set of concrete instances of toasting practices drawn from specific cultural or national traditions, each illustrating how that tradition performs the toast (e.g., wording, gesture, occasion) — content not supplied by the passage, which describes only the general form and notes that expectations vary.",
+      "target_id": "T076"
+    },
+    {
+      "canonical_target": "A cross-cultural comparative description of conventional sequencing and timing rules for toasts at formal events — i.e., which cultures place toasts at which points in an event and in what speaker order.",
+      "target_id": "T077"
+    },
+    {
+      "canonical_target": "Prescriptive guidance on host actions or strategies for reconciling divergent participant expectations about toast tone and format.",
+      "target_id": "T078"
+    },
+    {
+      "canonical_target": "The specific culture- or region-by-culture variations in toasting conventions (order, length, tone, spontaneity, gestures), i.e., which particular traditions or locales follow which patterns.",
+      "target_id": "T079"
+    },
+    {
+      "canonical_target": "Guidance or decision criteria a host can use to resolve conflicting participant expectations about toast sequencing and tone — i.e., the recommended actions or principles for adjudicating such disagreements, not a description of typical toasting practice.",
+      "target_id": "T080"
+    },
+    {
+      "canonical_target": "The criteria or considerations hosts typically use when deciding what tone toasting should take at a given celebration.",
+      "target_id": "T081"
+    },
+    {
+      "canonical_target": "The range of differing expectations participants may hold about who should speak when and in what register a toast should be delivered.",
+      "target_id": "T082"
+    },
+    {
+      "canonical_target": "The particular criteria or considerations a host uses to decide which speaker is placed first in a toast's speaking order.",
+      "target_id": "T083"
+    },
+    {
+      "canonical_target": "Practical host strategies or methods for reconciling and managing divergent cultural or personal expectations about celebration norms among participants.",
+      "target_id": "T084"
+    },
+    {
+      "canonical_target": "Prescriptive guidance (a decision procedure) a host should use to determine toast speaking order and tone when guests hold divergent expectations about the occasion.",
+      "target_id": "T085"
+    },
+    {
+      "canonical_target": "Guidance or criteria a host can use to reconcile participants' divergent expectations about toast order and tone — i.e., how to decide and manage the sequencing and register of speakers when assumptions conflict.",
+      "target_id": "T086"
+    },
+    {
+      "canonical_target": "Guidance or decision criteria a host can use to set and manage toast order and tone when guests hold conflicting expectations about the occasion's formality.",
+      "target_id": "T087"
+    },
+    {
+      "canonical_target": "Specific instances of regional, cultural, or community customs that shape toast practices (e.g., particular conventions of order, length, tone, gesture, or spontaneity associated with named localities or traditions).",
+      "target_id": "T088"
+    },
+    {
+      "canonical_target": "The decision criteria or procedure hosts use to settle on a toast's tone when guests hold conflicting expectations about formality or tradition.",
+      "target_id": "T089"
+    },
+    {
+      "canonical_target": "Concrete instances of cross-cultural or regional variation in toasting practice — specific named cultures/regions paired with their particular customs regarding order, length, tone, gesture, or spontaneity of toasts.",
+      "target_id": "T090"
+    },
+    {
+      "canonical_target": "The set of considerations a host should weigh as decision criteria when sequencing toast speakers and setting the tone, given participants' differing assumptions about the occasion.",
+      "target_id": "T091"
+    },
+    {
+      "canonical_target": "A set of concrete instances of toasting customs from particular cultures or traditions, illustrating how practices differ across them.",
+      "target_id": "T092"
+    },
+    {
+      "canonical_target": "Practical methods or guidance a host can use to establish speaking order and tone for toasts when participants hold divergent expectations about the occasion.",
+      "target_id": "T093"
+    },
+    {
+      "canonical_target": "The customary practices or strategies hosts use to reconcile or manage participants' divergent expectations about toast formality and content.",
+      "target_id": "T094"
+    },
+    {
+      "canonical_target": "A list of specific types of celebratory occasions or events at which toasts are customarily offered.",
+      "target_id": "T095"
+    },
+    {
+      "canonical_target": "The decision criteria or factors hosts apply when determining the sequence of toast speakers.",
+      "target_id": "T096"
+    },
+    {
+      "canonical_target": "The practices or techniques hosts customarily use to manage and reconcile divergent participant expectations about a toast occasion's tone and formality.",
+      "target_id": "T097"
+    },
+    {
+      "canonical_target": "The typical host practices or techniques used to reconcile or manage participants' conflicting expectations about toast formality and length.",
+      "target_id": "T098"
+    },
+    {
+      "canonical_target": "A list of specific types of events or occasions at which toasts are customarily offered.",
+      "target_id": "T099"
+    },
+    {
+      "canonical_target": "The range of differing expectations participants may hold about who speaks when and in what register (e.g., formality, humor, sentimentality, length) during a toast.",
+      "target_id": "T100"
+    },
+    {
+      "canonical_target": "Hosting methods or practical strategies for arranging toast speaking order and setting tone so that participants holding differing expectations about the occasion are accommodated.",
+      "target_id": "T101"
+    },
+    {
+      "canonical_target": "An enumeration of the differing expectations guests may hold about toasting norms at an occasion — e.g., beliefs about who is entitled or obliged to speak, appropriate length, tone (solemn vs. humorous), degree of formality, content conventions, and required participatory gestures.",
+      "target_id": "T102"
+    },
+    {
+      "canonical_target": "A prescriptive decision criterion or set of hosting practices for setting and managing toast order and tone when guests hold conflicting expectations about formality or speaking order.",
+      "target_id": "T103"
+    },
+    {
+      "canonical_target": "The set of considerations or criteria a host should weigh in deciding the sequence of toast speakers and the tone of the toasting segment, given participants' differing expectations about the occasion.",
+      "target_id": "T104"
+    },
+    {
+      "canonical_target": "The considerations or decision criteria a host should weigh in choosing toast speaking order and tone when guests hold differing expectations about the occasion.",
+      "target_id": "T105"
+    }
+  ],
+  "topic_packet_id": "AU-E1-T01"
+}

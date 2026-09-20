@@ -1,0 +1,773 @@
+{
+  "amendment_id": "E1A",
+  "packet_id": "AU-E1-S2-R01-T06",
+  "protocol_id": "E1",
+  "representation_set_id": "AU-E1-R01",
+  "schema_version": "au-e1-stage2-topic-packet-v1",
+  "stage": "stage2_blinded_topic_partition",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "target_count": 190,
+  "targets": [
+    {
+      "canonical_target": "The operational distinction between retained internal state and runtime access to prior information reconstructed from external sources",
+      "target_id": "T001"
+    },
+    {
+      "canonical_target": "Whether and how outputs alone can reliably reveal if a response used retained internal state rather than reconstructed external context",
+      "target_id": "T002"
+    },
+    {
+      "canonical_target": "The specific runtime methods used to reconstruct access to prior information.",
+      "target_id": "T003"
+    },
+    {
+      "canonical_target": "The effect of externally supplied interaction history, rather than retained internal state, on maintaining coherent and contextually appropriate responses across interactions",
+      "target_id": "T004"
+    },
+    {
+      "canonical_target": "Whether non-behavioral evidence can reliably distinguish internal persistence from externally reconstructed continuity",
+      "target_id": "T005"
+    },
+    {
+      "canonical_target": "The mechanism by which an AI system differentiates internally retained information from externally supplied runtime context during response generation",
+      "target_id": "T006"
+    },
+    {
+      "canonical_target": "The method for distinguishing internally retained information from externally supplied information used during response generation",
+      "target_id": "T007"
+    },
+    {
+      "canonical_target": "The observable evidence or tests that distinguish continuity from retained internal state versus externally supplied context",
+      "target_id": "T008"
+    },
+    {
+      "canonical_target": "The effect of externally reconstructed access to prior information, compared with retained internal state, on response accuracy and consistency across generations",
+      "target_id": "T009"
+    },
+    {
+      "canonical_target": "Whether and how output alone can reliably identify internal persistence versus external reconstruction as the source of continuity",
+      "target_id": "T010"
+    },
+    {
+      "canonical_target": "An experimental design that decisively distinguishes internally persisted continuity from externally reconstructed context",
+      "target_id": "T011"
+    },
+    {
+      "canonical_target": "Observable criteria for distinguishing reliance on retained internal state from reliance on externally reconstructed prior context in a given response",
+      "target_id": "T012"
+    },
+    {
+      "canonical_target": "The comparative effect of externally supplied summary quality versus internally retained state completeness on downstream task performance",
+      "target_id": "T013"
+    },
+    {
+      "canonical_target": "Empirical criteria or tests that distinguish genuine internal continuity from continuity produced by external information reconstruction",
+      "target_id": "T014"
+    },
+    {
+      "canonical_target": "The practical operational distinction between externally reconstructed access to prior information and internally retained state",
+      "target_id": "T015"
+    },
+    {
+      "canonical_target": "The criteria and process used to prioritize conflicting information from retained internal state versus externally supplied prior context",
+      "target_id": "T016"
+    },
+    {
+      "canonical_target": "Reliable evidence or methods for distinguishing genuine internal continuity from externally reconstructed context",
+      "target_id": "T017"
+    },
+    {
+      "canonical_target": "The comparative effect of externally supplied history versus full retained internal context on response accuracy and consistency",
+      "target_id": "T018"
+    },
+    {
+      "canonical_target": "The practical distinction between externally supplied access to prior information and internally retained state across generations",
+      "target_id": "T019"
+    },
+    {
+      "canonical_target": "The specific external methods used at runtime to reconstruct access to information from earlier interactions.",
+      "target_id": "T020"
+    },
+    {
+      "canonical_target": "The types of externally supplied information a later AI response can use to reconstruct prior context",
+      "target_id": "T021"
+    },
+    {
+      "canonical_target": "The difference in response quality or accuracy between reliance on externally supplied summaries and retained internal context",
+      "target_id": "T022"
+    },
+    {
+      "canonical_target": "Whether and how outward behavior alone can distinguish retained internal state from continuity supplied externally at runtime",
+      "target_id": "T023"
+    },
+    {
+      "canonical_target": "Whether response behavior alone provides a reliable criterion for distinguishing retained internal state from externally supplied prior context",
+      "target_id": "T024"
+    },
+    {
+      "canonical_target": "Whether and how outward behavior alone can reliably distinguish retained internal state from externally supplied interaction history",
+      "target_id": "T025"
+    },
+    {
+      "canonical_target": "The mechanism or criteria by which an AI system identifies and prioritizes relevant information from externally supplied summaries or records during a new generation",
+      "target_id": "T026"
+    },
+    {
+      "canonical_target": "The evidence or method needed to determine whether contextual continuity arises from internal persistence or external reconstruction",
+      "target_id": "T027"
+    },
+    {
+      "canonical_target": "Experimental methods for distinguishing internally persisted context from context reconstructed through externally supplied information",
+      "target_id": "T028"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish internally persisted conversational context from context reconstructed externally at runtime",
+      "target_id": "T029"
+    },
+    {
+      "canonical_target": "Reliable criteria or methods for distinguishing genuine internal memory from externally reconstructed context",
+      "target_id": "T030"
+    },
+    {
+      "canonical_target": "The comparative response quality achieved with externally supplied historical information versus full retained internal context",
+      "target_id": "T031"
+    },
+    {
+      "canonical_target": "The specific mechanisms for producing saved summaries and selecting prior information for retrieval",
+      "target_id": "T032"
+    },
+    {
+      "canonical_target": "The existence of a reliable method for distinguishing whether a response's continuity came from internal persistence or external reconstruction",
+      "target_id": "T033"
+    },
+    {
+      "canonical_target": "Whether observable behavior alone can distinguish internal persistence from continuity reconstructed from externally supplied information",
+      "target_id": "T034"
+    },
+    {
+      "canonical_target": "Methods external systems can use to distinguish internally retained interaction state from externally reconstructed prior information as the source of apparent memory",
+      "target_id": "T035"
+    },
+    {
+      "canonical_target": "The observable evidence or methods users can use to distinguish continuity caused by retained internal state from continuity caused by externally supplied context.",
+      "target_id": "T036"
+    },
+    {
+      "canonical_target": "The types of saved summaries or retrieved records that can be supplied to a new generation",
+      "target_id": "T037"
+    },
+    {
+      "canonical_target": "The specific mechanisms used to store and retrieve externally preserved summaries or records from prior interactions",
+      "target_id": "T038"
+    },
+    {
+      "canonical_target": "Reliable criteria or methods for distinguishing internal memory use from reliance on externally supplied historical information",
+      "target_id": "T039"
+    },
+    {
+      "canonical_target": "An experimental method for distinguishing continuity caused by internal persistence from continuity caused by externally supplied reconstructed context",
+      "target_id": "T040"
+    },
+    {
+      "canonical_target": "The operational distinction between retained internal state and runtime access to prior information reconstructed from external sources",
+      "target_id": "T041"
+    },
+    {
+      "canonical_target": "The comparative effect of externally reconstructed context versus continuous internal state on response quality or accuracy",
+      "target_id": "T042"
+    },
+    {
+      "canonical_target": "Whether and how output alone can reliably distinguish retained internal state from externally supplied prior context",
+      "target_id": "T043"
+    },
+    {
+      "canonical_target": "The effect of externally supplied history on the accuracy and completeness of reconstructed context relative to retaining full internal state",
+      "target_id": "T044"
+    },
+    {
+      "canonical_target": "The comparative quality or accuracy of responses produced using saved summaries versus retained internal context from the same interaction",
+      "target_id": "T045"
+    },
+    {
+      "canonical_target": "The existence of a reliable method for distinguishing internal persistence from externally reconstructed continuity",
+      "target_id": "T046"
+    },
+    {
+      "canonical_target": "The operational distinction between retained internal state and externally reconstructed access to prior context",
+      "target_id": "T047"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish continuity caused by retained internal state from continuity caused by externally supplied context",
+      "target_id": "T048"
+    },
+    {
+      "canonical_target": "The observable evidence or method needed to distinguish continuity from internal persistence versus externally supplied context",
+      "target_id": "T049"
+    },
+    {
+      "canonical_target": "The differences in privacy and data-security implications between externally supplied context and retained internal state",
+      "target_id": "T050"
+    },
+    {
+      "canonical_target": "The amount of information lost when prior interactions are represented by external summaries instead of retained as full internal context.",
+      "target_id": "T051"
+    },
+    {
+      "canonical_target": "An experimental design that distinguishes continuity caused by internal persistence from continuity caused by externally supplied reconstruction",
+      "target_id": "T052"
+    },
+    {
+      "canonical_target": "The practical distinction between externally reconstructed access to prior information and internally retained state across generations",
+      "target_id": "T053"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish internally persisted context from continuity reconstructed through externally supplied information",
+      "target_id": "T054"
+    },
+    {
+      "canonical_target": "Observable criteria for distinguishing internally retained prior context from context reconstructed using external records",
+      "target_id": "T055"
+    },
+    {
+      "canonical_target": "The existence of a reliable method for determining whether a response's continuity arose from internal persistence or external reconstruction",
+      "target_id": "T056"
+    },
+    {
+      "canonical_target": "The evidence or methods by which users can distinguish internally persisted context from continuity reconstructed through externally supplied information",
+      "target_id": "T057"
+    },
+    {
+      "canonical_target": "Observable criteria for distinguishing retained internal state from externally reconstructed access to prior context",
+      "target_id": "T058"
+    },
+    {
+      "canonical_target": "Whether reconstructed prior information produces responses that differ in content or accuracy from responses based on retained internal state",
+      "target_id": "T059"
+    },
+    {
+      "canonical_target": "Methods for reliably determining whether observed continuity results from internal persistence or externally supplied reconstruction",
+      "target_id": "T060"
+    },
+    {
+      "canonical_target": "Reliable methods for distinguishing continuity produced by retained internal state from continuity produced by externally supplied context",
+      "target_id": "T061"
+    },
+    {
+      "canonical_target": "The observable evidence or testing method needed to distinguish continuity from retained internal state versus externally supplied context",
+      "target_id": "T062"
+    },
+    {
+      "canonical_target": "Methods for reliably determining whether response continuity results from internal persistence or externally supplied reconstruction",
+      "target_id": "T063"
+    },
+    {
+      "canonical_target": "Whether an outside observer can reliably distinguish continuity caused by retained internal state from continuity caused by externally supplied prior information in a given response",
+      "target_id": "T064"
+    },
+    {
+      "canonical_target": "The evidence or method needed to reliably determine whether observed behavioral continuity comes from internal persistence or externally supplied reconstruction.",
+      "target_id": "T065"
+    },
+    {
+      "canonical_target": "The evidence or methods users can use to distinguish retained internal state from externally supplied context",
+      "target_id": "T066"
+    },
+    {
+      "canonical_target": "Whether output alone provides a reliable criterion for distinguishing retained internal state from externally supplied prior context",
+      "target_id": "T067"
+    },
+    {
+      "canonical_target": "Methods for determining whether response-generating information came from retained internal state or externally supplied records",
+      "target_id": "T068"
+    },
+    {
+      "canonical_target": "Technical or behavioral tests that reliably determine whether observed continuity results from internal persistence or external reconstruction",
+      "target_id": "T069"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish continuity caused by retained internal state from continuity caused by externally supplied context",
+      "target_id": "T070"
+    },
+    {
+      "canonical_target": "Methods or evidence for distinguishing persistent internal memory from consistency produced by externally supplied context",
+      "target_id": "T071"
+    },
+    {
+      "canonical_target": "Methods for reliably determining whether a response derives from retained internal state or exclusively from externally supplied runtime context",
+      "target_id": "T072"
+    },
+    {
+      "canonical_target": "An experimental design that distinguishes context continuity caused by internal persistence from continuity caused by externally supplied reconstruction",
+      "target_id": "T073"
+    },
+    {
+      "canonical_target": "Whether and how outward behavior alone can reliably distinguish retained internal state from externally supplied prior context",
+      "target_id": "T074"
+    },
+    {
+      "canonical_target": "The difference in response accuracy between reliance on external summaries and reliance on retained internal context",
+      "target_id": "T075"
+    },
+    {
+      "canonical_target": "The reliable evidence or method needed to distinguish genuine internal continuity from externally reconstructed context",
+      "target_id": "T076"
+    },
+    {
+      "canonical_target": "The specific runtime methods or technologies used to reconstruct access to information from prior interactions",
+      "target_id": "T077"
+    },
+    {
+      "canonical_target": "Methods for reliably determining whether observed behavior is caused by retained internal state or by externally supplied historical information given to a fresh process",
+      "target_id": "T078"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish reliance on internal persistence from reliance on externally supplied context",
+      "target_id": "T079"
+    },
+    {
+      "canonical_target": "Whether a reliable non-behavioral method exists for distinguishing internal persistence from external reconstruction",
+      "target_id": "T080"
+    },
+    {
+      "canonical_target": "The experimental evidence or design needed to distinguish internally persisted context from continuity reconstructed through externally supplied information",
+      "target_id": "T081"
+    },
+    {
+      "canonical_target": "The mechanisms AI services typically use to select summaries or records for retrieval in response to a given query.",
+      "target_id": "T082"
+    },
+    {
+      "canonical_target": "The types of saved summaries or retrieved records that can reconstruct access to information from an earlier interaction",
+      "target_id": "T083"
+    },
+    {
+      "canonical_target": "Methods or evidence for distinguishing retained internal state from a fresh process using externally supplied prior records",
+      "target_id": "T084"
+    },
+    {
+      "canonical_target": "Methods for distinguishing whether identical outward responses arise from retained internal state or externally supplied summaries",
+      "target_id": "T085"
+    },
+    {
+      "canonical_target": "The evidence or method by which users can distinguish internal context retention from externally reconstructed continuity",
+      "target_id": "T086"
+    },
+    {
+      "canonical_target": "Criteria or methods for distinguishing retained internal state from externally supplied context despite similar outward behavior",
+      "target_id": "T087"
+    },
+    {
+      "canonical_target": "Reliable criteria or methods for distinguishing responses produced from retained internal state from those produced using externally supplied historical records",
+      "target_id": "T088"
+    },
+    {
+      "canonical_target": "The comparative quality and completeness of externally supplied history versus retained full internal context",
+      "target_id": "T089"
+    },
+    {
+      "canonical_target": "The types of externally supplied saved summaries or retrieved records that can reconstruct prior context for a later response.",
+      "target_id": "T090"
+    },
+    {
+      "canonical_target": "The existence of a reliable method for distinguishing use of internally persisted context from externally reconstructed information in a given response",
+      "target_id": "T091"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish internally persisted context from context reconstructed externally at runtime",
+      "target_id": "T092"
+    },
+    {
+      "canonical_target": "Technical or observational methods that can reliably determine whether an AI's apparent continuity derives from internal persistence or externally supplied reconstruction",
+      "target_id": "T093"
+    },
+    {
+      "canonical_target": "Reliable criteria or methods for distinguishing genuine internal continuity from externally reconstructed continuity in an AI system",
+      "target_id": "T094"
+    },
+    {
+      "canonical_target": "The reliable observable evidence or method needed to distinguish continuity caused by retained internal memory from continuity reconstructed through externally supplied context",
+      "target_id": "T095"
+    },
+    {
+      "canonical_target": "The effect of externally supplied history, instead of retained internal state, on consistency across generations",
+      "target_id": "T096"
+    },
+    {
+      "canonical_target": "The effect of externally reconstructed context, compared with retained internal state, on response consistency and accuracy across generations",
+      "target_id": "T097"
+    },
+    {
+      "canonical_target": "The relative reliability or accuracy of retained internal state versus externally reconstructed access in reproducing details from an earlier interaction",
+      "target_id": "T098"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish internal memory persistence from externally reconstructed continuity at runtime",
+      "target_id": "T099"
+    },
+    {
+      "canonical_target": "Reliable criteria or methods for distinguishing genuine internal memory from externally reconstructed context",
+      "target_id": "T100"
+    },
+    {
+      "canonical_target": "The comparative effect of externally reconstructed access to prior information versus retained internal state on response reliability and consistency",
+      "target_id": "T101"
+    },
+    {
+      "canonical_target": "The differing privacy and security implications of externally supplied context versus retained internal state",
+      "target_id": "T102"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish internally persisted context from continuity reconstructed through externally supplied information",
+      "target_id": "T103"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish internally persisted context from externally reconstructed continuity in an AI service",
+      "target_id": "T104"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish internal memory persistence from externally injected context as the source of continuity across interactions",
+      "target_id": "T105"
+    },
+    {
+      "canonical_target": "Whether outward behavior alone can distinguish retained internal state from externally supplied context, and what behavioral evidence would enable that distinction",
+      "target_id": "T106"
+    },
+    {
+      "canonical_target": "The empirical evidence or testing method needed to distinguish genuine internal continuity across generations from continuity produced by externally reconstructed context",
+      "target_id": "T107"
+    },
+    {
+      "canonical_target": "An experimental method for distinguishing continuity caused by internal persistence from continuity reconstructed through externally supplied information",
+      "target_id": "T108"
+    },
+    {
+      "canonical_target": "Whether and how output alone can distinguish retained internal state from externally supplied prior context",
+      "target_id": "T109"
+    },
+    {
+      "canonical_target": "The mechanistic distinction between carrying prior context internally across generations and receiving prior information externally at runtime.",
+      "target_id": "T110"
+    },
+    {
+      "canonical_target": "The types of saved summaries or retrieved records that can be supplied as external prior information to a new generation",
+      "target_id": "T111"
+    },
+    {
+      "canonical_target": "Whether non-behavioral factors provide a reliable method for distinguishing internally persisted continuity from externally reconstructed continuity",
+      "target_id": "T112"
+    },
+    {
+      "canonical_target": "The empirical evidence or tests that could distinguish internally persisted context from externally reconstructed continuity",
+      "target_id": "T113"
+    },
+    {
+      "canonical_target": "The difference in response quality or accuracy between reliance on externally reconstructed prior information and retained internal state.",
+      "target_id": "T114"
+    },
+    {
+      "canonical_target": "The privacy and security consequences of using externally supplied interaction history rather than retained internal state",
+      "target_id": "T115"
+    },
+    {
+      "canonical_target": "The reliable evidence or method needed to distinguish whether a response resulted from retained internal state or externally supplied context",
+      "target_id": "T116"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish internal continuity from externally reconstructed context",
+      "target_id": "T117"
+    },
+    {
+      "canonical_target": "The comparative accuracy and completeness of externally supplied summaries or records versus information retained in internal context",
+      "target_id": "T118"
+    },
+    {
+      "canonical_target": "The distinction between continuity produced by retained internal state and continuity reconstructed at runtime from externally supplied records or history",
+      "target_id": "T119"
+    },
+    {
+      "canonical_target": "The criterion or method for determining whether externally supplied continuity information enables a new generation to produce responses equivalent to those produced with retained internal state.",
+      "target_id": "T120"
+    },
+    {
+      "canonical_target": "The privacy and reliability differences between externally reconstructed history and retained internal state",
+      "target_id": "T121"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish internal persistence from external reconstruction when their observable behavior is identical",
+      "target_id": "T122"
+    },
+    {
+      "canonical_target": "A practical, reliable method for distinguishing internal persistence from externally reconstructed continuity",
+      "target_id": "T123"
+    },
+    {
+      "canonical_target": "The method or evidence by which an AI system could determine whether response-relevant information came from retained internal state or externally supplied context.",
+      "target_id": "T124"
+    },
+    {
+      "canonical_target": "The relative reliability or accuracy of retained internal state versus externally reconstructed access in recovering prior interaction context",
+      "target_id": "T125"
+    },
+    {
+      "canonical_target": "The mechanism or criteria used to select saved summaries or retrieved records for runtime provision",
+      "target_id": "T126"
+    },
+    {
+      "canonical_target": "The comparative effect of external-summary quality or completeness on later-response accuracy relative to full retained internal state",
+      "target_id": "T127"
+    },
+    {
+      "canonical_target": "Whether and how outward responses alone can reliably distinguish retained internal state from externally supplied context",
+      "target_id": "T128"
+    },
+    {
+      "canonical_target": "The comparative effect of the quality and completeness of externally supplied summaries versus retained internal state on the accuracy of later responses",
+      "target_id": "T129"
+    },
+    {
+      "canonical_target": "Observable criteria for distinguishing use of retained internal state from use of externally reconstructed history",
+      "target_id": "T130"
+    },
+    {
+      "canonical_target": "The mechanisms used to reconstruct access to prior information at runtime.",
+      "target_id": "T131"
+    },
+    {
+      "canonical_target": "The comparative practical effects of retained internal state and externally supplied detailed records on response consistency and reliability",
+      "target_id": "T132"
+    },
+    {
+      "canonical_target": "The types of externally supplied saved summaries or retrieved records that can provide continuity to a new generation",
+      "target_id": "T133"
+    },
+    {
+      "canonical_target": "The difference in response quality or accuracy when relying on retained internal state versus reconstructed external context.",
+      "target_id": "T134"
+    },
+    {
+      "canonical_target": "Reliable criteria or methods for distinguishing internal memory from externally reconstructed information as the source of apparent cross-session continuity",
+      "target_id": "T135"
+    },
+    {
+      "canonical_target": "Methods or evidence for distinguishing retained internal state from a fresh process when externally supplied history is held constant",
+      "target_id": "T136"
+    },
+    {
+      "canonical_target": "The mechanisms by which prior information is supplied externally to the service at runtime",
+      "target_id": "T137"
+    },
+    {
+      "canonical_target": "Whether and how output alone can reliably distinguish retained internal state from externally supplied prior-interaction context",
+      "target_id": "T138"
+    },
+    {
+      "canonical_target": "The evidence or method by which users can distinguish internal context retention from externally reconstructed continuity",
+      "target_id": "T139"
+    },
+    {
+      "canonical_target": "Whether output alone can reliably distinguish continuity from retained internal state versus continuity from an externally supplied record",
+      "target_id": "T140"
+    },
+    {
+      "canonical_target": "The comparative effects of externally supplied context and retained internal state on response accuracy and consistency across interactions",
+      "target_id": "T141"
+    },
+    {
+      "canonical_target": "The practical mechanistic distinction between carrying prior context internally and accessing prior information reconstructed externally at runtime",
+      "target_id": "T142"
+    },
+    {
+      "canonical_target": "The comparative accuracy and reliability of continuations produced by retained internal state versus externally reconstructed access to prior information",
+      "target_id": "T143"
+    },
+    {
+      "canonical_target": "The effect of externally reconstructed history, compared with retained internal state, on response consistency and reliability across generations",
+      "target_id": "T144"
+    },
+    {
+      "canonical_target": "The evidence or method needed to reliably determine whether response continuity comes from internal persistence or externally supplied reconstruction",
+      "target_id": "T145"
+    },
+    {
+      "canonical_target": "The comparative accuracy and relevance of externally reconstructed prior information versus information retained in full internal state across generations",
+      "target_id": "T146"
+    },
+    {
+      "canonical_target": "The criteria or evidence needed to distinguish retained internal state from externally supplied summaries when observable outputs are identical",
+      "target_id": "T147"
+    },
+    {
+      "canonical_target": "The types of externally saved summaries or retrieved records accessible to a later generation",
+      "target_id": "T148"
+    },
+    {
+      "canonical_target": "The existence of a reliable external method for distinguishing internally persisted continuity from externally reconstructed continuity",
+      "target_id": "T149"
+    },
+    {
+      "canonical_target": "Whether and how output alone can reliably distinguish retained internal state from externally supplied prior context",
+      "target_id": "T150"
+    },
+    {
+      "canonical_target": "An experimental design that distinguishes internal persistence from externally reconstructed continuity in producing a given AI response",
+      "target_id": "T151"
+    },
+    {
+      "canonical_target": "The comparative effect of externally supplied summary quality versus retained internal-state information on the service’s ability to generate contextually appropriate responses",
+      "target_id": "T152"
+    },
+    {
+      "canonical_target": "The evidence or methods by which users can distinguish continuity produced by retained internal state from continuity produced by externally supplied context",
+      "target_id": "T153"
+    },
+    {
+      "canonical_target": "Reliable criteria or tests for distinguishing continuous internal state from externally reconstructed context despite similar observable behavior",
+      "target_id": "T154"
+    },
+    {
+      "canonical_target": "Reliable methods or evidence for distinguishing retained internal state from runtime use of external interaction summaries as the source of cross-interaction consistency",
+      "target_id": "T155"
+    },
+    {
+      "canonical_target": "Methods or evidence for distinguishing internal context persistence from externally reconstructed context",
+      "target_id": "T156"
+    },
+    {
+      "canonical_target": "The effect of externally supplied conversation history, compared with retained internal state, on response accuracy and consistency across generations",
+      "target_id": "T157"
+    },
+    {
+      "canonical_target": "Methods for reliably distinguishing internally retained information from information supplied as external context in a new session",
+      "target_id": "T158"
+    },
+    {
+      "canonical_target": "The specific techniques used to store and retrieve externally preserved summaries or records from earlier interactions.",
+      "target_id": "T159"
+    },
+    {
+      "canonical_target": "Experimental evidence or design criteria that distinguish internally persisted conversational context from context reconstructed externally at runtime",
+      "target_id": "T160"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish internal persistence from externally supplied reconstruction despite behaviorally identical outputs",
+      "target_id": "T161"
+    },
+    {
+      "canonical_target": "The evidence or criteria that distinguish retained internal state from externally supplied context in a fresh process",
+      "target_id": "T162"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish reliance on internally persisted memory from reliance on externally reconstructed context",
+      "target_id": "T163"
+    },
+    {
+      "canonical_target": "Methods for reliably verifying that external summaries or records accurately reflect the earlier interaction",
+      "target_id": "T164"
+    },
+    {
+      "canonical_target": "Methods for reliably determining whether an AI system’s apparent continuity results from internal persistence or externally supplied reconstruction",
+      "target_id": "T165"
+    },
+    {
+      "canonical_target": "The comparative accuracy or fidelity of externally reconstructed prior information versus information retained in full internal context",
+      "target_id": "T166"
+    },
+    {
+      "canonical_target": "Whether and how outward behavior alone can distinguish retained internal state from externally supplied context",
+      "target_id": "T167"
+    },
+    {
+      "canonical_target": "The comparative effect of the accuracy and completeness of externally supplied summaries versus internally retained state on response consistency",
+      "target_id": "T168"
+    },
+    {
+      "canonical_target": "The types of saved summaries or retrieved records that can reconstruct prior interaction context at runtime.",
+      "target_id": "T169"
+    },
+    {
+      "canonical_target": "The effect of externally reconstructed context, compared with retained internal state, on the accuracy and completeness of AI service responses",
+      "target_id": "T170"
+    },
+    {
+      "canonical_target": "The existence of a reliable external method for distinguishing whether an AI response relied on internal persistence or externally supplied context",
+      "target_id": "T171"
+    },
+    {
+      "canonical_target": "The comparative response quality or accuracy achieved with full internal context versus externally reconstructed prior information",
+      "target_id": "T172"
+    },
+    {
+      "canonical_target": "The types of externally saved summaries or retrieved records that can provide prior information to a later AI response",
+      "target_id": "T173"
+    },
+    {
+      "canonical_target": "The reliable evidence or method needed to distinguish continuity from internal memory from continuity reconstructed using external summaries",
+      "target_id": "T174"
+    },
+    {
+      "canonical_target": "The practical design implications of using retained internal state versus externally supplied interaction records to maintain conversational coherence",
+      "target_id": "T175"
+    },
+    {
+      "canonical_target": "Whether and how outward behavior alone can distinguish retained internal state from externally supplied context",
+      "target_id": "T176"
+    },
+    {
+      "canonical_target": "The reliable observable evidence or test needed to distinguish continuity caused by retained internal state from continuity caused by externally supplied prior information in a given case.",
+      "target_id": "T177"
+    },
+    {
+      "canonical_target": "Methods for ensuring accurate context reconstruction from externally supplied summaries or records without relying on retained internal state",
+      "target_id": "T178"
+    },
+    {
+      "canonical_target": "The effect of externally reconstructed context, compared with retained internal state, on response consistency and accuracy across generations",
+      "target_id": "T179"
+    },
+    {
+      "canonical_target": "Experimental criteria or interventions that distinguish internally persisted context from externally reconstructed context despite behaviorally equivalent outputs",
+      "target_id": "T180"
+    },
+    {
+      "canonical_target": "Whether outward behavior alone provides a reliable criterion for distinguishing retained internal state from externally supplied prior context",
+      "target_id": "T181"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish continuity supplied externally at runtime from continuity caused by retained internal state",
+      "target_id": "T182"
+    },
+    {
+      "canonical_target": "Practical methods for reliably determining whether observed continuity results from internal persistence or externally supplied reconstruction",
+      "target_id": "T183"
+    },
+    {
+      "canonical_target": "Whether response behavior alone provides a reliable criterion for distinguishing retained internal state from externally supplied prior context",
+      "target_id": "T184"
+    },
+    {
+      "canonical_target": "The effect of an externally supplied summary's quality or completeness on later-response accuracy relative to retained internal state",
+      "target_id": "T185"
+    },
+    {
+      "canonical_target": "The evidence or method needed to distinguish internal persistence from externally reconstructed continuity when behavior is observationally identical",
+      "target_id": "T186"
+    },
+    {
+      "canonical_target": "An experimental method for distinguishing whether a given response relies on internal persistence or externally supplied reconstruction",
+      "target_id": "T187"
+    },
+    {
+      "canonical_target": "The types of externally supplied saved summaries or retrieved records accessible to a later AI generation",
+      "target_id": "T188"
+    },
+    {
+      "canonical_target": "Whether and how output behavior alone can reliably distinguish retained internal state from externally supplied prior-interaction context",
+      "target_id": "T189"
+    },
+    {
+      "canonical_target": "The observable evidence or methods that could distinguish internally maintained conversation continuity from continuity reconstructed using external data",
+      "target_id": "T190"
+    }
+  ],
+  "topic_packet_id": "AU-E1-T06"
+}

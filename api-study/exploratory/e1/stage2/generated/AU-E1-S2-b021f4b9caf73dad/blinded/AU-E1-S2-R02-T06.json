@@ -1,0 +1,773 @@
+{
+  "amendment_id": "E1A",
+  "packet_id": "AU-E1-S2-R02-T06",
+  "protocol_id": "E1",
+  "representation_set_id": "AU-E1-R02",
+  "schema_version": "au-e1-stage2-topic-packet-v1",
+  "stage": "stage2_blinded_topic_partition",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "target_count": 190,
+  "targets": [
+    {
+      "canonical_target": "The observable criteria, signals, or diagnostic methods available to a user for distinguishing retained internal state from externally reconstructed context, given that the two mechanisms can produce similar behavior.",
+      "target_id": "T001"
+    },
+    {
+      "canonical_target": "An enumeration of the concrete mechanisms by which prior-interaction information is supplied externally at generation time (e.g., saved summaries, retrieved records, user-provided history), as distinct from retained internal state.",
+      "target_id": "T002"
+    },
+    {
+      "canonical_target": "The means, if any, by which an external user could distinguish retained internal state from externally supplied context as the source of observed continuity across interactions.",
+      "target_id": "T003"
+    },
+    {
+      "canonical_target": "A comparative effect claim: how response accuracy and consistency differ when continuity comes from externally reconstructed history versus retained full internal context.",
+      "target_id": "T004"
+    },
+    {
+      "canonical_target": "The observable means or diagnostic criteria (if any) by which a user could distinguish continuity produced by retained internal state from continuity produced by externally supplied context at runtime.",
+      "target_id": "T005"
+    },
+    {
+      "canonical_target": "An enumeration of the concrete external mechanisms or techniques by which prior-interaction information is supplied at runtime (e.g., saved summaries, retrieved records, user-provided history), i.e., the specific means of reconstructing access rather than retained internal state.",
+      "target_id": "T006"
+    },
+    {
+      "canonical_target": "The methods, evidence, or diagnostic criteria (beyond observable response behavior) that would discriminate whether continuity across generations arises from retained internal state versus externally supplied context at runtime.",
+      "target_id": "T007"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria that could discriminate between a system retaining internal state across interactions versus a fresh process reconstructing continuity from externally supplied records, given that their observable outputs can coincide.",
+      "target_id": "T008"
+    },
+    {
+      "canonical_target": "An enumeration of the types/forms of externally supplied continuity artifacts (e.g., saved summaries, retrieved records, user-provided history) that can serve as reconstructed access to prior-exchange information.",
+      "target_id": "T009"
+    },
+    {
+      "canonical_target": "A comparison of response quality/accuracy outcomes between retained full internal context and externally reconstructed context, i.e., whether and how much performance differs between the two mechanisms.",
+      "target_id": "T010"
+    },
+    {
+      "canonical_target": "Whether any output-only method exists that reliably discriminates internally persisted context from externally supplied reconstructed context, and what such a discriminating procedure or signature would be.",
+      "target_id": "T011"
+    },
+    {
+      "canonical_target": "A comparison of how dependably and faithfully retained internal state versus externally reconstructed context (summaries, retrieved records, user-supplied history) reproduce details of an earlier interaction, including their respective failure modes and sources of error.",
+      "target_id": "T012"
+    },
+    {
+      "canonical_target": "Whether any output-only diagnostic criterion exists that lets an external observer determine which of two underlying continuity mechanisms (retained internal state vs. fresh process supplied with an external record) produced a response, given that both can yield identical outward behavior.",
+      "target_id": "T013"
+    },
+    {
+      "canonical_target": "Whether and by what response-based diagnostic criteria an external observer can tell retained internal state apart from a fresh process supplied with external context, given that both can produce the same outward behavior.",
+      "target_id": "T014"
+    },
+    {
+      "canonical_target": "A comparison of the accuracy/fidelity of prior-interaction information as reconstructed from external sources (summaries, retrieved records, user-supplied history) versus as preserved in full retained internal context, i.e., whether and how the reconstructed version is lossy, distorted, or equivalent.",
+      "target_id": "T015"
+    },
+    {
+      "canonical_target": "The mechanistic difference between prior information persisting as the system's own carried-over internal state versus being re-supplied at runtime from external sources (summaries, retrieved records, user-provided history), despite both producing similar continuity behavior.",
+      "target_id": "T016"
+    },
+    {
+      "canonical_target": "The mechanism (or its absence) by which a generating system internally discriminates the provenance of available information — retained internal state versus externally supplied context at runtime.",
+      "target_id": "T017"
+    },
+    {
+      "canonical_target": "The mechanism or process by which externally supplied continuity (saved summaries, retrieved records, user-provided history) is fed into a new generation to restore access to earlier information, as distinct from retained internal state.",
+      "target_id": "T018"
+    },
+    {
+      "canonical_target": "Specific diagnostic methods or observations (technical tests, instrumentation, or experimental procedures) that would reliably discriminate whether an AI system's cross-interaction continuity arises from internal persistent state versus externally supplied reconstructed context.",
+      "target_id": "T019"
+    },
+    {
+      "canonical_target": "The types/categories of externally supplied context artifacts (e.g., saved summaries, retrieved records, user-provided history) that can furnish continuity to a fresh generation lacking internal state.",
+      "target_id": "T020"
+    },
+    {
+      "canonical_target": "The set of methods or diagnostic techniques capable of reliably discriminating between retained internal state and externally supplied context as the source of an AI system's apparent continuity across interactions.",
+      "target_id": "T021"
+    },
+    {
+      "canonical_target": "An enumeration of the types/categories of external continuity artifacts (e.g., saved summaries, retrieved records, user-supplied history) that can be supplied at runtime and drawn on by a later response to reconstruct earlier-interaction context.",
+      "target_id": "T022"
+    },
+    {
+      "canonical_target": "A comparison of the two continuity mechanisms (externally supplied/reconstructed prior information vs. retained internal state) along two specific dimensions: their privacy implications and their reliability/fidelity in preserving prior-exchange information.",
+      "target_id": "T023"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria capable of discriminating internal persistence of context from externally supplied reconstruction, given that observable outputs underdetermine which mechanism is operating.",
+      "target_id": "T024"
+    },
+    {
+      "canonical_target": "The arbitration policy or weighting mechanism an AI service uses to resolve conflicts between retained internal state and externally supplied prior information when both are present.",
+      "target_id": "T025"
+    },
+    {
+      "canonical_target": "Whether and how the two continuity mechanisms (persisted internal state vs. externally injected context) can be told apart from outward behavior alone, i.e., the existence and nature of behavioral discriminating criteria between them.",
+      "target_id": "T026"
+    },
+    {
+      "canonical_target": "Whether and how output-only observation can discriminate retained internal state from externally supplied context reconstruction — i.e., the existence and nature of a reliable behavioral discriminator between the two mechanisms given identical observable responses.",
+      "target_id": "T027"
+    },
+    {
+      "canonical_target": "The methods or evidence, beyond observable output behavior, by which an external observer could distinguish internally persisted continuity from externally supplied reconstruction of context.",
+      "target_id": "T028"
+    },
+    {
+      "canonical_target": "Experimental methods or test designs that could discriminate whether cross-turn continuity arises from internal state persistence versus externally supplied reconstructed context, given that observable outputs alone are insufficient.",
+      "target_id": "T029"
+    },
+    {
+      "canonical_target": "Whether any dependable method exists for distinguishing internally persisted context from externally supplied reconstruction as the source of continuity across generations.",
+      "target_id": "T030"
+    },
+    {
+      "canonical_target": "The behavioral discriminants or diagnostic criteria, if any, that would let an outside observer tell retained internal state apart from externally supplied context using only observable outputs of the service.",
+      "target_id": "T031"
+    },
+    {
+      "canonical_target": "The mechanism or internal criterion by which a system could tell apart information carried over from retained internal state versus information supplied externally at runtime (summaries, retrieved records, user-provided history) during generation.",
+      "target_id": "T032"
+    },
+    {
+      "canonical_target": "A method or criterion (beyond observable output behavior) that would reliably discriminate internally persisted continuity from externally reconstructed continuity.",
+      "target_id": "T033"
+    },
+    {
+      "canonical_target": "The design consequences that follow from treating retained internal state versus externally supplied context records as distinct architectures for maintaining conversational coherence — i.e., what differs practically (engineering tradeoffs, requirements, or choices) between the two, rather than how to tell them apart from behavior.",
+      "target_id": "T034"
+    },
+    {
+      "canonical_target": "A comparative evaluation of fidelity — how accurate and relevant externally supplied continuity (summaries, retrieved records, user-provided history) is relative to information held in retained full internal state across generations.",
+      "target_id": "T035"
+    },
+    {
+      "canonical_target": "The diagnostic criteria, tests, or observable signatures that would discriminate between continuity produced by externally supplied records at runtime and continuity produced by retained internal state.",
+      "target_id": "T036"
+    },
+    {
+      "canonical_target": "The defining difference in mechanism between continuity arising from persistent internal state carried over from an earlier interaction and continuity reconstructed by supplying an external record to a fresh process, given that both can produce similar outward behavior.",
+      "target_id": "T037"
+    },
+    {
+      "canonical_target": "The means or criteria available to a user for distinguishing internally persisted context from externally supplied reconstruction, given that observable outputs are consistent with both.",
+      "target_id": "T038"
+    },
+    {
+      "canonical_target": "Methods or diagnostic procedures by which an observer could distinguish internally persisted context from externally supplied/reconstructed context in an AI system.",
+      "target_id": "T039"
+    },
+    {
+      "canonical_target": "A comparative performance judgment between the two continuity mechanisms (retained internal state vs. externally reconstructed prior information) with respect to accuracy/reliability of subsequent responses — i.e., whether one systematically outperforms the other rather than merely producing similar behavior.",
+      "target_id": "T040"
+    },
+    {
+      "canonical_target": "A comparative characterization of how context fidelity — accuracy and completeness of prior-interaction information — differs when it is reconstructed from external sources (summaries, retrieved records, user-provided history) versus retained as full internal state, i.e., what information is degraded, lost, distorted, or preserved under each mechanism.",
+      "target_id": "T041"
+    },
+    {
+      "canonical_target": "Investigative or diagnostic methods (beyond observing output behavior) capable of reliably determining whether cross-turn continuity arises from retained internal state versus externally supplied context.",
+      "target_id": "T042"
+    },
+    {
+      "canonical_target": "Whether and how retained internal state versus externally supplied context can be told apart from response behavior alone — i.e., the existence and nature of an observable discriminating criterion available to an outside observer.",
+      "target_id": "T043"
+    },
+    {
+      "canonical_target": "Whether any reliable method exists for determining, for a given response, whether its continuity arose from internal persistence or external reconstruction — i.e., the existence (or nonexistence) of a discriminating test between the two sources.",
+      "target_id": "T044"
+    },
+    {
+      "canonical_target": "A comparative assessment of how downstream task performance differs when continuity comes from an external summary of a given quality versus from retained internal state, i.e., the relative performance gap or equivalence between the two continuity mechanisms.",
+      "target_id": "T045"
+    },
+    {
+      "canonical_target": "Whether and how behavioral observation alone can discriminate retained internal state from externally supplied context reconstruction — i.e., the existence and nature of an outward-behavior diagnostic separating the two mechanisms.",
+      "target_id": "T046"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria available to a user for telling apart continuity arising from retained internal state versus continuity supplied externally at runtime, given that observable output alone is ambiguous.",
+      "target_id": "T047"
+    },
+    {
+      "canonical_target": "Whether and by what means an external observer, using only outward behavioral evidence, could discriminate retained internal state from externally supplied context as the source of cross-session continuity.",
+      "target_id": "T048"
+    },
+    {
+      "canonical_target": "The set of practical investigative or testing methods (e.g., architectural inspection, controlled input manipulation, instrumentation of retrieval channels) capable of reliably determining whether observed continuity arises from internal persistence versus externally supplied context.",
+      "target_id": "T049"
+    },
+    {
+      "canonical_target": "The comparative effect of external summary fidelity (quality/completeness) on later-response accuracy relative to accuracy achievable with full retained internal state — i.e., how degradation or richness of the external record changes response correctness versus the retained-state baseline.",
+      "target_id": "T050"
+    },
+    {
+      "canonical_target": "The implementation details of the summarization and retrieval processes themselves — i.e., what procedures or components produce the saved summaries and decide which prior records are fetched — which the passage references but does not specify.",
+      "target_id": "T051"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria available to users for distinguishing internally persisted context from externally supplied reconstruction, given that observable outputs are consistent with both.",
+      "target_id": "T052"
+    },
+    {
+      "canonical_target": "The methods or diagnostic criteria that could distinguish internal persistence of context from externally supplied reconstruction as the source of an AI system's cross-turn continuity, given that observable output alone does not discriminate between them.",
+      "target_id": "T053"
+    },
+    {
+      "canonical_target": "The privacy and security consequences (risks, exposures, or protections) that follow from supplying continuity via external stores of prior interaction data rather than retained internal state.",
+      "target_id": "T054"
+    },
+    {
+      "canonical_target": "The diagnostic criteria or observable/architectural evidence that would discriminate between a system carrying over retained internal state and one reconstructed fresh from externally supplied history, given that both produce similar outward behavior.",
+      "target_id": "T055"
+    },
+    {
+      "canonical_target": "Whether and by what means external behavioral observation alone can discriminate retained internal state from a fresh process supplied with external context records — i.e., the existence and nature of an observable diagnostic criterion separating the two mechanisms given identical outward behavior.",
+      "target_id": "T056"
+    },
+    {
+      "canonical_target": "Whether and by what output-based method an external observer could tell retained internal state apart from a fresh process supplied with external context, given that both can produce the same outward behavior — i.e., the existence and nature of a distinguishing diagnostic criterion in the outputs alone.",
+      "target_id": "T057"
+    },
+    {
+      "canonical_target": "Whether output-only inspection can reliably discriminate between retained internal state and externally supplied context as the source of continuity — i.e., the existence (or absence) of a diagnostic behavioral signature distinguishing the two mechanisms.",
+      "target_id": "T058"
+    },
+    {
+      "canonical_target": "Whether any empirical test or observational method exists that can discriminate between internally persisting context and externally supplied reconstruction as the source of cross-interaction continuity, and if so what that method would be.",
+      "target_id": "T059"
+    },
+    {
+      "canonical_target": "The observable means or diagnostic criteria, if any, by which a user could distinguish retained internal state from externally supplied context as the source of cross-session continuity.",
+      "target_id": "T060"
+    },
+    {
+      "canonical_target": "The privacy and data-security differences between supplying continuity via externally stored/retrieved context versus retaining internal state across generations.",
+      "target_id": "T061"
+    },
+    {
+      "canonical_target": "Whether any dependable external/behavioral test exists that can distinguish internal persistence from externally supplied reconstructed context as the source of continuity in a response — i.e., the existence (or absence) of such a discriminating method.",
+      "target_id": "T062"
+    },
+    {
+      "canonical_target": "A comparative characterization of how reliability and consistency of responses differ between externally reconstructed access to prior information (summaries, retrieved records, user-supplied history) and retained internal state.",
+      "target_id": "T063"
+    },
+    {
+      "canonical_target": "The set of external continuity inputs (e.g., saved summaries, retrieved records, user-provided history) that can be supplied at runtime to give a later response access to earlier-interaction information.",
+      "target_id": "T064"
+    },
+    {
+      "canonical_target": "Whether there is an observable performance difference (in response quality or accuracy) between the two continuity mechanisms — retained internal state versus externally reconstructed context — rather than merely a difference in mechanism producing similar behavior.",
+      "target_id": "T065"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria that would allow an observer to determine whether apparent continuity across AI generations arises from internal persistence versus externally supplied context, given that observed behavior alone is insufficient.",
+      "target_id": "T066"
+    },
+    {
+      "canonical_target": "A comparative assessment of how much contextually relevant information an external summary/record preserves versus retained internal state, and how that difference affects the fidelity or appropriateness of subsequent responses.",
+      "target_id": "T067"
+    },
+    {
+      "canonical_target": "The privacy and security implications that distinguish externally supplied/reconstructed context from retained internal state, i.e., how the two mechanisms differ in exposure, storage, access, or risk properties rather than in behavioral output.",
+      "target_id": "T068"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria that could distinguish internal persistence of context from externally supplied reconstruction, given that observable output alone is insufficient.",
+      "target_id": "T069"
+    },
+    {
+      "canonical_target": "A comparative account of response quality/accuracy outcomes under externally reconstructed context versus retained internal state — i.e., what performance differences (if any) arise between the two continuity mechanisms.",
+      "target_id": "T070"
+    },
+    {
+      "canonical_target": "Whether any dependable diagnostic procedure exists that can distinguish, for a particular response, internally persisted context from externally supplied/reconstructed context — i.e., the existence and reliability of such a discrimination method.",
+      "target_id": "T071"
+    },
+    {
+      "canonical_target": "Whether and by what means a system can internally tell apart information carried over as retained internal state from information supplied externally at runtime (e.g., summaries, retrieved records, user-provided history) when generating a response — i.e., the availability or absence of a discriminating signal or mechanism for that source distinction.",
+      "target_id": "T072"
+    },
+    {
+      "canonical_target": "The particular mechanisms/technologies (e.g., forms of summarization, retrieval, storage, or context injection) by which prior-interaction information is supplied externally to a new generation at runtime.",
+      "target_id": "T073"
+    },
+    {
+      "canonical_target": "Methods or safeguards by which a system can maintain fidelity/correctness of externally reconstructed context (summaries, retrieved records, user-supplied history) as compared to retained internal state.",
+      "target_id": "T074"
+    },
+    {
+      "canonical_target": "Experimental methods or test designs that could discriminate between continuity arising from retained internal state and continuity supplied by external reconstruction, given that observable outputs alone are ambiguous.",
+      "target_id": "T075"
+    },
+    {
+      "canonical_target": "The practical/operational differences between reconstructing prior information from external sources (summaries, retrieved records, user-provided history) at runtime versus carrying persistent internal state across generations, despite both supporting similar continuity behavior.",
+      "target_id": "T076"
+    },
+    {
+      "canonical_target": "Methods or verification procedures by which an outside observer could distinguish internally persisted state from externally supplied/reconstructed context as the source of an AI's apparent memory, given that behavior alone is insufficient.",
+      "target_id": "T077"
+    },
+    {
+      "canonical_target": "Methods or procedures for validating that externally supplied summaries/records faithfully correspond to the actual content of the prior interaction (i.e., verification mechanisms for fidelity of reconstructed context).",
+      "target_id": "T078"
+    },
+    {
+      "canonical_target": "A comparative account of how variation in the fidelity/completeness of externally supplied context summaries influences the accuracy of subsequent responses, relative to the accuracy achieved when full internal state is retained.",
+      "target_id": "T079"
+    },
+    {
+      "canonical_target": "The effect of sourcing continuity from external reconstruction (summaries, retrieved records, user-supplied history) versus retained internal state on how consistent and reliable an AI service's responses are across separate generations.",
+      "target_id": "T080"
+    },
+    {
+      "canonical_target": "The mechanism or procedure by which a system selects and weights which parts of supplied summaries/retrieved records count as relevant for a new generation.",
+      "target_id": "T081"
+    },
+    {
+      "canonical_target": "The diagnostic criteria or observable/architectural evidence that would discriminate between continuity produced by retained internal state and continuity produced by a fresh process supplied with external context.",
+      "target_id": "T082"
+    },
+    {
+      "canonical_target": "A method or diagnostic criterion capable of discriminating internal persistence from externally supplied reconstruction as the source of continuity in a response, given that observable behavior alone underdetermines this.",
+      "target_id": "T083"
+    },
+    {
+      "canonical_target": "Techniques or tests capable of reliably discriminating whether continuity in a system's responses arises from retained internal state versus externally supplied reconstruction",
+      "target_id": "T084"
+    },
+    {
+      "canonical_target": "The mechanism or criteria by which the system itself tells apart information carried over as persistent internal state versus information supplied at runtime through external reconstruction (summaries, retrieval, user-provided history).",
+      "target_id": "T085"
+    },
+    {
+      "canonical_target": "A comparison of response quality/accuracy between reconstructed context (saved summaries or retrieved records) and retained internal state, i.e., whether and how externally supplied continuity yields better, worse, or equivalent outputs than preserved internal context for the same prior interaction.",
+      "target_id": "T086"
+    },
+    {
+      "canonical_target": "The methods or evidence, beyond observable output behavior, by which an external observer could distinguish internally persisted continuity from externally supplied/reconstructed context.",
+      "target_id": "T087"
+    },
+    {
+      "canonical_target": "The retrieval-selection mechanisms (i.e., the specific techniques or criteria by which an AI service decides which stored summaries or records to pull in for a given query).",
+      "target_id": "T088"
+    },
+    {
+      "canonical_target": "Whether and by what observable criteria the two continuity mechanisms (retained internal state vs. externally supplied context) can be told apart from outward behavior alone — i.e., a discriminating test or the conditions under which they are behaviorally indistinguishable.",
+      "target_id": "T089"
+    },
+    {
+      "canonical_target": "The magnitude/extent of information lost when continuity is supplied via external summaries or records instead of retained full internal context — i.e., a quantitative characterization of the gap between the two continuity mechanisms.",
+      "target_id": "T090"
+    },
+    {
+      "canonical_target": "The means, if any, by which a user could discriminate internal context persistence from externally supplied reconstruction, given that observable outputs are identical under both mechanisms.",
+      "target_id": "T091"
+    },
+    {
+      "canonical_target": "Whether, and by what observable response-level signatures or tests, retained internal state can be told apart from externally supplied context using only the AI's outward outputs.",
+      "target_id": "T092"
+    },
+    {
+      "canonical_target": "The effect on response accuracy and completeness of supplying continuity via externally reconstructed context (summaries, retrieved records, user-provided history) instead of retained internal state — i.e., what informational fidelity is gained or lost between the two mechanisms.",
+      "target_id": "T093"
+    },
+    {
+      "canonical_target": "Whether and how output-only observation can discriminate retained internal state from externally supplied context reconstruction — i.e., the existence and nature of behavioral signatures that differentiate the two mechanisms.",
+      "target_id": "T094"
+    },
+    {
+      "canonical_target": "The experimental methods or test designs that would discriminate between context retained internally across generations and context re-supplied externally at runtime, given that observable output alone is ambiguous.",
+      "target_id": "T095"
+    },
+    {
+      "canonical_target": "Whether any reliable non-behavioral method exists for determining whether continuity across generations arises from internal persistence versus externally supplied reconstruction.",
+      "target_id": "T096"
+    },
+    {
+      "canonical_target": "The methods or evidence, beyond observed output behavior, that could discriminate whether cross-session continuity arises from internal persistence of context versus externally supplied reconstruction.",
+      "target_id": "T097"
+    },
+    {
+      "canonical_target": "A proposed experimental design — specific manipulations, controls, and observable discriminating signatures — that could tell apart continuity produced by internal persistence versus continuity supplied by external context reconstruction.",
+      "target_id": "T098"
+    },
+    {
+      "canonical_target": "The set of methods, tests, or observable signals (if any) by which an outside observer could determine which of two underlying mechanisms—persisted internal state versus externally injected context at runtime—generated a particular response, given that both yield similar outward behavior.",
+      "target_id": "T099"
+    },
+    {
+      "canonical_target": "Whether, and by what output-level signatures, an external observer could tell retained internal state apart from a fresh process supplied with an external record, given only the AI's outputs.",
+      "target_id": "T100"
+    },
+    {
+      "canonical_target": "Whether any reliable non-behavioral discriminator (e.g., system-internal or architectural evidence) exists that can separate internally persisted context from externally supplied reconstructed context.",
+      "target_id": "T101"
+    },
+    {
+      "canonical_target": "Identification of investigative or diagnostic methods (beyond observing output behavior) capable of reliably determining whether an AI system's cross-exchange continuity arises from internal persistence versus external supply of prior context.",
+      "target_id": "T102"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria that could reliably distinguish internal persistence of context from external reconstruction of it in an AI system, given that observable outputs alone are insufficient.",
+      "target_id": "T103"
+    },
+    {
+      "canonical_target": "The methods or discriminating signals, if any, by which retained internal state can be told apart from externally supplied context as the source of a response, given that outward behavior is identical.",
+      "target_id": "T104"
+    },
+    {
+      "canonical_target": "The means or criteria by which a system could internally tell apart self-retained state from externally supplied context at generation time — i.e., whether any introspective or structural marker distinguishes the two sources of prior information.",
+      "target_id": "T105"
+    },
+    {
+      "canonical_target": "The practical/operational differences between persisting internal state across generations versus supplying prior information externally at runtime (e.g., via summaries, retrieval, or user-provided history), despite both enabling similar continuity-dependent behavior.",
+      "target_id": "T106"
+    },
+    {
+      "canonical_target": "Whether external observation of a response can reliably determine which underlying mechanism (retained internal state vs. fresh process supplied with external records) produced the observed continuity.",
+      "target_id": "T107"
+    },
+    {
+      "canonical_target": "A comparative account of how variation in the fidelity/completeness of externally supplied context records changes the accuracy of a subsequent response, relative to the accuracy achievable when full internal state is retained.",
+      "target_id": "T108"
+    },
+    {
+      "canonical_target": "An enumeration or characterization of the specific types/content of externally supplied continuity artifacts (saved summaries, retrieved records, user-provided history) available to a later generation.",
+      "target_id": "T109"
+    },
+    {
+      "canonical_target": "Methods or evidence (beyond output behavior) that could discriminate internally persisted context from externally supplied reconstruction, given behaviorally identical outputs — i.e., what observations, tests, or system-level information would break the underdetermination.",
+      "target_id": "T110"
+    },
+    {
+      "canonical_target": "The discriminating test, evidence, or criterion that could tell apart genuine retention of internal state from a fresh process reconstructing continuity from an external record, given that both can produce similar outward behavior.",
+      "target_id": "T111"
+    },
+    {
+      "canonical_target": "Methods or evidence (beyond observable output behavior) that would discriminate whether cross-exchange continuity arises from retained internal state versus externally supplied context at runtime.",
+      "target_id": "T112"
+    },
+    {
+      "canonical_target": "Whether some reliable discriminating method exists, using evidence beyond observable output behavior, for determining whether continuity across generations arises from internal persistence versus external supply of context.",
+      "target_id": "T113"
+    },
+    {
+      "canonical_target": "The downstream effects on response accuracy and cross-generation consistency that result from sourcing continuity from externally supplied history instead of retained internal state.",
+      "target_id": "T114"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria that could distinguish internal persistence of context from externally supplied reconstruction, given that observable outputs alone are insufficient.",
+      "target_id": "T115"
+    },
+    {
+      "canonical_target": "A comparative fidelity assessment: how faithfully externally reconstructed continuity (summaries, retrieved records, user-provided history) represents prior-interaction information relative to information held in retained internal context, including relative rates of loss, distortion, or omission between the two mechanisms.",
+      "target_id": "T116"
+    },
+    {
+      "canonical_target": "Methods or evidence beyond identical observable output that could discriminate internally persisted context from externally supplied/reconstructed context as the source of apparent memory.",
+      "target_id": "T117"
+    },
+    {
+      "canonical_target": "Methods or diagnostic procedures by which an outside observer could distinguish internal persistence from externally supplied context as the source of cross-session continuity, given that observable behavior alone is insufficient.",
+      "target_id": "T118"
+    },
+    {
+      "canonical_target": "A method or set of diagnostic criteria by which an external observer could determine whether observed continuity in an AI system's outputs originates from internal persistence of context versus externally supplied reconstruction, given that behavior alone underdetermines this.",
+      "target_id": "T119"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria that would discriminate whether continuity in an AI service arises from persisted internal state versus externally injected context, given that both can produce similar outward behavior.",
+      "target_id": "T120"
+    },
+    {
+      "canonical_target": "Whether and how output-only observation can discriminate retained internal state from externally supplied context reconstruction — i.e., the existence of reliable output-based diagnostic criteria distinguishing the two architectures.",
+      "target_id": "T121"
+    },
+    {
+      "canonical_target": "An enumeration of the types/forms of external continuity artifacts (saved summaries, retrieved records, user-provided history) that can be supplied to a fresh generation, i.e., the content categories of externally reconstructed prior information.",
+      "target_id": "T122"
+    },
+    {
+      "canonical_target": "The concrete implementation mechanisms (storage and retrieval machinery) by which saved summaries, retrieved records, or prior-interaction history are persisted and later fetched for a new generation.",
+      "target_id": "T123"
+    },
+    {
+      "canonical_target": "The discriminating criteria or observations (if any) that could separate retained internal state from externally supplied context reconstruction when their outputs are indistinguishable.",
+      "target_id": "T124"
+    },
+    {
+      "canonical_target": "The set of observable tests, signals, or diagnostic criteria (if any) that would let an external observer discriminate retained internal state from runtime-reconstructed context, given that both can produce similar outward behavior.",
+      "target_id": "T125"
+    },
+    {
+      "canonical_target": "A comparative assessment of the informational fidelity of externally reconstructed history (summaries, retrieved records, user-supplied context) versus retained full internal state — i.e., what content or detail is preserved, degraded, or lost under reconstruction relative to genuine continuity.",
+      "target_id": "T126"
+    },
+    {
+      "canonical_target": "The methods, tests, or diagnostic criteria that would discriminate between continuity arising from retained internal state and continuity supplied by external context reconstruction, given that observable output alone is insufficient.",
+      "target_id": "T127"
+    },
+    {
+      "canonical_target": "The diagnostic criteria or observable behavioral signatures, if any, that would discriminate between a session with retained internal state and a fresh process reconstructing continuity from an external record, given access only to the service's outputs.",
+      "target_id": "T128"
+    },
+    {
+      "canonical_target": "The comparative downstream effects of the two continuity mechanisms (external context reconstruction vs. retained internal state) on response accuracy and cross-interaction consistency — i.e., consequences for output quality, not merely the mechanistic distinction between them.",
+      "target_id": "T129"
+    },
+    {
+      "canonical_target": "The effect of sourcing continuity from external reconstruction (summaries, retrieved records, user-supplied history) versus retained internal state on the accuracy and cross-generation consistency of responses — i.e., the comparative reliability consequences of the two mechanisms.",
+      "target_id": "T130"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria by which retained internal state can be reliably told apart from externally supplied historical records as the source of a response's continuity.",
+      "target_id": "T131"
+    },
+    {
+      "canonical_target": "The concrete implementation methods/technologies used for persisting and retrieving the external summaries or records that supply continuity.",
+      "target_id": "T132"
+    },
+    {
+      "canonical_target": "The effect on cross-interaction coherence and contextual appropriateness of sourcing continuity from external reconstruction versus retained internal state — i.e., how the two mechanisms differ in supporting sustained conversational consistency.",
+      "target_id": "T133"
+    },
+    {
+      "canonical_target": "Whether an external observer has any dependable method for distinguishing internally persisted continuity from externally supplied/reconstructed continuity — i.e., the existence or non-existence of a reliable external discrimination procedure.",
+      "target_id": "T134"
+    },
+    {
+      "canonical_target": "Whether and how any behavioral test or discriminating observable could separate internally persisted context from externally supplied reconstruction, given that both produce the same outward continuity.",
+      "target_id": "T135"
+    },
+    {
+      "canonical_target": "A comparative evaluation of retained internal state versus externally reconstructed access to prior information with respect to how reliably and accurately each reproduces earlier context.",
+      "target_id": "T136"
+    },
+    {
+      "canonical_target": "The selection mechanism or criteria the service uses to choose which saved summaries or retrieved records are supplied as context at runtime.",
+      "target_id": "T137"
+    },
+    {
+      "canonical_target": "The types or categories of externally supplied continuity artifacts (saved summaries, retrieved records, user-provided history) that can be fed into a fresh generation lacking internal state.",
+      "target_id": "T138"
+    },
+    {
+      "canonical_target": "The methods or evidence (beyond observed output behavior) that could discriminate whether continuity in an AI service arises from internally retained state versus externally supplied context at runtime.",
+      "target_id": "T139"
+    },
+    {
+      "canonical_target": "A method or diagnostic criterion by which retained internal state can be told apart from a fresh process supplied with external historical records, given that both produce similar outward behavior.",
+      "target_id": "T140"
+    },
+    {
+      "canonical_target": "Experimental methods or test designs that could discriminate between internally persisting context and externally supplied/reconstructed context, given that observed behavior alone is consistent with both.",
+      "target_id": "T141"
+    },
+    {
+      "canonical_target": "Experimental designs, tests, or manipulations that would discriminate between continuity arising from internal persistence of state versus continuity supplied externally at runtime.",
+      "target_id": "T142"
+    },
+    {
+      "canonical_target": "The set of concrete diagnostic tests or procedures (technical or behavioral) capable of discriminating whether cross-interaction continuity arises from internal persistence versus externally supplied reconstruction.",
+      "target_id": "T143"
+    },
+    {
+      "canonical_target": "The externally observable indicators, tests, or diagnostic procedures that would let an outside observer distinguish whether a response drew on retained internal state versus externally reconstructed context.",
+      "target_id": "T144"
+    },
+    {
+      "canonical_target": "An enumeration of the specific types or categories of externally supplied artifacts (saved summaries, retrieved records, user-provided history) that can serve as inputs for reconstructing prior conversational context at runtime.",
+      "target_id": "T145"
+    },
+    {
+      "canonical_target": "Whether and how the mechanism behind continuity (persistent internal state vs. externally reconstructed context) can be discriminated from observable response outputs alone, i.e., the existence and nature of output-level diagnostic criteria separating two mechanisms that produce similar behavior.",
+      "target_id": "T146"
+    },
+    {
+      "canonical_target": "Practical methods or diagnostic procedures an external observer could use to determine whether continuity in a response arises from internal persistence versus externally supplied reconstruction.",
+      "target_id": "T147"
+    },
+    {
+      "canonical_target": "Experimental methods or manipulations that could discriminate between internally persisting context and externally supplied reconstruction, given behavioral equivalence — i.e., what interventions or observables (beyond ordinary output) would yield diverging predictions between the two mechanisms.",
+      "target_id": "T148"
+    },
+    {
+      "canonical_target": "The types or categories of externally supplied continuity artifacts (saved summaries, retrieved records, user-provided history) that are available to a later generation.",
+      "target_id": "T149"
+    },
+    {
+      "canonical_target": "The observable criteria or diagnostic methods, if any, available to a user for distinguishing retained internal state from externally supplied context as the source of apparent conversational continuity.",
+      "target_id": "T150"
+    },
+    {
+      "canonical_target": "A comparison of response accuracy levels between AI generations that reconstruct prior information from external summaries/records and those that carry retained internal context — i.e., which mechanism yields more accurate responses and in what respects accuracy differs.",
+      "target_id": "T151"
+    },
+    {
+      "canonical_target": "The downstream effects on response consistency and accuracy that follow from supplying continuity via externally reconstructed context instead of retained internal state.",
+      "target_id": "T152"
+    },
+    {
+      "canonical_target": "The practical/operational differences between supplying prior information externally at runtime (summaries, retrieved records, user-provided history) versus carrying forward retained internal state, given that both can produce similar continuity behavior.",
+      "target_id": "T153"
+    },
+    {
+      "canonical_target": "The observable indicators or diagnostic procedures by which a user could distinguish retained internal state from externally supplied/reconstructed prior information, given that both mechanisms can produce similar behavior.",
+      "target_id": "T154"
+    },
+    {
+      "canonical_target": "The means or criteria by which an AI service itself tells apart information carried over as retained internal state versus information supplied at runtime through external reconstruction (summaries, retrieved records, user-provided history).",
+      "target_id": "T155"
+    },
+    {
+      "canonical_target": "A comparison of response quality/accuracy outcomes between externally reconstructed context (summaries, retrieved records, user-supplied history) and retained internal context, i.e., how well each mechanism supports correct responses and where they diverge.",
+      "target_id": "T156"
+    },
+    {
+      "canonical_target": "The criteria or procedure by which one establishes that externally supplied continuity information (summaries, retrieved records, user history) is adequate for a fresh generation to yield responses equivalent to those produced with retained internal state.",
+      "target_id": "T157"
+    },
+    {
+      "canonical_target": "The diagnostic method or criteria for distinguishing retained internal state from externally supplied context as the source of observed continuity.",
+      "target_id": "T158"
+    },
+    {
+      "canonical_target": "Criteria, tests, or observable evidence that would discriminate between retained internal state across generations and fresh processing of externally supplied context, given that both can yield equivalent outward behavior.",
+      "target_id": "T159"
+    },
+    {
+      "canonical_target": "The methods, evidence, or diagnostic criteria that would allow discriminating whether continuity across generations arises from retained internal state versus externally supplied context, given that observable outputs alone are insufficient.",
+      "target_id": "T160"
+    },
+    {
+      "canonical_target": "A comparison of response quality/accuracy outcomes between externally reconstructed context and retained internal state — i.e., whether and how the two mechanisms differ in the fidelity or correctness of the resulting outputs.",
+      "target_id": "T161"
+    },
+    {
+      "canonical_target": "The types or categories of externally supplied continuity artifacts (saved summaries, retrieved records, user-provided history) that a later generation can draw on as inputs.",
+      "target_id": "T162"
+    },
+    {
+      "canonical_target": "A proposed experimental design—manipulations, controls, and measurable outcomes—that could empirically discriminate whether a given response's continuity arises from internal persistence versus externally supplied context.",
+      "target_id": "T163"
+    },
+    {
+      "canonical_target": "A proposed experimental design — specific manipulations, controls, and observable discriminating measures — capable of distinguishing internally persisted context from externally supplied reconstructed context.",
+      "target_id": "T164"
+    },
+    {
+      "canonical_target": "Whether externally reconstructed context (summaries, retrieved records, user-supplied history) produces responses that diverge from or are less accurate than those produced from retained internal state — i.e., a comparative performance/fidelity difference between the two mechanisms, not merely their functional similarity.",
+      "target_id": "T165"
+    },
+    {
+      "canonical_target": "The specific external continuity mechanisms (e.g., saved summaries, retrieved records, user-provided history) by which prior-exchange information is supplied to a new generation at runtime, as distinct from retained internal state.",
+      "target_id": "T166"
+    },
+    {
+      "canonical_target": "Methods or diagnostic procedures capable of distinguishing internally persisted state from externally supplied context as the source of an AI system's apparent memory continuity, given that observable output alone is insufficient.",
+      "target_id": "T167"
+    },
+    {
+      "canonical_target": "The means or diagnostic criteria available to a user for distinguishing internally persisted context from externally supplied/reconstructed context in an AI service, given that observed behavior alone does not separate the two.",
+      "target_id": "T168"
+    },
+    {
+      "canonical_target": "The methods or diagnostic criteria (beyond observable response content) that would discriminate whether continuity across turns arises from retained internal context versus externally supplied summaries/retrieved records.",
+      "target_id": "T169"
+    },
+    {
+      "canonical_target": "An experimental design — specific manipulations, controls, and observable discriminating measurements — that would conclusively separate internally persisted context from externally supplied/reconstructed context in an AI system.",
+      "target_id": "T170"
+    },
+    {
+      "canonical_target": "Whether and by what internal means a system could tell apart retained internal state from externally supplied context at generation time — i.e., the existence and nature of a self-accessible discriminating signal or procedure, as distinct from the outward behavioral equivalence of the two cases.",
+      "target_id": "T171"
+    },
+    {
+      "canonical_target": "The effects on response consistency and accuracy that follow from supplying continuity via externally reconstructed context (summaries, retrieved records, user-supplied history) instead of retained internal state across generations.",
+      "target_id": "T172"
+    },
+    {
+      "canonical_target": "The methods or evidence that could distinguish internally persisted state from externally supplied context as the source of continuity in a response, given that observable behavior alone is insufficient.",
+      "target_id": "T173"
+    },
+    {
+      "canonical_target": "Methods or evidence an external observer could use to discriminate internally persistent continuity from externally reconstructed continuity, given that observable output is compatible with both.",
+      "target_id": "T174"
+    },
+    {
+      "canonical_target": "Empirical methods or tests (beyond observable output behavior) that could discriminate whether cross-interaction continuity arises from internal persistence versus externally supplied context reconstruction.",
+      "target_id": "T175"
+    },
+    {
+      "canonical_target": "An experimental design or methodology—specifying manipulations, controls, and observable discriminating indicators—that could distinguish whether continuity in a given response arises from internal persistence versus externally supplied reconstruction.",
+      "target_id": "T176"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria by which an outside observer could tell apart internally persisted state from externally supplied/reconstructed context as the source of apparent cross-interaction continuity.",
+      "target_id": "T177"
+    },
+    {
+      "canonical_target": "A method or diagnostic criterion by which an external observer could reliably tell apart continuity produced by retained internal state versus continuity produced by externally supplied context, given that both yield similar outward behavior.",
+      "target_id": "T178"
+    },
+    {
+      "canonical_target": "A comparative evaluation of response quality between two continuity mechanisms — reconstructed/externally supplied prior information versus retained full internal context — i.e., whether outputs are equivalent, better, or worse under one versus the other.",
+      "target_id": "T179"
+    },
+    {
+      "canonical_target": "Whether any dependable procedure exists for distinguishing, for a particular response, internal context persistence from externally supplied reconstruction of prior information — i.e., the existence (or absence) of a discriminating test beyond observable behavior.",
+      "target_id": "T180"
+    },
+    {
+      "canonical_target": "The consequences for cross-generation consistency of behavior that follow from sourcing continuity from externally supplied history versus retained internal state — i.e., how the mechanism difference affects reliability/fidelity of maintaining consistency.",
+      "target_id": "T181"
+    },
+    {
+      "canonical_target": "Methods or diagnostic criteria that would allow an external observer to determine which of two mechanisms — persistent internal state versus runtime-supplied external records — is producing cross-session continuity, given that both yield similar outward behavior.",
+      "target_id": "T182"
+    },
+    {
+      "canonical_target": "The observable indicators, tests, or diagnostic cues available to a user for distinguishing retained internal state from externally reconstructed context, given that both mechanisms can produce similar behavior.",
+      "target_id": "T183"
+    },
+    {
+      "canonical_target": "The practical criteria or diagnostic means by which reconstructed, externally supplied continuity (summaries, retrieved records, user-provided history) can be told apart from genuinely retained internal state, given that both produce similar behavior.",
+      "target_id": "T184"
+    },
+    {
+      "canonical_target": "A method or criterion by which a system could tell apart responses produced from retained internal state versus those produced from externally supplied context at runtime, given that both can yield similar outward behavior.",
+      "target_id": "T185"
+    },
+    {
+      "canonical_target": "A comparative assessment of how faithful/complete externally reconstructed context (summaries, retrieved records, user-supplied history) is relative to retained internal state, and how that fidelity difference affects the consistency of later responses.",
+      "target_id": "T186"
+    },
+    {
+      "canonical_target": "The mechanism or criteria by which the service itself tells apart information carried over as retained internal state versus information supplied at runtime through external reconstruction (summaries, retrieval, user-provided history).",
+      "target_id": "T187"
+    },
+    {
+      "canonical_target": "The practical differences in consistency and reliability outcomes between continuity from retained internal state versus a fresh process reconstructing context from externally supplied records.",
+      "target_id": "T188"
+    },
+    {
+      "canonical_target": "The observational method or evidence, if any, by which an external observer could determine whether cross-turn continuity arose from retained internal state versus a fresh process supplied with external records, given that the two produce similar outward behavior.",
+      "target_id": "T189"
+    },
+    {
+      "canonical_target": "The empirical test procedures or observable discriminating evidence that could separate internal persistence of state across generations from externally supplied context reconstruction, given that output behavior alone is consistent with both.",
+      "target_id": "T190"
+    }
+  ],
+  "topic_packet_id": "AU-E1-T06"
+}

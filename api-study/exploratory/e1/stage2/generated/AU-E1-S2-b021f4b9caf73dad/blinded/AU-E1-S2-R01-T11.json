@@ -1,0 +1,573 @@
+{
+  "amendment_id": "E1A",
+  "packet_id": "AU-E1-S2-R01-T11",
+  "protocol_id": "E1",
+  "representation_set_id": "AU-E1-R01",
+  "schema_version": "au-e1-stage2-topic-packet-v1",
+  "stage": "stage2_blinded_topic_partition",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "target_count": 140,
+  "targets": [
+    {
+      "canonical_target": "The typical balance photographers use between individual frame quality and visual flow across neighboring images when choosing negatives to enlarge",
+      "target_id": "T001"
+    },
+    {
+      "canonical_target": "The digital tools and workflows used in modern photography to perform the review, comparison, selection, and sequencing functions of contact sheets.",
+      "target_id": "T002"
+    },
+    {
+      "canonical_target": "The typical physical method photographers used to mark promising images on contact sheets before digital photography",
+      "target_id": "T003"
+    },
+    {
+      "canonical_target": "The symbols or notations photographers typically use to mark promising images on a contact sheet.",
+      "target_id": "T004"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual qualities with its relationship to neighboring images when selecting negatives for enlargement.",
+      "target_id": "T005"
+    },
+    {
+      "canonical_target": "The marking conventions photographers use on contact sheets to identify selected frames.",
+      "target_id": "T006"
+    },
+    {
+      "canonical_target": "The typical decision criteria photographers use to balance individual frame quality against narrative coherence with adjacent images when selecting negatives for printing",
+      "target_id": "T007"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame's individual merits against its relationship to adjacent frames when selecting negatives for enlargement",
+      "target_id": "T008"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images when selecting negatives for larger prints.",
+      "target_id": "T009"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual quality with its comparative relationship to neighboring images when selecting negatives for enlargement.",
+      "target_id": "T010"
+    },
+    {
+      "canonical_target": "The typical methods photographers use to mark or annotate promising frames on a contact sheet.",
+      "target_id": "T011"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and select images before contact sheets existed",
+      "target_id": "T012"
+    },
+    {
+      "canonical_target": "The criteria photographers use to choose marks or annotations when reviewing contact sheets",
+      "target_id": "T013"
+    },
+    {
+      "canonical_target": "The criteria and process photographers use to select contact-sheet frames for larger prints.",
+      "target_id": "T014"
+    },
+    {
+      "canonical_target": "The typical balance photographers use between individual frame quality and compositional relationships among consecutive shots when selecting images from a contact sheet.",
+      "target_id": "T015"
+    },
+    {
+      "canonical_target": "The tools or methods photographers use to mark selected frames directly on a contact sheet.",
+      "target_id": "T016"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and select negatives before contact sheets existed",
+      "target_id": "T017"
+    },
+    {
+      "canonical_target": "The comparative advantage of viewing an entire sequence of photographs together rather than inspecting negatives individually.",
+      "target_id": "T018"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images when selecting negatives for enlargement",
+      "target_id": "T019"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing an individual frame's quality with its contribution to and relationship within a photographic series",
+      "target_id": "T020"
+    },
+    {
+      "canonical_target": "The criteria photographers use to evaluate a frame’s relationship to neighboring images during selection.",
+      "target_id": "T021"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and select images before contact sheets existed",
+      "target_id": "T022"
+    },
+    {
+      "canonical_target": "The tools or marks photographers typically use to identify contact-sheet frames selected for larger prints.",
+      "target_id": "T023"
+    },
+    {
+      "canonical_target": "Modern digital methods used to review, compare, and select images in place of photographic contact sheets",
+      "target_id": "T024"
+    },
+    {
+      "canonical_target": "The specific methods photographers typically use to mark promising images on a contact sheet.",
+      "target_id": "T025"
+    },
+    {
+      "canonical_target": "The typical method photographers use to mark promising images on a contact sheet.",
+      "target_id": "T026"
+    },
+    {
+      "canonical_target": "The effect of sequential context on evaluating and comparing photographic frames versus judging each frame alone",
+      "target_id": "T027"
+    },
+    {
+      "canonical_target": "The effect of viewing neighboring frames on a photographer’s evaluation of an individual image",
+      "target_id": "T028"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and select negatives before contact sheets existed",
+      "target_id": "T029"
+    },
+    {
+      "canonical_target": "The effect of viewing images in sequence and alongside neighboring frames on a photographer’s assessment compared with evaluating each image in isolation.",
+      "target_id": "T030"
+    },
+    {
+      "canonical_target": "The comparative advantages of using a contact sheet over modern digital photography workflows",
+      "target_id": "T031"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual qualities with its relationship to neighboring images when selecting negatives for larger prints.",
+      "target_id": "T032"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and organize their images before contact sheets existed",
+      "target_id": "T033"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual strengths with its relationship to neighboring images when choosing negatives for enlargement.",
+      "target_id": "T034"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use to mark selected images directly on a contact sheet.",
+      "target_id": "T035"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame's individual strengths with its relationship to neighboring images when selecting negatives for enlargement",
+      "target_id": "T036"
+    },
+    {
+      "canonical_target": "The process for making a contact sheet from a roll of film",
+      "target_id": "T037"
+    },
+    {
+      "canonical_target": "The process by which negatives are used to produce a contact sheet of small positive images on photographic paper.",
+      "target_id": "T038"
+    },
+    {
+      "canonical_target": "The typical methods photographers use to mark or annotate promising frames on a contact sheet.",
+      "target_id": "T039"
+    },
+    {
+      "canonical_target": "Whether the physical arrangement of neighboring frames independently biases image selection apart from each frame's individual quality",
+      "target_id": "T040"
+    },
+    {
+      "canonical_target": "The symbols or marks photographers typically use to designate contact-sheet frames for larger printing.",
+      "target_id": "T041"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether to prioritize a frame’s individual aesthetic qualities or its narrative relationship to adjacent images",
+      "target_id": "T042"
+    },
+    {
+      "canonical_target": "The changes digital photography introduced to photographers’ process for reviewing and selecting images from a shoot",
+      "target_id": "T043"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use to identify selected images on a contact sheet.",
+      "target_id": "T044"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s standalone quality with its relationship to neighboring images when choosing negatives for enlargement",
+      "target_id": "T045"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing individual frame quality with narrative continuity when selecting negatives for printing",
+      "target_id": "T046"
+    },
+    {
+      "canonical_target": "The criteria photographers use to balance a frame's individual merits with its relationship to neighboring images when selecting negatives for enlargement.",
+      "target_id": "T047"
+    },
+    {
+      "canonical_target": "The effect of digital photography on whether and why contact sheets are needed",
+      "target_id": "T048"
+    },
+    {
+      "canonical_target": "The typical method photographers use to mark promising images on a contact sheet.",
+      "target_id": "T049"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use to identify selected images on a contact sheet.",
+      "target_id": "T050"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use to identify preferred frames on a contact sheet.",
+      "target_id": "T051"
+    },
+    {
+      "canonical_target": "The typical decision criterion photographers use to weigh a frame's individual qualities against its relationship to neighboring images when selecting from a contact sheet.",
+      "target_id": "T052"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame's individual strengths with its relationship to neighboring images when selecting negatives",
+      "target_id": "T053"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and select images before contact sheets existed",
+      "target_id": "T054"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images when selecting photographs from a contact sheet.",
+      "target_id": "T055"
+    },
+    {
+      "canonical_target": "The effect of viewing images alongside neighboring frames on a photographer’s assessment compared with evaluating each negative in isolation",
+      "target_id": "T056"
+    },
+    {
+      "canonical_target": "The tools or marks photographers typically use to indicate selected images directly on a contact sheet.",
+      "target_id": "T057"
+    },
+    {
+      "canonical_target": "The procedure a photographer uses to create a contact sheet from a roll of negatives",
+      "target_id": "T058"
+    },
+    {
+      "canonical_target": "The criteria and decision process photographers typically use to select contact-sheet frames for enlargement into full prints.",
+      "target_id": "T059"
+    },
+    {
+      "canonical_target": "The effect of sequential context on a photographer’s evaluation of individual frames compared with evaluating them in isolation.",
+      "target_id": "T060"
+    },
+    {
+      "canonical_target": "The effect of sequential context on a photographer’s evaluation of individual frames compared with isolated viewing.",
+      "target_id": "T061"
+    },
+    {
+      "canonical_target": "The typical method or symbols photographers use to mark promising images on a contact sheet.",
+      "target_id": "T062"
+    },
+    {
+      "canonical_target": "Modern digital tools or methods that provide a comparative overview of multiple photographs equivalent to a contact sheet",
+      "target_id": "T063"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s standalone quality with its relationship to neighboring images when selecting negatives from a contact sheet.",
+      "target_id": "T064"
+    },
+    {
+      "canonical_target": "The methods photographers most commonly use to mark promising images on contact sheets.",
+      "target_id": "T065"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images when selecting negatives",
+      "target_id": "T066"
+    },
+    {
+      "canonical_target": "The ways digital photography workflows have replaced or altered the review, comparison, selection, and sequencing functions of contact sheets",
+      "target_id": "T067"
+    },
+    {
+      "canonical_target": "The tools or marks photographers typically use to identify contact-sheet frames selected for larger printing.",
+      "target_id": "T068"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use to identify contact-sheet frames selected for larger prints.",
+      "target_id": "T069"
+    },
+    {
+      "canonical_target": "The typical process a photographer uses to produce a contact sheet from a roll of negatives.",
+      "target_id": "T070"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images during photograph selection",
+      "target_id": "T071"
+    },
+    {
+      "canonical_target": "Modern digital tools or methods used to review, compare, mark, and select photographs in a process equivalent to contact-sheet review",
+      "target_id": "T072"
+    },
+    {
+      "canonical_target": "The tools and marking implements photographers typically use to inspect and annotate contact sheets",
+      "target_id": "T073"
+    },
+    {
+      "canonical_target": "The typical balance photographers use between a frame's individual merit and its thematic or narrative continuity with adjacent frames when selecting images",
+      "target_id": "T074"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use to identify contact-sheet frames selected for enlargement.",
+      "target_id": "T075"
+    },
+    {
+      "canonical_target": "The typical methods photographers use to mark or annotate selected frames directly on a contact sheet.",
+      "target_id": "T076"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame's individual strengths with its relationship to neighboring images when selecting negatives for enlargement",
+      "target_id": "T077"
+    },
+    {
+      "canonical_target": "The practical procedure for creating a contact sheet and reviewing, comparing, marking, and selecting frames for enlargement",
+      "target_id": "T078"
+    },
+    {
+      "canonical_target": "The methods photographers used to select negatives for larger prints before contact sheets existed",
+      "target_id": "T079"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use to identify selected frames on a contact sheet.",
+      "target_id": "T080"
+    },
+    {
+      "canonical_target": "The typical method photographers use to mark or indicate selected contact-sheet images for printing.",
+      "target_id": "T081"
+    },
+    {
+      "canonical_target": "The typical pre-digital method photographers used to review, compare, and select images for larger prints",
+      "target_id": "T082"
+    },
+    {
+      "canonical_target": "The tools or methods photographers use to mark or select images on a contact sheet.",
+      "target_id": "T083"
+    },
+    {
+      "canonical_target": "The typical method photographers use to mark the most promising frames on a contact sheet.",
+      "target_id": "T084"
+    },
+    {
+      "canonical_target": "The effects of the transition from film to digital photography on the use and continuing relevance of contact sheets",
+      "target_id": "T085"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual qualities with its relationship to neighboring images when selecting negatives for enlargement",
+      "target_id": "T086"
+    },
+    {
+      "canonical_target": "The typical methods photographers use to mark or annotate promising images on a contact sheet.",
+      "target_id": "T087"
+    },
+    {
+      "canonical_target": "The typical decision criterion photographers use to balance a frame's individual qualities against its relationship to neighboring images when selecting photographs.",
+      "target_id": "T088"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual qualities with its relationship to neighboring images when selecting negatives for larger prints",
+      "target_id": "T089"
+    },
+    {
+      "canonical_target": "The typical criteria and weighting photographers use to balance a frame’s standalone merits with its relationship to adjacent frames during contact-sheet selection.",
+      "target_id": "T090"
+    },
+    {
+      "canonical_target": "The tools or marks photographers typically use to indicate selected images on a contact sheet.",
+      "target_id": "T091"
+    },
+    {
+      "canonical_target": "The criteria for deciding whether to prioritize a frame’s individual aesthetic qualities or its visual continuity with neighboring images.",
+      "target_id": "T092"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use to identify contact-sheet frames selected for enlargement.",
+      "target_id": "T093"
+    },
+    {
+      "canonical_target": "The pre-digital method photographers used to review and select images efficiently.",
+      "target_id": "T094"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and select negatives before contact sheets were invented",
+      "target_id": "T095"
+    },
+    {
+      "canonical_target": "The methods photographers used to review their photographs before contact sheets existed",
+      "target_id": "T096"
+    },
+    {
+      "canonical_target": "The effect of viewing an image alongside neighboring frames rather than in isolation on the photographer’s assessment of that image",
+      "target_id": "T097"
+    },
+    {
+      "canonical_target": "The percentage of professional photographers who still use contact sheets despite the prevalence of digital photography.",
+      "target_id": "T098"
+    },
+    {
+      "canonical_target": "The identities of contemporary photographers who still use contact sheets despite digital photography.",
+      "target_id": "T099"
+    },
+    {
+      "canonical_target": "Photographers’ methods for selecting negatives before contact sheets were widely used",
+      "target_id": "T100"
+    },
+    {
+      "canonical_target": "The typical markings or annotations used on a contact sheet to identify frames selected for larger prints",
+      "target_id": "T101"
+    },
+    {
+      "canonical_target": "The tools or marking implements photographers typically use to annotate contact sheets.",
+      "target_id": "T102"
+    },
+    {
+      "canonical_target": "Modern digital tools or techniques used to review and compare multiple photographs as contact sheets did",
+      "target_id": "T103"
+    },
+    {
+      "canonical_target": "The technical procedure for creating a photographic contact sheet in a darkroom",
+      "target_id": "T104"
+    },
+    {
+      "canonical_target": "Changes in photographers' image-selection processes after digital photography rendered contact sheets obsolete",
+      "target_id": "T105"
+    },
+    {
+      "canonical_target": "The tools and marking implements photographers typically use to inspect, evaluate, and annotate contact sheets.",
+      "target_id": "T106"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use on contact sheets to identify promising images.",
+      "target_id": "T107"
+    },
+    {
+      "canonical_target": "The procedure a photographer uses to produce a contact sheet from a roll of negatives.",
+      "target_id": "T108"
+    },
+    {
+      "canonical_target": "The comparative advantages of reviewing an entire sequence of images together on a contact sheet rather than inspecting negatives individually with a loupe.",
+      "target_id": "T109"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use to identify contact-sheet frames selected for larger prints.",
+      "target_id": "T110"
+    },
+    {
+      "canonical_target": "The method photographers used to select images for printing before contact sheets were invented.",
+      "target_id": "T111"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame's individual qualities with its relationship to neighboring images when selecting negatives for enlargement",
+      "target_id": "T112"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and select negatives before contact sheets existed",
+      "target_id": "T113"
+    },
+    {
+      "canonical_target": "The typical methods photographers use to mark or annotate selected negatives for printing on contact sheets.",
+      "target_id": "T114"
+    },
+    {
+      "canonical_target": "The methods photographers used to select negatives for enlargement before contact sheets existed",
+      "target_id": "T115"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images when selecting photographs from a contact sheet",
+      "target_id": "T116"
+    },
+    {
+      "canonical_target": "The differences in what photographers notice about images when viewing them in sequence on a contact sheet versus evaluating negatives individually",
+      "target_id": "T117"
+    },
+    {
+      "canonical_target": "The methods photographers used to compare and select images before contact sheets existed",
+      "target_id": "T118"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame's individual qualities with its relationship to neighboring images when selecting negatives for enlargement",
+      "target_id": "T119"
+    },
+    {
+      "canonical_target": "The symbols or marks photographers typically use to identify promising images on a contact sheet.",
+      "target_id": "T120"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and select negatives before contact sheets existed.",
+      "target_id": "T121"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use on a contact sheet to identify selected frames.",
+      "target_id": "T122"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing an image's standalone merit against its value within a sequence when selecting photographs",
+      "target_id": "T123"
+    },
+    {
+      "canonical_target": "The methods photographers used to organize and select images before contact sheets existed",
+      "target_id": "T124"
+    },
+    {
+      "canonical_target": "The tools or methods used to mark promising images on a contact sheet.",
+      "target_id": "T125"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and select images before contact sheets existed",
+      "target_id": "T126"
+    },
+    {
+      "canonical_target": "The tools or marks photographers typically use to identify promising images on a contact sheet.",
+      "target_id": "T127"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and select images before contact sheets existed",
+      "target_id": "T128"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s standalone quality with its relationship to neighboring images when selecting negatives from a contact sheet.",
+      "target_id": "T129"
+    },
+    {
+      "canonical_target": "The typical balance photographers use between a frame’s individual aesthetic quality and its compositional relationship with adjacent frames when selecting images from a contact sheet.",
+      "target_id": "T130"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s standalone merit against its visual coherence with adjacent images when selecting frames from a contact sheet.",
+      "target_id": "T131"
+    },
+    {
+      "canonical_target": "The methods photographers used to review and select images before contact sheets existed",
+      "target_id": "T132"
+    },
+    {
+      "canonical_target": "The criteria photographers use to select frames for larger prints, including individual image qualities and relationships to neighboring frames.",
+      "target_id": "T133"
+    },
+    {
+      "canonical_target": "The differences in image evaluation produced by viewing frames together on a contact sheet versus reviewing them individually on a light table or screen.",
+      "target_id": "T134"
+    },
+    {
+      "canonical_target": "The tools or markings photographers typically use to identify selected images on a contact sheet.",
+      "target_id": "T135"
+    },
+    {
+      "canonical_target": "Common methods photographers use to mark contact-sheet images selected for enlargement",
+      "target_id": "T136"
+    },
+    {
+      "canonical_target": "The decision criterion for balancing a frame’s individual qualities with its comparative relationship to neighboring images when selecting negatives for larger prints",
+      "target_id": "T137"
+    },
+    {
+      "canonical_target": "The effect of sequential context on how a photographer evaluates and interprets individual frames compared with viewing them in isolation.",
+      "target_id": "T138"
+    },
+    {
+      "canonical_target": "The typical methods photographers use to mark or annotate promising frames on a contact sheet.",
+      "target_id": "T139"
+    },
+    {
+      "canonical_target": "The methods photographers typically use to mark promising images on a contact sheet.",
+      "target_id": "T140"
+    }
+  ],
+  "topic_packet_id": "AU-E1-T11"
+}

@@ -1,0 +1,649 @@
+{
+  "amendment_id": "E1A",
+  "packet_id": "AU-E1-S2-R01-T05",
+  "protocol_id": "E1",
+  "representation_set_id": "AU-E1-R01",
+  "schema_version": "au-e1-stage2-topic-packet-v1",
+  "stage": "stage2_blinded_topic_partition",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "target_count": 159,
+  "targets": [
+    {
+      "canonical_target": "The runner-specific decision criteria for selecting the optimal point to begin accelerating while balancing handoff speed against exchange risk.",
+      "target_id": "T001"
+    },
+    {
+      "canonical_target": "The typical distance the outgoing runner covers while accelerating before receiving the baton",
+      "target_id": "T002"
+    },
+    {
+      "canonical_target": "The typical acceleration distance an outgoing runner needs to reach optimal baton-handoff speed.",
+      "target_id": "T003"
+    },
+    {
+      "canonical_target": "The criteria coaches use to choose each outgoing runner’s acceleration start point while balancing speed gains against failed-exchange risk.",
+      "target_id": "T004"
+    },
+    {
+      "canonical_target": "The consequence of exchanging the baton outside the permitted exchange zone",
+      "target_id": "T005"
+    },
+    {
+      "canonical_target": "The process and criteria teams use to determine and refine the outgoing runner’s optimal start mark for a specific runner pairing.",
+      "target_id": "T006"
+    },
+    {
+      "canonical_target": "The typical official length of the permitted baton exchange zone.",
+      "target_id": "T007"
+    },
+    {
+      "canonical_target": "The criteria for tailoring outgoing runners’ start marks to different runner pairings for a well-timed baton exchange within the permitted zone",
+      "target_id": "T008"
+    },
+    {
+      "canonical_target": "The method teams use to determine the optimal outgoing-runner start mark for a specific runner pairing.",
+      "target_id": "T009"
+    },
+    {
+      "canonical_target": "The optimal starting position within the exchange zone for the outgoing runner to begin accelerating while balancing speed and handoff safety",
+      "target_id": "T010"
+    },
+    {
+      "canonical_target": "The way teams modify outgoing-runner start marks to suit the timing and acceleration of a new runner pairing.",
+      "target_id": "T011"
+    },
+    {
+      "canonical_target": "The typical distance spanned by the permitted baton exchange zone",
+      "target_id": "T012"
+    },
+    {
+      "canonical_target": "The decision criterion for timing the outgoing runner’s acceleration based on the incoming runner’s approach.",
+      "target_id": "T013"
+    },
+    {
+      "canonical_target": "The pairing-specific factors that determine the outgoing runner's optimal acceleration start mark for a legal, well-timed baton exchange at speed.",
+      "target_id": "T014"
+    },
+    {
+      "canonical_target": "The method teams use to determine the optimal outgoing-runner start mark and baton-handoff timing for each runner pairing",
+      "target_id": "T015"
+    },
+    {
+      "canonical_target": "The method teams use to determine the optimal acceleration start mark for each outgoing runner and relay pairing",
+      "target_id": "T016"
+    },
+    {
+      "canonical_target": "The optimal starting position of the outgoing runner relative to the incoming runner for minimizing failed baton-transfer risk.",
+      "target_id": "T017"
+    },
+    {
+      "canonical_target": "The pairing-specific factors that determine the ideal outgoing runner start mark for a legal, well-timed baton exchange at speed.",
+      "target_id": "T018"
+    },
+    {
+      "canonical_target": "The process and criteria teams use to determine the optimal outgoing-runner start mark for each runner pairing.",
+      "target_id": "T019"
+    },
+    {
+      "canonical_target": "The typical duration of a full-speed baton handoff",
+      "target_id": "T020"
+    },
+    {
+      "canonical_target": "The factors used to choose the outgoing runner’s acceleration start point while balancing handoff speed and exchange-zone risk.",
+      "target_id": "T021"
+    },
+    {
+      "canonical_target": "The criteria and method coaches use to choose each outgoing runner’s acceleration start point while balancing handoff speed against exchange risk.",
+      "target_id": "T022"
+    },
+    {
+      "canonical_target": "The process and criteria teams use to determine the optimal outgoing-runner start mark for a specific runner pairing.",
+      "target_id": "T023"
+    },
+    {
+      "canonical_target": "The incoming runner's position relative to the outgoing runner at the start of the baton handoff",
+      "target_id": "T024"
+    },
+    {
+      "canonical_target": "The criteria and method for selecting each outgoing runner’s starting point to balance handoff speed gains against exchange risk.",
+      "target_id": "T025"
+    },
+    {
+      "canonical_target": "The method teams use to determine the optimal start mark for each outgoing runner",
+      "target_id": "T026"
+    },
+    {
+      "canonical_target": "The optimal starting position for the outgoing runner’s acceleration that balances handoff speed with safe exchange-zone compliance.",
+      "target_id": "T027"
+    },
+    {
+      "canonical_target": "The pairing-specific factors that determine the outgoing runner's ideal acceleration start mark for a legal, well-timed baton exchange at speed",
+      "target_id": "T028"
+    },
+    {
+      "canonical_target": "The standard permitted relay exchange zone's length",
+      "target_id": "T029"
+    },
+    {
+      "canonical_target": "The method teams use to determine the outgoing runner's optimal start mark for a timely exchange within the permitted zone",
+      "target_id": "T030"
+    },
+    {
+      "canonical_target": "The consequence of a baton handoff occurring outside the permitted exchange zone.",
+      "target_id": "T031"
+    },
+    {
+      "canonical_target": "The process teams use to determine the optimal outgoing-runner start mark for a specific runner pairing.",
+      "target_id": "T032"
+    },
+    {
+      "canonical_target": "The typical amount of practice or rehearsal required for a team to perform smooth baton exchanges reliably.",
+      "target_id": "T033"
+    },
+    {
+      "canonical_target": "The standard exchange zone's length in a relay race.",
+      "target_id": "T034"
+    },
+    {
+      "canonical_target": "The decision criterion for selecting the outgoing runner’s acceleration start point by balancing handoff speed gains against the risk of exceeding the exchange zone",
+      "target_id": "T035"
+    },
+    {
+      "canonical_target": "The method for tailoring outgoing runners' start marks to different runner pairings.",
+      "target_id": "T036"
+    },
+    {
+      "canonical_target": "The criteria and method for selecting each outgoing runner’s starting position to balance handoff speed against exchange risk",
+      "target_id": "T037"
+    },
+    {
+      "canonical_target": "The length of the permitted baton exchange zone",
+      "target_id": "T038"
+    },
+    {
+      "canonical_target": "The track markings or boundaries that define the permitted baton exchange zone.",
+      "target_id": "T039"
+    },
+    {
+      "canonical_target": "The distance before the exchange zone at which the outgoing runner should begin accelerating.",
+      "target_id": "T040"
+    },
+    {
+      "canonical_target": "The decision criterion for selecting the outgoing runner’s optimal starting point by balancing speed gains against baton-exchange risk.",
+      "target_id": "T041"
+    },
+    {
+      "canonical_target": "The length of the permitted baton exchange zone in a relay race.",
+      "target_id": "T042"
+    },
+    {
+      "canonical_target": "The method teams use to determine the optimal outgoing runner start mark for each runner pairing",
+      "target_id": "T043"
+    },
+    {
+      "canonical_target": "The pair-specific factors that determine the ideal outgoing runner start mark distance for a legal, well-timed baton exchange at speed",
+      "target_id": "T044"
+    },
+    {
+      "canonical_target": "The ideal receiving position within the exchange zone for the outgoing runner.",
+      "target_id": "T045"
+    },
+    {
+      "canonical_target": "The typical length of the exchange zone and the criteria coaches use to choose the outgoing runner’s optimal acceleration starting point within it",
+      "target_id": "T046"
+    },
+    {
+      "canonical_target": "The pair-specific factors that determine the outgoing runner’s ideal acceleration start mark for a legal, well-timed baton exchange at speed",
+      "target_id": "T047"
+    },
+    {
+      "canonical_target": "The method or criteria teams use to determine the optimal pre-exchange acceleration distance for the outgoing runner",
+      "target_id": "T048"
+    },
+    {
+      "canonical_target": "The method teams use to modify the outgoing runner’s start mark for a new runner pairing",
+      "target_id": "T049"
+    },
+    {
+      "canonical_target": "The method teams use to adjust the outgoing runner’s start mark for differences in the runners’ speeds and acceleration patterns.",
+      "target_id": "T050"
+    },
+    {
+      "canonical_target": "The consequence for a team of exchanging the baton outside the permitted exchange zone.",
+      "target_id": "T051"
+    },
+    {
+      "canonical_target": "The way teams modify outgoing runners’ start marks to accommodate different runner pairings.",
+      "target_id": "T052"
+    },
+    {
+      "canonical_target": "The factors that determine the ideal start-mark placement for a specific runner pairing within the exchange zone.",
+      "target_id": "T053"
+    },
+    {
+      "canonical_target": "The typical permitted length of the baton exchange zone in a relay race.",
+      "target_id": "T054"
+    },
+    {
+      "canonical_target": "The method teams use to determine the appropriate outgoing-runner start mark for a specific runner pairing.",
+      "target_id": "T055"
+    },
+    {
+      "canonical_target": "The consequences of dropping the baton during the exchange",
+      "target_id": "T056"
+    },
+    {
+      "canonical_target": "The method for adjusting outgoing-runner start marks to suit the timing and speed of different runner pairings",
+      "target_id": "T057"
+    },
+    {
+      "canonical_target": "The typical length of the permitted baton exchange zone in a relay race.",
+      "target_id": "T058"
+    },
+    {
+      "canonical_target": "The way teams modify outgoing runners’ start marks to accommodate speed differences between paired runners.",
+      "target_id": "T059"
+    },
+    {
+      "canonical_target": "The decision criteria coaches use to choose the outgoing runner’s starting point while balancing handoff speed against exchange risk.",
+      "target_id": "T060"
+    },
+    {
+      "canonical_target": "The typical permitted length of the baton exchange zone.",
+      "target_id": "T061"
+    },
+    {
+      "canonical_target": "The typical length of the permitted baton exchange zone in relay racing.",
+      "target_id": "T062"
+    },
+    {
+      "canonical_target": "The pairing-specific factors that determine the ideal start mark for the outgoing runner",
+      "target_id": "T063"
+    },
+    {
+      "canonical_target": "The decision criteria coaches use to select the outgoing runner’s acceleration start point while balancing handoff speed against exchange risk within the permitted zone.",
+      "target_id": "T064"
+    },
+    {
+      "canonical_target": "The method teams use to determine optimal start marks and handoff timing for each runner pairing",
+      "target_id": "T065"
+    },
+    {
+      "canonical_target": "The standard permitted exchange zone's length in a relay race.",
+      "target_id": "T066"
+    },
+    {
+      "canonical_target": "The typical distance the outgoing runner covers before receiving the baton",
+      "target_id": "T067"
+    },
+    {
+      "canonical_target": "The factors that determine the ideal outgoing-runner start mark for a particular runner pairing",
+      "target_id": "T068"
+    },
+    {
+      "canonical_target": "The criteria teams use to determine the incoming runner’s approach starting point for a properly timed baton handoff",
+      "target_id": "T069"
+    },
+    {
+      "canonical_target": "The typical permitted length of the baton exchange zone in a relay race.",
+      "target_id": "T070"
+    },
+    {
+      "canonical_target": "The decision criterion coaches use to choose an outgoing runner’s starting point that balances handoff speed against exchange risk.",
+      "target_id": "T071"
+    },
+    {
+      "canonical_target": "The method teams use to adjust the outgoing runner’s start mark for a new runner pairing",
+      "target_id": "T072"
+    },
+    {
+      "canonical_target": "The optimal starting position of the outgoing runner relative to the incoming runner for minimizing baton-transfer fumble risk during acceleration",
+      "target_id": "T073"
+    },
+    {
+      "canonical_target": "The consequence of passing the baton outside the permitted exchange zone",
+      "target_id": "T074"
+    },
+    {
+      "canonical_target": "The length of the permitted baton exchange zone",
+      "target_id": "T075"
+    },
+    {
+      "canonical_target": "The typical length of the permitted baton exchange zone",
+      "target_id": "T076"
+    },
+    {
+      "canonical_target": "The criteria and method for selecting each outgoing runner’s starting mark to balance handoff speed against exchange-zone risk.",
+      "target_id": "T077"
+    },
+    {
+      "canonical_target": "The method or criteria teams use to determine the optimal acceleration start distance relative to the exchange zone",
+      "target_id": "T078"
+    },
+    {
+      "canonical_target": "The criteria and process used to determine the ideal outgoing-runner start mark for a specific runner pairing",
+      "target_id": "T079"
+    },
+    {
+      "canonical_target": "The typical distance before the exchange zone at which the outgoing runner should begin accelerating",
+      "target_id": "T080"
+    },
+    {
+      "canonical_target": "The process and criteria teams use to determine optimal outgoing-runner start marks for each runner pairing",
+      "target_id": "T081"
+    },
+    {
+      "canonical_target": "How teams adapt outgoing-runner start marks and handoff timing to the speeds and stride lengths of different runner pairings",
+      "target_id": "T082"
+    },
+    {
+      "canonical_target": "The practical criteria and method used to determine the outgoing runner's optimal acceleration starting point.",
+      "target_id": "T083"
+    },
+    {
+      "canonical_target": "The standard permitted exchange zone's length in a relay race.",
+      "target_id": "T084"
+    },
+    {
+      "canonical_target": "The pairing-specific factors that determine whether a start mark enables a well-timed baton exchange within the permitted zone.",
+      "target_id": "T085"
+    },
+    {
+      "canonical_target": "The typical width of the permitted baton exchange zone in a relay race.",
+      "target_id": "T086"
+    },
+    {
+      "canonical_target": "The typical distance before the exchange zone at which the outgoing runner should begin accelerating.",
+      "target_id": "T087"
+    },
+    {
+      "canonical_target": "The strategy adjustments teams make to start marks and handoff timing when paired runners have significantly different speeds.",
+      "target_id": "T088"
+    },
+    {
+      "canonical_target": "The runner-pair-specific factors that determine why different start marks are needed for a properly timed baton exchange over the same distance",
+      "target_id": "T089"
+    },
+    {
+      "canonical_target": "The typical measured length of the permitted baton exchange zone",
+      "target_id": "T090"
+    },
+    {
+      "canonical_target": "The criteria and method coaches use to choose each outgoing runner’s starting point by balancing handoff speed against exchange risk.",
+      "target_id": "T091"
+    },
+    {
+      "canonical_target": "The way teams modify start marks to correct rushed or stretched baton exchanges for a particular runner pairing.",
+      "target_id": "T092"
+    },
+    {
+      "canonical_target": "The method teams use to determine an appropriate start mark for a specific runner pairing",
+      "target_id": "T093"
+    },
+    {
+      "canonical_target": "The decision criterion coaches use to select each outgoing runner’s acceleration start point by balancing speed gains with safe baton exchange within the permitted zone.",
+      "target_id": "T094"
+    },
+    {
+      "canonical_target": "The method and criteria teams use to determine the optimal acceleration start distance before the exchange zone",
+      "target_id": "T095"
+    },
+    {
+      "canonical_target": "The pairing-specific factors that make a rehearsed start mark produce a rushed or stretched baton exchange",
+      "target_id": "T096"
+    },
+    {
+      "canonical_target": "The team's recovery procedure when the incoming runner arrives in the exchange zone before the outgoing runner reaches the proper speed",
+      "target_id": "T097"
+    },
+    {
+      "canonical_target": "The typical measured length of the permitted baton exchange zone.",
+      "target_id": "T098"
+    },
+    {
+      "canonical_target": "The optimal starting position of the outgoing runner relative to the incoming runner that balances handoff speed with safe exchange-zone completion.",
+      "target_id": "T099"
+    },
+    {
+      "canonical_target": "The decision criteria for selecting each outgoing runner’s starting point to balance handoff speed against exchange risk",
+      "target_id": "T100"
+    },
+    {
+      "canonical_target": "The method and decision criteria used to determine the outgoing runner’s optimal acceleration starting point",
+      "target_id": "T101"
+    },
+    {
+      "canonical_target": "The adjustments to start marks and handoff timing needed to coordinate a baton exchange between runners with significantly different speeds.",
+      "target_id": "T102"
+    },
+    {
+      "canonical_target": "The decision criterion for choosing the outgoing runner’s starting point by balancing handoff speed gains against the risk of failing to complete the exchange within the permitted zone.",
+      "target_id": "T103"
+    },
+    {
+      "canonical_target": "The decision criterion for selecting the outgoing runner’s starting point to balance handoff speed against exchange-zone risk.",
+      "target_id": "T104"
+    },
+    {
+      "canonical_target": "The method teams use to determine the optimal start mark for the outgoing runner.",
+      "target_id": "T105"
+    },
+    {
+      "canonical_target": "The purpose of start marks in coordinating the outgoing runner’s acceleration and timing with the incoming runner’s arrival for an in-zone, at-speed baton handoff.",
+      "target_id": "T106"
+    },
+    {
+      "canonical_target": "The typical amount of pre-competition practice time teams devote to handoff coordination.",
+      "target_id": "T107"
+    },
+    {
+      "canonical_target": "The process teams use to determine optimal outgoing-runner start marks for each pairing",
+      "target_id": "T108"
+    },
+    {
+      "canonical_target": "The method for adapting start marks to suit the timing and acceleration of different runner pairings.",
+      "target_id": "T109"
+    },
+    {
+      "canonical_target": "The method teams use to recalibrate exchange-zone start marks for new runner pairings with different stride lengths or speeds.",
+      "target_id": "T110"
+    },
+    {
+      "canonical_target": "The process and criteria teams use to determine the ideal outgoing-runner start mark for a specific runner pairing.",
+      "target_id": "T111"
+    },
+    {
+      "canonical_target": "The consequences of dropping or fumbling the baton during the exchange",
+      "target_id": "T112"
+    },
+    {
+      "canonical_target": "The pairing-specific factors that determine the ideal outgoing runner start mark for a legal, well-timed baton exchange at speed.",
+      "target_id": "T113"
+    },
+    {
+      "canonical_target": "The amount of time available to complete the baton exchange while both runners are within the permitted exchange zone.",
+      "target_id": "T114"
+    },
+    {
+      "canonical_target": "How teams adjust start marks for each runner pairing based on differences in speed and stride length",
+      "target_id": "T115"
+    },
+    {
+      "canonical_target": "The pairing-specific factors that determine the optimal outgoing runner start mark for a legal, well-timed baton exchange at speed",
+      "target_id": "T116"
+    },
+    {
+      "canonical_target": "The distance available or required for the incoming runner to complete the baton handoff before the runners leave the exchange zone.",
+      "target_id": "T117"
+    },
+    {
+      "canonical_target": "The process and criteria relay teams use to determine the optimal outgoing-runner start mark for a specific runner pairing.",
+      "target_id": "T118"
+    },
+    {
+      "canonical_target": "The criteria and method teams use to determine the optimal acceleration start distance before the exchange zone",
+      "target_id": "T119"
+    },
+    {
+      "canonical_target": "The factors used to determine the acceleration start point that best balances handoff speed gains against the risk of failing to complete the baton exchange within the permitted zone.",
+      "target_id": "T120"
+    },
+    {
+      "canonical_target": "The method teams use to tailor outgoing runners’ start marks to the timing and speed characteristics of different runner pairings",
+      "target_id": "T121"
+    },
+    {
+      "canonical_target": "The criteria and process teams use to determine the outgoing runner’s optimal acceleration start distance before the exchange zone.",
+      "target_id": "T122"
+    },
+    {
+      "canonical_target": "The method teams use to determine the appropriate outgoing-runner start mark for each runner pairing.",
+      "target_id": "T123"
+    },
+    {
+      "canonical_target": "The process and criteria teams use to determine the optimal outgoing-runner starting mark for a specific runner pairing.",
+      "target_id": "T124"
+    },
+    {
+      "canonical_target": "The specific procedure teams use to determine the appropriate start mark for a particular runner pairing.",
+      "target_id": "T125"
+    },
+    {
+      "canonical_target": "The criteria and method used to determine each outgoing runner’s acceleration start point while balancing handoff speed against exchange-zone risk.",
+      "target_id": "T126"
+    },
+    {
+      "canonical_target": "The specific distance before the exchange zone at which the outgoing runner should begin accelerating.",
+      "target_id": "T127"
+    },
+    {
+      "canonical_target": "The practice-based process teams use to determine optimal outgoing-runner start marks for each baton-exchange pairing.",
+      "target_id": "T128"
+    },
+    {
+      "canonical_target": "The criteria and method for selecting each outgoing runner’s starting point to balance handoff speed gains against exchange risk within the permitted zone.",
+      "target_id": "T129"
+    },
+    {
+      "canonical_target": "The method and criteria teams use to determine the outgoing runner’s optimal acceleration start distance before the exchange zone",
+      "target_id": "T130"
+    },
+    {
+      "canonical_target": "The pair-specific factors that determine the outgoing runner's ideal acceleration start mark for a legal, well-timed baton exchange at speed",
+      "target_id": "T131"
+    },
+    {
+      "canonical_target": "The decision criteria coaches use to choose the outgoing runner’s starting point that balances handoff speed against exchange risk.",
+      "target_id": "T132"
+    },
+    {
+      "canonical_target": "The criteria and method coaches use to select each outgoing runner’s precise acceleration starting point while balancing handoff speed and exchange risk.",
+      "target_id": "T133"
+    },
+    {
+      "canonical_target": "The method teams use to adjust exchange marks for the relative speeds and timing of each runner pairing.",
+      "target_id": "T134"
+    },
+    {
+      "canonical_target": "The length of the permitted baton exchange zone",
+      "target_id": "T135"
+    },
+    {
+      "canonical_target": "The typical distance before the exchange zone at which the outgoing runner begins accelerating",
+      "target_id": "T136"
+    },
+    {
+      "canonical_target": "The amount of the penalty imposed when a baton exchange occurs outside the permitted exchange zone.",
+      "target_id": "T137"
+    },
+    {
+      "canonical_target": "The specific techniques or training methods most effective for improving baton-exchange timing and consistency across different runner pairings.",
+      "target_id": "T138"
+    },
+    {
+      "canonical_target": "The consequence of completing the baton exchange outside the permitted exchange zone.",
+      "target_id": "T139"
+    },
+    {
+      "canonical_target": "The method teams use to determine optimal outgoing-runner start marks for each runner pairing",
+      "target_id": "T140"
+    },
+    {
+      "canonical_target": "The pairing-specific factors that determine the outgoing runner’s ideal acceleration start mark for a legal, well-timed baton exchange at speed.",
+      "target_id": "T141"
+    },
+    {
+      "canonical_target": "The typical distance the incoming runner covers before transferring the baton",
+      "target_id": "T142"
+    },
+    {
+      "canonical_target": "The decision criterion for choosing the outgoing runner’s optimal starting point by balancing speed gains against exchange risk.",
+      "target_id": "T143"
+    },
+    {
+      "canonical_target": "The optimal starting position for the outgoing runner to balance acceleration and a timely baton handoff within the exchange zone.",
+      "target_id": "T144"
+    },
+    {
+      "canonical_target": "The consequence for a team of completing the baton exchange outside the permitted exchange zone.",
+      "target_id": "T145"
+    },
+    {
+      "canonical_target": "The runner-specific criteria and process used to determine the optimal point for beginning acceleration within the exchange zone.",
+      "target_id": "T146"
+    },
+    {
+      "canonical_target": "The criteria and process coaches use to select each outgoing runner’s starting mark while balancing handoff speed against exchange-zone risk.",
+      "target_id": "T147"
+    },
+    {
+      "canonical_target": "The typical length of the permitted baton exchange zone.",
+      "target_id": "T148"
+    },
+    {
+      "canonical_target": "The process and criteria teams use to determine optimal outgoing-runner start marks for each specific runner pairing.",
+      "target_id": "T149"
+    },
+    {
+      "canonical_target": "The method teams use to recalibrate outgoing runners’ start marks for different runners or pairings.",
+      "target_id": "T150"
+    },
+    {
+      "canonical_target": "The consequence of a baton handoff occurring outside the permitted exchange zone",
+      "target_id": "T151"
+    },
+    {
+      "canonical_target": "The pairing-specific factors that determine the ideal outgoing runner start mark for a legal, well-timed baton exchange at speed",
+      "target_id": "T152"
+    },
+    {
+      "canonical_target": "The appropriate relative position of the incoming runner to the outgoing runner during the baton handoff",
+      "target_id": "T153"
+    },
+    {
+      "canonical_target": "The runner-specific decision criterion for selecting the optimal point to begin accelerating within the exchange zone while balancing speed gain and handoff risk",
+      "target_id": "T154"
+    },
+    {
+      "canonical_target": "The exchange zone's length and the method used to determine the outgoing runner's starting mark within the zone.",
+      "target_id": "T155"
+    },
+    {
+      "canonical_target": "The method teams use to determine the optimal outgoing-runner start mark for each runner pairing",
+      "target_id": "T156"
+    },
+    {
+      "canonical_target": "The ways teams adapt start marks, timing, and handoff positioning within the exchange zone for different runner pairings",
+      "target_id": "T157"
+    },
+    {
+      "canonical_target": "The decision criterion coaches use to choose the outgoing runner’s acceleration start point while balancing handoff speed against exchange risk.",
+      "target_id": "T158"
+    },
+    {
+      "canonical_target": "The decision criterion coaches use to choose the outgoing runner’s starting point that optimally balances speed gains against exchange risk.",
+      "target_id": "T159"
+    }
+  ],
+  "topic_packet_id": "AU-E1-T05"
+}

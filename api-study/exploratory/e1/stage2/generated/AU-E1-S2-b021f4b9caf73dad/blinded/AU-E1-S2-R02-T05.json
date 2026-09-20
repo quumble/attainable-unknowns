@@ -1,0 +1,649 @@
+{
+  "amendment_id": "E1A",
+  "packet_id": "AU-E1-S2-R02-T05",
+  "protocol_id": "E1",
+  "representation_set_id": "AU-E1-R02",
+  "schema_version": "au-e1-stage2-topic-packet-v1",
+  "stage": "stage2_blinded_topic_partition",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "target_count": 159,
+  "targets": [
+    {
+      "canonical_target": "The length of the exchange zone — i.e., the distance available within which the baton pass must be completed before the runners exit it.",
+      "target_id": "T001"
+    },
+    {
+      "canonical_target": "The physical length (distance measurement) of the permitted baton exchange zone.",
+      "target_id": "T002"
+    },
+    {
+      "canonical_target": "The standard length (distance measurement) of the permitted baton exchange zone in relay racing.",
+      "target_id": "T003"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams establish the correct start-mark distance for a given outgoing/incoming runner pairing (i.e., how the mark is determined, not merely that marks are rehearsed).",
+      "target_id": "T004"
+    },
+    {
+      "canonical_target": "The standard length measurement (distance) of the relay baton exchange zone.",
+      "target_id": "T005"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams establish the correct start-mark distance for a given pair of runners (e.g., what measurements, trials, or criteria are used to set and adjust it).",
+      "target_id": "T006"
+    },
+    {
+      "canonical_target": "The method or criteria by which relay teams set the outgoing runner's start mark distance — i.e., how the acceleration-start point is calculated or determined (e.g., from the pairing's relative speeds, acceleration profile, and timing rehearsal).",
+      "target_id": "T007"
+    },
+    {
+      "canonical_target": "A specific starting distance (typical numeric mark ahead of the exchange zone) at which the outgoing runner should begin accelerating.",
+      "target_id": "T008"
+    },
+    {
+      "canonical_target": "The method or procedure teams use to arrive at optimal start-mark placement for each runner pairing during handoff practice.",
+      "target_id": "T009"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams set the start-mark distance that triggers acceleration prior to the exchange (as posed about the incoming runner, though the passage attributes pre-acceleration to the outgoing runner).",
+      "target_id": "T010"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria coaches use to select the outgoing runner's starting mark/point for acceleration, balancing speed at handoff against risk of exchange failure outside the zone.",
+      "target_id": "T011"
+    },
+    {
+      "canonical_target": "The typical distance (length of run-up) the outgoing runner travels while accelerating from the start mark up to the moment of baton receipt.",
+      "target_id": "T012"
+    },
+    {
+      "canonical_target": "The physical length/dimension of the standard baton exchange zone in relay racing, expressed as a measurement.",
+      "target_id": "T013"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams arrive at the optimal start-mark placement for a given pair of runners (e.g., how the distance is calculated, tested, or adjusted based on runners' speeds and rehearsal).",
+      "target_id": "T014"
+    },
+    {
+      "canonical_target": "The optimal location/timing within the exchange zone at which the outgoing runner should be when receiving the baton, balancing accumulated speed against handoff risk.",
+      "target_id": "T015"
+    },
+    {
+      "canonical_target": "The set of runner- and pairing-specific variables (e.g., relative acceleration profiles, top speeds, reaction and closing rates) that determine whether a chosen start mark produces a well-timed handoff within the exchange zone for that particular pair.",
+      "target_id": "T016"
+    },
+    {
+      "canonical_target": "The set of determinants (e.g., relative speeds, acceleration profiles, reaction timing of the two runners) that fix the correct start-mark placement for a specific outgoing/incoming runner pair.",
+      "target_id": "T017"
+    },
+    {
+      "canonical_target": "A typical numeric distance (lead/head-start length) ahead of the exchange zone at which the outgoing runner should start accelerating.",
+      "target_id": "T018"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria coaches use to set the outgoing runner's start mark, trading off acceleration benefit against risk of a failed or out-of-zone handoff.",
+      "target_id": "T019"
+    },
+    {
+      "canonical_target": "The typical distance the incoming runner travels prior to the baton exchange — a quantity (length run before handoff), not the mechanics or timing of the exchange.",
+      "target_id": "T020"
+    },
+    {
+      "canonical_target": "The procedure or adjustment rule teams use to modify start-mark placement in response to a pairing-specific rushed or stretched exchange (i.e., how the mark is moved and on what basis).",
+      "target_id": "T021"
+    },
+    {
+      "canonical_target": "The method or procedure teams use to set and calibrate the outgoing runner's start mark for a specific pairing (e.g., how the distance is derived, tested, and adjusted).",
+      "target_id": "T022"
+    },
+    {
+      "canonical_target": "The factors or criteria (e.g., relative speeds, acceleration profiles, reaction timing of the two runners) that set the correct distance at which the outgoing runner should place the start mark for a specific runner pairing.",
+      "target_id": "T023"
+    },
+    {
+      "canonical_target": "The set of determinants (e.g., relative acceleration profiles, incoming runner's speed, outgoing runner's reaction and acceleration, exchange-zone geometry) that fix the optimal start-mark distance for a specific pair of runners.",
+      "target_id": "T024"
+    },
+    {
+      "canonical_target": "The specific starting placement/separation of the outgoing runner relative to the incoming runner when acceleration begins, chosen to minimize handoff fumble risk.",
+      "target_id": "T025"
+    },
+    {
+      "canonical_target": "The specific starting position (location) within the exchange zone at which the outgoing runner should begin accelerating so as to jointly optimize handoff speed and exchange safety — i.e., a decision criterion specifying an optimal start point, not merely the general effect of starting earlier or later.",
+      "target_id": "T026"
+    },
+    {
+      "canonical_target": "The specific starting distance (a positional threshold ahead of the exchange zone) at which the outgoing runner should begin accelerating.",
+      "target_id": "T027"
+    },
+    {
+      "canonical_target": "The standard length (distance measurement) of the permitted baton exchange zone in relay racing.",
+      "target_id": "T028"
+    },
+    {
+      "canonical_target": "The decision criteria or method coaches use to set each outgoing runner's start-acceleration point, trading off speed at handoff against the risk of an exchange failure outside the zone.",
+      "target_id": "T029"
+    },
+    {
+      "canonical_target": "The rule-based consequence or penalty imposed on a relay team when the baton handoff takes place outside the permitted exchange zone.",
+      "target_id": "T030"
+    },
+    {
+      "canonical_target": "The corrective actions/adjustments a relay team uses during a handoff when the incoming runner arrives before the outgoing runner has reached proper speed, so the exchange can still be completed within the zone.",
+      "target_id": "T031"
+    },
+    {
+      "canonical_target": "The consequence and resulting procedure (e.g., whether the team is disqualified or who may retrieve the baton and how the race continues) when the baton is dropped during a relay exchange — an outcome not addressed by the passage's description of exchange-zone rules and handoff timing.",
+      "target_id": "T032"
+    },
+    {
+      "canonical_target": "The method or decision procedure coaches use to set each outgoing runner's specific start mark within the exchange zone.",
+      "target_id": "T033"
+    },
+    {
+      "canonical_target": "The method or criteria by which a coach determines each outgoing runner's starting/acceleration mark, i.e., how the start point is set to balance achieved handoff speed against the risk of exchanging outside the zone.",
+      "target_id": "T034"
+    },
+    {
+      "canonical_target": "The set of runner- and pair-specific variables (e.g., outgoing runner's acceleration profile and reaction, incoming runner's speed and fatigue at handoff, relative speeds, exchange-zone geometry) that determine where the outgoing runner's start mark should be placed for a given pairing.",
+      "target_id": "T035"
+    },
+    {
+      "canonical_target": "The specific adjustments teams make to relay handoff strategy (e.g., start mark placement, acceleration timing, ordering of runners) when the paired incoming and outgoing runners have markedly different speeds.",
+      "target_id": "T036"
+    },
+    {
+      "canonical_target": "The spatial positioning (relative distance and alignment) the incoming runner should maintain with respect to the outgoing runner at the moment of the baton exchange.",
+      "target_id": "T037"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria a coach uses to set the outgoing runner's start mark, i.e., how the speed benefit of an earlier start is balanced against the risk of a failed or out-of-zone handoff.",
+      "target_id": "T038"
+    },
+    {
+      "canonical_target": "The physical demarcation and definition of the relay exchange zone on the track — how its boundaries are indicated (e.g., lines or markings) and what specifies its location and length.",
+      "target_id": "T039"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams work out the correct start-mark placement for the outgoing runner (how the distance/position is calculated or established in practice), not merely the fact that start marks are rehearsed.",
+      "target_id": "T040"
+    },
+    {
+      "canonical_target": "The procedure or criteria by which teams modify the outgoing runner's start mark placement to suit a specific pairing's relative speeds and acceleration, so the handoff occurs at speed within the exchange zone.",
+      "target_id": "T041"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams work out where the outgoing runner's start mark should be placed for a given pairing of runners.",
+      "target_id": "T042"
+    },
+    {
+      "canonical_target": "The procedures and adjustment principles teams use to recalibrate start-mark placement and handoff timing for specific runner pairings, given differences in speed and stride length.",
+      "target_id": "T043"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria coaches use to set each outgoing runner's start-acceleration mark, balancing speed at handoff against risk of exchange failure.",
+      "target_id": "T044"
+    },
+    {
+      "canonical_target": "A specific numeric starting distance (a threshold point measured before the exchange zone) at which the outgoing runner should begin accelerating.",
+      "target_id": "T045"
+    },
+    {
+      "canonical_target": "The typical amount of practice time teams devote to rehearsing baton handoff coordination in advance of a competition — a duration quantity not specified in the passage.",
+      "target_id": "T046"
+    },
+    {
+      "canonical_target": "The penalty or sanction applied to a team when a baton exchange occurs outside the permitted exchange zone.",
+      "target_id": "T047"
+    },
+    {
+      "canonical_target": "The physical length/extent of the permitted baton exchange zone, together with the method or criteria coaches use to set where within that zone the outgoing runner places their starting mark.",
+      "target_id": "T048"
+    },
+    {
+      "canonical_target": "The procedure or criteria by which relay teams set and calibrate the outgoing runner's start mark for a specific pair of runners.",
+      "target_id": "T049"
+    },
+    {
+      "canonical_target": "The method or adjustment procedure by which relay teams calibrate start-mark placement to the specific speed and stride characteristics of each outgoing/incoming runner pairing.",
+      "target_id": "T050"
+    },
+    {
+      "canonical_target": "The rule-based consequence or penalty applied to the team when a baton exchange occurs outside the permitted exchange zone.",
+      "target_id": "T051"
+    },
+    {
+      "canonical_target": "The spatial relationship (separation/relative placement) between incoming and outgoing runners at the moment the handoff begins.",
+      "target_id": "T052"
+    },
+    {
+      "canonical_target": "The consequence or penalty for a relay team when the baton exchange takes place outside the permitted exchange zone.",
+      "target_id": "T053"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria coaches use to select the outgoing runner's starting point for acceleration, balancing handoff speed against the risk of exchanging outside the zone.",
+      "target_id": "T054"
+    },
+    {
+      "canonical_target": "The typical length (distance measurement) of the permitted baton exchange zone in a relay race.",
+      "target_id": "T055"
+    },
+    {
+      "canonical_target": "The procedure or criteria teams use to recalibrate the outgoing runner's start mark position when the pairing of runners changes, so the handoff occurs at speed within the exchange zone.",
+      "target_id": "T056"
+    },
+    {
+      "canonical_target": "The specified length (distance measurement) of the baton exchange zone in standard relay racing rules.",
+      "target_id": "T057"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams set the start-mark distance at which a runner begins accelerating ahead of the handoff (how the optimal acceleration-start distance is determined), rather than the fact that such marks are rehearsed.",
+      "target_id": "T058"
+    },
+    {
+      "canonical_target": "The duration, in units of time, of a typical baton exchange performed while both runners are moving at full speed.",
+      "target_id": "T059"
+    },
+    {
+      "canonical_target": "The method or procedure teams use to set the outgoing runner's start mark for a specific pair of runners (e.g., how the distance is calculated or calibrated through practice and adjustment).",
+      "target_id": "T060"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria coaches use to set the outgoing runner's start mark, i.e., how the trade-off between acceleration gains and handoff risk is resolved into a specific starting position.",
+      "target_id": "T061"
+    },
+    {
+      "canonical_target": "The method or procedure teams use to establish the correct start-mark distance for a given pair of runners.",
+      "target_id": "T062"
+    },
+    {
+      "canonical_target": "Two things: the typical length/extent of the relay exchange zone, and the method or criteria coaches use to select the outgoing runner's optimal start mark within that zone.",
+      "target_id": "T063"
+    },
+    {
+      "canonical_target": "The method or criteria teams use to determine the starting position/mark governing the incoming runner's approach so that the handoff timing aligns with the outgoing runner.",
+      "target_id": "T064"
+    },
+    {
+      "canonical_target": "The method or procedure by which a relay team establishes the correct start-mark distance for a particular outgoing/incoming runner pairing, i.e., the inputs (relative speeds, acceleration, reaction timing) and process (calculation or trial-and-error rehearsal) used to set that mark.",
+      "target_id": "T065"
+    },
+    {
+      "canonical_target": "The procedure or method by which relay teams adjust and re-establish the outgoing runner's start mark after a change in runner pairing.",
+      "target_id": "T066"
+    },
+    {
+      "canonical_target": "The procedure or criteria by which teams recalibrate the outgoing runner's start mark (its placement/distance) for a given pairing of runners, based on their respective speeds and acceleration characteristics, so the handoff occurs at speed within the exchange zone.",
+      "target_id": "T067"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams calculate or establish the optimal start mark position for a given pair of runners (i.e., what inputs and process determine where the outgoing runner begins).",
+      "target_id": "T068"
+    },
+    {
+      "canonical_target": "The set of runner-pair-specific variables (e.g., relative acceleration profiles, top speeds, reaction and closing rates) that fix where the outgoing runner's start mark should be placed for that pairing.",
+      "target_id": "T069"
+    },
+    {
+      "canonical_target": "The consequences and procedural rules following a dropped or fumbled baton during the exchange (e.g., whether the team is disqualified, who may retrieve it, and how the race continues), which the passage does not address.",
+      "target_id": "T070"
+    },
+    {
+      "canonical_target": "The procedure or basis by which teams modify the outgoing runner's start mark placement to suit the specific speed and acceleration characteristics of a given pair of runners.",
+      "target_id": "T071"
+    },
+    {
+      "canonical_target": "The amount of practice/rehearsal time or number of repetitions a relay team typically requires to achieve reliably smooth baton exchanges",
+      "target_id": "T072"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria coaches should use to set each outgoing runner's start mark, balancing acceleration gains against the risk of a failed or out-of-zone handoff.",
+      "target_id": "T073"
+    },
+    {
+      "canonical_target": "The procedures or adjustment methods teams use to recalibrate start marks for new runner pairings differing in stride length and speed.",
+      "target_id": "T074"
+    },
+    {
+      "canonical_target": "The set of determinants (e.g., relative acceleration, speed, and reaction/timing characteristics of the two runners) that fix where the outgoing runner's start mark should be placed for a given pairing.",
+      "target_id": "T075"
+    },
+    {
+      "canonical_target": "The method or procedure teams use to establish and calibrate start-mark placement for a given pair of runners.",
+      "target_id": "T076"
+    },
+    {
+      "canonical_target": "The standard length (distance measurement) of the permitted baton exchange zone in a relay race.",
+      "target_id": "T077"
+    },
+    {
+      "canonical_target": "The method or procedure by which a team establishes the outgoing runner's start-mark distance for a specific pairing of runners.",
+      "target_id": "T078"
+    },
+    {
+      "canonical_target": "The method or procedure by which the outgoing runner's optimal start mark is established (e.g., how the starting point is calculated or set in practice).",
+      "target_id": "T079"
+    },
+    {
+      "canonical_target": "The method or procedure teams use to set each pairing's start mark (how the correct distance/timing cue is determined or calibrated), not merely the fact that marks vary by pairing.",
+      "target_id": "T080"
+    },
+    {
+      "canonical_target": "The method or criteria coaches use to determine where within the exchange zone an outgoing runner should begin accelerating, balancing speed at handoff against risk of a failed exchange.",
+      "target_id": "T081"
+    },
+    {
+      "canonical_target": "The standard length, in units of distance, of the baton exchange zone in relay racing.",
+      "target_id": "T082"
+    },
+    {
+      "canonical_target": "The rule-based consequence or penalty applied to a relay team when the baton handoff takes place outside the permitted exchange zone.",
+      "target_id": "T083"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria a coach uses to fix where the outgoing runner starts accelerating, balancing speed at handoff against the risk of exchanging outside the zone.",
+      "target_id": "T084"
+    },
+    {
+      "canonical_target": "The procedures or adjustments teams make to start marks, timing, and handoff execution when the pairing of outgoing and incoming runners changes.",
+      "target_id": "T085"
+    },
+    {
+      "canonical_target": "The factors determining the correct start-mark distance for a specific outgoing/incoming runner pairing — i.e., the pair-specific acceleration and speed characteristics and timing relationship that make the handoff occur at speed within the exchange zone.",
+      "target_id": "T086"
+    },
+    {
+      "canonical_target": "The procedure or adjustment rule teams use to reposition the outgoing runner's start mark to accommodate differing speed combinations between paired runners, so the handoff falls within the exchange zone at speed.",
+      "target_id": "T087"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams arrive at optimal start-mark placement and handoff timing for a given runner pairing (how the values are determined/calibrated, e.g., through repeated trials and measurement of each pair's speeds), rather than the fact that such marks are rehearsed or why handoffs occur at speed.",
+      "target_id": "T088"
+    },
+    {
+      "canonical_target": "The typical length, in units of distance, of a relay exchange zone.",
+      "target_id": "T089"
+    },
+    {
+      "canonical_target": "The decision criterion for choosing the outgoing runner's starting placement/go-mark relative to the incoming runner that jointly optimizes handoff speed and exchange reliability within the zone.",
+      "target_id": "T090"
+    },
+    {
+      "canonical_target": "The method or criteria coaches use to set each outgoing runner's start mark within the exchange zone, i.e., how that starting point is calculated or determined (e.g., from relative runner speeds, acceleration, and timing/trial adjustment).",
+      "target_id": "T091"
+    },
+    {
+      "canonical_target": "The typical length or spatial extent (distance) of the permitted baton exchange zone in a relay race.",
+      "target_id": "T092"
+    },
+    {
+      "canonical_target": "The consequence or outcome for the team when the baton exchange takes place outside the permitted exchange zone.",
+      "target_id": "T093"
+    },
+    {
+      "canonical_target": "The method or procedure by which a team establishes the correct start-mark distance/position for a specific pair of runners, i.e., the criteria and process (e.g., timed trials, adjustment based on relative speeds and acceleration) used to set that mark.",
+      "target_id": "T094"
+    },
+    {
+      "canonical_target": "The set of runner- and pairing-specific variables (e.g., relative acceleration and top-speed profiles, reaction and closing speeds, zone constraints) that jointly fix where the outgoing runner should place the start mark.",
+      "target_id": "T095"
+    },
+    {
+      "canonical_target": "The decision criterion or method by which coaches determine the optimal starting point for the outgoing runner's acceleration, i.e., how the trade-off between handoff speed and risk of exchanging outside the zone is resolved into a specific start mark.",
+      "target_id": "T096"
+    },
+    {
+      "canonical_target": "The method or criteria by which a runner's optimal start mark within the exchange zone is set — i.e., what factors (incoming runner's speed/approach, outgoing runner's acceleration profile, zone length, risk of overrunning or missing the handoff) are used and how they are combined or calibrated to fix that point.",
+      "target_id": "T097"
+    },
+    {
+      "canonical_target": "The specified physical length (distance measurement) of the regulation baton exchange zone in a standard relay race.",
+      "target_id": "T098"
+    },
+    {
+      "canonical_target": "The physical length (distance measurement) of the permitted baton exchange zone.",
+      "target_id": "T099"
+    },
+    {
+      "canonical_target": "The typical distance or lead time by which an outgoing relay runner starts accelerating ahead of the baton exchange (i.e., the start-mark offset), expressed as a quantity.",
+      "target_id": "T100"
+    },
+    {
+      "canonical_target": "The factors governing where an outgoing runner's start mark should be placed for a given pair of runners — i.e., the determinants (such as each runner's acceleration profile, speed, and reaction/timing) that set the correct mark for that specific pairing.",
+      "target_id": "T101"
+    },
+    {
+      "canonical_target": "The decision criterion or method coaches should use to set each outgoing runner's start mark, i.e., how to balance acceleration gains against the risk of a failed handoff within the exchange zone.",
+      "target_id": "T102"
+    },
+    {
+      "canonical_target": "The set of specific coaching techniques and training practices that most effectively improve timing accuracy and consistency of baton handoffs, generalizable across differing runner pairings.",
+      "target_id": "T103"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams arrive at the optimal start-mark distance for a specific runner pairing (e.g., what inputs such as relative speeds, acceleration, and trial rehearsal data are used and how they are converted into a mark placement).",
+      "target_id": "T104"
+    },
+    {
+      "canonical_target": "The typical acceleration distance (a quantity of run-up length) an outgoing relay runner requires to reach the speed appropriate for the handoff.",
+      "target_id": "T105"
+    },
+    {
+      "canonical_target": "The decision criterion or method coaches use to set the outgoing runner's start mark — i.e., how the tradeoff between accelerating to handoff speed and staying within the exchange zone is resolved into a chosen starting position.",
+      "target_id": "T106"
+    },
+    {
+      "canonical_target": "The functional purpose start marks serve in relay handoffs — i.e., the reason teams use them (to time the outgoing runner's acceleration so the exchange occurs at matched speed within the exchange zone).",
+      "target_id": "T107"
+    },
+    {
+      "canonical_target": "The standard regulated length (distance measurement) of the relay baton exchange zone in official competition",
+      "target_id": "T108"
+    },
+    {
+      "canonical_target": "The method or criteria by which a coach determines each outgoing runner's individual optimal start mark within the exchange zone, balancing acceleration gains against handoff risk.",
+      "target_id": "T109"
+    },
+    {
+      "canonical_target": "The positioning/starting placement of the outgoing runner relative to the incoming runner (and the exchange zone) that minimizes failed-handoff risk.",
+      "target_id": "T110"
+    },
+    {
+      "canonical_target": "The standard length (distance measurement) of the relay baton exchange zone.",
+      "target_id": "T111"
+    },
+    {
+      "canonical_target": "The procedure or adjustment rules teams use to recalibrate start marks when runner pairings change, i.e., how the mark's placement is modified for different pairings.",
+      "target_id": "T112"
+    },
+    {
+      "canonical_target": "The duration of the time window available for completing a baton handoff while both runners are inside the exchange zone (a quantity of time).",
+      "target_id": "T113"
+    },
+    {
+      "canonical_target": "The methods or adjustments teams use to set start marks that accommodate the differing acceleration and top speeds of each incoming/outgoing runner pairing.",
+      "target_id": "T114"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria coaches use to set each outgoing runner's start-acceleration point, trading off speed gained against risk of a failed handoff within the exchange zone.",
+      "target_id": "T115"
+    },
+    {
+      "canonical_target": "The standard length (distance measurement) of the permitted baton exchange zone in a typical relay race.",
+      "target_id": "T116"
+    },
+    {
+      "canonical_target": "The method or decision procedure coaches use to set each outgoing runner's start mark, i.e., the criteria and inputs (e.g., relative runner speeds, acceleration, zone limits, practice trials) that determine the optimal start position.",
+      "target_id": "T117"
+    },
+    {
+      "canonical_target": "The causal explanation for why a start mark that works for one runner pairing yields a rushed or stretched exchange for another — i.e., the pairing-specific factors (differences in acceleration profiles, top speed, reaction/timing between the incoming and outgoing runner) that make a single rehearsed mark fail to produce a comfortable handoff.",
+      "target_id": "T118"
+    },
+    {
+      "canonical_target": "The set of runner- and pairing-specific variables (e.g., relative acceleration rates, top speeds, reaction time, stride characteristics of the incoming and outgoing runners) that determine where the outgoing runner's start mark should be placed.",
+      "target_id": "T119"
+    },
+    {
+      "canonical_target": "The decision criterion or method coaches should use to set each outgoing runner's start mark, balancing achieved handoff speed against the risk of exchanging outside the zone.",
+      "target_id": "T120"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams arrive at the start mark distance for a given incoming/outgoing runner pair — i.e., what inputs (relative speeds, rehearsal/trial-and-error, timing) and process are used to set that mark, which the passage states is rehearsed but does not explain.",
+      "target_id": "T121"
+    },
+    {
+      "canonical_target": "The procedure or basis by which teams recalibrate the outgoing runner's start mark when the pairing of runners changes (i.e., what adjustments are made and according to what inputs).",
+      "target_id": "T122"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams set an outgoing runner's start mark (e.g., how the mark distance is calculated or adjusted from the incoming runner's approach speed and the pair's rehearsed timing).",
+      "target_id": "T123"
+    },
+    {
+      "canonical_target": "The specific starting location/mark within or before the exchange zone at which an outgoing runner should begin accelerating in order to balance handoff speed against risk of a failed or out-of-zone exchange.",
+      "target_id": "T124"
+    },
+    {
+      "canonical_target": "The specific adjustments made to start-mark placement and handoff timing to accommodate a pairing in which the incoming and outgoing runners have markedly different speeds.",
+      "target_id": "T125"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams set and calibrate the outgoing runner's start mark for a specific runner pairing (e.g., how distance/timing is calculated or tested and adjusted).",
+      "target_id": "T126"
+    },
+    {
+      "canonical_target": "The procedure or criteria teams use to modify the outgoing runner's start mark placement to suit the specific speed and acceleration characteristics of a given pair of runners.",
+      "target_id": "T127"
+    },
+    {
+      "canonical_target": "The method or criteria by which relay teams set the outgoing runner's start mark — i.e., how the pre-acceleration starting distance is calculated or determined (e.g., from the two runners' relative speeds, reaction, and rehearsal-based adjustment).",
+      "target_id": "T128"
+    },
+    {
+      "canonical_target": "The explanation of why the optimal start mark depends on the specific pair of runners — i.e., that the mark is set by the relative acceleration profiles and speeds of the incoming and outgoing runners (closing speed and timing to meet within the zone), not by the fixed distance run.",
+      "target_id": "T129"
+    },
+    {
+      "canonical_target": "The rule-based consequence or outcome (e.g., penalty/disqualification status of the team) when a baton handoff occurs outside the permitted exchange zone.",
+      "target_id": "T130"
+    },
+    {
+      "canonical_target": "The procedure or method by which relay teams recalibrate the outgoing runner's start mark when the pairing of runners changes, so that the handoff timing remains within the exchange zone.",
+      "target_id": "T131"
+    },
+    {
+      "canonical_target": "The factors that set where an outgoing runner's start mark should be placed — i.e., the pairing-specific variables (relative speeds/acceleration of the two runners, incoming runner's closing velocity, outgoing runner's acceleration profile and reaction timing) that determine the optimal mark position so the handoff occurs at speed within the zone.",
+      "target_id": "T132"
+    },
+    {
+      "canonical_target": "The competitive penalty or rule consequence imposed on a relay team when the baton handoff takes place outside the legal exchange zone.",
+      "target_id": "T133"
+    },
+    {
+      "canonical_target": "The concrete procedure or technique by which relay teams calculate or set the outgoing runner's start mark distance for a given runner pairing.",
+      "target_id": "T134"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams establish the correct start-mark distance for a given outgoing runner (i.e., how the mark is calculated or arrived at from the runners' speeds, acceleration, and rehearsal), rather than merely that marks are rehearsed.",
+      "target_id": "T135"
+    },
+    {
+      "canonical_target": "The set of considerations or variables that govern the coaching decision of the outgoing runner's starting point for acceleration, balancing speed gain against exchange-zone risk.",
+      "target_id": "T136"
+    },
+    {
+      "canonical_target": "A decision procedure or set of adjustment criteria for setting start marks, specifying how the mark should be shifted in response to characteristics of a given pairing of outgoing and incoming runners (e.g., relative speeds, acceleration, reaction) so the handoff occurs at speed within the exchange zone.",
+      "target_id": "T137"
+    },
+    {
+      "canonical_target": "The procedure or rule teams use to modify the outgoing runner's start-mark placement (e.g., moving it nearer or farther) in response to differences in the incoming and outgoing runners' speed or acceleration profiles, so the handoff occurs at speed within the exchange zone.",
+      "target_id": "T138"
+    },
+    {
+      "canonical_target": "The method or process by which relay teams arrive at the specific start-mark distance and handoff timing values for a given runner pairing (e.g., how they are calculated, measured, or refined through practice), which the passage does not specify beyond noting that pairings rehearse them.",
+      "target_id": "T139"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria coaches should use to set each outgoing runner's start mark, balancing acceleration gains against the risk of failing to complete the handoff within the exchange zone.",
+      "target_id": "T140"
+    },
+    {
+      "canonical_target": "The decision procedure or criterion coaches use to set each outgoing runner's start mark within the exchange zone, i.e., how the speed benefit of an earlier start is balanced against the risk of a failed or out-of-zone handoff.",
+      "target_id": "T141"
+    },
+    {
+      "canonical_target": "The set of pairing-specific variables (e.g., incoming runner's arrival speed and fatigue, outgoing runner's acceleration profile and reaction, zone geometry) that jointly fix where the outgoing runner should place the start mark.",
+      "target_id": "T142"
+    },
+    {
+      "canonical_target": "The typical distance run by the outgoing runner between starting acceleration and receiving the baton, expressed as a quantity of distance.",
+      "target_id": "T143"
+    },
+    {
+      "canonical_target": "The specified length (distance measurement) of the baton exchange zone in a standard relay race.",
+      "target_id": "T144"
+    },
+    {
+      "canonical_target": "The decision criteria or method coaches use to select where an outgoing runner should begin accelerating, balancing achieved handoff speed against the risk of exchanging outside the permitted zone.",
+      "target_id": "T145"
+    },
+    {
+      "canonical_target": "The method or criteria by which relay teams set the outgoing runner's start mark (its placement/distance), i.e., how that position is calculated or determined.",
+      "target_id": "T146"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria coaches use to set each outgoing runner's starting mark, balancing acceleration gains against the risk of an out-of-zone or failed exchange.",
+      "target_id": "T147"
+    },
+    {
+      "canonical_target": "The decision rule or cue an outgoing runner uses to time the start of acceleration relative to the incoming runner's approach (e.g., a marked go-point and the incoming runner reaching it).",
+      "target_id": "T148"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams establish and calibrate the outgoing runner's start mark for a specific pair of runners, including what inputs or trial adjustments drive the revision.",
+      "target_id": "T149"
+    },
+    {
+      "canonical_target": "The set of considerations that jointly fix where within the approach an outgoing runner should start moving, balancing achieved handoff speed against the risk of exchanging outside the zone or missing the baton.",
+      "target_id": "T150"
+    },
+    {
+      "canonical_target": "The starting position/mark within or relative to the exchange zone that an outgoing runner should take, as a coaching decision criterion balancing accelerating to speed against the risk of a failed handoff.",
+      "target_id": "T151"
+    },
+    {
+      "canonical_target": "The physical length (distance measurement) of the regulation baton exchange zone in a standard relay race.",
+      "target_id": "T152"
+    },
+    {
+      "canonical_target": "The method or criteria by which relay teams calculate and set the start mark — i.e., the distance ahead of the exchange zone at which the accelerating runner should begin running — based on the two runners' relative speeds and timing.",
+      "target_id": "T153"
+    },
+    {
+      "canonical_target": "The set of pairing-specific variables (e.g., incoming runner's approach speed and fatigue, outgoing runner's acceleration profile and reaction time) that determine where the outgoing runner's start mark should be placed.",
+      "target_id": "T154"
+    },
+    {
+      "canonical_target": "The practical method or procedure coaches/teams use to set the outgoing runner's start mark (e.g., how the go-mark distance is chosen and calibrated), rather than the resulting distance value or the rationale for accelerating early.",
+      "target_id": "T155"
+    },
+    {
+      "canonical_target": "The decision procedure or criteria a coach should use to set each outgoing runner's start mark within the exchange zone, balancing acceleration gains against the risk of a failed or out-of-zone handoff.",
+      "target_id": "T156"
+    },
+    {
+      "canonical_target": "The specified physical length (distance measurement) of the legal baton exchange zone in a relay race",
+      "target_id": "T157"
+    },
+    {
+      "canonical_target": "The physical length (distance measurement) of the permitted baton exchange zone.",
+      "target_id": "T158"
+    },
+    {
+      "canonical_target": "The method or procedure by which relay teams work out how far ahead (the start-mark distance) the outgoing runner should begin accelerating prior to the exchange zone.",
+      "target_id": "T159"
+    }
+  ],
+  "topic_packet_id": "AU-E1-T05"
+}
