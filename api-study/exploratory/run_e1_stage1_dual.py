@@ -33,6 +33,8 @@ E1_DIR = ROOT / "api-study" / "exploratory"
 E1A_PROTOCOL = E1_DIR / "API_PILOT_0.1_TARGET_CLUSTERING_E1A.md"
 RUNNER_PROCEDURE = E1_DIR / "E1_STAGE1_RUNNER_PROCEDURE.md"
 RUNNER_CORRECTION_D1 = E1_DIR / "E1_STAGE1_RUNNER_CORRECTION_D1.md"
+RUNNER_CORRECTION_D2 = E1_DIR / "E1_STAGE1_OPUS_CORRECTION_D2.md"
+OPUS_D2_PREDECESSOR_COMMIT = "ff0132294efd1710a96434a5511b470b427a7525"
 
 PACKET_ID = "AU-E1-S1-cad71b8ce8fe0866"
 PACKET_DIR = E1_DIR / "e1" / "generated" / PACKET_ID
@@ -68,10 +70,10 @@ MODEL_CONFIGS: dict[str, dict[str, Any]] = {
         "model": "claude-opus-5",
         "api_key_env": "ANTHROPIC_API_KEY",
         "thinking": {"type": "disabled"},
-        "max_output_tokens": 160,
+        "max_output_tokens": 512,
         "input_per_million": 5.00,
         "output_per_million": 25.00,
-        "stop_limit_usd": 20.00,
+        "stop_limit_usd": 40.00,
     },
 }
 
@@ -314,7 +316,7 @@ def verify_checkpoints(implementation_ref: str | None = None) -> dict[str, str]:
         for ancestor, name in ((e1a, "E1A"), (corpus, "corpus checkpoint")):
             if git("merge-base", "--is-ancestor", ancestor, impl).returncode != 0:
                 raise ValueError(f"{name} {ancestor} is not an ancestor of implementation {impl}")
-        for path in (Path(__file__).resolve(), RUNNER_PROCEDURE, RUNNER_CORRECTION_D1):
+        for path in (Path(__file__).resolve(), RUNNER_PROCEDURE, RUNNER_CORRECTION_D1, RUNNER_CORRECTION_D2):
             if not path.is_file():
                 raise FileNotFoundError(path)
             if not committed_blob_matches_worktree(impl, path):
@@ -442,6 +444,8 @@ def extract_usage(raw: dict[str, Any], representation: str) -> dict[str, Any]:
 
 
 def run_dir(representation: str) -> Path:
+    if representation == "opus":
+        return OUTPUT_ROOT / "opus_d2_512"
     return OUTPUT_ROOT / representation
 
 
@@ -554,6 +558,12 @@ def manifest_base(
         "procedure_sha256": sha256_file(RUNNER_PROCEDURE),
         "runner_correction_d1_path": rel(RUNNER_CORRECTION_D1),
         "runner_correction_d1_sha256": sha256_file(RUNNER_CORRECTION_D1),
+        "runner_correction_d2_path": rel(RUNNER_CORRECTION_D2),
+        "runner_correction_d2_sha256": sha256_file(RUNNER_CORRECTION_D2),
+        "output_variant": run_dir(representation).name,
+        "opus_d2_predecessor_commit": (
+            OPUS_D2_PREDECESSOR_COMMIT if representation == "opus" else None
+        ),
         "master_packet_path": rel(MASTER_PACKET),
         "master_packet_sha256": sha256_file(MASTER_PACKET),
         "instructions_path": rel(INSTRUCTIONS),
@@ -565,10 +575,13 @@ def manifest_base(
         "platform": platform.platform(),
         "packages": package_versions(),
         "pricing_snapshot": {
-            "date": "2026-09-19",
+            "date": "2026-09-20",
             "currency": "USD",
             "units": "per_million_tokens",
-            "note": "Conservative estimate ignores any provider cache discounts.",
+            "note": (
+                "Conservative estimate ignores any provider cache discounts. "
+                "Opus D2 raises only the output-token ceiling and operational stop limit."
+            ),
         },
         "max_attempts_per_card": MAX_ATTEMPTS_PER_CARD,
     }
