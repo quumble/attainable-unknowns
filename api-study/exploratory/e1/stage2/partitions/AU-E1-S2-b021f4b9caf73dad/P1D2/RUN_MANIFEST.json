@@ -1,0 +1,112 @@
+{
+  "attempt_records": 10,
+  "attempts_sha256": "1ffec35479150599f3934cd99d67092b1471c463845832ddd198a19281079f02",
+  "bundle_commit": "435c01cb5971fd6b0487eaebfc7a8a5803311c06",
+  "bundle_id": "AU-E1-S2-b021f4b9caf73dad",
+  "canary_task_ids": [
+    "P1-AU-E1-S2-R01-T04",
+    "P2-AU-E1-S2-R02-T04",
+    "P2-AU-E1-S2-R02-T08",
+    "P3-AU-E1-S2-R01-T05",
+    "P3-AU-E1-S2-R01-T09",
+    "P3-AU-E1-S2-R02-T04",
+    "P3-AU-E1-S2-R02-T09"
+  ],
+  "completed_tasks": 6,
+  "detail": "missing_canaries=['P3-AU-E1-S2-R02-T04']; blocked_models=[]",
+  "execution_correction": "P1D2",
+  "execution_correction_path": "api-study/exploratory/E1_STAGE2_EXECUTION_CORRECTION_P1D2.md",
+  "execution_correction_sha256": "274dae4c8111d7032e1e7d87762947b99553fc835372a465e78cbb74596f2efd",
+  "execution_protocol": "P1",
+  "execution_protocol_path": "api-study/exploratory/E1_STAGE2_EXECUTION_PROTOCOL_P1.md",
+  "execution_protocol_sha256": "78e2b476629a9da5d50295c10587b1b8e813c8b25e593ce0dd4dfaecd3b3df74",
+  "execution_variant_policy": {
+    "all_fresh_tasks": "P1D2",
+    "predecessor_execution_is_frozen_and_superseded": true
+  },
+  "exhausted_tasks": [
+    "P3-AU-E1-S2-R02-T04"
+  ],
+  "implementation_commit": "ac5b2f3e5d734810af6798dba317cad9c42c5811",
+  "instructions_sha256": "f4425cfb3fa4ff359496069f09712f0b83d1f9c30977aeca35792512986c0bef",
+  "max_attempts_per_task": 3,
+  "max_output_tokens_by_model": {
+    "opus": 16000,
+    "sol": 16000,
+    "sonnet": 64000,
+    "terra": 16000
+  },
+  "model_configs_without_secrets": {
+    "opus": {
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "effort": "low",
+      "input_per_million": 5.0,
+      "model": "claude-opus-5",
+      "output_per_million": 25.0,
+      "provider": "anthropic",
+      "stop_limit_usd": 15.0,
+      "thinking": {
+        "type": "adaptive"
+      }
+    },
+    "sol": {
+      "api_key_env": "OPENAI_API_KEY",
+      "input_per_million": 4.0,
+      "model": "gpt-5.6-sol",
+      "output_per_million": 20.0,
+      "provider": "openai",
+      "reasoning_effort": "low",
+      "stop_limit_usd": 10.0
+    },
+    "sonnet": {
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "effort": "low",
+      "input_per_million": 2.0,
+      "model": "claude-sonnet-5",
+      "output_per_million": 10.0,
+      "provider": "anthropic",
+      "stop_limit_usd": 5.0,
+      "thinking": {
+        "type": "adaptive"
+      }
+    },
+    "terra": {
+      "api_key_env": "OPENAI_API_KEY",
+      "input_per_million": 2.0,
+      "model": "gpt-5.6-terra",
+      "output_per_million": 12.0,
+      "provider": "openai",
+      "reasoning_effort": "low",
+      "stop_limit_usd": 5.0
+    }
+  },
+  "model_costs_usd": {
+    "opus": 0.2787,
+    "sol": 0.079548,
+    "sonnet": 0.399778,
+    "terra": 0.116664
+  },
+  "output_encoding": "assignment_vector_v1",
+  "output_encoding_path": "api-study/exploratory/E1_STAGE2_OUTPUT_ENCODING_P1D2.md",
+  "output_encoding_sha256": "f248130bbf9e55411e1f37c2af056680dbe3019f26a815d1bb194aff96ebb394",
+  "packages": {
+    "anthropic": "0.122.0",
+    "openai": "3.2.0"
+  },
+  "partitions_sha256": "ee674ba1c5102f78edf3db95bb1dbd40b1e5585cba452d9d268bd0f789426179",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "predecessor_execution_commit": "c83f55cb0ad44e26f75848018c1a2360093294b0",
+  "prior_execution_correction_path": "api-study/exploratory/E1_STAGE2_EXECUTION_CORRECTION_P1D1.md",
+  "prior_execution_correction_sha256": "86bcf57bd202b631d38ad84082f488e6fca1aebb9cfff7bbb12ff5a94d60af94",
+  "protocol": "E1/E1A",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "remaining_tasks": 66,
+  "runner_path": "api-study/exploratory/run_e1_stage2_partitions.py",
+  "runner_sha256": "b58c1c60c9ce6375c4366d296022e9f1da3ea13567b553b72b4afa0bbeebb455",
+  "runtime_system_sha256": "9984c064881d54c5468c9d8d13d3fae82912fb1ac5eb568541521a55159e14a3",
+  "schema_version": "au-e1-stage2-partition-run-v1",
+  "status": "canary_incomplete",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "task_count": 72,
+  "updated_at": "2026-09-20T21:08:39.260129+00:00"
+}
