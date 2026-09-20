@@ -1,0 +1,104 @@
+{
+  "attempt_records": 87,
+  "attempts_sha256": "ce17701be82c8cb6494aecfc93de09998d10ee38e49affa2002157bb7850e1c6",
+  "bundle_commit": "435c01cb5971fd6b0487eaebfc7a8a5803311c06",
+  "bundle_id": "AU-E1-S2-b021f4b9caf73dad",
+  "canary_task_ids": [
+    "P1-AU-E1-S2-R01-T04",
+    "P2-AU-E1-S2-R02-T04",
+    "P3-AU-E1-S2-R01-T09",
+    "P3-AU-E1-S2-R02-T04"
+  ],
+  "completed_tasks": 62,
+  "detail": "validation pass",
+  "execution_correction": "P1D1",
+  "execution_correction_path": "api-study/exploratory/E1_STAGE2_EXECUTION_CORRECTION_P1D1.md",
+  "execution_correction_sha256": "86bcf57bd202b631d38ad84082f488e6fca1aebb9cfff7bbb12ff5a94d60af94",
+  "execution_protocol": "P1",
+  "execution_protocol_path": "api-study/exploratory/E1_STAGE2_EXECUTION_PROTOCOL_P1.md",
+  "execution_protocol_sha256": "78e2b476629a9da5d50295c10587b1b8e813c8b25e593ce0dd4dfaecd3b3df74",
+  "execution_variant_policy": {
+    "other_models": "P1",
+    "sonnet": "P1D1"
+  },
+  "exhausted_tasks": [
+    "P2-AU-E1-S2-R02-T08",
+    "P3-AU-E1-S2-R01-T05",
+    "P3-AU-E1-S2-R02-T09"
+  ],
+  "implementation_commit": "84359ce38146baab2a1638753fb064a5aa79fb4e",
+  "instructions_sha256": "f4425cfb3fa4ff359496069f09712f0b83d1f9c30977aeca35792512986c0bef",
+  "max_attempts_per_task": 3,
+  "max_output_tokens_by_model": {
+    "opus": 16000,
+    "sol": 16000,
+    "sonnet": 64000,
+    "terra": 16000
+  },
+  "model_configs_without_secrets": {
+    "opus": {
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "effort": "low",
+      "input_per_million": 5.0,
+      "model": "claude-opus-5",
+      "output_per_million": 25.0,
+      "provider": "anthropic",
+      "stop_limit_usd": 15.0,
+      "thinking": {
+        "type": "adaptive"
+      }
+    },
+    "sol": {
+      "api_key_env": "OPENAI_API_KEY",
+      "input_per_million": 4.0,
+      "model": "gpt-5.6-sol",
+      "output_per_million": 20.0,
+      "provider": "openai",
+      "reasoning_effort": "low",
+      "stop_limit_usd": 10.0
+    },
+    "sonnet": {
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "effort": "low",
+      "input_per_million": 2.0,
+      "model": "claude-sonnet-5",
+      "output_per_million": 10.0,
+      "provider": "anthropic",
+      "stop_limit_usd": 5.0,
+      "thinking": {
+        "type": "adaptive"
+      }
+    },
+    "terra": {
+      "api_key_env": "OPENAI_API_KEY",
+      "input_per_million": 2.0,
+      "model": "gpt-5.6-terra",
+      "output_per_million": 12.0,
+      "provider": "openai",
+      "reasoning_effort": "low",
+      "stop_limit_usd": 5.0
+    }
+  },
+  "model_costs_usd": {
+    "opus": 2.519665,
+    "sol": 2.300024,
+    "sonnet": 2.540512,
+    "terra": 0.528364
+  },
+  "packages": {
+    "anthropic": "0.122.0",
+    "openai": "3.2.0"
+  },
+  "partitions_sha256": "9f47f7c73c8ce45f6d5b4b0eecfb20fbb1f61b9a8472830a39b6fec3dd7647b4",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "protocol": "E1/E1A",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "remaining_tasks": 10,
+  "runner_path": "api-study/exploratory/run_e1_stage2_partitions.py",
+  "runner_sha256": "af918ebf3d182c6a500a3b3d9af3ec2a7d9a042da0fda025477e06e754243e05",
+  "schema_version": "au-e1-stage2-partition-run-v1",
+  "status": "incomplete",
+  "study": "Attainable Unknowns API Pilot 0.1",
+  "task_count": 72,
+  "updated_at": "2026-09-20T20:52:43.892712+00:00"
+}
