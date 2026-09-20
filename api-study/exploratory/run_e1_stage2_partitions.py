@@ -27,6 +27,7 @@ PACKET_INDEX = BLINDED_DIR / "STAGE2_PACKET_INDEX.json"
 INSTRUCTIONS = BLINDED_DIR / "STAGE2_PARTITION_INSTRUCTIONS.md"
 
 EXECUTION_PROTOCOL = E1_DIR / "E1_STAGE2_EXECUTION_PROTOCOL_P1.md"
+EXECUTION_CORRECTION = E1_DIR / "E1_STAGE2_EXECUTION_CORRECTION_P1D1.md"
 OUTPUT_DIR = E1_DIR / "e1" / "stage2" / "partitions" / BUNDLE_ID
 ATTEMPTS_PATH = OUTPUT_DIR / "ATTEMPTS.jsonl"
 PARTITIONS_PATH = OUTPUT_DIR / "PARTITIONS.jsonl"
@@ -39,7 +40,14 @@ EXPECTED_TASKS = 72
 MAX_ATTEMPTS_PER_TASK = 3
 MAX_EXHAUSTED_TASKS_BEFORE_MODEL_BREAK = 2
 TRANSIENT_BACKOFF_SECONDS = (10, 30)
-MAX_OUTPUT_TOKENS = 16000
+PREDECESSOR_VARIANT = "P1"
+EXECUTION_VARIANT = "P1D1"
+MAX_OUTPUT_TOKENS_BY_MODEL = {
+    "sol": 16000,
+    "opus": 16000,
+    "terra": 16000,
+    "sonnet": 64000,
+}
 
 MODEL_CONFIGS: dict[str, dict[str, Any]] = {
     "sol": {
@@ -253,7 +261,7 @@ def verify_implementation(ref: str) -> str:
     commit = verify_signed_commit(ref, "Stage 2 execution implementation")
     if git("merge-base", "--is-ancestor", BUNDLE_COMMIT, commit).returncode != 0:
         raise ValueError("Stage 2 bundle anchor is not an ancestor of implementation")
-    for path in (Path(__file__).resolve(), EXECUTION_PROTOCOL):
+    for path in (Path(__file__).resolve(), EXECUTION_PROTOCOL, EXECUTION_CORRECTION):
         if not path.is_file():
             raise FileNotFoundError(path)
         if not committed_blob_matches_worktree(commit, path):
@@ -453,7 +461,7 @@ def call_provider(
             model=cfg["model"],
             instructions=system,
             input=payload,
-            max_output_tokens=MAX_OUTPUT_TOKENS,
+            max_output_tokens=MAX_OUTPUT_TOKENS_BY_MODEL[model_key],
             reasoning={"effort": cfg["reasoning_effort"]},
             text={
                 "format": {
@@ -470,7 +478,7 @@ def call_provider(
         model=cfg["model"],
         system=system,
         messages=[{"role": "user", "content": payload}],
-        max_tokens=MAX_OUTPUT_TOKENS,
+        max_tokens=MAX_OUTPUT_TOKENS_BY_MODEL[model_key],
         thinking=cfg["thinking"],
         output_config={
             "effort": cfg["effort"],
@@ -533,6 +541,8 @@ def terminal_attempt_matches_marker(row: dict[str, Any], marker: dict[str, Any])
     return (
         row.get("task_id") == marker.get("task_id")
         and row.get("attempt_index") == marker.get("attempt_index")
+        and row.get("execution_variant", PREDECESSOR_VARIANT)
+        == marker.get("execution_variant", PREDECESSOR_VARIANT)
         and row.get("request_sha256") == marker.get("request_sha256")
         and row.get("status") in {"valid", "invalid_output", "api_error"}
     )
@@ -563,9 +573,14 @@ def derive_state(
         task_id = row.get("task_id")
         if task_id not in task_map:
             raise ValueError(f"Attempt log contains unknown task_id: {task_id}")
-        attempt_counts[task_id] = attempt_counts.get(task_id, 0) + 1
-        cost = row.get("usage", {}).get("conservative_cost_usd")
         model_key = row.get("model_key")
+        row_variant = row.get("execution_variant", PREDECESSOR_VARIANT)
+        counts_toward_current_ceiling = not (
+            model_key == "sonnet" and row_variant != EXECUTION_VARIANT
+        )
+        if counts_toward_current_ceiling:
+            attempt_counts[task_id] = attempt_counts.get(task_id, 0) + 1
+        cost = row.get("usage", {}).get("conservative_cost_usd")
         if model_key in model_costs and isinstance(cost, (int, float)):
             model_costs[model_key] += float(cost)
         if row.get("status") == "valid":
@@ -631,6 +646,7 @@ def build_manifest(
         "study": "Attainable Unknowns API Pilot 0.1",
         "protocol": "E1/E1A",
         "execution_protocol": "P1",
+        "execution_correction": EXECUTION_VARIANT,
         "bundle_id": BUNDLE_ID,
         "bundle_commit": BUNDLE_COMMIT,
         "implementation_commit": implementation_commit,
@@ -638,6 +654,12 @@ def build_manifest(
         "runner_sha256": sha256_file(Path(__file__).resolve()),
         "execution_protocol_path": rel(EXECUTION_PROTOCOL),
         "execution_protocol_sha256": sha256_file(EXECUTION_PROTOCOL),
+        "execution_correction_path": rel(EXECUTION_CORRECTION),
+        "execution_correction_sha256": sha256_file(EXECUTION_CORRECTION),
+        "execution_variant_policy": {
+            "sonnet": EXECUTION_VARIANT,
+            "other_models": PREDECESSOR_VARIANT,
+        },
         "instructions_sha256": sha256_file(INSTRUCTIONS),
         "status": status,
         "updated_at": utc_now(),
@@ -650,7 +672,7 @@ def build_manifest(
             key: round(value, 6) for key, value in state["model_costs"].items()
         },
         "model_configs_without_secrets": MODEL_CONFIGS,
-        "max_output_tokens": MAX_OUTPUT_TOKENS,
+        "max_output_tokens_by_model": MAX_OUTPUT_TOKENS_BY_MODEL,
         "max_attempts_per_task": MAX_ATTEMPTS_PER_TASK,
         "canary_task_ids": sorted(CANARY_TASK_IDS),
         "packages": package_versions(),
@@ -710,7 +732,7 @@ def preflight(implementation_commit: str | None) -> dict[str, Any]:
                 "reasoning_effort": cfg.get("reasoning_effort"),
                 "thinking": cfg.get("thinking"),
                 "effort": cfg.get("effort"),
-                "max_output_tokens": MAX_OUTPUT_TOKENS,
+                "max_output_tokens": MAX_OUTPUT_TOKENS_BY_MODEL[key],
                 "stop_limit_usd": cfg["stop_limit_usd"],
             }
             for key, cfg in MODEL_CONFIGS.items()
@@ -736,6 +758,7 @@ def synthetic_test(model_key: str) -> None:
                 "status": "synthetic_test_passed",
                 "model_key": model_key,
                 "model": cfg["model"],
+                "max_output_tokens": MAX_OUTPUT_TOKENS_BY_MODEL[model_key],
                 "cluster_count": len(parsed["clusters"]),
                 "usage": usage_record(raw, model_key),
             },
@@ -745,6 +768,10 @@ def synthetic_test(model_key: str) -> None:
     )
 
 
+def task_execution_variant(task: dict[str, Any]) -> str:
+    return EXECUTION_VARIANT if task["model_key"] == "sonnet" else PREDECESSOR_VARIANT
+
+
 def attempt_task(
     task: dict[str, Any],
     client: Any,
@@ -752,11 +779,21 @@ def attempt_task(
     attempt_index: int,
 ) -> dict[str, Any]:
     packet = load_packet(task)
-    request_sha = sha256_text(system + "\n" + canonical_json(packet))
+    execution_variant = task_execution_variant(task)
+    request_config = {
+        "execution_variant": execution_variant,
+        "model_key": task["model_key"],
+        "max_output_tokens": MAX_OUTPUT_TOKENS_BY_MODEL[task["model_key"]],
+    }
+    request_sha = sha256_text(
+        system + "\n" + canonical_json(packet) + "\n" + canonical_json(request_config)
+    )
     marker = {
         "task_id": task["task_id"],
         "attempt_index": attempt_index,
         "model_key": task["model_key"],
+        "execution_variant": execution_variant,
+        "max_output_tokens": MAX_OUTPUT_TOKENS_BY_MODEL[task["model_key"]],
         "started_at": utc_now(),
         "request_sha256": request_sha,
     }
@@ -770,6 +807,8 @@ def attempt_task(
         "model_key": task["model_key"],
         "provider": MODEL_CONFIGS[task["model_key"]]["provider"],
         "model_requested": MODEL_CONFIGS[task["model_key"]]["model"],
+        "execution_variant": execution_variant,
+        "max_output_tokens": MAX_OUTPUT_TOKENS_BY_MODEL[task["model_key"]],
         "attempt_index": attempt_index,
         "target_count": task["target_count"],
         "started_at": marker["started_at"],
@@ -1105,6 +1144,11 @@ def resolve_inflight(action: str) -> None:
         "provider": MODEL_CONFIGS[marker["model_key"]]["provider"],
         "model_requested": MODEL_CONFIGS[marker["model_key"]]["model"],
         "attempt_index": marker["attempt_index"],
+        "execution_variant": marker.get("execution_variant", PREDECESSOR_VARIANT),
+        "max_output_tokens": marker.get(
+            "max_output_tokens",
+            MAX_OUTPUT_TOKENS_BY_MODEL[marker["model_key"]],
+        ),
         "started_at": marker["started_at"],
         "finished_at": utc_now(),
         "request_sha256": marker["request_sha256"],
