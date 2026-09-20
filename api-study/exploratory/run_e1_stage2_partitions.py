@@ -28,20 +28,24 @@ INSTRUCTIONS = BLINDED_DIR / "STAGE2_PARTITION_INSTRUCTIONS.md"
 
 EXECUTION_PROTOCOL = E1_DIR / "E1_STAGE2_EXECUTION_PROTOCOL_P1.md"
 EXECUTION_CORRECTION = E1_DIR / "E1_STAGE2_EXECUTION_CORRECTION_P1D1.md"
-OUTPUT_DIR = E1_DIR / "e1" / "stage2" / "partitions" / BUNDLE_ID
+EXECUTION_CORRECTION_P1D2 = E1_DIR / "E1_STAGE2_EXECUTION_CORRECTION_P1D2.md"
+OUTPUT_ENCODING_P1D2 = E1_DIR / "E1_STAGE2_OUTPUT_ENCODING_P1D2.md"
+OUTPUT_DIR = E1_DIR / "e1" / "stage2" / "partitions" / BUNDLE_ID / "P1D2"
 ATTEMPTS_PATH = OUTPUT_DIR / "ATTEMPTS.jsonl"
 PARTITIONS_PATH = OUTPUT_DIR / "PARTITIONS.jsonl"
 MANIFEST_PATH = OUTPUT_DIR / "RUN_MANIFEST.json"
 INFLIGHT_PATH = OUTPUT_DIR / "INFLIGHT.json"
 
 BUNDLE_COMMIT = "435c01cb5971fd6b0487eaebfc7a8a5803311c06"
+PREDECESSOR_EXECUTION_COMMIT = "c83f55cb0ad44e26f75848018c1a2360093294b0"
 EXPECTED_PACKETS = 24
 EXPECTED_TASKS = 72
 MAX_ATTEMPTS_PER_TASK = 3
 MAX_EXHAUSTED_TASKS_BEFORE_MODEL_BREAK = 2
 TRANSIENT_BACKOFF_SECONDS = (10, 30)
-PREDECESSOR_VARIANT = "P1"
-EXECUTION_VARIANT = "P1D1"
+PREDECESSOR_VARIANT = "P1D1"
+EXECUTION_VARIANT = "P1D2"
+OUTPUT_ENCODING = "assignment_vector_v1"
 MAX_OUTPUT_TOKENS_BY_MODEL = {
     "sol": 16000,
     "opus": 16000,
@@ -95,6 +99,9 @@ CANARY_TASK_IDS = {
     "P2-AU-E1-S2-R02-T04",
     "P3-AU-E1-S2-R01-T09",
     "P3-AU-E1-S2-R02-T04",
+    "P2-AU-E1-S2-R02-T08",
+    "P3-AU-E1-S2-R01-T05",
+    "P3-AU-E1-S2-R02-T09",
 }
 
 SYNTHETIC_PACKET = {
@@ -259,9 +266,23 @@ def verify_bundle() -> dict[str, Any]:
 
 def verify_implementation(ref: str) -> str:
     commit = verify_signed_commit(ref, "Stage 2 execution implementation")
+    predecessor = verify_signed_commit(
+        PREDECESSOR_EXECUTION_COMMIT,
+        "Incomplete P1/P1D1 execution anchor",
+    )
+    if predecessor != PREDECESSOR_EXECUTION_COMMIT:
+        raise ValueError("Resolved predecessor execution commit differs from frozen SHA")
     if git("merge-base", "--is-ancestor", BUNDLE_COMMIT, commit).returncode != 0:
         raise ValueError("Stage 2 bundle anchor is not an ancestor of implementation")
-    for path in (Path(__file__).resolve(), EXECUTION_PROTOCOL, EXECUTION_CORRECTION):
+    if git("merge-base", "--is-ancestor", PREDECESSOR_EXECUTION_COMMIT, commit).returncode != 0:
+        raise ValueError("P1/P1D1 incomplete execution anchor is not an ancestor of implementation")
+    for path in (
+        Path(__file__).resolve(),
+        EXECUTION_PROTOCOL,
+        EXECUTION_CORRECTION,
+        EXECUTION_CORRECTION_P1D2,
+        OUTPUT_ENCODING_P1D2,
+    ):
         if not path.is_file():
             raise FileNotFoundError(path)
         if not committed_blob_matches_worktree(commit, path):
@@ -342,28 +363,27 @@ def load_packet(task: dict[str, Any]) -> dict[str, Any]:
     return packet
 
 
-def output_schema() -> dict[str, Any]:
+def output_schema(packet: dict[str, Any], provider: str) -> dict[str, Any]:
+    target_count = int(packet["target_count"])
+    assignments_schema: dict[str, Any] = {
+        "type": "array",
+        "items": {"type": "integer"},
+    }
+    # OpenAI Structured Outputs explicitly supports minItems/maxItems. For
+    # Anthropic we keep the schema simpler and enforce exact length locally;
+    # this avoids making the study depend on provider-specific support for
+    # those optional array constraints.
+    if provider == "openai":
+        assignments_schema["minItems"] = target_count
+        assignments_schema["maxItems"] = target_count
+
     return {
         "type": "object",
         "properties": {
             "packet_id": {"type": "string"},
-            "clusters": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "cluster_id": {"type": "string"},
-                        "target_ids": {
-                            "type": "array",
-                            "items": {"type": "string"},
-                        },
-                    },
-                    "required": ["cluster_id", "target_ids"],
-                    "additionalProperties": False,
-                },
-            },
+            "assignments": assignments_schema,
         },
-        "required": ["packet_id", "clusters"],
+        "required": ["packet_id", "assignments"],
         "additionalProperties": False,
     }
 
@@ -374,63 +394,53 @@ def validate_partition(text: str, packet: dict[str, Any]) -> dict[str, Any]:
     except json.JSONDecodeError as exc:
         raise ValueError(f"Response is not valid JSON: {exc}") from exc
 
-    if not isinstance(value, dict) or set(value) != {"packet_id", "clusters"}:
-        raise ValueError("Output must contain exactly packet_id and clusters")
+    if not isinstance(value, dict) or set(value) != {"packet_id", "assignments"}:
+        raise ValueError("Output must contain exactly packet_id and assignments")
     if value["packet_id"] != packet["packet_id"]:
         raise ValueError("packet_id mismatch")
-    clusters = value["clusters"]
-    if not isinstance(clusters, list) or not clusters:
-        raise ValueError("clusters must be a nonempty list")
 
+    assignments = value["assignments"]
     input_ids = [target["target_id"] for target in packet["targets"]]
-    input_set = set(input_ids)
-    input_order = {target_id: i for i, target_id in enumerate(input_ids)}
-    observed: list[str] = []
-    first_positions: list[int] = []
-
-    for i, cluster in enumerate(clusters, start=1):
-        if not isinstance(cluster, dict) or set(cluster) != {"cluster_id", "target_ids"}:
-            raise ValueError("Each cluster must contain exactly cluster_id and target_ids")
-        expected_cluster_id = f"C{i:03d}"
-        if cluster["cluster_id"] != expected_cluster_id:
-            raise ValueError(
-                f"Expected cluster_id {expected_cluster_id}, got {cluster['cluster_id']!r}"
-            )
-        target_ids = cluster["target_ids"]
-        if not isinstance(target_ids, list) or not target_ids:
-            raise ValueError(f"{expected_cluster_id} target_ids must be a nonempty list")
-        if any(not isinstance(x, str) for x in target_ids):
-            raise ValueError(f"{expected_cluster_id} contains non-string target ID")
-        unknown = set(target_ids) - input_set
-        if unknown:
-            raise ValueError(f"{expected_cluster_id} contains unknown target IDs: {sorted(unknown)}")
-        observed.extend(target_ids)
-        first_positions.append(min(input_order[x] for x in target_ids))
-
-    if len(observed) != len(input_ids):
+    if not isinstance(assignments, list):
+        raise ValueError("assignments must be a list")
+    if len(assignments) != len(input_ids):
         raise ValueError(
-            f"Expected {len(input_ids)} target assignments, observed {len(observed)}"
+            f"Expected {len(input_ids)} assignments, observed {len(assignments)}"
         )
-    if len(set(observed)) != len(observed):
-        raise ValueError("One or more target IDs appear more than once")
-    if set(observed) != input_set:
-        missing = sorted(input_set - set(observed))
-        raise ValueError(f"Missing target IDs: {missing[:10]}")
-    if first_positions != sorted(first_positions):
-        raise ValueError(
-            "Clusters are not ordered by the first input target represented in each cluster"
-        )
+    if any(type(label) is not int for label in assignments):
+        raise ValueError("Every assignment must be an integer")
+
+    # Canonicalize arbitrary model labels by first occurrence. This is a pure
+    # relabeling of the partition and makes no semantic decision.
+    label_to_cluster_id: dict[int, str] = {}
+    cluster_targets: dict[int, list[str]] = {}
+    for target_id, label in zip(input_ids, assignments):
+        if label not in label_to_cluster_id:
+            label_to_cluster_id[label] = f"C{len(label_to_cluster_id) + 1:03d}"
+            cluster_targets[label] = []
+        cluster_targets[label].append(target_id)
 
     return {
         "packet_id": packet["packet_id"],
         "clusters": [
             {
-                "cluster_id": cluster["cluster_id"],
-                "target_ids": list(cluster["target_ids"]),
+                "cluster_id": label_to_cluster_id[label],
+                "target_ids": cluster_targets[label],
             }
-            for cluster in clusters
+            for label in label_to_cluster_id
         ],
     }
+
+
+def build_system_instructions() -> str:
+    parent = INSTRUCTIONS.read_text(encoding="utf-8")
+    marker = "\n## Cluster IDs\n"
+    if marker not in parent:
+        raise ValueError("Cannot locate Cluster IDs section in frozen Stage 2 instructions")
+    semantic_prefix = parent.split(marker, 1)[0].rstrip()
+    encoding = OUTPUT_ENCODING_P1D2.read_text(encoding="utf-8").strip()
+    return semantic_prefix + "\n\n" + encoding + "\n"
+
 
 
 def rough_tokens(text: str) -> int:
@@ -454,7 +464,7 @@ def call_provider(
 ) -> tuple[str, dict[str, Any]]:
     cfg = MODEL_CONFIGS[model_key]
     payload = canonical_json(packet)
-    schema = output_schema()
+    schema = output_schema(packet, cfg["provider"])
 
     if cfg["provider"] == "openai":
         response = client.responses.create(
@@ -466,7 +476,7 @@ def call_provider(
             text={
                 "format": {
                     "type": "json_schema",
-                    "name": "e1_stage2_partition",
+                    "name": "e1_stage2_assignment_vector",
                     "strict": True,
                     "schema": schema,
                 }
@@ -574,12 +584,12 @@ def derive_state(
         if task_id not in task_map:
             raise ValueError(f"Attempt log contains unknown task_id: {task_id}")
         model_key = row.get("model_key")
-        row_variant = row.get("execution_variant", PREDECESSOR_VARIANT)
-        counts_toward_current_ceiling = not (
-            model_key == "sonnet" and row_variant != EXECUTION_VARIANT
-        )
-        if counts_toward_current_ceiling:
-            attempt_counts[task_id] = attempt_counts.get(task_id, 0) + 1
+        row_variant = row.get("execution_variant")
+        if row_variant != EXECUTION_VARIANT:
+            raise ValueError(
+                f"P1D2 output directory contains non-P1D2 attempt lineage: {row_variant!r}"
+            )
+        attempt_counts[task_id] = attempt_counts.get(task_id, 0) + 1
         cost = row.get("usage", {}).get("conservative_cost_usd")
         if model_key in model_costs and isinstance(cost, (int, float)):
             model_costs[model_key] += float(cost)
@@ -647,6 +657,8 @@ def build_manifest(
         "protocol": "E1/E1A",
         "execution_protocol": "P1",
         "execution_correction": EXECUTION_VARIANT,
+        "predecessor_execution_commit": PREDECESSOR_EXECUTION_COMMIT,
+        "output_encoding": OUTPUT_ENCODING,
         "bundle_id": BUNDLE_ID,
         "bundle_commit": BUNDLE_COMMIT,
         "implementation_commit": implementation_commit,
@@ -654,13 +666,18 @@ def build_manifest(
         "runner_sha256": sha256_file(Path(__file__).resolve()),
         "execution_protocol_path": rel(EXECUTION_PROTOCOL),
         "execution_protocol_sha256": sha256_file(EXECUTION_PROTOCOL),
-        "execution_correction_path": rel(EXECUTION_CORRECTION),
-        "execution_correction_sha256": sha256_file(EXECUTION_CORRECTION),
+        "prior_execution_correction_path": rel(EXECUTION_CORRECTION),
+        "prior_execution_correction_sha256": sha256_file(EXECUTION_CORRECTION),
+        "execution_correction_path": rel(EXECUTION_CORRECTION_P1D2),
+        "execution_correction_sha256": sha256_file(EXECUTION_CORRECTION_P1D2),
+        "output_encoding_path": rel(OUTPUT_ENCODING_P1D2),
+        "output_encoding_sha256": sha256_file(OUTPUT_ENCODING_P1D2),
         "execution_variant_policy": {
-            "sonnet": EXECUTION_VARIANT,
-            "other_models": PREDECESSOR_VARIANT,
+            "all_fresh_tasks": EXECUTION_VARIANT,
+            "predecessor_execution_is_frozen_and_superseded": True,
         },
         "instructions_sha256": sha256_file(INSTRUCTIONS),
+        "runtime_system_sha256": sha256_text(build_system_instructions()),
         "status": status,
         "updated_at": utc_now(),
         "task_count": len(tasks),
@@ -703,7 +720,7 @@ def preflight(implementation_commit: str | None) -> dict[str, Any]:
         verify_implementation(implementation_commit)
     tasks = build_tasks(index)
 
-    instruction_text = INSTRUCTIONS.read_text(encoding="utf-8")
+    instruction_text = build_system_instructions()
     input_by_model = {key: 0 for key in MODEL_CONFIGS}
     max_packet_tokens = 0
     for task in tasks:
@@ -749,7 +766,7 @@ def synthetic_test(model_key: str) -> None:
     if not api_key:
         raise SystemExit(f"Missing environment variable: {cfg['api_key_env']}")
     client = build_client(model_key, api_key)
-    system = INSTRUCTIONS.read_text(encoding="utf-8")
+    system = build_system_instructions()
     raw_text, raw = call_provider(model_key, client, system, SYNTHETIC_PACKET)
     parsed = validate_partition(raw_text, SYNTHETIC_PACKET)
     print(
@@ -769,7 +786,7 @@ def synthetic_test(model_key: str) -> None:
 
 
 def task_execution_variant(task: dict[str, Any]) -> str:
-    return EXECUTION_VARIANT if task["model_key"] == "sonnet" else PREDECESSOR_VARIANT
+    return EXECUTION_VARIANT
 
 
 def attempt_task(
@@ -784,6 +801,7 @@ def attempt_task(
         "execution_variant": execution_variant,
         "model_key": task["model_key"],
         "max_output_tokens": MAX_OUTPUT_TOKENS_BY_MODEL[task["model_key"]],
+        "output_encoding": OUTPUT_ENCODING,
     }
     request_sha = sha256_text(
         system + "\n" + canonical_json(packet) + "\n" + canonical_json(request_config)
@@ -794,6 +812,7 @@ def attempt_task(
         "model_key": task["model_key"],
         "execution_variant": execution_variant,
         "max_output_tokens": MAX_OUTPUT_TOKENS_BY_MODEL[task["model_key"]],
+        "output_encoding": OUTPUT_ENCODING,
         "started_at": utc_now(),
         "request_sha256": request_sha,
     }
@@ -809,6 +828,7 @@ def attempt_task(
         "model_requested": MODEL_CONFIGS[task["model_key"]]["model"],
         "execution_variant": execution_variant,
         "max_output_tokens": MAX_OUTPUT_TOKENS_BY_MODEL[task["model_key"]],
+        "output_encoding": OUTPUT_ENCODING,
         "attempt_index": attempt_index,
         "target_count": task["target_count"],
         "started_at": marker["started_at"],
@@ -923,13 +943,13 @@ def execute(
 
     attempts = read_jsonl(ATTEMPTS_PATH)
     state = derive_state(attempts, tasks)
-    system = INSTRUCTIONS.read_text(encoding="utf-8")
+    system = build_system_instructions()
 
     if mode == "run":
         missing_canaries = sorted(CANARY_TASK_IDS - set(state["completed"]))
         if missing_canaries:
             raise SystemExit(
-                "Full run is gated on four valid real canaries. Run the canary command first. "
+                "Full run is gated on all required valid canaries. Run the canary command first. "
                 f"Missing: {missing_canaries}"
             )
         selected = [
@@ -1145,6 +1165,7 @@ def resolve_inflight(action: str) -> None:
         "model_requested": MODEL_CONFIGS[marker["model_key"]]["model"],
         "attempt_index": marker["attempt_index"],
         "execution_variant": marker.get("execution_variant", PREDECESSOR_VARIANT),
+        "output_encoding": marker.get("output_encoding"),
         "max_output_tokens": marker.get(
             "max_output_tokens",
             MAX_OUTPUT_TOKENS_BY_MODEL[marker["model_key"]],
