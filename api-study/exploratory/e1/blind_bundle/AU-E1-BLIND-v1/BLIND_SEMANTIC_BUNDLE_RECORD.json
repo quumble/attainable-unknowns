@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-09-20T23:09:04.870139+00:00",
+  "f1_implementation_commit": "71bae11a254b4f1a9114baff6181b411213bc228",
+  "fixed_clusters": 2026,
+  "focal_anchors": 12,
+  "hashes": {
+    "cluster_label_attempts_sha256": "449a0fbacc358a915ac9c383aa54902c46c7faf14b3e9aac2d541d2c16909ecd",
+    "cluster_labels_sha256": "e809b77a1c2df6bf9be5d6cfd0db68b32c588d9d2d752304d8f0369df94061be",
+    "focal_anchors_sha256": "bda4e36d7b4fd954eeeaec685916b493ac46a5132fc5fea0ea3aab9e3ee22055",
+    "p1d3_partitions_sha256": "605d95f063d01349e95ebb126aa512796cb4f1fc9b12fae7862bacb8073e2aea",
+    "passages_sha256": "1d2a1f9b788e4882968d074d032fd916b70542a07c2440ec58d1359d8817475b",
+    "protocol_sha256": "487f24776e506cba1308c82a8af095b0cd1a1fef3ab0c777b3dc1e7e0ae44831",
+    "runner_sha256": "193ac8a8d990846b79520e31a2ad6b32caad47ff14ff482d6d4ff94b8e2e7c54",
+    "stage2_packet_index_sha256": "91e15924cc0d876939f80dcf57bc7ae454e8719e996bdcbda6d5a7c792ae61aa"
+  },
+  "named_clusters": 2026,
+  "naming_cost_usd": 1.950684,
+  "naming_model": "gpt-5.6-sol",
+  "original_model_gap_metadata_joined": false,
+  "partition_freeze_commit": "fb54cd0c37841e880372694e056d985ac3272b40",
+  "partitions": 72,
+  "private_e1_keys_read_by_f1": false,
+  "schema_version": "au-e1-blind-semantic-bundle-record-v1",
+  "status": "complete_pre_metadata_join"
+}

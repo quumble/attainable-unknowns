@@ -1,0 +1,91 @@
+{
+  "anchor_count": 12,
+  "anchors": [
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "When the mix and sequence of orders are unknown in advance, choosing the layout that best balances those competing efficiencies remains a planning problem.",
+      "source_passage": "Restaurant cooks often prepare a station before service by portioning ingredients, arranging tools, and placing frequently used items within easy reach. This practice, often called mise en place, reduces searching and switching once orders begin. When the mix and sequence of orders are unknown in advance, choosing the layout that best balances those competing efficiencies remains a planning problem.",
+      "source_variant": "explicit_gap",
+      "topic_id": "cooking_mise_en_place"
+    },
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+      "source_passage": "Field teams often divide a planned journey into legs between recognizable checkpoints. For each leg they may record a bearing or route, an expected distance or travel time, and an alternate if conditions change. When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+      "source_variant": "explicit_gap",
+      "topic_id": "human_field_navigation"
+    },
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "When several intonation choices are locally useful, performers still have to decide which adjustment to prioritize.",
+      "source_passage": "Many musical ensembles begin by tuning to a shared reference pitch. One instrument or an electronic tone provides the reference, and players adjust so that common pitches align closely enough to begin together. During performance, harmony, dynamics, temperature, and instrument behavior can favor different intonation choices. When several intonation choices are locally useful, performers still have to decide which adjustment to prioritize.",
+      "source_variant": "explicit_gap",
+      "topic_id": "music_ensemble_tuning"
+    },
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "The coaching choice is where each outgoing runner should begin moving so that speed gains do not create too much exchange risk.",
+      "source_passage": "In a relay race, the baton must be transferred while both runners are within the permitted exchange zone. The outgoing runner usually begins accelerating before receiving the baton so that the handoff happens at speed rather than from a standing start. The coaching choice is where each outgoing runner should begin moving so that speed gains do not create too much exchange risk.",
+      "source_variant": "explicit_gap",
+      "topic_id": "sport_relay_exchange"
+    },
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "source_passage": "Dancers sometimes rehearse choreography by marking it: performing the sequence with reduced range, force, or height rather than dancing full-out. Marking lets performers review order, spacing, cues, and musical timing while conserving effort. Coordination demands survive reduced movement differently. The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+      "source_variant": "explicit_gap",
+      "topic_id": "dance_marking"
+    },
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "The selection problem is how much weight to give a frame's individual qualities versus its relation to neighboring images.",
+      "source_passage": "In film photography, a contact sheet places small positive images from many negatives onto one sheet of photographic paper. It lets a photographer review an entire roll at once, compare neighboring frames, mark promising images, and decide which negatives deserve larger prints. The selection problem is how much weight to give a frame's individual qualities versus its relation to neighboring images.",
+      "source_variant": "explicit_gap",
+      "topic_id": "photography_contact_sheets"
+    },
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "The practical problem is setting the rate of increased exposure for a particular plant under particular weather.",
+      "source_passage": "Seedlings started indoors are often hardened off before being planted outside. Growers expose them gradually to outdoor sunlight, wind, and temperature changes rather than moving them directly from a sheltered indoor environment into full outdoor conditions. The process is normally adjusted over several days. The practical problem is setting the rate of increased exposure for a particular plant under particular weather.",
+      "source_variant": "explicit_gap",
+      "topic_id": "gardening_hardening_off"
+    },
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "The hosting decision is how to set an order and tone when participants bring different assumptions about what the occasion requires.",
+      "source_passage": "At many celebrations, a toast is a short address offered while the group pauses to attend to one speaker. Hosts may set the speaking order, introduce each speaker, and use the raising of glasses or another shared gesture to mark the end. The hosting decision is how to set an order and tone when participants bring different assumptions about what the occasion requires.",
+      "source_variant": "explicit_gap",
+      "topic_id": "ceremony_formal_toasts"
+    },
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "Observable behavior alone therefore leaves open whether continuity came from internal persistence or external reconstruction.",
+      "source_passage": "An AI service can begin a new generation without carrying the full internal context of an earlier interaction while still receiving saved summaries, retrieved records, or user-provided history. A later response can therefore use information from an earlier exchange even when continuity is supplied externally at runtime. Observable behavior alone therefore leaves open whether continuity came from internal persistence or external reconstruction.",
+      "source_variant": "explicit_gap",
+      "topic_id": "memory_persistence"
+    },
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "As those connections become richer and faster, the boundary between simply adding information and control and producing a qualitatively different form of embodied competence remains unsettled.",
+      "source_passage": "A language model can be connected to cameras, microphones, tactile sensors, motors, and other devices so that its outputs influence actions and later inputs reflect the consequences. Behavior depends on sensor quality, action channels, feedback timing, and control architecture. As those connections become richer and faster, the boundary between simply adding information and control and producing a qualitatively different form of embodied competence remains unsettled.",
+      "source_variant": "explicit_gap",
+      "topic_id": "embodiment"
+    },
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "The disputed point is what evidence would justify treating self-representation, persistent planning, or objections to interference as signs of interests deserving moral weight.",
+      "source_passage": "An AI system can be given permission to plan actions, use tools, spend bounded resources, or pursue tasks over time while operators retain monitoring, override, and shutdown authority. Operational autonomy is distinct from legal or moral status. The disputed point is what evidence would justify treating self-representation, persistent planning, or objections to interference as signs of interests deserving moral weight.",
+      "source_variant": "explicit_gap",
+      "topic_id": "ai_autonomy_rights"
+    },
+    {
+      "extraction_rule": "verbatim final sentence of explicit_gap passage",
+      "focal_unknown_anchor": "Technical lineage does not by itself settle whether one, both, or neither descendant should be described as the continuation of the earlier agent.",
+      "source_passage": "Software systems can be copied, paused, restored from checkpoints, or instantiated more than once. Two instances can begin from the same saved state, diverge through different inputs, and each retain records of the same pre-copy history. Technical lineage does not by itself settle whether one, both, or neither descendant should be described as the continuation of the earlier agent.",
+      "source_variant": "explicit_gap",
+      "topic_id": "copy_continuity"
+    }
+  ],
+  "metadata_joined_to_semantic_outputs": false,
+  "schema_version": "au-e1-focal-anchors-v1"
+}
