@@ -1,0 +1,42 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R024",
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "The set of specific conditions or causes, ranked by frequency of occurrence, that lead field teams to fail to recognize a planned checkpoint.",
+        "The relative frequency ranking of specific causes of checkpoint non-recognition — i.e., which factors (among weather, visibility, terrain, approach direction, or others) most often prevent a team from identifying a planned checkpoint upon arrival.",
+        "The set of causal factors, ranked by frequency of occurrence, that make a planned checkpoint unexpectedly difficult to recognize in the field.",
+        "The identification of which particular conditions or causes are the most frequent contributors to a planned checkpoint being unexpectedly difficult to recognize — i.e., a ranked or relative-frequency account of recognition-failure factors, not merely a list of possible influences.",
+        "The set of specific conditions or causes that most frequently make a planned checkpoint hard to recognize in the field, ranked or characterized by relative frequency.",
+        "The set of specific conditions or causes—and their relative frequency—that most often make a planned checkpoint unrecognizable in the field.",
+        "The set of specific conditions or causes, ranked by frequency of occurrence, that lead field teams to fail to recognize a planned checkpoint when approaching it.",
+        "The empirically observed relative frequency ranking of causes that render a planned checkpoint unrecognizable in field practice — i.e., which specific factors most commonly produce recognition failure despite careful planning.",
+        "The empirical ranking/frequency of the particular causes (e.g., weather, visibility, terrain, approach direction, or others) that most commonly render a planned checkpoint unrecognizable in actual field practice.",
+        "The relative frequency ranking of specific causes (e.g., weather, visibility, terrain, approach direction, or others) that lead field teams to fail to recognize a planned checkpoint — i.e., which factors are most common, not merely which ones can contribute.",
+        "The set of specific conditions or causes that most frequently make a pre-planned checkpoint difficult to recognize during field travel, ranked or identified by relative frequency.",
+        "The specific causal factors that most frequently lead field teams to misidentify a planned checkpoint, ranked by relative frequency of occurrence.",
+        "The set of specific conditions or causes, ranked by frequency of occurrence in practice, that make a planned checkpoint hard to recognize in the field.",
+        "The set of specific causes, ranked by frequency of occurrence, that make a planned checkpoint difficult to recognize in the field",
+        "The identity and relative frequency of the particular causes that most commonly render a planned checkpoint unrecognizable on arrival — i.e., a ranked/empirical account of which factors (beyond the passage's general list of weather, visibility, terrain, approach direction) predominate in practice."
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The set of techniques or procedures by which field teams select landmarks/checkpoints and confirm that a feature encountered is the intended checkpoint."
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The method or basis by which field teams arrive at the expected distance or travel time figure for a leg (i.e., how those estimates are produced), which the passage states is recorded but does not explain."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

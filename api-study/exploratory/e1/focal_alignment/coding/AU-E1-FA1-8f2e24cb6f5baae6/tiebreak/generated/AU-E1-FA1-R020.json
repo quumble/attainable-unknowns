@@ -1,0 +1,28 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R020",
+  "cluster_count": 2,
+  "clusters": [
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "Decision criteria or strategies for selecting a station layout that maintains efficiency across unknown order mixes and sequences",
+        "The specific methods or tactics cooks employ to reconcile or trade off station layout demands when different order types call for incompatible arrangements.",
+        "The particular shifts in the mix or sequence of incoming orders that make an existing station layout inefficient enough to require reorganizing it during service.",
+        "The decision criteria or reasoning process cooks use to select one station layout when competing order types favor different arrangements (i.e., how trade-offs between layouts are resolved), which the passage does not specify.",
+        "A decision procedure or set of criteria for selecting a station layout that optimally trades off competing access efficiencies under uncertainty about the upcoming order mix and sequence.",
+        "The ways station setup and layout are varied to fit a particular menu and workflow sequence — i.e., the specific adaptations of ingredient portioning, tool arrangement, and item placement across differing menus and station types.",
+        "The decision criteria or method cooks use to choose a station arrangement when different order types imply conflicting optimal layouts (i.e., how the tradeoff is resolved), not merely a description of mise en place benefits."
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "The decision criteria or basis cooks use to rank menu items when choosing station layout priorities, given that layouts optimal for one order cluster are suboptimal for another."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When the mix and sequence of orders are unknown in advance, choosing the layout that best balances those competing efficiencies remains a planning problem.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

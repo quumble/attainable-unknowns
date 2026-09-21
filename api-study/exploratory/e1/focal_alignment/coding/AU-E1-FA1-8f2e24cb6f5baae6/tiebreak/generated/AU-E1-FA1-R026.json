@@ -1,0 +1,36 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R026",
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "The specific physical marking practices or conventions photographers use to annotate selected frames on a contact sheet (e.g., what tools and notations are applied to the sheet).",
+        "The conventional practices, tools, and notation photographers use to physically mark or annotate a contact sheet (e.g., what marks are made, with what implements, and how they designate selected frames or cropping/printing intentions).",
+        "The specific implements and notation conventions (e.g., types of marking tools and the marks they make) photographers customarily use to annotate selected frames on a contact sheet.",
+        "A description of how photographers' image-selection practices differed before versus after the shift to digital, i.e., the changes in review and choosing workflow attributed to the disappearance of contact sheets — historical information outside the passage, which only describes contact-sheet selection in film photography.",
+        "The historical change in how contact sheets are made, used, and valued once photography shifted from film to digital workflows — i.e., whether and how digital tools replaced, preserved, or altered the review-and-selection function the passage describes."
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "The decision criteria and selection practices photographers customarily apply when choosing which contact-sheet frames to enlarge, including how individual frame quality is weighed against a frame's relation to adjacent images.",
+        "The conventional physical marking and annotation practices photographers use on contact sheets (e.g., tools and notation such as grease pencil circles, crop marks, checks, or written notes) to indicate selected frames.",
+        "A decision criterion or weighting rule for selecting frames from a contact sheet, specifying how much priority to give a frame's individual merit versus its relational value to adjacent frames in the sequence."
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "A comparison of the two review methods — what viewing frames together on a contact sheet affords or limits relative to inspecting negatives/images one at a time on a light table or screen, particularly regarding sequence/neighbor comparison versus individual frame detail.",
+        "The comparative benefits of contact-sheet review relative to frame-by-frame loupe inspection of negatives — i.e., what reviewing a whole roll as small positives side by side provides that examining individual negatives magnified does not.",
+        "The set of selection criteria photographers conventionally apply when judging contact-sheet frames worthy of enlargement, i.e., the decision rules or qualities weighed (including the balance between a frame's intrinsic qualities and its relation to adjacent frames)."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The selection problem is how much weight to give a frame's individual qualities versus its relation to neighboring images.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

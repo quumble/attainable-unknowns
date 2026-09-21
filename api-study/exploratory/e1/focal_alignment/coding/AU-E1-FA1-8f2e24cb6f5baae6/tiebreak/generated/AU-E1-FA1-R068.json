@@ -1,0 +1,56 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R068",
+  "cluster_count": 5,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The types of externally supplied saved summaries or retrieved records accessible to a later AI generation",
+        "The types of saved summaries or retrieved records that can be supplied as external prior information to a new generation",
+        "The types of saved summaries or retrieved records that can reconstruct prior interaction context at runtime.",
+        "The types of externally saved summaries or retrieved records that can provide prior information to a later AI response",
+        "The types of externally supplied saved summaries or retrieved records that can provide continuity to a new generation",
+        "The types of saved summaries or retrieved records that can reconstruct access to information from an earlier interaction",
+        "The types of saved summaries or retrieved records that can be supplied to a new generation",
+        "The types of externally supplied saved summaries or retrieved records that can reconstruct prior context for a later response.",
+        "The types of externally saved summaries or retrieved records accessible to a later generation",
+        "The types of externally supplied information a later AI response can use to reconstruct prior context"
+      ]
+    },
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "The mechanisms by which prior information is supplied externally to the service at runtime",
+        "The mechanisms used to reconstruct access to prior information at runtime.",
+        "The specific runtime methods used to reconstruct access to prior information.",
+        "The specific external methods used at runtime to reconstruct access to information from earlier interactions.",
+        "The specific runtime methods or technologies used to reconstruct access to information from prior interactions",
+        "The specific mechanisms for producing saved summaries and selecting prior information for retrieval"
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The specific techniques used to store and retrieve externally preserved summaries or records from earlier interactions.",
+        "The specific mechanisms used to store and retrieve externally preserved summaries or records from prior interactions"
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "Methods for ensuring accurate context reconstruction from externally supplied summaries or records without relying on retained internal state",
+        "Methods for reliably verifying that external summaries or records accurately reflect the earlier interaction"
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "The criteria and process used to prioritize conflicting information from retained internal state versus externally supplied prior context"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "Observable behavior alone therefore leaves open whether continuity came from internal persistence or external reconstruction.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

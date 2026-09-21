@@ -1,0 +1,70 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R005",
+  "cluster_count": 5,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "Concrete instances of culture- or region-specific toasting customs, illustrating how practices (e.g., order, wording, gestures, timing, drinking etiquette) vary from one named culture or region to another.",
+        "Concrete instances of cross-cultural or regional variation in toasting practice — specific named cultures/regions paired with their particular customs regarding order, length, tone, gesture, or spontaneity of toasts.",
+        "An inventory of culture-specific toasting customs and conventions (e.g., particular gestures, phrases, ordering, timing, or etiquette rules) as practiced in named cultures or traditions, going beyond the passage's generic description of toast form.",
+        "An inventory of culture-specific toasting customs and traditions at celebrations, describing how particular cultures differ in practices such as order, wording, gestures, timing, and etiquette.",
+        "A cross-cultural comparison describing how toasting customs and conventions (e.g., gestures, timing, speaking order, wording, drinking etiquette) differ from one culture or region to another.",
+        "Specific instances of culture- or region-specific customs governing toast performance (e.g., particular practices about order, length, tone, gestures, or spontaneity in named traditions), illustrating variation beyond the general statement that such variation exists.",
+        "Concrete instances of variation in toast practice across specific cultures, families, or local traditions — i.e., named or described departures from the standard toast format (in order, length, tone, gesture, or spontaneity).",
+        "Concrete illustrative instances of culture- or region-specific toasting customs, each tied to a named culture/region and describing how its practices (e.g., order, wording, gesture, drinking etiquette) differ from others.",
+        "A cross-cultural inventory of toasting practices — the specific gestures, verbal formulas, drinking customs, timing, and etiquette rules that differ across cultures in place of or in addition to glass-raising.",
+        "An enumeration of specific culturally or regionally identified toasting customs — i.e., which particular cultures/regions practice which particular toast conventions (phrases, gestures, ordering, drinking rules) — going beyond the passage's generic description of toast form and its note that expectations vary.",
+        "A set of concrete instances of toasting customs from particular cultures or traditions, illustrating how practices differ across them.",
+        "A comparative account of cross-cultural and regional variation in toasting conventions — how specific cultures or regions differ from one another in the structure of toasts (speaking order, who speaks, length, tone, gestures, degree of spontaneity, closing markers).",
+        "The specific culture- or region-by-culture variations in toasting conventions (order, length, tone, spontaneity, gestures), i.e., which particular traditions or locales follow which patterns.",
+        "A cross-cultural inventory of the specific gestures, rituals, and customary practices used in toasting, and how these differ from one culture to another.",
+        "Concrete illustrative instances of cross-cultural or regional variation in how toasts are structured (e.g., differences in speaking order, length, tone, spontaneity, or closing gestures in particular cultures or regions).",
+        "Cross-cultural comparison of toasting customs: how toasting practices, conventions, and etiquette differ from one culture or region to another.",
+        "A comparative description of how toasting customs (e.g., speaking order, length, tone, gestures, spontaneity, occasions) differ across specific named cultures, regions, or traditions.",
+        "A set of concrete instances of toasting practices drawn from specific cultural or national traditions, each illustrating how that tradition performs the toast (e.g., wording, gesture, occasion) — content not supplied by the passage, which describes only the general form and notes that expectations vary.",
+        "Cross-cultural and national variation in toasting practices — how toast customs (their form, timing, gestures, wording, etiquette) differ from one culture or country to another.",
+        "Cross-cultural comparison of toasting practices — how toasting customs, rituals, and conventions differ from one culture or country to another.",
+        "Concrete instances of culture- or region-specific toasting customs, naming particular cultures/regions and the distinctive practices (order, length, tone, gestures, wording) associated with each.",
+        "Specific instances of regional, cultural, or community customs that shape toast practices (e.g., particular conventions of order, length, tone, gesture, or spontaneity associated with named localities or traditions)."
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "A cross-cultural comparative description of conventional sequencing and timing rules for toasts at formal events — i.e., which cultures place toasts at which points in an event and in what speaker order.",
+        "A comparative description of conventions across specific cultures or regions specifying who speaks when and at what point in a celebration toasts occur (sequence and timing norms), not the general fact that such conventions vary.",
+        "A cross-cultural comparative description of conventional toast sequencing and timing norms — i.e., which cultures place toasts at which points in a celebration and in what speaker order — information the passage does not supply beyond noting that such expectations vary."
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "The set of considerations or criteria hosts customarily weigh in sequencing toast speakers (e.g., relationship to honoree, seniority, role, comfort speaking), i.e., decision inputs for ordering rather than the effects of ordering.",
+        "The particular criteria or considerations a host uses to decide which speaker is placed first in a toast's speaking order.",
+        "The particular considerations or decision rules hosts apply when sequencing toast speakers (e.g., relationship to honoree, seniority, role in the event), i.e., the criteria governing order selection rather than the general fact that hosts set an order.",
+        "The decision criteria or procedures hosts customarily use to select the first toast speaker when attendees hold divergent expectations about the occasion's norms.",
+        "The set of considerations or criteria hosts customarily weigh in determining the sequence of toast speakers.",
+        "The decision criteria or factors hosts apply when determining the sequence of toast speakers."
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "A cross-cultural comparison identifying which particular toasting conventions (e.g., speaking order, length, tone, spontaneity, gestures) show the greatest variation across cultures, ranked by degree of variability."
+      ]
+    },
+    {
+      "cluster_ref": "K018",
+      "member_targets": [
+        "The identity of specific alternative shared closing gestures (other than raising glasses) that hosts can use to mark the end of a toast.",
+        "The identity of a particular shared closing gesture, other than raising glasses, conventionally used to signal the end of a toast.",
+        "A concrete instance of a communal closing gesture used to mark the end of a toast, other than raising glasses (e.g., an alternative collective action performed by the group), which the passage leaves unspecified."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The hosting decision is how to set an order and tone when participants bring different assumptions about what the occasion requires.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

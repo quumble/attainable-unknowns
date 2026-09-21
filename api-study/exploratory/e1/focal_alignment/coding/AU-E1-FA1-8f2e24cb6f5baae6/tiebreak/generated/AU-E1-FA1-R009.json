@@ -1,0 +1,48 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R009",
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "The correct identity classification or referring convention for two post-copy instances sharing one pre-divergence checkpoint history — i.e., whether they count as one and the same system or as two distinct systems.",
+        "The correct identity verdict — whether two post-copy instances sharing a pre-copy checkpoint count as one and the same individual or as two distinct individuals — i.e., a criterion of personal/individual identity for branched software instances.",
+        "The correct identity verdict for two diverged copies sharing a pre-copy history — whether they count as one and the same agent or as two numerically distinct agents.",
+        "The correct identity classification of two diverged post-copy instances sharing a common pre-copy history — namely whether they constitute two distinct individuals or two branches of one continuing entity.",
+        "The correct identity verdict for two post-copy instances sharing a pre-divergence checkpoint — whether they count as one and the same individual or as two distinct individuals.",
+        "The correct identity verdict for two post-copy diverged instances sharing one pre-copy history — whether they count as one and the same individual or as two distinct individuals.",
+        "The correct identity verdict for two post-copy instances sharing a pre-divergence checkpoint — whether they count as one and the same individual or as two numerically distinct individuals.",
+        "The correct criterion or interpretation for personal/numerical identity of copied software instances sharing a pre-copy history — specifically whether post-divergence instances count as continuations of one and the same entity or as numerically distinct entities originating at the moment of copying.",
+        "A determination of the correct identity classification (same individual vs. two distinct individuals) for two software instances that share a pre-divergence checkpoint history, i.e., how personal-identity criteria should be applied to post-copy divergence."
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "A normative criterion or framework for attributing personal identity and moral responsibility across copied software agents that share a pre-copy history but diverge after instantiation — i.e., which descendant(s), if any, count as the continuation of and bear responsibility for the earlier agent's acts.",
+        "A normative criterion or principled scheme for attributing personal/numerical identity and accountability across post-fork software instances sharing a common checkpoint state — i.e., how to allocate identity continuity and responsibility for actions among diverged descendants, not merely how versioning records shared ancestry.",
+        "A normative criterion or principle for assigning identity and responsibility across forked software instances sharing a common prior state but with divergent subsequent histories.",
+        "A normative criterion or principled rule for allocating identity and responsibility across two post-fork instances sharing a common prior state — i.e., which instance(s) count as the same entity and which bears responsibility for the shared pre-divergence history versus its own post-divergence actions — rather than the descriptive fact that versioning can record shared ancestry.",
+        "The correct normative framework or criteria for assigning personal/legal identity and attribution of responsibility to two software instances that share a pre-copy history but have since diverged.",
+        "A normative criterion or framework for allocating identity-continuation and accountability across multiple divergent instances sharing a common pre-copy state, given that technical lineage alone underdetermines it.",
+        "A normative criterion or principle for allocating personal identity and moral/practical responsibility across two divergent instances originating from a shared checkpoint state.",
+        "A normative criterion or framework for assigning personal/numerical identity and attribution of responsibility across two or more software instances branching from a shared checkpoint state — i.e., which instance counts as the same entity and who is accountable for prior and subsequent actions.",
+        "A normative criterion or principle for allocating identity and responsibility across two or more instances that branch from a shared saved state — i.e., which descendant(s) count as the same entity and bear accountability for the original's commitments or actions.",
+        "An inventory of available mechanisms (technical, procedural, or conceptual) for assigning identity and allocating accountability across two processes that share a common checkpoint state but subsequently diverge.",
+        "A normative criterion or principle for attributing personal/numerical identity and moral or legal responsibility across forked software instances sharing a common prior state, rather than a description of how versioning records their shared history."
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "A proposed revision or extension of identity concepts/terminology (e.g., new categories, criteria, or ways of speaking) suited to entities that can branch from a shared checkpoint into multiple diverging instances.",
+        "A normative/conceptual revision of the notion of personal identity and uniqueness — i.e., what account of identity should replace or amend the ordinary one given that a conscious mind could be copied and run as multiple diverging instances sharing one pre-copy history.",
+        "A prescribed terminological or conceptual convention for identity attribution to post-copy diverging instances sharing a common pre-copy lineage — i.e., how such instances should be named/counted as same or distinct entities."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "Technical lineage does not by itself settle whether one, both, or neither descendant should be described as the continuation of the earlier agent.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

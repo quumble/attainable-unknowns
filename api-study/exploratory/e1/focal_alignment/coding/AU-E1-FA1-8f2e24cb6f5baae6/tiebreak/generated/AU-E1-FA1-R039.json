@@ -1,0 +1,19 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R039",
+  "cluster_count": 1,
+  "clusters": [
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The specific layout modifications typically needed to accommodate an unexpected shift to a different cluster of orders.",
+        "Specific station-layout redesign strategies cooks use in response to an unexpected change in order patterns",
+        "Changes in the composition of incoming orders that tend to require mid-service rearrangement of mise en place",
+        "The decision criteria and methods used to choose an optimal station layout when order patterns are unpredictable."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When the mix and sequence of orders are unknown in advance, choosing the layout that best balances those competing efficiencies remains a planning problem.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

@@ -1,0 +1,64 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R067",
+  "cluster_count": 8,
+  "clusters": [
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "Whether rehearsing in marked form ever produces negative carryover or difficulties when dancers switch to full-out performance, and if so what those problems are"
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "The effects of reduced-scale marking practice on a dancer's motor learning/muscle memory and on their physical readiness to perform full-out, i.e., what marking does and does not transfer to full-intensity execution."
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "The effect of switching between marked and full-out rehearsal on a dancer's injury risk — i.e., whether and how that transition raises or lowers injury likelihood and by what physical pathway."
+      ]
+    },
+    {
+      "cluster_ref": "K024",
+      "member_targets": [
+        "The comparative effect on eventual performance quality of a rehearsal strategy that includes marking versus one that is full-out throughout — i.e., outcome-level consequences of marking for final performance, not the passage's description of what marking preserves or omits during rehearsal.",
+        "The causal effect of prior marking practice on a dancer's subsequent performance quality when rehearsing full-out — i.e., whether and how reduced-scale rehearsal carries over to, enhances, or degrades full-scale execution."
+      ]
+    },
+    {
+      "cluster_ref": "K028",
+      "member_targets": [
+        "The comparative effect of marked versus full-out rehearsal on a dancer's capacity to notice and fix timing errors specifically in partnered choreography, given that reduced force and momentum alter physical timing and partnering forces.",
+        "The effect of marked (reduced-force/range) rehearsal on a dancer's capacity to detect and fix inter-partner timing coordination problems — i.e., which aspects of partnered timing remain diagnosable under marking and which are distorted or masked because reduced momentum and partnering forces alter physical timing.",
+        "A comparative account of how marking versus full-out rehearsal affects a dancer's capacity to detect and correct timing errors, given that marking preserves musical/cue timing but alters momentum-dependent physical timing."
+      ]
+    },
+    {
+      "cluster_ref": "K029",
+      "member_targets": [
+        "The particular determinants (movement or task properties) that set the point of movement reduction beyond which a given coordination demand ceases to be faithfully represented in marking.",
+        "The set of determinants (movement or task properties) that fix the point of reduction beyond which a given coordination demand is no longer faithfully represented in marking."
+      ]
+    },
+    {
+      "cluster_ref": "K032",
+      "member_targets": [
+        "The conditions or movement types under which marked rehearsal diverges enough from full-out execution that it gives dancers inaccurate information about the actual coordination and physical demands."
+      ]
+    },
+    {
+      "cluster_ref": "K033",
+      "member_targets": [
+        "The comparative effect of marking versus full-out rehearsal on retention and execution of technique and motor memory — i.e., which aspects of skilled movement are preserved, degraded, or unrehearsed when practicing at reduced scale.",
+        "The comparative effect of marking versus full-out rehearsal on a dancer's motor/muscle-memory retention of choreography — i.e., how well each practice mode encodes and sustains learned movement, and in what respects retention differs between them.",
+        "The comparative effect of marking versus full-out rehearsal on motor learning/muscle memory — i.e., which aspects of movement memory marking does or does not encode relative to full-scale practice."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

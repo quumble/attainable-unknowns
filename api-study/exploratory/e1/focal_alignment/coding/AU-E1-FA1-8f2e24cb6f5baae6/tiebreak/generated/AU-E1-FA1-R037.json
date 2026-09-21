@@ -1,0 +1,104 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R037",
+  "cluster_count": 13,
+  "clusters": [
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The typical degree of effort or intensity reduction that distinguishes marking from full-out dancing",
+        "The typical amount by which marking reduces physical intensity relative to full-out dancing."
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The effect of marking during rehearsal on a dancer’s subsequent ability to perform the choreography at full intensity",
+        "The effects of marking on a dancer’s preparedness for full-force stage performance, including which performance demands it supports and which it preserves less faithfully.",
+        "The effect of marking on a dancer’s preparedness for the full physical demands of full-intensity performance"
+      ]
+    },
+    {
+      "cluster_ref": "K015",
+      "member_targets": [
+        "The magnitude of the reduction in physical strain or injury risk from marking compared with full-out rehearsal"
+      ]
+    },
+    {
+      "cluster_ref": "K021",
+      "member_targets": [
+        "The effect of marking on dancers’ ability to detect and correct timing problems with their partners",
+        "The effect of marking, relative to full-out rehearsal, on detecting and correcting timing errors in partnered dance work."
+      ]
+    },
+    {
+      "cluster_ref": "K024",
+      "member_targets": [
+        "Methods for ensuring that marked rehearsals adequately prepare dancers for full-out momentum and partnering demands",
+        "Rehearsal strategies for preparing dancers for momentum and partnering forces not fully reproduced by marking",
+        "Methods for practicing reduced-intensity choreography while preserving the physical demands that differ from full-out performance"
+      ]
+    },
+    {
+      "cluster_ref": "K025",
+      "member_targets": [
+        "The effects of reduced-intensity marking on muscle memory and readiness to perform the choreography at full physical intensity"
+      ]
+    },
+    {
+      "cluster_ref": "K030",
+      "member_targets": [
+        "The comparative effectiveness of marking versus full-out rehearsal for memorizing choreography",
+        "The comparative effect of marking versus full-out rehearsal on a dancer's memory for choreography",
+        "Whether marking rehearsal improves retention of choreography relative to exclusively practicing full-out",
+        "The comparative effect of marking versus always dancing full-out on dancers’ long-term retention of choreography",
+        "The comparative effect of marking versus full-out rehearsal on a dancer’s memory for choreography."
+      ]
+    },
+    {
+      "cluster_ref": "K033",
+      "member_targets": [
+        "The measurable effect of marking rehearsal, compared with exclusively full-out rehearsal, on skill retention"
+      ]
+    },
+    {
+      "cluster_ref": "K037",
+      "member_targets": [
+        "The comparative effect of marking versus full-out rehearsal on a dancer's ability to correct timing errors"
+      ]
+    },
+    {
+      "cluster_ref": "K038",
+      "member_targets": [
+        "The typical amount of energy reduction when marking choreography relative to dancing full-out",
+        "The typical amount by which marking reduces energy expenditure relative to full-out dancing.",
+        "The typical amount by which marking reduces energy expenditure relative to dancing full-out."
+      ]
+    },
+    {
+      "cluster_ref": "K040",
+      "member_targets": [
+        "The effects of marking on rehearsing lifts and other movements that depend on partnering forces and coordination",
+        "The effects of marking on the safety and accuracy of rehearsing partnering movements",
+        "The effects of marking on the safety and accuracy of rehearsing partnering movements.",
+        "The effect of marking on the safety and effectiveness of rehearsing lifts and other partnered movements."
+      ]
+    },
+    {
+      "cluster_ref": "K041",
+      "member_targets": [
+        "The physical and psychological differences dancers experience when marking choreography versus performing it full-out."
+      ]
+    },
+    {
+      "cluster_ref": "K044",
+      "member_targets": [
+        "The typical percentage distribution of rehearsal time between marking and dancing full-out.",
+        "The typical percentage allocation of rehearsal time between marking and full-out dancing."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

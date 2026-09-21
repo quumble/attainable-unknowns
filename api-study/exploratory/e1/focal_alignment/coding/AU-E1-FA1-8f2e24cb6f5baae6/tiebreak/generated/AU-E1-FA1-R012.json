@@ -1,0 +1,46 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R012",
+  "cluster_count": 1,
+  "clusters": [
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "Criteria for adjusting the pace and intensity of seedling hardening-off exposure in response to changing daily weather conditions",
+        "Ways growers can modify the timing and intensity of outdoor exposure during hardening off in response to different weather conditions",
+        "Weather-specific adjustments to the timing and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "The appropriate adjustments to a seedling hardening-off schedule under especially windy or cold conditions.",
+        "Adjustments to the hardening-off schedule under unusually windy, cold, or bright conditions",
+        "Growers’ adjustments to the hardening-off schedule under extreme or variable weather conditions",
+        "Weather-specific adjustments to the duration and intensity of seedlings’ outdoor exposure during hardening off",
+        "Weather-specific adjustments to the timing and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Weather-specific criteria for adjusting the timing and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "The weather-specific adjustments growers should make to the timing and intensity of seedlings’ outdoor exposure during hardening off.",
+        "Weather-dependent criteria for adjusting the timing and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Criteria for adjusting the pace and intensity of seedling hardening-off exposure according to changing sunlight, wind, and temperature conditions.",
+        "Weather-specific criteria for adjusting the pace and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Weather-dependent criteria for adjusting the timing and intensity of seedlings’ outdoor exposure during hardening off",
+        "Weather-based criteria for adjusting the pace and intensity of a seedling hardening-off schedule",
+        "Weather-dependent criteria for adjusting the pace and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Weather-specific adjustments to the pace and intensity of seedlings’ hardening-off exposure schedule",
+        "How the hardening-off schedule should be modified in response to extreme or variable weather conditions",
+        "Weather-specific criteria for adjusting the timing and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Weather-dependent criteria for adjusting the pace and intensity of seedlings’ outdoor exposure during hardening off",
+        "The weather-dependent criteria for adjusting the pace and intensity of a seedling hardening-off schedule.",
+        "Weather-specific criteria for adjusting the timing and intensity of a seedling hardening-off schedule",
+        "How the hardening-off schedule should be modified in response to substantially different weather conditions",
+        "Weather-specific criteria for adjusting the timing and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "The appropriate changes to the hardening-off schedule under unusually windy or cold conditions.",
+        "The weather-dependent criteria for adjusting the pace and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Adjustments to the pace and intensity of seedling hardening-off exposure under unusually bright, windy, warm, or cold outdoor conditions",
+        "The visible signs indicating seedling stress during the hardening-off process",
+        "Weather-dependent criteria for adjusting the timing and intensity of seedling hardening-off exposure",
+        "Criteria for adjusting the pace and intensity of seedling hardening-off based on current sunlight, wind, and temperature conditions",
+        "Weather-specific criteria for adjusting the pace and intensity of seedling hardening-off exposure"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The practical problem is setting the rate of increased exposure for a particular plant under particular weather.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

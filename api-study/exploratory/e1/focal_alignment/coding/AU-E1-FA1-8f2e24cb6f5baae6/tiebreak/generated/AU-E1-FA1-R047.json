@@ -1,0 +1,50 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R047",
+  "cluster_count": 2,
+  "clusters": [
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "Practical decision rules for modifying the pace, duration, and timing of graduated outdoor exposure in response to extreme or fluctuating weather conditions.",
+        "The specific modifications to the gradual exposure schedule (e.g., how much to shorten exposure duration, slow the pace, or add shelter) that growers should make when outdoor conditions are unusually windy or cold.",
+        "The specific adaptive practices or decision rules growers use to modify the gradual-exposure schedule (e.g., duration, timing, sheltering, pausing or extending the process) in response to unusually harsh or fluctuating weather.",
+        "The specific modifications to the gradual-exposure schedule (e.g., shortened exposure durations, delayed progression, added shelter) that should be applied when outdoor conditions are unusually windy or cold.",
+        "The specific modifications to the gradual exposure schedule (e.g., shortening exposure durations, delaying increases, or adding shelter) that growers should apply when outdoor conditions are unusually windy, cold, or bright."
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The decision rule for modifying the hardening-off exposure schedule (e.g., shortening, lengthening, or delaying daily exposure increments) in response to specific unusual outdoor conditions — bright sun, wind, heat, or cold.",
+        "The decision rules for modifying the pace and extent of seedling exposure during hardening off in response to differing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and duration of outdoor exposure during hardening off in response to specific prevailing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "Decision rules for modifying the pace and duration of gradual outdoor exposure in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold), i.e., how to adapt the schedule rather than what exposure generally does.",
+        "The decision rules for modifying hardening-off exposure duration and pacing in response to particular outdoor weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "Practical decision rules for modifying the pace, duration, and timing of graduated outdoor exposure in response to prevailing weather (cloud cover, sun intensity, wind, temperature).",
+        "The decision rules for modifying the pace and duration of hardening-off exposure in response to specific prevailing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "Practical decision rules for modifying the pace and amount of outdoor exposure during hardening off in response to day-to-day variation in weather conditions.",
+        "The decision rules for modifying hardening-off exposure duration and pacing in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the hardening-off exposure schedule (timing, duration, and degree of exposure) in response to specific weather conditions such as cloud cover, bright sun, wind, heat, or cold.",
+        "The decision rules for modifying the pace and extent of outdoor exposure during hardening off in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rule for modifying the pace and duration of hardening-off exposure in response to differing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rule for modifying hardening-off exposure duration/timing in response to specific current weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying hardening-off exposure duration and pacing in response to particular outdoor weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying hardening-off exposure duration and pacing in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "Practical adjustment strategies or decision rules for modifying the hardening-off exposure schedule in response to differing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "A set of practical decision rules specifying how the pace, duration, and timing of outdoor exposure during hardening off should be modified in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and duration of hardening-off exposure in response to specific prevailing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "Practical decision rules for modifying the pace, duration, and timing of hardening-off exposure in response to specific prevailing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and amount of daily outdoor exposure during hardening off in response to specific weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and amount of daily outdoor exposure during hardening off in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The practical decision rules for modifying the pace and amount of daily outdoor exposure during hardening off in response to specific weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and duration of gradual outdoor exposure in response to specific weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and duration of gradual outdoor exposure in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rule for modifying the pace and extent of gradual outdoor exposure in response to varying weather conditions (e.g., how to shorten, extend, or alter exposure under cloudy, bright, calm, windy, warm, or cold conditions)."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The practical problem is setting the rate of increased exposure for a particular plant under particular weather.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

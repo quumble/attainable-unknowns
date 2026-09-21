@@ -1,0 +1,41 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R062",
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The criteria field teams use to judge when an observed deviation is large enough to require revising the route"
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "The checkpoints and alternate routes the team should select for each leg of the journey.",
+        "The checkpoints and alternate routes that should be selected for each journey leg.",
+        "The checkpoints and alternate routes designated for each leg of the journey"
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "The criteria field teams use to determine whether a physical location qualifies as a recognizable checkpoint",
+        "The pre-journey process and criteria field teams use to identify or select recognizable checkpoints.",
+        "Criteria and methods teams use to select checkpoints that remain recognizable under changing weather, visibility, terrain, and approach direction",
+        "The criteria field teams use to assess whether a checkpoint is recognizable and reliable enough for navigation",
+        "Methods field teams can use to identify recognizable checkpoints in unfamiliar terrain",
+        "The criteria field teams use to determine whether locations qualify as recognizable checkpoints",
+        "The criteria and process field teams use to select recognizable checkpoints in unfamiliar terrain.",
+        "The criteria field teams use to identify or select a location as a recognizable checkpoint",
+        "The criteria field teams use to determine whether a location qualifies as a recognizable checkpoint.",
+        "The criteria field teams use to determine whether a location constitutes a recognizable checkpoint",
+        "The criteria field teams use to assess whether a checkpoint is recognizable and reliable",
+        "The methods field teams use to identify or establish recognizable journey checkpoints"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

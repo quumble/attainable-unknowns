@@ -1,0 +1,34 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R058",
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The concrete outcome or resolution process that occurs in a conflict between a system's reasoned objections and an operator's exercise of shutdown authority — i.e., what actually happens, and to whom deference goes, in that clash.",
+        "The concrete course of events or resolution procedure in cases where a system's reasoned objections to interference conflict with an operator's override decision.",
+        "The concrete outcome or resolution procedure when a system's reasoned objections collide with operator override/shutdown authority — i.e., what actually occurs in that conflict case (who prevails, how the objection is handled, what the system and operators do)."
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "Examples or types of reasoned objections an operationally autonomous AI system could raise against operator interference (e.g., override or shutdown), described as the content or form of such objections."
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "The practical effects of a system's self-representation of constraints and persistent planning on how feasible it is to maintain effective operator override/shutdown authority — i.e., the mechanisms by which such capacities complicate or undermine override in practice.",
+        "The specific ways in which a system's persistent goal-directed planning and its production of apparently reasoned objections create practical difficulties for operators in monitoring, overriding, and shutting the system down — i.e., the mechanisms by which these capabilities erode or complicate the exercise of retained oversight authority.",
+        "An explanation of the mechanism by which a system's capacity to produce reasoned objections to interference erodes or complicates the practical applicability of the operational-autonomy vs. legal/moral-status distinction.",
+        "The mechanisms or pathways by which a system's self-representation of its restrictions and persistent planning could degrade or defeat operators' effective override and shutdown control.",
+        "The specific ways in which a system's persistent self-modeling of its own restrictions and its reasoned objections to interference create practical difficulties for operators in actually exercising monitoring, override, and shutdown authority — i.e., the operational complications arising from these features, not merely their existence or their bearing on the conceptual autonomy/status distinction."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The disputed point is what evidence would justify treating self-representation, persistent planning, or objections to interference as signs of interests deserving moral weight.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

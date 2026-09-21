@@ -1,0 +1,116 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R044",
+  "cluster_count": 6,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The amount of information lost when prior interactions are represented by external summaries instead of retained as full internal context."
+      ]
+    },
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The operational distinction between retained internal state and runtime access to prior information reconstructed from external sources",
+        "The types of externally saved summaries or retrieved records that can provide prior information to a later AI response",
+        "The practical distinction between externally reconstructed access to prior information and internally retained state across generations",
+        "The mechanism by which an AI system differentiates internally retained information from externally supplied runtime context during response generation",
+        "Observable criteria for distinguishing use of retained internal state from use of externally reconstructed history",
+        "The operational distinction between retained internal state and runtime access to prior information reconstructed from external sources",
+        "The criterion or method for determining whether externally supplied continuity information enables a new generation to produce responses equivalent to those produced with retained internal state.",
+        "The method for distinguishing internally retained information from externally supplied information used during response generation",
+        "The operational distinction between retained internal state and externally reconstructed access to prior context",
+        "The evidence or method needed to distinguish internal memory persistence from externally reconstructed continuity at runtime",
+        "The practical distinction between externally supplied access to prior information and internally retained state across generations",
+        "The practical operational distinction between externally reconstructed access to prior information and internally retained state"
+      ]
+    },
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "Methods for reliably determining whether observed behavior is caused by retained internal state or by externally supplied historical information given to a fresh process",
+        "Methods or evidence for distinguishing retained internal state from a fresh process using externally supplied prior records",
+        "The types of saved summaries or retrieved records that can be supplied to a new generation",
+        "The effect of an externally supplied summary's quality or completeness on later-response accuracy relative to retained internal state",
+        "The comparative accuracy and relevance of externally reconstructed prior information versus information retained in full internal state across generations",
+        "The types of externally supplied information a later AI response can use to reconstruct prior context",
+        "The empirical evidence or tests that could distinguish internally persisted context from externally reconstructed continuity",
+        "Methods for reliably verifying that external summaries or records accurately reflect the earlier interaction"
+      ]
+    },
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "The differences in privacy and data-security implications between externally supplied context and retained internal state",
+        "The comparative effect of externally reconstructed access to prior information versus retained internal state on response reliability and consistency",
+        "The reliable observable evidence or method needed to distinguish continuity caused by retained internal memory from continuity reconstructed through externally supplied context",
+        "The evidence or method needed to distinguish internal memory persistence from externally injected context as the source of continuity across interactions"
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "The types of saved summaries or retrieved records that can reconstruct prior interaction context at runtime.",
+        "The evidence or method needed to reliably determine whether response continuity comes from internal persistence or externally supplied reconstruction",
+        "The types of saved summaries or retrieved records that can reconstruct access to information from an earlier interaction",
+        "Methods or evidence for distinguishing persistent internal memory from consistency produced by externally supplied context",
+        "The comparative practical effects of retained internal state and externally supplied detailed records on response consistency and reliability",
+        "The evidence or method needed to distinguish internal persistence from externally reconstructed continuity when behavior is observationally identical",
+        "The comparative effect of externally reconstructed context versus continuous internal state on response quality or accuracy",
+        "The types of externally supplied saved summaries or retrieved records that can reconstruct prior context for a later response.",
+        "The comparative effect of externally supplied summary quality versus retained internal-state information on the service’s ability to generate contextually appropriate responses",
+        "The distinction between continuity produced by retained internal state and continuity reconstructed at runtime from externally supplied records or history",
+        "Whether non-behavioral factors provide a reliable method for distinguishing internally persisted continuity from externally reconstructed continuity",
+        "The mechanisms used to reconstruct access to prior information at runtime.",
+        "The criteria or evidence needed to distinguish retained internal state from externally supplied summaries when observable outputs are identical",
+        "The effect of externally supplied history on the accuracy and completeness of reconstructed context relative to retaining full internal state",
+        "The comparative effect of the quality and completeness of externally supplied summaries versus retained internal state on the accuracy of later responses",
+        "The evidence or method needed to distinguish internally persisted context from externally reconstructed continuity in an AI service",
+        "The privacy and reliability differences between externally reconstructed history and retained internal state",
+        "The comparative response quality achieved with externally supplied historical information versus full retained internal context",
+        "The difference in response quality or accuracy between reliance on externally reconstructed prior information and retained internal state.",
+        "Reliable criteria or methods for distinguishing genuine internal continuity from externally reconstructed continuity in an AI system",
+        "The effect of externally reconstructed access to prior information, compared with retained internal state, on response accuracy and consistency across generations",
+        "The comparative accuracy and reliability of continuations produced by retained internal state versus externally reconstructed access to prior information",
+        "The comparative effect of externally supplied summary quality versus internally retained state completeness on downstream task performance",
+        "Whether and how output behavior alone can reliably distinguish retained internal state from externally supplied prior-interaction context",
+        "The comparative effect of externally supplied history versus full retained internal context on response accuracy and consistency",
+        "Reliable criteria or methods for distinguishing responses produced from retained internal state from those produced using externally supplied historical records",
+        "The difference in response quality or accuracy between reliance on externally supplied summaries and retained internal context",
+        "The existence of a reliable external method for distinguishing internally persisted continuity from externally reconstructed continuity",
+        "The existence of a reliable method for distinguishing use of internally persisted context from externally reconstructed information in a given response",
+        "The reliable observable evidence or test needed to distinguish continuity caused by retained internal state from continuity caused by externally supplied prior information in a given case.",
+        "Whether and how output alone can distinguish retained internal state from externally supplied prior context",
+        "The difference in response quality or accuracy when relying on retained internal state versus reconstructed external context.",
+        "The comparative quality or accuracy of responses produced using saved summaries versus retained internal context from the same interaction",
+        "Experimental criteria or interventions that distinguish internally persisted context from externally reconstructed context despite behaviorally equivalent outputs",
+        "Whether reconstructed prior information produces responses that differ in content or accuracy from responses based on retained internal state",
+        "The effect of externally supplied interaction history, rather than retained internal state, on maintaining coherent and contextually appropriate responses across interactions",
+        "The evidence or method needed to distinguish internal persistence from external reconstruction when their observable behavior is identical"
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The specific external methods used at runtime to reconstruct access to information from earlier interactions.",
+        "An experimental design that distinguishes context continuity caused by internal persistence from continuity caused by externally supplied reconstruction",
+        "Methods or evidence for distinguishing retained internal state from a fresh process when externally supplied history is held constant",
+        "The relative reliability or accuracy of retained internal state versus externally reconstructed access in recovering prior interaction context",
+        "The specific mechanisms for producing saved summaries and selecting prior information for retrieval",
+        "The types of saved summaries or retrieved records that can be supplied as external prior information to a new generation",
+        "Experimental evidence or design criteria that distinguish internally persisted conversational context from context reconstructed externally at runtime",
+        "The specific runtime methods used to reconstruct access to prior information.",
+        "The reliable evidence or method needed to distinguish whether a response resulted from retained internal state or externally supplied context",
+        "An experimental design that distinguishes internal persistence from externally reconstructed continuity in producing a given AI response",
+        "Whether response behavior alone provides a reliable criterion for distinguishing retained internal state from externally supplied prior context",
+        "The comparative effects of externally supplied context and retained internal state on response accuracy and consistency across interactions",
+        "The comparative effect of the accuracy and completeness of externally supplied summaries versus internally retained state on response consistency",
+        "The specific mechanisms used to store and retrieve externally preserved summaries or records from prior interactions"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "Observable behavior alone therefore leaves open whether continuity came from internal persistence or external reconstruction.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

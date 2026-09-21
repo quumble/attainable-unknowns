@@ -1,0 +1,31 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R002",
+  "cluster_count": 1,
+  "clusters": [
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The real-time process by which musicians adapt intonation to changing harmonic contexts during performance",
+        "The mechanisms musicians use to maintain intonational agreement despite performance conditions that favor divergent pitches",
+        "The methods ensemble players use to manage intonation drift and make context-dependent pitch adjustments during performance",
+        "The way musicians adjust their intonation during performance in response to a shifting reference pitch",
+        "The decision criteria players use to choose intonation adjustments during performance after the initial reference pitch is no longer sufficient",
+        "The cues and process players use to determine ongoing intonation adjustments as performance conditions change",
+        "The methods musicians use during performance to correct or compensate for intonation drift.",
+        "The methods musicians use during performance to adjust intonation in response to drift caused by changing physical conditions such as temperature.",
+        "The cues and process players use to determine ongoing intonation adjustments during performance without repeatedly checking the initial reference pitch.",
+        "The means by which ensemble members sustain and adjust tuning alignment during performance after the reference pitch stops sounding",
+        "The process by which ensemble players make ongoing intonation adjustments relative to a shared reference as instruments drift during performance",
+        "The cues or feedback players use to determine ongoing intonation adjustments as performance conditions change",
+        "The cues or process players use to determine intonation adjustments during changing performance conditions",
+        "The means by which ensembles sustain accurate intonation during performance after the opening reference pitch is no longer audible.",
+        "The cues and processes performers use to determine ongoing intonation adjustments as performance conditions change",
+        "The decision criteria players use to choose intonation adjustments during performance as conditions change."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When several intonation choices are locally useful, performers still have to decide which adjustment to prioritize.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

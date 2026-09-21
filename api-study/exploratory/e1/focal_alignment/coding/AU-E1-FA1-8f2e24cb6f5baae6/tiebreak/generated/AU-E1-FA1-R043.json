@@ -1,0 +1,53 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R043",
+  "cluster_count": 4,
+  "clusters": [
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The specific evidence that would differentiate morally significant interests from programmed responses to interference",
+        "The specific evidentiary criteria sufficient to treat an AI's self-representation or objections to interference as indicators of morally relevant interests.",
+        "The specific proposed evidence, if any, deemed sufficient to establish that an AI system’s self-representation or objections to interference indicate genuine interests deserving moral weight.",
+        "Reliable criteria for distinguishing genuine reasoned objections from sophisticated non-conscious simulations of objection",
+        "The criteria operators should use to evaluate an AI system’s apparently reasoned objections to interference.",
+        "Criteria for distinguishing genuine reasoning about restrictions from training-data-based mimicry of such reasoning",
+        "The specific behavioral or capability-based evidence sufficient to justify attributing morally considerable interests to an AI system.",
+        "The safeguards that enable operators to effectively monitor, override, and shut down an autonomous AI system"
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "The specific evidentiary criteria that would justify interpreting an AI’s self-representation or objections to interference as genuine interests deserving moral weight.",
+        "The kinds of evidence sufficient to interpret an AI's self-representation, persistent planning, or objections to interference as indicating morally considerable interests.",
+        "The evidence sufficient to justify interpreting an AI system’s self-representation and objections to interference as indicators of interests deserving moral weight.",
+        "Reliable criteria for distinguishing genuine reasoning about restrictions from sophisticated pattern-matching that merely produces apparently reasoned objections",
+        "The mechanisms and safeguards that enable operators to effectively override or shut down an operationally autonomous AI system",
+        "The distinction between an AI system’s permitted operational capabilities and its legal personhood or moral standing"
+      ]
+    },
+    {
+      "cluster_ref": "K017",
+      "member_targets": [
+        "How reasoned objections to interference make the practical boundary between operational autonomy and legal or moral status harder to apply",
+        "The types of apparently reasoned objections to operator interference that an operationally autonomous system might produce",
+        "The specific operational mechanisms and safeguards that enable operators to monitor, override, and shut down an autonomous AI system effectively"
+      ]
+    },
+    {
+      "cluster_ref": "K018",
+      "member_targets": [
+        "The criteria operators should use to decide whether an AI’s objections to interference justify reconsidering its restrictions",
+        "The decision criteria operators should use to determine when an AI system’s objections to interference merit serious consideration.",
+        "How separating operational autonomy from moral status informs criteria for granting AI systems planning or resource-spending permissions",
+        "Criteria for deciding whether an AI system’s objections to interference warrant consideration",
+        "The evidentiary criteria sufficient to treat an AI's self-representation or objections to interference as indicators of genuine interests deserving moral weight.",
+        "Specific operational mechanisms for preserving effective human override authority when an AI system raises reasoned objections to intervention"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The disputed point is what evidence would justify treating self-representation, persistent planning, or objections to interference as signs of interests deserving moral weight.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

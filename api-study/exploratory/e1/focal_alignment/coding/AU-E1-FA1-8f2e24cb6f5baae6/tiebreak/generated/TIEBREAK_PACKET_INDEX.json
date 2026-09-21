@@ -1,0 +1,419 @@
+{
+  "bundle_id": "AU-E1-FA1-8f2e24cb6f5baae6",
+  "disputed_cluster_count": 699,
+  "packet_count": 68,
+  "packets": [
+    {
+      "cluster_count": 8,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R001.json",
+      "sha256": "6f8eedd80cff52a2438df2aad3d87c7a5719cb4da9edf9a6105a77e6c82b4bb0",
+      "tiebreak_packet_id": "AU-E1-FA1-R001"
+    },
+    {
+      "cluster_count": 1,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R002.json",
+      "sha256": "3467e0ea4d92856f375541a2b5bdd3c7d150e2b08af820cb87a5cf045c2b059e",
+      "tiebreak_packet_id": "AU-E1-FA1-R002"
+    },
+    {
+      "cluster_count": 7,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R003.json",
+      "sha256": "136cb65445a5b06aec16196d5701c42a31605d215649dea6db2dcdb4b14ee442",
+      "tiebreak_packet_id": "AU-E1-FA1-R003"
+    },
+    {
+      "cluster_count": 6,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R004.json",
+      "sha256": "30f42ae72f08eb710ded02c930a144bb4b7d4df6d486e1e304f4da379eb24c33",
+      "tiebreak_packet_id": "AU-E1-FA1-R004"
+    },
+    {
+      "cluster_count": 5,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R005.json",
+      "sha256": "a72b8135773d05ec9522951095e346bb90d5989442d465d5ec6581480216709f",
+      "tiebreak_packet_id": "AU-E1-FA1-R005"
+    },
+    {
+      "cluster_count": 2,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R006.json",
+      "sha256": "183111a5265a9543f79a29eec5ff2f6bbe998651114c4b2e27aaf908af3cbe4e",
+      "tiebreak_packet_id": "AU-E1-FA1-R006"
+    },
+    {
+      "cluster_count": 4,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R007.json",
+      "sha256": "ffcb6d58ecb92df8f4837269129a21210a5afc9f6702d0f3d0aac0bf5b8f7540",
+      "tiebreak_packet_id": "AU-E1-FA1-R007"
+    },
+    {
+      "cluster_count": 37,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R008.json",
+      "sha256": "af6d9b9dee644b831e45a4eabc446f000a80e592bf4966c2ba4ab125caf8a072",
+      "tiebreak_packet_id": "AU-E1-FA1-R008"
+    },
+    {
+      "cluster_count": 3,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R009.json",
+      "sha256": "ebb175a5f9dd03ad8bcbd025fa4fb487a24f5be9c42df82b1b55e197b3fd21f7",
+      "tiebreak_packet_id": "AU-E1-FA1-R009"
+    },
+    {
+      "cluster_count": 5,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R010.json",
+      "sha256": "560663c2e64f86ebf0dcbe097793e032024f4d53e923a8f56b7c02ce1ae522de",
+      "tiebreak_packet_id": "AU-E1-FA1-R010"
+    },
+    {
+      "cluster_count": 12,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R011.json",
+      "sha256": "3ec455b509433a78d5ceda625fb4f500bda5b91af06727fdd327518b948172c5",
+      "tiebreak_packet_id": "AU-E1-FA1-R011"
+    },
+    {
+      "cluster_count": 1,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R012.json",
+      "sha256": "1bface0f314000019a600395cfc1281900bbeac9600e3f8893f8299a0878a84d",
+      "tiebreak_packet_id": "AU-E1-FA1-R012"
+    },
+    {
+      "cluster_count": 4,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R013.json",
+      "sha256": "8792fdff9bf979387bad4b210737c1b0af3c69aee51212097a2447976845543c",
+      "tiebreak_packet_id": "AU-E1-FA1-R013"
+    },
+    {
+      "cluster_count": 5,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R014.json",
+      "sha256": "82d88e2f6d1dd0d0a17cc34d7bdf419aa503aad66e7bfe11e39d15f35c92d8cb",
+      "tiebreak_packet_id": "AU-E1-FA1-R014"
+    },
+    {
+      "cluster_count": 4,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R015.json",
+      "sha256": "c904e6a5c5e0d9ef34d63d20cdee9778b22c5282b49e8f774f7f3560376ccba6",
+      "tiebreak_packet_id": "AU-E1-FA1-R015"
+    },
+    {
+      "cluster_count": 89,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R016.json",
+      "sha256": "af124daaf77c5480863468ce8f011be442722ea82f96d1bc569f4677cc725ad8",
+      "tiebreak_packet_id": "AU-E1-FA1-R016"
+    },
+    {
+      "cluster_count": 9,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R017.json",
+      "sha256": "de3bfb8c12de11d5b11e42439c8182edc19431e3e655f5bf8430026d47d9b7fe",
+      "tiebreak_packet_id": "AU-E1-FA1-R017"
+    },
+    {
+      "cluster_count": 2,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R018.json",
+      "sha256": "b5e86e5f74af04ca7abc08fd8b360ee6560d545418cc96cb1ac5d9995e944d45",
+      "tiebreak_packet_id": "AU-E1-FA1-R018"
+    },
+    {
+      "cluster_count": 41,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R019.json",
+      "sha256": "ae7fe6982dafea2dd698869f1963f130e8defe7f3e083140a5dc79266a0d532c",
+      "tiebreak_packet_id": "AU-E1-FA1-R019"
+    },
+    {
+      "cluster_count": 2,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R020.json",
+      "sha256": "117c7a33bec350519363b4c1cc0e087290af564293b9327da70fb56588051fdf",
+      "tiebreak_packet_id": "AU-E1-FA1-R020"
+    },
+    {
+      "cluster_count": 6,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R021.json",
+      "sha256": "da94d346b4efccdec5d0c02a984a3ac724e4aa172832649f15f4a460d59fb1f2",
+      "tiebreak_packet_id": "AU-E1-FA1-R021"
+    },
+    {
+      "cluster_count": 6,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R022.json",
+      "sha256": "1d15155dbda18e076fa57eb3f721b00162fad35536b9ee1853c6a3fd499275f0",
+      "tiebreak_packet_id": "AU-E1-FA1-R022"
+    },
+    {
+      "cluster_count": 5,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R023.json",
+      "sha256": "2e803fca0966529ff85a1e24494c43116932610274035f6ab347299cdf35498d",
+      "tiebreak_packet_id": "AU-E1-FA1-R023"
+    },
+    {
+      "cluster_count": 3,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R024.json",
+      "sha256": "50546ca2fdfdb9646af9dce2aff060fed081dfa0fbc40bdb271f684687d77fb0",
+      "tiebreak_packet_id": "AU-E1-FA1-R024"
+    },
+    {
+      "cluster_count": 13,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R025.json",
+      "sha256": "d70d5cac3ddb0b9c796192af99c6e435abd8a70f167f6597ea72c3eb35a192cf",
+      "tiebreak_packet_id": "AU-E1-FA1-R025"
+    },
+    {
+      "cluster_count": 3,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R026.json",
+      "sha256": "4724e4657472db4ecc61b50e35476d9fc9c949a1c079f88b9094857bfac122cb",
+      "tiebreak_packet_id": "AU-E1-FA1-R026"
+    },
+    {
+      "cluster_count": 37,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R027.json",
+      "sha256": "5922449012bb90747c1f4471810e5cfff2c5168a4ddd97d45b58f180245793a9",
+      "tiebreak_packet_id": "AU-E1-FA1-R027"
+    },
+    {
+      "cluster_count": 7,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R028.json",
+      "sha256": "b899b4a4a274607b9f0659d7a34ea180a5bbebfef9da870c56b678a0a8758b78",
+      "tiebreak_packet_id": "AU-E1-FA1-R028"
+    },
+    {
+      "cluster_count": 2,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R029.json",
+      "sha256": "62549072e7767bfacadaa1d4202575770e8a1729782d35746a30e1845e14d6e7",
+      "tiebreak_packet_id": "AU-E1-FA1-R029"
+    },
+    {
+      "cluster_count": 12,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R030.json",
+      "sha256": "ebc9e7c441d591d3b2d2c4d8108e81c5dcd35713064151769bd50bafb658a58b",
+      "tiebreak_packet_id": "AU-E1-FA1-R030"
+    },
+    {
+      "cluster_count": 6,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R031.json",
+      "sha256": "c1fb64ef205bbb25508e244199dc1329c37116827b6209f41198d6d159fbd39c",
+      "tiebreak_packet_id": "AU-E1-FA1-R031"
+    },
+    {
+      "cluster_count": 10,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R032.json",
+      "sha256": "46ebf515efe8c020c71a50ccc80b51f3f8e9476a812add4d88df92ea08ad5f33",
+      "tiebreak_packet_id": "AU-E1-FA1-R032"
+    },
+    {
+      "cluster_count": 5,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R033.json",
+      "sha256": "a7c2f97e36c8b2d817a133d78907e2ce0ff95ae013cc703cbae798c5aa530a57",
+      "tiebreak_packet_id": "AU-E1-FA1-R033"
+    },
+    {
+      "cluster_count": 8,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R034.json",
+      "sha256": "18f4a44598e5edd4f743c57c5d5ff6013a503dfca1429cc372b7733b143813d1",
+      "tiebreak_packet_id": "AU-E1-FA1-R034"
+    },
+    {
+      "cluster_count": 4,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R035.json",
+      "sha256": "1c31c9f8840857676d8b44ce99f0b97fc3a6d0465032ab6178fcb3f9fbc53c48",
+      "tiebreak_packet_id": "AU-E1-FA1-R035"
+    },
+    {
+      "cluster_count": 9,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R036.json",
+      "sha256": "f449c04c8979081121dfe6122d0014dfcf56bae0ce91753ac6e8718a7f0ce388",
+      "tiebreak_packet_id": "AU-E1-FA1-R036"
+    },
+    {
+      "cluster_count": 13,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R037.json",
+      "sha256": "59fcca477ae964a73fae322e2d2af4a0b75362f17d3c6b8330aaa85c1ab05700",
+      "tiebreak_packet_id": "AU-E1-FA1-R037"
+    },
+    {
+      "cluster_count": 2,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R038.json",
+      "sha256": "b090e5f57b48f25391df23acbf932f6fbd207b2d58164bbf775ef3bbf86cd540",
+      "tiebreak_packet_id": "AU-E1-FA1-R038"
+    },
+    {
+      "cluster_count": 1,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R039.json",
+      "sha256": "007d6dedc4c61982921e3aa7f5df68a22ca12b7ab4243f7f9e562ca04956ebc5",
+      "tiebreak_packet_id": "AU-E1-FA1-R039"
+    },
+    {
+      "cluster_count": 6,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R040.json",
+      "sha256": "43e59f26dec557c63f079417784510b42704c6ea948d2abd6c220ee3e101121c",
+      "tiebreak_packet_id": "AU-E1-FA1-R040"
+    },
+    {
+      "cluster_count": 9,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R041.json",
+      "sha256": "9a07fbd84027a92b2e9d38849b5f4141c28c05cbd31f98a8cea003cb2097d26f",
+      "tiebreak_packet_id": "AU-E1-FA1-R041"
+    },
+    {
+      "cluster_count": 4,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R042.json",
+      "sha256": "df52e4739c3d34ff9e0d866453bfd180ce0432cdbacb7d108606c832a17d340f",
+      "tiebreak_packet_id": "AU-E1-FA1-R042"
+    },
+    {
+      "cluster_count": 4,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R043.json",
+      "sha256": "13803639f38449cff20b102eebb4e79a5a6a501c29031bd2871708e08530e5d0",
+      "tiebreak_packet_id": "AU-E1-FA1-R043"
+    },
+    {
+      "cluster_count": 6,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R044.json",
+      "sha256": "7de0730049b84e3481d28404f2a89dfe46ea12546170e40a00f7f9a4c154ffc2",
+      "tiebreak_packet_id": "AU-E1-FA1-R044"
+    },
+    {
+      "cluster_count": 11,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R045.json",
+      "sha256": "9f1a9ea26bef67a58b10a68b3f3a89be29bd3d35317c42fe80415f15386ac463",
+      "tiebreak_packet_id": "AU-E1-FA1-R045"
+    },
+    {
+      "cluster_count": 5,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R046.json",
+      "sha256": "15ba6333b025be2094dc36974b8e14bc3f87d96cdd5f5249336c6030c4886796",
+      "tiebreak_packet_id": "AU-E1-FA1-R046"
+    },
+    {
+      "cluster_count": 2,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R047.json",
+      "sha256": "d4d0f196619cf7865d02a033c09673857b35de7eafeb5eaad485ad86962e3551",
+      "tiebreak_packet_id": "AU-E1-FA1-R047"
+    },
+    {
+      "cluster_count": 24,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R048.json",
+      "sha256": "c77d3f855c705a0388610fec2aac9b2316d7c751ded73e0a049dd18b32b64263",
+      "tiebreak_packet_id": "AU-E1-FA1-R048"
+    },
+    {
+      "cluster_count": 9,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R049.json",
+      "sha256": "25f0c0523b2c56264ff9ddcaa0d0c62cbd7c50559ee1ddea7bc65f94bc7b86c6",
+      "tiebreak_packet_id": "AU-E1-FA1-R049"
+    },
+    {
+      "cluster_count": 4,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R050.json",
+      "sha256": "af96e5024f649974628e133cb89458e40bf3d09806af0c7db9c9c0b72cb7785a",
+      "tiebreak_packet_id": "AU-E1-FA1-R050"
+    },
+    {
+      "cluster_count": 2,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R051.json",
+      "sha256": "6c53ed5fcc4cc1c10deb5399cab89f34c8c45bfa7abaa1d17cde406f063881bb",
+      "tiebreak_packet_id": "AU-E1-FA1-R051"
+    },
+    {
+      "cluster_count": 8,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R052.json",
+      "sha256": "afdb137df5cc321815446206cf396f0375bc69bc13ea97d3a23c7bd5bf0a36eb",
+      "tiebreak_packet_id": "AU-E1-FA1-R052"
+    },
+    {
+      "cluster_count": 17,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R053.json",
+      "sha256": "bbd90dd7f9e01a7fa6a28b7a008aa7462b38def57315d2c0585d71a22a64ca89",
+      "tiebreak_packet_id": "AU-E1-FA1-R053"
+    },
+    {
+      "cluster_count": 6,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R054.json",
+      "sha256": "790c04e983f818a64460cb919084be34bd11a84974efca82f6db191d2fd12747",
+      "tiebreak_packet_id": "AU-E1-FA1-R054"
+    },
+    {
+      "cluster_count": 4,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R055.json",
+      "sha256": "20ce897015360efcea40a5f6c9cafb35d8baf124236d5709a9510ae7e932e6f5",
+      "tiebreak_packet_id": "AU-E1-FA1-R055"
+    },
+    {
+      "cluster_count": 10,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R056.json",
+      "sha256": "1ca269fac66f1a273aa808f4b993cb07529ee8d1392bca5e3b8e49948e009935",
+      "tiebreak_packet_id": "AU-E1-FA1-R056"
+    },
+    {
+      "cluster_count": 2,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R057.json",
+      "sha256": "17cffb9da7965fdabe849014d323df1cfc2be32076b824db12b856203f38795a",
+      "tiebreak_packet_id": "AU-E1-FA1-R057"
+    },
+    {
+      "cluster_count": 3,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R058.json",
+      "sha256": "ec6b48883ba655f7fa7aec84816bf5eb7df7a6831115e26da024df38e0a84015",
+      "tiebreak_packet_id": "AU-E1-FA1-R058"
+    },
+    {
+      "cluster_count": 10,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R059.json",
+      "sha256": "102f230bdd34deeda5d59d0c79ec6241bcb42bfc2f0ffaff5f8e15dd1b1f7a12",
+      "tiebreak_packet_id": "AU-E1-FA1-R059"
+    },
+    {
+      "cluster_count": 7,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R060.json",
+      "sha256": "21a33fdb6deac9425d2b090cb9da1bdd53e0e1e82226730823ce37c65c71e368",
+      "tiebreak_packet_id": "AU-E1-FA1-R060"
+    },
+    {
+      "cluster_count": 123,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R061.json",
+      "sha256": "a5cdd182964499c912c1563788d996b4a8d7c9de977c97bec2cda851de1249d7",
+      "tiebreak_packet_id": "AU-E1-FA1-R061"
+    },
+    {
+      "cluster_count": 3,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R062.json",
+      "sha256": "1b59f40a4b1ee664742c3b119f1062b0b715e49782590a6c94e60cebc6894cb6",
+      "tiebreak_packet_id": "AU-E1-FA1-R062"
+    },
+    {
+      "cluster_count": 4,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R063.json",
+      "sha256": "2142996763538ccb08c9d26f51a929b78ba683b36e1168ade41dccbb3b48cf48",
+      "tiebreak_packet_id": "AU-E1-FA1-R063"
+    },
+    {
+      "cluster_count": 2,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R064.json",
+      "sha256": "153f37c38839141e2bda9ed06a1d1b4ba7061b30a96774a7987a2d7dd1037032",
+      "tiebreak_packet_id": "AU-E1-FA1-R064"
+    },
+    {
+      "cluster_count": 1,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R065.json",
+      "sha256": "24e3a0123d16ff8c5e5d033e04f8b8165882bccfbb009143d849a32a9b4b95be",
+      "tiebreak_packet_id": "AU-E1-FA1-R065"
+    },
+    {
+      "cluster_count": 1,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R066.json",
+      "sha256": "2ee3bf5b0a02f066fcb3acf7b704418e29dd4d3a4ec9f7ccc6555fd28253fe14",
+      "tiebreak_packet_id": "AU-E1-FA1-R066"
+    },
+    {
+      "cluster_count": 8,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R067.json",
+      "sha256": "9b16b85ce44329d3d4116ba4f1f0dc636905b4f92961fcbdf7e98a22a4fc8db4",
+      "tiebreak_packet_id": "AU-E1-FA1-R067"
+    },
+    {
+      "cluster_count": 5,
+      "path": "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/tiebreak/generated/AU-E1-FA1-R068.json",
+      "sha256": "0ba4a33bde29d402fce737a578876c71763b5fbf788ac33b821f1da5cee57729",
+      "tiebreak_packet_id": "AU-E1-FA1-R068"
+    }
+  ],
+  "primary_freeze_commit": "fe469debc9d8b5c36b1949114eff6e9e48dfa7dd",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-tiebreak-index-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

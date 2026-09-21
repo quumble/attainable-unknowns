@@ -1,0 +1,61 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R018",
+  "cluster_count": 2,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The comparative benefits of contact-sheet review relative to frame-by-frame loupe inspection of negatives — i.e., what reviewing a whole roll as small positives side by side provides that examining individual negatives magnified does not.",
+        "A comparison of the two review methods — what viewing frames together on a contact sheet affords or limits relative to inspecting negatives/images one at a time on a light table or screen, particularly regarding sequence/neighbor comparison versus individual frame detail.",
+        "The conventional practical methods and materials photographers use to physically mark or annotate selected frames on a contact sheet (e.g., types of marks, tools, notation conventions)."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The decision criteria photographers apply when trading off a single frame's standalone merits against its relationship to adjacent frames during contact-sheet selection.",
+        "A decision criterion or weighting principle for trading off a single frame's intrinsic qualities against its relational value among adjacent frames when choosing negatives to enlarge.",
+        "A decision criterion or weighting rule for selecting frames from a contact sheet, specifying how to trade off a frame's standalone merit against its relational/sequential value among adjacent frames.",
+        "The conventional physical marking and annotation practices photographers use on contact sheets (e.g., tools and notation such as grease pencil circles, crop marks, checks, or written notes) to indicate selected frames.",
+        "A decision criterion or weighting rule specifying how much a photographer should prioritize a frame's intrinsic/standalone merit versus its comparative or sequential relation to adjacent frames when selecting negatives for enlargement.",
+        "A decision criterion or weighting rule for selecting frames from a contact sheet, specifying how much priority to give a frame's individual merit versus its relational value to adjacent frames in the sequence.",
+        "A decision criterion or weighting rule for trading off a frame's standalone merit against its relational/sequential value with adjacent frames when choosing negatives to enlarge.",
+        "A decision criterion or weighting rule for trading off a frame's standalone qualities against its relational/sequential value with adjacent frames when choosing negatives to enlarge",
+        "The specific physical implements and notation conventions (e.g., grease pencil, marker, cropping marks, circles) photographers use to annotate selected frames on a contact sheet — a detail not specified in the passage.",
+        "A decision criterion or prescriptive rule for weighting a frame's standalone merits versus its relational/sequential fit with adjacent frames during contact-sheet selection.",
+        "A decision criterion or normative guidance specifying how to weight a frame's standalone qualities relative to its relation to adjacent frames when choosing negatives for enlargement.",
+        "The typical decision criteria or weighting practices photographers use when choosing frames from a contact sheet, trading off a frame's standalone quality against its thematic/narrative fit with adjacent frames.",
+        "A decision criterion or weighting rule for trading off a frame's standalone qualities against its relational/sequential value among adjacent frames when choosing negatives to enlarge.",
+        "The historical practices and methods photographers used to inspect negatives and choose which ones to enlarge prior to the existence of contact sheets.",
+        "The typical practice or decision criteria photographers use to weigh a frame's standalone quality against its relationship to adjacent frames when selecting images from a contact sheet.",
+        "The decision criteria and selection practices photographers customarily apply when choosing which contact-sheet frames to enlarge, including how individual frame quality is weighed against a frame's relation to adjacent images.",
+        "A decision criterion or guidance for weighting a frame's standalone qualities versus its relation to adjacent frames when choosing negatives to print.",
+        "A set of decision criteria or guiding principles for weighting a frame's standalone aesthetic merit against its relational/sequential fit with neighboring frames when selecting negatives for enlargement.",
+        "A normative decision criterion or weighting principle for how much a photographer should prioritize a frame's intrinsic qualities relative to its relationship with adjacent frames when selecting images from a contact sheet.",
+        "The specific tools or practices digital photographers use in place of a contact sheet to review and select images from a shoot.",
+        "A decision criterion or guiding principle for weighting an individual frame's intrinsic merit relative to its sequential/contextual relationship with adjacent frames when selecting negatives for enlargement.",
+        "The typical practice or decision criterion photographers use to weigh a frame's standalone aesthetic merit against its compositional relation to adjacent frames when selecting from a contact sheet.",
+        "The specific physical implements and notation conventions (e.g., types of marking pens/pencils, crop marks, circles, grease pencil) photographers conventionally use on contact sheets to flag frames selected for enlargement",
+        "The typical practices or decision criteria photographers use to weigh a frame's standalone quality against its relational/sequential fit with neighboring frames when choosing negatives to enlarge.",
+        "The set of selection criteria photographers conventionally apply when judging contact-sheet frames worthy of enlargement, i.e., the decision rules or qualities weighed (including the balance between a frame's intrinsic qualities and its relation to adjacent frames).",
+        "The perceptual/judgment effects of side-by-side sequential viewing on a contact sheet relative to isolated viewing — i.e., how surrounding frames recontextualize a given frame's apparent quality (making it seem repetitive, transitional, or distinctive), rather than the mechanics or purposes of making a contact sheet.",
+        "The pre-digital workflow/method photographers used to review a whole roll and select which images to print — i.e., identifying contact sheets and how they enabled efficient batch review and selection.",
+        "The specific implements and marking conventions (e.g., types of pencils/pens/crayons and the shapes of marks such as circles, crosses, or crop lines) that photographers conventionally use to annotate selected frames on a contact sheet.",
+        "The typical decision criteria or weighting practices photographers use to trade off a frame's standalone merit against its relationship to adjacent frames when choosing images from a contact sheet.",
+        "A decision criterion or normative guidance for weighting a frame's standalone quality against its coherence with neighboring frames when selecting images from a contact sheet.",
+        "A decision criterion or normative principle for weighting a frame's individual quality against its contribution to a sequence when choosing which negatives to print.",
+        "A decision criterion or weighting rule for selecting frames on a contact sheet, specifying how much a frame's standalone qualities should count relative to its comparative standing among adjacent frames.",
+        "The typical decision practice or weighting criteria photographers use to trade off a frame's individual merit against its relationship to adjacent frames when choosing negatives to enlarge.",
+        "A normative decision criterion or weighting rule for selecting frames from a contact sheet, specifying how much priority to give a frame's standalone qualities versus its relational fit with adjacent frames.",
+        "The decision criteria and selection practices photographers customarily apply when choosing which contact-sheet frames warrant enlargement, including how individual frame quality is weighed against relations to neighboring frames.",
+        "The typical practice or decision criteria photographers use to weigh a frame's intrinsic qualities against its relation to neighboring frames when choosing images from a contact sheet.",
+        "A normative decision criterion or weighting rule for trading off a single frame's standalone merit against its relational value among adjacent frames when choosing which negatives to print.",
+        "A decision criterion or normative rule for weighting a frame's standalone merit relative to its relation to adjacent frames when choosing negatives to enlarge."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The selection problem is how much weight to give a frame's individual qualities versus its relation to neighboring images.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

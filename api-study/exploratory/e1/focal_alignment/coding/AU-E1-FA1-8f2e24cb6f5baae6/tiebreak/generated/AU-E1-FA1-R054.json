@@ -1,0 +1,70 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R054",
+  "cluster_count": 6,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The consequence of passing the baton outside the permitted exchange zone",
+        "The consequence for a team of exchanging the baton outside the permitted exchange zone.",
+        "The consequence of exchanging the baton outside the permitted exchange zone",
+        "The consequence of completing the baton exchange outside the permitted exchange zone.",
+        "The consequence of a baton handoff occurring outside the permitted exchange zone",
+        "The consequence of a baton handoff occurring outside the permitted exchange zone.",
+        "The consequence for a team of completing the baton exchange outside the permitted exchange zone."
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The typical measured length of the permitted baton exchange zone.",
+        "The standard permitted exchange zone's length in a relay race.",
+        "The typical permitted length of the baton exchange zone in a relay race.",
+        "The typical measured length of the permitted baton exchange zone",
+        "The standard permitted relay exchange zone's length",
+        "The length of the permitted baton exchange zone",
+        "The typical length of the permitted baton exchange zone",
+        "The typical distance spanned by the permitted baton exchange zone",
+        "The length of the permitted baton exchange zone",
+        "The typical permitted length of the baton exchange zone in a relay race.",
+        "The typical length of the permitted baton exchange zone.",
+        "The typical length of the permitted baton exchange zone in a relay race.",
+        "The standard permitted exchange zone's length in a relay race.",
+        "The length of the permitted baton exchange zone",
+        "The typical length of the permitted baton exchange zone in relay racing.",
+        "The length of the permitted baton exchange zone in a relay race.",
+        "The standard exchange zone's length in a relay race.",
+        "The typical permitted length of the baton exchange zone.",
+        "The typical official length of the permitted baton exchange zone."
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "The ways teams adapt start marks, timing, and handoff positioning within the exchange zone for different runner pairings"
+      ]
+    },
+    {
+      "cluster_ref": "K017",
+      "member_targets": [
+        "The amount of the penalty imposed when a baton exchange occurs outside the permitted exchange zone."
+      ]
+    },
+    {
+      "cluster_ref": "K018",
+      "member_targets": [
+        "The way teams modify start marks to correct rushed or stretched baton exchanges for a particular runner pairing."
+      ]
+    },
+    {
+      "cluster_ref": "K023",
+      "member_targets": [
+        "The track markings or boundaries that define the permitted baton exchange zone."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The coaching choice is where each outgoing runner should begin moving so that speed gains do not create too much exchange risk.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

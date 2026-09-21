@@ -1,0 +1,32 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R029",
+  "cluster_count": 2,
+  "clusters": [
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The effect of temperature changes on instrument tuning and the intonation adjustments required during a performance."
+      ]
+    },
+    {
+      "cluster_ref": "K019",
+      "member_targets": [
+        "The criteria and process musicians use to choose intonation adjustments during performance after initial tuning becomes insufficient",
+        "The criteria musicians use to choose intonation adjustments during performance after the initial tuning reference ceases to govern.",
+        "The decision criteria players use to choose intonation adjustments during performance as conditions change.",
+        "The criteria musicians use during performance to choose intonation adjustments after diverging from the initial shared tuning reference.",
+        "The criteria and process musicians use to choose intonation adjustments during performance after drifting from the initial reference pitch.",
+        "The criteria musicians use to choose intonation adjustments during a performance",
+        "The criteria musicians use to choose intonation adjustments during performance when instrument behavior diverges from the initial tuning reference",
+        "The criteria and process musicians use to choose intonation adjustments during performance after the initial tuning reference ceases to govern.",
+        "The decision criteria players use to choose intonation adjustments during performance after the initial reference pitch is no longer sufficient",
+        "The decision criteria ensemble members use to choose intonation adjustments during performance after drifting from the initial tuning reference",
+        "The criteria musicians use to choose intonation adjustments during performance after the initial tuning reference is no longer sufficient."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When several intonation choices are locally useful, performers still have to decide which adjustment to prioritize.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

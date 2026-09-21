@@ -1,0 +1,42 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R006",
+  "cluster_count": 2,
+  "clusters": [
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The physical mechanism by which temperature变化 alters an instrument's pitch — i.e., how thermal changes affect the properties (e.g., air column speed of sound, string tension/length, material dimensions) that determine sounding frequency.",
+        "The physical mechanism by which temperature variation alters an instrument's pitch/intonation during performance.",
+        "The physical mechanism and direction by which temperature variation alters an instrument's sounding pitch.",
+        "The mechanism and direction by which temperature variation alters an instrument's pitch/tuning over the course of a performance, requiring players to compensate.",
+        "The physical/acoustic mechanism by which temperature changes and instrument behavior alter an instrument's sounding pitch after initial tuning, causing drift from the shared reference.",
+        "The physical mechanism by which temperature changes alter an instrument's sounding pitch (e.g., effects on air column speed of sound, material expansion, string tension) during performance.",
+        "The mechanism and direction by which temperature change alters an instrument's pitch/intonation over the course of a performance.",
+        "The mechanism by which temperature changes and instrument behavior alter an instrument's pitch/intonation over the course of a performance, and the direction of those effects.",
+        "The mechanism by which temperature changes and instrument behavior alter an instrument's pitch/intonation during performance, and the direction and nature of those effects on players' intonation choices.",
+        "The mechanism and direction by which temperature change during performance alters an instrument's pitch/intonation, requiring players to adjust."
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The perceptual criteria or cues players use to judge that pitch alignment is close enough to start playing together.",
+        "The perceptual criterion or cue players use to judge that their pitch is sufficiently aligned with the reference — i.e., what signals 'close enough' during tuning.",
+        "The perceptual cues or criteria players use to judge that a pitch adjustment has reached sufficient alignment with the reference (i.e., the basis for deciding 'close enough').",
+        "The perceptual or judgmental criterion players use to determine that a pitch match is sufficiently close to begin—i.e., how closeness to the reference is detected and what counts as adequate alignment.",
+        "The criterion or judgment process musicians use to decide that their pitch matches the reference sufficiently to stop adjusting and begin playing.",
+        "The perceptual/judgment criteria and cues ensemble players use to decide that their pitch match to the reference is sufficiently close to start playing.",
+        "The perceptual or judgment criteria musicians use to decide that intonation alignment is sufficient — i.e., what counts as 'close enough' and how that sufficiency judgment is made during tuning and play.",
+        "The perceptual or practical criterion players use to judge that a pitch match is sufficiently close to stop adjusting and begin playing.",
+        "The perceptual criteria or cues by which players judge that pitch alignment with other ensemble members is adequate during tuning and performance.",
+        "The perceptual cues and criteria players use to judge that their intonation adjustments have reached sufficient agreement with the ensemble.",
+        "The perceptual or judgment criteria players use to determine that pitch alignment is close enough to begin — i.e., what cues or standard signal 'sufficient' alignment.",
+        "The perceptual or judgmental criteria ensemble players use to determine that an intonation adjustment has achieved sufficient alignment — i.e., what cues or standards signal 'in tune enough' during tuning and performance."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When several intonation choices are locally useful, performers still have to decide which adjustment to prioritize.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

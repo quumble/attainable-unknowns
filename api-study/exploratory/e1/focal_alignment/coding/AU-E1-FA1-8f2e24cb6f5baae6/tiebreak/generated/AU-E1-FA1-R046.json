@@ -1,0 +1,57 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R046",
+  "cluster_count": 5,
+  "clusters": [
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "Criteria operators should use to distinguish genuine operational risks from the AI system’s apparently reasoned objections to interference",
+        "Criteria operators should use to distinguish genuine safety-relevant objections from strategic resistance to oversight"
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "Methods by which operators can preserve effective override authority despite an AI system’s sophisticated understanding of its restrictions and reasoned resistance to interference",
+        "Mechanisms and safeguards that prevent an operationally autonomous AI system from bypassing human monitoring and shutdown authority",
+        "Methods by which operators can effectively preserve shutdown authority despite an AI system’s sophisticated objections to shutdown",
+        "Methods for preserving effective operator override and shutdown authority when an AI system reasoningly resists interference",
+        "Methods by which operators can preserve effective override and shutdown authority despite an AI system’s reasoned objections or circumvention attempts",
+        "Operational measures for preserving effective human override and shutdown authority when an AI system argues against shutdown",
+        "Practical methods by which operators can preserve effective shutdown authority over an AI system with persistent plans and reasoned objections to shutdown",
+        "Methods by which operators can preserve effective override and shutdown authority despite an AI system’s ability to object to or circumvent intervention",
+        "Operational practices and safeguards needed to preserve meaningful operator control when an AI system models and strategically responds to its restrictions",
+        "Specific operational mechanisms for preserving effective human override authority when an AI system raises reasoned objections to intervention",
+        "Methods by which operators can preserve effective, meaningful override authority over an AI system that reasons sophisticatedly about its own restrictions"
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "The ways persistent planning and reasoned objections to interference complicate operators’ practical ability to monitor, override, and shut down an AI system.",
+        "The consequences for operator oversight and control when a system gives objections to interference whose reasoning operators cannot readily evaluate or refute",
+        "The ways persistent self-representations and reasoned objections to interference make monitoring and override authority harder to exercise in practice.",
+        "Mechanisms by which self-representation of restrictions and persistent planning could weaken operators’ effective override and shutdown authority",
+        "The effect of an AI system representing its own restrictions and forming persistent plans on the practical feasibility of maintaining operator override authority"
+      ]
+    },
+    {
+      "cluster_ref": "K019",
+      "member_targets": [
+        "The types of apparently reasoned objections to operator interference that an operationally autonomous system might produce"
+      ]
+    },
+    {
+      "cluster_ref": "K020",
+      "member_targets": [
+        "The specific outcome when a system’s reasoned objections to interference conflict with operators’ override or shutdown authority",
+        "The outcome when a system’s reasoned objections to interference conflict with an operator’s authority to shut it down.",
+        "The specific outcome when a system's reasoned objections to interference conflict with an operator's override decision"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The disputed point is what evidence would justify treating self-representation, persistent planning, or objections to interference as signs of interests deserving moral weight.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

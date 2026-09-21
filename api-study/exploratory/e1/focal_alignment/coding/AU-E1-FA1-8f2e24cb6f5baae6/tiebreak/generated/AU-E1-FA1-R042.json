@@ -1,0 +1,49 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R042",
+  "cluster_count": 4,
+  "clusters": [
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The normative criteria or standards that should be used to determine continuation/identity of a software agent across copying, given that technical lineage alone does not settle it.",
+        "A determination of the correct identity classification (same individual vs. two distinct individuals) for two software instances that share a pre-divergence checkpoint history, i.e., how personal-identity criteria should be applied to post-copy divergence.",
+        "A criterion or normative resolution for how identity should be attributed to post-copy diverging instances sharing one checkpoint origin — i.e., whether they count as one continuing system or as separate distinct systems, and on what basis.",
+        "The identity criteria — the standards or conditions (e.g., shared pre-copy history, continuity, divergence of inputs/states) — that should be used to classify two post-copy instances as one entity versus two distinct entities.",
+        "A proposed method or set of procedures for reconciling and merging the divergent states of two instances forked from a common checkpoint, including how conflicting subsequent changes would be resolved."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "A proposed revision or extension of identity concepts/terminology (e.g., new categories, criteria, or ways of speaking) suited to entities that can branch from a shared checkpoint into multiple diverging instances.",
+        "A normative/conceptual revision of the notion of personal identity and uniqueness — i.e., what account of identity should replace or amend the ordinary one given that a conscious mind could be copied and run as multiple diverging instances sharing one pre-copy history."
+      ]
+    },
+    {
+      "cluster_ref": "K015",
+      "member_targets": [
+        "The identity criteria (if any exist) that would adjudicate which of two post-copy divergent instances sharing a common checkpoint qualifies as the original — i.e., the standards or conditions for conferring originality status, including the possibility that no such criteria apply.",
+        "A proposed approach or set of design strategies for coordinating, synchronizing, or exchanging information between two separately running instances that branched from a shared checkpoint and subsequently diverged.",
+        "The correct identity verdict for two diverged copies sharing a pre-copy history — whether they count as one and the same agent or as two numerically distinct agents.",
+        "The correct normative framework or criteria for assigning personal/legal identity and attribution of responsibility to two software instances that share a pre-copy history but have since diverged.",
+        "A criterion or definition of identity (what makes instances the same or distinct entities) applicable to two software processes sharing a common saved state but with divergent subsequent histories.",
+        "A criterion or principle for deciding which, if any, of two diverged copies from a shared checkpoint counts as the continuation of the original agent's personal identity.",
+        "A criterion or definition of identity (what makes an instance the same entity) applicable to branched software instances sharing a common pre-checkpoint history but diverging afterward.",
+        "The correct identity classification or referring convention for two post-copy instances sharing one pre-divergence checkpoint history — i.e., whether they count as one and the same system or as two distinct systems."
+      ]
+    },
+    {
+      "cluster_ref": "K017",
+      "member_targets": [
+        "A criterion or account of personal/numerical identity for branching software instances — i.e., what identity relation holds between two post-divergence instances sharing a common prior state (same entity, distinct entities, or some non-standard relation), and on what basis.",
+        "The criterion or decision procedure for assigning continuation/identity status among divergent copies, i.e., what grounds beyond technical lineage should settle which descendant (if any) counts as the original agent's continuation.",
+        "A conceptual account or criterion of personal/numerical identity that applies to two post-copy divergent instances sharing one pre-copy history — i.e., whether and in what sense each counts as the same entity as the original or as each other.",
+        "The correct criterion of personal identity/continuation for diverging software instances from a shared checkpoint — i.e., which relation (psychological continuity, causal-historical connection, or some alternative) constitutes being the same agent, given that both descendants share equal lineage and pre-copy memories."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "Technical lineage does not by itself settle whether one, both, or neither descendant should be described as the continuation of the earlier agent.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

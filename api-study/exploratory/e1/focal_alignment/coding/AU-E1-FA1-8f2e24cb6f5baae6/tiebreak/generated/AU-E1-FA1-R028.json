@@ -1,0 +1,69 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R028",
+  "cluster_count": 7,
+  "clusters": [
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The appropriate identity terminology for software instances that share a pre-instantiation lineage but subsequently diverge",
+        "The appropriate identity classification and terminology for two software instances that share a checkpoint origin but subsequently diverge",
+        "How concepts of personal identity and uniqueness should be revised for multiple conscious instances sharing the same pre-copy history and checkpoint origin",
+        "How identity language or concepts should be revised to describe software instances that share a checkpoint history and subsequently diverge"
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The criteria for assigning identity and responsibility among software instances that share an earlier saved state but later diverge",
+        "Criteria for assigning identity and responsibility to diverging software instances that originate from the same checkpoint",
+        "The legal or philosophical criteria for classifying the identity and responsibility of divergent software instances sharing a pre-copy history",
+        "Criteria for assigning moral responsibility and personal identity among copied software agents that diverge from a shared prior state",
+        "The criteria for assigning identity and responsibility among multiple software descendants that share a pre-copy history",
+        "The criteria for assigning responsibility or identity among software instances that share an initial state but develop divergent subsequent histories.",
+        "The criteria for assigning identity and responsibility to software instances with a shared initial state but divergent subsequent histories",
+        "The criteria for assigning identity and responsibility among software instances that share a checkpoint but later diverge",
+        "The criteria for assigning identity or responsibility to software instances that share a saved origin but subsequently diverge",
+        "The criteria for assigning responsibility or identity among software instances that share a saved origin but later diverge"
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "Whether continuity of consciousness or subjective experience is applicable and determinative for the metaphysical identity of a software agent"
+      ]
+    },
+    {
+      "cluster_ref": "K019",
+      "member_targets": [
+        "Methods for resolving versioning conflicts when diverged software instances modify the same persistent external resource",
+        "Methods for synchronizing or communicating between diverged instances that need to coordinate or share information after branching from a common checkpoint",
+        "How versioning resolves conflicting writes to shared resources or memory by instances that diverged from the same saved state",
+        "Methods for synchronizing state or maintaining consistency between instances that diverged after originating from the same checkpoint",
+        "Methods for maintaining synchronization or consistency when diverged software instances communicate or access shared external resources",
+        "Methods for synchronizing or enabling communication between diverged software instances descended from the same checkpoint"
+      ]
+    },
+    {
+      "cluster_ref": "K020",
+      "member_targets": [
+        "Whether identity uncertainty in copied and diverging software systems is genuinely metaphysical or instead semantic and convention-dependent"
+      ]
+    },
+    {
+      "cluster_ref": "K021",
+      "member_targets": [
+        "The practical advantages of checkpoint-based pausing and restoration over uninterrupted software execution"
+      ]
+    },
+    {
+      "cluster_ref": "K022",
+      "member_targets": [
+        "The criteria for representing identity and continuity between diverging software instances and determining whether either descendant counts as the original after a shared checkpoint"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "Technical lineage does not by itself settle whether one, both, or neither descendant should be described as the continuation of the earlier agent.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

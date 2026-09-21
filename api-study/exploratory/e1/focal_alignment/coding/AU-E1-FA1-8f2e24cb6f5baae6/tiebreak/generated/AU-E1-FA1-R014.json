@@ -1,0 +1,63 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R014",
+  "cluster_count": 5,
+  "clusters": [
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The mechanism or process by which externally supplied continuity (saved summaries, retrieved records, user-provided history) is fed into a new generation to restore access to earlier information, as distinct from retained internal state.",
+        "An enumeration of the concrete external mechanisms or techniques by which prior-interaction information is supplied at runtime (e.g., saved summaries, retrieved records, user-provided history), i.e., the specific means of reconstructing access rather than retained internal state.",
+        "The specific external continuity mechanisms (e.g., saved summaries, retrieved records, user-provided history) by which prior-exchange information is supplied to a new generation at runtime, as distinct from retained internal state.",
+        "An enumeration of the concrete mechanisms by which prior-interaction information is supplied externally at generation time (e.g., saved summaries, retrieved records, user-provided history), as distinct from retained internal state.",
+        "The particular mechanisms/technologies (e.g., forms of summarization, retrieval, storage, or context injection) by which prior-interaction information is supplied externally to a new generation at runtime."
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "Experimental methods or test designs that could discriminate whether cross-turn continuity arises from internal state persistence versus externally supplied reconstructed context, given that observable outputs alone are insufficient.",
+        "The set of practical investigative or testing methods (e.g., architectural inspection, controlled input manipulation, instrumentation of retrieval channels) capable of reliably determining whether observed continuity arises from internal persistence versus externally supplied context.",
+        "Experimental designs, tests, or manipulations that would discriminate between continuity arising from internal persistence of state versus continuity supplied externally at runtime.",
+        "Empirical methods or tests (beyond observable output behavior) that could discriminate whether cross-interaction continuity arises from internal persistence versus externally supplied context reconstruction.",
+        "The empirical test procedures or observable discriminating evidence that could separate internal persistence of state across generations from externally supplied context reconstruction, given that output behavior alone is consistent with both.",
+        "A proposed experimental design — specific manipulations, controls, and observable discriminating signatures — that could tell apart continuity produced by internal persistence versus continuity supplied by external context reconstruction.",
+        "Specific diagnostic methods or observations (technical tests, instrumentation, or experimental procedures) that would reliably discriminate whether an AI system's cross-interaction continuity arises from internal persistent state versus externally supplied reconstructed context.",
+        "Experimental methods or manipulations that could discriminate between internally persisting context and externally supplied reconstruction, given behavioral equivalence — i.e., what interventions or observables (beyond ordinary output) would yield diverging predictions between the two mechanisms.",
+        "Experimental methods or test designs that could discriminate between continuity arising from retained internal state and continuity supplied by external reconstruction, given that observable outputs alone are ambiguous.",
+        "An experimental design — specific manipulations, controls, and observable discriminating measurements — that would conclusively separate internally persisted context from externally supplied/reconstructed context in an AI system.",
+        "The experimental methods or test designs that would discriminate between context retained internally across generations and context re-supplied externally at runtime, given that observable output alone is ambiguous.",
+        "A proposed experimental design — specific manipulations, controls, and observable discriminating measures — capable of distinguishing internally persisted context from externally supplied reconstructed context.",
+        "Experimental methods or test designs that could discriminate between internally persisting context and externally supplied/reconstructed context, given that observed behavior alone is consistent with both.",
+        "A proposed experimental design—manipulations, controls, and measurable outcomes—that could empirically discriminate whether a given response's continuity arises from internal persistence versus externally supplied context.",
+        "An experimental design or methodology—specifying manipulations, controls, and observable discriminating indicators—that could distinguish whether continuity in a given response arises from internal persistence versus externally supplied reconstruction."
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "The practical/operational differences between reconstructing prior information from external sources (summaries, retrieved records, user-provided history) at runtime versus carrying persistent internal state across generations, despite both supporting similar continuity behavior.",
+        "The practical/operational differences between persisting internal state across generations versus supplying prior information externally at runtime (e.g., via summaries, retrieval, or user-provided history), despite both enabling similar continuity-dependent behavior.",
+        "The design consequences that follow from treating retained internal state versus externally supplied context records as distinct architectures for maintaining conversational coherence — i.e., what differs practically (engineering tradeoffs, requirements, or choices) between the two, rather than how to tell them apart from behavior.",
+        "The practical/operational differences between supplying prior information externally at runtime (summaries, retrieved records, user-provided history) versus carrying forward retained internal state, given that both can produce similar continuity behavior."
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "The criteria or procedure by which one establishes that externally supplied continuity information (summaries, retrieved records, user history) is adequate for a fresh generation to yield responses equivalent to those produced with retained internal state."
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "The selection mechanism or criteria the service uses to choose which saved summaries or retrieved records are supplied as context at runtime.",
+        "The mechanism or procedure by which a system selects and weights which parts of supplied summaries/retrieved records count as relevant for a new generation.",
+        "The retrieval-selection mechanisms (i.e., the specific techniques or criteria by which an AI service decides which stored summaries or records to pull in for a given query)."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "Observable behavior alone therefore leaves open whether continuity came from internal persistence or external reconstruction.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

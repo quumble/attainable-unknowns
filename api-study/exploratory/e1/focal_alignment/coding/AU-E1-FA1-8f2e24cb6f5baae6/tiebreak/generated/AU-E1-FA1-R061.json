@@ -1,0 +1,748 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R061",
+  "cluster_count": 123,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The mechanisms by which the surrounding control architecture shapes or limits the model's practical capabilities"
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The mechanisms by which control architecture shapes the practical capabilities that emerge from the same language model"
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The decision criteria or threshold for judging the difference between text-mediated and sensorimotor competence negligible enough to count as fully blurred."
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "The effects of differences in embodiment and control architecture on a language model’s practical capabilities"
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "The control architecture that most effectively integrates sensor feedback with motor actions in a language-model-driven system."
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "How sensor-action feedback quality and speed affect whether a system attains qualitatively different embodied competence relative to systems with slower or degraded feedback"
+      ]
+    },
+    {
+      "cluster_ref": "K022",
+      "member_targets": [
+        "The effect of feedback timing on a language model’s practical capabilities across different embodiments"
+      ]
+    },
+    {
+      "cluster_ref": "K024",
+      "member_targets": [
+        "The effects of differences in sensors, action channels, feedback timing, and control architecture on a language model’s practical capabilities"
+      ]
+    },
+    {
+      "cluster_ref": "K025",
+      "member_targets": [
+        "The specific practical capabilities that emerge or change across different sensor and actuator configurations connected to the same language model."
+      ]
+    },
+    {
+      "cluster_ref": "K027",
+      "member_targets": [
+        "The embodiment-specific factors that most strongly constrain or enhance a language model’s practical capabilities"
+      ]
+    },
+    {
+      "cluster_ref": "K028",
+      "member_targets": [
+        "The effect of feedback timing on the language model’s practical capabilities within an embodied system"
+      ]
+    },
+    {
+      "cluster_ref": "K029",
+      "member_targets": [
+        "The control architectures that most effectively support language-model integration of rapid sensorimotor feedback"
+      ]
+    },
+    {
+      "cluster_ref": "K031",
+      "member_targets": [
+        "The thresholds or criteria at which the distinction between text-mediated and sensorimotor competence effectively disappears"
+      ]
+    },
+    {
+      "cluster_ref": "K036",
+      "member_targets": [
+        "Whether different embodiments alter the underlying language model itself or only its effective behavior and practical capabilities"
+      ]
+    },
+    {
+      "cluster_ref": "K037",
+      "member_targets": [
+        "Benchmarks or criteria for determining when a system transitions from text-mediated competence to sensorimotor competence"
+      ]
+    },
+    {
+      "cluster_ref": "K041",
+      "member_targets": [
+        "The effects of feedback timing and control architecture on an embodied language model’s practical capabilities"
+      ]
+    },
+    {
+      "cluster_ref": "K042",
+      "member_targets": [
+        "The specific sensor, action, feedback-timing, and control configurations sufficient to eliminate the boundary between text-mediated and sensorimotor competence."
+      ]
+    },
+    {
+      "cluster_ref": "K045",
+      "member_targets": [
+        "The control architectures that most effectively enable language models to integrate rapid sensorimotor feedback"
+      ]
+    },
+    {
+      "cluster_ref": "K051",
+      "member_targets": [
+        "The effects of sensor quality and feedback timing on the practical capabilities of the same language model across different embodiments"
+      ]
+    },
+    {
+      "cluster_ref": "K052",
+      "member_targets": [
+        "The effects of sensor quality and feedback timing on the reliability and performance of differently embodied systems using the same language model"
+      ]
+    },
+    {
+      "cluster_ref": "K053",
+      "member_targets": [
+        "The effects of feedback timing and control architecture on an embodied language model’s practical capabilities."
+      ]
+    },
+    {
+      "cluster_ref": "K059",
+      "member_targets": [
+        "The ways the surrounding control architecture shapes a language model’s practical capabilities in an embodied system"
+      ]
+    },
+    {
+      "cluster_ref": "K060",
+      "member_targets": [
+        "Whether different embodiments cause measurable differences in outcomes when the underlying language model is held constant"
+      ]
+    },
+    {
+      "cluster_ref": "K063",
+      "member_targets": [
+        "The effects of differences in feedback timing on the practical capabilities of the same language model across embodiments"
+      ]
+    },
+    {
+      "cluster_ref": "K065",
+      "member_targets": [
+        "The effect of feedback timing on a language model’s practical capabilities within an embodied system."
+      ]
+    },
+    {
+      "cluster_ref": "K066",
+      "member_targets": [
+        "The effects of sensor quality and feedback timing variations on behavioral differences between identical language models in different embodiments."
+      ]
+    },
+    {
+      "cluster_ref": "K071",
+      "member_targets": [
+        "The specific ways feedback timing affects the model's practical capabilities in an embodied system"
+      ]
+    },
+    {
+      "cluster_ref": "K075",
+      "member_targets": [
+        "The embodiment-specific factors that most strongly limit or enhance a language model’s practical capabilities in physical systems."
+      ]
+    },
+    {
+      "cluster_ref": "K078",
+      "member_targets": [
+        "The effects of variations in embodiment on a language model’s capacity to learn over time from feedback about the consequences of its own actions."
+      ]
+    },
+    {
+      "cluster_ref": "K083",
+      "member_targets": [
+        "The effects of differences in embodiment and feedback loops on a language model’s practical capabilities"
+      ]
+    },
+    {
+      "cluster_ref": "K084",
+      "member_targets": [
+        "The specific practical capabilities most affected by differences in embodiment when the underlying language model is held constant."
+      ]
+    },
+    {
+      "cluster_ref": "K086",
+      "member_targets": [
+        "The benchmarks or decision criteria for determining when sensorimotor competence is indistinguishable from text-mediated competence."
+      ]
+    },
+    {
+      "cluster_ref": "K088",
+      "member_targets": [
+        "The effects of feedback timing and control architecture on the practical capabilities of the same language model across embodied systems."
+      ]
+    },
+    {
+      "cluster_ref": "K092",
+      "member_targets": [
+        "The effects of feedback timing on the system’s behavior and practical capabilities"
+      ]
+    },
+    {
+      "cluster_ref": "K093",
+      "member_targets": [
+        "The effects of variations in sensor quality or feedback timing on the behaviors produced by the same underlying language model"
+      ]
+    },
+    {
+      "cluster_ref": "K094",
+      "member_targets": [
+        "Whether sensorimotor feedback adapts the underlying language model itself or only the surrounding architecture while the model remains static"
+      ]
+    },
+    {
+      "cluster_ref": "K095",
+      "member_targets": [
+        "The specific embodiment and system factors that determine the practical capabilities that emerge"
+      ]
+    },
+    {
+      "cluster_ref": "K096",
+      "member_targets": [
+        "The specific embodiment and system factors that limit or enhance a language model’s practical capabilities across different physical systems"
+      ]
+    },
+    {
+      "cluster_ref": "K098",
+      "member_targets": [
+        "The technical or empirical criteria for determining when the boundary between text-mediated and sensorimotor competence has effectively disappeared."
+      ]
+    },
+    {
+      "cluster_ref": "K099",
+      "member_targets": [
+        "The specific practical capabilities that can vary across different embodiments of the same underlying language model."
+      ]
+    },
+    {
+      "cluster_ref": "K100",
+      "member_targets": [
+        "The effect of feedback timing on the practical capabilities of a language model connected to sensors and motors"
+      ]
+    },
+    {
+      "cluster_ref": "K102",
+      "member_targets": [
+        "The specific effects of sensor quality, action channels, and feedback timing on a model's practical capabilities within a given embodiment."
+      ]
+    },
+    {
+      "cluster_ref": "K103",
+      "member_targets": [
+        "Benchmarks or decision criteria that reliably distinguish text-mediated competence from genuine sensorimotor competence in increasingly integrated systems"
+      ]
+    },
+    {
+      "cluster_ref": "K104",
+      "member_targets": [
+        "The benchmarks or decision criteria for determining when the distinction between text-mediated and sensorimotor competence has effectively disappeared."
+      ]
+    },
+    {
+      "cluster_ref": "K105",
+      "member_targets": [
+        "Benchmarks or metrics that best differentiate text-mediated competence from sensorimotor competence as device connections become richer"
+      ]
+    },
+    {
+      "cluster_ref": "K109",
+      "member_targets": [
+        "The effect of feedback timing on the embodied system’s behavior."
+      ]
+    },
+    {
+      "cluster_ref": "K112",
+      "member_targets": [
+        "The effects of differences in sensor quality and feedback timing on the practical capabilities of the same language model"
+      ]
+    },
+    {
+      "cluster_ref": "K116",
+      "member_targets": [
+        "The effect of feedback timing on a language model’s practical capabilities in an embodied system"
+      ]
+    },
+    {
+      "cluster_ref": "K117",
+      "member_targets": [
+        "The effect of feedback timing on the practical capabilities of the same language model across different embodiments"
+      ]
+    },
+    {
+      "cluster_ref": "K119",
+      "member_targets": [
+        "The specific observed practical capabilities that vary across different embodiments of the same language model."
+      ]
+    },
+    {
+      "cluster_ref": "K120",
+      "member_targets": [
+        "The effect of sensorimotor feedback quality and speed on the emergence of qualitatively different embodied competence relative to slower or lower-quality feedback systems"
+      ]
+    },
+    {
+      "cluster_ref": "K121",
+      "member_targets": [
+        "Benchmarks or metrics for measuring the transition from text-mediated competence to sensorimotor competence"
+      ]
+    },
+    {
+      "cluster_ref": "K122",
+      "member_targets": [
+        "The effects of sensor quality and feedback timing on a language model’s ability to learn successfully from the consequences of its actions"
+      ]
+    },
+    {
+      "cluster_ref": "K123",
+      "member_targets": [
+        "The degree of compatibility required between sensor quality and control-architecture design for effective system functioning"
+      ]
+    },
+    {
+      "cluster_ref": "K124",
+      "member_targets": [
+        "The magnitude of performance degradation caused by poor sensor quality or delayed feedback timing."
+      ]
+    },
+    {
+      "cluster_ref": "K126",
+      "member_targets": [
+        "The threshold, if any, at which embodied integration yields qualitatively different cognitive capacities rather than merely richer input-output loops"
+      ]
+    },
+    {
+      "cluster_ref": "K129",
+      "member_targets": [
+        "The effect of feedback timing on the embodied system’s behavior"
+      ]
+    },
+    {
+      "cluster_ref": "K132",
+      "member_targets": [
+        "The effect of feedback timing on the language model’s practical capabilities within an embodied system"
+      ]
+    },
+    {
+      "cluster_ref": "K133",
+      "member_targets": [
+        "The effect of variations in embodiment on a language model's ability to learn from feedback about the consequences of its mistakes"
+      ]
+    },
+    {
+      "cluster_ref": "K134",
+      "member_targets": [
+        "The specific measurement criteria and threshold values for distinguishing text-mediated competence from sensorimotor competence as their boundary becomes less clear."
+      ]
+    },
+    {
+      "cluster_ref": "K135",
+      "member_targets": [
+        "The effects of sensor quality and feedback timing on an embodied language model’s practical capabilities"
+      ]
+    },
+    {
+      "cluster_ref": "K136",
+      "member_targets": [
+        "Criteria for distinguishing increased information processing from qualitatively new capabilities developed through embodied experience"
+      ]
+    },
+    {
+      "cluster_ref": "K137",
+      "member_targets": [
+        "The specific criteria for distinguishing text-mediated competence from sensorimotor competence as increasingly rich and rapid device interactions blur the boundary."
+      ]
+    },
+    {
+      "cluster_ref": "K139",
+      "member_targets": [
+        "The specific embodiment-related factors that most significantly influence the model’s practical capabilities."
+      ]
+    },
+    {
+      "cluster_ref": "K140",
+      "member_targets": [
+        "The threshold, if any, at which increasing sensor and actuator integration produces genuine embodied competence rather than merely richer control"
+      ]
+    },
+    {
+      "cluster_ref": "K141",
+      "member_targets": [
+        "The specific effects of sensor quality and feedback timing variations on behavioral differences between otherwise identical embodied language models."
+      ]
+    },
+    {
+      "cluster_ref": "K142",
+      "member_targets": [
+        "The specific mechanisms or thresholds by which richer and faster sensorimotor connections blur the boundary between text-mediated and sensorimotor competence."
+      ]
+    },
+    {
+      "cluster_ref": "K144",
+      "member_targets": [
+        "The technical or empirical benchmarks that would establish when a system has transitioned from text-mediated to sensorimotor competence."
+      ]
+    },
+    {
+      "cluster_ref": "K145",
+      "member_targets": [
+        "The threshold of improvement in sensor quality and feedback timing required for different embodiments of the same language model to achieve effectively identical practical capabilities."
+      ]
+    },
+    {
+      "cluster_ref": "K147",
+      "member_targets": [
+        "The criteria for determining whether richer sensorimotor connections yield a qualitative change in embodied competence rather than merely increased information and control."
+      ]
+    },
+    {
+      "cluster_ref": "K148",
+      "member_targets": [
+        "The relative effectiveness of control architectures for integrating rapid sensorimotor feedback with language-model outputs."
+      ]
+    },
+    {
+      "cluster_ref": "K150",
+      "member_targets": [
+        "The effects of sensor quality and feedback timing on the reliability of a language model’s real-world decisions"
+      ]
+    },
+    {
+      "cluster_ref": "K151",
+      "member_targets": [
+        "The effects of variations in sensor quality and feedback timing on performance differences between identical language models in different embodiments."
+      ]
+    },
+    {
+      "cluster_ref": "K152",
+      "member_targets": [
+        "Criteria for distinguishing increased information and control from a qualitatively different form of embodied competence"
+      ]
+    },
+    {
+      "cluster_ref": "K153",
+      "member_targets": [
+        "The effect of action-to-feedback delay on the language model’s ability to learn from consequences and adapt its behavior."
+      ]
+    },
+    {
+      "cluster_ref": "K154",
+      "member_targets": [
+        "The effects of variations in sensors, action channels, feedback timing, and control architecture on the reliability and safety of a language model’s real-world decisions"
+      ]
+    },
+    {
+      "cluster_ref": "K155",
+      "member_targets": [
+        "The sensorimotor feedback-loop characteristics necessary for a qualitative transition from simple information and control integration to embodied competence"
+      ]
+    },
+    {
+      "cluster_ref": "K156",
+      "member_targets": [
+        "The effect of sensor-motor feedback quality and speed on the threshold for transition from information processing to embodied cognition"
+      ]
+    },
+    {
+      "cluster_ref": "K157",
+      "member_targets": [
+        "The ways feedback timing and control architecture influence a language model’s sensorimotor competence"
+      ]
+    },
+    {
+      "cluster_ref": "K158",
+      "member_targets": [
+        "The specific effect of sensor or actuator quality on the model's decision-making accuracy in embodied systems"
+      ]
+    },
+    {
+      "cluster_ref": "K159",
+      "member_targets": [
+        "The threshold and criteria at which increased sensorimotor integration qualifies as genuine embodiment rather than mere automation, if such a threshold exists."
+      ]
+    },
+    {
+      "cluster_ref": "K161",
+      "member_targets": [
+        "Evidence criteria for determining that richer sensorimotor connections have produced a qualitatively different form of embodied competence"
+      ]
+    },
+    {
+      "cluster_ref": "K163",
+      "member_targets": [
+        "The specific integration challenges that arise when combining sensorimotor feedback with a language model’s text-based processing architecture."
+      ]
+    },
+    {
+      "cluster_ref": "K164",
+      "member_targets": [
+        "The threshold, if any, at which increased sensorimotor connectivity yields genuinely embodied competence rather than merely more sophisticated information processing"
+      ]
+    },
+    {
+      "cluster_ref": "K165",
+      "member_targets": [
+        "The specific embodiment-related factors that most strongly enhance or constrain a language model’s practical capabilities."
+      ]
+    },
+    {
+      "cluster_ref": "K166",
+      "member_targets": [
+        "The threshold, if any, at which increased sensorimotor connectivity causes a qualitative change in system capabilities rather than only quantitative improvement"
+      ]
+    },
+    {
+      "cluster_ref": "K167",
+      "member_targets": [
+        "The specific sensor and actuator technology advances required for seamless language-model integration with sensorimotor systems"
+      ]
+    },
+    {
+      "cluster_ref": "K168",
+      "member_targets": [
+        "The control architectures that most effectively support learning from rapid, multimodal sensorimotor feedback"
+      ]
+    },
+    {
+      "cluster_ref": "K170",
+      "member_targets": [
+        "The effect of feedback-loop quality and responsiveness on the model's ability to learn from the consequences of its actions"
+      ]
+    },
+    {
+      "cluster_ref": "K171",
+      "member_targets": [
+        "The criteria for distinguishing embodied competence from merely richer information and control"
+      ]
+    },
+    {
+      "cluster_ref": "K172",
+      "member_targets": [
+        "The criteria for determining when an embodied system crosses from information-processing tool to genuinely autonomous agent"
+      ]
+    },
+    {
+      "cluster_ref": "K173",
+      "member_targets": [
+        "The effects of variations in sensor quality and feedback timing on the range of tasks the embodied language model can successfully complete"
+      ]
+    },
+    {
+      "cluster_ref": "K174",
+      "member_targets": [
+        "The effects of sensor quality and feedback timing differences on the same language model’s practical performance across embodiments."
+      ]
+    },
+    {
+      "cluster_ref": "K175",
+      "member_targets": [
+        "The effect of sensor-actuator feedback-loop quality and speed on whether embodied systems develop genuine understanding rather than mere pattern matching"
+      ]
+    },
+    {
+      "cluster_ref": "K176",
+      "member_targets": [
+        "The effect of feedback-loop timing and quality on whether embodied language models develop genuine understanding rather than mere pattern matching"
+      ]
+    },
+    {
+      "cluster_ref": "K177",
+      "member_targets": [
+        "The relative effectiveness of control architectures for integrating language-model outputs with real-time sensorimotor feedback"
+      ]
+    },
+    {
+      "cluster_ref": "K178",
+      "member_targets": [
+        "The specific improvements to sensor quality, action channels, or feedback timing required to meaningfully expand a given language model’s practical capabilities in an embodied system."
+      ]
+    },
+    {
+      "cluster_ref": "K181",
+      "member_targets": [
+        "The effect of feedback timing on the model’s practical capabilities within an embodied system"
+      ]
+    },
+    {
+      "cluster_ref": "K182",
+      "member_targets": [
+        "The effect of differences in embodiment on a language model’s ability to learn from its mistakes"
+      ]
+    },
+    {
+      "cluster_ref": "K183",
+      "member_targets": [
+        "The mechanisms by which control architecture affects effective translation of sensor inputs into physical actions"
+      ]
+    },
+    {
+      "cluster_ref": "K185",
+      "member_targets": [
+        "The specific effects of differences in sensor quality and feedback timing on a language model's practical capabilities in real-world tasks"
+      ]
+    },
+    {
+      "cluster_ref": "K186",
+      "member_targets": [
+        "The effect of connection quality and speed on whether embodied competence becomes genuine understanding rather than mere input-output pattern matching"
+      ]
+    },
+    {
+      "cluster_ref": "K187",
+      "member_targets": [
+        "The specific practical capabilities observed to vary across different embodiments of the same language model."
+      ]
+    },
+    {
+      "cluster_ref": "K191",
+      "member_targets": [
+        "Criteria for evaluating sensorimotor competence as language models acquire richer and faster real-world sensing, action, and feedback connections"
+      ]
+    },
+    {
+      "cluster_ref": "K192",
+      "member_targets": [
+        "The effects of sensor quality and feedback timing on the model’s practical capabilities within an embodied system"
+      ]
+    },
+    {
+      "cluster_ref": "K194",
+      "member_targets": [
+        "The effects of variations in embodiment on a language model’s capacity for environmental learning and adaptation over time"
+      ]
+    },
+    {
+      "cluster_ref": "K195",
+      "member_targets": [
+        "The effects of differences in sensor quality and feedback timing on the practical capabilities of the same language model."
+      ]
+    },
+    {
+      "cluster_ref": "K199",
+      "member_targets": [
+        "The effect of differences in embodiment on the model's capacity to learn from the consequences of its mistakes"
+      ]
+    },
+    {
+      "cluster_ref": "K200",
+      "member_targets": [
+        "The distinct limitations that sensor quality, action channels, and feedback timing each impose on a language model’s practical capabilities in an embodied system."
+      ]
+    },
+    {
+      "cluster_ref": "K202",
+      "member_targets": [
+        "The effect of feedback timing on an embodied language model's practical capabilities"
+      ]
+    },
+    {
+      "cluster_ref": "K204",
+      "member_targets": [
+        "The relative effectiveness of control architectures for integrating rapid sensorimotor feedback with a language model"
+      ]
+    },
+    {
+      "cluster_ref": "K205",
+      "member_targets": [
+        "The effects of sensor quality and feedback timing on which tasks an embodied language model can successfully complete"
+      ]
+    },
+    {
+      "cluster_ref": "K210",
+      "member_targets": [
+        "The effects of sensor quality and feedback timing on the practical capabilities of the same language model in different embodiments."
+      ]
+    },
+    {
+      "cluster_ref": "K211",
+      "member_targets": [
+        "The criteria or threshold conditions under which the distinction between text-mediated competence and sensorimotor competence effectively disappears"
+      ]
+    },
+    {
+      "cluster_ref": "K214",
+      "member_targets": [
+        "The effect of feedback timing on the practical capabilities of the same language model"
+      ]
+    },
+    {
+      "cluster_ref": "K215",
+      "member_targets": [
+        "Whether sensorimotor feedback updates the language model’s training or weights, or leaves the model static while adaptation occurs only in the surrounding system"
+      ]
+    },
+    {
+      "cluster_ref": "K216",
+      "member_targets": [
+        "The effects of feedback timing and surrounding control architecture on the practical capabilities of the same language model across different embodiments."
+      ]
+    },
+    {
+      "cluster_ref": "K218",
+      "member_targets": [
+        "The effect of significant action-to-feedback delays on the system's performance"
+      ]
+    },
+    {
+      "cluster_ref": "K220",
+      "member_targets": [
+        "The distinct practical improvements and limitations introduced by sensor quality, action channels, and feedback timing in real-world embodied systems."
+      ]
+    },
+    {
+      "cluster_ref": "K221",
+      "member_targets": [
+        "The embodiment and control-system factors that most strongly limit or enhance a language model’s practical capabilities"
+      ]
+    },
+    {
+      "cluster_ref": "K223",
+      "member_targets": [
+        "The control architectures that best support language-model integration of rapidly changing sensorimotor feedback"
+      ]
+    },
+    {
+      "cluster_ref": "K224",
+      "member_targets": [
+        "Criteria for determining the threshold at which text-mediated and sensorimotor competence are indistinguishable"
+      ]
+    },
+    {
+      "cluster_ref": "K226",
+      "member_targets": [
+        "The relative effectiveness of control architectures for integrating language models with real-time sensorimotor feedback"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "As those connections become richer and faster, the boundary between simply adding information and control and producing a qualitatively different form of embodied competence remains unsettled.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

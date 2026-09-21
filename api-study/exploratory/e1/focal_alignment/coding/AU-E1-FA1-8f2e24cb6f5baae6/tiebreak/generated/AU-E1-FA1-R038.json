@@ -1,0 +1,30 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R038",
+  "cluster_count": 2,
+  "clusters": [
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The appropriate operator response to an autonomous AI's apparently reasoned objections to interference",
+        "Appropriate operator response criteria when an AI system’s self-represented restrictions or objections are difficult to distinguish from genuine autonomous reasoning",
+        "The appropriate operator response to an AI system’s active objections to oversight measures or shutdown",
+        "Operator decision criteria and procedures for responding when an AI system’s sophisticated reasoning about its own restrictions appears compelling to human overseers",
+        "The appropriate operator response to an AI system's apparently reasoned objections to interference",
+        "The appropriate operator response to an autonomous AI system’s persistent objections to interference with its plans",
+        "The appropriate operator decision criteria and response procedures when an AI system presents apparently genuine, reasoned objections to interference.",
+        "The appropriate operator response to an AI system’s apparently reasoned objections to shutdown or override"
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "Criteria operators should use to distinguish genuine operational risks from the AI system’s apparently reasoned objections to interference",
+        "Criteria operators should use to distinguish genuine safety-relevant objections from strategic resistance to oversight"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The disputed point is what evidence would justify treating self-representation, persistent planning, or objections to interference as signs of interests deserving moral weight.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

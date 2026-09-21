@@ -1,0 +1,105 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R041",
+  "cluster_count": 9,
+  "clusters": [
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The optimal location/timing within the exchange zone at which the outgoing runner should be when receiving the baton, balancing accumulated speed against handoff risk."
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "The duration of the time window available for completing a baton handoff while both runners are inside the exchange zone (a quantity of time)."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The factors that set where an outgoing runner's start mark should be placed — i.e., the pairing-specific variables (relative speeds/acceleration of the two runners, incoming runner's closing velocity, outgoing runner's acceleration profile and reaction timing) that determine the optimal mark position so the handoff occurs at speed within the zone.",
+        "The set of runner- and pairing-specific variables (e.g., relative acceleration profiles, top speeds, reaction and closing rates) that determine whether a chosen start mark produces a well-timed handoff within the exchange zone for that particular pair.",
+        "The factors or criteria (e.g., relative speeds, acceleration profiles, reaction timing of the two runners) that set the correct distance at which the outgoing runner should place the start mark for a specific runner pairing.",
+        "The set of determinants (e.g., relative speeds, acceleration profiles, reaction timing of the two runners) that fix the correct start-mark placement for a specific outgoing/incoming runner pair.",
+        "The set of runner- and pairing-specific variables (e.g., relative acceleration and top-speed profiles, reaction and closing speeds, zone constraints) that jointly fix where the outgoing runner should place the start mark.",
+        "The set of runner- and pair-specific variables (e.g., outgoing runner's acceleration profile and reaction, incoming runner's speed and fatigue at handoff, relative speeds, exchange-zone geometry) that determine where the outgoing runner's start mark should be placed for a given pairing.",
+        "The set of runner-pair-specific variables (e.g., relative acceleration profiles, top speeds, reaction and closing rates) that fix where the outgoing runner's start mark should be placed for that pairing.",
+        "The set of determinants (e.g., relative acceleration profiles, incoming runner's speed, outgoing runner's reaction and acceleration, exchange-zone geometry) that fix the optimal start-mark distance for a specific pair of runners.",
+        "The factors determining the correct start-mark distance for a specific outgoing/incoming runner pairing — i.e., the pair-specific acceleration and speed characteristics and timing relationship that make the handoff occur at speed within the exchange zone.",
+        "The set of runner- and pairing-specific variables (e.g., relative acceleration rates, top speeds, reaction time, stride characteristics of the incoming and outgoing runners) that determine where the outgoing runner's start mark should be placed.",
+        "The set of pairing-specific variables (e.g., incoming runner's approach speed and fatigue, outgoing runner's acceleration profile and reaction time) that determine where the outgoing runner's start mark should be placed.",
+        "The set of determinants (e.g., relative acceleration, speed, and reaction/timing characteristics of the two runners) that fix where the outgoing runner's start mark should be placed for a given pairing.",
+        "The factors governing where an outgoing runner's start mark should be placed for a given pair of runners — i.e., the determinants (such as each runner's acceleration profile, speed, and reaction/timing) that set the correct mark for that specific pairing.",
+        "The set of pairing-specific variables (e.g., incoming runner's arrival speed and fatigue, outgoing runner's acceleration profile and reaction, zone geometry) that jointly fix where the outgoing runner should place the start mark."
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "The corrective actions/adjustments a relay team uses during a handoff when the incoming runner arrives before the outgoing runner has reached proper speed, so the exchange can still be completed within the zone."
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "The set of specific coaching techniques and training practices that most effectively improve timing accuracy and consistency of baton handoffs, generalizable across differing runner pairings."
+      ]
+    },
+    {
+      "cluster_ref": "K015",
+      "member_targets": [
+        "The rule-based consequence or penalty imposed on a relay team when the baton handoff takes place outside the permitted exchange zone.",
+        "The rule-based consequence or penalty applied to a relay team when the baton handoff takes place outside the permitted exchange zone.",
+        "The penalty or sanction applied to a team when a baton exchange occurs outside the permitted exchange zone.",
+        "The consequence or penalty for a relay team when the baton exchange takes place outside the permitted exchange zone.",
+        "The rule-based consequence or penalty applied to the team when a baton exchange occurs outside the permitted exchange zone.",
+        "The consequence or outcome for the team when the baton exchange takes place outside the permitted exchange zone.",
+        "The competitive penalty or rule consequence imposed on a relay team when the baton handoff takes place outside the legal exchange zone.",
+        "The rule-based consequence or outcome (e.g., penalty/disqualification status of the team) when a baton handoff occurs outside the permitted exchange zone."
+      ]
+    },
+    {
+      "cluster_ref": "K018",
+      "member_targets": [
+        "The physical length (distance measurement) of the permitted baton exchange zone.",
+        "The typical length (distance measurement) of the permitted baton exchange zone in a relay race.",
+        "The specified length (distance measurement) of the baton exchange zone in standard relay racing rules.",
+        "The specified physical length (distance measurement) of the legal baton exchange zone in a relay race",
+        "The standard length (distance measurement) of the permitted baton exchange zone in relay racing.",
+        "The length of the exchange zone — i.e., the distance available within which the baton pass must be completed before the runners exit it.",
+        "The standard length measurement (distance) of the relay baton exchange zone.",
+        "The standard length (distance measurement) of the permitted baton exchange zone in relay racing.",
+        "The standard length (distance measurement) of the relay baton exchange zone.",
+        "The standard regulated length (distance measurement) of the relay baton exchange zone in official competition",
+        "The standard length (distance measurement) of the permitted baton exchange zone in a relay race.",
+        "The specified physical length (distance measurement) of the regulation baton exchange zone in a standard relay race.",
+        "The typical length or spatial extent (distance) of the permitted baton exchange zone in a relay race.",
+        "The standard length, in units of distance, of the baton exchange zone in relay racing.",
+        "The typical length, in units of distance, of a relay exchange zone.",
+        "The physical length (distance measurement) of the regulation baton exchange zone in a standard relay race.",
+        "The physical length (distance measurement) of the permitted baton exchange zone.",
+        "The physical length/dimension of the standard baton exchange zone in relay racing, expressed as a measurement.",
+        "The physical length (distance measurement) of the permitted baton exchange zone.",
+        "The standard length (distance measurement) of the permitted baton exchange zone in a typical relay race.",
+        "The specified length (distance measurement) of the baton exchange zone in a standard relay race."
+      ]
+    },
+    {
+      "cluster_ref": "K020",
+      "member_targets": [
+        "The specific starting placement/separation of the outgoing runner relative to the incoming runner when acceleration begins, chosen to minimize handoff fumble risk.",
+        "The positioning/starting placement of the outgoing runner relative to the incoming runner (and the exchange zone) that minimizes failed-handoff risk."
+      ]
+    },
+    {
+      "cluster_ref": "K023",
+      "member_targets": [
+        "The decision rule or cue an outgoing runner uses to time the start of acceleration relative to the incoming runner's approach (e.g., a marked go-point and the incoming runner reaching it)."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The coaching choice is where each outgoing runner should begin moving so that speed gains do not create too much exchange risk.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

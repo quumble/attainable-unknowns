@@ -1,0 +1,71 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R055",
+  "cluster_count": 4,
+  "clusters": [
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "How the menu and its workflow determine the arrangement of ingredients, tools, and frequently used items in a cook's station",
+        "The criteria and process used to tailor a cooking-station layout to a menu and its sequence of repeated tasks.",
+        "The criteria and process cooks use to determine the most efficient station layout for a particular menu",
+        "How the layout and preparation of mise en place are tailored to a station’s menu, workflow sequence, frequently used items, and repeated actions",
+        "How mise en place layout and preparation vary according to a restaurant menu’s ingredients, tools, and sequence of work",
+        "Variation in mise en place layout and preparation according to each menu item’s or station’s specific workflow, tools, ingredients, and repeated actions",
+        "The ways mise en place layout is adapted to the menu and sequence of work"
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The layout strategies most effective for cooking stations with highly unpredictable order sequences",
+        "Strategies for arranging adaptable mise en place that efficiently accommodates varying order types without shifting excess motion or delay between them"
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The decision criteria cooks use to prioritize orders or tasks when designing a station layout",
+        "The specific decision criteria a cook uses to choose which order cluster to prioritize when arranging the station",
+        "The decision criteria or methods cooks use to prioritize a station layout for one order cluster over another.",
+        "The decision criteria or methods cooks use to select which order cluster the station layout should optimize for",
+        "The specific decision criteria a cook uses to select which cluster of orders to prioritize when tailoring the station layout.",
+        "The specific decision criteria a cook uses to choose which order cluster to prioritize when arranging the station layout",
+        "The criteria or decision method cooks use to select which order clusters to prioritize when optimizing station layout",
+        "The specific decision criteria that determine which cluster of orders a cook prioritizes when arranging the station",
+        "The criteria used to select the cluster of orders for which the station layout minimizes motion.",
+        "The decision criteria cooks use to prioritize orders or tasks when arranging a station",
+        "The specific decision criteria used to prioritize order clusters when arranging a cook’s station",
+        "The factors used to decide which cluster of orders to prioritize when optimizing a cook’s station layout.",
+        "The decision criteria cooks use to prioritize order clusters when designing a station layout.",
+        "The decision criteria cooks use to prioritize orders or tasks when station arrangements involve conflicting workflow needs",
+        "The decision criteria cooks use to prioritize order patterns when arranging a station",
+        "The decision criteria a cook uses to choose which cluster of orders to prioritize when arranging a station",
+        "The decision criteria cooks use to prioritize menu items or order patterns when arranging a station",
+        "The decision criteria cooks use to select which cluster of orders to prioritize when designing a station layout",
+        "The criteria cooks use to determine which menu items receive priority in a station’s arrangement.",
+        "The decision criteria cooks use to prioritize orders or tasks when station layouts involve conflicting motion patterns.",
+        "The decision criteria cooks use to prioritize orders or tasks when arranging a station amid competing workflow needs.",
+        "The decision criteria experienced cooks use to select which order types their station layout should optimize for",
+        "The criteria used to prioritize particular order clusters when designing the station layout",
+        "The decision criteria cooks use to prioritize menu items and order patterns when arranging a station"
+      ]
+    },
+    {
+      "cluster_ref": "K015",
+      "member_targets": [
+        "Specific layout-design strategies cooks use to balance motion and efficiency across competing order clusters",
+        "Strategies cooks use to balance mise en place layouts when different order types impose conflicting motion and access needs",
+        "Specific station-layout redesign strategies cooks use in response to an unexpected change in order patterns",
+        "How cooks adapt station layouts to reconcile conflicting movement patterns across different order clusters",
+        "How cooks modify station layouts to accommodate order clusters with conflicting movement patterns",
+        "How cooks adapt station layouts to accommodate conflicting movement patterns across different orders",
+        "How cooks choose or adapt station layouts to manage conflicting motion and access needs across different order clusters",
+        "The specific layout modifications typically needed to accommodate an unexpected shift to a different cluster of orders."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When the mix and sequence of orders are unknown in advance, choosing the layout that best balances those competing efficiencies remains a planning problem.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

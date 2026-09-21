@@ -1,0 +1,65 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R004",
+  "cluster_count": 6,
+  "clusters": [
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The in-performance techniques and coordination processes by which ensemble players continuously adjust and reconcile intonation as harmonic and other contextual demands pull pitches away from the initial shared reference.",
+        "The ongoing mechanisms and practices by which ensemble players keep intonation aligned during performance despite differing rates of instrument drift, i.e., how continuous adjustment is coordinated after the initial reference tuning.",
+        "The ongoing mechanisms or practices by which ensemble players keep pitches aligned during performance despite divergent per-instrument tendencies, rather than the initial tuning procedure.",
+        "The perceptual and interactive means by which performers decide on moment-to-moment intonation adjustments during play, absent continual comparison to the opening reference pitch.",
+        "The decision criteria or basis performers use to select among competing locally-useful intonation adjustments during performance.",
+        "The real-time mechanisms and processes by which performers modify pitch during playing to accommodate shifting harmonic contexts — i.e., how the adjustment is accomplished (perceptual feedback, technique, coordination), not merely that intonation varies."
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The mechanisms or practices by which ensemble players sustain accurate intonation during performance once the initial reference tone has ceased sounding — i.e., what they rely on and adjust to in place of the audible anchor.",
+        "The means or processes by which players sustain mutual intonation agreement after the initial reference tone stops sounding — i.e., what they listen to and adjust against in the absence of an external reference."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The cues or means by which performers identify the correct target pitch for mid-performance intonation adjustments when the original reference source is not sounding."
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "The specific pitch standard (named pitch and frequency, e.g., A = 440 Hz) most commonly adopted as the shared reference for initial ensemble tuning.",
+        "The specific pitch standard (named note plus frequency value) most commonly adopted as the shared tuning reference for ensembles — a factual identification not stated in the passage.",
+        "The specific frequency value (in Hz) of the tuning reference pitch conventionally used by modern orchestras.",
+        "The decision criteria and prioritization process musicians use in real time to choose among competing intonation adjustments when harmonic, dynamic, thermal, and instrumental factors point toward different pitches.",
+        "The specific pitch standard (named note and frequency in Hz) conventionally used as the tuning reference by orchestras.",
+        "The specific pitch standard/frequency conventionally used as the shared tuning reference for ensembles (e.g., which note and its frequency in Hz).",
+        "The specific standard pitch frequency/note used as the conventional tuning reference by most ensembles.",
+        "The specific pitch/frequency value conventionally used as the ensemble's initial tuning reference (e.g., A at a stated Hz)."
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "The decision process or criteria performers use in-performance to determine when to deviate from the initial reference-pitch tuning, i.e., what cues or judgments trigger an intonation adjustment.",
+        "The decision criteria or judgment process performers use in-performance to determine when to depart from the initial reference-pitch tuning and adjust intonation.",
+        "The perceptual and practical means by which performers detect and determine needed intonation corrections in real time as conditions like temperature and dynamics shift — i.e., the mechanism of ongoing adjustment (e.g., listening for beating/harmonic alignment against other parts), not merely the fact that adjustments occur.",
+        "The decision criteria or judgment process performers use in real time to determine when to depart from the initial reference-pitch tuning during performance.",
+        "The decision process or criteria performers use in-performance to depart from the initial tuning reference — i.e., what cues or conditions (harmonic context, dynamics, temperature, ensemble blend) they monitor and how they judge that an intonation adjustment is warranted.",
+        "The decision criteria or basis performers use to select among competing locally viable intonation adjustments during performance.",
+        "The criteria, cues, or decision process performers use in real time to judge that an intonation adjustment is needed during performance."
+      ]
+    },
+    {
+      "cluster_ref": "K015",
+      "member_targets": [
+        "The criteria or perceptual cues players use to judge that in-performance intonation drift from the opening reference pitch has exceeded a correctable threshold."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When several intonation choices are locally useful, performers still have to decide which adjustment to prioritize.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

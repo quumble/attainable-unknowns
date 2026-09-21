@@ -1,0 +1,62 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R064",
+  "cluster_count": 2,
+  "clusters": [
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "Weather-specific criteria for adjusting the timing and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Weather-dependent criteria for adjusting the pace and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Weather-specific criteria for adjusting the pace and intensity of seedling hardening-off exposure",
+        "Weather-specific criteria for adjusting the timing and intensity of a seedling hardening-off schedule",
+        "Criteria for adjusting the pace and intensity of seedling hardening-off exposure in response to changing daily weather conditions",
+        "Weather-based criteria for adjusting the pace and intensity of a seedling hardening-off schedule",
+        "Weather-dependent criteria for adjusting the timing and intensity of seedlings’ outdoor exposure during hardening off",
+        "Weather-specific criteria for adjusting the timing and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Weather-dependent criteria for adjusting the pace and intensity of seedlings’ outdoor exposure during hardening off",
+        "Weather-dependent criteria for adjusting the timing and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Criteria for adjusting the pace and intensity of seedling hardening-off exposure according to changing sunlight, wind, and temperature conditions.",
+        "The weather-dependent criteria for adjusting the pace and intensity of a seedling hardening-off schedule.",
+        "Weather-specific criteria for adjusting the timing and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Criteria for adjusting the pace and intensity of seedling hardening-off based on current sunlight, wind, and temperature conditions",
+        "Weather-specific criteria for adjusting the pace and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "The weather-dependent criteria for adjusting the pace and intensity of seedlings’ gradual outdoor exposure during hardening off",
+        "Weather-dependent criteria for adjusting the timing and intensity of seedling hardening-off exposure"
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "The typical duration seedlings should be hardened off before outdoor planting",
+        "The typical duration of the hardening-off process for most seedlings.",
+        "The typical duration of the hardening-off process for most seedlings.",
+        "The typical number of days required to complete the hardening-off process.",
+        "The typical duration seedlings should be hardened off before outdoor planting.",
+        "The typical duration of the hardening-off process for seedlings",
+        "The typical number of days required to harden off most plants.",
+        "The typical duration of the hardening-off process before seedlings can remain outdoors continuously.",
+        "The typical duration in days of the hardening-off process for most seedlings.",
+        "The typical total duration of the hardening-off process from initial outdoor exposure to continuous outdoor placement.",
+        "The typical number of days required to harden off most seedlings.",
+        "The typical duration of the seedling hardening-off process",
+        "The typical duration of the hardening-off process for seedlings",
+        "The typical duration seedlings should be hardened off before outdoor transplanting",
+        "The typical duration of the hardening-off process in days.",
+        "The typical duration of the hardening-off process for most seedlings.",
+        "The typical duration seedlings should be hardened off before outdoor planting",
+        "The typical number of days required to harden off common vegetable seedlings.",
+        "The typical number of days required to harden off most seedlings",
+        "The typical total duration of the hardening-off process in days.",
+        "The usual duration of the hardening-off process for seedlings",
+        "The recommended duration of hardening off seedlings before outdoor planting",
+        "The typical duration seedlings should be hardened off before outdoor planting",
+        "The typical number of days required to harden off most plants.",
+        "The typical total duration of the hardening-off process"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The practical problem is setting the rate of increased exposure for a particular plant under particular weather.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

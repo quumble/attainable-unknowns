@@ -1,0 +1,98 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R003",
+  "cluster_count": 7,
+  "clusters": [
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "The mechanism by which the latency/timing of sensory-action feedback loops shapes what an embodied language model can practically do, isolating timing's contribution among the other embodiment factors.",
+        "The mechanism by which the latency/timing of sensor-action feedback loops shapes what an embodied language-model system can practically do, i.e., the causal role of feedback timing as one embodiment variable determining realized capability.",
+        "The mechanism by which the latency/timing of sensorimotor feedback in an embodied setup changes what the same language model can practically do — i.e., the causal relationship between feedback delay characteristics and resulting capability differences.",
+        "The particular causal effects that the latency/timing of sensorimotor feedback loops has on what an embodied language-model system can practically do — i.e., which capabilities are enabled, degraded, or altered by faster versus slower feedback.",
+        "The causal mechanism by which delay/latency characteristics of the sensorimotor feedback loop alter what an identical language model can practically do in an embodied system.",
+        "The causal relationship between latency/timing of the sensor-action feedback loop and the quality of a language-model-controlled system's sensorimotor performance — i.e., the mechanism by which feedback delay or speed shapes embodied competence.",
+        "The causal mechanism by which the latency/timing of sensory feedback in an embodied loop shapes the model's behavior and the practical capabilities it exhibits.",
+        "The effects of latency between action execution and sensory feedback on the embodied system's behavior and performance — i.e., how increased feedback delay degrades or alters closed-loop control, credit assignment, and competence.",
+        "The causal influence of feedback latency/timing in a sensor-action loop on the quality of a language model's sensorimotor competence — i.e., the mechanism by which timing of consequence-reflecting inputs shapes embodied performance.",
+        "The causal mechanism by which the latency/timing of sensory feedback relative to actions shapes the behavior and practical capabilities of an embodied language-model system.",
+        "The causal mechanism by which the latency/timing of sensorimotor feedback in an embodied loop shapes what a given language model can practically do, i.e., how variation in feedback timing changes the system's effective capabilities.",
+        "The causal relationship between latency/timing of sensory feedback in the perception-action loop and the quality of the embodied system's sensorimotor performance — i.e., the mechanism by which delay or speed of feedback shapes competence.",
+        "The causal mechanism by which the latency/timing of sensory feedback in an embodied control loop changes what practical capabilities the same language model can exhibit.",
+        "The causal relationship between latency/timing of the sensor-action feedback loop and the system's sensorimotor competence — i.e., the mechanism by which timing characteristics of feedback shape embodied performance.",
+        "The causal mechanism by which variation in one embodiment parameter—feedback timing (latency/rate at which action consequences are returned as inputs)—changes what a fixed language model can practically do, i.e., the specific capability differences produced by faster versus slower or differently timed feedback loops.",
+        "The causal mechanism by which the latency/timing of sensory feedback in an embodied loop shapes what the same language model can practically accomplish.",
+        "The mechanism by which the latency/timing of sensory feedback in an embodied loop shapes what the model can practically do, i.e., the causal influence of feedback timing as one embodiment variable on realized capability.",
+        "The causal influence of feedback timing (latency/delay between action and sensed consequence) on the behavior of an embodied language-model system — i.e., the mechanism by which timing shapes what the system does.",
+        "The causal mechanism by which the latency/timing of sensory feedback in an embodied control loop changes what a fixed language model can practically do, holding the model constant across embodiments.",
+        "The causal mechanism by which the latency/timing of sensorimotor feedback in an embodied setup shapes what practical capabilities the same language model exhibits."
+      ]
+    },
+    {
+      "cluster_ref": "K024",
+      "member_targets": [
+        "The threshold level of sensor quality and feedback-timing improvement at which embodiment differences stop producing differences in practical capability for the same language model — i.e., a quantitative convergence point, not merely whether embodiment affects capability."
+      ]
+    },
+    {
+      "cluster_ref": "K028",
+      "member_targets": [
+        "The comparative causal contribution of feedback-loop speed (timing/latency of the perception-action cycle) versus richness/complexity of sensors and actuators in producing a qualitative shift to embodied competence — i.e., which factor drives the transition and how their effects differ."
+      ]
+    },
+    {
+      "cluster_ref": "K030",
+      "member_targets": [
+        "The effect of feedback latency/delay on a sensor-actuator-coupled language model system's capacity to associate actions with their consequences and adapt accordingly — i.e., the mechanism by which timing lags degrade (or alter) credit assignment, learning, and adaptive control.",
+        "The causal effect of feedback timing (delay between action and sensory return) on a language-model-controlled system's capacity to associate actions with consequences and thereby learn from them.",
+        "The causal effect of action-to-sensor-feedback delay on an embodied language-model system's capacity for learning and adaptation, i.e., the mechanism by which feedback timing shapes adaptive performance.",
+        "The causal effect of feedback latency on a sensorimotor-embodied language model's capacity to acquire and refine action-outcome learning — i.e., the mechanism by which delayed consequence signals degrade (or otherwise alter) credit assignment and learning from interaction.",
+        "The causal effect of feedback-loop timing (delay between action and sensed consequence) on a language model's capacity to acquire or refine sensorimotor competence — i.e., the mechanism by which latency helps or degrades learning from embodied experience.",
+        "The effect of action-to-feedback latency on a sensor-motor-connected language model's capacity for learning and behavioral adaptation — i.e., how varying feedback delay changes credit assignment and adaptive performance.",
+        "The causal effect of feedback-loop latency (delay between action and sensed consequence) on a sensorimotor-embodied model's capacity to acquire and refine competence from interaction — i.e., the mechanism and direction by which varying delay degrades or supports credit assignment and learning.",
+        "The causal effect of feedback-loop delay (latency between action and sensed consequence) on a language model's capacity to acquire and refine sensorimotor competence through embodied interaction — i.e., the mechanism by which timing of feedback shapes learning from such interactions.",
+        "The causal effect of action-to-feedback delay (latency) on a sensorimotor-embodied language model system's learning and adaptation capability — i.e., the mechanism and direction by which varying feedback timing changes credit assignment, adaptation speed, or control quality.",
+        "The causal effect of feedback-loop latency (delay between action and sensed consequence) on a sensor-actuator-coupled language model's capacity for real-time learning and behavioral adaptation — i.e., the mechanism and direction by which timing delays degrade or constrain online adjustment.",
+        "The causal effect of sensor feedback latency (timing delay between action and perceived consequence) on a language-model-controlled embodied system's capacity for learning and behavioral adaptation.",
+        "The causal effect of action-to-feedback delay on acquisition of sensorimotor competence in an embodied language-model system — i.e., how varying feedback timing changes learning of sensorimotor skills.",
+        "The causal effect of feedback delay in an embodied sensorimotor loop on a language model's capacity to acquire or improve competence from that experience — i.e., how varying latency changes learning ability."
+      ]
+    },
+    {
+      "cluster_ref": "K031",
+      "member_targets": [
+        "An experimental design — specifying manipulations, measures, and discriminating criteria/predictions — that could empirically distinguish whether richer sensorimotor coupling yields a qualitatively distinct kind of embodied competence versus incremental quantitative gains."
+      ]
+    },
+    {
+      "cluster_ref": "K034",
+      "member_targets": [
+        "The causal effect of varying sensorimotor feedback delay on whether and how embodied competence arises in sensor-actuator-coupled language model systems.",
+        "The causal effect of action-to-sensory-feedback delay on whether and how embodied competence develops in a sensorimotor-coupled language model — i.e., the mechanism and direction by which varying feedback timing shapes acquired embodied skill.",
+        "The causal effect of action-to-sensory-feedback delay (feedback timing/latency) on how, and how much, embodied competence develops in sensor-and-actuator-coupled language models.",
+        "The causal effect of sensorimotor feedback timing/delay on whether and how embodied competence develops in sensor-and-actuator-coupled language models.",
+        "The causal role of feedback latency/timing in the embodied loop — i.e., how variation in the delay between action and sensed consequence shapes whether and how a system's competence shifts from text-mediated to sensorimotor.",
+        "The causal mechanism by which the latency/timing of sensor-action feedback loops shapes whether and how sensorimotor competence develops in an embodied language-model system.",
+        "The causal effect of action-feedback delay (latency) on how such an embodied language-model system learns and develops behavior over time — i.e., the mechanism and direction by which faster or slower sensorimotor feedback changes acquired competence and behavioral trajectory.",
+        "The causal effect of feedback-loop latency (timing between action and sensed consequence) on how sensorimotor competence develops in embodied language-model systems.",
+        "The specific causal role of feedback latency/timing between action and sensed consequence in shaping how embodied competence develops in sensor-connected language models — i.e., the mechanism by which timing characteristics affect competence acquisition, as distinct from the general list of factors that influence behavior.",
+        "The causal effect of feedback-loop latency (fast vs. slow feedback cycles) on whether and how qualitatively new embodied capabilities arise, i.e., the mechanism and magnitude by which timing of sensorimotor feedback drives emergence rather than mere incremental performance gain.",
+        "The causal effect of feedback-loop latency (speed/timing of sensorimotor feedback) on whether and how embodied competence develops in sensor-and-actuator-connected language models."
+      ]
+    },
+    {
+      "cluster_ref": "K036",
+      "member_targets": [
+        "The specific classes of embodied capability that arise exclusively above some threshold of sensorimotor feedback richness and speed, as distinct from capabilities present with sparse or slow feedback.",
+        "The specific classes of embodied capability that appear only above some threshold of richness and speed in sensorimotor feedback and control loops, as distinct from capabilities that scale continuously with added sensing and actuation.",
+        "The specific behavioral or capability changes that arise as sensorimotor coupling becomes richer and faster — i.e., what new or altered capacities appear at increasing levels of integration, not merely that the text/sensorimotor distinction blurs.",
+        "The specific types or categories of embodied capability that arise once sensorimotor coupling passes sufficient richness and speed — i.e., what qualitatively new competences appear, not whether or when a threshold is crossed.",
+        "The particular behavioral or capability changes that appear in an embodied language-model system as sensorimotor coupling becomes richer and faster—i.e., an enumeration of concrete emergent effects, not merely the general claim that the text/sensorimotor competence distinction blurs.",
+        "A characterization of the specific types or qualities of embodied competence that arise once sensorimotor feedback loops reach sufficient richness and speed — i.e., what new capacities appear beyond incremental information/control gains."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "As those connections become richer and faster, the boundary between simply adding information and control and producing a qualitatively different form of embodied competence remains unsettled.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

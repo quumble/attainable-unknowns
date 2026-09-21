@@ -1,0 +1,61 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R050",
+  "cluster_count": 4,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The practices or strategies hosts commonly use to reconcile divergent participant expectations about the tone and format of toasts at an occasion.",
+        "Normative guidance, i.e., a decision criterion or set of practical principles, for how a host should reconcile and weigh divergent participant expectations about formality and tradition when choosing the tone (and speaking arrangements) for a celebration.",
+        "The typical host practices or strategies used to manage and reconcile participants' conflicting expectations about toast formality or style.",
+        "The practices or strategies hosts use to reconcile differing participant expectations about tone and formality when structuring toasts across celebration types.",
+        "The decision criteria or basis hosts typically use when choosing a toasting tone amid participants' conflicting expectations about the occasion.",
+        "The practices or strategies hosts use to reconcile or manage divergent participant expectations about tone and formality when structuring toasts.",
+        "Prescriptive guidance on host actions or strategies for reconciling divergent participant expectations about toast tone and format.",
+        "The criteria or considerations hosts typically use when deciding what tone toasting should take at a given celebration.",
+        "Specific instances of regional, cultural, or community customs that shape toast practices (e.g., particular conventions of order, length, tone, gesture, or spontaneity associated with named localities or traditions).",
+        "A decision criterion or practical approach a host can use to reconcile divergent participant expectations about formality of tone when structuring toasts at a celebration.",
+        "The typical host practices or strategies used to reconcile or manage participants' divergent expectations about toast tone and format at a celebration.",
+        "The decision criteria or basis hosts use to determine an appropriate tone for a given celebration's toasts.",
+        "The customary practices or strategies hosts use to reconcile or manage participants' divergent expectations about toast formality and content.",
+        "The practices or strategies hosts use to reconcile or manage divergent participant expectations about appropriate toast tone and format at a given celebration.",
+        "The decision criteria or basis hosts use to select an appropriate tone for a toast, as a function of the type of celebration and participants' differing expectations.",
+        "The typical host practices or techniques used to reconcile or manage participants' conflicting expectations about toast formality and length.",
+        "The customary host practices or strategies used to reconcile or manage divergent participant expectations about toast formality and structure.",
+        "The practices or techniques hosts customarily use to manage and reconcile divergent participant expectations about a toast occasion's tone and formality."
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "A cross-cultural comparative description of conventional toast sequencing and timing norms — i.e., which cultures place toasts at which points in a celebration and in what speaker order — information the passage does not supply beyond noting that such expectations vary.",
+        "A comparative description of conventions across specific cultures or regions specifying who speaks when and at what point in a celebration toasts occur (sequence and timing norms), not the general fact that such conventions vary.",
+        "A cross-cultural comparative description of conventional sequencing and timing rules for toasts at formal events — i.e., which cultures place toasts at which points in an event and in what speaker order."
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "The decision criteria or basis a host should use to determine toast speaking order under conditions of divergent participant expectations about the occasion.",
+        "A decision criterion or procedure a host can use to set toast speaking order when participants hold divergent expectations about the occasion.",
+        "The set of considerations or criteria hosts customarily weigh in determining the sequence of toast speakers.",
+        "Practical methods or decision criteria a host can use to arrange the sequence of toast speakers so that it accommodates guests' divergent expectations about the occasion.",
+        "The particular considerations or decision rules hosts apply when sequencing toast speakers (e.g., relationship to honoree, seniority, role in the event), i.e., the criteria governing order selection rather than the general fact that hosts set an order.",
+        "The decision criteria or factors hosts apply when determining the sequence of toast speakers.",
+        "The set of considerations or criteria hosts customarily weigh in sequencing toast speakers (e.g., relationship to honoree, seniority, role, comfort speaking), i.e., decision inputs for ordering rather than the effects of ordering.",
+        "A decision criterion or basis a host should use to determine the sequence of toast speakers when attendees hold divergent expectations about the occasion.",
+        "A decision procedure or set of criteria a host can use to fix toast speaking order when guests hold conflicting expectations about what the occasion requires."
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "A cross-cultural comparison identifying which particular toasting conventions (e.g., speaking order, length, tone, spontaneity, gestures) show the greatest variation across cultures, ranked by degree of variability."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The hosting decision is how to set an order and tone when participants bring different assumptions about what the occasion requires.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

@@ -1,0 +1,12 @@
+{
+  "bundle_id": "AU-E1-FA1-8f2e24cb6f5baae6",
+  "disputed_cluster_count": 699,
+  "index_sha256": "be768ce4a24cec3164758efd98b97a40c05301b8574cb2a3fbea53049deed817",
+  "packet_bundle_commit": "3a5239f2e5e33bc5d19201fcba21a3e93355c900",
+  "packet_count": 68,
+  "prepared_at_utc": "2026-09-21T20:22:44.302891+00:00",
+  "primary_codes_sha256": "0d04f9039ebe6644969c863628a0184846505c4219e3eb8f63d9db9adcd8c6c5",
+  "primary_freeze_commit": "fe469debc9d8b5c36b1949114eff6e9e48dfa7dd",
+  "private_key_sha256": "4e5b5306af8d5791566299fcbf872ea14ca8403399ccfe07198a3f4194987f6d",
+  "schema_version": "au-e1-fa1-tiebreak-preparation-v1"
+}

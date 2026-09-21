@@ -1,0 +1,56 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R057",
+  "cluster_count": 2,
+  "clusters": [
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The typical duration (number of days) of the hardening-off period before seedlings remain outdoors continuously.",
+        "The typical duration (number of days) of the hardening-off period before seedlings are planted outdoors permanently.",
+        "The typical duration (number of days) of the hardening-off period, plus whether that duration differs by plant species.",
+        "The typical duration, in number of days, of the hardening off period for indoor-started seedlings.",
+        "The typical duration, in number of days, of the hardening-off period for common vegetable seedlings.",
+        "The typical duration (number of days) of the hardening-off period for indoor-started seedlings.",
+        "The typical duration, in number of days, of the hardening-off period for most plant seedlings.",
+        "The typical duration (number of days) of the hardening-off period before seedlings are transplanted outdoors permanently.",
+        "The typical duration (number of days) over which the hardening-off process should be carried out for most seedlings.",
+        "The typical duration, in number of days, of the hardening-off period for most seedlings.",
+        "The typical duration (number of days) of the hardening-off period, and how that duration varies across different seedling types.",
+        "The typical duration (number of days) over which the gradual hardening-off exposure period should be carried out for most seedlings.",
+        "The required amount/duration of hardening-off exposure for different seedling types, and the degree to which that requirement differs across species.",
+        "The typical duration, in number of days, of the hardening-off schedule for a given plant species under given weather conditions.",
+        "The typical duration, in number of days, of a complete hardening-off process from first outdoor exposure to full transplanting.",
+        "The typical duration, in number of days, of the hardening-off period for most plants.",
+        "The number of days of gradual outdoor exposure appropriate for hardening off a given plant species under given weather conditions.",
+        "A decision procedure or set of criteria growers can use to set and adjust the pace of increasing outdoor exposure during hardening off, given a specific plant and specific weather conditions.",
+        "The typical total duration (number of days) of the hardening off period from initial outdoor exposure until seedlings remain outdoors continuously.",
+        "The typical duration, in number of days, of a hardening-off schedule for most seedlings.",
+        "The typical duration (number of days) of the hardening-off period before seedlings are left outdoors permanently.",
+        "The typical duration (number of days) of the gradual hardening-off period before seedlings are planted outdoors permanently.",
+        "The duration (number of days, or length of the gradual exposure period) that hardening off should last before seedlings are planted outside permanently.",
+        "The typical duration, in number of days, of the hardening-off period for most seedlings.",
+        "The typical number of days the hardening-off period should last for a particular species (tomato seedlings).",
+        "The typical duration, in days, of the hardening-off period for most seedlings.",
+        "The typical duration (number of days) of the gradual hardening-off period for indoor-started seedlings.",
+        "The number of days of gradual outdoor exposure appropriate for hardening off a given plant species under given weather conditions — i.e., a duration quantity for the schedule, conditioned on plant and weather.",
+        "The rate/schedule of incremental outdoor exposure during hardening off, specified as a function of seedling type and prevailing weather conditions.",
+        "The typical duration (number of days) of the hardening-off period before seedlings are planted outside permanently.",
+        "The typical total duration (number of days) of the complete hardening-off period for indoor-started seedlings.",
+        "The typical duration, in number of days, of the hardening-off period for indoor-started seedlings.",
+        "The typical duration (number of days) of the hardening-off period for seedlings before permanent outdoor planting.",
+        "The typical duration, expressed as a number of days, of the hardening-off period for a particular species such as tomatoes.",
+        "The typical duration (number of days) of the hardening-off period for indoor-started seedlings."
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The outcomes or damage seedlings suffer when moved directly from indoor conditions to full outdoor exposure without gradual acclimation"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The practical problem is setting the rate of increased exposure for a particular plant under particular weather.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

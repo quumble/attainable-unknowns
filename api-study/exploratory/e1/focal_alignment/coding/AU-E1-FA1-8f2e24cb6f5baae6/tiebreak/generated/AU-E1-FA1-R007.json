@@ -1,0 +1,37 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R007",
+  "cluster_count": 4,
+  "clusters": [
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The decision process or criteria cooks use to arrive at a station layout suited to a specific menu — i.e., how layout choices are derived (e.g., from analysis of order frequency, work sequence, trial and refinement, training or convention).",
+        "The method or decision procedure a cook uses to arrive at an optimal station layout for a given menu — i.e., how layout choices are derived (what information, criteria, or process determines placement), not merely the stated fact that layout is tailored to menu and work sequence."
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "The set of planning or optimization methods (techniques/approaches) available for determining a kitchen station layout under uncertainty about order mix and sequence.",
+        "The set of planning or optimization approaches (methods/techniques) for choosing a station layout under uncertainty about order mix and sequence."
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "The way menu content determines which items, tools, and ingredients are placed where in the station layout — i.e., the mechanism by which menu-specific dish requirements and work sequence shape placement and reach decisions."
+      ]
+    },
+    {
+      "cluster_ref": "K017",
+      "member_targets": [
+        "The specific ways cooks modify their station setup (placement, portioning, tool arrangement, quantities) in response to advance knowledge of the expected dish mix.",
+        "The specific adaptations cooks make to station layout and prep (which items are portioned, how tools and ingredients are positioned and prioritized) under conditions of known, predictable order mix — i.e., what changes in setup when demand composition is known in advance."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When the mix and sequence of orders are unknown in advance, choosing the layout that best balances those competing efficiencies remains a planning problem.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

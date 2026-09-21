@@ -1,0 +1,22 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R051",
+  "cluster_count": 2,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The practical procedure for creating a contact sheet and reviewing, comparing, marking, and selecting frames for enlargement"
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "Whether the physical arrangement of neighboring frames independently biases image selection apart from each frame's individual quality"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The selection problem is how much weight to give a frame's individual qualities versus its relation to neighboring images.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

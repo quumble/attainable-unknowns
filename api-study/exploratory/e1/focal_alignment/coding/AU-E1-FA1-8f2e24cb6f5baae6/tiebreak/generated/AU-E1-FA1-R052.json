@@ -1,0 +1,91 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R052",
+  "cluster_count": 8,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The factors a host should consider when deciding the speaking order and tone for a toast.",
+        "The criteria hosts use to determine the appropriate speaking order and tone for a specific celebration"
+      ]
+    },
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "Examples of culture- or region-specific differences in toasting traditions",
+        "Cultural or national variations in toast conventions, content, tone, and performance",
+        "Cultural variations in toasting traditions other than the gesture of raising glasses",
+        "Cross-cultural differences in toasting traditions and conventions",
+        "Examples of how customs surrounding toasts vary across cultures",
+        "Examples of cultural or regional variation in how toasts are conducted",
+        "Examples of cultural or family-specific variations in the traditional toast format",
+        "The toast-related customs and expectations that show the greatest variation across cultures",
+        "Examples of cultural or regional differences in the order, length, tone, spontaneity, and ceremonial structure of toasts",
+        "Examples of culture-specific local traditions that influence the order, length, tone, spontaneity, or gestures used in performing toasts",
+        "Cross-cultural differences in toasting traditions and customs",
+        "Common toast traditions or customs associated with particular cultures or regions",
+        "Examples of culture- or region-specific differences in toast traditions",
+        "Examples of culture- or region-specific differences in toast customs and practices",
+        "The culture-specific traditions and customs governing toasts at celebrations.",
+        "Typical differences in toasting customs across specific cultures or regions",
+        "The specific culturally varying traditions and customs governing toasts at celebrations.",
+        "Cultural or regional differences in the specific practices and conventions of toasting",
+        "Examples of local traditions that shape the order, length, tone, spontaneity, or other conduct of toasts",
+        "Cross-cultural differences in toasting traditions and conventions",
+        "The culture-specific gestures and traditions used when making a toast",
+        "Traditional cultural or regional differences in the structure of toasts, including speaking order, introductions, length, tone, spontaneity, and closing gestures"
+      ]
+    },
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "Typical host practices for managing conflicting participant expectations about the formality or style of toasts",
+        "Typical host practices for setting the occasion’s tone and formality when participants have conflicting expectations",
+        "Typical host practices for managing conflicting participant expectations about toast formality or length",
+        "The strategies hosts use to choose and manage an appropriate tone and format when participants have differing expectations for a celebration",
+        "The typical methods hosts use to reconcile conflicting expectations about an occasion’s tone or format",
+        "Typical host practices for managing conflicting participant expectations about the formality or content of toasts",
+        "How hosts reconcile conflicting expectations about tone and formality across different types of celebrations"
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The criteria and process hosts use to choose an appropriate toast tone when guests have conflicting expectations about formality or tradition."
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The criteria hosts should use to decide the speaking order when participants have differing assumptions about the occasion",
+        "The criteria a host should use to determine speaking order when participants have differing expectations about the occasion.",
+        "Criteria a host should use to choose a speaking order when guests have conflicting expectations about the occasion",
+        "The criteria a host should use to determine speaking order when participants have differing expectations about the occasion"
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "Criteria for balancing participants’ differing expectations about formality and tradition when setting a celebration’s tone",
+        "Criteria for setting a celebration’s tone to accommodate participants’ differing expectations of formality",
+        "The criteria hosts typically use to choose the tone when participants have conflicting expectations about the occasion."
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "Methods a host can use to establish a speaking order that accommodates participants’ differing assumptions about the occasion"
+      ]
+    },
+    {
+      "cluster_ref": "K018",
+      "member_targets": [
+        "The specific methods hosts use to indicate that a particular speaker should begin their toast"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The hosting decision is how to set an order and tone when participants bring different assumptions about what the occasion requires.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

@@ -1,0 +1,66 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R010",
+  "cluster_count": 5,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "Practical methods or techniques that improve reliable recognition of planned checkpoints under degraded visibility or difficult terrain conditions.",
+        "Preparatory measures or techniques a field team can adopt in advance so that planned checkpoints remain identifiable under poor-visibility conditions.",
+        "Practical methods or techniques a field team can use to make planned checkpoints identifiable under degraded weather or visibility conditions."
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "Techniques or criteria by which field teams select and recognize suitable checkpoint landmarks in terrain they have not previously traveled.",
+        "The set of techniques or procedures by which field teams select landmarks/checkpoints and confirm that a feature encountered is the intended checkpoint."
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "The specific alternate route to be used for a given leg under changed conditions — a particular routing choice, which the passage does not supply for any concrete journey.",
+        "The specific alternate routes recorded for legs of a particular planned journey, to be used when a checkpoint cannot be recognized — i.e., the identity of contingency route options, not the general practice of recording alternates.",
+        "The specific alternate routes designated for use when a planned checkpoint cannot be recognized — i.e., the content of the contingency route options for particular legs, which the passage describes only generically as 'an alternate if conditions change'.",
+        "The specific content of the contingency/alternate routes or actions teams adopt when a planned checkpoint cannot be recognized — i.e., what the alternates consist of, not merely that alternates are recorded.",
+        "The specific contingency routes or alternate legs a team should prepare for use when a planned checkpoint cannot be identified — i.e., prescriptive content of the alternates, not merely the fact that alternates are recorded.",
+        "The specific alternate route(s) recorded for a leg, to be used when a checkpoint becomes unrecognizable under changed conditions.",
+        "The specific alternate routes recorded for each leg of a particular team's journey plan, to be used if conditions change.",
+        "The specific alternate route or path the team should follow when a planned checkpoint cannot be recognized — a particular routing decision that depends on leg-specific details (the actual checkpoints, terrain, and pre-recorded alternates) not given in the passage.",
+        "The specific alternate route to be followed in place of the planned leg when a checkpoint cannot be recognized.",
+        "The specific alternate routes recorded for a leg, to be used as contingency when a planned checkpoint cannot be recognized."
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "The method or basis by which field teams arrive at the expected distance or travel time figure for a leg (i.e., how those estimates are produced), which the passage states is recorded but does not explain."
+      ]
+    },
+    {
+      "cluster_ref": "K017",
+      "member_targets": [
+        "The set of causal factors, ranked by frequency of occurrence, that make a planned checkpoint unexpectedly difficult to recognize in the field.",
+        "The relative frequency ranking of specific causes (e.g., weather, visibility, terrain, approach direction, or others) that lead field teams to fail to recognize a planned checkpoint — i.e., which factors are most common, not merely which ones can contribute.",
+        "The set of specific conditions or causes—and their relative frequency—that most often make a planned checkpoint unrecognizable in the field.",
+        "The set of specific causes, ranked by frequency of occurrence, that make a planned checkpoint difficult to recognize in the field",
+        "The identification of which particular conditions or causes are the most frequent contributors to a planned checkpoint being unexpectedly difficult to recognize — i.e., a ranked or relative-frequency account of recognition-failure factors, not merely a list of possible influences.",
+        "The specific causal factors that most frequently lead field teams to misidentify a planned checkpoint, ranked by relative frequency of occurrence.",
+        "The set of specific conditions or causes, ranked by frequency of occurrence, that lead field teams to fail to recognize a planned checkpoint when approaching it.",
+        "The set of specific conditions or causes that most frequently make a pre-planned checkpoint difficult to recognize during field travel, ranked or identified by relative frequency.",
+        "The set of specific conditions or causes, ranked by frequency of occurrence, that lead field teams to fail to recognize a planned checkpoint.",
+        "The relative frequency ranking of specific causes of checkpoint non-recognition — i.e., which factors (among weather, visibility, terrain, approach direction, or others) most often prevent a team from identifying a planned checkpoint upon arrival.",
+        "The set of specific conditions or causes, ranked by frequency of occurrence in practice, that make a planned checkpoint hard to recognize in the field.",
+        "The empirically observed relative frequency ranking of causes that render a planned checkpoint unrecognizable in field practice — i.e., which specific factors most commonly produce recognition failure despite careful planning.",
+        "The set of specific conditions or causes that most frequently make a planned checkpoint hard to recognize in the field, ranked or characterized by relative frequency.",
+        "The identity and relative frequency of the particular causes that most commonly render a planned checkpoint unrecognizable on arrival — i.e., a ranked/empirical account of which factors (beyond the passage's general list of weather, visibility, terrain, approach direction) predominate in practice.",
+        "The empirical ranking/frequency of the particular causes (e.g., weather, visibility, terrain, approach direction, or others) that most commonly render a planned checkpoint unrecognizable in actual field practice."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

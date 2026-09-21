@@ -1,0 +1,1250 @@
+{
+  "bundle_id": "AU-E1-FA1-8f2e24cb6f5baae6",
+  "packets": [
+    {
+      "cluster_refs": [
+        "K003",
+        "K005",
+        "K006",
+        "K011",
+        "K012",
+        "K018",
+        "K020",
+        "K023"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P001",
+      "tiebreak_packet_id": "AU-E1-FA1-R001",
+      "topic_packet_id": "AU-E1-T06"
+    },
+    {
+      "cluster_refs": [
+        "K008"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P002",
+      "tiebreak_packet_id": "AU-E1-FA1-R002",
+      "topic_packet_id": "AU-E1-T02"
+    },
+    {
+      "cluster_refs": [
+        "K016",
+        "K024",
+        "K028",
+        "K030",
+        "K031",
+        "K034",
+        "K036"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P003",
+      "tiebreak_packet_id": "AU-E1-FA1-R003",
+      "topic_packet_id": "AU-E1-T04"
+    },
+    {
+      "cluster_refs": [
+        "K005",
+        "K008",
+        "K010",
+        "K012",
+        "K014",
+        "K015"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P004",
+      "tiebreak_packet_id": "AU-E1-FA1-R004",
+      "topic_packet_id": "AU-E1-T02"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K007",
+        "K011",
+        "K013",
+        "K018"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P005",
+      "tiebreak_packet_id": "AU-E1-FA1-R005",
+      "topic_packet_id": "AU-E1-T01"
+    },
+    {
+      "cluster_refs": [
+        "K005",
+        "K006"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P006",
+      "tiebreak_packet_id": "AU-E1-FA1-R006",
+      "topic_packet_id": "AU-E1-T02"
+    },
+    {
+      "cluster_refs": [
+        "K006",
+        "K013",
+        "K016",
+        "K017"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P007",
+      "tiebreak_packet_id": "AU-E1-FA1-R007",
+      "topic_packet_id": "AU-E1-T08"
+    },
+    {
+      "cluster_refs": [
+        "K038",
+        "K056",
+        "K091",
+        "K116",
+        "K118",
+        "K121",
+        "K122",
+        "K124",
+        "K125",
+        "K126",
+        "K127",
+        "K128",
+        "K129",
+        "K130",
+        "K131",
+        "K132",
+        "K133",
+        "K134",
+        "K135",
+        "K136",
+        "K138",
+        "K139",
+        "K140",
+        "K142",
+        "K143",
+        "K146",
+        "K147",
+        "K149",
+        "K150",
+        "K151",
+        "K152",
+        "K153",
+        "K155",
+        "K156",
+        "K157",
+        "K165",
+        "K179"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P008",
+      "tiebreak_packet_id": "AU-E1-FA1-R008",
+      "topic_packet_id": "AU-E1-T09"
+    },
+    {
+      "cluster_refs": [
+        "K003",
+        "K006",
+        "K014"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P009",
+      "tiebreak_packet_id": "AU-E1-FA1-R009",
+      "topic_packet_id": "AU-E1-T12"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K008",
+        "K012",
+        "K016",
+        "K017"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P010",
+      "tiebreak_packet_id": "AU-E1-FA1-R010",
+      "topic_packet_id": "AU-E1-T10"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K004",
+        "K005",
+        "K006",
+        "K007",
+        "K008",
+        "K010",
+        "K016",
+        "K019",
+        "K020",
+        "K021",
+        "K022"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P011",
+      "tiebreak_packet_id": "AU-E1-FA1-R011",
+      "topic_packet_id": "AU-E1-T10"
+    },
+    {
+      "cluster_refs": [
+        "K002"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P012",
+      "tiebreak_packet_id": "AU-E1-FA1-R012",
+      "topic_packet_id": "AU-E1-T03"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K003",
+        "K006",
+        "K008"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P013",
+      "tiebreak_packet_id": "AU-E1-FA1-R013",
+      "topic_packet_id": "AU-E1-T12"
+    },
+    {
+      "cluster_refs": [
+        "K006",
+        "K008",
+        "K009",
+        "K011",
+        "K016"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P015",
+      "tiebreak_packet_id": "AU-E1-FA1-R014",
+      "topic_packet_id": "AU-E1-T06"
+    },
+    {
+      "cluster_refs": [
+        "K006",
+        "K008",
+        "K009",
+        "K010"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P016",
+      "tiebreak_packet_id": "AU-E1-FA1-R015",
+      "topic_packet_id": "AU-E1-T01"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K004",
+        "K005",
+        "K006",
+        "K008",
+        "K010",
+        "K011",
+        "K013",
+        "K014",
+        "K017",
+        "K018",
+        "K020",
+        "K022",
+        "K024",
+        "K025",
+        "K027",
+        "K028",
+        "K030",
+        "K032",
+        "K033",
+        "K034",
+        "K035",
+        "K038",
+        "K041",
+        "K043",
+        "K046",
+        "K047",
+        "K049",
+        "K054",
+        "K055",
+        "K056",
+        "K058",
+        "K059",
+        "K060",
+        "K062",
+        "K063",
+        "K065",
+        "K067",
+        "K068",
+        "K069",
+        "K074",
+        "K076",
+        "K079",
+        "K081",
+        "K083",
+        "K085",
+        "K087",
+        "K088",
+        "K089",
+        "K091",
+        "K092",
+        "K094",
+        "K097",
+        "K098",
+        "K100",
+        "K104",
+        "K105",
+        "K107",
+        "K108",
+        "K109",
+        "K111",
+        "K112",
+        "K116",
+        "K118",
+        "K119",
+        "K120",
+        "K121",
+        "K122",
+        "K127",
+        "K128",
+        "K129",
+        "K132",
+        "K134",
+        "K135",
+        "K136",
+        "K137",
+        "K138",
+        "K139",
+        "K140",
+        "K142",
+        "K143",
+        "K144",
+        "K145",
+        "K146",
+        "K147",
+        "K148",
+        "K149",
+        "K150",
+        "K151"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P017",
+      "tiebreak_packet_id": "AU-E1-FA1-R016",
+      "topic_packet_id": "AU-E1-T04"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K003",
+        "K004",
+        "K006",
+        "K009",
+        "K010",
+        "K011",
+        "K019",
+        "K020"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P018",
+      "tiebreak_packet_id": "AU-E1-FA1-R017",
+      "topic_packet_id": "AU-E1-T05"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K010"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P019",
+      "tiebreak_packet_id": "AU-E1-FA1-R018",
+      "topic_packet_id": "AU-E1-T11"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K006",
+        "K011",
+        "K014",
+        "K015",
+        "K016",
+        "K017",
+        "K018",
+        "K019",
+        "K023",
+        "K024",
+        "K025",
+        "K026",
+        "K030",
+        "K031",
+        "K037",
+        "K038",
+        "K039",
+        "K040",
+        "K042",
+        "K044",
+        "K045",
+        "K046",
+        "K047",
+        "K052",
+        "K053",
+        "K056",
+        "K061",
+        "K062",
+        "K063",
+        "K064",
+        "K065",
+        "K066",
+        "K067",
+        "K068",
+        "K071",
+        "K072",
+        "K073",
+        "K074",
+        "K076",
+        "K077"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P020",
+      "tiebreak_packet_id": "AU-E1-FA1-R019",
+      "topic_packet_id": "AU-E1-T05"
+    },
+    {
+      "cluster_refs": [
+        "K003",
+        "K009"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P021",
+      "tiebreak_packet_id": "AU-E1-FA1-R020",
+      "topic_packet_id": "AU-E1-T08"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K006",
+        "K007",
+        "K008",
+        "K011",
+        "K012"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P022",
+      "tiebreak_packet_id": "AU-E1-FA1-R021",
+      "topic_packet_id": "AU-E1-T03"
+    },
+    {
+      "cluster_refs": [
+        "K004",
+        "K006",
+        "K008",
+        "K014",
+        "K015",
+        "K016"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P023",
+      "tiebreak_packet_id": "AU-E1-FA1-R022",
+      "topic_packet_id": "AU-E1-T01"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K003",
+        "K006",
+        "K007",
+        "K009"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P024",
+      "tiebreak_packet_id": "AU-E1-FA1-R023",
+      "topic_packet_id": "AU-E1-T02"
+    },
+    {
+      "cluster_refs": [
+        "K004",
+        "K005",
+        "K008"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P025",
+      "tiebreak_packet_id": "AU-E1-FA1-R024",
+      "topic_packet_id": "AU-E1-T10"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K004",
+        "K005",
+        "K009",
+        "K010",
+        "K013",
+        "K014",
+        "K015",
+        "K018",
+        "K019",
+        "K021",
+        "K023",
+        "K024"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P026",
+      "tiebreak_packet_id": "AU-E1-FA1-R025",
+      "topic_packet_id": "AU-E1-T04"
+    },
+    {
+      "cluster_refs": [
+        "K003",
+        "K014",
+        "K016"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P027",
+      "tiebreak_packet_id": "AU-E1-FA1-R026",
+      "topic_packet_id": "AU-E1-T11"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K002",
+        "K004",
+        "K006",
+        "K007",
+        "K008",
+        "K009",
+        "K011",
+        "K014",
+        "K016",
+        "K017",
+        "K019",
+        "K020",
+        "K022",
+        "K024",
+        "K025",
+        "K031",
+        "K032",
+        "K033",
+        "K034",
+        "K037",
+        "K039",
+        "K041",
+        "K042",
+        "K046",
+        "K047",
+        "K048",
+        "K052",
+        "K055",
+        "K056",
+        "K058",
+        "K059",
+        "K061",
+        "K062",
+        "K063",
+        "K064",
+        "K065"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P028",
+      "tiebreak_packet_id": "AU-E1-FA1-R027",
+      "topic_packet_id": "AU-E1-T04"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K006",
+        "K009",
+        "K019",
+        "K020",
+        "K021",
+        "K022"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P029",
+      "tiebreak_packet_id": "AU-E1-FA1-R028",
+      "topic_packet_id": "AU-E1-T12"
+    },
+    {
+      "cluster_refs": [
+        "K010",
+        "K019"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P030",
+      "tiebreak_packet_id": "AU-E1-FA1-R029",
+      "topic_packet_id": "AU-E1-T02"
+    },
+    {
+      "cluster_refs": [
+        "K004",
+        "K005",
+        "K010",
+        "K011",
+        "K012",
+        "K015",
+        "K020",
+        "K021",
+        "K022",
+        "K023",
+        "K027",
+        "K028"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P031",
+      "tiebreak_packet_id": "AU-E1-FA1-R030",
+      "topic_packet_id": "AU-E1-T07"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K005",
+        "K006",
+        "K012",
+        "K013",
+        "K014"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P032",
+      "tiebreak_packet_id": "AU-E1-FA1-R031",
+      "topic_packet_id": "AU-E1-T12"
+    },
+    {
+      "cluster_refs": [
+        "K005",
+        "K011",
+        "K024",
+        "K025",
+        "K026",
+        "K027",
+        "K028",
+        "K029",
+        "K032",
+        "K033"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P033",
+      "tiebreak_packet_id": "AU-E1-FA1-R032",
+      "topic_packet_id": "AU-E1-T07"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K010",
+        "K012",
+        "K023",
+        "K025"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P034",
+      "tiebreak_packet_id": "AU-E1-FA1-R033",
+      "topic_packet_id": "AU-E1-T05"
+    },
+    {
+      "cluster_refs": [
+        "K011",
+        "K013",
+        "K014",
+        "K017",
+        "K019",
+        "K020",
+        "K022",
+        "K023"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P035",
+      "tiebreak_packet_id": "AU-E1-FA1-R034",
+      "topic_packet_id": "AU-E1-T05"
+    },
+    {
+      "cluster_refs": [
+        "K010",
+        "K011",
+        "K013",
+        "K015"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P036",
+      "tiebreak_packet_id": "AU-E1-FA1-R035",
+      "topic_packet_id": "AU-E1-T10"
+    },
+    {
+      "cluster_refs": [
+        "K006",
+        "K008",
+        "K012",
+        "K013",
+        "K014",
+        "K015",
+        "K016",
+        "K017",
+        "K019"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P037",
+      "tiebreak_packet_id": "AU-E1-FA1-R036",
+      "topic_packet_id": "AU-E1-T12"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K008",
+        "K015",
+        "K021",
+        "K024",
+        "K025",
+        "K030",
+        "K033",
+        "K037",
+        "K038",
+        "K040",
+        "K041",
+        "K044"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P039",
+      "tiebreak_packet_id": "AU-E1-FA1-R037",
+      "topic_packet_id": "AU-E1-T07"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K008"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P040",
+      "tiebreak_packet_id": "AU-E1-FA1-R038",
+      "topic_packet_id": "AU-E1-T09"
+    },
+    {
+      "cluster_refs": [
+        "K008"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P041",
+      "tiebreak_packet_id": "AU-E1-FA1-R039",
+      "topic_packet_id": "AU-E1-T08"
+    },
+    {
+      "cluster_refs": [
+        "K004",
+        "K005",
+        "K006",
+        "K009",
+        "K011",
+        "K012"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P042",
+      "tiebreak_packet_id": "AU-E1-FA1-R040",
+      "topic_packet_id": "AU-E1-T06"
+    },
+    {
+      "cluster_refs": [
+        "K005",
+        "K007",
+        "K010",
+        "K013",
+        "K014",
+        "K015",
+        "K018",
+        "K020",
+        "K023"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P043",
+      "tiebreak_packet_id": "AU-E1-FA1-R041",
+      "topic_packet_id": "AU-E1-T05"
+    },
+    {
+      "cluster_refs": [
+        "K008",
+        "K010",
+        "K015",
+        "K017"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P044",
+      "tiebreak_packet_id": "AU-E1-FA1-R042",
+      "topic_packet_id": "AU-E1-T12"
+    },
+    {
+      "cluster_refs": [
+        "K008",
+        "K012",
+        "K017",
+        "K018"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P045",
+      "tiebreak_packet_id": "AU-E1-FA1-R043",
+      "topic_packet_id": "AU-E1-T09"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K002",
+        "K003",
+        "K004",
+        "K009",
+        "K010"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P046",
+      "tiebreak_packet_id": "AU-E1-FA1-R044",
+      "topic_packet_id": "AU-E1-T06"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K004",
+        "K005",
+        "K006",
+        "K007",
+        "K013",
+        "K015",
+        "K017",
+        "K018",
+        "K020",
+        "K021"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P047",
+      "tiebreak_packet_id": "AU-E1-FA1-R045",
+      "topic_packet_id": "AU-E1-T06"
+    },
+    {
+      "cluster_refs": [
+        "K009",
+        "K011",
+        "K016",
+        "K019",
+        "K020"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P048",
+      "tiebreak_packet_id": "AU-E1-FA1-R046",
+      "topic_packet_id": "AU-E1-T09"
+    },
+    {
+      "cluster_refs": [
+        "K003",
+        "K005"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P049",
+      "tiebreak_packet_id": "AU-E1-FA1-R047",
+      "topic_packet_id": "AU-E1-T03"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K003",
+        "K005",
+        "K006",
+        "K009",
+        "K010",
+        "K011",
+        "K012",
+        "K014",
+        "K015",
+        "K016",
+        "K018",
+        "K019",
+        "K020",
+        "K021",
+        "K023",
+        "K024",
+        "K025",
+        "K026",
+        "K027",
+        "K028",
+        "K029",
+        "K030",
+        "K033"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P050",
+      "tiebreak_packet_id": "AU-E1-FA1-R048",
+      "topic_packet_id": "AU-E1-T04"
+    },
+    {
+      "cluster_refs": [
+        "K012",
+        "K013",
+        "K014",
+        "K016",
+        "K019",
+        "K022",
+        "K023",
+        "K025",
+        "K026"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P051",
+      "tiebreak_packet_id": "AU-E1-FA1-R049",
+      "topic_packet_id": "AU-E1-T09"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K006",
+        "K007",
+        "K009"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P052",
+      "tiebreak_packet_id": "AU-E1-FA1-R050",
+      "topic_packet_id": "AU-E1-T01"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K007"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P053",
+      "tiebreak_packet_id": "AU-E1-FA1-R051",
+      "topic_packet_id": "AU-E1-T11"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K003",
+        "K004",
+        "K006",
+        "K008",
+        "K013",
+        "K014",
+        "K018"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P054",
+      "tiebreak_packet_id": "AU-E1-FA1-R052",
+      "topic_packet_id": "AU-E1-T01"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K003",
+        "K004",
+        "K006",
+        "K007",
+        "K008",
+        "K010",
+        "K011",
+        "K013",
+        "K014",
+        "K015",
+        "K016",
+        "K017",
+        "K018",
+        "K019",
+        "K023",
+        "K024"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P055",
+      "tiebreak_packet_id": "AU-E1-FA1-R053",
+      "topic_packet_id": "AU-E1-T07"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K006",
+        "K013",
+        "K017",
+        "K018",
+        "K023"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P056",
+      "tiebreak_packet_id": "AU-E1-FA1-R054",
+      "topic_packet_id": "AU-E1-T05"
+    },
+    {
+      "cluster_refs": [
+        "K004",
+        "K005",
+        "K010",
+        "K015"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P057",
+      "tiebreak_packet_id": "AU-E1-FA1-R055",
+      "topic_packet_id": "AU-E1-T08"
+    },
+    {
+      "cluster_refs": [
+        "K011",
+        "K019",
+        "K022",
+        "K025",
+        "K026",
+        "K028",
+        "K034",
+        "K035",
+        "K036",
+        "K038"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P058",
+      "tiebreak_packet_id": "AU-E1-FA1-R056",
+      "topic_packet_id": "AU-E1-T07"
+    },
+    {
+      "cluster_refs": [
+        "K005",
+        "K006"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P059",
+      "tiebreak_packet_id": "AU-E1-FA1-R057",
+      "topic_packet_id": "AU-E1-T03"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K012",
+        "K013"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P060",
+      "tiebreak_packet_id": "AU-E1-FA1-R058",
+      "topic_packet_id": "AU-E1-T09"
+    },
+    {
+      "cluster_refs": [
+        "K003",
+        "K004",
+        "K005",
+        "K011",
+        "K012",
+        "K013",
+        "K018",
+        "K020",
+        "K021",
+        "K022"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P061",
+      "tiebreak_packet_id": "AU-E1-FA1-R059",
+      "topic_packet_id": "AU-E1-T01"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K003",
+        "K005",
+        "K009",
+        "K010",
+        "K011",
+        "K013"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P062",
+      "tiebreak_packet_id": "AU-E1-FA1-R060",
+      "topic_packet_id": "AU-E1-T03"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K005",
+        "K006",
+        "K007",
+        "K011",
+        "K013",
+        "K022",
+        "K024",
+        "K025",
+        "K027",
+        "K028",
+        "K029",
+        "K031",
+        "K036",
+        "K037",
+        "K041",
+        "K042",
+        "K045",
+        "K051",
+        "K052",
+        "K053",
+        "K059",
+        "K060",
+        "K063",
+        "K065",
+        "K066",
+        "K071",
+        "K075",
+        "K078",
+        "K083",
+        "K084",
+        "K086",
+        "K088",
+        "K092",
+        "K093",
+        "K094",
+        "K095",
+        "K096",
+        "K098",
+        "K099",
+        "K100",
+        "K102",
+        "K103",
+        "K104",
+        "K105",
+        "K109",
+        "K112",
+        "K116",
+        "K117",
+        "K119",
+        "K120",
+        "K121",
+        "K122",
+        "K123",
+        "K124",
+        "K126",
+        "K129",
+        "K132",
+        "K133",
+        "K134",
+        "K135",
+        "K136",
+        "K137",
+        "K139",
+        "K140",
+        "K141",
+        "K142",
+        "K144",
+        "K145",
+        "K147",
+        "K148",
+        "K150",
+        "K151",
+        "K152",
+        "K153",
+        "K154",
+        "K155",
+        "K156",
+        "K157",
+        "K158",
+        "K159",
+        "K161",
+        "K163",
+        "K164",
+        "K165",
+        "K166",
+        "K167",
+        "K168",
+        "K170",
+        "K171",
+        "K172",
+        "K173",
+        "K174",
+        "K175",
+        "K176",
+        "K177",
+        "K178",
+        "K181",
+        "K182",
+        "K183",
+        "K185",
+        "K186",
+        "K187",
+        "K191",
+        "K192",
+        "K194",
+        "K195",
+        "K199",
+        "K200",
+        "K202",
+        "K204",
+        "K205",
+        "K210",
+        "K211",
+        "K214",
+        "K215",
+        "K216",
+        "K218",
+        "K220",
+        "K221",
+        "K223",
+        "K224",
+        "K226"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P063",
+      "tiebreak_packet_id": "AU-E1-FA1-R061",
+      "topic_packet_id": "AU-E1-T04"
+    },
+    {
+      "cluster_refs": [
+        "K005",
+        "K011",
+        "K016"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P064",
+      "tiebreak_packet_id": "AU-E1-FA1-R062",
+      "topic_packet_id": "AU-E1-T10"
+    },
+    {
+      "cluster_refs": [
+        "K002",
+        "K006",
+        "K008",
+        "K009"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P067",
+      "tiebreak_packet_id": "AU-E1-FA1-R063",
+      "topic_packet_id": "AU-E1-T02"
+    },
+    {
+      "cluster_refs": [
+        "K004",
+        "K012"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P068",
+      "tiebreak_packet_id": "AU-E1-FA1-R064",
+      "topic_packet_id": "AU-E1-T03"
+    },
+    {
+      "cluster_refs": [
+        "K008"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P069",
+      "tiebreak_packet_id": "AU-E1-FA1-R065",
+      "topic_packet_id": "AU-E1-T11"
+    },
+    {
+      "cluster_refs": [
+        "K003"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P070",
+      "tiebreak_packet_id": "AU-E1-FA1-R066",
+      "topic_packet_id": "AU-E1-T11"
+    },
+    {
+      "cluster_refs": [
+        "K004",
+        "K013",
+        "K014",
+        "K024",
+        "K028",
+        "K029",
+        "K032",
+        "K033"
+      ],
+      "model_key": "terra",
+      "source_alignment_packet_id": "AU-E1-FA1-P071",
+      "tiebreak_packet_id": "AU-E1-FA1-R067",
+      "topic_packet_id": "AU-E1-T07"
+    },
+    {
+      "cluster_refs": [
+        "K001",
+        "K003",
+        "K008",
+        "K011",
+        "K014"
+      ],
+      "model_key": "sonnet",
+      "source_alignment_packet_id": "AU-E1-FA1-P072",
+      "tiebreak_packet_id": "AU-E1-FA1-R068",
+      "topic_packet_id": "AU-E1-T06"
+    }
+  ],
+  "schema_version": "au-e1-fa1-tiebreak-private-key-v1",
+  "warning": "Do not provide this mapping or primary labels to third raters."
+}

@@ -1,0 +1,16 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R065",
+  "cluster_count": 1,
+  "clusters": [
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The pre-digital workflow/method photographers used to review a whole roll and select which images to print — i.e., identifying contact sheets and how they enabled efficient batch review and selection."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The selection problem is how much weight to give a frame's individual qualities versus its relation to neighboring images.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

@@ -1,0 +1,41 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-R033",
+  "cluster_count": 5,
+  "clusters": [
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The amount of the penalty imposed when a baton exchange occurs outside the permitted exchange zone."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The team's recovery procedure when the incoming runner arrives in the exchange zone before the outgoing runner reaches the proper speed"
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "The track markings or boundaries that define the permitted baton exchange zone."
+      ]
+    },
+    {
+      "cluster_ref": "K023",
+      "member_targets": [
+        "The specific techniques or training methods most effective for improving baton-exchange timing and consistency across different runner pairings."
+      ]
+    },
+    {
+      "cluster_ref": "K025",
+      "member_targets": [
+        "The consequences of dropping the baton during the exchange",
+        "The consequences of dropping or fumbling the baton during the exchange"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The coaching choice is where each outgoing runner should begin moving so that speed gains do not create too much exchange risk.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}
