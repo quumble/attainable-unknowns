@@ -1,0 +1,103 @@
+{
+  "analysis_id": "AU-E1-ANALYSIS-v1",
+  "analysis_rules": {
+    "consensus_partition_created": false,
+    "cross_topic_equal_topic": "mean of per-topic partition medians",
+    "cross_topic_weighted_all": "original unit count",
+    "cross_topic_weighted_residual": "median retained unit count across partitions",
+    "e1b_focal_adjacent_excluded": [
+      "focal",
+      "adjacent"
+    ],
+    "e1b_focal_excluded": [
+      "focal"
+    ],
+    "entropy_log_base": "natural",
+    "indeterminate_retained_in_e1b": true,
+    "inferential_tests_run": false,
+    "jsd_log_base": "natural",
+    "partition_summary": "median and full observed range across P1/P2/P3",
+    "rare_target_definition": "within-cell cluster count <= 2",
+    "variation_of_information_log_base": "natural"
+  },
+  "evidentiary_status": "post_hoc_exploratory",
+  "fixed_counts": {
+    "eligible_observations": 2919,
+    "final_alignment": 2026,
+    "joined_cards": 11904,
+    "joined_clusters": 2026,
+    "joined_observations": 17514,
+    "partition_replicates": 3,
+    "representations": 2,
+    "topics": 12,
+    "unique_cards": 1984
+  },
+  "git": {
+    "git_head": "3db7d67d1b6aa2bf3aa7c0b9233e226201f792fa",
+    "head_signature_verified": true,
+    "required_base_commit": "9df9694bb9202f18f49fe453d84d3da9f9024756",
+    "required_base_is_ancestor": true
+  },
+  "implementation": {
+    "path": "api-study/exploratory/analyze_e1.py",
+    "protocol_path": "api-study/exploratory/E1_ANALYSIS_EXECUTION.md",
+    "protocol_sha256": "a2770303a17163c5ec59bd8f5ee29b0b58288d2145b26d1779d6dba3ddf8019e",
+    "sha256": "9bddabb776866337b64e22d46dd2c0ca9c4d408b0dc11ff7330fe74df9a4af74"
+  },
+  "inputs": {
+    "api-study/exploratory/e1/focal_alignment/coding/AU-E1-FA1-8f2e24cb6f5baae6/final/FINAL_ALIGNMENT.jsonl": {
+      "expected_sha256": "cb4ef2f187c936fafd614c5b997a621ecaea286838812ffaea28a2963b0d12cc",
+      "sha256": "cb4ef2f187c936fafd614c5b997a621ecaea286838812ffaea28a2963b0d12cc"
+    },
+    "api-study/exploratory/e1/metadata_join/AU-E1-J1-v1/JOINED_CARDS.jsonl": {
+      "expected_sha256": "0391eae6abdbe636dabbcfb709e43e3989beebb275c13705580cf189c2a0e277",
+      "sha256": "0391eae6abdbe636dabbcfb709e43e3989beebb275c13705580cf189c2a0e277"
+    },
+    "api-study/exploratory/e1/metadata_join/AU-E1-J1-v1/JOINED_CLUSTERS.jsonl": {
+      "expected_sha256": "bcb82e3e7f78ed44651cb139a83ca8864a79c5da6d4ad62cc01b7b19b3b3f8ee",
+      "sha256": "bcb82e3e7f78ed44651cb139a83ca8864a79c5da6d4ad62cc01b7b19b3b3f8ee"
+    },
+    "api-study/exploratory/e1/metadata_join/AU-E1-J1-v1/JOINED_OBSERVATIONS.jsonl": {
+      "expected_sha256": "b5bedb3799604bbacf8d966fc72e6cbc90b4af25df49a74790763fe54f257c10",
+      "sha256": "b5bedb3799604bbacf8d966fc72e6cbc90b4af25df49a74790763fe54f257c10"
+    }
+  },
+  "output_files": {
+    "ALIGNMENT_CELLS.jsonl": {
+      "rows": 432,
+      "sha256": "e0d2f020c9cad30633ef3e977e69f9cbed1d753c8ca5c46d09480d9e4e51cd2e"
+    },
+    "ALIGNMENT_TOPIC_SUMMARY.jsonl": {
+      "rows": 144,
+      "sha256": "1b10ec5e3ad3e6ffa76f8b84b23d6840ede6d75b1b16455f9172ec25368506a5"
+    },
+    "CONCENTRATION_CELLS.jsonl": {
+      "rows": 1296,
+      "sha256": "a2c45d3c9940f3a04c447589e31361e8abb7ff2d7c1acc4b02bf5fe8d5107474"
+    },
+    "CONCENTRATION_MODEL_CELLS.jsonl": {
+      "rows": 810,
+      "sha256": "faba63903578ba6a3422792d996714cac4d0e787cb15e730d6a83bb4265c5bad"
+    },
+    "CROSS_TOPIC_SUMMARY.jsonl": {
+      "rows": 252,
+      "sha256": "0929dfdc0de1224a891821d30463ee8595bbea09c9c5db1d36404d8d3d75e8db"
+    },
+    "MODEL_JSD.jsonl": {
+      "rows": 1158,
+      "sha256": "b49a784a0d34b7aec7c92600ebf39ad1bb8287b4204dd4a5b460e4be02b7d02e"
+    },
+    "PARTITION_STABILITY.jsonl": {
+      "rows": 72,
+      "sha256": "ecc7f4ade404be59b58ec918c6720aac98cc43c604f7fd82dbcde79b231eeee0"
+    },
+    "TOPIC_PARTITION_SUMMARY.jsonl": {
+      "rows": 432,
+      "sha256": "b9b04a672d7266c41add370ab869631cdd76838d80045f021105e787e8408f29"
+    }
+  },
+  "protocol_id": "E1_with_E1B",
+  "schema_version": "au-e1-analysis-record-v1",
+  "status": "complete",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}
