@@ -10,15 +10,15 @@ The project began with a human-participant browser pilot. A first internal test 
 
 The human pilot remains preserved as provenance.
 
-The active direction is a completed four-model API pilot asking a narrower question:
+The active research line is a completed four-model API pilot asking a narrower question:
 
 > When a separate stateless API draw reads an informational passage, does the response emit a follow-up question, or does it produce `NONE`?
 
-The mechanical primary endpoint is **question emission**. It is not treated as proof of felt curiosity or even, by syntax alone, of a specific represented unknown. Specificity has a separate preregistered semantic codebook.
+The mechanical primary endpoint is **question emission**. It is not treated as proof of felt curiosity or, by syntax alone, of a specific represented unknown.
 
 Pilot 0.1 manipulates **gap salience**, not attainability.
 
-## Current API design
+## API Pilot 0.1
 
 Models:
 
@@ -39,11 +39,30 @@ At 25 separate API draws per fixed condition, the accepted collection contains:
 
 - 36 passage conditions
 - 900 attempts per model
-- 3,600 successful attempts total
+- 3,600 accepted API records
+- 2,919 eligible emitted-question observations
 
-The preregistered primary analysis is complete. The next stage is the sampled, blinded semantic-specificity coding governed by Specificity Protocol B1.
+## Analysis status
 
-See [api-study/README.md](api-study/README.md), [api-study/DESIGN.md](api-study/DESIGN.md), and the frozen and post-freeze records under [prereg/](prereg/).
+The preregistered collection and primary analysis are complete.
+
+The subsequent sampled semantic-specificity analysis under Protocol B1/B1A is also complete.
+
+Exploratory Semantic Target Protocol E1 and Amendment E1B have now been executed through the frozen E1 descriptive analysis. E1 maps emitted questions into independently generated semantic-target representations and partitions while preserving uncertainty across those operationalizations.
+
+Across the cross-topic E1 summaries, both semantic representations show greater semantic concentration as gap salience increases from closed to seamed to explicit-gap passages: top-target share rises while target entropy and effective target count fall.
+
+Focal-alignment analysis indicates that much of this concentration reflects questions converging on the deliberately exposed unresolved issue. However, aggregate concentration differences remain after focal-target questions are excluded, indicating that direct focal capture does not fully account for the observed redistribution. A stronger analysis excluding both focal and adjacent targets is more fragile because relatively few explicit-gap observations remain.
+
+Pairwise model target distributions also become more similar on average as gap salience increases.
+
+These findings are **post hoc and exploratory**. They do not establish felt curiosity, conscious gap representation, or latent internal choice among question alternatives.
+
+Semantic partition reproducibility is heterogeneous and in some topics low. The repository therefore preserves both Stage 1 representations and all three Stage 2 partitions rather than selecting or constructing a single preferred taxonomy.
+
+The current stage is interpretation, robustness review, and deciding which observations merit prospective testing in a subsequent study.
+
+See [api-study/README.md](api-study/README.md), [api-study/DESIGN.md](api-study/DESIGN.md), the frozen and post-freeze records under [prereg/](prereg/), and the E1 materials under [api-study/exploratory/](api-study/exploratory/).
 
 ## Earlier human pilot
 
