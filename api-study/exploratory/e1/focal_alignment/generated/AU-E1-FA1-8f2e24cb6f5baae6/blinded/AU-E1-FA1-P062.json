@@ -1,0 +1,189 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-P062",
+  "cluster_count": 14,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "A method or decision procedure for setting the rate of exposure increase during hardening off, keyed to plant species and prevailing weather conditions.",
+        "A decision rule or schedule specifying how fast to increase outdoor exposure during hardening off, as a function of plant type/species and prevailing weather conditions.",
+        "The decision rule or criteria for setting how fast outdoor exposure is increased during hardening off, as a function of plant species and prevailing weather conditions.",
+        "The decision procedure or criteria growers use to set the rate and duration of increasing outdoor exposure, as a function of plant species and prevailing weather conditions.",
+        "The decision rule for setting how quickly outdoor exposure is increased during hardening off, as a function of specific plant species and prevailing weather conditions.",
+        "A decision procedure or set of criteria growers can use to set how quickly outdoor exposure should be increased, given a specific plant type and prevailing weather conditions.",
+        "The decision rule for setting the rate of increased outdoor exposure during hardening off — i.e., how the schedule (daily exposure duration and pace of increase) should vary as a function of specific weather conditions and plant type.",
+        "The decision procedure or criteria growers use to set the rate of increased outdoor exposure during hardening off, as a function of plant species and prevailing weather conditions.",
+        "The decision procedure or criteria growers use to set how quickly outdoor exposure should be increased during hardening off, given a specific plant and specific weather conditions.",
+        "The decision rule for setting the rate and duration of increasing outdoor exposure during hardening off, as a function of plant species and prevailing weather conditions.",
+        "The decision procedure or criteria growers should use to set the pace of increasing outdoor exposure during hardening off, given a specific plant and specific weather conditions.",
+        "The decision procedure or criteria growers use to set and adjust the pace of increasing outdoor exposure during hardening off, as a function of plant species and prevailing weather.",
+        "The decision procedure or criteria growers use to set and adjust the rate at which hardening-off exposure is increased, as a function of plant species and prevailing weather conditions.",
+        "The decision rules for setting the pace and duration of increasing outdoor exposure during hardening off, as a function of plant species and prevailing weather conditions.",
+        "The method or decision criteria for setting the rate and duration of increasing outdoor exposure during hardening off, as a function of plant species and prevailing weather conditions.",
+        "The decision rule for setting the rate and duration of increased outdoor exposure during hardening off, as a function of specific weather conditions and plant species.",
+        "The decision criteria and practical rules growers use to set the rate of increased outdoor exposure during hardening off, as a function of plant species and prevailing weather conditions.",
+        "The decision criteria or rule for setting how quickly outdoor exposure should be increased during hardening off, given a specific plant type and specific weather conditions.",
+        "A decision rule or schedule specifying how fast to increase outdoor exposure during hardening off, as a function of plant variety and prevailing weather conditions.",
+        "The decision procedure or criteria for setting the rate and duration of increasing outdoor exposure during hardening off, given a particular plant species and particular weather conditions.",
+        "The decision rule for setting the rate of increased outdoor exposure during hardening off — i.e., how exposure duration/intensity should be scaled or paced as a function of plant species and prevailing weather conditions.",
+        "The decision procedure or criteria growers use to set the rate and duration of increasing outdoor exposure during hardening off, as a function of plant species and prevailing weather conditions.",
+        "The decision criteria and procedures growers use to set how quickly outdoor exposure is increased during hardening off, as a function of plant species and prevailing weather conditions.",
+        "A decision rule or criterion for setting how quickly to increase seedlings' outdoor exposure, given a specific plant type and specific weather conditions.",
+        "A decision procedure or set of criteria growers can use to set and adjust the pace of increasing outdoor exposure during hardening off, given a specific plant and specific weather conditions."
+      ]
+    },
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The physiological mechanism by which abrupt transfer from sheltered indoor conditions to full outdoor sunlight, wind, and temperature swings injures or stresses unacclimated seedlings."
+      ]
+    },
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "The outcomes or damage seedlings suffer when moved directly from indoor conditions to full outdoor exposure without gradual acclimation"
+      ]
+    },
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "The number of days of gradual outdoor exposure appropriate for hardening off a given plant species under given weather conditions — i.e., a duration quantity for the schedule, conditioned on plant and weather.",
+        "The number of days of gradual outdoor exposure appropriate for hardening off a given plant species under given weather conditions.",
+        "The number of days a hardening-off schedule should span for a specific plant under specific weather conditions.",
+        "The typical duration, in number of days, of the hardening-off schedule for a given plant species under given weather conditions."
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The physiological mechanism by which incremental exposure to outdoor conditions enables seedlings to adjust successfully, as contrasted with the reason abrupt transfer fails"
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The required amount/duration of hardening-off exposure for different seedling types, and the degree to which that requirement differs across species.",
+        "The typical duration (number of days) of the hardening-off period, plus whether that duration differs by plant species.",
+        "The typical duration (number of days) of the hardening-off period, and how that duration varies across different seedling types."
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "The typical number of days the hardening-off period should last for a particular species (tomato seedlings).",
+        "The typical duration, expressed as a number of days, of the hardening-off period for a particular species such as tomatoes."
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The appropriate rate or schedule of increasing outdoor exposure during hardening off, specified for a given plant type and given weather conditions.",
+        "The appropriate rate or schedule of increasing outdoor exposure during hardening off, specified as a function of plant type and prevailing weather conditions.",
+        "The schedule or rate at which outdoor exposure should be incrementally increased during hardening off, specified as a function of plant species/type and prevailing weather conditions.",
+        "The rate or schedule (pace and daily increments of outdoor exposure time) appropriate for hardening off, as it varies by seedling type and weather conditions.",
+        "The appropriate rate or schedule for increasing outdoor exposure during hardening off, specified for a given plant type under given weather conditions.",
+        "The appropriate rate or schedule for increasing outdoor exposure during hardening off, specified for a given plant type under given weather conditions.",
+        "The rate/schedule of incremental outdoor exposure during hardening off, specified as a function of seedling type and prevailing weather conditions."
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "An identification of which particular outdoor environmental conditions (e.g., specific combinations of light intensity, wind, and temperature) impose the greatest physiological stress on seedlings during the hardening-off period, ranking or specifying the most stressful conditions rather than describing the hardening-off schedule itself."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The typical duration (number of days) of the hardening-off period before seedlings are transplanted outdoors permanently.",
+        "The typical duration (number of days) of the hardening-off period for indoor-started seedlings.",
+        "The duration (number of days, or length of the gradual exposure period) that hardening off should last before seedlings are planted outside permanently.",
+        "The typical duration, in number of days, of the hardening-off period for most seedlings.",
+        "The typical duration, in number of days, of the hardening-off period for most plants.",
+        "The typical duration (number of days) of the hardening-off period before seedlings are left outdoors permanently.",
+        "The typical duration, in number of days, of the hardening off period for indoor-started seedlings.",
+        "The typical total duration (number of days) of the complete hardening-off period for indoor-started seedlings.",
+        "The typical duration, in number of days, of the hardening-off period for most seedlings.",
+        "The typical duration, in number of days, of the hardening-off period for indoor-started seedlings.",
+        "The typical duration (number of days) of the hardening-off period for indoor-started seedlings.",
+        "The typical duration, in number of days, of the hardening-off period for common vegetable seedlings.",
+        "The typical duration (number of days) of the hardening-off period before seedlings remain outdoors continuously.",
+        "The typical duration (number of days) of the hardening-off period before seedlings are planted outdoors permanently.",
+        "The typical duration, in number of days, of the hardening-off period for most plant seedlings.",
+        "The typical duration (number of days) of the gradual hardening-off period for indoor-started seedlings.",
+        "The typical duration (number of days) of the hardening-off period for seedlings before permanent outdoor planting.",
+        "The typical duration (number of days) over which the hardening-off process should be carried out for most seedlings.",
+        "The typical duration (number of days) of the gradual hardening-off period before seedlings are planted outdoors permanently.",
+        "The typical duration, in number of days, of a hardening-off schedule for most seedlings.",
+        "The typical duration, in number of days, of a complete hardening-off process from first outdoor exposure to full transplanting.",
+        "The typical duration (number of days) over which the gradual hardening-off exposure period should be carried out for most seedlings.",
+        "The typical duration (number of days) of the hardening-off period before seedlings are planted outside permanently.",
+        "The typical total duration (number of days) of the hardening off period from initial outdoor exposure until seedlings remain outdoors continuously.",
+        "The typical duration, in days, of the hardening-off period for most seedlings."
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "The specific modifications to the gradual exposure schedule (e.g., how much to shorten exposure duration, slow the pace, or add shelter) that growers should make when outdoor conditions are unusually windy or cold.",
+        "The specific modifications to the gradual exposure schedule (e.g., shortening exposure durations, delaying increases, or adding shelter) that growers should apply when outdoor conditions are unusually windy, cold, or bright.",
+        "The specific modifications to the gradual-exposure schedule (e.g., shortened exposure durations, delayed progression, added shelter) that should be applied when outdoor conditions are unusually windy or cold.",
+        "The specific adaptive practices or decision rules growers use to modify the gradual-exposure schedule (e.g., duration, timing, sheltering, pausing or extending the process) in response to unusually harsh or fluctuating weather."
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "The typical duration in days of hardening off and the day-by-day schedule for incrementally increasing outdoor exposure time.",
+        "The recommended concrete hardening-off timetable — how many days the process should span and how much outdoor exposure time to give on each successive day."
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "The decision rules for modifying hardening-off exposure duration and pacing in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and amount of daily outdoor exposure during hardening off in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying hardening-off exposure duration and pacing in response to particular outdoor weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "Practical decision rules for modifying the pace, duration, and timing of hardening-off exposure in response to specific prevailing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "Decision rules for modifying the pace and duration of gradual outdoor exposure in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold), i.e., how to adapt the schedule rather than what exposure generally does.",
+        "Practical decision rules for modifying the pace, duration, and timing of graduated outdoor exposure in response to prevailing weather (cloud cover, sun intensity, wind, temperature).",
+        "The decision rule for modifying the hardening-off exposure schedule (e.g., shortening, lengthening, or delaying daily exposure increments) in response to specific unusual outdoor conditions — bright sun, wind, heat, or cold.",
+        "The decision rules for modifying hardening-off exposure duration and pacing in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and duration of hardening-off exposure in response to specific prevailing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The practical decision rules for modifying the pace and amount of daily outdoor exposure during hardening off in response to specific weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and extent of outdoor exposure during hardening off in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and duration of gradual outdoor exposure in response to specific weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and amount of daily outdoor exposure during hardening off in response to specific weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the hardening-off exposure schedule (timing, duration, and degree of exposure) in response to specific weather conditions such as cloud cover, bright sun, wind, heat, or cold.",
+        "Practical decision rules for modifying the pace, duration, and timing of graduated outdoor exposure in response to extreme or fluctuating weather conditions.",
+        "The decision rule for modifying the pace and duration of hardening-off exposure in response to differing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "Practical decision rules for modifying the pace and amount of outdoor exposure during hardening off in response to day-to-day variation in weather conditions.",
+        "The decision rules for modifying the pace and duration of gradual outdoor exposure in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and duration of hardening-off exposure in response to specific prevailing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rule for modifying the pace and extent of gradual outdoor exposure in response to varying weather conditions (e.g., how to shorten, extend, or alter exposure under cloudy, bright, calm, windy, warm, or cold conditions).",
+        "Practical adjustment strategies or decision rules for modifying the hardening-off exposure schedule in response to differing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and extent of seedling exposure during hardening off in response to differing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rule for modifying hardening-off exposure duration/timing in response to specific current weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying hardening-off exposure duration and pacing in response to particular outdoor weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "The decision rules for modifying the pace and duration of outdoor exposure during hardening off in response to specific prevailing weather conditions (cloudy, bright, calm, windy, warm, cold).",
+        "A set of practical decision rules specifying how the pace, duration, and timing of outdoor exposure during hardening off should be modified in response to particular weather conditions (cloudy, bright, calm, windy, warm, cold)."
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "The specific observable indicators of plant stress (e.g., visible symptoms in leaves or growth) that signal a seedling is not tolerating increased outdoor exposure during hardening off.",
+        "The observable plant symptoms or indicators of stress (e.g., specific changes in leaves, wilting, discoloration) that signal a seedling is not tolerating increased outdoor exposure during hardening off",
+        "The specific observable stress symptoms in seedlings that growers should monitor for during gradual outdoor exposure.",
+        "The set of observable plant symptoms indicating stress in seedlings during gradual outdoor exposure, which growers monitor to gauge acclimation progress.",
+        "The set of observable plant symptoms or indicators of stress that signal a seedling is not tolerating increased outdoor exposure during hardening off.",
+        "The observable indicators of stress in seedlings during gradual outdoor exposure that a grower should monitor for.",
+        "The specific observable indicators of plant stress in seedlings that a grower should monitor for while incrementally increasing outdoor exposure."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The practical problem is setting the rate of increased exposure for a particular plant under particular weather.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

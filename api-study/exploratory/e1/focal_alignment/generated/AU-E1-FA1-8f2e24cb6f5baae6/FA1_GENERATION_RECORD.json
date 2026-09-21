@@ -1,0 +1,30 @@
+{
+  "alignment_packet_count": 72,
+  "bundle_id": "AU-E1-FA1-8f2e24cb6f5baae6",
+  "cluster_descriptive_names_used": false,
+  "cluster_instance_count": 2026,
+  "focal_anchor_count": 12,
+  "generated_at_utc": "2026-09-21T19:46:04.367847+00:00",
+  "generator_path": "api-study/exploratory/generate_e1_focal_alignment.py",
+  "generator_sha256": "93d4a95fed5d1f7dec7250719ed02f1127d40feac88f6d0cef1f67c40c6ccdce",
+  "implementation_commit": "c038fcb4d98a7daabe250a079413d031847a65dd",
+  "implementation_signature_verified": true,
+  "instructions_source_path": "api-study/exploratory/E1_FOCAL_ALIGNMENT_INSTRUCTIONS.md",
+  "instructions_source_sha256": "1d22f3e0230ebc4fdd726adf73a619e900ef752a45b5fe51be665bf66be60f1f",
+  "j1_joined_metadata_used": false,
+  "packet_index_path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/FA1_PACKET_INDEX.json",
+  "packet_index_sha256": "e7f44f2e660645d849035e315047f924ba35e8b5c8ee2aeda268edd58a7f21b0",
+  "private_key_path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/private/FA1_PRIVATE_KEY.json",
+  "private_key_sha256": "3a69a69222ed831a6dabd58cb54615349df942cc2a414a980d27c11ad1ba0ebc",
+  "protocol_id": "FA1",
+  "protocol_path": "api-study/exploratory/E1_FOCAL_ALIGNMENT_EXECUTION_FA1.md",
+  "protocol_sha256": "f351696262326a8ee80c29646583a247f50dc6fd4890dad2436e46e01bafd5f8",
+  "schema_version": "au-e1-fa1-generation-record-v1",
+  "source_files_sha256": {
+    "api-study/exploratory/e1/blind_bundle/AU-E1-BLIND-v1/FOCAL_ANCHORS.json": "bda4e36d7b4fd954eeeaec685916b493ac46a5132fc5fea0ea3aab9e3ee22055",
+    "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/blinded/STAGE2_PACKET_INDEX.json": "91e15924cc0d876939f80dcf57bc7ae454e8719e996bdcbda6d5a7c792ae61aa",
+    "api-study/exploratory/e1/stage2/generated/AU-E1-S2-b021f4b9caf73dad/private/E1_STAGE2_PRIVATE_KEY.json": "9a8e7725c2bf0a0000fe6d81ba3a077031cc74a255b2669f4895635e34ca9d07",
+    "api-study/exploratory/e1/stage2/partitions/AU-E1-S2-b021f4b9caf73dad/P1D3/PARTITIONS.jsonl": "605d95f063d01349e95ebb126aa512796cb4f1fc9b12fae7862bacb8073e2aea"
+  },
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

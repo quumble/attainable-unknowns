@@ -1,0 +1,260 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-P065",
+  "cluster_count": 22,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The decision criterion for balancing a frame’s standalone quality with its relationship to neighboring images when choosing negatives for enlargement"
+      ]
+    },
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The tools or marks photographers typically use to indicate selected images on a contact sheet.",
+        "The methods photographers used to review and organize their images before contact sheets existed",
+        "The methods photographers used to review and select negatives before contact sheets existed",
+        "The decision criterion for balancing a frame's individual strengths with its relationship to neighboring images when selecting negatives",
+        "The comparative advantages of reviewing an entire sequence of images together on a contact sheet rather than inspecting negatives individually with a loupe.",
+        "The tools or marking implements photographers typically use to annotate contact sheets.",
+        "The identities of contemporary photographers who still use contact sheets despite digital photography.",
+        "The typical markings or annotations used on a contact sheet to identify frames selected for larger prints",
+        "The methods photographers used to review and select negatives before contact sheets existed",
+        "The criteria for deciding whether to prioritize a frame’s individual aesthetic qualities or its visual continuity with neighboring images.",
+        "The decision criterion for balancing a frame's individual qualities with its relationship to neighboring images when selecting negatives for enlargement",
+        "The methods photographers used to review and select images before contact sheets existed",
+        "The tools or markings photographers typically use to identify contact-sheet frames selected for larger prints.",
+        "The methods photographers used to review and select images before contact sheets existed"
+      ]
+    },
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "The typical pre-digital method photographers used to review, compare, and select images for larger prints"
+      ]
+    },
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "The typical decision criterion photographers use to balance a frame's individual qualities against its relationship to neighboring images when selecting photographs."
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The typical method photographers use to mark the most promising frames on a contact sheet.",
+        "The decision criterion for balancing a frame’s individual qualities with its relationship to neighboring images when selecting negatives for larger prints"
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The criteria for deciding whether to prioritize a frame’s individual aesthetic qualities or its narrative relationship to adjacent images"
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "The criteria and decision process photographers typically use to select contact-sheet frames for enlargement into full prints.",
+        "The typical method photographers use to mark promising images on a contact sheet.",
+        "The tools or markings photographers typically use to identify contact-sheet frames selected for enlargement.",
+        "The tools and marking implements photographers typically use to inspect and annotate contact sheets",
+        "The decision criterion for balancing a frame's individual qualities with its relationship to neighboring images when selecting negatives for enlargement",
+        "The typical method photographers use to mark promising images on a contact sheet.",
+        "The tools or markings photographers typically use to identify contact-sheet frames selected for larger prints.",
+        "The practical procedure for creating a contact sheet and reviewing, comparing, marking, and selecting frames for enlargement",
+        "The tools or marks photographers typically use to identify contact-sheet frames selected for larger prints.",
+        "The method photographers used to select images for printing before contact sheets were invented.",
+        "The methods photographers used to review and select images before contact sheets existed",
+        "The decision criterion for balancing a frame’s individual qualities with its comparative relationship to neighboring images when selecting negatives for larger prints",
+        "The methods photographers typically use to mark promising images on a contact sheet.",
+        "The methods photographers used to review and select images before contact sheets existed",
+        "The marking conventions photographers use on contact sheets to identify selected frames.",
+        "The typical methods photographers use to mark or annotate promising images on a contact sheet.",
+        "The differences in what photographers notice about images when viewing them in sequence on a contact sheet versus evaluating negatives individually",
+        "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images when selecting negatives",
+        "The specific methods photographers typically use to mark promising images on a contact sheet.",
+        "The effect of viewing an image alongside neighboring frames rather than in isolation on the photographer’s assessment of that image",
+        "The symbols or marks photographers typically use to designate contact-sheet frames for larger printing.",
+        "The tools or markings photographers typically use to identify selected frames on a contact sheet.",
+        "The tools or methods used to mark promising images on a contact sheet.",
+        "The tools or markings photographers typically use to identify selected images on a contact sheet.",
+        "The effect of digital photography on whether and why contact sheets are needed",
+        "The effect of sequential context on a photographer’s evaluation of individual frames compared with isolated viewing.",
+        "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images when selecting photographs from a contact sheet",
+        "The typical methods photographers use to mark or annotate promising frames on a contact sheet.",
+        "The tools or markings photographers typically use to identify selected images on a contact sheet.",
+        "The typical method photographers use to mark or indicate selected contact-sheet images for printing.",
+        "The tools or markings photographers typically use on a contact sheet to identify selected frames.",
+        "The effect of sequential context on how a photographer evaluates and interprets individual frames compared with viewing them in isolation.",
+        "The typical criteria and weighting photographers use to balance a frame’s standalone merits with its relationship to adjacent frames during contact-sheet selection.",
+        "Modern digital tools or methods that provide a comparative overview of multiple photographs equivalent to a contact sheet",
+        "The technical procedure for creating a photographic contact sheet in a darkroom",
+        "The effect of sequential context on a photographer’s evaluation of individual frames compared with evaluating them in isolation.",
+        "Modern digital tools or methods used to review, compare, mark, and select photographs in a process equivalent to contact-sheet review",
+        "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images during photograph selection",
+        "The effects of the transition from film to digital photography on the use and continuing relevance of contact sheets",
+        "The decision criterion for balancing individual frame quality with narrative continuity when selecting negatives for printing",
+        "The tools or markings photographers typically use to identify contact-sheet frames selected for enlargement.",
+        "The symbols or notations photographers typically use to mark promising images on a contact sheet.",
+        "The typical methods photographers use to mark or annotate promising frames on a contact sheet.",
+        "The criteria photographers use to choose marks or annotations when reviewing contact sheets",
+        "The decision criterion for balancing a frame’s standalone merit against its visual coherence with adjacent images when selecting frames from a contact sheet.",
+        "The methods photographers used to select negatives for enlargement before contact sheets existed",
+        "The tools and marking implements photographers typically use to inspect, evaluate, and annotate contact sheets.",
+        "The tools or methods photographers use to mark selected frames directly on a contact sheet.",
+        "The tools or marks photographers typically use to identify contact-sheet frames selected for larger printing.",
+        "The tools or marks photographers typically use to identify promising images on a contact sheet.",
+        "The tools or markings photographers typically use to mark selected images directly on a contact sheet.",
+        "The decision criterion for balancing a frame’s standalone quality with its relationship to neighboring images when selecting negatives from a contact sheet.",
+        "The methods photographers used to organize and select images before contact sheets existed"
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The digital tools and workflows used in modern photography to perform the review, comparison, selection, and sequencing functions of contact sheets.",
+        "The decision criterion for balancing a frame’s standalone quality with its relationship to neighboring images when selecting negatives from a contact sheet.",
+        "Modern digital methods used to review, compare, and select images in place of photographic contact sheets",
+        "The pre-digital method photographers used to review and select images efficiently."
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "The procedure a photographer uses to produce a contact sheet from a roll of negatives."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The decision criterion for balancing a frame's individual strengths with its relationship to neighboring images when selecting negatives for enlargement",
+        "The effect of viewing images in sequence and alongside neighboring frames on a photographer’s assessment compared with evaluating each image in isolation.",
+        "Common methods photographers use to mark contact-sheet images selected for enlargement",
+        "Modern digital tools or techniques used to review and compare multiple photographs as contact sheets did",
+        "The methods photographers used to compare and select images before contact sheets existed",
+        "The decision criterion for balancing a frame’s individual qualities with its relationship to neighboring images when selecting negatives for enlargement",
+        "The comparative advantage of viewing an entire sequence of photographs together rather than inspecting negatives individually.",
+        "The criteria photographers use to balance a frame's individual merits with its relationship to neighboring images when selecting negatives for enlargement.",
+        "The ways digital photography workflows have replaced or altered the review, comparison, selection, and sequencing functions of contact sheets",
+        "The effect of sequential context on evaluating and comparing photographic frames versus judging each frame alone",
+        "The typical balance photographers use between a frame’s individual aesthetic quality and its compositional relationship with adjacent frames when selecting images from a contact sheet.",
+        "The procedure a photographer uses to create a contact sheet from a roll of negatives",
+        "The methods photographers used to review and select images before contact sheets existed",
+        "The effect of viewing neighboring frames on a photographer’s evaluation of an individual image",
+        "The tools or marks photographers typically use to indicate selected images directly on a contact sheet.",
+        "The methods photographers used to review and select negatives before contact sheets existed",
+        "The methods photographers used to review and select negatives before contact sheets existed."
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "The typical physical method photographers used to mark promising images on contact sheets before digital photography"
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "The methods photographers used to select negatives for larger prints before contact sheets existed",
+        "The criteria photographers use to evaluate a frame’s relationship to neighboring images during selection.",
+        "The typical balance photographers use between individual frame quality and compositional relationships among consecutive shots when selecting images from a contact sheet.",
+        "The typical decision criteria photographers use to balance individual frame quality against narrative coherence with adjacent images when selecting negatives for printing",
+        "The decision criterion for balancing a frame's individual merits against its relationship to adjacent frames when selecting negatives for enlargement",
+        "The typical methods photographers use to mark or annotate promising frames on a contact sheet.",
+        "The typical decision criterion photographers use to weigh a frame's individual qualities against its relationship to neighboring images when selecting from a contact sheet.",
+        "The typical balance photographers use between a frame's individual merit and its thematic or narrative continuity with adjacent frames when selecting images",
+        "The typical balance photographers use between individual frame quality and visual flow across neighboring images when choosing negatives to enlarge",
+        "The decision criterion for balancing a frame's individual strengths with its relationship to neighboring images when selecting negatives for enlargement",
+        "The typical methods photographers use to mark or annotate selected frames directly on a contact sheet.",
+        "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images when selecting negatives for larger prints.",
+        "The decision criterion for balancing a frame’s individual qualities with its relationship to neighboring images when selecting negatives for enlargement.",
+        "The differences in image evaluation produced by viewing frames together on a contact sheet versus reviewing them individually on a light table or screen.",
+        "The effect of viewing images alongside neighboring frames on a photographer’s assessment compared with evaluating each negative in isolation",
+        "The tools or markings photographers typically use to identify preferred frames on a contact sheet.",
+        "The methods photographers most commonly use to mark promising images on contact sheets.",
+        "The decision criterion for balancing an individual frame's quality with its contribution to and relationship within a photographic series",
+        "The decision criterion for balancing a frame’s individual qualities with its relationship to neighboring images when selecting negatives for larger prints.",
+        "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images when selecting negatives for enlargement",
+        "The decision criterion for balancing a frame’s individual strengths with its relationship to neighboring images when choosing negatives for enlargement.",
+        "The criteria photographers use to select frames for larger prints, including individual image qualities and relationships to neighboring frames.",
+        "The tools or markings photographers typically use to identify selected images on a contact sheet.",
+        "The criteria and process photographers use to select contact-sheet frames for larger prints.",
+        "The methods photographers used to review their photographs before contact sheets existed",
+        "The typical method or symbols photographers use to mark promising images on a contact sheet.",
+        "The changes digital photography introduced to photographers’ process for reviewing and selecting images from a shoot",
+        "The decision criterion for balancing a frame’s individual quality with its comparative relationship to neighboring images when selecting negatives for enlargement."
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "The comparative advantages of using a contact sheet over modern digital photography workflows"
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "The typical methods photographers use to mark or annotate selected negatives for printing on contact sheets."
+      ]
+    },
+    {
+      "cluster_ref": "K015",
+      "member_targets": [
+        "The symbols or marks photographers typically use to identify promising images on a contact sheet."
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "The tools or markings photographers typically use on contact sheets to identify promising images."
+      ]
+    },
+    {
+      "cluster_ref": "K017",
+      "member_targets": [
+        "The methods photographers used to review and select images before contact sheets existed",
+        "The decision criterion for balancing an image's standalone merit against its value within a sequence when selecting photographs"
+      ]
+    },
+    {
+      "cluster_ref": "K018",
+      "member_targets": [
+        "The percentage of professional photographers who still use contact sheets despite the prevalence of digital photography.",
+        "Photographers’ methods for selecting negatives before contact sheets were widely used"
+      ]
+    },
+    {
+      "cluster_ref": "K019",
+      "member_targets": [
+        "The tools or methods photographers use to mark or select images on a contact sheet."
+      ]
+    },
+    {
+      "cluster_ref": "K020",
+      "member_targets": [
+        "Whether the physical arrangement of neighboring frames independently biases image selection apart from each frame's individual quality"
+      ]
+    },
+    {
+      "cluster_ref": "K021",
+      "member_targets": [
+        "Changes in photographers' image-selection processes after digital photography rendered contact sheets obsolete"
+      ]
+    },
+    {
+      "cluster_ref": "K022",
+      "member_targets": [
+        "The typical process a photographer uses to produce a contact sheet from a roll of negatives.",
+        "The process for making a contact sheet from a roll of film",
+        "The decision criterion for balancing a frame’s individual merits with its relationship to neighboring images when selecting photographs from a contact sheet.",
+        "The process by which negatives are used to produce a contact sheet of small positive images on photographic paper.",
+        "The methods photographers used to review and select negatives before contact sheets were invented"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The selection problem is how much weight to give a frame's individual qualities versus its relation to neighboring images.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

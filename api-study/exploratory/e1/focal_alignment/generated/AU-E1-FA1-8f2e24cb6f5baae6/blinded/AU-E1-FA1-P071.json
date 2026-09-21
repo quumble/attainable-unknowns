@@ -1,0 +1,391 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-P071",
+  "cluster_count": 35,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The threshold magnitude of movement reduction (in range, force, or height) at which a given coordination demand ceases to be faithfully represented during marking.",
+        "The threshold or limit of movement reduction (in range, force, or height) beyond which a given coordination demand is no longer faithfully represented in marking.",
+        "The threshold or boundary condition of movement reduction (in range, force, or height) at which a given coordination demand ceases to be faithfully represented during marking.",
+        "The threshold magnitude of reduction in range, force, or height at which marking ceases to be a reliable preparation for full-out performance.",
+        "The threshold magnitude of movement reduction (limit of scaling-down in range, force, or height) at which a given coordination demand ceases to be faithfully represented during marking.",
+        "The threshold magnitude of reduction in movement range, force, or height at which a given coordination demand ceases to be faithfully represented during marking.",
+        "The threshold or limit of movement reduction (in range, force, or height) beyond which a given coordination demand ceases to be faithfully represented during marking.",
+        "The threshold magnitude of movement reduction at which a given coordination demand ceases to be faithfully represented during marking.",
+        "The threshold magnitude of reduction in movement range or force at which a given coordination demand ceases to be faithfully represented during marking.",
+        "The threshold level of movement reduction (in range or force) at which a given coordination demand ceases to be faithfully represented during marking.",
+        "The threshold amount of movement reduction (in range, force, or height) at which a given coordination demand ceases to be faithfully represented in marking.",
+        "The threshold or limit of movement reduction (in range, force, or height) beyond which a given coordination demand ceases to be faithfully represented in marking.",
+        "The threshold of movement reduction (the degree or point of reduced range/force/height) at which a given coordination demand ceases to be faithfully represented in marking.",
+        "The threshold of movement reduction (the specific degree or point of reduced range/force/height) beyond which a given coordination demand ceases to be faithfully represented during marking."
+      ]
+    },
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The degree to which marking degrades or preserves practice fidelity for movements whose execution depends on momentum and balance — i.e., how reduced-force, reduced-range performance alters the physical dynamics those movements rely on and thus the accuracy of rehearsing them."
+      ]
+    },
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "The typical magnitude of the reduction in energy expenditure when marking relative to dancing full-out, expressed as a quantitative amount or proportion.",
+        "The typical magnitude of reduction in physical intensity (exertion/range/force) when marking relative to dancing full-out, expressed as a quantity or proportion.",
+        "The typical magnitude of reduction in energy expenditure (a quantitative amount or proportion) when dancing is marked rather than performed full-out.",
+        "A quantitative estimate of the typical magnitude of energy/exertion reduction in marking relative to full-out dancing (e.g., a percentage or ratio of effort expended).",
+        "The quantitative threshold or range of effort/intensity reduction that distinguishes marking from full-out dancing."
+      ]
+    },
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "Whether rehearsing in marked form ever produces negative carryover or difficulties when dancers switch to full-out performance, and if so what those problems are"
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The effect of marking (reduced-scale rehearsal) on the nature and quality of the proprioceptive/performance feedback dancers get — i.e., which aspects of feedback remain informative versus which are degraded or absent relative to full-out dancing."
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The typical magnitude of difference in timing and balance between marked and full-out execution of the same choreography.",
+        "The typical magnitude of the discrepancy in balance and physical timing between marking and full-out execution of the same choreography — i.e., a quantified size of difference, not merely the fact that such differences exist."
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "A method or set of diagnostic criteria dancers can apply to identify which elements of a marked run-through fail to faithfully reproduce full-out performance demands (i.e., how to tell apart aspects preserved by marking, such as sequence, spacing, cues, and counts, from aspects distorted by reduced force/range, such as momentum, balance, partnering forces, and physical timing).",
+        "An identification of which particular coordination demands degrade first or most under reduced-scale marking, paired with the cues or methods dancers use in practice to detect that a movement has been reduced past the point of faithfully representing that demand.",
+        "The basis or means by which dancers judge which coordination demands are preserved under marking versus altered by reduced force/range — i.e., the criteria, cues, or knowledge source used to determine translation fidelity from marked to full-out execution.",
+        "The basis or means by which dancers determine which components of marked rehearsal faithfully reproduce full-out physical demands — i.e., the criteria, cues, or knowledge source used to judge fidelity of marking across movement aspects.",
+        "The basis or criteria by which dancers discriminate, in practice, which coordination elements preserved in marking will transfer faithfully to full-out performance and which will not."
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The particular physical/kinesthetic qualities of movement (e.g., momentum, balance, partnering forces, physical timing) that are absent in reduced-scale marking and must be re-established by dancing at full scale.",
+        "The reason marking-only rehearsal is insufficient: the physical aspects (momentum, balance, partnering forces, physical timing) that emerge only at near-full scale are absent from reduced-scale practice and therefore go unrehearsed."
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "Whether empirical comparison shows marking-based rehearsal produces better (or worse/equal) memory retention of choreographic sequences than consistently rehearsing full-out — i.e., the causal effect of rehearsal mode on learning/retention outcomes, beyond the passage's stated effort-conservation and review functions.",
+        "The comparative effect of marking versus full-out rehearsal on memory/retention of choreographic sequence — i.e., which practice mode produces better recall of the choreography and why.",
+        "Whether empirical evidence shows a quantifiable advantage of marking-based rehearsal over exclusively full-out rehearsal for retention of learned choreography/skill, and the magnitude/direction of any such effect.",
+        "The comparative effect of marking versus full-out rehearsal on dancers' memory/retention of choreography — i.e., which practice mode yields better recall of the sequence and by what magnitude or in what respects.",
+        "The comparative effect of marking versus consistently rehearsing full-out on long-term retention of choreographic material by dancers.",
+        "The comparative effectiveness of marking versus full-out rehearsal for retaining/memorizing choreographic sequences — i.e., whether reduced-scale practice yields equivalent memory encoding of the movement material."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The effect of marking (reduced-force/reduced-range practice) on the safety and usefulness of rehearsing partnered work such as lifts — i.e., how reducing force, height, and momentum alters the partnering forces, weight-sharing, and timing that safe execution depends on, and thus what marking can and cannot safely prepare.",
+        "The effects of marking (reduced-effort rehearsal) specifically on partnering work — i.e., which aspects of partnered coordination (safety of catches/lifts, accuracy of force, weight-sharing, timing) are preserved versus distorted when partnering forces are reduced.",
+        "A comparative identification of which specific coordination demands (e.g., force exchange, weight-sharing, counterbalance, timing of contact) are most degraded or distorted by marking in partnered movement relative to solo phrases.",
+        "The comparative effect of marking versus full-out dancing on the fidelity of partnering practice — i.e., which aspects of partner coordination (counts, order, spatial cues, grips/timing) marking preserves and which aspects (momentum, weight-sharing, counterbalance, force exchange) it distorts or fails to rehearse accurately.",
+        "The effect of marking (reduced-scale rehearsal) specifically on partner work — how reducing force, momentum, and physical timing alters the safety and accuracy with which partnering coordination can be practiced, i.e., which partnering demands marking preserves versus distorts.",
+        "The specific effects of reduced-effort marking on rehearsing partner-dependent movements such as lifts — i.e., which coordination demands of shared weight, force exchange, and timing are preserved versus distorted or omitted when the movement is not performed full-out.",
+        "The effect of reduced-effort marking on the fidelity of partnering practice — i.e., which aspects of partnered coordination (cues, timing, spacing) marking preserves versus which (weight-sharing, momentum, counterbalance, force exchange) it distorts or fails to rehearse."
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "A prescriptive quantitative allocation — the typical recommended proportion (percentage split) of total rehearsal time between marking and full-out dancing.",
+        "The typical proportional split of rehearsal time between marking and full-out dancing, expressed as percentages."
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "The effect of reduced-scale marking on a dancer's capacity to accurately estimate or perceive partnering forces prior to full-out rehearsal — i.e., whether and how marking degrades, preserves, or distorts force judgment.",
+        "The specific effect of reduced-scale marking on a dancer's capacity to sense and calibrate partnering forces, i.e., how and why marking fails to convey (or distorts) the force information that only emerges at full scale, prior to full-out rehearsal."
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "The effects of reduced-scale marking practice on a dancer's motor learning/muscle memory and on their physical readiness to perform full-out, i.e., what marking does and does not transfer to full-intensity execution."
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "The effect of switching between marked and full-out rehearsal on a dancer's injury risk — i.e., whether and how that transition raises or lowers injury likelihood and by what physical pathway."
+      ]
+    },
+    {
+      "cluster_ref": "K015",
+      "member_targets": [
+        "The effect of marking rehearsal on a dancer's subsequent full-intensity performance of the choreography — i.e., what marking does and does not transfer to or prepare for full-out execution.",
+        "The consequences for partnering and balance quality of rehearsing exclusively at marked scale — i.e., what deficits arise when the momentum, force, and physical timing that appear only at full scale are never practiced or restored.",
+        "The effects of marking rehearsal on a dancer's readiness for full-out performance — i.e., which aspects of performance preparation marking supports or degrades, given that it preserves sequence, spacing, cues, and musical timing but alters momentum, balance, partnering forces, and physical timing.",
+        "The consequences for full-intensity performance accuracy that follow from marking's reduced physical demands — i.e., which aspects of choreographic execution transfer from marked rehearsal and which are degraded or unprepared because momentum, balance, partnering forces, and physical timing differ.",
+        "The effect of marking (reduced-intensity rehearsal) on a dancer's preparedness for full-intensity performance — i.e., which physical/coordination demands marking does and does not adequately train, and the resulting gap in readiness."
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "The frequency/alternation rate with which dancers switch between marking and full-out rehearsal within a typical rehearsal process — information about scheduling proportions not given in the passage.",
+        "The frequency or scheduling pattern with which dancers switch between marked and full-out rehearsal modes over the course of a typical rehearsal process."
+      ]
+    },
+    {
+      "cluster_ref": "K017",
+      "member_targets": [
+        "The relationship (functional dependence) between degree of movement reduction in marking and the fidelity with which distinct categories of coordination demand are preserved — i.e., which coordination demands degrade at which levels of reduction."
+      ]
+    },
+    {
+      "cluster_ref": "K018",
+      "member_targets": [
+        "The reasons or motivations that lead individual dancers to forgo marking and rehearse at full scale from the outset."
+      ]
+    },
+    {
+      "cluster_ref": "K019",
+      "member_targets": [
+        "The characteristic ways in which the actual momentum, balance, and physical timing experienced when dancing full-out diverge from the dancers' expectations formed while marking — i.e., the direction and nature of the discrepancy between marked-rehearsal anticipation and full-scale execution."
+      ]
+    },
+    {
+      "cluster_ref": "K020",
+      "member_targets": [
+        "The decision criteria or cues dancers use to judge that marking has stopped serving its purpose and a full-scale run-through is required.",
+        "The criteria or signals dancers use to judge readiness to switch from marked to full-out rehearsal — i.e., the decision rule for that transition, not a description of what marking or full-out rehearsal accomplishes.",
+        "The criteria or decision rule dancers use to determine the point at which marking should be replaced by full-out rehearsal.",
+        "The decision criteria or cues dancers use to judge that marking has served its purpose and full-out rehearsal should begin.",
+        "The criteria or decision rule dancers use to judge readiness to switch from marking to full-out rehearsal.",
+        "The criteria, cues, or decision rules dancers use to judge when marked rehearsal should give way to full-out execution.",
+        "The criteria or cues dancers use to judge that marking has accomplished its purpose and that they are ready to switch to full-out rehearsal.",
+        "The criteria or cues dancers use to judge when marking should be replaced by full-out rehearsal (i.e., the decision rule governing the switch), which the passage does not state.",
+        "The criteria, cues, or decision process dancers use to judge when marked rehearsal should be replaced by full-out rehearsal in the lead-up to performance.",
+        "The criteria or judgment process dancers use to decide that marked rehearsal has produced sufficient readiness to transition to full-out performance.",
+        "The criteria or cues dancers use to decide that marking is sufficient and that rehearsal should shift to full-out execution.",
+        "The decision criteria or cues dancers use to judge the point at which marking should be replaced by full-out rehearsal.",
+        "The decision criterion or conditions determining the point at which marking should be abandoned in favor of full-out rehearsal.",
+        "The criteria or cues dancers use to judge that marking rehearsal is sufficient and that it is time to switch to full-out rehearsal.",
+        "The criteria or cues dancers use to decide that marking has accomplished its purpose and that rehearsal should shift to full-out execution.",
+        "The criteria or decision rule dancers use to determine the point at which marking should be replaced by full-out rehearsal, which the passage does not specify (it describes only what each mode accomplishes).",
+        "The decision criteria or cues dancers use to judge that marking has stopped being adequate and that a full-out run is required."
+      ]
+    },
+    {
+      "cluster_ref": "K021",
+      "member_targets": [
+        "The comparative injury-risk effect of marking-based rehearsal versus consistently rehearsing full-out — i.e., whether reduced-scale rehearsal lowers (or does not lower) dancers' likelihood of injury relative to full-scale rehearsal."
+      ]
+    },
+    {
+      "cluster_ref": "K022",
+      "member_targets": [
+        "A discriminating inventory of which specific coordination demands of choreography (e.g., sequence order, spatial spacing, cues, musical timing) remain faithfully represented under marked rehearsal versus which ones (e.g., momentum, balance, partnering forces, physical timing) are systematically distorted by reduced range/force/height.",
+        "An identification of which particular coordination demands empirical researchers have found to degrade or fail to be represented most readily when movement is performed with reduced range while marking.",
+        "An identification of which particular coordination demands (e.g., sequence order, spacing, cueing, musical timing) remain faithfully rehearsed under marking, contrasted with those (e.g., momentum, balance, partnering forces, physical timing) that are distorted relative to full-out performance.",
+        "A ranking/identification of which particular coordination demands (momentum, balance, partnering forces, physical timing) are most frequently degraded or not preserved when marking relative to full-out dancing.",
+        "An identification of which particular components of coordination (e.g., sequence order, spatial spacing, cue timing, musical timing versus momentum, balance, partnering force, physical timing) are retained with high fidelity under marked rehearsal relative to full-out performance, i.e., a differentiated ranking or list of coordination demands by degree of preservation.",
+        "A comparative classification of the coordination demands of choreography according to how faithfully marked (reduced-effort) rehearsal preserves them — identifying which demands (e.g., sequence order, spacing, cues, musical timing) survive marking largely intact versus which (e.g., momentum, balance, partnering forces, physical timing) are most distorted or lost.",
+        "An identification of which specific coordination demands (e.g., those dependent on momentum, balance, partnering force exchange, and physical timing) are most degraded or poorly represented by reduced-effort marking relative to full-out dancing.",
+        "An identification of which particular components of a movement sequence (e.g., ordering, spatial pathways/spacing, entrance cues, musical timing versus momentum, balance, partnering forces, physical timing) retain the highest fidelity to full-out execution when marking, i.e., a ranking or partition of sequence attributes by preservation under reduced-effort rehearsal.",
+        "A differentiated inventory of coordination components, sorting those that marking preserves with high fidelity (e.g., sequence order, spatial pathways, cue timing, musical alignment) from those that are degraded or altered by reduced force, momentum, height, and partnering load (e.g., balance recovery, momentum-dependent physical timing, partnered force exchange).",
+        "The specific coordination demands (e.g., momentum-dependent balance, partnering force exchange, physical timing of effortful movement) that marking fails to preserve relative to full-out performance, ranked by degree of degradation.",
+        "An enumeration of which particular coordination demands (e.g., sequence order, spatial spacing, entrance cues, musical timing) remain faithfully represented under marking, as contrasted with those degraded by reduced force, momentum, balance, and partnering load.",
+        "A classification of which specific coordination demands of choreography (e.g., sequence order, spacing, cues, musical timing versus momentum, balance, partnering forces, physical timing) are retained faithfully under marking and which are most distorted or lost.",
+        "An identification of which particular coordination demands of a movement are most altered or lost when it is marked at reduced range/force/height versus performed full-out.",
+        "The specific components of choreographic execution (e.g., momentum-, balance-, force-, and physical-timing-dependent elements) whose coordination demands are least faithfully preserved, i.e., altered or misrepresented, under reduced-effort marking.",
+        "An identification of which specific coordination demands (e.g., momentum-, balance-, force-, and physical-timing-dependent aspects) are most altered by marking, as distinguished from those preserved, i.e., a ranking/classification of coordination demands by sensitivity to reduced-effort execution.",
+        "An identification of which specific coordination demands of choreography (e.g., momentum-, balance-, force-, or physical-timing-dependent ones) are least faithfully retained under reduced-effort marking, ranked by difficulty of preservation.",
+        "An identification of which specific components of a choreographed sequence (e.g., momentum-dependent dynamics, balance, partnering force exchange, physical/effort-based timing) are distorted or inaccurately represented under reduced-effort marking, as distinguished from those preserved faithfully.",
+        "An identification of the specific choreographic or coordination elements (e.g., momentum-dependent, balance, partnering-force, and physical-timing demands) that marking fails to reproduce accurately, as distinguished from those it preserves.",
+        "An itemized comparison identifying which particular coordination demands of a choreographed sequence (e.g., ordering, spacing, cue timing, musical timing, versus momentum, balance, partnering forces, physical timing) are faithfully retained under marked, reduced-effort execution and which are degraded relative to full-out performance.",
+        "A ranking/identification of which specific coordination components (e.g., musical-cue timing versus balance and partnering force management) degrade most in transfer from marked rehearsal to full-out performance.",
+        "A differentiated inventory of which coordination components (e.g., sequence order, spatial pathways, cue timing, musical synchronization) remain faithfully rehearsed under marking versus which components (e.g., momentum-dependent balance, partnering force exchange, physical timing tied to full-force execution) degrade most.",
+        "A sorted breakdown of coordination demands in marked rehearsal: which specific demands (e.g., sequence order, spacing, cues, musical timing) are retained with high fidelity under reduced force/momentum, and which specific demands (e.g., momentum-dependent balance, partnering forces, physical timing) are degraded or altered.",
+        "An itemized contrast identifying which particular coordination demands of choreography are preserved with high fidelity under marked (reduced-effort) rehearsal versus which are substantially degraded or distorted by it.",
+        "An identification of which specific coordination demands of the choreography (e.g., momentum-, force-, balance-, and partnering-dependent aspects and physical timing) are degraded or misrepresented under reduced-effort marking, as distinct from those preserved.",
+        "A sorted characterization of which specific coordination demands in marked rehearsal remain faithful to full-out performance (e.g., sequence order, spacing, cues, musical timing) versus which are most distorted (e.g., momentum, balance, partnering forces, physical timing), i.e., a mapping of demand types to degree of preservation.",
+        "An identification of the specific choreographic/coordination elements (e.g., those dependent on momentum, balance, partnering force, and physical timing) that marking renders inaccurate relative to full-out performance.",
+        "A differentiated inventory identifying which particular coordination demands of choreography (e.g., sequence order, spacing, cueing, musical timing versus momentum, balance, partnering forces, physical timing) are faithfully retained under marking and which are degraded relative to full-out performance.",
+        "An identification of which specific coordination demands of the choreography (e.g., momentum-, balance-, force-, and physical-timing-dependent ones) fail to be faithfully reproduced or are altered under reduced-effort marking, as opposed to those preserved.",
+        "The specific coordination demands (e.g., momentum-, balance-, force-, and physical-timing-dependent aspects) that marking represents least faithfully relative to full-out dancing.",
+        "A rank-ordering or identification of which particular coordination demands (momentum, balance, partnering forces, physical timing) suffer the greatest fidelity loss under marked versus full-out execution.",
+        "A ranking or identification of which specific coordination demands (momentum, balance, or timing) are most frequently degraded or fail to be preserved under marking compared to full-out dancing.",
+        "An identification of which specific coordination demands of choreography fail to be faithfully represented when movement is reduced too far in marking.",
+        "An identification of which particular coordination demands (e.g., sequence order, spacing, cueing, musical timing versus momentum, balance, partnering forces, physical timing) are retained with high fidelity under marking relative to full-out dancing, differentiating well-preserved from poorly preserved demands.",
+        "An identification of which specific components of choreographic coordination (e.g., momentum-, balance-, force-, or physical-timing-dependent elements) are inaccurately assessed under reduced-effort marking, as opposed to those preserved faithfully.",
+        "An identification of the specific movement/coordination attributes (e.g., momentum, balance, partnering forces, physical timing) that marking reproduces least faithfully relative to full-out performance.",
+        "A partition of choreographic coordination demands into those that marking preserves faithfully (e.g., sequence order, spacing, cues, musical timing) versus those degraded by reduced force/momentum (e.g., momentum-dependent balance, partnering forces, physical timing of effort), i.e., which specific demands fall on each side.",
+        "An identification of which specific types of coordination demands in choreography fail to be represented (drop out) under reduced-effort marking, as distinct from those that survive reduction."
+      ]
+    },
+    {
+      "cluster_ref": "K023",
+      "member_targets": [
+        "The specific causal effect of prior marked rehearsal on how accurately partnering forces are executed when dancers subsequently perform full-out — i.e., whether and how reduced-scale practice carries over to, degrades, or fails to prepare force-dependent partnering accuracy at full scale."
+      ]
+    },
+    {
+      "cluster_ref": "K024",
+      "member_targets": [
+        "The comparative effect on eventual performance quality of a rehearsal strategy that includes marking versus one that is full-out throughout — i.e., outcome-level consequences of marking for final performance, not the passage's description of what marking preserves or omits during rehearsal.",
+        "The causal effect of prior marking practice on a dancer's subsequent performance quality when rehearsing full-out — i.e., whether and how reduced-scale rehearsal carries over to, enhances, or degrades full-scale execution."
+      ]
+    },
+    {
+      "cluster_ref": "K025",
+      "member_targets": [
+        "The decision criteria or considerations dancers use to choose between marking and dancing full-out in a given rehearsal.",
+        "The basis or decision criteria dancers use to judge which movements can be reduced in marking without degrading later full-out execution — i.e., how such judgments are made rather than which coordination demands marking preserves.",
+        "The decision criteria or basis dancers use to judge whether marking suffices versus when a full-out run is required — i.e., the conditions or rehearsal goals that trigger choosing one mode over the other.",
+        "The decision criteria or selection process dancers use to allocate which choreographic elements are rehearsed full-out versus marked.",
+        "The basis on which dancers judge which movements are safe to mark at reduced intensity without losing coordination information — i.e., the criteria, cues, or knowledge used to make that selective reduction decision.",
+        "The decision criteria or considerations dancers use to choose between marking and full-out rehearsal on a given occasion — not described in the passage, which only contrasts what each mode accomplishes.",
+        "The decision criteria or judgment process dancers use to allocate movement elements between full-out and marked practice — i.e., what features of a movement determine that it must be rehearsed at full intensity rather than marked.",
+        "The decision criteria and basis dancers use to allocate which elements of a sequence get rehearsed full-out versus marked.",
+        "The decision criteria or basis dancers use to select which particular movements or rehearsal sections to mark versus dance full-out.",
+        "The decision criteria or basis dancers use to classify particular movements as adequately rehearsable in marked form versus requiring full-out execution.",
+        "A decision procedure or set of criteria dancers can apply to judge, for a given segment of choreography, whether marking will adequately rehearse its demands without risk, versus requiring full-out execution.",
+        "The criteria or decision rules dancers use to select which passages of choreography require full-out rehearsal instead of marking."
+      ]
+    },
+    {
+      "cluster_ref": "K026",
+      "member_targets": [
+        "The effect of rehearsing by marking on dancers' retention of the full-scale physical timing required for full-out performance — i.e., whether and how reduced-scale practice preserves, degrades, or fails to develop that timing."
+      ]
+    },
+    {
+      "cluster_ref": "K027",
+      "member_targets": [
+        "The magnitude of reduction in physical load/strain and injury risk achieved by marking relative to full-out rehearsal, i.e., a quantitative comparison of physiological or injury-risk cost between the two rehearsal modes."
+      ]
+    },
+    {
+      "cluster_ref": "K028",
+      "member_targets": [
+        "The comparative effect of marked versus full-out rehearsal on a dancer's capacity to notice and fix timing errors specifically in partnered choreography, given that reduced force and momentum alter physical timing and partnering forces.",
+        "The effect of marked (reduced-force/range) rehearsal on a dancer's capacity to detect and fix inter-partner timing coordination problems — i.e., which aspects of partnered timing remain diagnosable under marking and which are distorted or masked because reduced momentum and partnering forces alter physical timing.",
+        "A comparative account of how marking versus full-out rehearsal affects a dancer's capacity to detect and correct timing errors, given that marking preserves musical/cue timing but alters momentum-dependent physical timing."
+      ]
+    },
+    {
+      "cluster_ref": "K029",
+      "member_targets": [
+        "The particular determinants (movement or task properties) that set the point of movement reduction beyond which a given coordination demand ceases to be faithfully represented in marking.",
+        "The set of determinants (movement or task properties) that fix the point of reduction beyond which a given coordination demand is no longer faithfully represented in marking."
+      ]
+    },
+    {
+      "cluster_ref": "K030",
+      "member_targets": [
+        "A method or decision criterion for identifying, for a given coordination demand, the threshold degree of movement reduction beyond which that demand is no longer faithfully represented in marking.",
+        "A method or criterion dancers could use to judge, for a given reduced/marked movement, whether a specific coordination demand of the full-out version is still faithfully preserved.",
+        "The practical decision criteria, cues, or judgment procedures dancers and choreographers actually use to detect when a marked movement has been reduced past the point of faithfully representing a given coordination demand.",
+        "The decision criteria or judgment procedure used in practice to detect the point at which reduction in a marked movement stops faithfully preserving a given coordination demand.",
+        "A method or criterion for detecting the point at which reduced-intensity marking stops faithfully representing a given coordination demand of full-out dancing — i.e., how performers can identify that threshold of reduction.",
+        "A method or decision procedure for identifying, for a given movement, the lowest degree of marked (reduced) execution at which its specific coordination demands are still faithfully represented — i.e., criteria or tests for setting that reduction threshold.",
+        "A method or decision procedure dancers can use to identify the lower bound of movement reduction at which a given coordination demand is still faithfully represented during marking.",
+        "A method or decision procedure for identifying, for a given coordination demand, the threshold level of marking (maximum reduction in range/force/height) at which that demand is still faithfully represented.",
+        "The identifiable criteria, tests, or procedures used by choreographers or researchers to decide the point at which reducing movement scale stops faithfully representing a specific coordination demand.",
+        "The decision criteria and practical methods used by dancers/choreographers to judge the threshold at which a marked (reduced) movement no longer faithfully preserves a given coordination demand.",
+        "A method or criterion dancers could use to identify, for a given coordination demand, the threshold level of movement reduction at which that demand is still faithfully represented in marking.",
+        "A method or decision procedure for identifying the threshold of reduced-intensity marking below which a given coordination demand is no longer faithfully represented.",
+        "The decision criteria and practical methods by which dancers/choreographers judge the point at which a reduced (marked) execution stops faithfully representing a given coordination demand of the full-out movement.",
+        "A method or decision criterion for identifying the lowest level of movement execution at which a given coordination demand is still faithfully represented in rehearsal.",
+        "A method or decision procedure for identifying the lower bound of movement magnitude at which a given coordination demand remains faithfully represented during marking.",
+        "A method or criterion dancers could use to judge, for a given reduced/marked movement, whether a specific coordination demand of the full-out version is still faithfully represented",
+        "A method or criterion for deciding, for a given coordination demand, whether a marked (reduced-effort) rendition still preserves that demand faithfully — i.e., how to test or judge the point at which reduction stops representing it.",
+        "A method or criterion dancers could use to identify the point at which a marked (reduced) version of a movement stops faithfully representing its coordination demands.",
+        "A criterion or diagnostic method for detecting the point at which reduced-scale marking stops faithfully preserving a movement's coordination demands.",
+        "Criteria or diagnostic methods for judging whether a given reduced-intensity rendition still faithfully represents a coordination demand versus having degraded past the point of useful practice — i.e., the decision rule separating adequate from excessive marking.",
+        "A method or decision procedure by which dancers could identify the threshold level of movement reduction below which a given coordination demand ceases to be faithfully represented in marking.",
+        "The practical criteria, cues, or decision procedure dancers and choreographers use in rehearsal to judge that a marked movement's reduction has crossed the point where a given coordination demand is no longer faithfully represented.",
+        "A method or decision criterion by which dancers can assess, for a given reduced-intensity rendition, whether a specific coordination demand of the full-out movement is still faithfully represented.",
+        "The decision criteria and practical methods used in rehearsal to judge the point at which reducing a movement's scale stops preserving a given coordination demand.",
+        "A method or criterion for identifying the point at which reducing movement magnitude in marking ceases to faithfully preserve a given coordination demand.",
+        "A method or criterion for identifying the point of maximal movement reduction at which a given coordination demand is still faithfully rehearsed — i.e., how to locate that threshold, not merely a description of how reduction affects coordination.",
+        "A method or criterion for determining the threshold level of movement reduction in marking at which a given coordination demand ceases to be faithfully represented.",
+        "A method or criterion dancers can apply to judge whether a reduced-scale (marked) rendition still faithfully represents a given coordination demand.",
+        "A method or criterion dancers could use to detect the point at which reduced-scale marking no longer faithfully represents a movement's coordination demands.",
+        "The criterion or means by which dancers detect the point at which reduction of a marked movement has fallen below the level at which a given coordination demand is still faithfully represented.",
+        "A practical criterion or diagnostic method by which dancers can detect the point at which reduction in marking has stopped preserving a movement's coordination demands faithfully.",
+        "The criteria or cues by which dancers detect the threshold at which a marked (reduced) movement stops faithfully representing the coordination demand being rehearsed.",
+        "The practical criteria, cues, or judgment procedures used in rehearsal to decide that a marked movement's reduction has crossed the point where a given coordination demand is no longer faithfully represented.",
+        "The decision criteria or assessment methods used to judge the point at which a marked (reduced-amplitude) movement stops faithfully representing a given coordination demand.",
+        "A systematic method or decision procedure for identifying, per movement type, the minimum degree of marking (reduction in range/force/height) at which a given coordination demand is still faithfully represented — i.e., criteria and process for setting movement-specific reduction thresholds.",
+        "A method or criterion for identifying the threshold level of movement reduction at which a specific coordination demand remains faithfully represented during marking.",
+        "The criterion or cue by which dancers detect that a marked movement has been reduced past the point where a specific coordination demand is still faithfully represented — i.e., how the threshold of fidelity loss is recognized in practice.",
+        "A method or criterion for determining the point of movement reduction at which a specific coordination demand stops being faithfully represented during marking.",
+        "The decision criteria or practical methods used to judge the point at which reduction in a marked movement stops faithfully representing a given coordination demand.",
+        "A method or decision criterion for identifying the threshold of movement reduction in marking below which a given coordination demand is no longer faithfully rehearsed.",
+        "The decision criteria or diagnostic tests a dancer could apply to judge whether a reduced-effort (marked) execution still preserves fidelity to a given coordination demand — i.e., the standards for distinguishing adequate from inadequate marking, rather than a description of what marking is or how much reduction typically occurs.",
+        "The practical criteria, cues, or judgment procedures dancers and choreographers actually use to detect the point at which reduced-scale marking stops faithfully representing a given coordination demand.",
+        "A method or criterion dancers could use to judge whether a reduced (marked) version of a movement still faithfully preserves a given coordination demand — i.e., how to diagnose the point at which reduction stops representing that demand.",
+        "A method or criterion for identifying the threshold amount of movement reduction at which a given step stops faithfully representing its coordination demand.",
+        "A method or criterion for judging, during marking, whether a given reduced-scale execution still preserves faithful representation of a specific coordination demand of the full-out version — i.e., a decision procedure for setting the reduction threshold, not a description of what marking conserves.",
+        "A method or criterion for identifying the point of movement reduction at which a given coordination demand ceases to be faithfully represented during marking.",
+        "The practical decision procedure or criteria dancers/choreographers use in rehearsal to judge the point at which reducing movement scale stops faithfully representing a given coordination demand.",
+        "The practical methods, cues, or criteria dancers and choreographers actually use to judge how far a movement can be marked down before a coordination demand stops being faithfully represented.",
+        "A method or decision procedure for identifying, for a given coordination demand, the lowest degree of movement reduction at which that demand is still faithfully represented in marking.",
+        "The diagnostic criteria or indicators dancers could use to detect that a marked movement has been reduced past the point where a given coordination demand is still faithfully represented.",
+        "A method or criterion dancers can use to identify the threshold of movement reduction beyond which a given complex coordination demand ceases to be faithfully represented during marking.",
+        "A method or criterion dancers can apply to judge whether a reduced-scale (marked) execution still preserves faithful representation of a given coordination demand.",
+        "A method or criterion for objectively identifying the threshold degree of movement reduction in marking beyond which a given coordination demand ceases to be faithfully represented.",
+        "A criterion or diagnostic method for detecting the point at which reduced-scale marking stops faithfully representing a movement's essential coordination demands.",
+        "A method or criterion for identifying the lowest degree of movement reduction at which a given coordination demand is still faithfully represented during marking.",
+        "A method or decision procedure dancers could use to identify, for a given coordination demand, the threshold level of movement reduction at or above which that demand is still faithfully represented in marking."
+      ]
+    },
+    {
+      "cluster_ref": "K031",
+      "member_targets": [
+        "The magnitude of difference in injury risk between marking and full-out rehearsal, i.e., a quantified comparative injury-risk reduction attributable to marking."
+      ]
+    },
+    {
+      "cluster_ref": "K032",
+      "member_targets": [
+        "The conditions or movement types under which marked rehearsal diverges enough from full-out execution that it gives dancers inaccurate information about the actual coordination and physical demands."
+      ]
+    },
+    {
+      "cluster_ref": "K033",
+      "member_targets": [
+        "The comparative effect of marking versus full-out rehearsal on retention and execution of technique and motor memory — i.e., which aspects of skilled movement are preserved, degraded, or unrehearsed when practicing at reduced scale.",
+        "The comparative effect of marking versus full-out rehearsal on a dancer's motor/muscle-memory retention of choreography — i.e., how well each practice mode encodes and sustains learned movement, and in what respects retention differs between them.",
+        "The comparative effect of marking versus full-out rehearsal on motor learning/muscle memory — i.e., which aspects of movement memory marking does or does not encode relative to full-scale practice."
+      ]
+    },
+    {
+      "cluster_ref": "K034",
+      "member_targets": [
+        "The experiential differences—physical sensations and psychological states—that dancers report or undergo when marking versus performing full-out, rather than the rehearsal functions each mode serves."
+      ]
+    },
+    {
+      "cluster_ref": "K035",
+      "member_targets": [
+        "An identification of which coordination demands (e.g., momentum-dependent timing, balance regulation, partnering force exchange) fail to be preserved when movement is reduced in marking, paired with an account of the adjustment strategies dancers use to recover those demands when shifting from marked to full-out execution.",
+        "Practical rehearsal techniques or adjustments dancers can adopt to offset the changes in momentum, balance, and partnering forces introduced by marking, so that these physical coordination demands are still adequately trained.",
+        "Practical strategies or techniques by which dancers can combine marking with preservation of the coordination demands (momentum, balance, partnering forces, physical timing) that marking otherwise degrades.",
+        "Practical rehearsal methods or approaches dancers can adopt to train the momentum, balance, and partnering-force demands that marked rehearsal fails to reproduce.",
+        "The specific adjustment strategies or techniques dancers use during marked rehearsal to offset the altered momentum, balance, and partnering forces that result from reduced-effort execution.",
+        "The specific adjustment strategies or techniques dancers use during marked rehearsal to account for the reduced momentum, balance, and partnering forces relative to full-out performance.",
+        "Practical strategies or rehearsal-design criteria dancers can use so that marking still adequately trains the momentum, balance, and partnering-force demands that reduced-effort practice fails to reproduce."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The rehearsal problem is determining how far a movement can be reduced before a particular coordination demand is no longer represented faithfully.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

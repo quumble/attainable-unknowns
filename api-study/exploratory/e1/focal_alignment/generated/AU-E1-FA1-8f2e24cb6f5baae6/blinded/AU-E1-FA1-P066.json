@@ -1,0 +1,237 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-P066",
+  "cluster_count": 11,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The comparative effectiveness of mise en place and other kitchen organization methods"
+      ]
+    },
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "How cooks adapt station layouts to accommodate conflicting movement patterns across different orders",
+        "How cooks adapt station layouts to reconcile conflicting movement patterns across different order clusters",
+        "Strategies for arranging adaptable mise en place that efficiently accommodates varying order types without shifting excess motion or delay between them",
+        "Specific station-layout redesign strategies cooks use in response to an unexpected change in order patterns",
+        "How cooks modify station layouts to accommodate order clusters with conflicting movement patterns",
+        "How cooks choose or adapt station layouts to manage conflicting motion and access needs across different order clusters",
+        "The specific layout modifications typically needed to accommodate an unexpected shift to a different cluster of orders."
+      ]
+    },
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "Specific ergonomic or time-study evidence quantifying the reduction in overall service time from mise en place compared with unprepared stations",
+        "Quantitative evidence from specific metrics or studies on reductions in cooking time and order errors attributable to mise en place compared with unprepared stations"
+      ]
+    },
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "The decision criterion or method for selecting an optimal station layout under unpredictable order patterns",
+        "Methods for optimizing a kitchen station layout under uncertainty about the mix and sequence of orders",
+        "The decision criterion or method cooks use to choose an optimal station layout under uncertain order demand.",
+        "The decision criteria for choosing a station layout under unpredictable order mixes and sequences",
+        "A decision method for selecting the optimal station layout under uncertainty about future orders",
+        "The decision criteria and process experienced cooks use to choose an optimal mise en place layout under uncertain order demand",
+        "The specific decision method experienced cooks use to choose an optimal station layout under unpredictable order patterns",
+        "The criteria and strategy for optimizing mise en place under unpredictable order mixes and sequences",
+        "The decision criteria for selecting a mise en place layout under uncertainty about the mix and sequence of orders.",
+        "The decision method or criteria for selecting an optimal station layout under uncertainty about the mix and sequence of orders.",
+        "The decision criteria for prioritizing ingredients and tools within arm's reach under uncertain order mix and sequence",
+        "Methods or algorithms used to optimize restaurant station layouts when order sequences are unpredictable",
+        "The decision method restaurants use to choose an optimal station layout under uncertainty about the future order mix and sequence",
+        "The decision criteria for prioritizing which ingredients and tools should be placed closest at hand under unpredictable order patterns.",
+        "The decision criteria for prioritizing ingredients and tools in a mise en place layout under unpredictable order patterns",
+        "Methods or algorithms used to optimize kitchen station layouts under unpredictable order sequences",
+        "The decision criterion or method for selecting an optimal station layout under uncertainty about the mix and sequence of orders",
+        "The decision criteria and methods cooks and kitchen managers use to choose station layouts under unpredictable order patterns.",
+        "The decision method or criteria for selecting an optimal station layout under uncertainty about the mix and sequence of orders",
+        "The decision criteria and methods used to choose an optimal station layout when order patterns are unpredictable.",
+        "The decision criteria or method cooks use to choose an optimal station layout under uncertainty about the mix and sequence of orders.",
+        "The methods or decision criteria cooks and kitchen managers use to select an optimal station layout under unpredictable order sequences.",
+        "The methods or decision criteria used to balance station-layout efficiencies when the order sequence is unpredictable.",
+        "The decision criteria or method cooks use to choose an optimal station layout under highly variable order patterns",
+        "Methods for optimizing a restaurant station layout under uncertainty about the mix and sequence of orders",
+        "The decision criterion for arranging a station to balance search and switching efficiencies under unpredictable order mixes and sequences.",
+        "The decision criteria for selecting a mise en place layout under unpredictable order mixes and sequences",
+        "The specific method cooks use to determine an optimal station layout under varying order patterns throughout a shift.",
+        "The decision criteria or method for selecting a mise en place layout under unpredictable order mixes and sequences",
+        "The methods or decision criteria used to choose an optimal station layout when the mix and sequence of orders are uncertain.",
+        "The decision criterion or method cooks use to choose an optimal station layout under uncertainty about the mix and sequence of orders.",
+        "The method or model used by chefs and kitchen managers to determine an optimal station layout under unpredictable order sequences",
+        "The methods or decision criteria used to determine an optimal station layout when order patterns are unpredictable",
+        "The specific decision method used to determine an optimal station layout under unpredictable order sequences.",
+        "The methods or decision criteria used to choose an optimal station layout under unpredictable order patterns",
+        "The decision criterion or method for selecting an optimal station layout under uncertainty about the mix and sequence of orders.",
+        "The specific optimization method or algorithm used to determine the layout that best balances reduced searching and switching under uncertain order mix and sequence.",
+        "The decision criteria for arranging ingredients and tools to balance search and switching efficiencies under an unpredictable order mix",
+        "The methods or decision criteria used to choose an optimal kitchen-station layout when order sequences are unpredictable.",
+        "The decision criteria or method for selecting a mise en place layout that balances efficiency under unpredictable order patterns.",
+        "The decision criteria for prioritizing ingredients and tools in a station layout when the mix and sequence of orders are unpredictable.",
+        "The decision criterion or method cooks use to choose an optimal station layout under uncertainty about the mix and sequence of orders.",
+        "The specific decision method used to determine the optimal station layout under unpredictable order patterns",
+        "The decision criterion or method restaurants use to optimize station layout under uncertainty about the order mix",
+        "The decision criteria or strategy for optimizing mise en place under uncertainty about the mix and sequence of orders.",
+        "The decision criteria and planning method restaurants use to optimize station layout under unpredictable order patterns.",
+        "The specific method or algorithm used to determine an optimal station layout under unpredictable order sequences",
+        "The decision criteria and process experienced cooks use to choose a station layout under uncertain order demand",
+        "The methods or decision criteria used to choose an optimal station layout when order sequences are unpredictable.",
+        "The decision criteria cooks use to prioritize which items are placed closest when the order sequence is unpredictable.",
+        "The layout strategies most effective for cooking stations with highly unpredictable order sequences",
+        "The layout principles or performance metrics successful restaurants use to choose an optimal station arrangement under unpredictable order patterns.",
+        "The decision criteria or method for selecting an optimal mise en place layout under uncertainty about the order mix",
+        "The factors or methods cooks use to choose an optimal station layout when the mix and sequence of orders are unpredictable.",
+        "The methods or decision criteria used to choose an optimal station layout when order patterns are unpredictable.",
+        "The methods or decision criteria used to choose an optimal station layout when the mix and sequence of orders are unpredictable.",
+        "The decision criteria or planning method cooks use to choose the best station layout under uncertain order demand",
+        "The decision criteria or method for selecting an efficient mise en place layout under unpredictable order patterns",
+        "The decision criterion or method cooks use to select an optimal mise en place layout under uncertainty about the order mix and sequence.",
+        "The methods or decision criteria used to choose an optimal station layout when the order sequence is unpredictable.",
+        "The decision criteria and planning method cooks use to optimize station layout under unpredictable order patterns",
+        "The decision criterion or method for selecting an optimal station layout under uncertainty about the mix and sequence of orders",
+        "The decision criteria for choosing a station layout under uncertainty about the mix and sequence of orders",
+        "Methods or algorithms for optimizing a restaurant workstation layout under uncertainty about the mix and sequence of orders",
+        "The decision criteria and planning method restaurants use to optimize station layout under unpredictable order patterns",
+        "The decision criterion or method for selecting an optimal station layout under uncertainty about the mix and sequence of orders.",
+        "The specific methods or algorithms used to optimize kitchen station layout under unpredictable order patterns.",
+        "The decision criterion or method for selecting an optimal mise en place layout under an unpredictable order mix"
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The typical amount of time saved during a service by using mise en place.",
+        "The typical amount of time saved during a restaurant service by using mise en place.",
+        "The typical amount of time saved during a service shift by mise en place preparation.",
+        "The typical reduction in cooking time per order during service attributable to mise en place preparation.",
+        "The typical amount of time saved during a service period by using mise en place.",
+        "The typical amount of time saved during a restaurant service by using mise en place"
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The criteria and process cooks use to determine the most efficient station layout for a particular menu",
+        "How the menu and its workflow determine the arrangement of ingredients, tools, and frequently used items in a cook's station",
+        "The criteria and process used to tailor a cooking-station layout to a menu and its sequence of repeated tasks.",
+        "How mise en place layout and preparation vary according to a restaurant menu’s ingredients, tools, and sequence of work",
+        "Variation in mise en place layout and preparation according to each menu item’s or station’s specific workflow, tools, ingredients, and repeated actions",
+        "How the layout and preparation of mise en place are tailored to a station’s menu, workflow sequence, frequently used items, and repeated actions",
+        "The ways mise en place layout is adapted to the menu and sequence of work"
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "The effect of mise en place on the speed and consistency of meal preparation during service"
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The change in the optimal mise en place layout when the expected order mix and sequence are known in advance",
+        "How advance knowledge of the most frequently ordered dish types changes cooks’ mise en place layout",
+        "The changes in the optimal station layout enabled by advance knowledge of the mix and sequence of orders",
+        "The difference in optimal station layout between predictable and unpredictable order patterns",
+        "How cooks modify their mise en place based on knowing which dish types will be ordered most frequently",
+        "The effect of knowing expected dish-order frequencies on the optimal station layout."
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "The specific decision criteria that determine which cluster of orders a cook prioritizes when arranging the station",
+        "The decision criteria cooks use to optimize mise en place across order types with differing work sequences and motion demands.",
+        "The factors used to decide which cluster of orders to prioritize when optimizing a cook’s station layout.",
+        "The decision criteria cooks use to prioritize a station arrangement when order types impose conflicting layout needs",
+        "The decision criteria cooks use to prioritize among conflicting station layouts for different order types",
+        "The decision criteria a cook uses to choose which cluster of orders to prioritize when arranging a station",
+        "The criteria used to prioritize particular order clusters when designing the station layout",
+        "The decision criteria cooks use to prioritize among conflicting station layouts for different order clusters.",
+        "The decision criteria or methods cooks use to choose an optimal station layout when minimizing motion for different order clusters involves trade-offs.",
+        "The decision criteria cooks use to prioritize orders or tasks when station layouts involve conflicting motion patterns.",
+        "The decision criteria and method cooks use to choose an optimal station layout when order clusters impose conflicting motion requirements.",
+        "The specific decision criteria a cook uses to choose which order cluster to prioritize when arranging the station layout",
+        "The decision criteria cooks use to choose an optimal station layout when order types impose conflicting motion requirements",
+        "The decision criteria cooks use to prioritize a station layout when order types favor conflicting arrangements",
+        "The decision criteria cooks use to choose a station arrangement when different order types favor competing layouts.",
+        "The decision criteria cooks use to choose an optimal station layout when order types impose conflicting movement demands",
+        "The specific decision criteria a cook uses to select which cluster of orders to prioritize when tailoring the station layout.",
+        "The decision criteria cooks use to choose an optimal mise en place layout when order types impose conflicting workflow and motion requirements.",
+        "The decision criteria cooks use to prioritize menu items or order patterns when arranging a station",
+        "The decision criteria cooks use to optimize a mise en place layout across order types with differing motion requirements",
+        "The decision criteria cooks use to select a station arrangement that balances efficiency across different order clusters",
+        "The decision criteria cooks use to choose a station layout when order clusters have conflicting motion-efficient arrangements.",
+        "The specific decision criteria used to prioritize order clusters when arranging a cook’s station",
+        "The decision criteria cooks use to prioritize menu items and order patterns when arranging a station",
+        "The decision criteria cooks use to prioritize a station arrangement when order requirements favor conflicting layouts",
+        "Strategies cooks use to balance mise en place layouts when different order types impose conflicting motion and access needs",
+        "The methods restaurants use to balance mise en place layouts for efficient handling of different order types",
+        "The decision criteria cooks use to select which cluster of orders to prioritize when designing a station layout",
+        "The decision criteria cooks use to choose a mise en place layout when order types have competing arrangement needs",
+        "The decision criteria cooks use to choose a station layout when order clusters impose conflicting movement demands.",
+        "The criteria cooks use to determine which menu items receive priority in a station’s arrangement.",
+        "The decision criteria or methods cooks use to prioritize a station layout for one order cluster over another.",
+        "The decision criteria cooks use to prioritize order patterns when arranging a station",
+        "The decision criteria a cook uses to choose a station layout when different order clusters favor conflicting arrangements.",
+        "The decision criteria cooks use to choose an optimal station layout when order clusters impose conflicting movement demands.",
+        "Specific layout-design strategies cooks use to balance motion and efficiency across competing order clusters",
+        "The decision criteria cooks use to prioritize a station layout when order types have conflicting arrangement needs.",
+        "Criteria and methods for designing a station layout that balances movement and workflow efficiency across different order clusters",
+        "The decision criteria cooks use to prioritize orders or tasks when station arrangements involve conflicting workflow needs",
+        "The decision criteria cooks use to prioritize orders or tasks when arranging a station",
+        "The decision criteria experienced cooks use to select which order types their station layout should optimize for",
+        "The decision criteria cooks use to prioritize orders or tasks when designing a station layout",
+        "The specific decision criteria a cook uses to choose which order cluster to prioritize when arranging the station",
+        "The criteria or methods cooks use to choose a station layout that balances motion and workflow demands across competing order clusters",
+        "The decision criteria cooks use to prioritize a station layout when order types favor different configurations.",
+        "The decision criteria cooks use to prioritize among conflicting station layouts that benefit different order types",
+        "How cooks choose station layouts that manage trade-offs between conflicting order-specific workflow needs",
+        "The decision criteria cooks use to prioritize which items are placed closest when anticipated order types favor different station layouts.",
+        "The criteria used to select the cluster of orders for which the station layout minimizes motion.",
+        "The decision criterion cooks use to prioritize a station layout when different order clusters favor different arrangements.",
+        "The criteria or methods cooks use to choose an optimal station layout when different order clusters favor conflicting arrangements.",
+        "The decision criteria cooks use to choose an optimal station layout when order clusters impose conflicting workflow requirements.",
+        "Criteria or method for designing a station layout that minimizes motion across varying clusters of orders",
+        "The decision criteria cooks use to prioritize orders or tasks when arranging a station amid competing workflow needs.",
+        "The decision criteria cooks use to choose an optimal station layout when order clusters impose conflicting movement demands.",
+        "The decision criteria cooks use to select a station arrangement that balances efficiency across different order clusters.",
+        "The decision criteria or method cooks use to prioritize a station arrangement when order clusters have conflicting motion-efficiency needs.",
+        "The decision criteria cooks use to choose a station layout that balances efficiency across different order types",
+        "The decision criteria or methods cooks use to select which order cluster the station layout should optimize for",
+        "The decision criteria and trade-offs cooks use to balance competing order workflows when arranging a station.",
+        "The decision criteria cooks use to prioritize a station arrangement when order types favor different layouts",
+        "The decision criteria cooks use to prioritize a station arrangement when order types require conflicting layouts.",
+        "The criteria or decision method cooks use to select which order clusters to prioritize when optimizing station layout",
+        "The decision criteria cooks use to prioritize order clusters when designing a station layout."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "Variation in mise en place practices across restaurants with different cuisines or menu styles",
+        "Variation in mise en place practices across different cuisines and restaurant types",
+        "Variations in mise en place practices among different cuisines or restaurant concepts",
+        "Differences in mise en place station arrangement across cuisines or restaurant types",
+        "Differences in mise en place station design across cuisines and restaurant styles",
+        "Variation in mise en place practices across cuisines or restaurant styles",
+        "Differences in mise en place practices across cuisines or restaurant types",
+        "Variations in mise en place practices across different cuisines and restaurant styles"
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "Changes in the composition of incoming orders that tend to require mid-service rearrangement of mise en place",
+        "The specific menu or order-sequence changes that necessitate redesigning a cook’s mise en place layout during a shift"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When the mix and sequence of orders are unknown in advance, choosing the layout that best balances those competing efficiencies remains a planning problem.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

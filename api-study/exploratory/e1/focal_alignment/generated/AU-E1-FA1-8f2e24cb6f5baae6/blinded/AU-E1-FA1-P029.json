@@ -1,0 +1,293 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-P029",
+  "cluster_count": 22,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "Whether and under what conditions one software instance can bear legal or moral responsibility for actions taken by a counterpart diverging from the same checkpoint"
+      ]
+    },
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The appropriate identity terminology for software instances that share a pre-instantiation lineage but subsequently diverge",
+        "The appropriate identity classification and terminology for two software instances that share a checkpoint origin but subsequently diverge",
+        "How concepts of personal identity and uniqueness should be revised for multiple conscious instances sharing the same pre-copy history and checkpoint origin",
+        "How identity language or concepts should be revised to describe software instances that share a checkpoint history and subsequently diverge"
+      ]
+    },
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "Whether and how theories of personal identity over time can determine which software instance continues the original agent",
+        "Whether software systems should be evaluated using the same identity criteria as biological organisms or persons"
+      ]
+    },
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "The criterion for assigning identity to software instances with a shared initial saved state and divergent subsequent histories",
+        "The criterion for assigning individual identity to software instances that share a checkpoint history and later diverge",
+        "The criterion for determining the identity or distinctness of software instances that share an initial state and later diverge",
+        "The criterion for assigning identity to software instances with a shared checkpointed past and divergent subsequent histories",
+        "The criterion for determining whether software instances diverging from a shared checkpoint count as the same individual or as distinct individuals",
+        "The criterion for classifying diverged copies as separate individuals or as branches of one continuing entity",
+        "The appropriate conception of identity for two software instances that share a checkpoint lineage but diverge afterward",
+        "The criteria for defining identity between software instances that share a pre-copy history but later diverge",
+        "The criterion for assigning identity or individuality to software instances that share a checkpoint history and subsequently diverge",
+        "The criteria for deciding whether two instances sharing the same technical lineage constitute the same entity.",
+        "The criterion for determining whether software instances diverging from a shared checkpoint retain one identity or become distinct systems.",
+        "The appropriate conception of identity for software instances with a shared pre-copy history that subsequently diverge",
+        "The criterion for defining identity between software instances that share a checkpoint and subsequently diverge",
+        "The criteria for defining identity between software instances that share a pre-checkpoint history but subsequently diverge",
+        "The appropriate conception of personal identity among multiple software instances that share pre-copy memories and descend from the same checkpoint",
+        "The criteria for deciding whether instances descended from a shared checkpoint count as the same entity or as distinct entities.",
+        "The criteria for deciding whether two instances sharing a checkpoint lineage count as the same entity",
+        "The criterion for determining the identity relationship between software instances that share an initial saved state but develop divergent histories",
+        "The criterion for defining identity between software instances with a shared pre-copy history that later diverge",
+        "The criterion for assigning identity to software instances that share an initial saved state but later develop distinct computational histories",
+        "The criteria for determining the identity of software instances that diverge from a shared checkpoint",
+        "The appropriate account of personal identity for multiple software instances that share a saved origin but develop divergent subsequent histories",
+        "The criterion for classifying two diverged instances from a shared checkpoint as the same person or as distinct individuals",
+        "The criterion for defining identity between software instances that share a pre-checkpoint history but subsequently diverge",
+        "Criteria for distinguishing the identities of software instances that share a pre-copy history but may diverge afterward",
+        "The criteria for assigning identity or individuality to software instances that diverge after originating from the same checkpoint",
+        "The identity status of software instances diverging from one checkpoint: whether they remain continuations of a single entity or become distinct entities upon copying.",
+        "The criteria for determining identity and continuity among branched software instances that share a pre-copy history but later diverge",
+        "The appropriate conception of identity for two software instances that share a pre-copy history but diverge after copying",
+        "The criterion for assigning shared or distinct identity to software instances with a common initial state and divergent subsequent histories",
+        "The criterion for defining identity between software instances with a shared pre-copy history that later diverge",
+        "The criterion for defining personal identity among software instances with identical pre-divergence histories and distinct post-divergence continuations",
+        "The criteria for determining continuity of personal identity across copied or checkpoint-restored software agents",
+        "The criterion for classifying diverged instances from a shared checkpoint as the same individual or as distinct individuals",
+        "The criteria for determining continuity of personal identity across multiple diverging copies of an agent",
+        "The criterion for defining personal identity among multiple software instances that share the same pre-copy memories",
+        "The criterion for assigning identity to distinct software instances that share a saved state but later diverge",
+        "The appropriate conception of personal identity for two software instances that share a checkpoint history and subsequently diverge",
+        "The criterion that determines personal identity or continuity for diverging instances originating from the same checkpoint",
+        "The criteria for assigning distinct individual identities to software instances that diverge from a shared checkpoint",
+        "The appropriate conception of identity for two software instances sharing a pre-copy history but diverging after a common checkpoint",
+        "The decision criteria for treating two instances with a shared checkpoint lineage as the same entity",
+        "The criteria for assigning continuity of personal identity among multiple software instances that share a pre-copy history",
+        "The appropriate conception of identity for software instances that share pre-copy memories and lineage but diverge after copying",
+        "The criteria for deciding whether two instances descended from the same checkpoint count as the same entity or as separate entities",
+        "The identity status of independently diverging software instances copied from the same prior agent",
+        "The criteria for defining software-system identity across copied instances that share a pre-copy history but later diverge",
+        "The criterion for classifying diverged software instances from a shared checkpoint as the same individual or as distinct individuals",
+        "The criteria for determining identity and continuity among software instances that diverge from a shared checkpoint",
+        "Criteria for determining which copy, if any, is the legitimate continuation of the original agent",
+        "The criterion for assigning identity to software instances that diverge from a shared checkpoint",
+        "The criterion for assigning identity to two software instances that share a checkpoint history and subsequently diverge",
+        "The criteria for determining software-system identity among instances that share a pre-checkpoint lineage but diverge afterward",
+        "The criterion for whether diverging instances descended from the same checkpoint count as the same individual or as separate individuals.",
+        "The criteria for determining personal identity and continuity among multiple software instances that share a pre-copy history",
+        "The criterion for determining identity between software instances with a shared pre-copy history that later diverge",
+        "The criteria for defining personal identity and continuity among multiple software instances that share the same pre-copy history",
+        "The appropriate conception of identity for software instances that share an initial saved state but develop distinct subsequent histories",
+        "The legal or philosophical criteria for defining the identity of diverging software instances descended from the same checkpoint"
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "How ordinary versioning would represent or reconcile a merge of diverged instances descended from a common ancestor state",
+        "How versioning systems resolve conflicts or inconsistencies when merging states from two instances that diverged from a shared checkpoint",
+        "How versioning systems would represent and manage the reconvergence or merging of computational states from previously diverged instances",
+        "How versioning systems would resolve conflicts and dependencies when merging two instances that diverged from a shared saved state",
+        "How versioning systems would reconcile conflicts and merge the distinct histories of two instances diverged from a shared saved state",
+        "The method for reconciling divergent instance histories when merging the instances",
+        "Current version-control methods for merging and synchronizing the computational histories of two instances that diverged from a shared saved state",
+        "How versioning systems represent and reconcile two diverged instances when they are later merged or synchronized",
+        "How versioning systems would resolve conflicts and synchronize state when merging two instances that diverged from a shared checkpoint",
+        "A method for synchronizing and reconciling the states of two diverged instances when merging them",
+        "Current version-control methods for representing, managing, and reconciling divergent instances descended from a shared saved state"
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The criteria for assigning identity and responsibility among software instances that share an earlier saved state but later diverge",
+        "Criteria for assigning identity and responsibility to diverging software instances that originate from the same checkpoint",
+        "The legal or philosophical criteria for classifying the identity and responsibility of divergent software instances sharing a pre-copy history",
+        "Criteria for assigning moral responsibility and personal identity among copied software agents that diverge from a shared prior state",
+        "The criteria for assigning identity and responsibility among multiple software descendants that share a pre-copy history",
+        "The criteria for assigning responsibility or identity among software instances that share an initial state but develop divergent subsequent histories.",
+        "The criteria for assigning identity and responsibility to software instances with a shared initial state but divergent subsequent histories",
+        "The criteria for assigning identity and responsibility among software instances that share a checkpoint but later diverge",
+        "The criteria for assigning identity or responsibility to software instances that share a saved origin but subsequently diverge",
+        "The criteria for assigning responsibility or identity among software instances that share a saved origin but later diverge"
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "How versioning systems manage resource consumption and storage for multiple diverged instances with shared ancestry",
+        "The way versioning manages the computational and storage costs of preserving separate post-checkpoint histories for diverging instances"
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "How versioning systems represent multiple instances' shared ancestry while preserving their separate divergent histories",
+        "The versioning mechanisms used to preserve a shared checkpoint lineage while tracking divergent instances as separate processes with distinct subsequent histories.",
+        "Methods for efficiently tracking and managing divergence points among multiple instances branching from a shared saved state"
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "Whether continuity of consciousness or subjective experience is applicable and determinative for the metaphysical identity of a software agent"
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "Mechanisms for determining the identity and accountability of separate software instances after they diverge from a shared checkpoint"
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "A method for representing identity and state continuity across diverged software instances and managing their interaction or synchronization"
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "The criteria determining whether either diverged instance has a stronger claim to being the original",
+        "The criteria for deciding whether either or both descendant instances count as the continuation of the original agent.",
+        "Criteria for determining whether either divergent software instance continues the identity of the earlier agent",
+        "The reliable criteria, if any, for determining which descendant counts as the continuation of the original agent",
+        "The criteria for deciding whether either descendant qualifies as the continuation of the earlier agent",
+        "The criteria for deciding which, if any, descendant qualifies as the continuation of the earlier agent.",
+        "The criteria for determining whether either divergent instance retains the original identity after both descend from the same checkpoint",
+        "Criteria for determining whether and which descendant is the true continuation of the earlier agent",
+        "Reliable criteria for determining whether either descendant, and which one, is the true continuation of the original agent",
+        "Criteria for determining which, if any, descendant qualifies as the continuation of the earlier agent",
+        "The ethical or philosophical criteria for determining which, if any, branching copy legitimately continues the original agent's identity",
+        "The criteria for determining whether either descendant is the true continuation of the earlier agent and, if so, which one",
+        "The criteria for deciding which, if either, of two diverging instances from the same saved state is the true continuation of the original agent.",
+        "The criteria for deciding which, if either, of two instances diverging from the same checkpoint is the true continuation of the original agent",
+        "The criterion for determining which divergent instance, if any, retains the status of the original",
+        "The criteria for deciding whether a copied software instance constitutes the continuation of the original agent",
+        "The criteria for determining whether either divergent instance is the true continuation of the original agent.",
+        "Criteria for determining which, if either, of two software instances diverging from one checkpoint continues the earlier agent",
+        "The conditions, if any, that make one diverging instance the true continuation of the earlier agent rather than the other",
+        "The criteria for deciding which, if any, descendant counts as the continuation of the earlier agent",
+        "The criteria for determining which descendant, if any, is the true continuation of the earlier agent",
+        "The criterion for determining which divergent instance, if any, retains original status",
+        "The criteria for deciding whether either copy qualifies as the true continuation of the original agent",
+        "The criteria for deciding which copied descendant, if any, continues the original software agent",
+        "The criteria for determining which descendant, if any, constitutes the continuation of the earlier agent",
+        "Criteria for determining whether either diverged software instance counts as the continuation of the pre-copy agent",
+        "The conditions, if any, that justify identifying one diverged instance rather than the other as the true continuation of the earlier agent.",
+        "The criteria for determining whether a copied software instance is the continuation of the original agent.",
+        "Reliable criteria for determining which descendant, if any, is the continuation of the earlier agent",
+        "The criteria, if any, that could reliably determine which descendant qualifies as the continuation of the original agent.",
+        "The criteria for deciding which, if any, descendant qualifies as the continuation of the earlier agent",
+        "The criteria for deciding which, if any, descendant instance continues the identity of the original agent",
+        "Criteria for determining whether a descendant software instance continues the identity of an earlier agent",
+        "The criteria for deciding which, if any, descendant counts as the continuation of the original agent",
+        "The criteria for deciding whether a copied software instance constitutes the continuation of the earlier agent.",
+        "The criteria for determining which descendant, if any, is the true continuation of the original agent.",
+        "The criteria for determining which, if any, descendant is the continuation of the earlier agent",
+        "The criteria for deciding which descendant instance, if any, constitutes the continuation of the earlier agent",
+        "The criteria for determining whether either descendant is the true continuation of the original agent, and which one qualifies",
+        "Reliable criteria for determining which descendant, if any, is the true continuation of the earlier agent",
+        "Criteria beyond technical lineage for determining which descendant, if any, is the continuation of the earlier agent",
+        "The relative validity of each diverged instance's claim to continuity with the original identity",
+        "The criteria for deciding which copied and diverged instance, if any, legitimately continues the original agent",
+        "The criteria for determining which divergent software descendants, if any, preserve the personal identity of the pre-checkpoint agent",
+        "The criteria for determining whether either post-copy instance qualifies as the original",
+        "The criteria for deciding whether a descendant qualifies as the continuation of the earlier agent",
+        "The criteria for deciding which descendant, if any, constitutes the continuation of the earlier agent",
+        "Reliable criteria for determining which descendant, if any, legitimately continues the earlier agent",
+        "The criteria for determining whether either diverged instance qualifies as the original, and which one does",
+        "Criteria for deciding which, if any, descendant continues the identity of the earlier agent",
+        "Whether divergent instances from the same checkpoint have equal or unequal claims to continuity as the original agent",
+        "The criteria for deciding which post-copy instance, if any, constitutes the continuation of the original agent.",
+        "Criteria for deciding which, if any, descendant qualifies as the continuation of the earlier agent",
+        "The criteria beyond technical lineage for determining which descendant continues the earlier agent"
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "Whether biological twinning creates the same identity ambiguity as software copying or differs from it in a fundamental way"
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "The relevance of psychological or functional continuity in memory and decision-making to determining which instance, if any, continues the original agent"
+      ]
+    },
+    {
+      "cluster_ref": "K015",
+      "member_targets": [
+        "The implications of shared technical lineage and subsequent divergence for assigning legal or moral responsibility for different harms caused by each software instance",
+        "The implications of post-copy divergence from a shared checkpoint for assigning moral responsibility or legal accountability among distinct software instances.",
+        "Criteria for assigning moral or legal responsibility among diverged software instances that share an identical pre-copy history but take different actions",
+        "The implications of divergent software instances with a shared pre-copy history for assigning moral or legal responsibility for their different decisions",
+        "Which copied descendants, if any, inherit the original software system's moral or legal responsibility after diverging through different inputs and decisions.",
+        "The implications of post-checkpoint divergence between instances with a shared history for assigning moral or legal responsibility to each instance.",
+        "Criteria for assigning moral or legal responsibility among copied agent instances whose actions diverge after a shared checkpoint",
+        "The criteria for assigning moral or legal responsibility between a copied agent and its source when their post-instantiation actions diverge",
+        "Whether and how moral or legal responsibility for the pre-copy system’s actions is allocated between its diverging post-copy instances",
+        "The criteria for assigning moral or legal responsibility among initially identical software instances after they diverge and produce different outcomes."
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "Whether the passage proposes criteria for deciding which descendant, if any, continues the earlier agent"
+      ]
+    },
+    {
+      "cluster_ref": "K017",
+      "member_targets": [
+        "Whether human personal-identity problems have analogous implications for determining which duplicated software instance, if any, has the stronger claim to continuity with the original agent"
+      ]
+    },
+    {
+      "cluster_ref": "K018",
+      "member_targets": [
+        "Whether deleting the original instance after copying changes which copy, if any, qualifies as the true continuation of the earlier agent"
+      ]
+    },
+    {
+      "cluster_ref": "K019",
+      "member_targets": [
+        "Methods for resolving versioning conflicts when diverged software instances modify the same persistent external resource",
+        "Methods for synchronizing or communicating between diverged instances that need to coordinate or share information after branching from a common checkpoint",
+        "How versioning resolves conflicting writes to shared resources or memory by instances that diverged from the same saved state",
+        "Methods for synchronizing state or maintaining consistency between instances that diverged after originating from the same checkpoint",
+        "Methods for maintaining synchronization or consistency when diverged software instances communicate or access shared external resources",
+        "Methods for synchronizing or enabling communication between diverged software instances descended from the same checkpoint"
+      ]
+    },
+    {
+      "cluster_ref": "K020",
+      "member_targets": [
+        "Whether identity uncertainty in copied and diverging software systems is genuinely metaphysical or instead semantic and convention-dependent"
+      ]
+    },
+    {
+      "cluster_ref": "K021",
+      "member_targets": [
+        "The practical advantages of checkpoint-based pausing and restoration over uninterrupted software execution"
+      ]
+    },
+    {
+      "cluster_ref": "K022",
+      "member_targets": [
+        "The criteria for representing identity and continuity between diverging software instances and determining whether either descendant counts as the original after a shared checkpoint"
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "Technical lineage does not by itself settle whether one, both, or neither descendant should be described as the continuation of the earlier agent.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

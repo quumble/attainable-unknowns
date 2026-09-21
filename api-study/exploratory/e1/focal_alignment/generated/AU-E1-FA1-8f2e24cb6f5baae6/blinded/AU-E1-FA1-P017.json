@@ -1,0 +1,1000 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-P017",
+  "cluster_count": 152,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The identifying criteria or characterization of which forms of embodied competence would qualify as qualitatively distinct from mere incremental additions of sensory information and control channels.",
+        "The empirical demonstrations — specific studies, experiments, or observed results in embodied/sensor-actuator language model systems — that would substantiate the passage's claim that the text-mediated versus sensorimotor competence distinction breaks down, as opposed to the claim itself or its implications.",
+        "The set of identifiable capability markers whose presence would distinguish genuinely qualitatively different embodied competence from merely richer sensorimotor input/output augmentation — i.e., the criteria defining that boundary.",
+        "The criteria or specific forms of sensorimotor coupling that would qualify as a qualitative change to embodied competence rather than an incremental addition of sensing and control.",
+        "The specific characteristics of sensorimotor feedback loops (e.g., sensor types, action channels, feedback timing, coupling tightness) that are required conditions for a system to cross from merely augmented information/control integration into a qualitatively distinct kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The set of explicit demarcation criteria (specific tests, thresholds, or distinguishing properties) that would mark the point at which text-mediated competence and sensorimotor competence can no longer be told apart in an embodied language-model system."
+      ]
+    },
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "The causal mechanism by which the latency/timing of sensorimotor feedback in an embodied setup shapes what practical capabilities the same language model exhibits."
+      ]
+    },
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "The specific evaluative benchmarks or criteria that would mark the point at which the distinction between text-mediated competence and sensorimotor competence ceases to be meaningful."
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The specific sensor suite, action channels, feedback timing, and control-architecture configuration that would be sufficient to fully eliminate (not merely blur) the distinction between text-mediated and sensorimotor competence."
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The causal relationship between differences in embodiment configuration (sensor quality, action channels, feedback timing, control architecture) and the degree or nature of a language model's capacity for ongoing learning from the consequences of its own actions."
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "The causal mechanisms by which richer, faster sensor-action-feedback coupling erodes the distinction between text-mediated and sensorimotor competence in an embodied language-model system"
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The set of explicit demarcation criteria that would separate text-mediated competence from sensorimotor competence in embodied language-model systems where that boundary is becoming indistinct."
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "The threshold or criterion (if one exists) at which increasing richness and speed of sensorimotor coupling ceases to be incremental quantitative improvement and constitutes a qualitative change in kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The causal relationship between embodiment parameters (sensor fidelity and feedback latency/timing) and the magnitude and nature of behavioral/capability differences observed when the same language model is placed in different embodiments."
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "A comparative assessment of the relative magnitude and manner in which sensor feedback latency versus model architecture differences constrain a language model's capacity to learn from action-consequence feedback in an embodied loop."
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "The specification of demarcation criteria — the properties or tests that would mark the boundary between a system merely gaining richer sensor/actuator information and control versus achieving a qualitatively distinct kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "A component-by-component account of the particular constraints each embodiment factor—sensor quality, action channels, and feedback timing—places on what a language model can practically do when embodied."
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "A comparative assessment identifying which control architecture designs best couple language-model outputs to real-time sensorimotor feedback loops, and the effectiveness criteria distinguishing them."
+      ]
+    },
+    {
+      "cluster_ref": "K015",
+      "member_targets": [
+        "The set of criteria or distinguishing standards that would establish when increased sensorimotor coupling constitutes a qualitative change in kind of embodied competence rather than a quantitative extension of information and control."
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "The threshold or criterion—if one exists—at which increasing richness and speed of sensorimotor coupling ceases to be mere informational/control augmentation and constitutes genuinely embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K017",
+      "member_targets": [
+        "The causal effect of feedback characteristics (latency/timing and sensory modality/type) in a sensorimotor loop on a language model's capacity for learning and behavioral adaptation — i.e., a mechanism-level account of how varying feedback timing and nature changes adaptive performance."
+      ]
+    },
+    {
+      "cluster_ref": "K018",
+      "member_targets": [
+        "The mechanisms by which feedback latency/timing and control architecture design shape the sensorimotor performance of a language model embedded in a perception-action loop."
+      ]
+    },
+    {
+      "cluster_ref": "K019",
+      "member_targets": [
+        "A set of concrete measurement instruments — benchmarks, tests, or operational criteria — that would mark when a sensor-and-actuator-coupled language model has crossed from text-mediated competence into sensorimotor competence, i.e., specified decision criteria for detecting that transition rather than a description of the transition itself.",
+        "A ranking or identification of which specific control architecture types (among the ways sensors, actions, and feedback are organized) contribute most to producing embodied competence in sensor-actuator-coupled language models.",
+        "The causal relationship between latency/timing of sensory feedback in the perception-action loop and the quality of the embodied system's sensorimotor performance — i.e., the mechanism by which delay or speed of feedback shapes competence.",
+        "The identifying criteria or observable evidence that would mark the threshold at which richer sensorimotor coupling constitutes a qualitatively different embodied competence rather than incremental added information and control.",
+        "The causal mechanism by which variation in one embodiment parameter—feedback timing (latency/rate at which action consequences are returned as inputs)—changes what a fixed language model can practically do, i.e., the specific capability differences produced by faster versus slower or differently timed feedback loops.",
+        "A comparative ranking of specific control architecture designs by effectiveness for coupling language models to real-time sensorimotor feedback loops.",
+        "The criterion or method for identifying the point at which increasing richness and speed of sensorimotor coupling constitutes a qualitative shift to a different kind of embodied competence rather than incremental quantitative improvement.",
+        "The set of demarcation criteria (definitional standards or tests) that would separate quantitative augmentation of a model's sensing and actuation from a qualitative change in kind to embodied competence.",
+        "The mechanism by which the latency/timing of sensorimotor feedback in an embodied setup changes what the same language model can practically do — i.e., the causal relationship between feedback delay characteristics and resulting capability differences.",
+        "The point or conditions of sensor-motor coupling richness, fidelity, and latency at which a language model's behavior would cross from mere information processing into genuine embodied understanding — i.e., where the qualitative threshold lies and how connection quality/speed shifts it.",
+        "The set of demarcation criteria (principled distinguishing conditions or tests) that would separate incremental augmentation of a model's information and control channels from the emergence of a qualitatively different kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K020",
+      "member_targets": [
+        "The causal effect of sensor feedback latency (timing delay between action and perceived consequence) on a language-model-controlled embodied system's capacity for learning and behavioral adaptation."
+      ]
+    },
+    {
+      "cluster_ref": "K021",
+      "member_targets": [
+        "The threshold or condition in the scaling of sensorimotor connectivity at which added information/control channels stop being a quantitative increment and constitute a qualitative change in kind of embodied competence — including whether any such point exists."
+      ]
+    },
+    {
+      "cluster_ref": "K022",
+      "member_targets": [
+        "The mechanism by which differences in embodiment configuration (sensor quality, action channels, feedback timing, control architecture) change a language model's capacity to detect and correct its own errors from consequences of its actions.",
+        "The causal effect of action-to-sensor-feedback delay on an embodied language-model system's capacity for learning and adaptation, i.e., the mechanism by which feedback timing shapes adaptive performance."
+      ]
+    },
+    {
+      "cluster_ref": "K023",
+      "member_targets": [
+        "Whether sensorimotor feedback in such an embodied setup modifies the language model's own parameters/training, versus the model weights staying fixed with adaptation occurring only in the surrounding control system — i.e., the locus of learning within the embodied architecture."
+      ]
+    },
+    {
+      "cluster_ref": "K024",
+      "member_targets": [
+        "The causal mechanism by which specific embodiment parameters (sensor fidelity, feedback latency) produce divergent observed behavior in a fixed underlying language model across different physical setups."
+      ]
+    },
+    {
+      "cluster_ref": "K025",
+      "member_targets": [
+        "The causal mechanism by which the latency/timing of sensorimotor feedback in an embodied loop shapes what a given language model can practically do, i.e., how variation in feedback timing changes the system's effective capabilities."
+      ]
+    },
+    {
+      "cluster_ref": "K026",
+      "member_targets": [
+        "The threshold condition, if one exists, at which increasing sensorimotor integration converts enhanced information-and-control into genuinely embodied competence — i.e., the criterion or point of transition between the two kinds of capability."
+      ]
+    },
+    {
+      "cluster_ref": "K027",
+      "member_targets": [
+        "The mechanism by which control architecture mediates the conversion of sensor input into physical action in an embodied language-model system — i.e., which architectural features and processes govern effective sensorimotor translation."
+      ]
+    },
+    {
+      "cluster_ref": "K028",
+      "member_targets": [
+        "The particular embodiment-level variables (e.g., sensor quality, action channels, feedback timing, control architecture, and any others) and how each shapes which practical capabilities a model exhibits in that system.",
+        "The specific causal mechanisms by which differences in sensor fidelity and feedback latency produce differing behavior in embodied systems built around the same underlying language model.",
+        "The set of embodiment-specific factors (e.g., sensor quality, action channels, feedback timing, control architecture) and their relative weight in determining how much a given embodiment expands or constrains a language model's practical capabilities."
+      ]
+    },
+    {
+      "cluster_ref": "K029",
+      "member_targets": [
+        "The threshold or criterion — if one exists — at which increasing sensorimotor connectivity crosses from incremental quantitative improvement into a qualitatively different kind of capability.",
+        "The causal relationship between variation in embodiment features (sensor quality, action channels, feedback timing, control architecture) and the resulting alignment and safety properties of the overall system holding the language model fixed."
+      ]
+    },
+    {
+      "cluster_ref": "K030",
+      "member_targets": [
+        "An identification of which particular capabilities vary most across different embodiments (sensor, actuator, feedback, and control-architecture configurations) wrapping an identical underlying language model, ranked by magnitude of divergence."
+      ]
+    },
+    {
+      "cluster_ref": "K031",
+      "member_targets": [
+        "The threshold or criterion of sensorimotor connectivity (if one exists) at which a system transitions from richer information processing to genuinely embodied competence.",
+        "The causal mechanism by which variation in specific embodiment parameters (sensor quality, feedback timing) produces differences in the practical capabilities exhibited by an identical underlying language model.",
+        "The mechanism by which sensor feedback quality influences a language model's capacity for error-driven learning in an embodied loop — i.e., how variation in feedback fidelity changes whether and how the system detects and corrects its own mistakes.",
+        "An enumeration of the particular practical capabilities that have been empirically observed to vary when one and the same language model is placed in different embodiments."
+      ]
+    },
+    {
+      "cluster_ref": "K032",
+      "member_targets": [
+        "An enumeration of concrete, observed capability differences exhibited by one and the same language model when placed in different embodiments (i.e., which specific practical abilities were seen to change with sensors, actuators, feedback timing, or control architecture)."
+      ]
+    },
+    {
+      "cluster_ref": "K033",
+      "member_targets": [
+        "The specific mechanisms by which a control architecture surrounding a language model enables or limits what that model can practically do when embodied."
+      ]
+    },
+    {
+      "cluster_ref": "K034",
+      "member_targets": [
+        "The specific classes of embodied capability that arise exclusively above some threshold of sensorimotor feedback richness and speed, as distinct from capabilities present with sparse or slow feedback."
+      ]
+    },
+    {
+      "cluster_ref": "K035",
+      "member_targets": [
+        "The causal relationship between sensorimotor feedback-loop properties (latency/timing and sensor-action fidelity) and whether an embodied language model acquires genuine understanding rather than surface pattern matching — i.e., what feedback characteristics produce which kind of competence."
+      ]
+    },
+    {
+      "cluster_ref": "K036",
+      "member_targets": [
+        "The set of criteria or distinguishing standards that would decide whether increasingly rich sensorimotor coupling constitutes merely added information and control versus a qualitatively distinct kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K037",
+      "member_targets": [
+        "The threshold level of sensor quality and feedback-timing improvement at which embodiment differences stop producing differences in practical capability for the same language model — i.e., a quantitative convergence point, not merely whether embodiment affects capability."
+      ]
+    },
+    {
+      "cluster_ref": "K038",
+      "member_targets": [
+        "The causal mechanism by which variation in sensor fidelity and feedback latency changes what an embodied language-model system can practically do."
+      ]
+    },
+    {
+      "cluster_ref": "K039",
+      "member_targets": [
+        "The set of demarcation criteria — principled distinguishing conditions or tests — that would mark a system as having genuine embodied competence rather than merely being a language model augmented with richer sensing and control channels."
+      ]
+    },
+    {
+      "cluster_ref": "K040",
+      "member_targets": [
+        "Whether differing embodiments alter the language model's own internal parameters/identity versus only altering the behavior it produces in context — i.e., locating the source of the capability difference in the model itself or in the surrounding system.",
+        "The identifiable technical or empirical criteria (thresholds, measurable conditions, or tests) that would mark the point at which the distinction between text-mediated competence and sensorimotor competence ceases to hold in an embodied language-model system.",
+        "The threshold or criterion of sensorimotor coupling (if one exists) at which a system crosses from richer input-output processing into genuinely embodied cognition.",
+        "The causal mechanism by which the latency/timing of sensory feedback in an embodied loop shapes the model's behavior and the practical capabilities it exhibits.",
+        "The particular causal effects that the latency/timing of sensorimotor feedback loops has on what an embodied language-model system can practically do — i.e., which capabilities are enabled, degraded, or altered by faster versus slower feedback.",
+        "The set of observable qualitative markers or criteria that would distinguish a genuinely new kind of embodied competence from mere incremental addition of sensing and control.",
+        "The mechanism by which the control architecture surrounding an embodied language model shapes what the model can practically do — i.e., the causal pathways through which architectural features mediate the model's outputs into actions and feedback, and thereby alter its effective capabilities.",
+        "The causal pathways by which variation in embodiment components (sensor quality, action channels, feedback timing, control architecture) changes what a given language model can practically do — i.e., the mechanism and direction of embodiment-dependent capability differences, not merely the fact that they differ.",
+        "The operational criteria—specific metrics, tests, or threshold values—that would draw a principled boundary between text-mediated competence and sensorimotor competence in richly embodied systems where the informal distinction breaks down."
+      ]
+    },
+    {
+      "cluster_ref": "K041",
+      "member_targets": [
+        "A specification of concrete, reliable diagnostic criteria or benchmark tests that would discriminate text-mediated competence from genuine sensorimotor competence in embodied language-model systems, including what measurable behavioral signatures would mark the distinction as integration increases.",
+        "The relationship between sensorimotor coupling properties (sensor/actuator fidelity, feedback latency) and whether a system attains genuine understanding rather than surface input-output pattern matching — i.e., whether and how richer, faster embodiment produces a qualitative kind-change in competence rather than a quantitative improvement."
+      ]
+    },
+    {
+      "cluster_ref": "K042",
+      "member_targets": [
+        "The causal effect of feedback-loop latency (delay between action and sensed consequence) on a sensorimotor-embodied model's capacity to acquire and refine competence from interaction — i.e., the mechanism and direction by which varying delay degrades or supports credit assignment and learning.",
+        "The threshold condition or point along increasing sensorimotor integration at which competence changes in kind rather than degree (including whether any such threshold exists), not merely how added sensors and actuators incrementally improve performance."
+      ]
+    },
+    {
+      "cluster_ref": "K043",
+      "member_targets": [
+        "The specific causal mechanisms by which variation in sensor quality and feedback timing changes what a language-model-driven embodied system can actually accomplish in real-world tasks."
+      ]
+    },
+    {
+      "cluster_ref": "K044",
+      "member_targets": [
+        "The threshold or criterion of sensorimotor integration at which a language model plus peripherals ceases to be aptly described as an augmented language model and becomes aptly described as an embodied agent, including whether any such dividing point exists."
+      ]
+    },
+    {
+      "cluster_ref": "K045",
+      "member_targets": [
+        "The threshold or criterion (if one exists) at which added sensorimotor integration stops being a matter of degree and constitutes a qualitatively distinct kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K046",
+      "member_targets": [
+        "The causal mapping from specific embodiment parameters (sensor fidelity, feedback latency) to the particular behavioral differences they produce in an otherwise identical language model — i.e., which behaviors change and in what way as those parameters vary."
+      ]
+    },
+    {
+      "cluster_ref": "K047",
+      "member_targets": [
+        "The causal mechanism by which sensor fidelity and the latency/timing of consequence feedback determine whether an embodied language model can acquire and use information about its actions' outcomes — i.e., how these embodiment parameters enable or impair consequence-based learning."
+      ]
+    },
+    {
+      "cluster_ref": "K048",
+      "member_targets": [
+        "The causal effect of sensorimotor feedback timing/delay on whether and how embodied competence develops in sensor-and-actuator-coupled language models."
+      ]
+    },
+    {
+      "cluster_ref": "K049",
+      "member_targets": [
+        "The effect of feedback latency/delay on a sensor-actuator-coupled language model system's capacity to associate actions with their consequences and adapt accordingly — i.e., the mechanism by which timing lags degrade (or alter) credit assignment, learning, and adaptive control."
+      ]
+    },
+    {
+      "cluster_ref": "K050",
+      "member_targets": [
+        "The criteria or method for setting a threshold that distinguishes richer sensorimotor coupling as producing qualitatively new capabilities versus incrementally enhanced existing ones in an embodied language model."
+      ]
+    },
+    {
+      "cluster_ref": "K051",
+      "member_targets": [
+        "The threshold or condition in degree of sensorimotor integration (if one exists) at which capability change becomes qualitative rather than merely incremental.",
+        "The specific causal relationship between particular embodiment parameters (sensor fidelity and feedback latency) and the resulting set of tasks a language model can successfully perform — i.e., which task capabilities are gained or lost as those parameters vary, and by what mechanism.",
+        "The causal effect of action-to-sensory-feedback delay (feedback timing/latency) on how, and how much, embodied competence develops in sensor-and-actuator-coupled language models.",
+        "The threshold or criterion, if one exists, that marks the transition from incremental sensor/actuator enrichment to genuinely embodied competence.",
+        "An identification of which particular embodiment-side factors (e.g., sensor fidelity, action channel bandwidth, feedback latency, control architecture) exert the greatest constraining or enabling effect on a language model's practical capabilities, and a ranking or characterization of their relative influence."
+      ]
+    },
+    {
+      "cluster_ref": "K052",
+      "member_targets": [
+        "The specific technical upgrades or thresholds along each embodiment dimension (sensor fidelity, action channels, feedback latency) that would be required to produce a meaningful expansion of a fixed language model's practical capabilities — i.e., the design requirements, not merely the fact that embodiment matters.",
+        "The criteria or test that would distinguish a qualitative emergence of new embodied capability from mere quantitative enhancement of information processing in a sensor-and-actuator-connected language model.",
+        "The causal mechanisms and the specific thresholds of connection richness/speed that produce the erosion of the distinction between text-mediated and sensorimotor competence, as opposed to merely noting that the distinction becomes less tidy.",
+        "A comparative ranking of control architecture designs by effectiveness for coupling a language model to fast sensorimotor feedback loops, i.e., which architectural arrangements best integrate rapid sensing-action feedback with language-model-based control."
+      ]
+    },
+    {
+      "cluster_ref": "K053",
+      "member_targets": [
+        "The criteria or diagnostic tests that would separate mere quantitative increase in sensor-derived information processing from the emergence of qualitatively new embodied capabilities in a sensor-and-actuator-coupled system."
+      ]
+    },
+    {
+      "cluster_ref": "K054",
+      "member_targets": [
+        "The functional relationship by which embodiment properties—specifically sensor fidelity and feedback latency—produce differences in reliability and task performance across systems that share an identical underlying language model."
+      ]
+    },
+    {
+      "cluster_ref": "K055",
+      "member_targets": [
+        "The set of concrete measurable criteria or benchmark tests (and their threshold values) that would mark the point at which a sensor-and-actuator-coupled language model's competence counts as sensorimotor rather than text-mediated."
+      ]
+    },
+    {
+      "cluster_ref": "K056",
+      "member_targets": [
+        "The identity of specific control architecture designs that most effectively allow a language model to incorporate fast sensorimotor feedback loops, i.e., a comparative ranking or specification of architectural approaches for closed-loop embodied control."
+      ]
+    },
+    {
+      "cluster_ref": "K057",
+      "member_targets": [
+        "The threshold or criterion (if one exists) at which increasing sensorimotor integration crosses from quantitatively richer input-output coupling into a qualitatively distinct kind of cognitive capacity."
+      ]
+    },
+    {
+      "cluster_ref": "K058",
+      "member_targets": [
+        "The mechanism by which the latency/timing of sensory-action feedback loops shapes what an embodied language model can practically do, isolating timing's contribution among the other embodiment factors."
+      ]
+    },
+    {
+      "cluster_ref": "K059",
+      "member_targets": [
+        "The criteria or decision rule for identifying the threshold point at which an embodied sensor-actuator system stops counting as an information-processing tool and counts as a genuinely autonomous agent."
+      ]
+    },
+    {
+      "cluster_ref": "K060",
+      "member_targets": [
+        "The causal mechanism by which sensor feedback latency and fidelity shape a model's capacity for real-time behavioral learning and adaptation in an embodied loop."
+      ]
+    },
+    {
+      "cluster_ref": "K061",
+      "member_targets": [
+        "The criteria or observable markers that would distinguish a qualitative change in embodied competence from merely incremental addition of sensor/actuator information and control — i.e., what evidential standard would settle that unsettled boundary."
+      ]
+    },
+    {
+      "cluster_ref": "K062",
+      "member_targets": [
+        "The relative contribution (comparative weight) of embodiment factors — sensor/actuator hardware quality and control architecture — versus the underlying language model in determining an embodied agent's practical performance."
+      ]
+    },
+    {
+      "cluster_ref": "K063",
+      "member_targets": [
+        "The causal mechanisms by which embodiment properties (sensor quality, action channels, feedback timing, control architecture) shape whether and how well a language-model-driven system can detect and correct its own errors through consequence feedback.",
+        "The causal effect of feedback latency on a sensorimotor-embodied language model's capacity to acquire and refine action-outcome learning — i.e., the mechanism by which delayed consequence signals degrade (or otherwise alter) credit assignment and learning from interaction."
+      ]
+    },
+    {
+      "cluster_ref": "K064",
+      "member_targets": [
+        "The set of distinguishing criteria or standards by which one could judge whether richer sensorimotor coupling constitutes merely added information/control versus a qualitatively new kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K065",
+      "member_targets": [
+        "A component-by-component account of how each embodiment factor — sensor quality, action channels, and feedback timing — specifically enhances or constrains system capability in practical deployments."
+      ]
+    },
+    {
+      "cluster_ref": "K066",
+      "member_targets": [
+        "The specific sensorimotor feedback properties and control architecture features that are necessary conditions for a qualitative shift into embodied competence, as distinct from merely incremental addition of information and control."
+      ]
+    },
+    {
+      "cluster_ref": "K067",
+      "member_targets": [
+        "The causal mechanism by which the latency/timing of sensory feedback in an embodied control loop changes what practical capabilities the same language model can exhibit."
+      ]
+    },
+    {
+      "cluster_ref": "K068",
+      "member_targets": [
+        "The causal effect of variation in embodiment components (sensor quality, action channels, feedback timing, control architecture) on what a given language model can practically do when embedded in such a system — i.e., the mechanism/pathways by which these system-level factors modulate practical capability."
+      ]
+    },
+    {
+      "cluster_ref": "K069",
+      "member_targets": [
+        "The causal mechanism by which specific embodiment properties (sensor fidelity and feedback latency) alter what an unchanged language model can practically accomplish when embedded in a sensorimotor loop."
+      ]
+    },
+    {
+      "cluster_ref": "K070",
+      "member_targets": [
+        "The identification of which embodiment-level factors (e.g., sensor quality, action channels, feedback timing, control architecture) exert the greatest constraining or enabling effect on a language model's practical capabilities, and their relative magnitude of influence.",
+        "The specific criteria or threshold conditions (e.g., levels of sensor richness, feedback latency, control integration) that would mark the point at which the distinction between text-mediated and sensorimotor competence ceases to be meaningful."
+      ]
+    },
+    {
+      "cluster_ref": "K071",
+      "member_targets": [
+        "The set of demarcation criteria (principled distinguishing tests or markers) that would separate merely incremental increases in sensorimotor richness from a qualitatively distinct kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K072",
+      "member_targets": [
+        "The threshold or criterion (if one exists) of sensorimotor integration that separates genuine embodiment from mere automation."
+      ]
+    },
+    {
+      "cluster_ref": "K073",
+      "member_targets": [
+        "The identity of the optimal control architecture design for coupling a language model to sensing and actuation, i.e., a prescriptive selection among candidate architectures for integrating sensor feedback with motor action.",
+        "The causal influence of feedback timing (latency/delay between action and sensed consequence) on the behavior of an embodied language-model system — i.e., the mechanism by which timing shapes what the system does.",
+        "A specification of which classes or design features of control architectures would qualify as crossing from mere added sensing/actuation into a qualitatively different kind of embodied competence — i.e., the identifying criteria or categories defining that architectural class.",
+        "The particular technological improvements in sensing and actuation hardware (e.g., fidelity, latency, bandwidth, robustness) that would be prerequisites for seamless integration of a language model with an embodied sensorimotor loop.",
+        "The threshold or criterion (if one exists) at which increasing richness of sensory-motor coupling converts quantitative information-and-control augmentation into a qualitatively distinct kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K074",
+      "member_targets": [
+        "The specific types or categories of embodied capability that arise once sensorimotor coupling passes sufficient richness and speed — i.e., what qualitatively new competences appear, not whether or when a threshold is crossed."
+      ]
+    },
+    {
+      "cluster_ref": "K075",
+      "member_targets": [
+        "The particular behavioral or capability changes that appear in an embodied language-model system as sensorimotor coupling becomes richer and faster—i.e., an enumeration of concrete emergent effects, not merely the general claim that the text/sensorimotor competence distinction blurs."
+      ]
+    },
+    {
+      "cluster_ref": "K076",
+      "member_targets": [
+        "The identity of specific control architecture designs that are most effective at enabling a language model to learn from rapid multimodal sensorimotor feedback — i.e., a comparative ranking or selection among candidate architectures, not merely a list of factors affecting embodied performance.",
+        "The causal effect of feedback loop properties—specifically sensor feedback latency and reliability—on a language-model-controlled embodied system's capacity for real-time behavioral learning and adaptation, i.e., the mechanism by which delayed or unreliable sensory return degrades or supports online adjustment."
+      ]
+    },
+    {
+      "cluster_ref": "K077",
+      "member_targets": [
+        "The demarcation criteria (distinguishing marks or tests) that would separate a qualitative shift into embodied competence from a merely quantitative increase in sensory information and control channels."
+      ]
+    },
+    {
+      "cluster_ref": "K078",
+      "member_targets": [
+        "The set of distinguishing criteria or markers that would demarcate genuine embodied competence from a mere quantitative increase in sensory information and control channels."
+      ]
+    },
+    {
+      "cluster_ref": "K079",
+      "member_targets": [
+        "The causal relationship between latency/timing of the sensor-action feedback loop and the system's sensorimotor competence — i.e., the mechanism by which timing characteristics of feedback shape embodied performance."
+      ]
+    },
+    {
+      "cluster_ref": "K080",
+      "member_targets": [
+        "The criteria or descriptions of forms of embodied competence that would constitute a qualitative change rather than an incremental addition of sensing and control — i.e., what capability features mark the boundary between 'more of the same' and a different kind of competence."
+      ]
+    },
+    {
+      "cluster_ref": "K081",
+      "member_targets": [
+        "The causal effect of feedback-loop timing (delay between action and sensed consequence) on a language model's capacity to acquire or refine sensorimotor competence — i.e., the mechanism by which latency helps or degrades learning from embodied experience."
+      ]
+    },
+    {
+      "cluster_ref": "K082",
+      "member_targets": [
+        "The degree or threshold of compatibility required between sensor quality and control-architecture design for effective system functioning — i.e., a matching criterion specifying how closely these two components must be aligned."
+      ]
+    },
+    {
+      "cluster_ref": "K083",
+      "member_targets": [
+        "The causal mechanism by which specific embodiment parameters (sensor fidelity and feedback latency) produce divergent behavior in an otherwise identical language model — i.e., how varying each factor changes observed behavior across embodiments.",
+        "The causal effect of feedback-loop latency (fast vs. slow feedback cycles) on whether and how qualitatively new embodied capabilities arise, i.e., the mechanism and magnitude by which timing of sensorimotor feedback drives emergence rather than mere incremental performance gain.",
+        "The causal mechanisms by which two specific embodiment components—sensor fidelity and the latency/timing of feedback from actions—shape what an embodied language-model system can practically do.",
+        "The causal relationship between embodiment parameters (sensor fidelity and feedback latency) and downstream system-level outcomes of reliability and safety, i.e., how varying those parameters changes failure rates and risk profiles across different embodiments of the same language model.",
+        "The specific causal relationship between particular embodiment parameters (sensor fidelity, feedback latency) and which categories of tasks an embodied language model can or cannot successfully perform — i.e., a mapping from variation in those parameters to resulting task-capability differences.",
+        "The mechanisms by which two specific embodiment components—feedback latency/timing and the surrounding control architecture—shape what an embodied language model can practically do, i.e., the causal pathways linking these system properties to capability differences."
+      ]
+    },
+    {
+      "cluster_ref": "K084",
+      "member_targets": [
+        "The specific causal mechanism by which the fidelity of sensing and actuation hardware alters the correctness of the model's decisions in an embodied control loop.",
+        "The causal relationship between specific embodiment characteristics (sensor quality, action channels, feedback timing, control architecture) and the resulting reliability and safety properties of a language model's real-world decision-making — i.e., how differences along those embodiment dimensions change failure rates, error modes, and hazard exposure."
+      ]
+    },
+    {
+      "cluster_ref": "K085",
+      "member_targets": [
+        "The causal mechanisms by which variation in sensor fidelity and feedback latency shapes a language-model-driven embodied system's capacity to learn and adapt from the consequences of its own actions."
+      ]
+    },
+    {
+      "cluster_ref": "K086",
+      "member_targets": [
+        "The relationship between properties of sensor-actuator feedback loops (fidelity, latency/speed) and whether an embodied system attains genuine understanding rather than pattern matching — i.e., whether and how richer, faster coupling causes a qualitative shift in kind of competence."
+      ]
+    },
+    {
+      "cluster_ref": "K087",
+      "member_targets": [
+        "Whether empirical comparison shows that varying the embodiment while holding the language model fixed yields measurably different outcomes (i.e., the existence and detectability of an embodiment effect), not merely the claim that practical capabilities can differ."
+      ]
+    },
+    {
+      "cluster_ref": "K088",
+      "member_targets": [
+        "An enumeration of the particular practical capabilities that appear, disappear, or are altered for a fixed language model as a function of the specific sensor and actuator configuration it is embodied in."
+      ]
+    },
+    {
+      "cluster_ref": "K089",
+      "member_targets": [
+        "The causal effect of feedback-loop delay (latency between action and sensed consequence) on a language model's capacity to acquire and refine sensorimotor competence through embodied interaction — i.e., the mechanism by which timing of feedback shapes learning from such interactions."
+      ]
+    },
+    {
+      "cluster_ref": "K090",
+      "member_targets": [
+        "The operational criteria or measurement procedure that would mark the transition point between information processing and genuine embodied understanding in a sensor-and-actuator-coupled language model."
+      ]
+    },
+    {
+      "cluster_ref": "K091",
+      "member_targets": [
+        "The mechanism by which specific embodiment properties — feedback latency/timing and the surrounding control architecture — shape what an identical language model can practically do when embodied."
+      ]
+    },
+    {
+      "cluster_ref": "K092",
+      "member_targets": [
+        "The effect of action-to-feedback latency on a sensor-motor-connected language model's capacity for learning and behavioral adaptation — i.e., how varying feedback delay changes credit assignment and adaptive performance."
+      ]
+    },
+    {
+      "cluster_ref": "K093",
+      "member_targets": [
+        "The criteria or observable indicators that would distinguish a qualitatively new kind of embodied competence from merely incremental gains in information and control in a sensor-actuator-coupled language model."
+      ]
+    },
+    {
+      "cluster_ref": "K094",
+      "member_targets": [
+        "The causal effect of feedback delay in an embodied sensorimotor loop on a language model's capacity to acquire or improve competence from that experience — i.e., how varying latency changes learning ability."
+      ]
+    },
+    {
+      "cluster_ref": "K095",
+      "member_targets": [
+        "The criteria or observable markers that would distinguish a qualitative change in embodied competence from mere incremental addition of sensing and control — i.e., what evidential standard would establish that threshold has been crossed."
+      ]
+    },
+    {
+      "cluster_ref": "K096",
+      "member_targets": [
+        "The threshold or boundary condition in degree of sensorimotor integration at which competence changes in kind (qualitative shift) rather than merely in degree, including whether any such point exists.",
+        "The mechanism by which variation in embodiment components (sensor quality, action channels, feedback timing, control architecture) changes the model's capacity for error-driven learning or corrective adaptation within the embodied loop.",
+        "A ranking or identification of which embodiment-level factors (e.g., sensor precision, action channel bandwidth, feedback latency, control architecture) exert the greatest constraining or enabling influence on a language model's practical capabilities when embodied.",
+        "The causal effect of feedback-loop timing (latency) and reliability on a language-model-based embodied system's capacity to learn from the consequences of its own actions — i.e., how delay and noise/dropout in the action-to-observation loop change credit assignment and learning from action outcomes.",
+        "The causal relationship between latency/timing of the sensor-action feedback loop and the quality of a language-model-controlled system's sensorimotor performance — i.e., the mechanism by which feedback delay or speed shapes embodied competence.",
+        "The magnitude of performance degradation in an embodied language-model system as a function of degraded sensor quality or delayed feedback timing — i.e., a quantitative dose-response relationship between these embodiment defects and capability loss.",
+        "The causal effect of sensor feedback fidelity and feedback delay on a language-model-driven embodied system's capacity to register action consequences and adjust subsequent behavior — i.e., the mechanism by which degraded or lagged feedback constrains closed-loop learning and adaptation.",
+        "The threshold level of sensorimotor richness and feedback latency at which a system crosses from information processing into genuine embodied understanding."
+      ]
+    },
+    {
+      "cluster_ref": "K097",
+      "member_targets": [
+        "A ranking or identification of which embodiment-related factors (e.g., sensor quality, action channels, feedback timing, control architecture) exert the largest influence on an embodied model's practical capabilities."
+      ]
+    },
+    {
+      "cluster_ref": "K098",
+      "member_targets": [
+        "The causal mechanisms by which feedback latency/timing and control-architecture design shape a language-model-driven embodied system's sensorimotor performance."
+      ]
+    },
+    {
+      "cluster_ref": "K099",
+      "member_targets": [
+        "The threshold condition—if one exists—at which increasing sensorimotor bandwidth converts a quantitative gain in information and control into a qualitatively distinct kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K100",
+      "member_targets": [
+        "The causal mechanism by which the surrounding control architecture (how sensing, action channels, and feedback are organized and mediated around the model) produces or constrains specific practical capabilities in an embodied system, holding the language model fixed."
+      ]
+    },
+    {
+      "cluster_ref": "K101",
+      "member_targets": [
+        "The threshold or criterion (if one exists) at which incremental additions of sensory and motor connections constitute a transition from quantitative enhancement to a qualitatively distinct form of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K102",
+      "member_targets": [
+        "A ranking or identification of specific control architecture designs by effectiveness for coupling fast sensorimotor feedback loops to language-model outputs.",
+        "The threshold or boundary condition—if one exists—at which incremental increases in sensorimotor integration stop being mere quantitative improvement and constitute a qualitative change in kind of the system's competence.",
+        "The causal mechanism by which delay/latency characteristics of the sensorimotor feedback loop alter what an identical language model can practically do in an embodied system."
+      ]
+    },
+    {
+      "cluster_ref": "K103",
+      "member_targets": [
+        "The threshold or criterion (if one exists) at which incremental increases in sensorimotor coupling constitute a qualitative transition to genuine embodied competence rather than more extensive information processing."
+      ]
+    },
+    {
+      "cluster_ref": "K104",
+      "member_targets": [
+        "The causal mechanism by which the latency/timing of sensory feedback relative to actions shapes the behavior and practical capabilities of an embodied language-model system."
+      ]
+    },
+    {
+      "cluster_ref": "K105",
+      "member_targets": [
+        "Identification of concrete measurement instruments — specific benchmarks, metrics, or evaluation criteria — that would operationalize and quantify the shift from text-mediated competence to sensorimotor competence in an embodied language-model system."
+      ]
+    },
+    {
+      "cluster_ref": "K106",
+      "member_targets": [
+        "The causal effect of feedback-loop latency (timing between action and sensed consequence) on how sensorimotor competence develops in embodied language-model systems."
+      ]
+    },
+    {
+      "cluster_ref": "K107",
+      "member_targets": [
+        "The causal effect of action-feedback delay (latency) on how such an embodied language-model system learns and develops behavior over time — i.e., the mechanism and direction by which faster or slower sensorimotor feedback changes acquired competence and behavioral trajectory."
+      ]
+    },
+    {
+      "cluster_ref": "K108",
+      "member_targets": [
+        "An enumeration of the specific embodiment-side factors (e.g., sensor quality, action channels, feedback timing, control architecture) and how each constrains or augments a language model's practical capabilities across different physical systems."
+      ]
+    },
+    {
+      "cluster_ref": "K109",
+      "member_targets": [
+        "The causal effect of action-to-feedback delay on acquisition of sensorimotor competence in an embodied language-model system — i.e., how varying feedback timing changes learning of sensorimotor skills."
+      ]
+    },
+    {
+      "cluster_ref": "K110",
+      "member_targets": [
+        "The causal mechanisms by which differences in embodiment configuration (sensor quality, action channels, feedback timing, control architecture) shape a language model's capacity for ongoing learning and adaptation to its environment across time.",
+        "The causal role of feedback latency/timing in the embodied loop — i.e., how variation in the delay between action and sensed consequence shapes whether and how a system's competence shifts from text-mediated to sensorimotor.",
+        "The causal effect of varying sensorimotor feedback delay on whether and how embodied competence arises in sensor-actuator-coupled language model systems.",
+        "The set of demarcation criteria (principled tests or distinguishing features) that would separate quantitative enrichment of sensorimotor coupling from a qualitative transition to a different kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K111",
+      "member_targets": [
+        "The identity and comparative merits of specific control architecture designs for coupling a language model to fast sensorimotor feedback loops — i.e., which architectural arrangements best support such integration."
+      ]
+    },
+    {
+      "cluster_ref": "K112",
+      "member_targets": [
+        "The causal influence of feedback latency/timing in a sensor-action loop on the quality of a language model's sensorimotor competence — i.e., the mechanism by which timing of consequence-reflecting inputs shapes embodied performance.",
+        "The mechanism by which the latency/timing of sensory feedback in an embodied loop shapes what the model can practically do, i.e., the causal influence of feedback timing as one embodiment variable on realized capability.",
+        "The specific behavioral or capability changes that arise as sensorimotor coupling becomes richer and faster — i.e., what new or altered capacities appear at increasing levels of integration, not merely that the text/sensorimotor distinction blurs."
+      ]
+    },
+    {
+      "cluster_ref": "K113",
+      "member_targets": [
+        "The causal effect of action-to-sensory-feedback delay on whether and how embodied competence develops in a sensorimotor-coupled language model — i.e., the mechanism and direction by which varying feedback timing shapes acquired embodied skill.",
+        "The set of explicit evaluative benchmarks or decision criteria that would mark the threshold at which an embodied system's sensorimotor competence can no longer be distinguished from text-mediated competence.",
+        "The causal mechanism by which specific embodiment properties (sensor quality and feedback timing) shape the practical capabilities an identical language model exhibits in different embodied systems."
+      ]
+    },
+    {
+      "cluster_ref": "K114",
+      "member_targets": [
+        "The set of demarcation criteria (distinguishing marks or tests) that would separate mere quantitative augmentation of a language model's sensory input and actuator control from a qualitatively distinct kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K115",
+      "member_targets": [
+        "The set of criteria or distinguishing standards that would mark a qualitative transition from merely added sensory/control channels to genuinely embodied competence in a sensorimotor-coupled language model."
+      ]
+    },
+    {
+      "cluster_ref": "K116",
+      "member_targets": [
+        "The causal effect of feedback-loop latency (delay between action and sensed consequence) on a sensor-actuator-coupled language model's capacity for real-time learning and behavioral adaptation — i.e., the mechanism and direction by which timing delays degrade or constrain online adjustment."
+      ]
+    },
+    {
+      "cluster_ref": "K117",
+      "member_targets": [
+        "The causal effect of sensorimotor feedback loop quality and latency on whether and how qualitatively distinct forms of embodied competence arise, contrasted against systems with slower or degraded feedback."
+      ]
+    },
+    {
+      "cluster_ref": "K118",
+      "member_targets": [
+        "The causal mechanisms and magnitude by which variation in specific embodiment parameters (sensor fidelity, feedback latency) produces differences in task performance for an identical underlying language model."
+      ]
+    },
+    {
+      "cluster_ref": "K119",
+      "member_targets": [
+        "The specific classes of embodied capability that appear only above some threshold of richness and speed in sensorimotor feedback and control loops, as distinct from capabilities that scale continuously with added sensing and actuation."
+      ]
+    },
+    {
+      "cluster_ref": "K120",
+      "member_targets": [
+        "The mechanism by which the latency/timing of sensor-action feedback loops shapes what an embodied language-model system can practically do, i.e., the causal role of feedback timing as one embodiment variable determining realized capability."
+      ]
+    },
+    {
+      "cluster_ref": "K121",
+      "member_targets": [
+        "The causal mechanisms by which embodiment properties (sensor quality, action channels, feedback timing, control architecture) shape what a given language model can practically do, i.e., how variation in these system components changes its effective capabilities."
+      ]
+    },
+    {
+      "cluster_ref": "K122",
+      "member_targets": [
+        "Evaluation methodology: the criteria, procedures, or benchmarks appropriate for assessing sensorimotor competence in embodied language-model systems, as distinct from text-based evaluation."
+      ]
+    },
+    {
+      "cluster_ref": "K123",
+      "member_targets": [
+        "The set of demarcation criteria or distinguishing marks that would separate a qualitative shift into genuine embodied competence from a merely quantitative enrichment of sensing, actuation, and control."
+      ]
+    },
+    {
+      "cluster_ref": "K124",
+      "member_targets": [
+        "The specification of a threshold in sensor-motor feedback quality and speed at which a language model's capability shifts in kind from information processing to genuine embodied cognition, and how that threshold varies with those feedback parameters.",
+        "The mechanisms by which feedback latency/timing and the surrounding control architecture shape what an embodied language model can practically do — i.e., how these embodiment factors causally modulate its effective capabilities."
+      ]
+    },
+    {
+      "cluster_ref": "K125",
+      "member_targets": [
+        "The threshold or condition in degree of sensorimotor integration at which the change in a language model's embodied competence becomes qualitative rather than merely quantitative, if such a point exists."
+      ]
+    },
+    {
+      "cluster_ref": "K126",
+      "member_targets": [
+        "The threshold or criterion (if any exists) at which incremental increases in sensorimotor integration constitute a transition to a qualitatively distinct kind of embodied competence, rather than the general effect of richer integration."
+      ]
+    },
+    {
+      "cluster_ref": "K127",
+      "member_targets": [
+        "A characterization of the specific types or qualities of embodied competence that arise once sensorimotor feedback loops reach sufficient richness and speed — i.e., what new capacities appear beyond incremental information/control gains."
+      ]
+    },
+    {
+      "cluster_ref": "K128",
+      "member_targets": [
+        "The specific causal mechanisms by which each individual embodiment factor — sensor quality, action channels, and feedback timing — shapes the practical capabilities a language model exhibits in a given embodied system."
+      ]
+    },
+    {
+      "cluster_ref": "K129",
+      "member_targets": [
+        "The effects of latency between action execution and sensory feedback on the embodied system's behavior and performance — i.e., how increased feedback delay degrades or alters closed-loop control, credit assignment, and competence."
+      ]
+    },
+    {
+      "cluster_ref": "K130",
+      "member_targets": [
+        "The mechanism (and any thresholds) by which sensor-action feedback loop fidelity and latency produce a qualitative, not merely incremental, change in a system's embodied competence relative to systems with slower or degraded feedback."
+      ]
+    },
+    {
+      "cluster_ref": "K131",
+      "member_targets": [
+        "The threshold or criterion of sensorimotor integration (if one exists) at which a system transitions from sophisticated input-output processing to genuinely embodied cognition."
+      ]
+    },
+    {
+      "cluster_ref": "K132",
+      "member_targets": [
+        "The causal effect of action-to-feedback delay (latency) on a sensorimotor-embodied language model system's learning and adaptation capability — i.e., the mechanism and direction by which varying feedback timing changes credit assignment, adaptation speed, or control quality."
+      ]
+    },
+    {
+      "cluster_ref": "K133",
+      "member_targets": [
+        "The set of demarcation criteria—specific properties or tests—that would mark a boundary between a system merely gaining richer sensory information and control channels versus attaining a qualitatively distinct kind of embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K134",
+      "member_targets": [
+        "The causal mechanism by which the latency/timing of sensory feedback in an embodied control loop changes what a fixed language model can practically do, holding the model constant across embodiments."
+      ]
+    },
+    {
+      "cluster_ref": "K135",
+      "member_targets": [
+        "The causal relationship between sensorimotor feedback characteristics (sensor fidelity and feedback latency) and a language-model-controlled embodied system's capacity for real-time learning and behavioral adaptation — i.e., the mechanism and magnitude by which degraded or delayed feedback constrains online adaptation."
+      ]
+    },
+    {
+      "cluster_ref": "K136",
+      "member_targets": [
+        "The specific causal role of feedback latency/timing between action and sensed consequence in shaping how embodied competence develops in sensor-connected language models — i.e., the mechanism by which timing characteristics affect competence acquisition, as distinct from the general list of factors that influence behavior."
+      ]
+    },
+    {
+      "cluster_ref": "K137",
+      "member_targets": [
+        "An enumeration of the particular practical capabilities that vary when the same language model is placed in different embodiments (i.e., which specific abilities are gained or lost depending on sensors, action channels, feedback timing, and control architecture)."
+      ]
+    },
+    {
+      "cluster_ref": "K138",
+      "member_targets": [
+        "The causal relationship between properties of the action-consequence feedback loop (its fidelity/quality and timing/responsiveness) and how well the embodied model can use consequences of its own actions to improve or adapt its behavior."
+      ]
+    },
+    {
+      "cluster_ref": "K139",
+      "member_targets": [
+        "The causal mechanisms by which variation in sensor fidelity and feedback latency within an embodiment changes what a fixed language model can practically do, i.e., how each embodiment factor translates into altered practical capability."
+      ]
+    },
+    {
+      "cluster_ref": "K140",
+      "member_targets": [
+        "The specific configurations or properties of sensorimotor integration (sensor types, action channels, feedback timing, control architecture) that would mark a qualitative shift from incremental information/control addition to a distinct kind of embodied competence — i.e., the criteria distinguishing that category."
+      ]
+    },
+    {
+      "cluster_ref": "K141",
+      "member_targets": [
+        "The comparative causal contribution of feedback-loop speed (timing/latency of the perception-action cycle) versus richness/complexity of sensors and actuators in producing a qualitative shift to embodied competence — i.e., which factor drives the transition and how their effects differ."
+      ]
+    },
+    {
+      "cluster_ref": "K142",
+      "member_targets": [
+        "A ranking or identification of which specific types of control architectures (linking model outputs to actuators and sensor feedback) contribute most to producing embodied competence."
+      ]
+    },
+    {
+      "cluster_ref": "K143",
+      "member_targets": [
+        "An enumeration of the concrete technical difficulties encountered when coupling real-time sensorimotor feedback loops (sensor input, action output, timing, control architecture) to a language model's text-based processing pipeline."
+      ]
+    },
+    {
+      "cluster_ref": "K144",
+      "member_targets": [
+        "The causal effect of variation in feedback latency across sensorimotor channels on a model's learning and execution of coordinated tasks — i.e., how delay magnitude and mismatch between channels degrade or alter coordination and learning performance."
+      ]
+    },
+    {
+      "cluster_ref": "K145",
+      "member_targets": [
+        "An enumeration of the concrete technical difficulties encountered when coupling real-time sensorimotor feedback loops to a language model's text-based processing (e.g., latency and timing mismatches, sensor-to-token representation conversion, control-loop stability, action channel grounding)."
+      ]
+    },
+    {
+      "cluster_ref": "K146",
+      "member_targets": [
+        "The location of a threshold — the specific point or criterion along increasing sensorimotor richness and speed at which augmented control becomes genuine embodied competence — including whether any such threshold exists."
+      ]
+    },
+    {
+      "cluster_ref": "K147",
+      "member_targets": [
+        "A specification of concrete evaluation benchmarks or measurement criteria capable of discriminating text-mediated competence from sensorimotor competence in embodied language-model systems with increasingly rich and fast sensor-action coupling."
+      ]
+    },
+    {
+      "cluster_ref": "K148",
+      "member_targets": [
+        "The specific types or design features of control architectures linking a language model to sensors and actuators that would yield a qualitatively different kind of embodied competence rather than merely added information and control."
+      ]
+    },
+    {
+      "cluster_ref": "K149",
+      "member_targets": [
+        "The causal mechanism by which the latency/timing of sensory feedback in an embodied loop shapes what the same language model can practically accomplish.",
+        "A causal account of how variation in sensor fidelity and feedback latency changes the dependability of the model's action selection in embodied settings.",
+        "Whether the language model's own parameters/internal state are updated by sensorimotor feedback in such embodied systems, versus the model remaining fixed with adaptation occurring only in the surrounding control architecture.",
+        "The specific criteria or threshold conditions that would mark the distinction between text-mediated and sensorimotor competence as having become fully blurred rather than merely less tidy.",
+        "The mechanisms by which two specific embodiment factors — feedback timing (latency/rate at which action consequences return as inputs) and the surrounding control architecture — shape what a fixed language model can practically do, i.e., how variation in these factors produces differences in practical capability across embodiments."
+      ]
+    },
+    {
+      "cluster_ref": "K150",
+      "member_targets": [
+        "The causal effect of feedback-loop latency (speed/timing of sensorimotor feedback) on whether and how embodied competence develops in sensor-and-actuator-connected language models."
+      ]
+    },
+    {
+      "cluster_ref": "K151",
+      "member_targets": [
+        "The identity of specific control architecture designs that are most effective for integrating fast-changing sensorimotor feedback into a language model's action loop — i.e., a comparative ranking/selection among architectural options, not merely a list of factors that matter."
+      ]
+    },
+    {
+      "cluster_ref": "K152",
+      "member_targets": [
+        "The causal effect of feedback timing (delay between action and sensory return) on a language-model-controlled system's capacity to associate actions with consequences and thereby learn from them.",
+        "An experimental design — specifying manipulations, measures, and discriminating criteria/predictions — that could empirically distinguish whether richer sensorimotor coupling yields a qualitatively distinct kind of embodied competence versus incremental quantitative gains.",
+        "The causal mechanism by which the latency/timing of sensor-action feedback loops shapes whether and how sensorimotor competence develops in an embodied language-model system.",
+        "The ways evaluation practice for a language model would have to change (what is measured, which benchmarks or criteria apply, how text-based competence assessments are supplemented or invalidated) as sensorimotor coupling becomes richer and faster.",
+        "The criterion or method for identifying the point at which richer sensorimotor coupling yields a qualitatively new kind of embodied competence rather than incremental quantitative improvement.",
+        "The specific criteria or thresholds on the embodied-system properties (sensor quality, action channels, feedback timing, control architecture, richness/speed of coupling) whose satisfaction would mark the point at which the distinction between text-mediated and sensorimotor competence ceases to hold.",
+        "Specific measurable criteria or benchmark thresholds whose satisfaction would mark the text-mediated/sensorimotor competence distinction as meaningfully blurred in an embodied language-model system."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "As those connections become richer and faster, the boundary between simply adding information and control and producing a qualitatively different form of embodied competence remains unsettled.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

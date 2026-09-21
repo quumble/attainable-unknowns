@@ -1,0 +1,277 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-P064",
+  "cluster_count": 18,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The method field teams use to determine an accurate bearing between checkpoints"
+      ]
+    },
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The criteria field teams use to select locations as checkpoints",
+        "The criteria field teams use to select locations as checkpoints",
+        "The criteria and process field teams use to select landmarks as checkpoints for a particular journey",
+        "The criteria field teams use to select locations as checkpoints",
+        "The criteria and process field teams use to select locations as checkpoints.",
+        "The criteria and process field teams use to select locations as journey checkpoints",
+        "The criteria or process field teams use to select checkpoints for dividing a journey into legs",
+        "The criteria field teams use to select locations as checkpoints",
+        "The criteria field teams use to select locations as checkpoints",
+        "The criteria field teams use to select locations as checkpoints",
+        "The criteria and process field teams use to identify and select checkpoints for dividing a journey into legs."
+      ]
+    },
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "Techniques field teams use to identify checkpoints that are difficult to recognize because of visibility or terrain conditions",
+        "Methods teams can use to verify that they have reached the correct checkpoint despite unexpected visibility or terrain conditions.",
+        "Methods field teams use to identify checkpoints when poor visibility or obscured terrain makes them difficult to recognize",
+        "Methods field teams can use to verify arrival at a checkpoint when visibility or terrain makes it difficult to recognize",
+        "The methods field teams use to verify that they have reached a checkpoint under poor-visibility conditions.",
+        "Methods field teams can use to reliably identify checkpoints despite poor visibility or terrain appearing different from the planned approach direction",
+        "Methods field teams can use to verify arrival at a checkpoint when environmental conditions make it difficult to recognize",
+        "Preparatory methods field teams can use to recognize checkpoints under poor-visibility conditions",
+        "Methods field teams can use to verify arrival at a checkpoint when expected landmarks are obscured by visibility or terrain conditions",
+        "Methods teams can use to improve checkpoint recognition under poor weather or visibility conditions",
+        "Methods field teams use to verify arrival at the correct checkpoint when difficult visibility or terrain prevents reliable visual recognition",
+        "Methods field teams can use to verify arrival at the correct checkpoint when expected landmarks are obscured by visibility or terrain conditions",
+        "The methods field teams use to verify arrival at a checkpoint when landmarks are hard to recognize.",
+        "Methods field teams can use to verify arrival at the correct checkpoint when poor visibility or obscured terrain makes recognition difficult",
+        "Methods field teams can use to improve reliable checkpoint identification under poor visibility or difficult terrain conditions",
+        "Methods field teams can use to reliably identify checkpoints when visibility or terrain obscures expected landmarks",
+        "The specific techniques field teams use to identify hard-to-recognize checkpoints under poor visibility or challenging terrain conditions.",
+        "The methods field teams use to verify arrival at a checkpoint that is not easily recognizable",
+        "Methods field teams can use to reliably identify checkpoints when visibility or terrain obscures expected landmarks",
+        "Methods field teams can use to verify that they have reached a checkpoint",
+        "Methods field teams can use to identify recognizable checkpoints and verify that they have reached the correct ones",
+        "Methods field teams use to identify checkpoints when visibility or terrain makes recognition difficult",
+        "Methods field teams can use to verify a checkpoint when weather or terrain makes it difficult to recognize",
+        "Methods for reliably identifying planned checkpoints when visibility or terrain differs from anticipated conditions",
+        "Methods field teams can use to reliably identify checkpoints when weather or poor visibility obscures landmarks",
+        "Methods field teams can use to distinguish checkpoints under severely limited visibility",
+        "The methods field teams use to verify arrival at the correct checkpoint when visibility or terrain makes it difficult to recognize."
+      ]
+    },
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "The ways field teams modify their route or travel plan when a planned checkpoint is difficult to recognize.",
+        "How a team should modify its route when a planned checkpoint is difficult to recognize",
+        "The ways field teams modify their navigation plan when a planned checkpoint is difficult to recognize",
+        "The route adaptations teams make when an expected checkpoint is difficult to recognize",
+        "The plan adjustments field teams make when a checkpoint is unexpectedly difficult to recognize",
+        "The adaptations field teams use when a planned checkpoint is difficult to recognize",
+        "How field teams modify checkpoint plans when weather or terrain makes checkpoints difficult to recognize",
+        "The ways teams modify their route plans when a planned checkpoint is unexpectedly difficult to recognize.",
+        "The adaptations field teams make when a planned checkpoint is unexpectedly difficult to recognize",
+        "Field teams’ response when a planned checkpoint is unrecognizable even under clear weather and good visibility",
+        "The actions field teams take when poor conditions make a planned checkpoint difficult to recognize",
+        "Ways field teams can adapt their navigation when a planned checkpoint is difficult to recognize",
+        "The appropriate team response when changing conditions make a planned checkpoint difficult to recognize.",
+        "The route-adjustment actions field teams take when a planned checkpoint cannot be located"
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The criteria field teams use to judge when an observed deviation is large enough to require revising the route"
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "The characteristics of checkpoints that make them most useful for monitoring progress and correcting deviations",
+        "The criteria teams should use to select recognizable checkpoints for monitoring progress and correcting route deviations",
+        "The characteristics of checkpoints that make them most useful for monitoring progress and correcting route deviations",
+        "The characteristics or types of checkpoints that most reliably support progress tracking when conditions change",
+        "The characteristics or types of checkpoints that most reliably support correction of navigation errors",
+        "The criteria teams should use when selecting recognizable checkpoints for journey planning and progress correction.",
+        "The characteristics or types of journey checkpoints that are most useful for detecting and correcting route deviations",
+        "The characteristics of checkpoints that make them most useful for monitoring progress and correcting course deviations"
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "The criteria and process field teams use to select alternate checkpoints when planned checkpoints are difficult to recognize",
+        "The criteria and process teams use to select alternate checkpoints when planned checkpoints are difficult to recognize."
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The decision threshold for how long to continue toward an unrecognizable checkpoint before switching to an alternate route.",
+        "The typical waiting-time threshold before abandoning a journey leg for an alternate route",
+        "The decision threshold for how long to continue toward an unrecognized checkpoint before switching to an alternate route",
+        "The typical duration or distance field teams continue toward an unrecognizable checkpoint before switching to an alternate route.",
+        "The decision threshold for how long to continue toward a hard-to-recognize checkpoint before switching to an alternate route",
+        "The decision threshold for how long to continue toward an unrecognizable checkpoint before switching to the alternate route.",
+        "The decision threshold for how long to search for an unrecognized checkpoint before switching to an alternate route.",
+        "The decision threshold for how long to continue toward an unrecognizable checkpoint before switching to the alternate route.",
+        "The decision threshold for how long to continue toward an unrecognizable checkpoint before switching to an alternate route.",
+        "The typical duration or distance field teams continue toward an unrecognizable checkpoint before switching to an alternate route.",
+        "The decision threshold for how long to continue toward an unrecognized checkpoint before switching to an alternate route.",
+        "The typical continuation-time threshold before abandoning an unrecognizable checkpoint and switching to an alternate route.",
+        "The decision threshold for how long to travel toward an unrecognized checkpoint before switching to an alternate route.",
+        "The decision threshold for how long to continue toward an unrecognizable checkpoint before switching to an alternate route.",
+        "The decision threshold for how long to continue toward an unrecognized checkpoint before switching to the alternate route.",
+        "The decision threshold for how long to continue toward a hard-to-recognize checkpoint before switching to an alternate route.",
+        "The typical search-duration threshold before abandoning a checkpoint leg and switching to an alternate route.",
+        "The decision threshold for how long to search for an unrecognized checkpoint before switching to an alternate route.",
+        "The typical continuation threshold before abandoning a checkpoint leg for an alternate route"
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "The observable criteria field teams use to determine that they have reached a checkpoint",
+        "The observable criteria field teams use to determine that they have reached a checkpoint",
+        "The observable criteria field teams use to determine that they have reached a planned checkpoint."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "The decision criterion for determining when checkpoint-recognition difficulty warrants abandoning the current leg rather than continuing toward it",
+        "The decision criterion field teams use to determine when to stop pursuing a checkpoint and switch to an alternate route",
+        "The specific criteria or cues used to determine that a checkpoint is insufficiently recognizable and that the team should switch to the alternate route.",
+        "The criteria or thresholds field teams use to decide when to stop pursuing a checkpoint and switch to an alternate route.",
+        "The decision criteria for determining when checkpoint recognition is too difficult and an alternate route should be taken.",
+        "The decision criteria for when to stop pursuing a checkpoint and switch to an alternate route",
+        "The decision criterion for when checkpoint recognition difficulty warrants abandoning the current leg for an alternate route.",
+        "The decision criteria for determining when checkpoint recognition difficulty warrants abandoning the planned leg for an alternate route.",
+        "The decision criteria field teams use to determine when checkpoint recognition is too difficult and an alternate route should be taken",
+        "The decision criterion for when checkpoint recognition difficulty warrants abandoning the planned leg for an alternate route.",
+        "The decision criterion for when difficulty recognizing a checkpoint warrants abandoning the current leg rather than continuing toward it.",
+        "The decision criterion for determining when checkpoint recognition difficulty warrants abandoning the planned leg for an alternate route.",
+        "The decision criteria used to determine when an unrecognized checkpoint warrants abandoning the current leg and switching to an alternate route",
+        "The decision criteria used to set the threshold for abandoning a planned journey leg and switching to an alternate route",
+        "The decision criterion for when difficulty recognizing a checkpoint warrants abandoning the current leg rather than continuing toward it",
+        "The decision criterion for when difficulty recognizing a checkpoint warrants abandoning the current leg rather than continuing toward it",
+        "The decision criteria used to determine when checkpoint recognition is too uncertain to continue a journey leg and an alternate route should be taken.",
+        "The decision criterion for determining when a checkpoint is too difficult to recognize to justify continuing toward it",
+        "The decision criterion used to determine when to stop pursuing an unrecognized checkpoint and switch to an alternate route.",
+        "The criteria field teams use to determine that a checkpoint is too difficult to recognize",
+        "The decision criteria field teams use to determine when checkpoint recognition is too difficult and the planned leg should be abandoned for an alternate route."
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "The checkpoints and alternate routes the team should select for each leg of the journey.",
+        "The checkpoints and alternate routes that should be selected for each journey leg.",
+        "The checkpoints and alternate routes designated for each leg of the journey"
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "The specific factors that most often make a planned checkpoint harder to recognize than expected",
+        "The specific factors that most commonly prevent teams from recognizing a planned checkpoint upon arrival",
+        "The specific factors that most often make a planned checkpoint unrecognizable upon arrival",
+        "The specific practical factors that most often make a planned checkpoint difficult to recognize.",
+        "The specific conditions that most often make a planned checkpoint difficult to recognize during a journey.",
+        "The specific field conditions that most commonly make a planned checkpoint unexpectedly difficult to recognize.",
+        "The specific factors most commonly causing a carefully planned checkpoint to be unrecognizable to field teams",
+        "The specific field conditions that most often cause a planned checkpoint to be mistaken for another location or feature.",
+        "The specific field conditions that most often make a planned checkpoint unexpectedly difficult to recognize.",
+        "The specific practical factors that most often make a planned checkpoint unexpectedly difficult to recognize",
+        "The specific factors that most often make a planned checkpoint unexpectedly difficult to recognize.",
+        "The specific factors that most commonly prevent field teams from recognizing a planned checkpoint.",
+        "The specific factors that most commonly make a planned checkpoint unexpectedly difficult to recognize.",
+        "The specific factors that most commonly prevent field teams from recognizing a checkpoint as they approach it.",
+        "The specific factors that most commonly prevent teams from recognizing a planned checkpoint"
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "The alternate routes planned for conditions that make a checkpoint difficult to recognize.",
+        "The alternate route the team should take when conditions change",
+        "The alternate route the team should take when a planned checkpoint is difficult to recognize.",
+        "The alternate plans field teams use when a planned checkpoint is difficult to recognize",
+        "The alternate routes planned for use when a checkpoint is difficult to recognize.",
+        "The alternate routes planned for journey legs if conditions change.",
+        "The alternate routes teams should plan for when a checkpoint cannot be recognized.",
+        "The alternate routes planned for use when a checkpoint cannot be recognized",
+        "The alternate routes planned for use when conditions make a checkpoint difficult to recognize.",
+        "The alternate route the team should take when a planned checkpoint is difficult to recognize."
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "The specific conditions that trigger a team to switch from the planned route to an alternate route",
+        "The types of changed field conditions that would prompt switching from the planned route to an alternate route.",
+        "The decision criteria teams use to determine when changing conditions warrant switching to an alternate route",
+        "The decision criteria for determining when changed conditions justify abandoning a planned journey leg for an alternate route",
+        "The types of changed field conditions that typically prompt teams to use alternate routes."
+      ]
+    },
+    {
+      "cluster_ref": "K015",
+      "member_targets": [
+        "The method field teams use to determine the expected distance or travel time for each journey leg."
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "The criteria field teams use to determine whether a physical location qualifies as a recognizable checkpoint",
+        "The pre-journey process and criteria field teams use to identify or select recognizable checkpoints.",
+        "Criteria and methods teams use to select checkpoints that remain recognizable under changing weather, visibility, terrain, and approach direction",
+        "The criteria field teams use to assess whether a checkpoint is recognizable and reliable enough for navigation",
+        "Methods field teams can use to identify recognizable checkpoints in unfamiliar terrain",
+        "The criteria field teams use to determine whether locations qualify as recognizable checkpoints",
+        "The criteria and process field teams use to select recognizable checkpoints in unfamiliar terrain.",
+        "The criteria field teams use to identify or select a location as a recognizable checkpoint",
+        "The criteria field teams use to determine whether a location qualifies as a recognizable checkpoint.",
+        "The criteria field teams use to determine whether a location constitutes a recognizable checkpoint",
+        "The criteria field teams use to assess whether a checkpoint is recognizable and reliable",
+        "The methods field teams use to identify or establish recognizable journey checkpoints"
+      ]
+    },
+    {
+      "cluster_ref": "K017",
+      "member_targets": [
+        "The criteria field teams use to determine an appropriate interval between journey checkpoints"
+      ]
+    },
+    {
+      "cluster_ref": "K018",
+      "member_targets": [
+        "The decision criterion used to set the threshold for abandoning an unrecognized checkpoint leg and switching to an alternate route",
+        "The decision criterion used to set the distance or time threshold for abandoning a checkpoint leg and switching to an alternate route.",
+        "The decision criterion for setting the maximum time to continue toward an unrecognizable checkpoint before switching to an alternate route",
+        "The decision criterion field teams use to determine the continuation limit before abandoning a leg for an alternate route when a checkpoint is unrecognizable.",
+        "The decision criterion for how long to continue toward a hard-to-recognize checkpoint before abandoning the leg for an alternate route.",
+        "The decision criteria used to set the time or distance threshold for abandoning an unrecognized checkpoint and switching to an alternate route",
+        "The criteria and method field teams use to set the continuation threshold for abandoning a checkpoint leg and switching to an alternate route.",
+        "The decision criterion used to set the continuation threshold for abandoning an unrecognized checkpoint and switching to an alternate route.",
+        "The criteria and method field teams use to set the time or distance threshold for abandoning a checkpoint leg and switching to an alternate route.",
+        "The decision criterion teams use to determine how long to continue toward an unrecognized checkpoint before switching to an alternate route.",
+        "The decision criterion for setting the maximum travel time or distance toward an unrecognizable checkpoint before switching to an alternate route.",
+        "The decision criterion used by field teams to determine how long to continue toward an unrecognized checkpoint before switching to an alternate route.",
+        "The criteria used to determine the threshold for abandoning an unrecognized checkpoint leg and switching to an alternate route.",
+        "The decision criterion for setting the time threshold at which a checkpoint search should be abandoned in favor of an alternate route",
+        "The decision criterion used to set the threshold distance or travel time for abandoning an unrecognized checkpoint and switching to an alternate route.",
+        "The decision criterion for how long to continue toward a difficult-to-recognize checkpoint before switching to an alternate route",
+        "The decision criterion for setting the threshold distance or travel time before abandoning a checkpoint leg and switching to an alternate route.",
+        "The decision criteria used to set the time or distance threshold for abandoning a checkpoint leg in favor of an alternate route",
+        "The criteria and method field teams use to set the time or distance threshold for abandoning an unrecognized checkpoint and switching to an alternate route.",
+        "The decision criterion for how long to continue toward an unrecognizable checkpoint before switching to an alternate route.",
+        "The decision criterion for setting the maximum travel time or distance toward an unrecognized checkpoint before switching to an alternate route.",
+        "The practical criteria and method used to set the threshold for continuing toward a checkpoint before abandoning the leg for an alternate route.",
+        "The decision criterion or method used to set the maximum time to continue toward an unrecognized checkpoint before switching to an alternate route."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "When a checkpoint becomes hard to recognize, the critical navigation decision is how long to continue toward it before abandoning that leg for an alternate route.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

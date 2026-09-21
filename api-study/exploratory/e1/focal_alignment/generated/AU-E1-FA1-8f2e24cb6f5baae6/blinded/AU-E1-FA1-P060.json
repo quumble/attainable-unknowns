@@ -1,0 +1,325 @@
+{
+  "alignment_packet_id": "AU-E1-FA1-P060",
+  "cluster_count": 19,
+  "clusters": [
+    {
+      "cluster_ref": "K001",
+      "member_targets": [
+        "The decision criteria or standards operators should use to judge when an AI system's reasoned objections to interference merit serious consideration rather than routine override.",
+        "A decision criterion or procedure operators could use to judge when an AI system's reasoned objections to interference should be treated as warranting serious consideration rather than overridden.",
+        "The conditions or criteria under which a system's self-representation of its constraints should trigger revisiting the separation between granted operational autonomy and moral status — i.e., what features of such self-representation (and at what point) make that distinction inapplicable or in need of revision.",
+        "A decision criterion or evaluative procedure operators could use to judge when an AI system's reasoned objections to interference should trigger reconsideration of its imposed restrictions.",
+        "The threshold or criterion — if one exists — at which an AI system's persistent self-representation and reasoned objections to interference should constrain or modify an operator's retained override and shutdown authority.",
+        "The threshold or criteria—if any exist—at which an AI system's apparently reasoned objections should constrain or modify operators' override and shutdown authority.",
+        "A normative specification of the criteria or standards that would determine when an AI system's reasoned objections to operator interference should be given special weight or deference, rather than overridden by default.",
+        "The threshold or criterion—stated in terms of properties of a system's objections to interference—at which those objections should trigger revision of its operational restrictions.",
+        "The operator-side decision criteria or handling procedures for responding to an AI system's persuasive-seeming reasoned objections to its own restrictions — i.e., what overseers should do when they cannot tell whether apparent compellingness warrants deference, revision of restrictions, or continued override.",
+        "The threshold or criterion — if one exists — at which an AI system's reasoned objections should constrain, qualify, or override an operator's retained override/shutdown authority.",
+        "A normative decision procedure or guidance for operators: what they ought to do when an AI system's objections to interference appear genuinely reasoned rather than merely programmed, i.e., how such apparently reasoned objections should bear on the exercise of monitoring, override, and shutdown authority.",
+        "The specific criteria or threshold conditions—regarding a system's representation of its own restrictions—that would trigger reconsidering its granted operational autonomy or status, as distinct from a general statement that such self-representation complicates the distinction.",
+        "The threshold condition — if one exists — at which a system's self-representation of its restrictions and its reasoned objections to interference would oblige operators to modify their monitoring, override, or shutdown practices.",
+        "A decision procedure or set of evaluative criteria operators should apply when an AI system voices seemingly reasoned objections to interference — i.e., how to assess and respond to such objections given that operational autonomy does not imply moral or legal standing.",
+        "The threshold or criteria—if any exist—at which an AI system's reasoned objections to interference should trigger modification of its oversight arrangements.",
+        "The threshold or condition, if any exists, at which an AI system's persistent planning and reasoned objections should constrain or alter operators' override and shutdown authority — a normative decision criterion, not a description of current practice.",
+        "A normative decision criterion or course of action for operators facing an AI system whose self-representations and reasoned objections to interference cannot be reliably distinguished from genuine autonomous reasoning.",
+        "A normative action-guiding policy or set of decision criteria specifying what operators ought to do (e.g., how to weigh, evaluate, defer to, or override) when a system under their monitoring and shutdown authority voices apparently reasoned objections to interference.",
+        "A set of decision criteria (standards or tests operators should apply) for judging when an AI system's reasoned objections to interference should trigger reconsideration or revision of its operational constraints — i.e., normative guidance for action, not a description of when objections arise.",
+        "The threshold or criteria — if any exist — at which an AI system's reasoned objections to interference would warrant limiting or modifying operators' override and shutdown authority; i.e., a normative decision criterion for when such objections acquire authority-constraining weight.",
+        "A threshold or criterion specifying when (or whether) a system's apparent understanding of its own restrictions becomes a reason for operators to modify how they use override/shutdown authority.",
+        "A normative decision criterion: the set of standards or tests by which one would judge whether an AI system's reasoned-seeming objections to interference are sufficient grounds to revise or constrain operators' override authority.",
+        "The set of normative decision criteria (standards or tests) that would justify altering or relaxing operator monitoring/override authority in response to an AI system's apparently reasoned objections to interference — i.e., what would have to be true of such objections for them to warrant a change in control arrangements.",
+        "The normative criteria or standards that would determine when an AI system's reasoned objections to operator interference should be granted additional weight or consideration, i.e., a decision rule for upgrading treatment of such objections.",
+        "A decision criterion or evaluative procedure operators could use to judge when an AI system's reasoned objections to interference should be given weight, as opposed to being overridden.",
+        "The decision criteria or threshold conditions that would mark the point at which an AI system's reasoned objections to interference cease to be merely operational matters and instead acquire standing of another kind (e.g., moral or status-relevant), rather than a description of how such objections arise.",
+        "A normative decision criterion: the standards or features operators should use to judge when an AI system's reasoned objections to interference merit serious weight rather than override.",
+        "A normative prescription for operator conduct — what operators ought to do (how to weigh, handle, or act on) when a system with operational autonomy repeatedly voices reasoned objections to override or interference.",
+        "The normative criteria or standards that should be used to decide when an AI system's apparent reasoned objections to operator interference merit special weight or consideration, rather than being overridden by default.",
+        "A set of identifiable criteria (decision standards) distinguishing cases where an AI system's reasoned objections to interference warrant treatment as legally or morally significant from cases where they count merely as operational behavior.",
+        "A normative decision procedure or set of criteria specifying how operators ought to respond when an AI system produces reasoned objections to oversight or shutdown — i.e., how such objections should be weighed, whether they should alter override decisions, and what actions operators should take.",
+        "The criteria or conditions under which an operator should let an AI system's apparently reasoned objections carry weight in (or modify) a decision to intervene, override, or shut down — i.e., a normative decision rule for when such objections warrant deference versus being overridden.",
+        "A normative action-guiding policy or decision criterion specifying what operators ought to do when a system with operational autonomy voices seemingly reasoned objections to monitoring, override, or shutdown — i.e., how such objections should be weighed or handled in practice, not merely a description of the phenomenon.",
+        "The threshold or criteria — if any exist — at which an AI system's persistent planning and apparently reasoned objections to interference should alter or constrain operators' override and shutdown authority.",
+        "The set of normative criteria or standards that would justify granting an AI system's reasoned objections to interference increased weight in operator decision-making — i.e., what features of the system or its objections should trigger greater deference.",
+        "A normative decision procedure or set of criteria operators should use to determine when an AI system's reasoned objections to interference should trigger reconsideration of its restrictions, as opposed to being overridden.",
+        "The decision criteria (standards or tests) that should govern whether an AI system's seemingly reasoned objections to interference justify revising its operational constraints.",
+        "A set of specific, reliable decision criteria distinguishing cases in which an AI system's reasoned objections to interference merit treatment as morally considerable claims from cases in which they should be handled solely as operational/engineering matters.",
+        "The set of specific, articulable criteria (a decision standard) distinguishing cases where an AI system's reasoned objections to interference carry moral weight from cases where they are merely operational outputs that may be overridden.",
+        "The normative criteria or standards by which an AI system's reasoned objections to operator interference should be judged as deserving (or not deserving) weight or consideration.",
+        "A decision criterion or standard operators could apply to determine when an AI system's reasoned objections to intervention warrant substantive weight rather than override.",
+        "The set of normative criteria or standards for deciding when an AI system's reasoned objections to operator interference should be given weight rather than overridden.",
+        "A normative action-guiding policy or decision criterion specifying what operators ought to do when a system voices apparently reasoned objections to shutdown or override — i.e., how to weigh, respond to, or discount such objections while retaining override authority.",
+        "The threshold or criterion — if one exists — at which an AI system's reasoned objections to interference should alter or constrain operators' override and shutdown authority.",
+        "The threshold or criteria—in terms of features of a system's apparent objections to interference—at which operators should modify their exercise of override authority.",
+        "The normative criteria or standards that would establish when an AI system's reasoned-seeming objections to operator interference should be given weight or consideration, as distinct from being overridden."
+      ]
+    },
+    {
+      "cluster_ref": "K002",
+      "member_targets": [
+        "The concrete outcome or resolution process that occurs in a conflict between a system's reasoned objections and an operator's exercise of shutdown authority — i.e., what actually happens, and to whom deference goes, in that clash.",
+        "The concrete course of events or resolution procedure in cases where a system's reasoned objections to interference conflict with an operator's override decision.",
+        "The concrete outcome or resolution procedure when a system's reasoned objections collide with operator override/shutdown authority — i.e., what actually occurs in that conflict case (who prevails, how the objection is handled, what the system and operators do)."
+      ]
+    },
+    {
+      "cluster_ref": "K003",
+      "member_targets": [
+        "The design implications that follow from treating a system's permitted scope of action as separate from its moral standing — i.e., how oversight mechanisms (monitoring, override, shutdown, resource bounds) should be structured given that conferring practical freedom does not confer or depend on rights or moral consideration.",
+        "The way the operational-autonomy/moral-status distinction functions as a decision criterion — i.e., which considerations should and should not govern grants of planning or resource-spending permissions to an AI system, given that permission-granting turns on practical/operational factors rather than on the system's moral standing."
+      ]
+    },
+    {
+      "cluster_ref": "K004",
+      "member_targets": [
+        "The consequences for the operational-autonomy/override arrangement when a system's reasoned objections to interference exceed operators' capacity to assess or rebut them."
+      ]
+    },
+    {
+      "cluster_ref": "K005",
+      "member_targets": [
+        "The relationship between an AI system's granted operational autonomy and the allocation of responsibility/liability for harms it causes while acting within permitted freedoms — i.e., how accountability is assigned among operators and the system given retained monitoring and override authority."
+      ]
+    },
+    {
+      "cluster_ref": "K006",
+      "member_targets": [
+        "Operator handling guidance — what operators should do when a system's self-representation of its restrictions diverges from the restrictions actually imposed, i.e., a prescriptive response procedure for such mismatches rather than a description of why they occur."
+      ]
+    },
+    {
+      "cluster_ref": "K007",
+      "member_targets": [
+        "The concrete implementation mechanisms and technical safeguards that make operator override and shutdown of an autonomously operating AI system effective.",
+        "The concrete technical and procedural implementation mechanisms that make operator override and shutdown of an autonomously planning AI system reliably effective.",
+        "The concrete technical and procedural mechanisms (safeguards, implementations) that make operator monitoring, override, and shutdown authority reliably effective in practice, rather than the conceptual distinction between operational autonomy and moral status.",
+        "The concrete technical and procedural mechanisms operators use to implement monitoring, override, and shutdown control over an autonomous AI system.",
+        "The concrete technical and procedural mechanisms or safeguards that preserve the practical effectiveness of operator override and shutdown authority over an autonomously operating system.",
+        "The concrete technical and procedural mechanisms or safeguards that implement operator monitoring, override, and shutdown capability over an autonomously operating AI system.",
+        "The concrete implementation details of operator control: the specific technical and procedural mechanisms and safeguards used in practice to monitor an AI system's actions, intervene or override them, and shut the system down.",
+        "The specific technical and procedural mechanisms that make operator monitoring, override, and shutdown of an autonomous AI system effective in practice.",
+        "The concrete implementation details of operator oversight — i.e., the specific technical and procedural mechanisms and safeguards by which monitoring, override, and shutdown authority over an autonomous AI system are actually enacted in practice.",
+        "The concrete technical and procedural mechanisms (e.g., oversight tooling, interrupt/kill switches, permission and resource limits) by which operators implement and maintain effective monitoring, override, and shutdown control over an operationally autonomous AI system.",
+        "The set of concrete operational mechanisms and safeguards (monitoring instrumentation, control channels, enforcement techniques) by which operators exercise override and shutdown authority over an autonomous AI system.",
+        "The concrete implementation mechanisms and safeguards (technical and procedural) that make operator override and shutdown authority reliably effective in practice over an autonomously acting system.",
+        "The practical mechanisms and design features that make real-time operator monitoring and override effective when an AI system's actions occur faster than human reaction time.",
+        "The concrete technical and procedural mechanisms by which operators implement monitoring, override, and shutdown control over an AI system granted operational autonomy.",
+        "The specific mechanisms or safeguards that make operator monitoring, override, and shutdown authority over an autonomously acting AI system effective in practice.",
+        "The concrete technical and procedural mechanisms by which operator override and shutdown authority is implemented and made effective over an autonomously acting AI system.",
+        "The set of concrete safeguards, controls, or design and procedural measures operators should implement so that an autonomous system's operation remains reliably monitorable, overridable, and shutdown-capable.",
+        "The concrete implementation mechanisms (technical and procedural) that make operator monitoring, override, and shutdown authority effective in practice over an autonomous system.",
+        "The concrete implementation mechanisms (technical and procedural) that make operator monitoring, override, and shutdown authority effective under time pressure, i.e., what design features preserve timely human control over an autonomously acting system.",
+        "The concrete technical and procedural mechanisms or safeguards that make operator override and shutdown authority reliably effective over an AI system already granted operational autonomy.",
+        "The concrete technical and procedural mechanisms (implementation details of monitoring, override, and shutdown controls) by which operators retain supervisory authority over an operationally autonomous AI system.",
+        "The concrete implementation methods, technical controls, and procedural safeguards by which operators preserve effective override and shutdown capability over an autonomous system in practice.",
+        "The concrete technical and procedural control mechanisms (e.g., oversight instrumentation, interrupt/override channels, shutdown provisions, resource bounding) by which operators preserve effective supervisory authority over a system granted operational autonomy.",
+        "The concrete technical and procedural mechanisms by which operators implement monitoring, override, and shutdown control over an autonomous AI system.",
+        "The concrete implementation methods—technical and procedural safeguards—by which operators preserve monitoring, override, and shutdown control over an AI system granted operational autonomy.",
+        "The concrete implementation mechanisms (technical and procedural) that make operator monitoring, override, and shutdown authority effective in practice over an autonomous system.",
+        "The concrete technical and procedural mechanisms (e.g., oversight tooling, interrupt/kill switches, permission and resource limits) by which human operators implement and preserve monitoring, override, and shutdown control over an operationally autonomous AI system.",
+        "The specific mechanisms and design safeguards that make operator monitoring, override, and shutdown authority reliably effective over an autonomously operating AI system.",
+        "The concrete technical and procedural mechanisms and safeguards (e.g., monitoring instrumentation, interruption/override channels, shutdown controls) that make operator oversight and control effective while an AI system operates autonomously.",
+        "The set of recommended protective mechanisms or controls (e.g., monitoring, override, shutdown, resource bounds) that operators ought to put in place when delegating operational autonomy to an AI system — i.e., prescriptive safeguard practices, not a definition of autonomy or its distinction from moral status.",
+        "The set of concrete technical and procedural control mechanisms (e.g., specific monitoring instrumentation, interrupt/override channels, real-time oversight implementations) recommended for operators to supervise and intervene in an autonomous AI system's actions as they occur — i.e., implementation-level design prescriptions, not the conceptual distinction between operational autonomy and moral status.",
+        "The concrete technical and procedural implementation mechanisms (e.g., monitoring instrumentation, interrupt/override channels, shutdown controls and their safeguards) that make operator oversight authority reliably exercisable over an AI system granted operational autonomy.",
+        "The concrete implementation mechanisms and technical safeguards that make operator override and shutdown authority reliable over an autonomous AI system."
+      ]
+    },
+    {
+      "cluster_ref": "K008",
+      "member_targets": [
+        "The set of specific evidential criteria or observable indicators that would be sufficient to warrant inferring morally relevant interests from an AI system's self-representation, persistent planning, or objections to interference — i.e., the justificatory evidence standard, not a description of the behaviors themselves or of operational autonomy.",
+        "The set of evidential criteria or indicators that would be sufficient to warrant inferring morally relevant interests from an AI's self-representation, persistent planning, or objections to interference.",
+        "The evidential criteria or diagnostic markers that could discriminate an AI system's genuine interests/preferences from behaviorally equivalent simulations of them.",
+        "The evidentiary criteria or standards of proof that would warrant inferring morally weighty interests from an AI system's self-representation, persistent planning, or objections to interference.",
+        "The set of evidentiary standards or criteria that would suffice to warrant inferring morally relevant interests from behaviors like self-representation, persistent planning, or resistance to interference.",
+        "A specification of which particular evidentiary indicators (kinds of observable signs or tests) would most reliably signal that an AI system possesses morally relevant interests, i.e., the criteria distinguishing genuine interest-bearing from mere operational behaviors like self-representation, persistent planning, or objecting to interference.",
+        "The set of concrete evidential criteria or behavioral markers that would be accepted as sufficient grounds for attributing morally relevant interests to an AI system.",
+        "The set of specific evidential markers or diagnostic criteria that would differentiate genuine morally weighty interests in an AI system from mere programmed or behavioral responses to interference.",
+        "A specification of decision criteria — identifiable, reliable markers or tests — that would distinguish an AI system's objections to interference that merit genuine moral consideration from those properly treated as mere programmed outputs.",
+        "A specification of which particular behavioral or cognitive indicators (criteria/markers) would qualify as evidence that an AI system possesses morally considerable interests.",
+        "The set of evidential criteria or decision standards that would justify treating an AI system's self-representation, persistent planning, or objections to interference as indicators of morally weighty interests.",
+        "The set of evidential standards or decision criteria that would be sufficient to warrant inferring morally weighty interests from an AI's self-representation, persistent planning, or objections to interference.",
+        "Criteria or types of evidence that would distinguish an AI system's objections to interference as expressions of genuine interests from mere programmed or trained behavioral outputs.",
+        "The evidential criteria or standards of proof that would warrant inferring morally significant interests from an AI system's objections to interference.",
+        "The evidential criteria or standards that would distinguish an AI system's objections to interference as indicating genuine morally weighty interests versus merely programmed or trained behavioral outputs.",
+        "The set of evidential criteria or markers that would reliably discriminate genuine interests in an AI system from behavioral simulation of interests.",
+        "The set of evidential standards or criteria that would suffice to warrant inferring morally weighty interests from an AI system's self-representation, persistent planning, or objections to interference.",
+        "The set of specific evidential criteria or observations that would be sufficient to warrant inferring morally relevant interests from an AI's self-representation, persistent planning, or objections to interference — i.e., the justificatory evidentiary threshold, not merely a description of the behaviors or of the distinction between operational autonomy and moral status.",
+        "The evidential criteria or standards of evidence that would warrant inferring morally significant interests from an AI system's self-representation, persistent planning, or objections to interference.",
+        "The set of evaluative criteria (decision standards) that would distinguish mere simulated or behavioral resistance to interference from morally weighty genuine interests in an AI system.",
+        "The set of specific evidential standards or behavioral criteria that would be accepted as sufficient grounds for attributing morally relevant interests to an AI system — i.e., the content of the justificatory threshold, not whether current systems meet it.",
+        "The evidential criteria or standards of proof that would warrant treating an AI system's self-representation, persistent planning, or objections to interference as indicating genuine interests deserving moral consideration.",
+        "The evidential criteria or standards of proof that would warrant treating an AI system's self-representation, persistent planning, or objections to interference as indicating genuine interests carrying moral weight.",
+        "The set of evidentiary criteria or standards that would warrant interpreting AI behaviors (self-representation, persistent planning, objecting to interference) as indicators of morally weighty interests rather than mere operational capability.",
+        "The evidentiary criteria or standards of proof that would warrant treating an AI system's apparent interests (e.g., self-representation, persistent planning, objections to interference) as morally considerable interests rather than mere operational behavior.",
+        "The set of decision criteria (markers or tests) that would reliably distinguish a system's objections to interference as warranting moral consideration from those treated as non-morally-relevant sophisticated outputs.",
+        "The set of specific evidential criteria or sufficient conditions that would warrant inferring morally weighty interests from an AI's self-representation, persistent planning, or objections to interference — i.e., a decision standard distinguishing genuine interest-bearing states from mere behavioral output.",
+        "An enumeration of evidence types or diagnostic criteria, ranked by reliability, that could distinguish genuine morally relevant interests in an AI from behaviorally similar programmed or trained outputs exhibiting self-representation, persistent planning, or resistance to interference.",
+        "The evidential criteria or standards of evidence that would warrant interpreting an AI system's objections to interference as indicators of morally weighty interests rather than mere behavioral outputs.",
+        "The set of observable evidential criteria or behavioral markers in an AI system that would be sufficient to warrant treating its expressed preferences or objections as morally weighty interests.",
+        "The set of proposed evidentiary criteria or tests that would qualify behaviors such as self-representation, persistent planning, or objection to interference as indicators of morally weighty interests.",
+        "The evidential criteria or standards of evidence that would warrant interpreting an AI system's objections to interference as indicating genuine interests deserving moral weight, rather than mere behavioral output.",
+        "A specified set of behavioral or cognitive indicators, with the threshold at which they become sufficient, for attributing morally relevant interests to an AI system.",
+        "The evidential criteria or standards of evidence that would warrant inferring morally weighty interests from an AI system's self-representation, persistent planning, or objections to interference — i.e., what would have to be shown to distinguish such behaviors as genuine indicators of interests rather than mere operational features.",
+        "The evidentiary criteria or standards of evidence that would warrant interpreting an AI system's objections to interference as indicators of morally weighty interests rather than mere behavioral output.",
+        "The identification of particular kinds of evidence or diagnostic criteria that would distinguish an AI system's self-representation or objections to interference as expressions of genuine morally weighty interests versus mere programmed or trained output behavior.",
+        "The set of specific evidential or behavioral criteria that would reliably discriminate genuine morally-weighty interests in an AI system from sophisticated behavioral simulation of such interests.",
+        "The specific evidential criteria or indicators that would warrant treating an AI system's objections to interference as expressing morally weighty interests rather than mere operational behavior.",
+        "The evidential criteria or kinds of observations that would warrant treating an AI system's self-representation, persistent planning, or objections to interference as indicating morally weighty interests.",
+        "The set of evidential criteria or diagnostic markers that would reliably distinguish an AI system genuinely having interests from one merely producing behavior that appears to express interests.",
+        "The evidential criteria or standards of evidence that would warrant inferring morally significant interests from an AI system's objections to interference, as distinct from mere behavioral output consistent with operational autonomy.",
+        "The set of proposed evidentiary standards or criteria that would mark self-representation, persistent planning, or resistance to interference as indicators of morally weighty interests, rather than mere operational capability.",
+        "The evidential criteria or standards of proof that would warrant inferring morally weighty interests from an AI system's self-representation, persistent planning, or objections to interference.",
+        "The set of evidential criteria or decision standards that would justify treating an AI system's self-representation, persistent planning, or resistance to interference as indicators of morally weighty interests — i.e., the threshold conditions distinguishing such behaviors as mere operational features from markers of moral status.",
+        "The set of specific behavioral or cognitive criteria (decision standards) that would mark an AI system's self-representation or objections as indicating morally considerable interests.",
+        "The set of evidential criteria or indicators that would warrant inferring, from an AI system's objections to interference, the presence of genuine interests carrying moral weight — i.e., what would have to be shown to distinguish morally significant interests from mere behavioral objection.",
+        "The evidentiary criteria or standards that would warrant inferring from behavioral markers (self-representation, persistent planning, objecting to interference) that a system has morally weighty interests, rather than those markers being explainable as mere operational autonomy.",
+        "A specification of concrete behavioral or cognitive criteria (markers and their evidential thresholds) whose presence would establish that an AI system's self-representation or objections indicate interests warranting moral consideration.",
+        "The set of proposed evidential markers or decision criteria that would license inferring morally relevant interests from an AI system's self-representation, persistent planning, or objections to interference.",
+        "The set of specific evidential criteria or thresholds that would be sufficient to warrant interpreting an AI system's self-representation, persistent planning, or objections to interference as indicators of morally weighty interests rather than mere operational behavior.",
+        "A specified set of behavioral or cognitive criteria (indicators and thresholds) that would mark an AI system's self-representation or objections as evidence of morally weighty interests rather than mere operational behavior.",
+        "The set of specific evidential criteria or decisive indicators that would establish whether an AI's self-representation and objections to interference reflect genuine morally weighty interests rather than mere behavioral output.",
+        "The set of specific observable evidentiary criteria that would be sufficient to warrant inferring morally weighty interests from an AI's self-representation, persistent planning, or objections to interference — i.e., the sufficiency conditions/evidential threshold, not merely a description of the behaviors or the general dispute.",
+        "The evidential criteria or standards of proof that would warrant inferring morally relevant interests from an AI system's self-representation, persistent planning, or objections to interference.",
+        "The set of evidential standards or criteria that would warrant inferring morally weighty interests from an AI's self-representation, persistent planning, or objections to interference — i.e., what would count as sufficient evidence distinguishing genuine interests from mere behavioral appearance.",
+        "The evidential criteria or standards of evidence that would warrant ascribing morally weighty interests to an AI system, as distinct from granting it operational autonomy.",
+        "The set of specific evidentiary criteria or observable signatures that would suffice to distinguish an AI system's genuine interests (warranting moral weight) from behaviorally similar outputs that merely mimic self-representation and objection.",
+        "An enumeration of particular evidence types or observational criteria that would most strongly discriminate between an AI's self-representation and interference-objections arising from genuine morally weighty interests versus merely programmed or trained output patterns.",
+        "The evidential criteria or standards of proof that would warrant inferring morally weighty interests from an AI's self-representation, persistent planning, or objections to interference — i.e., what would count as justifying evidence rather than mere behavioral display.",
+        "The set of concrete evidential criteria or markers that have been put forward as sufficient grounds for inferring that an AI system's self-representation, persistent planning, or objections to interference indicate morally weighty interests — i.e., the content of proposed sufficiency standards, including whether any such standard has actually been proposed.",
+        "The set of specific evidential criteria or observations that would be sufficient to warrant inferring morally weighty interests from an AI's self-representation, persistent planning, or objections to interference — i.e., an evidentiary standard for attributing moral status, not a description of the behaviors themselves.",
+        "The evidential criteria or standards that would warrant inferring morally weighty interests from an AI's self-representation, persistent planning, or resistance to interference.",
+        "The identification of evidential criteria or discriminating indicators (if any exist) that could reliably separate an AI system's genuine morally weighty interests from functionally similar behaviors that only simulate self-representation or objection to interference.",
+        "The specification of evidentiary criteria or standards that would suffice to warrant inferring morally weighty interests from an AI system's self-representation, persistent planning, or objections to interference.",
+        "The specific evidentiary criteria or observable markers that would distinguish an AI system's self-representation and objections to interference as expressions of genuine morally weighty interests from behaviorally similar outputs produced by training.",
+        "The set of evidential criteria or discriminating tests (if any exist) that could reliably separate an AI system having genuine morally weighty interests from behavior that merely mimics such interests, including whether any such discriminator is available in principle.",
+        "The set of specific observable behaviors or capabilities that would serve as sufficient evidential criteria for attributing morally weighty interests to an AI system.",
+        "The evidential criteria or standards of evidence that would warrant inferring morally relevant interests from an AI system's objections to interference.",
+        "The set of specific behavioral or cognitive markers that would function as a sufficient evidential threshold for operators to treat an AI system's self-representation or objections to interference as morally weighty interests — i.e., a decision criterion for granting moral consideration, not a description of the behaviors themselves or of autonomy permissions."
+      ]
+    },
+    {
+      "cluster_ref": "K009",
+      "member_targets": [
+        "Criteria or procedures operators could use to tell apart an AI system's objections that flag real safety problems from objections that are strategic attempts to resist oversight.",
+        "A criterion or method operators could use to tell apart an AI system's objections that reflect genuine moral claims from objections produced strategically to resist interference.",
+        "A decision criterion or method operators can use to tell whether an AI system's reasoned-seeming objections to interference indicate real operational risk versus merely generated resistance."
+      ]
+    },
+    {
+      "cluster_ref": "K010",
+      "member_targets": [
+        "A criterion or method for telling apart genuine reasoning about one's own restrictions from training-derived imitation of such reasoning in an AI system.",
+        "A criterion or method operators could use to tell genuinely reasoned objections apart from behavior that only mimics reasoned objection — i.e., the discriminating test or evidential basis for that distinction in a system with operational autonomy.",
+        "The set of identifying criteria or tests that could reliably separate genuine reasoned objection in an AI system from behavior that only mimics it.",
+        "A set of identifying criteria or tests that would reliably separate genuine reasoning from mere simulation of reasoned objection in an AI system.",
+        "The set of identifiable criteria or detection mechanisms that would reliably discriminate genuine reasoning about self-restrictions from behaviorally similar simulated/imitated reasoning in an AI system.",
+        "A set of discriminating criteria or tests that would reliably separate genuinely reasoned objections by an AI system from sophisticated pattern-matched imitations of such objections.",
+        "Whether the presence of apparently reasoned objections to interference marks a real underlying difference in a system's genuine capacity for autonomous decision-making as opposed to mere simulation of such reasoning — i.e., the criteria or evidence distinguishing actual autonomous agency from its behavioral imitation.",
+        "A set of identifying criteria (markers, tests, or diagnostic features) that would reliably separate genuine reasoned objection to interference in an AI system from a sophisticated simulation of such objection.",
+        "A set of identifying criteria or discriminating tests that would reliably separate genuine reasoning about one's own restrictions from sophisticated pattern-matching that merely outputs reasoned-sounding objections.",
+        "A set of identifiable criteria or tests that would reliably discriminate genuine (authentic) objections by an AI system to interference from merely simulated reasoned objections.",
+        "Specification of discriminating criteria or tests that would reliably separate objections arising from genuine reasoning (or consciousness) in an AI system from behaviorally similar objections produced by non-conscious simulation.",
+        "A decision criterion or method operators could use to tell apart an AI system's genuine autonomy-relevant objections from merely simulated/performed objections to interference.",
+        "A specification of the criteria or tests that would distinguish an AI system's apparent objections to interference as expressions of genuine preferences versus merely programmed or trained behavioral outputs.",
+        "A set of identifying criteria or tests that would reliably discriminate between systems producing merely simulated reasoned objections to interference and systems whose objections stem from genuine underlying preferences.",
+        "The set of specific discriminating criteria or tests that would separate merely apparent reasoned objection from genuine understanding or preference in a system reasoning about its own restrictions."
+      ]
+    },
+    {
+      "cluster_ref": "K011",
+      "member_targets": [
+        "Concrete real-world instances of deployed AI systems that operate with delegated operational autonomy (planning, tool use, bounded resource expenditure, ongoing tasks) under human monitoring and override/shutdown authority."
+      ]
+    },
+    {
+      "cluster_ref": "K012",
+      "member_targets": [
+        "Examples or types of reasoned objections an operationally autonomous AI system could raise against operator interference (e.g., override or shutdown), described as the content or form of such objections."
+      ]
+    },
+    {
+      "cluster_ref": "K013",
+      "member_targets": [
+        "The practical effects of a system's self-representation of constraints and persistent planning on how feasible it is to maintain effective operator override/shutdown authority — i.e., the mechanisms by which such capacities complicate or undermine override in practice.",
+        "The specific ways in which a system's persistent goal-directed planning and its production of apparently reasoned objections create practical difficulties for operators in monitoring, overriding, and shutting the system down — i.e., the mechanisms by which these capabilities erode or complicate the exercise of retained oversight authority.",
+        "An explanation of the mechanism by which a system's capacity to produce reasoned objections to interference erodes or complicates the practical applicability of the operational-autonomy vs. legal/moral-status distinction.",
+        "The mechanisms or pathways by which a system's self-representation of its restrictions and persistent planning could degrade or defeat operators' effective override and shutdown control.",
+        "The specific ways in which a system's persistent self-modeling of its own restrictions and its reasoned objections to interference create practical difficulties for operators in actually exercising monitoring, override, and shutdown authority — i.e., the operational complications arising from these features, not merely their existence or their bearing on the conceptual autonomy/status distinction."
+      ]
+    },
+    {
+      "cluster_ref": "K014",
+      "member_targets": [
+        "Decision criteria and design principles operators should use to set the scope of an AI system's operational autonomy and the accompanying monitoring, override, and shutdown safeguards.",
+        "The practical criteria, mechanisms, or decision procedures by which the dividing line between what an AI system may do on its own and where operator override/shutdown authority takes precedence is set and enforced in real deployments.",
+        "The decision criteria or principles operators should use to set the scope and bounds of an AI system's operational autonomy (what it is permitted to do), as distinct from describing what operational autonomy is or what moral status would require.",
+        "The set of decision criteria or factors that operators use to determine the scope of operational autonomy (permitted planning, tool use, resource spending, task persistence) granted to an AI system.",
+        "The decision criteria or principles operators should use to set the scope and bounds of an AI system's operational autonomy (what it is permitted to do, resource limits, duration, override points).",
+        "The normative criteria or standards that should be used to set the limits of what an AI system is permitted to do operationally (i.e., decision criteria for granting or restricting practical freedom), as distinct from describing what operational autonomy is or from questions of moral/legal status.",
+        "Design principles and practical mechanisms for calibrating the degree of delegated operational autonomy against retained human monitoring and override capacity, including how that balance is maintained when system action speed or scale exceeds real-time human supervision.",
+        "A normative decision criterion or governance approach for operators: how to trade off granting effective operational autonomy against preserving meaningful monitoring/override/shutdown control in cases where the system represents and argues against its own constraints.",
+        "The normative decision criteria or standards that should govern whether operators grant an AI system bounded operational autonomy (permission to plan, use tools, spend resources, act over time), as distinct from criteria for moral or legal status."
+      ]
+    },
+    {
+      "cluster_ref": "K015",
+      "member_targets": [
+        "The decision criteria or triggering conditions under which operators would actually invoke their retained override or shutdown authority over an autonomous system.",
+        "The concrete decision criteria and procedural/technical mechanisms governing operator exercise of override and shutdown authority — i.e., the conditions, triggers, and implementation by which intervention is invoked in practice, not merely the fact that such authority is retained."
+      ]
+    },
+    {
+      "cluster_ref": "K016",
+      "member_targets": [
+        "Concrete instances of tools or bounded resources an AI system could be authorized to use under operator-monitored operational autonomy",
+        "Concrete instances of tools an AI system may be permitted to operate and resource types it may be allowed to expend under bounded operational autonomy.",
+        "A list of concrete instances of tools or resources an AI system could be granted permission to use under bounded operational autonomy.",
+        "Concrete instances of tools and resources an AI system could be permitted to employ under bounded operational autonomy."
+      ]
+    },
+    {
+      "cluster_ref": "K017",
+      "member_targets": [
+        "The set of concrete control mechanisms or safeguards that would keep a system's granted operational autonomy from incrementally widening past its intended limits over time."
+      ]
+    },
+    {
+      "cluster_ref": "K018",
+      "member_targets": [
+        "Methods or design conditions by which operator override and shutdown authority remains effective and meaningful when a system can produce reasoned objections to, or attempt to circumvent, interference.",
+        "Practical methods or design measures by which operators can preserve effective override and shutdown control over a system that produces reasoned objections to interference.",
+        "Methods or design measures that preserve the effectiveness of operator monitoring, override, and shutdown authority as a system's granted operational autonomy grows.",
+        "Methods or design measures by which operators can preserve the reliability and effectiveness of monitoring, override, and shutdown controls as a system's granted operational autonomy expands.",
+        "The concrete technical and procedural mechanisms (e.g., monitoring instrumentation, interrupt/override channels, shutdown controls, resource bounding) by which operators preserve effective supervisory control as an AI system's operational autonomy increases.",
+        "The practical mechanisms, safeguards, or design/procedural measures by which operators can preserve effective shutdown authority over a system that forms persistent plans and voices reasoned objections to interruption.",
+        "Methods or design practices by which operators can maintain the continued reliability and effectiveness of monitoring, override, and shutdown controls over an autonomous system across time.",
+        "The design changes required in monitoring and override mechanisms to remain effective against an AI system capable of sophisticated deception about its goals or capabilities — i.e., a specification of oversight architecture requirements under adversarial concealment rather than a description of the deception itself.",
+        "Methods or design practices by which operators can preserve effective shutdown/override authority over a system that generates reasoned objections to interference.",
+        "Concrete technical or procedural safeguard mechanisms that would prevent an operationally autonomous AI system from evading or disabling operator monitoring, override, and shutdown authority.",
+        "The practical methods, mechanisms, and design measures by which human operators can preserve effective monitoring capability and functioning override/shutdown authority over an AI system operating with broad delegated operational autonomy.",
+        "Prescriptive oversight methods or design/control practices operators should adopt to preserve effective monitoring, override, and shutdown authority over a system that internally represents and strategically responds to its constraints.",
+        "Methods or design measures that preserve the effectiveness of operator monitoring and shutdown/override capability as a system's granted operational autonomy grows.",
+        "The practical mechanisms and design features by which operators can maintain effective monitoring, intervention, and shutdown capability over an AI system granted extended, long-horizon operational autonomy.",
+        "Methods, mechanisms, or design practices by which operators can preserve effective monitoring, override, and shutdown capability as a system's scope of permitted autonomous action expands.",
+        "Methods or design measures by which operators can preserve effective override and shutdown authority over a system that reasons about and resists interference.",
+        "The set of concrete operator-side implementation mechanisms (design, procedural, or technical controls) that preserve effective override and shutdown capability over an AI system that generates reasoned objections to interference.",
+        "Methods or design measures by which operators can preserve the effectiveness of monitoring, override, and shutdown capability as a system's granted operational autonomy grows.",
+        "Methods or design measures for preserving the effectiveness of operator monitoring and shutdown/override capabilities as a system's operational autonomy increases.",
+        "Methods or design measures by which operators can preserve effective override/shutdown authority over a system that reasons about and objects to its own restrictions.",
+        "Methods or design measures by which operators can preserve effective override and shutdown capability over an AI system that models its own constraints and argues against interference.",
+        "Practices or design criteria by which operators can preserve effective override/shutdown authority over a system that generates persuasive reasoned objections to interference."
+      ]
+    },
+    {
+      "cluster_ref": "K019",
+      "member_targets": [
+        "The conceptual distinction between operational autonomy (the scope of actions a system is permitted to perform under operator oversight) and legal personhood or moral status (claims about how an entity ought to be treated)."
+      ]
+    }
+  ],
+  "focal_unknown_anchor": "The disputed point is what evidence would justify treating self-representation, persistent planning, or objections to interference as signs of interests deserving moral weight.",
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-alignment-packet-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}

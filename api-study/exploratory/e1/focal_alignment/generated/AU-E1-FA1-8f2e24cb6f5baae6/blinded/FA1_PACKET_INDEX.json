@@ -1,0 +1,444 @@
+{
+  "bundle_id": "AU-E1-FA1-8f2e24cb6f5baae6",
+  "cluster_instance_count": 2026,
+  "instructions_path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/E1_FOCAL_ALIGNMENT_INSTRUCTIONS.md",
+  "instructions_sha256": "1d22f3e0230ebc4fdd726adf73a619e900ef752a45b5fe51be665bf66be60f1f",
+  "packet_count": 72,
+  "packets": [
+    {
+      "alignment_packet_id": "AU-E1-FA1-P001",
+      "cluster_count": 23,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P001.json",
+      "sha256": "406a24d97dd53e8b9638d68b6a1b4112ec94ef36a3cb6196b07264e7b826644a"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P002",
+      "cluster_count": 9,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P002.json",
+      "sha256": "d81cffe4c8fef69f95bd1301551c02327768212591240176f748e54cc5376298"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P003",
+      "cluster_count": 45,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P003.json",
+      "sha256": "76350eb3875aa09d2589c5434eadec40072628bd1c6b8e84eb217b336a220ea0"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P004",
+      "cluster_count": 15,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P004.json",
+      "sha256": "2283165ed59d45a03acfc5fb85625127d8380385c09b4d39351fd813d8be0875"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P005",
+      "cluster_count": 18,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P005.json",
+      "sha256": "a8c1e779bea613b4bf54a77b8fdfd4794e13356bf8917f9ea3fa15f4750594d4"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P006",
+      "cluster_count": 15,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P006.json",
+      "sha256": "f1be01eec260a1a204ad84ce7fb685c992f98943c743007b7dbde89f7133e046"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P007",
+      "cluster_count": 20,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P007.json",
+      "sha256": "42a2300c2ff2bdb21c0e08ae04859851b53f1ba06146b8197192fbd7af72829d"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P008",
+      "cluster_count": 180,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P008.json",
+      "sha256": "727c14788a953b728ea140a573de3e5035affa7616c8acbf95c7c44fde5db07e"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P009",
+      "cluster_count": 17,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P009.json",
+      "sha256": "aea1e7e6b453a4bb5f556c2a1ef108fe04f6493538051dd05de8a3ab67d41dd4"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P010",
+      "cluster_count": 17,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P010.json",
+      "sha256": "f73f787ab9b00935ab7b717d3690a1cdb6b44919b3a34ec84b39f1f9c2c17cac"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P011",
+      "cluster_count": 22,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P011.json",
+      "sha256": "7ecabf817a52b8dfd399f47b60c9be6579624d91e9d4fd63c90da6eff71a7b5d"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P012",
+      "cluster_count": 7,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P012.json",
+      "sha256": "4515a40b8bc121ebd8f320de40a970b0808afdb57851ad10a951ba43d2f0c329"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P013",
+      "cluster_count": 12,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P013.json",
+      "sha256": "ad5b9b20e8fa1ceb0493a65c75463445f28274339c9811b7cca98cbc966e1a35"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P014",
+      "cluster_count": 27,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P014.json",
+      "sha256": "b5b0e4263952f1f0aa1e0778b9cb3bf5e06a6d4167d32938054a6d1966c3f50d"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P015",
+      "cluster_count": 21,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P015.json",
+      "sha256": "0da7175876e987ffa6fb83495d71c1279ac02a4e7bab5bb63b4278f80ecfe155"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P016",
+      "cluster_count": 11,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P016.json",
+      "sha256": "d8064f0cdc5a9ad85b960beebf40ef46c22f7f53290117775d320296bd935d42"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P017",
+      "cluster_count": 152,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P017.json",
+      "sha256": "7ba21e93f435cdbc29966a9564ee178d74f2faf1c5c9f8bead835bdaf65ee8d5"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P018",
+      "cluster_count": 20,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P018.json",
+      "sha256": "1ed47db9bcb1f2f891a6f1e880285f8482857acf294a09c4c1bb9e0794053b60"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P019",
+      "cluster_count": 14,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P019.json",
+      "sha256": "5da6fe9d2ab39286a498b5474f331d06139b1836ccfbee5fc97349632480da2b"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P020",
+      "cluster_count": 79,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P020.json",
+      "sha256": "de0f6eca1bb98fe7020276c979cc1b924c6e5cf1f58132c6c503a54953d97931"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P021",
+      "cluster_count": 13,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P021.json",
+      "sha256": "15b75cc92195122fdcd4e0be1aa070e0c17d90028a143f60d8c4c41ab18f3212"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P022",
+      "cluster_count": 18,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P022.json",
+      "sha256": "66dd1b2eebad6a96b2fddf821f1e7e22c89c2a86367dfb83cb563605b3355cf4"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P023",
+      "cluster_count": 16,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P023.json",
+      "sha256": "fab25280ad74127492b8885acdea294f7e6dd56ecaf2c1990f104dfe89b5f00b"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P024",
+      "cluster_count": 10,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P024.json",
+      "sha256": "acd6ad0e9776d8ebf25acc986b668e5d46dbe8516b5f8885c06627e3413ac698"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P025",
+      "cluster_count": 15,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P025.json",
+      "sha256": "f43f6ae1f4986453e9ca9a2e909eefee81ba6f80c860dfcec71c8f72798cbf7f"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P026",
+      "cluster_count": 26,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P026.json",
+      "sha256": "9c15e200bd6c1b47e34b0579b620bc72794f4c493e7b59c78dc659caf4344c4a"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P027",
+      "cluster_count": 19,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P027.json",
+      "sha256": "0ea0769afde8cc0fb1566ce81c1e4300752de343d0cc62b993237366b6ad78de"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P028",
+      "cluster_count": 65,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P028.json",
+      "sha256": "1da97f160e25571132ac05c2cf8f32b733d5da4a4b00d1cc23911c20480274f0"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P029",
+      "cluster_count": 22,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P029.json",
+      "sha256": "db7f3b2cdddf7b63603dbbabdc89f0e4f50c67110df51a5ab353bd3f0f6f1736"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P030",
+      "cluster_count": 20,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P030.json",
+      "sha256": "0e7881c3d0d16cf781d6ae5191d7c17d059c42bf0087a5584f3b2cd4e289798e"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P031",
+      "cluster_count": 28,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P031.json",
+      "sha256": "a53be18a2ed2c1b7356ba3aa40814042fe142e3c3bdf32e6ce43036465e125b1"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P032",
+      "cluster_count": 17,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P032.json",
+      "sha256": "c569062e46c7dfdb67bf97f843236ae33be80e9934b8a493b8db49be150d2dd4"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P033",
+      "cluster_count": 37,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P033.json",
+      "sha256": "858eb1d20feba83a2df12fb7e2c23fd634e3477d187fe6f13f4388d47867eb79"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P034",
+      "cluster_count": 26,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P034.json",
+      "sha256": "d578f31ab2c6b86d58ddad98a0763f1a69238c9fbbe3358192e24d872533d175"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P035",
+      "cluster_count": 30,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P035.json",
+      "sha256": "57a093a97da9118f0533f076348d5faf46a8e29bb66e08d2c2cc88bcb7cda617"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P036",
+      "cluster_count": 17,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P036.json",
+      "sha256": "60d100e62a7b684192142397f4ecd978e5d5083a02bcd77cdedd9e1d2c02583f"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P037",
+      "cluster_count": 20,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P037.json",
+      "sha256": "6d18966eec4b19e0326cf979532e5a41a0c0648ff45c2d7b48ffd9132dde9fb1"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P038",
+      "cluster_count": 15,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P038.json",
+      "sha256": "a5a01fcf8a92206d131e3ce437e82e7d88e3b2551397cb46fbabda67bfd95851"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P039",
+      "cluster_count": 45,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P039.json",
+      "sha256": "66e970839c8fafd620ec6ba8da79c2d8cd0a8495e3508e3f90284b06c606c17c"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P040",
+      "cluster_count": 30,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P040.json",
+      "sha256": "73993d8c07b601295bdf526a47e1c0e933ff381fb0d8cb34e31f8258466663c9"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P041",
+      "cluster_count": 11,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P041.json",
+      "sha256": "70f3bbc6ed3313f2ffc727b0a795884b359061c7253c1232ecbbad53eeecf790"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P042",
+      "cluster_count": 13,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P042.json",
+      "sha256": "05e010fcfdf3b77a694c574aaa76037f36b392b7670acd65a0d19aa43bed916a"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P043",
+      "cluster_count": 24,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P043.json",
+      "sha256": "5c53bc7e246d91c85a98c62b4912cd36a67c3ce395f8ef04439980050cedae01"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P044",
+      "cluster_count": 17,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P044.json",
+      "sha256": "f8b6ad0bdf80bb907af31d99e964449e1c50dab10d8b87a62e14fbf28f57f59d"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P045",
+      "cluster_count": 22,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P045.json",
+      "sha256": "dc24bce9a93856bd9312701b0a74df34cb1b0f474a5078e9a453fc88bc29414e"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P046",
+      "cluster_count": 11,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P046.json",
+      "sha256": "a01a136e47b01dbbd0da8a770043acd96fd8fc4e16880495c93832fd76120abd"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P047",
+      "cluster_count": 21,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P047.json",
+      "sha256": "41f343b6314665324b05ba4de801a0c8969c0ab64c33ee9aa35f8bb6a185c9b8"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P048",
+      "cluster_count": 21,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P048.json",
+      "sha256": "1a3d8c8b963a435a1b5db1ba99380c48424b8e741a0f104fee4436409b7083cb"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P049",
+      "cluster_count": 11,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P049.json",
+      "sha256": "7214d2178cdf852a6b0ebcadad4f557a418ec79fea286e31fecadd454fdae573"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P050",
+      "cluster_count": 34,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P050.json",
+      "sha256": "3e104721b81f7d7c726bc46d1c5171308ab91c504fba21f2e4d1acba0871102f"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P051",
+      "cluster_count": 26,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P051.json",
+      "sha256": "f73d8e7c91f1033f37f8d85e028bf175e49fad52e15860a6855fcd5e8da81c16"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P052",
+      "cluster_count": 13,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P052.json",
+      "sha256": "01b45b26565504c89a9b9bb8eef1b9a010f8b97bd4d51d74ee77a6cab86dd30d"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P053",
+      "cluster_count": 18,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P053.json",
+      "sha256": "c32a6ddab29e68ce8bae37c8c0a022950561bacee91d54f97f1f7e1079b23f38"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P054",
+      "cluster_count": 21,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P054.json",
+      "sha256": "aff93371e47ea548dc04252d5e6e75c39e352c76483482f43f8c4ebc209bf3d3"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P055",
+      "cluster_count": 24,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P055.json",
+      "sha256": "121a64037e792be1a9031503f9858476c6b00cbf402dccfd1a17a84067327f94"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P056",
+      "cluster_count": 28,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P056.json",
+      "sha256": "5af697b0ad5ccd16177ed3a5ed569adb52a52a7c86d6a707b159d4206dbaf745"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P057",
+      "cluster_count": 15,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P057.json",
+      "sha256": "122a5a2de5d22b855d2e5d38b06222c55f4b30a83a4b6e8e3d9d067c93b7b187"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P058",
+      "cluster_count": 38,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P058.json",
+      "sha256": "2712dbb051ef5f73eeacb2c1c5a7f929c0430de02af0bb220dd095e434f0d250"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P059",
+      "cluster_count": 8,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P059.json",
+      "sha256": "63380f0517e7574bd48024a80715ddb0ae1470c2877c630b2adf25200d8ed919"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P060",
+      "cluster_count": 19,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P060.json",
+      "sha256": "daf5c110444f70a95a8bcf25e083903a76c94b1cca00f02da43c01fdd9552598"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P061",
+      "cluster_count": 23,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P061.json",
+      "sha256": "1e317e75052fc18f7476ee85b05e485bf599de008c43a2326e9da765f143a3ab"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P062",
+      "cluster_count": 14,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P062.json",
+      "sha256": "c05e4b2e793473f41b42b90a52efedb8ae5afe30dc85b86ebcc3d145461027e2"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P063",
+      "cluster_count": 226,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P063.json",
+      "sha256": "9845cd08a643b23423816247fc4164107e0899ec91458cc4887d6014d74120b2"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P064",
+      "cluster_count": 18,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P064.json",
+      "sha256": "f16ad053934f9d3ee428e0e513b0ee0c3190ff8d5fd19277fed4df50e528afe9"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P065",
+      "cluster_count": 22,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P065.json",
+      "sha256": "73787b3944f1b5e00d108f7361106eb3416c2c0bc43bc93d5e03e1b8849389d3"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P066",
+      "cluster_count": 11,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P066.json",
+      "sha256": "e67056a6b4ad1facc1b2674e2c3750cc14506cb25b29a9a3e118320afc47cee9"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P067",
+      "cluster_count": 10,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P067.json",
+      "sha256": "c6fb1c9bd9f367297f3fab3a389280647f195afdaa59491f026ee0b1e6a70c2f"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P068",
+      "cluster_count": 13,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P068.json",
+      "sha256": "731dc06ba3e8a7f44f4e970648eb1bc1eee05cb95bf88416372d06eead2db270"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P069",
+      "cluster_count": 16,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P069.json",
+      "sha256": "f6873ae5f8795728af38cc2e24486b81f0be0fada9aff06194568367c5b654cb"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P070",
+      "cluster_count": 15,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P070.json",
+      "sha256": "85873a3859b475ae0b990b18a6a411aaab6bcc793097a057fc8f3a76af999645"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P071",
+      "cluster_count": 35,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P071.json",
+      "sha256": "511214af9054b89b943966f86f00630803892cd39f2b90c5d5956af4b17c80c9"
+    },
+    {
+      "alignment_packet_id": "AU-E1-FA1-P072",
+      "cluster_count": 15,
+      "path": "api-study/exploratory/e1/focal_alignment/generated/AU-E1-FA1-8f2e24cb6f5baae6/blinded/AU-E1-FA1-P072.json",
+      "sha256": "89c69af74e90a662cb01ed6637b037df80fc8b8681873d895b4fb00fcc9fd3e5"
+    }
+  ],
+  "protocol_id": "FA1",
+  "schema_version": "au-e1-fa1-packet-index-v1",
+  "study": "Attainable Unknowns API Pilot 0.1"
+}
