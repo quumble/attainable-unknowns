@@ -3,13 +3,19 @@ data/raw/
 data/exports/
 
 # API study raw outputs
-api-study/data/raw/
+# New/unreviewed API output is ignored by default. Historical frozen files that
+# were deliberately force-added remain tracked by Git.
+api-study/data/raw/*
+!api-study/data/raw/.gitattributes
+!api-study/data/raw/README.md
 
 # Credentials and secrets
 .env
 .env.*
 *.key
 *.pem
+*.p12
+*.pfx
 
 # Local analysis / build artifacts
 __pycache__/

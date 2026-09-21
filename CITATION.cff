@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this repository or its study materials, please cite the Attainable Unknowns project and the associated paper when available."
+title: "Attainable Unknowns: API Pilot 0.1"
+type: dataset
+authors:
+  - family-names: Duffy
+    given-names: Robert Leo
+    name-suffix: III
+    alias: Bo Chesterton
+repository-code: "https://github.com/quumble/attainable-unknowns"
+url: "https://github.com/quumble/attainable-unknowns"
+version: "0.1.0"
+date-released: 2026-09-21
+abstract: >-
+  Reproducibility repository for Attainable Unknowns API Pilot 0.1, a four-model
+  study of question emission under manipulated gap salience, with preregistered
+  primary analysis, blinded specificity coding, and exploratory semantic-target
+  analyses.
+keywords:
+  - curiosity
+  - information seeking
+  - language models
+  - gap salience
+  - preregistration
+  - semantic analysis

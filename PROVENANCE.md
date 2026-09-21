@@ -86,3 +86,15 @@ The design was revised before outcome inspection.
 Primary measurement is now explicitly question emission among successful format-valid responses. Specificity is a separate preregistered semantic outcome. H1 now requires both adjacent inequalities in an intersection-union test. The passage triplets were rewritten and length-audited, with a maximum five-word within-topic spread and more varied explicit-gap surface realizations. The preregistration now states that Pilot 0.1 manipulates gap salience rather than attainability.
 
 The runner was revised to remove the 500-character rule, hash prompts and the runner, target Git provenance explicitly to the repository, preserve aborted-run manifest status, reuse one provider client per model run, and keep Sonnet 5 thinking explicitly disabled. A strict confirmatory analysis candidate was written and tested only on synthetic data.
+
+## Public-release preparation
+
+**Date:** 2026-09-21
+
+After completion and freezing of the E1/E1B descriptive analysis, the repository was reviewed for public release before preparation of the paper.
+
+The release review distinguishes study-internal blinding material from authentication secrets. Files historically named `PRIVATE_KEY`, `UNBLINDING_KEY`, or similar are mapping tables that were withheld during blinded coding or partitioning; after the relevant signed checkpoints were frozen, retaining those mappings improves reproducibility and does not retroactively alter the blind execution.
+
+The project also preserves exact provider response envelopes and run manifests. These may contain provider-generated response/message identifiers, technical service metadata, and local filesystem paths. They are retained as historical provenance rather than silently rewritten after analysis.
+
+Public visibility is a dissemination change, not an analytical amendment. It does not alter preregistered hypotheses, frozen outcomes, coding decisions, exploratory status, or the signed commit chronology.

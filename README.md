@@ -64,10 +64,22 @@ The current stage is interpretation, robustness review, and deciding which obser
 
 See [api-study/README.md](api-study/README.md), [api-study/DESIGN.md](api-study/DESIGN.md), the frozen and post-freeze records under [prereg/](prereg/), and the E1 materials under [api-study/exploratory/](api-study/exploratory/).
 
+## Public research record
+
+This repository is intended to serve as the public reproducibility record for API Pilot 0.1.
+
+It preserves signed checkpoints, raw accepted API records, blinded coding/partition packets, study-internal unblinding maps, intermediate provenance artifacts, analysis code, and frozen outputs. Files named `PRIVATE_KEY`, `UNBLINDING_KEY`, or similar are **blinding maps rather than authentication secrets**; they were kept from coders during the relevant blind stage and are retained after completion so that the analysis can be reconstructed.
+
+Exact raw API envelopes are also preserved. They may contain provider-generated response/message identifiers, technical service metadata, and historical local filesystem paths, but API credentials were supplied through environment variables rather than intentionally committed to the repository.
+
+No paid human-participant data were collected for this version of the project.
+
+See [PUBLIC_RELEASE.md](PUBLIC_RELEASE.md) for the release/reproducibility note, [CITATION.cff](CITATION.cff) for citation metadata, and [LICENSE.md](LICENSE.md) for licensing scope.
+
 ## Earlier human pilot
 
 The browser pilot remains under [interface/](interface/) with its earlier stimulus bank under [stimuli/](stimuli/).
 
 ## Governance note
 
-This repository is a research workspace within Bo Chesterton. It is not a constitutional instrument, appointment, mandate, or delegation. Its private state is working status, not public release.
+This repository is a research workspace within Bo Chesterton. It is not a constitutional instrument, appointment, mandate, or delegation. Repository visibility provides access to research materials and provenance; it does not change the evidentiary status of confirmatory, secondary, or exploratory analyses.
