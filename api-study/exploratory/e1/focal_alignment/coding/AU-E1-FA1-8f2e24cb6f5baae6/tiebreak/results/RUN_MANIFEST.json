@@ -1,0 +1,20 @@
+{
+  "attempts_sha256": "b71bb75b46aea4ff3436cf8c11869e31a3db4b056984568d73f1fcbf3263552d",
+  "bundle_id": "AU-E1-FA1-8f2e24cb6f5baae6",
+  "completed_tasks": 68,
+  "exhausted_tasks": [],
+  "model_costs_usd": {
+    "opus": 0.0,
+    "sol": 0.0,
+    "sonnet": 0.493012,
+    "terra": 0.219566
+  },
+  "primary_freeze_commit": "fe469debc9d8b5c36b1949114eff6e9e48dfa7dd",
+  "remaining_tasks": 0,
+  "schema_version": "au-e1-fa1-tiebreak-run-v1",
+  "status": "tiebreak_complete",
+  "task_count": 68,
+  "tiebreak_codes_sha256": "33dad72b8be81521a7c629d269345fbd8d859752f447d1f44d209073f3bc2bad",
+  "tiebreak_packet_freeze_commit": "95eed4f72f9ac50315a6f12d220f626b0e1a3424",
+  "updated_at_utc": "2026-09-21T20:31:52.980686+00:00"
+}
