@@ -1,0 +1,42 @@
+{
+  "bundle_id": "AU-E1-FA1-8f2e24cb6f5baae6",
+  "cluster_instances": 2026,
+  "primary_agreement_counts_by_code": {
+    "A": 446,
+    "F": 426,
+    "I": 86,
+    "P": 369
+  },
+  "primary_disagreement_count": 699,
+  "primary_disagreement_rate": 0.34501480750246794,
+  "primary_exact_agreement_count": 1327,
+  "primary_exact_agreement_rate": 0.6549851924975321,
+  "schema_version": "au-e1-fa1-agreement-summary-v1",
+  "sol_by_opus_confusion": {
+    "A": {
+      "A": 446,
+      "F": 72,
+      "I": 8,
+      "P": 202
+    },
+    "F": {
+      "A": 110,
+      "F": 426,
+      "I": 94,
+      "P": 16
+    },
+    "I": {
+      "A": 5,
+      "F": 19,
+      "I": 86,
+      "P": 4
+    },
+    "P": {
+      "A": 145,
+      "F": 21,
+      "I": 3,
+      "P": 369
+    }
+  },
+  "tiebreak_clusters": 699
+}

@@ -1,0 +1,12 @@
+{
+  "agreement_summary_sha256": "58a62645e8b1fb56662612c6eb4977c9e37b41abf83522403c56c3d0958adbd9",
+  "bundle_id": "AU-E1-FA1-8f2e24cb6f5baae6",
+  "final_alignment_rows": 2026,
+  "final_alignment_sha256": "cb4ef2f187c936fafd614c5b997a621ecaea286838812ffaea28a2963b0d12cc",
+  "finalized_at_utc": "2026-09-21T20:33:41.900884+00:00",
+  "j1_metadata_joined_during_alignment": false,
+  "packet_bundle_commit": "3a5239f2e5e33bc5d19201fcba21a3e93355c900",
+  "primary_freeze_commit": "fe469debc9d8b5c36b1949114eff6e9e48dfa7dd",
+  "schema_version": "au-e1-fa1-finalization-record-v1",
+  "tiebreak_packet_freeze_commit": "95eed4f72f9ac50315a6f12d220f626b0e1a3424"
+}
