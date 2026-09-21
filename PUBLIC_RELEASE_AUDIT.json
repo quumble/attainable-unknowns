@@ -1,0 +1,22 @@
+{
+  "binary_blobs_skipped": 1,
+  "commit_email_address_count": 2,
+  "generated_at_utc": "2026-09-21T22:02:41.662632+00:00",
+  "head": "f0b601d47bb952abedc85bb5c8e6b306349107f4",
+  "high_confidence_credential_findings": 0,
+  "metadata_warning_blob_counts": {
+    "openai_message_id": 22,
+    "openai_response_id": 14,
+    "windows_absolute_path": 7
+  },
+  "non_main_branch_refs": [],
+  "note": "Secret values and email addresses are intentionally omitted from this report. Console output inventories commit emails for explicit public-release review.",
+  "oversize_blobs_skipped": 0,
+  "reachable_blobs": 400,
+  "refs_inventoried": 3,
+  "result": "pass",
+  "schema_version": "au-public-release-audit-v1",
+  "suspicious_credential_like_filenames": 1,
+  "text_blobs_scanned": 399,
+  "text_bytes_scanned": 95557839
+}
